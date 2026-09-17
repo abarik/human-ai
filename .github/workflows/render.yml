@@ -1,9 +1,5 @@
 name: Render and trigger server deploy
 
-runs:
-  using: 'node24'
-  main: 'main.js'
-
 on:
   push:
     branches:
