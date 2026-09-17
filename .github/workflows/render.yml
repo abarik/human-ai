@@ -1,5 +1,9 @@
 name: Render and trigger server deploy
 
+runs:
+  using: 'node24'
+  main: 'main.js'
+
 on:
   push:
     branches:
@@ -10,12 +14,18 @@ jobs:
   render:
     runs-on: ubuntu-latest
 
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
 
       - name: Render Quarto website
         run: |
