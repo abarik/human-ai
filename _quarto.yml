@@ -23,46 +23,27 @@ website:
   title: "Ember--MI"
   bread-crumbs: true
   back-to-top-navigation: true
-  navbar:
-    background: primary
+  sidebar:
+    background: light
     search: true
-    left:
+    contents:
       - text: "Kezdőlap"
         href: index.qmd
       - text: "Kutatócsoportról"
         href: kutatocsoportrol.qmd
       - text: "MI eszközök"
         href: mi_eszkozok_iras.qmd
+      - section: "MI hírek"
+        contents: 
+          - text: "Napi MI hírek"
+            href: lp_mi_hirek_napi.qmd
+          - text: "Heti MI-Pszicho hírek"
+            href: lp_mi_hirek_heti_pszicho.qmd
         
-        
-      - sidebar:mi_hirek
 
   page-footer:
     background: light
     left: "Copyright 2026. Ember--MI Kutatócsoport, DE Pszichológiai Intézet" 
-    
-
-  sidebar:
-    - id: mi_hirek
-      title: "MI hírek"
-      style: "docked"
-      background: light
-      collapse-level: 2
-      contents: 
-      - text: "Napi MI hirek"
-        href: lp_mi_hirek_napi.qmd
-      - text: "Heti MI hirek pszichológiai vonatkozással"
-        href: lp_mi_hirek_heti_pszicho.qmd
-        
-
-        
-    - id: kutatocsoportrol
-      title: "Kutatócsoportról"
-      style: "docked"
-      contents:
-        - text: "Kutatócsoportról"
-          href: kutatocsoportrol.qmd
-        
 
 format:
   html:
