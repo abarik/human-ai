@@ -1,0 +1,83 @@
+name: Render and trigger server deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Install system dependencies for R packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libcurl4-openssl-dev \
+            libssl-dev \
+            libxml2-dev \
+            libfontconfig1-dev \
+            libharfbuzz-dev \
+            libfribidi-dev \
+            libfreetype6-dev \
+            libpng-dev \
+            libtiff5-dev \
+            libjpeg-dev \
+            build-essential
+
+      - name: Install babelquarto and dependencies
+        run: |
+          Rscript -e 'options(repos = c(
+            ropensci = "https://ropensci.r-universe.dev",
+            CRAN = Sys.getenv("RSPM")
+          ));
+          install.packages(c(
+            "curl",
+            "fs",
+            "sass",
+            "bslib",
+            "httr",
+            "rmarkdown",
+            "whoami",
+            "quarto"
+          ));
+          install.packages("babelquarto")'
+
+      - name: Check babelquarto installation
+        run: |
+          Rscript -e 'packageVersion("babelquarto")'
+
+      - name: Render babelquarto website
+        env:
+          BABELQUARTO_CI_URL: "https://psycho.unideb.hu/humain-ai/"
+        run: |
+          Rscript -e 'babelquarto::render_website(project_path = ".")'
+
+      - name: Upload rendered site as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: humain-ai-site
+          path: _site/
+          retention-days: 7
+
+      - name: Trigger deploy on psycho.unideb.hu
+        run: |
+          curl -fsS -X POST "https://psycho.unideb.hu/deploy-humain-ai/deploy.php" \
+            -H "Content-Type: application/json" \
+            -H "X-Deploy-Token: ${{ secrets.PSYCHO_DEPLOY_WEBHOOK_SECRET }}" \
+            -d '{"run_id": "${{ github.run_id }}"}'
+            
+            
