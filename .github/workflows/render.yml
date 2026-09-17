@@ -56,7 +56,7 @@ jobs:
 
       - name: Trigger deploy on psycho.unideb.hu
         run: |
-          curl -fsS -X POST "https://psycho.unideb.hu/deploy-human-ai/deploy.php" \
+          curl -sS -X POST "https://psycho.unideb.hu/deploy-human-ai/deploy.php" \
             -H "Content-Type: application/json" \
             -H "X-Deploy-Token: ${{ secrets.PSYCHO_DEPLOY_WEBHOOK_SECRET }}" \
             -d '{"run_id": "${{ github.run_id }}"}'
