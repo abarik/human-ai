@@ -1,0 +1,71 @@
+---
+title: "Ember–MI Kapcsolatok Kutatócsoport"
+---
+
+ 
+A kutatócsoport hivatalos, teljes megnevezése: **Ember–Mesterséges Intelligencia Kapcsolatok Kutatócsoport**
+
+A kutatócsoport fő célkitűzése, hogy pszichológiai megközelítésből vizsgálja a mesterséges
+intelligencia (MI) – különösen a generatív MI és nagy nyelvi modellek (LLM-ek) – gyors
+terjedésének egyéni és társas következményeit. Fókuszunkban a különböző tartalomgeneráló
+rendszerekkel való mindennapi együttműködés áll, hogy hogyan befolyásolja e technológia a
+gondolkodást, a döntéshozási folyamatokat, a tanulást és tanítást, a munkavégzést, a társas
+viszonyokat, a pszichológiai diagnosztikai módszereket és a pszichoterápiát. Célunk, hogy
+feltárjuk és megértsük a generatív MI pszichológiai vonatkozásait, az emberi kogníció, érzelmek
+és viselkedés MI-rendszerekkel való interakciójában bekövetkező változásokat, valamint ezek
+kutatásbeli és gyakorlati alkalmazásait.
+
+# Fő kutatási irányok és tevékenységi körök:
+
+- Társas kapcsolatok és az MI antropomorfizáció (chatbotok, mint társas és segítő partnerek,
+MI rendszerek érzékelése, értelmezése, hozzájuk való viszonyulás, antropomorfizáció
+mechanizmusai, társas támogatás észlelése, terápiás chatbotok, segítő szakmák
+irányelveinek kérdésköre)
+- Bizalom, meggyőzés és információs környezet (technológia elfogadása és ezzel
+kapcsolatos attitűdök, kognitív és érzelmi hatások empirikus vizsgálata,
+információfeldolgozás, dezinformációval szembeni pszichológiai védőfaktorok
+feltérképezése, hitelességészlelés, MI által generált tartalmak forráskritikai elemzése,
+hallucinációk kezelése)
+- Generatív MI az oktatásban, kutatásban és a készségfejlesztésben (személyre szabott
+tanulástámogatás, tanulmányi integritás, MI-műveltség, kritikus gondolkodás és tanulói
+stratégiák fejlesztése, oktatásban való alkalmazási lehetőségek és hatásvizsgálatuk, kutatási
+asszisztensként való alkalmazás)
+- Szervezeti és munkahelyi alkalmazás (generatív MI mint munkatárs, felelősségérzet,
+kontrollélmény, döntéstámogatás, technostressz)
+- Etika és torzítások, sérülékeny felhasználói csoportok (etikai dilemmák, torzítások a
+generatív rendszerekben, transzparencia, függőség jellegű használati mintázatok, vizsgálatok specifikus célcsoportokon – életkor, digitális kompetencia, pszichológiai
+jellemzők [pl. nárcisztikus személyiségzavarral élők], MI-alapú fóbia és irracionális
+félelmek)
+- Diagnosztikai és pszichológiai mérés, értékelés generatív MI-vel támogatva (mentális
+egészségtámogatás, mérőeszköz elemzés, kvalitatív adatelemzés, mintázatfelismerés)
+
+# Módszertani megközelítés:
+
+A kutatócsoport multidiszciplináris megközelítésben dolgozik: kognitív- és szociálpszichológiai,
+klinikai pszichológiai, pedagógiai, valamint társadalomtudományi elméleti keretekben. Kevert
+kutatási módszertanunkban a pszichológiai kísérletektől a kérdőíves, longitudinális és kvalitatív
+eljárásokon át a számítógépes tartalom- és szövegelemzésig terjedő módszerek is megjelennek.
+Kiemelt célunk új mérőeszközök fejlesztése, adaptálása és validálása, valamint intervenciók (pl.
+rövid tréningek, oktatási modulok) hatásvizsgálata – a kutatási eredmények gyors, gyakorlati
+hasznosíthatóságával.
+
+# Kutatócsoport vezetői:
+
+- Dr. Abari Kálmán – egyetemi adjunktus
+- Hujber-Mitru Szilvia – egyetemi tanársegéd
+
+# Kutatócsoport tagjai:
+
+- Dr. Polonyi Tünde Éva – egyetemi docens
+- Dr. Szemán-Nagy Anita – egyetemi docens
+- Kegyes Lilla – egyetemi tanársegéd
+- Havan Viktor – pszichológia MA hallgató
+- Kiss Kevin Dominik – pszichológia MA hallgató
+- Lengyel Panna – pszichológia MA hallgató
+- Lengyel Letícia – pszichológia BA hallgató
+- Rishona Koshy – pszichológia BA hallgató
+
+# Kutatócsoport elérhetősége:
+
+- hujber-mitru.szilvia@arts.unideb.hu
+

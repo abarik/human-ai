@@ -1,0 +1,33 @@
+/*-- scss:defaults --*/
+
+$body-bg: #1e2024;
+$body-color: #d8dadd;
+
+$link-color: #8eb8dc;
+$link-hover-color: #b5d2ea;
+
+$navbar-bg: #25282d;
+$navbar-fg: #e8e9eb;
+$navbar-hl: #ffffff;
+
+$card-bg: #25282d;
+$border-color: #3b3f45;
+
+$code-block-bg: #181a1d;
+$code-bg: #2a2d32;
+$code-color: #d8dadd;
+
+$input-bg: #25282d;
+$popover-bg: #25282d;
+
+/*-- scss:rules --*/
+
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-color: #d8dadd;
+  --bs-table-border-color: #3b3f45;
+}
+
+hr {
+  border-color: #3b3f45;
+}

@@ -1,0 +1,75 @@
+project:
+  type: website
+
+lang: hu
+language:
+  toc-title-website: "Ezen az oldalon"
+  title-block-author-single: "SZERZŐ"
+  title-block-author-plural: "SZERZŐK"
+  title-block-published: "KÖZZÉTÉVE"
+  listing-page-order-by: "Rendezés"
+  listing-page-order-by-default: "Alapértelmezett"
+  listing-page-order-by-date-asc: "Legrégebbi elöl"
+  listing-page-order-by-date-desc: "Legújabb elöl"
+  listing-page-filter: "Szűrés"
+  listing-page-field-date: "Dátum"
+  listing-page-field-title: "Cím"
+  listing-page-field-author: "Szerző"
+  back-to-top: "Vissza az oldal tetejére"
+
+output-dir: _site
+
+website:
+  title: "Ember--MI"
+  bread-crumbs: true
+  back-to-top-navigation: true
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Kezdőlap"
+        href: index.qmd
+      - text: "Kutatócsoportról"
+        href: kutatocsoportrol.qmd
+      - text: "MI eszközök"
+        href: mi_eszkozok_iras.qmd
+        
+        
+      - sidebar:mi_hirek
+
+  page-footer:
+    background: light
+    left: "Copyright 2026. Ember--MI Kutatócsoport, DE Pszichológiai Intézet" 
+    
+
+  sidebar:
+    - id: mi_hirek
+      title: "MI hírek"
+      style: "docked"
+      background: light
+      collapse-level: 2
+      contents: 
+      - text: "Napi MI hirek"
+        href: lp_mi_hirek_napi.qmd
+      - text: "Heti MI hirek pszichológiai vonatkozással"
+        href: lp_mi_hirek_heti_pszicho.qmd
+        
+
+        
+    - id: kutatocsoportrol
+      title: "Kutatócsoportról"
+      style: "docked"
+      contents:
+        - text: "Kutatócsoportról"
+          href: kutatocsoportrol.qmd
+        
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: [cosmo, theme-dark.scss]
+    respect-user-color-scheme: true
+    css: styles.css
+    toc: true
+                

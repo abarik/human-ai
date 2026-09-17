@@ -1,0 +1,75 @@
+---
+title: "MI és pszichológia – 2026. szeptember 9–15."
+author: "OpenAI - ChatGpt"
+date: "2026-09-16"
+---
+
+
+**Időszak:** 2026. szeptember 9–15. (az elkészítést megelőző hét teljes napjai)  
+**Készült:** 2026. szeptember 16.
+
+A válogatás a mesterséges intelligencia és a pszichológia találkozási pontjairól szóló, az adott héten megjelent kutatásokat és tudományos híreket foglalja össze. A megjelenés dátuma nem feltétlenül az adatfelvétel vagy az alapul szolgáló tanulmány dátuma. A szemle nem teljes körű szakirodalmi áttekintés.
+
+## Nemzetközi hírek
+
+### 1. A leendő terapeuták MI-hez való viszonya többféle mintázatot követ
+
+**Megjelent:** szeptember 14.  
+**Forrás típusa:** lektorált, feltáró empirikus tanulmány; korábbi kérdőíves adatok másodelemzése.
+
+Merve Armagan-Bogatekin a *Frontiers in Psychology* folyóiratban 286 pszichológushallgató és pszichoterápiás képzésben részt vevő személy válaszait elemezte. A vizsgálat az MI-vel kapcsolatos attitűdöket, elfogadást, felkészültséget és szorongást vizsgálta, pszichoterápiás visszajelző és kezeléstámogató eszközök kontextusában.
+
+A külön elemzett területeken három–négy válaszmintázat rajzolódott ki. A mérsékelt és vegyes viszonyulás mellett megjelent a szkepticizmus, a tanulással vagy munkával kapcsolatos szorongás és az MI kockázatai miatti aggodalom is. Ez arra utal, hogy az MI-oktatásban érdemes eltérő felkészültségekkel és félelmekkel számolni.
+
+**Korlát:** az adatok 2022–2023-ból származnak; a kutatás nem a jelenlegi modellek használatának hatását mérte. A területeket külön modellezték, ezért az eredményekből nem állíthatók össze egységes személyiségtípusok. A keresztmetszeti, feltáró elemzés hipotéziseket alapoz meg, oksági következtetéseket nem.
+
+**Forrás:** [Heterogeneity in AI attitudes, anxiety, and acceptance among psychology students and psychotherapy trainees](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1859806/full). DOI: 10.3389/fpsyg.2026.1859806.
+
+### 2. Hasznos segítség és túlzott ráhagyatkozás: kettős kép az amerikai MI-használatról
+
+**Megjelent:** szeptember 14.  
+**Forrás típusa:** egyetemi kutatóközpont kérdőíves jelentése; önbeszámolók.
+
+Az Elon University *Human Purpose in Peril* jelentése 1505 amerikai felnőtt válaszait dolgozta fel; az adatfelvétel május 14–18. között zajlott. A minta 1163, az előző héten nagy nyelvi modellt használó válaszadót tartalmazott, célzott felülmintavételezéssel.
+
+A megkérdezett felnőttek 69%-a arra számít, hogy az MI gyengíti az emberi kapcsolatokat. Az MI-használók 39%-a úgy érzi, túlzottan a modellek válaszaira támaszkodik saját gondolkodás helyett. Ugyanakkor 52% a tanulási motiváció, 45% a kreativitás, 42% pedig a kritikai gondolkodás javulásáról számolt be.
+
+**Pszichológiai jelentőség:** a technológia személyesen megélt hasznossága együtt járhat az önállóság elvesztésétől való félelemmel. A használat gyakorisága önmagában kevés e viszony megértéséhez.
+
+**Korlát:** ezek észlelt változások és várakozások, nem objektív kognitív teljesítménymérések. A „túlzott ráhagyatkozás” önbeszámolója nem klinikai függőségdiagnózis, az amerikai arányok pedig nem tekinthetők magyar adatoknak.
+
+**Forrás:** [Elon University – Human Purpose in Peril, eredmények és módszertan](https://imaginingthedigitalfuture.org/reports-and-publications/human-purpose-in-peril/).
+
+### 3. Gyászbotok: a pszichológiai következmények kutatása még kezdeti szakaszban van
+
+**Heti hír:** a JMIR Publications szeptember 11-i közleménye.  
+**Forrás típusa:** tudományos ismeretterjesztő és szakértői háttéranyag; nem új klinikai vizsgálat.
+
+A JMIR heti válogatása az elhunytak digitális nyomaiból létrehozott, beszélgetésre képes MI-rendszerekkel is foglalkozott. Az ilyen „gyászbotok” üzenetek, fényképek és más személyes tartalmak alapján utánozhatják az elhunyt kommunikációját.
+
+A bemutatott szakértői álláspontok eltérnek: Robert Neimeyer pszichológus más gyászfeldolgozási módszerek mellett elképzelhetőnek tart kedvező hatásokat; Craig Klugman bioetikus többek között az elhúzódó gyászhoz való esetleges hozzájárulást és a kereskedelmi kihasználást emeli ki.
+
+**Korlát:** a közlemény szerint a mentális egészségi kimenetek vizsgálata még kezdeti szakaszban van. A hír nem bizonyítja sem a terápiás hatásosságot, sem az általános károsságot. A kiadói közlemény ellenőrizhető volt; az alapul szolgáló JMIR-cikk teljes szövegét technikai hozzáférési akadály miatt nem sikerült ellenőrizni.
+
+**Forrás:** [JMIR Publications szeptember 11-i közleménye a Newswise-on](https://www.newswise.com/articles/jmir-news-shadow-ai-vocal-biomarker-tech-griefbots-and-a-prescription-video-game). A bemutatott háttéranyag: [Is Grief Dead? How Digital Resurrection Technologies Affect Bereavement](https://www.jmir.org/2026/1/e111086).
+
+## Magyar vonatkozás
+
+### 4. ELTE-kutatók: az MI a társas normák és önértelmezések alakításában is részt vesz
+
+**Hazai hír megjelenése:** szeptember 11.  
+**Forrás típusa:** elméleti társadalomtudományi munkáról szóló MTI-beszámoló a HVG-n; szociálpszichológiai kapcsolódással.
+
+Németh Renáta és Sik Domonkos, az ELTE Társadalomtudományi Karának kutatói az „algoritmikus szocializáció” fogalmával írják le, hogyan alakíthatja a nyelvi modellekkel folytatott kommunikáció az emberek értelmezési kereteit. A beszámoló szerint az MI válaszai arról is közvetítenek normákat, mi tekinthető elfogadhatónak vagy észszerűnek.
+
+A pszichológia szempontjából különösen érdekes a lelki problémák keretezése: a szerzők szerint a chatbotok társadalmi eredetű nehézségekre is egyéni önmenedzselési magyarázatokat kínálhatnak. Kiemelik a felhasználó nézeteit túlzottan megerősítő válaszadás, az úgynevezett *sycophancy* jelentőségét is.
+
+**Korlát:** ez elméleti értelmezésként kezelendő, nem a magyar lakosságon mért pszichológiai hatásként. A beszámoló a *The European Sociologist* publikációjára hivatkozik, de az eredeti szöveg és annak pontos megjelenési dátuma nem volt ellenőrizhető. A szeptember 11-i dátum a sajtóhíré. A hazai összefoglaló ezért a sajtóban közölt szerzői álláspontot ismerteti.
+
+**Forrás:** [HVG / MTI – Magyar kutatók mondják: az AI már a társadalmi valóságot formálja](https://hvg.hu/tudomany/20260911_elte-kutatas-a-mesterseges-intelligencia-nagy-nyelvi-modelljei-mar-a-tarsadalmi-valosagot-formaljak).
+
+## A válogatás határai
+
+A heti keresés során egy közvetlenül ideillő, magyar kutatókhoz köthető hírt sikerült azonosítani. Ez nem jelenti azt, hogy a héten ne születhetett volna további hazai eredmény.
+
+A frissként felbukkanó találatok közül nem került a heti hírek közé az MI pszichológiai állapotfelmérésben való használatáról szóló áttekintés: a [PubMed bibliográfiai rekordja](https://pubmed.ncbi.nlm.nih.gov/42331776/) június 22-i megjelenést jelez. Szintén kimaradt az érzelmi támogatásra használt chatbotokról szóló [ottawai ifjúságkutatás](https://www.uottawa.ca/faculty-education/news-all/uottawa-study-finds-ai-use-emotional-support-may-signal-youth-distress), amelyet augusztus 31-én közöltek. Így a szemle nem tüntet fel régebbi eredményeket e hét új kutatásaiként.

@@ -1,0 +1,11 @@
+---
+title: "Heti magyar és nemzetközi MI-hírösszefoglaló pszichológiai vonatkozással"
+listing:
+  contents: lp_mi_hirek_heti_pszicho
+  type: table
+  sort:
+    - "date desc"
+    - "title desc"
+---
+
+*Az oldalon megjelenő hírösszefoglalók az OpenAI ChatGPT ütemezett feladatok funkciójával, automatikusan készülnek. A tartalmak pontatlanságokat vagy téves információkat is tartalmazhatnak, ezért a fontosabb adatokat érdemes az eredeti forrásokban is ellenőrizni.*

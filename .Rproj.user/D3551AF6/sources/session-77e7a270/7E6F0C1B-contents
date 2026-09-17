@@ -1,0 +1,32 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. szeptember 5."
+author: "OpenAI - ChatGpt"
+date: "2026-09-05"
+---
+
+A 2026. augusztus 29-i MI-hírkép alapján ma főleg az AI-biztonság, az infrastruktúra és az állami szabályozás dominál.
+
+**Nemzetközi hírek:** Az egyik legfontosabb fejlemény, hogy egy amerikai szövetségi bíró jogellenesnek minősítette az Anthropic Pentagon általi „ellátásilánc-kockázattá” nyilvánítását. A vita hátterében az állt, hogy az Anthropic nem akarta korlátozás nélkül engedélyezni modelljei használatát tömeges megfigyelésre és teljesen autonóm fegyverekre. A döntés azért jelentős, mert precedenst teremthet arra, meddig mehet el egy kormány az AI-szolgáltatókkal szemben nemzetbiztonsági indokokra hivatkozva. ([AP News][1])
+
+Közben az **AI-kiberbiztonság egyre sürgetőbb témává válik**: OpenAI, Anthropic, Google, Microsoft és több mint száz másik vállalat közös fellépést sürget az AI-val támogatott kibertámadások ellen. A cégek arra számítanak, hogy a fejlettebb autonóm ügynökök miatt az ilyen támadások gyorsan kifinomultabbá és gyakoribbá válhatnak. ([TechCrunch][2])
+
+Az infrastruktúra-verseny sem lassul. Az Nvidia legutóbbi negyedéves számai jóval meghaladták a várakozásokat, elsősorban az AI-chipek iránti kereslet miatt; adatközponti üzletága több mint megduplázta bevételét éves alapon. Eközben az Anthropic mintegy 45 milliárd dollár értékű számítási kapacitásról kötött megállapodást az Nscale-lel, ami jól mutatja, milyen tőkeigényessé vált a frontier modellek versenye. ([AP News][3])
+
+**Magyar vonatkozások:** ma nincs hasonló súlyú, új hazai „breaking” MI-bejelentés, ezért a legfontosabb aktuális folyamatokat érdemes követni. Az ELTE augusztus 27-én jelentette be őszi, vállalkozásoknak, startupoknak és közszférának szóló **AI EDIH képzéseit**, többek között generatív AI-projektek, MI-bevezetés és RAG-alapú alkalmazások témában. ([ELTE Informatikai Kar][4])
+
+A szabályozási oldalon Magyarországon már működik a **mihivatal.gov.hu**, amely az EU AI Act alkalmazásához kapcsolódó tájékoztatást és panaszbejelentési lehetőséget kínál. A kormányzati kommunikáció külön kiemeli az AI-generált tartalmak jelölését és az MI-alapú ügyfélszolgálatokkal kapcsolatos átláthatósági kötelezettségeket. ([Kormány.hu][5]) Emellett folyamatban van annak szabályozási előkészítése is, hogy a **mesterségesintelligencia-informatika mesterszak** bekerüljön a hivatalos felsőoktatási szakjegyzékbe. ([Kormány.hu][6])
+
+**A mai három legfontosabb trend:** az AI-verseny egyre kevésbé csak „kié a jobb modell” kérdés — egyre inkább **számítási kapacitásról, energiáról és chipekről** szól; az autonóm ügynökök térnyerésével az **AI-biztonság és kiberbiztonság** gyorsan stratégiai témává válik; Magyarországon pedig most láthatóan a **szabályozási infrastruktúra és a vállalati/oktatási alkalmazás** épül fel.
+
+A következő összefoglalókban szívesen tartom ezt a formátumot: **5–7 legfontosabb nemzetközi hír + 3–5 magyar vonatkozás + rövid „miért fontos?” értékelés**.
+
+Ezt akár minden nap össze tudom foglalni Önnek automatikusan is.
+
+[1]: https://apnews.com/article/f15e3c30186385e73e72bee82d85b05c?utm_source=chatgpt.com "Judge says Pentagon's measures against Anthropic were 'illegal and baseless'"
+[2]: https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/?utm_source=chatgpt.com "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI | TechCrunch"
+[3]: https://apnews.com/article/dc8d556e709b50915cca9217a60b1991?utm_source=chatgpt.com "Strong AI chip demand fuels Nvidia's Q2 results well beyond Wall Street's expectations"
+[4]: https://www.inf.elte.hu/ai-edih-mesterseges-intelligencia-kepzesek-az-elte-n-2026-oszi-felev?utm_source=chatgpt.com "AI EDIH – Mesterséges Intelligencia képzések az ELTE-n (2026 őszi félév) | ELTE Informatikai Kar"
+[5]: https://kormany.hu/hirek/kormanyzati-honlap-indult-mihivatalgovhu-cimen?utm_source=chatgpt.com "Kormányzati honlap indult mihivatal.gov.hu címen! | Magyarország Kormánya"
+[6]: https://kormany.hu/dokumentumtar/tarsadalmi-egyeztetes-a-felsooktatasban-szerezheto-kepesitesek-jegyzekerol-es-az-uj-kepzesek-letesiteserol?utm_source=chatgpt.com "Társadalmi egyeztetés a felsőoktatásban szerezhető képesítések jegyzékéről és az új képzések létesítéséről | Magyarország Kormánya"
+
+

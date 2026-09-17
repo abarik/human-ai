@@ -1,0 +1,9 @@
+---
+title: "Napi magyar és nemzetközi MI-hírösszefoglaló"
+listing:
+  contents: lp_mi_hirek_napi
+  type: table
+  sort:
+    - "date"
+    - "title desc"
+---
