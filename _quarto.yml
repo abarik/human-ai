@@ -27,13 +27,13 @@ website:
     background: light
     search: true
     contents:
-      - text: "Kezdőlap"
+      - text: " Kezdőlap"
         href: index.qmd
       - text: "Kutatócsoportról"
         href: kutatocsoportrol.qmd
       - text: "MI eszközök"
         href: mi_eszkozok_iras.qmd
-      - section: "MI hírek"
+      - section: "MI-generált hírek"
         contents: 
           - text: "Napi MI hírek"
             href: lp_mi_hirek_napi.qmd
