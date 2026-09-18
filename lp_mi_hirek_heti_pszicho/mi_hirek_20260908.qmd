@@ -23,7 +23,7 @@ Ezzel párhuzamosan egyre több adat mutatja, hogy az általános célú chatbot
 
 **Dátum:** 2026. augusztus 31.  
 **Típus:** **lektorált tanulmány** – *Scientific Reports*; elfogadott, korai online változat.  
-**Forrás:** [1]
+**Forrás:** [^1]
 
 **Mi történt?**  
 A kutatók 7029 kínai egyetemistánál vizsgálták a generatív MI használatát hat egyetemen. Nemcsak a használat gyakoriságát mérték, hanem az interakció észlelt minőségét, a bizalmat, a pszichológiai közelséget és az érzelmi kötődést is. Öt jellegzetes interakciós profilt azonosítottak. A legmagasabb depressziós és szorongásos tünetértékeket az úgynevezett „ambivalensen kötődő” csoportban találták: ezek a hallgatók erős érzelmi kötődést jeleztek az MI-hez, ugyanakkor viszonylag alacsony bizalmat és interakciós minőséget.
@@ -40,7 +40,7 @@ A vizsgálat keresztmetszeti és önbeszámolós volt, ezért nem mutatja meg, h
 
 **Dátum:** 2026. szeptember 1.  
 **Típus:** **lektorált tanulmány** – *JMIR Mental Health*.  
-**Forrás:** [2]
+**Forrás:** [^2]
 
 **Mi történt?**  
 Egy belga kutatás két mintában összesen 349 olyan embert vizsgált, aki MI-chatbotot használt mentális egészséghez kapcsolódó támogatásra: 276 fő a lakossági mintából, 73 egyetemi hallgató. A felhasználók személyes problémákról, társas helyzetekről, magányról és más érzelmi kérdésekről beszélgettek chatbotokkal; a leggyakoribb eszköz a ChatGPT volt. A résztvevők között sokan korábban vagy jelenleg is részesültek professzionális pszichológiai ellátásban.
@@ -57,7 +57,7 @@ Kényelmi mintavétel történt, ezért a kutatásból nem becsülhető meg megb
 
 **Dátum:** 2026. szeptember 1.  
 **Típus:** **lektorált tanulmány** – *JMIR Mental Health*.  
-**Forrás:** [3]
+**Forrás:** [^3]
 
 **Mi történt?**  
 A kutatók egy GPT-4o-alapú chatbotot építettek, amely 14–29 éves, depressziós fiatalok számára egyalkalmas viselkedésaktivációs beavatkozást modellezett. Negyvennyolc szimulált terápiás ülést generáltak mesterséges páciensekkel, majd tíz klinikai szakértő értékelte azokat. A chatbot mind a hét terápiás szakaszt végigvitte, és a 14 vizsgált viselkedésaktivációs komponensből 13 elérte az előre meghatározott kielégítő szintet. Erőssége volt például a hangulat felmérése és az aktivitástervezés.
@@ -76,7 +76,7 @@ Nem valódi pácienseket vizsgáltak. A mesterséges felhasználókat a szakért
 
 **Dátum:** 2026. szeptember 1.  
 **Típus:** **lektorált, randomizált kísérlet** – *Frontiers in Psychology*.  
-**Forrás:** [4]
+**Forrás:** [^4]
 
 **Mi történt?**  
 Egy 768 egyetemistával végzett 2×2-es randomizált vignettakísérletben azt tesztelték, hogyan hat két rövid üzenet egy mentális egészségügyi MI-chatbot megítélésére: az egyik az adatvédelemről tájékoztatott, a másik világossá tette, hogy a chatbot nem helyettesíti a szakembert.
@@ -95,7 +95,7 @@ A résztvevők csak elképzelt chatbot-helyzetet értékeltek, nem valódi besz�
 
 **Dátum:** 2026. szeptember 3.  
 **Típus:** **lektorált tanulmány** – *Nature Mental Health*.  
-**Forrás:** [5]
+**Forrás:** [^5]
 
 **Mi történt?**  
 A kutatók felügyelt gépi tanulási modelleket tanítottak egy országosan reprezentatív amerikai felmérés olyan változóin, amelyek az elektronikus egészségügyi nyilvántartásokban is jellemzően rendelkezésre állhatnak. A cél a még kezelésben nem részesülő szerhasználati zavarok azonosítása volt. A legmeggyőzőbb eredmények a kezeletlen alkoholhasználati zavar felismerésére születtek; az opioid- és kokainhasználati modellek ígéretesebbek voltak, de jóval kisebb esetszámokon alapultak.
@@ -112,7 +112,7 @@ A modell nem működő egészségügyi rendszer valós EHR-adatain lett validál
 
 **Dátum:** 2026. szeptember 3. – új, 3. preprint-verzió  
 **Típus:** **preprint – nem lektorált**.  
-**Forrás:** [6]
+**Forrás:** [^6]
 
 **Mi történt?**  
 Egy előregisztrált felmérés 598, 64 országból származó chatbot-felhasználót vizsgált. A szerzők szerint az MI észlelt emberszerűsége – többek között az antropomorfizmus, a hitelesség és a társas jelenlét – erősen összefüggött a paraszociális kötődéssel. A modell szerint ebben szerepet játszott, hogy az emberszerűbb chatbot nagyobb pszichológiai kielégülést nyújtott, ami több interakcióval társult.
@@ -131,7 +131,7 @@ Ez preprint, tehát még nem esett át szakmai lektoráláson. A kutatás keresz
 
 **Dátum:** 2026. szeptember 4.  
 **Típus:** **intézményi szakmai jelentés – nem empirikus, nem lektorált kutatási tanulmány**.  
-**Forrás:** [7]
+**Forrás:** [^7]
 
 **Mi történt?**  
 A Society for the Advancement of Psychotherapy, az American Psychological Association 29. divíziójának AI and Psychotherapy Work Groupja jelentést tett közzé az MI pszichoterápiás alkalmazásáról, a klinikai gyakorlat, a szupervízió, az oktatás és a kutatás területére is kitérve.
@@ -150,7 +150,7 @@ A dokumentum nem új klinikai vizsgálat és nem szisztematikus bizonyíték-ös
 
 **Dátum:** 2026. szeptember 8.  
 **Típus:** **lektorált, randomizált kísérlet** – *Frontiers in Psychology*.  
-**Forrás:** [8]
+**Forrás:** [^8]
 
 **Mi történt?**  
 Egy 380 felnőttel végzett randomizált kísérletben kétféle MI-válaszstílust hasonlítottak össze. Az egyik az adaptív érzelemszabályozást támogatta – például az érzelmek megnevezését, újraértelmezését és saját megküzdési lépés kiválasztását –, a másik inkább személyes, kapcsolati megnyugtatásra és az MI további elérhetőségére épített.
@@ -171,7 +171,7 @@ Mindössze rövid, háromfordulós interakcióról volt szó, enyhébb, nem klin
 
 **Közlés dátuma:** 2026. szeptember 7.  
 **Típus:** **intézményi közlemény / eseménybeszámoló – nem lektorált kutatás**.  
-**Forrás:** [9]
+**Forrás:** [^9]
 
 **Mi történt?**  
 A Semmelweis Egyetem Egészségügyi Adattudományi és MI Tudásközpontja beszámolt a Nyári Egyetem „Mesterséges intelligencia – okosabb leszel tőle vagy kényelmesebb?” című pódiumbeszélgetéséről. A témák között szerepelt, hogyan változtatja meg az MI a gondolkodást, a tanulást és a munkát, valamint milyen sajátos kihívásokat és lehetőségeket jelent a magyar nyelv az MI használatában.
@@ -188,7 +188,7 @@ Ez nem kutatási eredmény: nincs új adat, kontrollcsoport vagy empirikus vizsg
 
 **Releváns dátum:** 2026. szeptember 2-től indult a regisztráció  
 **Típus:** **intézményi programhír – nem kutatási tanulmány**.  
-**Forrás:** [10]
+**Forrás:** [^10]
 
 **Mi történt?**  
 Az ELTE Pedagógiai és Pszichológiai Kar 2026-os Kutatók Éjszakája programjában önálló témaként szerepel a „mesterséges intelligencia pszichológiája”; a programokra szeptember 2-től lehetett regisztrálni.
@@ -227,13 +227,13 @@ Ezért a magyar szakaszt nem töltöttem fel általános MI-hírekkel vagy puszt
 
 ### Közvetlen forráslinkek
 
-[1] Scientific Reports — Generative AI interaction styles and mental health among college students: a latent profile analysis (aug. 31.; 7029 hallgató; a kiadó lektorált, elfogadott kutatásként jelöli). Eredeti tanulmány – Scientific Reports Nature
-[2] JMIR Mental Health — Exploring Real-World Use of AI Chatbots for Mental Health Support: Cross-Sectional Survey Study (szept. 1.; n=349). Eredeti tanulmány – JMIR Mental Health mental.jmir.org
-[3] JMIR Mental Health — Large Language Model–Based Behavioral Activation Chatbot for Young People With Depression Using Artificial Users and Clinical Experts (szept. 1.; 48 szimulált ülés, 10 klinikai szakértő). Eredeti tanulmány – JMIR Mental Health mental.jmir.org
-[4] Frontiers in Psychology — Privacy assurances and professional-boundary warnings in generative AI mental health chatbots (szept. 1.; randomizált 2×2-es kísérlet, n=768). Eredeti tanulmány – Frontiers in Psychology Frontiers
-[5] Nature Mental Health — Supervised machine learning enables identification of people with untreated substance use disorders using EHR-like data (szept. 3.). Eredeti tanulmány – Nature Mental Health Nature
-[6] Rupprechter & Dienlin — It's her! Investigating relationship development with social AI chatbots, OSF Preprints, v3 (szept. 3.; előregisztrált felmérés, n=598, 64 ország). Közvetlen OSF/DOI – preprint v3 Sciety
-[7] Society for the Advancement of Psychotherapy, APA Division 29 — Artificial Intelligence and Psychotherapy: Opportunities, Challenges, and Recommendations (szept. 4.). A dokumentum maga is rögzíti, hogy munkacsoporti útmutatás, nem hivatalos APA-policy vagy gyakorlati irányelv. Eredeti intézményi jelentés societyforpsychotherapy.org
-[8] Frontiers in Psychology — How emotional response styles of generative AI companions shape adaptive emotion regulation and short-term AI reliance (szept. 8.; randomizált kísérlet, n=380). Eredeti tanulmány – Frontiers in Psychology Frontiers
-[9] Semmelweis Egyetem, Egészségügyi Menedzserképző Központ — Pódiumbeszélgetés a mesterséges intelligenciáról a 8. Semmelweis Nyári Egyetemen (közzétéve szept. 7.; az esemény aug. 26-án volt). Semmelweis – eredeti intézményi közlemény Semmelweis Egyetem
-[10] ELTE Pedagógiai és Pszichológiai Kar — Kutatók Éjszakája 2026; a kari tájékoztató szerint a programban az „MI pszichológiája” is szerepel, a regisztráció szeptember 2-án nyílt meg. ELTE PPK – eredeti programoldal
+[^1]: Scientific Reports — Generative AI interaction styles and mental health among college students: a latent profile analysis (aug. 31.; 7029 hallgató; a kiadó lektorált, elfogadott kutatásként jelöli). Eredeti tanulmány – Scientific Reports Nature
+[^2]: JMIR Mental Health — Exploring Real-World Use of AI Chatbots for Mental Health Support: Cross-Sectional Survey Study (szept. 1.; n=349). Eredeti tanulmány – JMIR Mental Health mental.jmir.org
+[^3]: JMIR Mental Health — Large Language Model–Based Behavioral Activation Chatbot for Young People With Depression Using Artificial Users and Clinical Experts (szept. 1.; 48 szimulált ülés, 10 klinikai szakértő). Eredeti tanulmány – JMIR Mental Health mental.jmir.org
+[^4]: Frontiers in Psychology — Privacy assurances and professional-boundary warnings in generative AI mental health chatbots (szept. 1.; randomizált 2×2-es kísérlet, n=768). Eredeti tanulmány – Frontiers in Psychology Frontiers
+[^5]: Nature Mental Health — Supervised machine learning enables identification of people with untreated substance use disorders using EHR-like data (szept. 3.). Eredeti tanulmány – Nature Mental Health Nature
+[^6]: Rupprechter & Dienlin — It's her! Investigating relationship development with social AI chatbots, OSF Preprints, v3 (szept. 3.; előregisztrált felmérés, n=598, 64 ország). Közvetlen OSF/DOI – preprint v3 Sciety
+[^7]: Society for the Advancement of Psychotherapy, APA Division 29 — Artificial Intelligence and Psychotherapy: Opportunities, Challenges, and Recommendations (szept. 4.). A dokumentum maga is rögzíti, hogy munkacsoporti útmutatás, nem hivatalos APA-policy vagy gyakorlati irányelv. Eredeti intézményi jelentés societyforpsychotherapy.org
+[^8]: Frontiers in Psychology — How emotional response styles of generative AI companions shape adaptive emotion regulation and short-term AI reliance (szept. 8.; randomizált kísérlet, n=380). Eredeti tanulmány – Frontiers in Psychology Frontiers
+[^9]: Semmelweis Egyetem, Egészségügyi Menedzserképző Központ — Pódiumbeszélgetés a mesterséges intelligenciáról a 8. Semmelweis Nyári Egyetemen (közzétéve szept. 7.; az esemény aug. 26-án volt). Semmelweis – eredeti intézményi közlemény Semmelweis Egyetem
+[^10]: ELTE Pedagógiai és Pszichológiai Kar — Kutatók Éjszakája 2026; a kari tájékoztató szerint a programban az „MI pszichológiája” is szerepel, a regisztráció szeptember 2-án nyílt meg. ELTE PPK – eredeti programoldal
