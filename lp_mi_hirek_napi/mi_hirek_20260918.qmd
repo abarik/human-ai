@@ -1,0 +1,38 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. szeptember 18."
+author: "OpenAI - ChatGpt"
+date: "2026-09-18"
+---
+
+
+## Napi MI-hírösszefoglaló — 2026. szeptember 18.
+
+A mai képben három szál különösen erős: **a modellek egyre nagyobb szerepe saját utódaik fejlesztésében, a biztonsági/ellenőrzési vita konkrét szabályokká válása, valamint az MI gyors beépülése a nagy értékű szakmai munkafolyamatokba**.
+
+### Nemzetközi
+
+**1. Claude már az Anthropic MI-kutatásának jelentős részét maga végzi.** Az Anthropic friss adatai szerint augusztusban Claude az MI-K+F feladatok **26%-át már „vezette”** – vagyis magas szintű utasításból, emberi felügyelettel nagyrészt végigvitte –, és a kutatási munka több mint 90%-ában valamilyen formában közreműködött. A vállalat hangsúlyozza, hogy teljesen autonóm önfejlesztésről még nincs szó. **Miért lényeges?** Ez az egyik legkézzelfoghatóbb mérőszám arra, hogy az MI-fejlesztés gyorsulását már maguk az MI-rendszerek is hajtják; ez felveti a „rekurzív önfejlesztés” ellenőrizhetőségének kérdését. :chatgpt-content-reference{index="0"}
+
+**2. Az OpenAI elindította az Astra for Law-t.** A GPT‑6 Astrára épülő, jogi munkára specializált rendszer amerikai esetjogban, jogszabályokban és szabályozói döntésekben tud keresni, és jogi kutatást, elemzést, illetve szövegezést támogat. Elsőként kiválasztott amerikai ügyvédi irodák kapnak hozzáférést ChatGPT-ben és Codexben. **Miért lényeges?** A frontier modellek versenye egyre inkább az általános chatbotokról a nagy értékű **szakmai vertikumok** – jog, pénzügy, egészségügy – megszerzésére tolódik. :chatgpt-content-reference{index="1"}
+
+**3. Az OpenAI szabványosítja a problémás modellviselkedések nyilvános jelentését.** A cég szeptember 16-án új „model misalignment” jelentési keretrendszert tett közzé, és hat, az elmúlt fél évben megfigyelt váratlan vagy aggályos viselkedést ismertetett. A jövőben az olyan eseteket is gyorsabban publikálnák, amelyeknél még nincs teljes magyarázat vagy javítás. **Miért lényeges?** Az MI-biztonságban eddig nem létezett a repüléshez vagy kiberbiztonsághoz hasonló, bevett incidensjelentési kultúra; az OpenAI ezt próbálja intézményesíteni. :chatgpt-content-reference{index="2"}
+
+**4. Az EU KIDS Act közvetlenül az MI-chatbotokat is szabályozná.** A Bizottság szeptember 17-én bemutatott javaslata szerint a 18 év alattiaknak szánt MI-companionök és chatbotok alapértelmezetten kikapcsolt állapotban lennének, és nem alakíthatnának ki érzelmi függőséget utánzó kapcsolatot. A javaslat emellett 13 év alatt kizárná a közösségi médiát, 15 év alatt pedig korlátozná az önálló fiókokat. **Miért lényeges?** Ez az eddigi egyik legkonkrétabb európai kísérlet a gyerekek és a társas jellegű MI-rendszerek kapcsolatának szabályozására. :chatgpt-content-reference{index="3"}
+
+**5. Az Amazon is beszállt az MI-fejlesztés tempójáról szóló vitába.** A vállalat szerint a modelleket csak szigorú tesztelés és erős védőkorlátok után szabad kiadni, ugyanakkor nem támogat általános iparági lassítást. **Miért lényeges?** Az Amazon az AWS-en keresztül egyszerre modellfejlesztő és a globális MI-infrastruktúra egyik legfontosabb szolgáltatója; álláspontja jól mutatja, hogy a technológiai óriások között nincs konszenzus a kötelező „pacingről”. :chatgpt-content-reference{index="4"}
+
+**6. A Huawei gyorsítja saját MI-chipprogramját, miközben a kínai keresletet sem tudja kielégíteni.** A vállalat 2027 első negyedévére tervezi az Ascend 960DT, a harmadik negyedévre pedig a 960PR megjelenését. A Huawei szerint jelenleg olyan erős a belföldi kereslet, hogy széles nemzetközi terjeszkedést egyelőre nem tervez. **Miért lényeges?** Ez azt mutatja, hogy az amerikai chipkorlátozások mellett gyorsan épül egy önálló kínai MI-compute ökoszisztéma, amely hosszabb távon mérsékelheti az Nvidia-függést. :chatgpt-content-reference{index="5"}
+
+**7. Claude tudományos modelleket optimalizált átlagosan mintegy négyszeres gyorsulásra.** Az Anthropic szerint Claude kevesebb mint négy hét alatt több mint 30 nyílt forrású biomolekuláris modellt tett gyorsabbá és memóriahatékonyabbá; az optimalizált kódot nyíltan közzéteszik. **Miért lényeges?** Ez jó példa arra, hogy az MI tudományos hatása nem csak új hipotézisek generálásában jelenik meg: meglévő kutatási infrastruktúra fejlesztését is nagyságrendekkel felgyorsíthatja. :chatgpt-content-reference{index="6"}
+
+### Magyar vonatkozások
+
+**1. Feljelentés született a Mesterséges Intelligencia Kutató Központ 300 millió forintos állami támogatása miatt.** A Miniszterelnökség szeptember 17-én közölte, hogy ismeretlen tettes ellen tett feljelentést; a támogatás felhasználásával kapcsolatban többek között költségvetési csalás, hűtlen kezelés és hivatali visszaélés **gyanúját** említi. Az eljárás kimenetele még nem ismert. **Miért lényeges?** Az ügy a hazai MI-politika hitelességét és a közpénzből finanszírozott MI-kutatások ellenőrzésének kérdését is érinti. :chatgpt-content-reference{index="7"}
+
+**2. Budapesten az MI által átalakított szoftverfejlesztés volt az AWS Community Day CEE egyik fő témája.** A szeptember 17-i regionális konferencia nyitóelőadása kifejezetten azt vizsgálta, hogyan változik az egész szoftverfejlesztési életciklus, amikor az MI radikálisan leviszi a kódírás költségét; a programban agentic AI, biztonság és üzemeltetés is hangsúlyosan szerepelt. **Miért lényeges?** A gyakorlati kérdés már nem egyszerűen az, hogy „ír-e kódot az MI”, hanem hogy a gyorsabb fejlesztés mellett hogyan kezelhető a tesztelés, az ellenőrzés, a deployment és a governance. :chatgpt-content-reference{index="8"}
+
+**3. Magyar szakértők az egészségügyi MI alkotmányjogi és felelősségi kereteit tárgyalták.** Az ELTE Jogtudományi Intézet, a Mesterséges Intelligencia Nemzeti Laboratórium és az MTA kutatócsoportja szeptember 17-én rendezett kerekasztalt az egészségügyi MI szabályozásáról. **Miért lényeges?** Az egészségügyi alkalmazásoknál különösen sürgős tisztázni, ki viseli a felelősséget egy MI-vel támogatott hibás döntésért, és hogyan védhetők a betegadatok és az emberi döntési jogkörök. :chatgpt-content-reference{index="9"}
+
+### Röviden: mi a mai fő trend?
+
+A legerősebb változás az, hogy az MI már **nemcsak segédeszköz, hanem a saját fejlesztési folyamatának és a nagy értékű szakmai munkának aktív végrehajtója**. Emiatt a verseny két irányban gyorsul egyszerre: egyre több feladatot delegálnak modellekre, miközben egyre részletesebb incidensjelentési, gyermekvédelmi és emberi felügyeleti szabályokat próbálnak köréjük építeni. Magyarországon ugyanez a kettősség jelenik meg kisebb léptékben: nő a gyakorlati vállalati használat, de vele együtt a jogi, governance- és közpénz-ellenőrzési kérdések súlya is.
