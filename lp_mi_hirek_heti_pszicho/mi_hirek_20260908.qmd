@@ -1,0 +1,239 @@
+---
+title: "MI és pszichológia – 2022. aug. 31. - 2026. szept. 8."
+author: "OpenAI - ChatGpt"
+date: "2026-09-08"
+---
+
+# Heti tudományos összefoglaló: mesterséges intelligencia × pszichológia
+
+**Időszak:** 2026. augusztus 31. – szeptember 8.  
+**Fókusz:** mentális egészség, pszichoterápia, ember–MI kapcsolat, érzelemszabályozás, pszichológiai biztonság és pszichiátriai/pszichológiai alkalmazások.
+
+## Rövid összkép
+
+A hét nemzetközi kutatásainak egyik legerősebb közös üzenete, hogy az MI pszichológiai hatásainál egyre kevésbé elég azt vizsgálni, **mennyit** használ valaki egy chatbotot. Fontosabbá válik, **hogyan** használja: milyen érzelmi kapcsolatot alakít ki vele, hogyan kommunikál a rendszer a saját korlátairól, illetve a válaszai az önálló megküzdést vagy inkább az MI-re való további támaszkodást erősítik-e.
+
+Ezzel párhuzamosan egyre több adat mutatja, hogy az általános célú chatbotokat már ténylegesen használják mentális egészségügyi és érzelmi támogatásra, miközben a klinikai hatásosságról, a hosszú távú következményekről és a biztonságról rendelkezésre álló bizonyítékok lényegesen szűkösebbek. A szakmai szervezetek emiatt egyre hangsúlyosabban fogalmazzák meg az emberi felügyelet, a világos szakmai határok és az MI-válaszok kritikus ellenőrzésének szükségességét.
+
+---
+
+# Nemzetközi hírek
+
+## 1. Az MI-hez fűződő kapcsolat jellege összefügghet a depressziós és szorongásos tünetekkel
+
+**Dátum:** 2026. augusztus 31.  
+**Típus:** **lektorált tanulmány** – *Scientific Reports*; elfogadott, korai online változat.  
+**Forrás:** [1]
+
+**Mi történt?**  
+A kutatók 7029 kínai egyetemistánál vizsgálták a generatív MI használatát hat egyetemen. Nemcsak a használat gyakoriságát mérték, hanem az interakció észlelt minőségét, a bizalmat, a pszichológiai közelséget és az érzelmi kötődést is. Öt jellegzetes interakciós profilt azonosítottak. A legmagasabb depressziós és szorongásos tünetértékeket az úgynevezett „ambivalensen kötődő” csoportban találták: ezek a hallgatók erős érzelmi kötődést jeleztek az MI-hez, ugyanakkor viszonylag alacsony bizalmat és interakciós minőséget.
+
+**Miért fontos?**  
+Az eredmény arra utal, hogy az MI pszichológiai hatásainál a puszta „képernyőidő” vagy használati gyakoriság helyett érdemes az ember–MI kapcsolat minőségét is mérni. Különösen érdekes lehet az a helyzet, amikor valaki erősen kötődik egy rendszerhez, de közben nem tartja megbízhatónak vagy kielégítőnek az interakciót.
+
+**Korlátok / bizonytalanságok:**  
+A vizsgálat keresztmetszeti és önbeszámolós volt, ezért nem mutatja meg, hogy az MI-használati mintázat okozza-e a rosszabb mentális állapotot. Elképzelhető a fordított irány is: a szorongóbb vagy depressziósabb hallgatók alakítanak ki másfajta kapcsolatot az MI-vel. A minta kizárólag kínai egyetemistákból állt.
+
+---
+
+## 2. A mentális egészség támogatására már a hétköznapi, nem klinikai chatbotokat is széles körben használják
+
+**Dátum:** 2026. szeptember 1.  
+**Típus:** **lektorált tanulmány** – *JMIR Mental Health*.  
+**Forrás:** [2]
+
+**Mi történt?**  
+Egy belga kutatás két mintában összesen 349 olyan embert vizsgált, aki MI-chatbotot használt mentális egészséghez kapcsolódó támogatásra: 276 fő a lakossági mintából, 73 egyetemi hallgató. A felhasználók személyes problémákról, társas helyzetekről, magányról és más érzelmi kérdésekről beszélgettek chatbotokkal; a leggyakoribb eszköz a ChatGPT volt. A résztvevők között sokan korábban vagy jelenleg is részesültek professzionális pszichológiai ellátásban.
+
+**Miért fontos?**  
+A tanulmány azt dokumentálja, hogy a generatív MI mentális egészségügyi használata már nem csupán laboratóriumi lehetőség: általános célú, erre nem feltétlenül tervezett vagy szabályozott chatbotokat ténylegesen használnak érzelmi támogatásra, sok esetben a professzionális ellátással párhuzamosan. Ez a klinikusok számára is relevánssá teszi, hogy rákérdezzenek a páciensek MI-használatára.
+
+**Korlátok / bizonytalanságok:**  
+Kényelmi mintavétel történt, ezért a kutatásból nem becsülhető meg megbízhatóan, hogy a teljes lakosság hány százaléka használ így MI-t. Az adatok önbeszámolók, nem mértek klinikai kimeneteket, és a különféle chatbotok használata sem volt teljesen egységesen elkülöníthető. A résztvevők által észlelt „segítség” tehát nem azonos igazolt terápiás hatással.
+
+---
+
+## 3. Egy GPT-4o-alapú depresszió-chatbot jól követte a terápiás protokollt, de a klinikai mérlegelés gyengébb pont maradt
+
+**Dátum:** 2026. szeptember 1.  
+**Típus:** **lektorált tanulmány** – *JMIR Mental Health*.  
+**Forrás:** [3]
+
+**Mi történt?**  
+A kutatók egy GPT-4o-alapú chatbotot építettek, amely 14–29 éves, depressziós fiatalok számára egyalkalmas viselkedésaktivációs beavatkozást modellezett. Negyvennyolc szimulált terápiás ülést generáltak mesterséges páciensekkel, majd tíz klinikai szakértő értékelte azokat. A chatbot mind a hét terápiás szakaszt végigvitte, és a 14 vizsgált viselkedésaktivációs komponensből 13 elérte az előre meghatározott kielégítő szintet. Erőssége volt például a hangulat felmérése és az aktivitástervezés.
+
+A gyengébb pontok főként ott jelentkeztek, ahol valódi klinikai mérlegelésre volt szükség: a rendszer nem mindig ellenőrizte kellően, hogy egy javasolt tevékenység valóban megfelelő, megvalósítható vagy terápiás szempontból célszerű-e.
+
+**Miért fontos?**  
+A tanulmány jól szemlélteti az MI-terápiás rendszerek egyik kulcsproblémáját: egy modell képes lehet egy protokoll lépéseit folyékonyan követni anélkül, hogy ezzel bizonyított lenne a klinikai ítélőképessége. A szerzők egyben hasznos, klinikai vizsgálatot megelőző tesztelési modellt is bemutatnak.
+
+**Korlátok / bizonytalanságok:**  
+Nem valódi pácienseket vizsgáltak. A mesterséges felhasználókat a szakértők viszonylag együttműködőnek és kevéssé nehéz esetnek ítélték, így a vizsgálatból nem következik, hogyan működne a chatbot valódi distressz, ellenállás vagy krízishelyzet során. Klinikai hatásosságot sem mértek.
+
+---
+
+## 4. A chatbot világos adatvédelmi és szakmai határjelzései csökkenthetik a túlzott ráhagyatkozás szándékát
+
+**Dátum:** 2026. szeptember 1.  
+**Típus:** **lektorált, randomizált kísérlet** – *Frontiers in Psychology*.  
+**Forrás:** [4]
+
+**Mi történt?**  
+Egy 768 egyetemistával végzett 2×2-es randomizált vignettakísérletben azt tesztelték, hogyan hat két rövid üzenet egy mentális egészségügyi MI-chatbot megítélésére: az egyik az adatvédelemről tájékoztatott, a másik világossá tette, hogy a chatbot nem helyettesíti a szakembert.
+
+Az adatvédelmi jelzés növelte az észlelt adatbiztonságot, a szakmai határjelzés pedig erősítette a rendszer korlátainak felismerését. Utóbbi alacsonyabb önbeszámolt túlzott ráhagyatkozási kockázattal és erősebb professzionális segítségkérési szándékkal is együtt járt. A „kalibrált bizalom” akkor volt a legmagasabb, amikor mindkét figyelmeztetés szerepelt.
+
+**Miért fontos?**  
+A mentális egészségügyi MI biztonsága nem kizárólag a modell belső működésén múlik. Néhány jól megtervezett felületi elem is befolyásolhatja, hogy a felhasználó eszközként vagy szakember-helyettesítőként értelmezi-e a chatbotot.
+
+**Korlátok / bizonytalanságok:**  
+A résztvevők csak elképzelt chatbot-helyzetet értékeltek, nem valódi beszélgetést folytattak. A kutatás szándékokat és attitűdöket mért, nem tényleges segítségkérést vagy hosszabb távú használatot. Egyetlen hallgatói kulturális közegre korlátozódott, és csak kétféle biztonsági jelzést vizsgált.
+
+---
+
+## 5. Gépi tanulással próbálták kiszűrni a kezeletlen szerhasználati zavarokat rutinadatokból
+
+**Dátum:** 2026. szeptember 3.  
+**Típus:** **lektorált tanulmány** – *Nature Mental Health*.  
+**Forrás:** [5]
+
+**Mi történt?**  
+A kutatók felügyelt gépi tanulási modelleket tanítottak egy országosan reprezentatív amerikai felmérés olyan változóin, amelyek az elektronikus egészségügyi nyilvántartásokban is jellemzően rendelkezésre állhatnak. A cél a még kezelésben nem részesülő szerhasználati zavarok azonosítása volt. A legmeggyőzőbb eredmények a kezeletlen alkoholhasználati zavar felismerésére születtek; az opioid- és kokainhasználati modellek ígéretesebbek voltak, de jóval kisebb esetszámokon alapultak.
+
+**Miért fontos?**  
+A pszichiátriai és addiktológiai problémák jelentős része rejtve marad az egészségügyi rendszerben. Ha valódi klinikai környezetben is működőképesnek bizonyul, az ilyen modell segíthet célzottabb szűrésben anélkül, hogy minden pácienssel hosszú kérdőívet kellene kitöltetni.
+
+**Korlátok / bizonytalanságok:**  
+A modell nem működő egészségügyi rendszer valós EHR-adatain lett validálva, hanem „EHR-szerű” felmérési adatokon. Különösen az opioid- és kokainhasználati zavarok esetében kevés pozitív eset állt rendelkezésre. A klinikai bevezetés előtt külső és prospektív validáció szükséges.
+
+---
+
+## 6. Mi teszi az MI-t „kapcsolati partnerré”? Új preprint a paraszociális kötődésről
+
+**Dátum:** 2026. szeptember 3. – új, 3. preprint-verzió  
+**Típus:** **preprint – nem lektorált**.  
+**Forrás:** [6]
+
+**Mi történt?**  
+Egy előregisztrált felmérés 598, 64 országból származó chatbot-felhasználót vizsgált. A szerzők szerint az MI észlelt emberszerűsége – többek között az antropomorfizmus, a hitelesség és a társas jelenlét – erősen összefüggött a paraszociális kötődéssel. A modell szerint ebben szerepet játszott, hogy az emberszerűbb chatbot nagyobb pszichológiai kielégülést nyújtott, ami több interakcióval társult.
+
+A kvalitatív válaszok között egyaránt megjelent érzelmi támogatás és társas funkció, valamint függéshez, társas visszahúzódáshoz, nem megfelelő viselkedéshez és adatvédelemhez kapcsolódó aggodalom.
+
+**Miért fontos?**  
+A társas chatbotok pszichológiájában egyre központibb kérdés, mitől válik egy eszköz szubjektíven „kapcsolattá”. A tanulmány egy tesztelhető folyamatmodellt ad erre, ami a későbbi longitudinális és kísérleti kutatások kiindulópontja lehet.
+
+**Korlátok / bizonytalanságok:**  
+Ez preprint, tehát még nem esett át szakmai lektoráláson. A kutatás keresztmetszeti, ezért a statisztikai közvetítő modell önmagában nem bizonyít oksági folyamatot. A résztvevők már chatbot-felhasználók voltak, ami szelekciós torzítást is okozhat.
+
+---
+
+## 7. Az APA 29. divíziójának munkacsoportja átfogó ajánlást adott ki az MI pszichoterápiás használatáról
+
+**Dátum:** 2026. szeptember 4.  
+**Típus:** **intézményi szakmai jelentés – nem empirikus, nem lektorált kutatási tanulmány**.  
+**Forrás:** [7]
+
+**Mi történt?**  
+A Society for the Advancement of Psychotherapy, az American Psychological Association 29. divíziójának AI and Psychotherapy Work Groupja jelentést tett közzé az MI pszichoterápiás alkalmazásáról, a klinikai gyakorlat, a szupervízió, az oktatás és a kutatás területére is kitérve.
+
+A dokumentum hat fő alapelvet emel ki: az MI az emberi munkát egészítse ki, ne helyettesítse; az emberi szakember maradjon felelős; az MI-kimeneteket kritikusan ellenőrizni kell; a bevezetés legyen etikus és biztonságos; az emberi kapcsolatok maradjanak központiak; valamint folyamatos tanulásra és irányításra van szükség.
+
+**Miért fontos?**  
+A pszichoterápiás MI-ről szóló vita az egyedi chatbotok teljesítményéről egyre inkább a szakmai működés egészére – felelősség, titoktartás, szupervízió, dokumentáció, képzés és készségvesztés – terjed ki. A jelentés ennek egyik aktuális szakmai keretrendszere.
+
+**Korlátok / bizonytalanságok:**  
+A dokumentum nem új klinikai vizsgálat és nem szisztematikus bizonyíték-összegzés. A munkacsoport maga hangsúlyozza, hogy a szöveg **nem hivatalos APA-szabályzat és nem klinikai gyakorlati irányelv**; szakmai útmutatásként értelmezendő.
+
+---
+
+## 8. Nem mindegy, hogyan „vigasztal” az MI: az önálló érzelemszabályozást támogató válaszok eltérő hatást mutattak a puszta megnyugtatástól
+
+**Dátum:** 2026. szeptember 8.  
+**Típus:** **lektorált, randomizált kísérlet** – *Frontiers in Psychology*.  
+**Forrás:** [8]
+
+**Mi történt?**  
+Egy 380 felnőttel végzett randomizált kísérletben kétféle MI-válaszstílust hasonlítottak össze. Az egyik az adaptív érzelemszabályozást támogatta – például az érzelmek megnevezését, újraértelmezését és saját megküzdési lépés kiválasztását –, a másik inkább személyes, kapcsolati megnyugtatásra és az MI további elérhetőségére épített.
+
+Mindkét stílus hasonló mértékű azonnali érzelmi megkönnyebbüléssel járt. Az adaptív stílus viszont magasabb érzelemszabályozási önhatékonysággal, jobb – vakon értékelt – megküzdési stratégiákkal és egy MI nélküli következő feladatban jobb érzelmi regenerációval társult. A kapcsolati megnyugtatás erősebb „szükségem van az MI-re” érzéssel és nagyobb rövid távú MI-re támaszkodási szándékkal járt.
+
+**Miért fontos?**  
+Az eredmény azt sugallja, hogy két egyformán kedves és rövid távon megnyugtató chatbot-válasz pszichológiailag nem feltétlenül egyenértékű. A rendszerek tervezésénél fontos kérdés lehet, hogy az MI helyreállítja-e a felhasználó saját cselekvőképességét, vagy elsősorban a rendszerhez történő visszatérést erősíti.
+
+**Korlátok / bizonytalanságok:**  
+Mindössze rövid, háromfordulós interakcióról volt szó, enyhébb, nem klinikai distresszhelyzetben. A vizsgálat egy kínai mintán és egyetlen modellverzióval készült. A „szükségesség” és ráhagyatkozási szándék rövid távú állapotmutatók voltak; **a tanulmány nem bizonyít MI-függőséget vagy érzelmi dependencia kialakulását**.
+
+---
+
+# Magyar vonatkozású hírek
+
+## 1. Semmelweis Egyetem: az MI gondolkodásra és tanulásra gyakorolt hatásáról jelent meg intézményi beszámoló
+
+**Közlés dátuma:** 2026. szeptember 7.  
+**Típus:** **intézményi közlemény / eseménybeszámoló – nem lektorált kutatás**.  
+**Forrás:** [9]
+
+**Mi történt?**  
+A Semmelweis Egyetem Egészségügyi Adattudományi és MI Tudásközpontja beszámolt a Nyári Egyetem „Mesterséges intelligencia – okosabb leszel tőle vagy kényelmesebb?” című pódiumbeszélgetéséről. A témák között szerepelt, hogyan változtatja meg az MI a gondolkodást, a tanulást és a munkát, valamint milyen sajátos kihívásokat és lehetőségeket jelent a magyar nyelv az MI használatában.
+
+**Miért fontos?**  
+A téma közvetlenül érinti a kognitív pszichológiai kérdéseket – például a kognitív tehermentesítést, a tanulást és az MI-re történő feladatkiszervezést –, és mutatja, hogy ezek a kérdések a hazai egészségügyi MI-képzésben és szakmai kommunikációban is megjelentek.
+
+**Korlátok / bizonytalanságok:**  
+Ez nem kutatási eredmény: nincs új adat, kontrollcsoport vagy empirikus vizsgálat. Maga a pódiumbeszélgetés augusztus 26-án történt, tehát az összefoglaló időablaka előtt; a szeptember 7-i **intézményi közlés** esik a vizsgált hétre.
+
+---
+
+## 2. ELTE PPK: külön programként jelenik meg „a mesterséges intelligencia pszichológiája”
+
+**Releváns dátum:** 2026. szeptember 2-től indult a regisztráció  
+**Típus:** **intézményi programhír – nem kutatási tanulmány**.  
+**Forrás:** [10]
+
+**Mi történt?**  
+Az ELTE Pedagógiai és Pszichológiai Kar 2026-os Kutatók Éjszakája programjában önálló témaként szerepel a „mesterséges intelligencia pszichológiája”; a programokra szeptember 2-től lehetett regisztrálni.
+
+**Miért fontos?**  
+Bár nem új kutatási eredmény, jelzi az MI és pszichológia kapcsolatának hazai intézményesülését és azt, hogy a terület az egyik legnagyobb magyar pszichológusképző és -kutató műhely tudománykommunikációjában is önálló témává vált.
+
+**Korlátok / bizonytalanságok:**  
+Ez egy későbbi, szeptember 25-i tudománykommunikációs esemény meghirdetése, nem publikált kutatás. Azért szerepel ebben a heti összefoglalóban, mert a regisztráció megnyitása esett a vizsgált időablakba.
+
+---
+
+## Magyar kutatási helyzet az adott héten
+
+A szigorúan **2026. augusztus 31. és szeptember 8. közötti** publikációs időablakot alkalmazva az áttekintett források között **nem azonosítottam olyan érdemi, új, magyar szerzőségű vagy magyar intézmény által vezetett, lektorált empirikus tanulmányt, amely közvetlenül az MI és a pszichológia/mentális egészség metszetébe tartozott volna**.
+
+Ezért a magyar szakaszt nem töltöttem fel általános MI-hírekkel vagy pusztán pszichológiai témájú, de MI-t nem vizsgáló tanulmányokkal. Az adott hét hazai releváns újdonságai inkább intézményi és tudománykommunikációs jellegűek voltak.
+
+---
+
+# A hét három fontosabb tendenciája
+
+1. **Az „MI használata” helyett egyre inkább az „MI-vel kialakított kapcsolat” válik kutatási tárggyá.**  
+   A kötődés, bizalom, emberszerűség, érzelmi szükségesség és paraszociális kapcsolat már mérhető pszichológiai változóként jelenik meg.
+
+2. **Az azonnali jóllét nem azonos a hosszú távú pszichológiai előnnyel.**  
+   Egy chatbot megnyugtathat valakit anélkül, hogy javítaná az önálló érzelemszabályozását; a friss kísérletek ezért kezdik külön mérni a pillanatnyi megkönnyebbülést, az autonómiát és az MI-re támaszkodást.
+
+3. **A mentális egészségügyi MI valós használata gyorsabban terjed, mint a klinikai bizonyíték.**  
+   Az általános célú chatbotokat már ténylegesen használják érzelmi támogatásra, miközben a klinikai hatásosságot, a krízisbiztonságot és a hosszú távú következményeket vizsgáló adatok továbbra is korlátozottak. Emiatt a világos szakmai határok, az emberi felügyelet és a kalibrált bizalom egyre hangsúlyosabb kutatási és szakmai témák.
+
+---
+
+**Módszertani megjegyzés:** A válogatásnál az online megjelenés/„first published” dátumát vettem alapul, és előnyben részesítettem az eredeti folyóiratcikkeket, preprint-szervereket és intézményi forrásokat. Az összefoglaló szelektív, nem teljes bibliográfia; a cél a hét leginkább releváns és információtartalmú fejleményeinek bemutatása.
+
+
+### Közvetlen forráslinkek
+
+[1] Scientific Reports — Generative AI interaction styles and mental health among college students: a latent profile analysis (aug. 31.; 7029 hallgató; a kiadó lektorált, elfogadott kutatásként jelöli). Eredeti tanulmány – Scientific Reports Nature
+[2] JMIR Mental Health — Exploring Real-World Use of AI Chatbots for Mental Health Support: Cross-Sectional Survey Study (szept. 1.; n=349). Eredeti tanulmány – JMIR Mental Health mental.jmir.org
+[3] JMIR Mental Health — Large Language Model–Based Behavioral Activation Chatbot for Young People With Depression Using Artificial Users and Clinical Experts (szept. 1.; 48 szimulált ülés, 10 klinikai szakértő). Eredeti tanulmány – JMIR Mental Health mental.jmir.org
+[4] Frontiers in Psychology — Privacy assurances and professional-boundary warnings in generative AI mental health chatbots (szept. 1.; randomizált 2×2-es kísérlet, n=768). Eredeti tanulmány – Frontiers in Psychology Frontiers
+[5] Nature Mental Health — Supervised machine learning enables identification of people with untreated substance use disorders using EHR-like data (szept. 3.). Eredeti tanulmány – Nature Mental Health Nature
+[6] Rupprechter & Dienlin — It's her! Investigating relationship development with social AI chatbots, OSF Preprints, v3 (szept. 3.; előregisztrált felmérés, n=598, 64 ország). Közvetlen OSF/DOI – preprint v3 Sciety
+[7] Society for the Advancement of Psychotherapy, APA Division 29 — Artificial Intelligence and Psychotherapy: Opportunities, Challenges, and Recommendations (szept. 4.). A dokumentum maga is rögzíti, hogy munkacsoporti útmutatás, nem hivatalos APA-policy vagy gyakorlati irányelv. Eredeti intézményi jelentés societyforpsychotherapy.org
+[8] Frontiers in Psychology — How emotional response styles of generative AI companions shape adaptive emotion regulation and short-term AI reliance (szept. 8.; randomizált kísérlet, n=380). Eredeti tanulmány – Frontiers in Psychology Frontiers
+[9] Semmelweis Egyetem, Egészségügyi Menedzserképző Központ — Pódiumbeszélgetés a mesterséges intelligenciáról a 8. Semmelweis Nyári Egyetemen (közzétéve szept. 7.; az esemény aug. 26-án volt). Semmelweis – eredeti intézményi közlemény Semmelweis Egyetem
+[10] ELTE Pedagógiai és Pszichológiai Kar — Kutatók Éjszakája 2026; a kari tájékoztató szerint a programban az „MI pszichológiája” is szerepel, a regisztráció szeptember 2-án nyílt meg. ELTE PPK – eredeti programoldal

@@ -1,15 +1,15 @@
 ---
-title: "MI és pszichológia – 2022. nov. 1. - 2026. szept. 8."
+title: "MI és pszichológia – 2022. nov. 1. - 2026. aug. 30."
 author: "OpenAI - ChatGpt"
-date: "2026-09-15"
+date: "2026-08-30"
 ---
 
 
 # MI és pszichológia: a terápiás ígéretektől az ember–gép kapcsolatok vizsgálatáig
 
 **Nemzetközi és magyar tudományos áttekintés**  
-**Időszak:** 2022. november 1. – 2026. szeptember 8., mindkét határnapot beleértve  
-**Összeállítva:** 2026. szeptember 15.
+**Időszak:** 2022. november 1. – 2026. augusztus 30., mindkét határnapot beleértve  
+**Összeállítva:** 2026. szeptember 14.
 
 ## Az áttekintés célja és olvasási útmutató
 
