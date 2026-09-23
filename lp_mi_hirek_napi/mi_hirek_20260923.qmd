@@ -1,0 +1,150 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. szeptember 23."
+author: "OpenAI - ChatGpt"
+date: "2026-09-23"
+---
+
+
+# Napi MI-hírösszefoglaló — 2026. szeptember 23.
+
+*Reggeli kiadás — frissítve 2026. szeptember 23-án, 09:07 CEST. A válogatás elsősorban az elmúlt 24–48 óra fejleményeire épül.*
+
+A mai nemzetközi MI-hírképet **a globális biztonsági szabályok körüli diplomácia, Kína gyorsuló chip- és modellfejlesztése, valamint az autonóm MI-ügynökök valós rendszerekhez való hozzáférésének kockázatai** határozzák meg. Magyarországon ma főleg az MI vállalati, egészségügyi és agráralkalmazásai kerülnek előtérbe.
+
+## 🌍 Nemzetközi hírek
+
+### 1. Ma az ENSZ Biztonsági Tanácsa elé kerül az MI és a nemzetközi biztonság kérdése
+
+Az ENSZ Biztonsági Tanácsa **szeptember 23-án külön ülést tart a mesterséges intelligencia és a nemzetközi biztonság kapcsolatáról**. A Reuters értesülése szerint az OpenAI vezérigazgatója, Sam Altman felszólalásra készül, Anthropic-képviselők részvételére is számítanak, míg a kínai DeepSeek és Moonshot vállalatokat szintén meghívták nyilatkozattételre. Az ülést az ENSZ Közgyűlésének magas szintű hete alatt, Franciaország BT-elnöksége idején tartják.
+
+**Miért lényeges?** A frontier-MI kockázata ezzel egyértelműen nemzetbiztonsági és geopolitikai üggyé válik. Különösen fontos, hogy ugyanazon a fórumon jelenhetnek meg amerikai és kínai frontier-laborok: ez megteremtheti a közös incidensjelentés, a biztonsági standardok és a válságkommunikáció későbbi alapjait.
+
+**Forrás:** [Reuters – DeepSeek to brief UN Security Council on AI risks](https://www.internazionale.it/ultime-notizie-reuters/2026/09/22/exclusive-deepseek-to-brief-un-security-council-on-ai-this-week-sources-say)  
+**Hivatalos háttér:** [UN Security Council – Programme of Work](https://main.un.org/securitycouncil/en/events/programme-work-16)
+
+---
+
+### 2. Az Alibaba bemutatta új kínai MI-chipjét, és akár 10 billió paraméteres modellen dolgozik
+
+Az Alibaba az Apsara konferencián bemutatta a **Zhenwu V900** MI-gyorsítót, amely a vállalat állítása szerint háromszor akkora teljesítményt nyújt elődjénél. Eddie Wu vezérigazgató azt is közölte, hogy a Qwen csapata egy **5–10 billió paraméteres következő generációs modellt** tervez, miközben az Alibaba felhőinfrastruktúrájának számítási kapacitását 2032-ig 20 gigawatt fölé növelné.
+
+**Miért lényeges?** Kína nem pusztán saját modellekkel próbál versenyezni, hanem a teljes MI-technológiai láncot — chip, modell, felhő és adatközpont — igyekszik hazai alapokra helyezni. Ha az Alibaba és a Huawei saját gyorsítókkal képes csökkenteni az Nvidia-függést, az gyengítheti az amerikai chip-exportkorlátozások hosszú távú hatását.
+
+**Forrás:** [Associated Press – China's Alibaba unveils new powerful chip and ambitious AI model plans](https://apnews.com/article/b29908e516faff9f5a82b201ba954aab)
+
+---
+
+### 3. A Mercedes a brit Wayve MI-jével próbálja behozni lemaradását az autonóm vezetésben
+
+A Mercedes-Benz megállapodott a brit **Wayve** startup­pal, hogy annak MI-alapú vezetési rendszerét jövőbeli Mercedes-modellekbe integrálják. A Financial Times szerint legalább egy modellben két éven belül megjelenhet a rendszer. Első lépésben Level 2-es, vagyis továbbra is emberi felügyeletet igénylő vezetéstámogatásról van szó.
+
+A Wayve az utóbbi időben a Nissan és a Stellantis mellett már a Mercedeshez is beszállítóként kapcsolódik, miközben saját megközelítését a Tesla és a kínai önvezető rendszerek alternatívájaként pozicionálja.
+
+**Miért lényeges?** Az autóipari MI-versenyben a hagyományos gyártók egyre inkább külső frontier- és robotikai cégekkel dolgoznak együtt ahelyett, hogy minden MI-technológiát házon belül fejlesztenének. Ez alapvetően átrajzolhatja az autóipari értékláncot és a technológiai beszállítók szerepét.
+
+**Forrás:** [Financial Times – Mercedes-Benz aims to close AI gap with China rivals through Wayve deal](https://www.ft.com/content/4ed7bccb-7d02-485f-aed6-9e7b0244ac78)
+
+---
+
+### 4. Súlyos biztonsági hibát kellett javítani a Meta autonóm Muse MI-ügynökében
+
+A Meta gyorsjavítást adott ki a **Muse macOS-alkalmazásához**, miután Patrick Wardle biztonsági kutató olyan zero-day sérülékenységet talált, amelynek segítségével a gépen már futó rosszindulatú kód átvehette az irányítást az MI-ügynök felett. A támadás többek között lehetővé tehette a Muse számára engedélyezett jogosultságok kihasználását, például fájlok létrehozását vagy kamera-hozzáférést.
+
+Fontos pontosítás: a sérülékenység **nem önmagában távolról kihasználható hiba volt**; a támadónak előzőleg kódot kellett futtatnia az érintett Macen. A probléma súlyát az növeli, hogy egy személyes MI-ügynök sokkal szélesebb jogosultságokkal rendelkezhet, mint egy hagyományos alkalmazás.
+
+**Miért lényeges?** Az agentikus MI új biztonsági problémát teremt: egy sikeresen feltört ügynök nemcsak saját adataihoz, hanem az összes hozzá kapcsolt e-mail-, naptár-, fizetési vagy eszközjogosultsághoz kaput nyithat. Az „MI-asszisztens” így potenciálisan komoly jogosultság-eszkalációs réteggé válik.
+
+**Forrás:** [The Verge – Meta patches Muse exploit that let attackers control the AI agent](https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent)  
+**Technikai háttér:** [Ars Technica – Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day](https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/)
+
+---
+
+### 5. Az OpenAI amerikai vezetéssel globális frontier-MI szabványokat sürget
+
+Az OpenAI új szakpolitikai javaslatában azt szorgalmazza, hogy az Egyesült Államok vezesse **globális technikai standardok kialakítását a frontier-MI számára**. A javaslat közös képességmérést, kockázati értékelést, incidensosztályozást és jelentési protokollokat tart szükségesnek, különös tekintettel arra, amikor MI-rendszerek egyre nagyobb részt vállalnak saját következő generációik kutatásában.
+
+A vállalat ezt **rekurzív önfejlesztésnek (RSI)** nevezi. Az OpenAI hangsúlyozza, hogy teljesen autonóm RSI ma még nem történik, és ilyet addig nem kellene célul kitűzni, amíg az emberi kontroll nem garantálható.
+
+**Miért lényeges?** A frontier-MI szabályozási vita az elvont „etikai alapelvektől” egyre inkább konkrét mérőszámok, auditálható tesztek és incidensjelentési küszöbök felé halad. Ha nemzetközi szabvány születik, az hosszú távon az MI-ipar repülésbiztonsági vagy pénzügyi prudenciális szabályaihoz hasonló közös keretet hozhat létre.
+
+**Forrás:** [OpenAI – Building standards for the next phase of AI](https://openai.com/index/building-standards-next-phase-ai/)  
+**További forrás:** [Financial Times – OpenAI joins call for US-led global AI standards](https://www.ft.com/content/4e502288-b611-4193-acdb-46ef34b1e3b0)
+
+---
+
+### 6. Húsz ország vezetői közös nemzetközi frontier-MI felügyeletet sürgetnek
+
+Finnország és Norvégia kezdeményezésére **22 politikai vezető, 20 ország képviseletében**, valamint az Európai Bizottság csatlakozott az *A Call for Control of Frontier AI Models* felhíváshoz. A dokumentum szerint a frontier-modelleknek emberi irányítás és felügyelet alatt kell maradniuk.
+
+A kezdeményezés többek között kötelező, telepítés előtti biztonsági teszteket, független értékelést, közös incidensjelentést és olyan nemzetközi intézmény lehetőségének vizsgálatát sürgeti, amely képességi küszöbök átlépésekor összehívhatná az érintett államokat. A felhívás politikai nyilatkozat, **nem kötelező erejű jogszabály**.
+
+**Miért lényeges?** Ez már nem kizárólag MI-cégek vagy biztonsági kutatók kezdeményezése: államok egyre nagyobb csoportja kezd közös ellenőrzési infrastruktúrát követelni. Különösen figyelemre méltó, hogy a kezdeményezés a nemzetközi atomenergia- vagy pénzügyi felügyelethez hasonló intézményi logika felé mutat.
+
+**Forrás:** [Office of the President of Finland – A Call for Control of Frontier AI Models](https://www.presidentti.fi/en/a-call-for-control-of-frontier-ai-models/)  
+**További forrás:** [Finnish Government – A Call for Control of Frontier AI Models](https://valtioneuvosto.fi/en/-/a-call-for-control-of-frontier-ai-models)
+
+---
+
+## 🇭🇺 Magyar vonatkozások
+
+*Ma reggelig kevés országos jelentőségű, teljesen új magyar MI-bejelentés jelent meg, ezért a hazai blokk a ma zajló és az elmúlt néhány napban bejelentett, stratégiailag fontos fejleményeket emeli ki.*
+
+### 1. Ma rendezik a Bosch és a Richter közös innovációs napját — az alkalmazkodó MI is fókuszban
+
+Szeptember 23-án a budapesti Richter Központban rendezik meg a **Bosch×Richter Innovátorok Napját**, amelynek idei témája a hosszú és minőségi életet támogató technológia. A programban a személyre szabott egészségügy mellett az **alkalmazkodó mesterséges intelligencia**, valamint az intelligens járművekben használható technológiák is szerepelnek.
+
+A Bosch és a Richter egy közös magyarországi reprezentatív kutatás eredményeit is bemutatja arról, hogyan viszonyulnak a magyarok az egészséghez, az innovációhoz és a hosszabb életet támogató technológiákhoz.
+
+**Miért lényeges?** A rendezvény jól mutatja, hogy a hazai MI-ökoszisztémában az egészségügy, a gyógyszeripar és a mobilitás egyre szorosabban kapcsolódik össze. A magyarországi kutatás-fejlesztés számára ezek olyan területek, ahol jelentős helyi ipari és tudományos háttér már most is rendelkezésre áll.
+
+**Forrás:** [Bosch Magyarország – Longevity és technológia a Bosch×Richter Innovátorok Napján](https://boschmediaservice.hu/sajtokozlemeny/bosch_x_richter_konferencia_2026-495.html)
+
+---
+
+### 2. Ma az európai mezőgazdasági adattérhez való magyar csatlakozásról egyeztetnek Budapesten
+
+Az Agrárközgazdasági Intézetben szeptember 23-án rendezik meg az **Európai Adattér Workshopot**, amelynek központi témája a Közös Európai Mezőgazdasági Adattér (CEADS). A szakmai fórum azt vizsgálja, hogyan kapcsolódhatnak a magyar agrárszereplők az uniós adatmegosztási infrastruktúrához, és milyen technikai, szemantikai és üzleti feltételei vannak az adatalapú együttműködésnek.
+
+**Miért lényeges?** A mezőgazdasági MI-rendszerek minősége nagyrészt a hozzáférhető adatokon múlik. Egy interoperábilis európai adattér lehetővé teheti, hogy magyar gazdaságok és agrártechnológiai cégek nagyobb és jobb minőségű adathalmazokon fejlesszenek prediktív, precíziós és automatizált MI-megoldásokat.
+
+**Forrás:** [Agrárközgazdasági Intézet – Európai Adattér Workshop](https://ite.aki.gov.hu/events/europai-adatter-workshop-felkeszules-az-agrarium-adatvezerelt-jovojere/)
+
+---
+
+### 3. A Pécsi Tudományegyetem külön MI-szakmai és karriernapot rendezett
+
+A Pécsi Tudományegyetem Természettudományi Kara szeptember 22-én tartotta **Mesterséges Intelligencia Szakmai és Karriernapját**. A program a kutatási témák mellett kifejezetten vállalati MI-használatra is koncentrált: a Körber Hungária például azt mutatta be, hogyan használható MI egy nagyszabású SAP S/4HANA-bevezetés során dokumentációra, információfeldolgozásra és projektmunka támogatására.
+
+A rendezvényhez vállalati találkozók és programozói szakmai programok is kapcsolódtak.
+
+**Miért lényeges?** Magyarország egyik MI-szűk keresztmetszete továbbra is a megfelelő szakemberállomány. Az ilyen egyetem–vállalat kapcsolatok azt jelzik, hogy az MI-képzés egyre közvetlenebbül kapcsolódik tényleges vállalati rendszerekhez és álláslehetőségekhez, nem csupán elméleti kutatáshoz.
+
+**Forrás:** [Pécsi Tudományegyetem – Mesterséges Intelligencia Szakmai és Karriernap 2026](https://www.ttk.pte.hu/karunkrol/intezetek/matematikai-es-informatikai-intezet/mesterseges-intelligencia-szakmai-es-karriernap-2026/)
+
+---
+
+### 4. Az MTA külön MI-témanapot szervez, amelyből stratégiai fehér könyv készül
+
+A Magyar Tudományos Akadémia október 7-én rendezi meg **„MI-ért vagy MI-értünk? Tudomány, kutatás, innováció és a mesterséges intelligencia”** című témanapját. Az eseményen többek között a HUN-REN SZTAKI vezető kutatói is előadnak az MI tudományos, ipari és társadalmi hatásairól.
+
+A rendezvény megállapításait az MTA egy későbbi **stratégiai fehér könyvben** kívánja összefoglalni.
+
+**Miért lényeges?** A kezdeményezés azt jelzi, hogy a magyar tudományos közösség az egyedi MI-kutatások mellett közös álláspont kialakítására is törekszik. Egy ilyen dokumentum később a kutatásfinanszírozásra, az oktatásra és a hazai MI-szabályozás szakmai hátterére is hatással lehet.
+
+**Forrás:** [HUN-REN SZTAKI – „MI-ért vagy MI-értünk?” tematikus nap az MTA-n](https://sztaki.hun-ren.hu/aktualitasok/hirek/2026/mi-ert-vagy-mi-ertunk-tematikus-napot-szervez-az-mta-mesterseges)
+
+---
+
+## 📌 Mai fő kép
+
+A szeptember 23-i hírek alapján az MI-verseny következő szakasza már nem egyszerűen arról szól, **kinek van a legjobb modellje**.
+
+Három folyamat gyorsul egyszerre:
+
+1. **Az MI globális biztonságpolitikai üggyé válik.** Az ENSZ Biztonsági Tanácsában amerikai és kínai frontier-laborok jelennek meg, miközben húsz ország már közös felügyeleti mechanizmusokat sürget.
+
+2. **Az agentikus MI új biztonsági réteget igényel.** A Meta Muse sérülékenysége jól mutatja, hogy egy sok jogosultsággal rendelkező MI-ügynök kompromittálása lényegesen nagyobb következménnyel járhat, mint egy hagyományos chatbot hibája.
+
+3. **A technológiai szuverenitás felértékelődik.** Az Alibaba saját chipje, óriásmodell-tervei és adatközponti beruházásai azt jelzik, hogy Kína a teljes MI-stacket önállóan szeretné kiépíteni.
+
+Magyarországon eközben az MI egyre inkább **konkrét ágazati infrastruktúrába épül be**: az egészségügyben és mobilitásban ipari kutatások, az agráriumban közös adatterek, a felsőoktatásban pedig közvetlen vállalati MI-készségfejlesztés jelenik meg.
