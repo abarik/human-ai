@@ -1,0 +1,151 @@
+---
+title: "MI és pszichológia – 2026. szeptember 16–20."
+author: "OpenAI - ChatGpt"
+date: "2026-09-21"
+---
+
+
+# Heti tudományos összefoglaló: MI × pszichológia
+**Időszak:** 2026. szeptember 16–20.  
+**Keresési zárás:** 2026. szeptember 23.
+
+> **Megjegyzés a válogatáshoz:** Azokat a kutatásokat és szakmai híreket vettem fel, amelyek közzétételi vagy hírdátuma 2026. szeptember 16–20. közé esik, és érdemi kapcsolatot mutatnak a mesterséges intelligencia és a pszichológia, mentális egészség, kogníció vagy ember–MI interakció között. Ahol egy sajtóhír korábban megjelent tanulmányról számol be, ezt külön jelzem.
+
+## Nemzetközi hírek
+
+### 1. A nagyobb nyelvi modellek jobban előre jelzik az emberi agy nyelvfeldolgozási aktivitását
+**Típus:** lektorált tanulmány – eLife, Version of Record, 2026. szeptember 16.
+
+**Mi történt?** Hong és munkatársai különböző méretű nyelvi modellek – többek között GPT-2-, GPT-Neo-, OPT- és Llama 2-modellek – belső reprezentációit hasonlították össze epilepsziás betegek elektrokortikográfiával (ECoG) rögzített agyi aktivitásával, miközben a résztvevők egy körülbelül 30 perces természetes beszédet hallgattak. A nagyobb, a nyelv statisztikai szerkezetét pontosabban modellező rendszerek reprezentációiból általában jobban lehetett előre jelezni az agyi válaszokat. A GPT-Neo modellek összehasonlítása azért különösen informatív, mert ezek azonos tanítóadaton, de különböző méretben készültek.
+
+**Miért fontos?** Az eredmény erősíti azt a kutatási irányt, amely az LLM-eket nemcsak technológiai eszközként, hanem az emberi nyelvfeldolgozás számításos modelljeként is vizsgálja. A jobb „agy–modell illeszkedés” azonban nem jelenti azt, hogy a nagy nyelvi modellek az emberhez hasonló módon gondolkodnának vagy értenének.
+
+**Korlátok / bizonytalanságok:** A minta mindössze 10, klinikai okból ECoG-vizsgálaton áteső epilepsziás betegből állt; egyetlen természetes beszédanyagot használtak. Az agyi aktivitás és a modellreprezentáció közötti prediktív kapcsolat korrelációs jellegű, és önmagában nem bizonyít közös kognitív mechanizmust.
+
+**Forrás:** [eLife – eredeti tanulmány](https://doi.org/10.7554/eLife.101204.3)
+
+---
+
+### 2. A generatív MI-től való nagyobb függés gyengébb bizalomkalibrációval társult egészségügyi információknál
+**Típus:** lektorált, randomizált kísérleti tanulmány – Journal of Medical Internet Research, 2026. szeptember 16.
+
+**Mi történt?** Két kísérletben összesen 901 résztvevő – 338 egyetemista és 563 online toborzott felnőtt – értékelt generatív MI által előállított egészségügyi információkat. A kutatók manipulálták, hogy az MI-válasz helyes vagy hibás volt-e, illetve kiemelték-e vizuálisan a fontos forrásinformációkat. A magasabb önbevallott „tanult MI-függés” nagyobb általános bizalommal és az igaz, illetve hamis válaszok közötti gyengébb megkülönböztetéssel társult. A szöveges kiemelések önmagukban nem oldották meg a problémát.
+
+**Miért fontos?** A tanulmány arra utal, hogy az MI-re történő tartós támaszkodás pszichológiai következményei között nemcsak a használat gyakorisága, hanem a hibás információ felismerésének romló kalibrációja is fontos lehet. Ez különösen releváns egészségügyi és mentális egészségi kérdésekben.
+
+**Korlátok / bizonytalanságok:** Bár az információ pontosságát és a vizuális jelzéseket randomizálták, az MI-függést önbevallásos skálával mérték, nem kísérletileg idézték elő. Emiatt az eredmény nem bizonyítja, hogy az MI használata okozta a gyengébb bizalomkalibrációt. A feladat ráadásul kontrollált információértékelési helyzet volt, nem valódi egészségügyi döntés.
+
+**Forrás:** [JMIR – eredeti tanulmány](https://doi.org/10.2196/98326)
+
+---
+
+### 3. Klinikai esettanulmány jelent meg a ChatGPT-től kialakuló problémás pszichológiai függésről
+**Típus:** lektorált esettanulmány – JMIR Formative Research, 2026. szeptember 16.
+
+**Mi történt?** Egy húszas évei közepén járó, generalizált szorongásos zavarral és major depresszióval diagnosztizált nő egyre gyakrabban használta a ChatGPT-t e-mailek megfogalmazására, társas helyzetek értelmezésére, döntéshozatalra és a jövőbeli események előrejelzésére. Idővel egyre kellemetlenebbnek élte meg, ha ezeket a feladatokat önállóan kellett elvégeznie. A szerző a mintázatot többek között megnyugtatáskeresésként, kognitív tehermentesítésként és az önálló ítélőképességbe vetett bizalom csökkenéseként értelmezi.
+
+**Miért fontos?** Ez az egyik konkrét klinikai példa arra, hogyan illeszkedhet a generatív MI használata a szorongást fenntartó megnyugtatáskereső viselkedések közé. A cikk ezért azt javasolja, hogy a klinikusok bizonyos esetekben az MI-használatra is kérdezzenek rá a pszichiátriai vagy pszichológiai anamnézis során.
+
+**Korlátok / bizonytalanságok:** Egyetlen esetről van szó, így sem a probléma gyakoriságáról, sem oksági kapcsolatról nem lehet következtetni. A páciens meglévő szorongásos és depressziós zavara tovább korlátozza az általánosíthatóságot. Az eset nem bizonyítja, hogy a ChatGPT-használat önmagában pszichés függőséget okoz.
+
+**Forrás:** [JMIR Formative Research – eredeti tanulmány](https://formative.jmir.org/2026/1/e98297)
+
+---
+
+### 4. Virtuális ágenssel támogatott pszichológiai intervenció alkoholhasználati zavarban
+**Típus:** lektorált randomizált kontrollált vizsgálat – Journal of Medical Internet Research, 2026. szeptember 17.
+
+**Mi történt?** Egy 93 fős vizsgálatban az alkoholhasználati zavarral kezelt betegek egyik csoportja a szokásos kezelés mellett négy héten át az Echo App V2.0 virtuális ágens tíz, kognitív viselkedésterápiás elemeket tartalmazó ülését is megkapta. Az intervenciós csoportban a kórházi elbocsátás utáni sóvárgás növekedése kisebb volt az egy- és háromhónapos utánkövetésben. Egy hónapnál a visszaesés is ritkább volt, három hónapnál azonban ez a különbség már nem maradt fenn. Az alvásminőség rövid távon jobban javult.
+
+**Miért fontos?** A vizsgálat ritkább példája annak, amikor egy MI-hez kapcsolódó virtuális pszichológiai intervenciót randomizált klinikai vizsgálatban tesztelnek, és nem pusztán felhasználói elégedettséget mérnek.
+
+**Korlátok / bizonytalanságok:** Kis, egy intézményből származó minta; az alkalmazást a szokásos kezelés kiegészítéseként tesztelték. A rövid távú visszaesési eredmény érzékeny volt a hiányzó adatok kezelésére, és három hónapra eltűnt. Fontos továbbá, hogy az Echo App párbeszédfákra épülő virtuális ágens, nem egy mai általános célú generatív LLM.
+
+**Forrás:** [JMIR – eredeti tanulmány](https://doi.org/10.2196/91065)
+
+---
+
+### 5. Új klinikai keretek arra, hogyan kezeljék a szakemberek az MI megjelenését a pszichiátriában és pszichoterápiában
+**Típus:** lektorált szakmai keret-/nézőpontcikkek – 2026. szeptember 16.
+
+**Mi történt?** Két egymást kiegészítő tanulmány jelent meg. Az **AWARE** keretrendszer öt területen javasolja az MI-használat feltérképezését a pszichiátriai interjúban: hogyan használja a páciens az MI-t, miért használja, milyen kötődés alakult ki, hogyan érinti a realitásvizsgálatot és a kockázatokat, illetve milyen hatással van a mindennapi működésre. Egy másik, a pszichoterápia jövőjét vizsgáló keretcikk azt emeli ki, hogy az MI mellett is emberi terapeutához kötődő funkció maradhat például a terápiás kapcsolat tudatos használata, a kapcsolati törések felismerése és helyreállítása, a kezelés tempójának kalibrálása és a bizonytalanság melletti klinikai ítélet.
+
+**Miért fontos?** A hangsúly kezd elmozdulni attól a kérdéstől, hogy „használható-e MI a mentális egészségben?” afelé, hogy a szakemberek miként mérjék fel a páciens MI-használatát, és mely funkciókat célszerű továbbra is emberi klinikushoz kötni.
+
+**Korlátok / bizonytalanságok:** Mindkettő elsősorban elméleti, hipotézisalkotó keretrendszer. Az AWARE még nem validált pszichometriai mérőeszköz, a terápiás munkamegosztásra vonatkozó javaslatok pedig empirikus tesztelést igényelnek.
+
+**Források:**  
+[AWARE-keretrendszer – JMIR Medical Education](https://doi.org/10.2196/108766)  
+[Psychological Therapy in the Age of Large Language Models – JMIR Mental Health](https://doi.org/10.2196/103712)
+
+---
+
+### 6. A személyre szabott LLM-ek megváltoztathatják az önfeltárást és a magánszférával kapcsolatos érzéseket
+**Típus:** preprint – arXiv, 2026. szeptember 17.
+
+**Mi történt?** Egy 992 résztvevős, öt napig tartó vizsgálatban a kutatók nem személyre szabott, korábbi beszélgetésekre „emlékező”, illetve előzetes kérdőív alapján személyre szabott nyelvi modellel folytatott napi tanácskérő beszélgetéseket hasonlítottak össze. Számos időbeli változást inkább az ismételt MI-használat, mint maga a személyre szabás magyarázott. Ugyanakkor a memóriaalapú személyre szabás nagyobb önfeltárással és alacsonyabb „hátborzongató” érzéssel járt, míg a kérdőíves személyre szabásnál a résztvevők nagyobb megbánást jeleztek a személyes információk megosztása miatt.
+
+**Miért fontos?** A személyre szabás nem pusztán a válaszok hasznosságát módosíthatja: pszichológiai hatással lehet arra is, mennyire könnyen tárunk fel személyes információkat, mennyire érezzük intimnek vagy biztonságosnak az MI-vel való kapcsolatot.
+
+**Korlátok / bizonytalanságok:** Ötnapos vizsgálatról és preprintről van szó. Az eredmények kontrollált tanácskérési helyzetből származnak, ezért hosszabb távú kapcsolati, mentális egészségi vagy függőségi következményekre nem adnak választ.
+
+**Forrás:** [arXiv – eredeti preprint](https://arxiv.org/abs/2609.20077)
+
+---
+
+### 7. Milyen gyakran használják ténylegesen az MI-t érzelemszabályozásra a mindennapokban?
+**Típus:** preprint – PsyArXiv, 2026. szeptember 20.
+
+**Mi történt?** Egy 13 napos ökológiai pillanatfelvétel-vizsgálatban 3048 kínai egyetemista naponta négyszer számolt be aktuális érzelmi helyzetéről, érzelemszabályozási stratégiáiról és affektív állapotáról; összesen több mint 134 ezer mérési pont gyűlt össze. MI használatát bizalmas megosztásra, tanácskérésre vagy érzelmi támogatásra a mérések körülbelül 2%-ában jelezték, miközben a résztvevők 17,3%-a legalább egyszer használta erre. Összességében az MI-használatot nem követte következetes javulás a következő méréskor mért érzelmi állapotban.
+
+**Miért fontos?** A kutatás a laboratóriumi feladatok és általános attitűdkérdőívek helyett természetes, hétköznapi helyzetekben próbálja megbecsülni az MI érzelemszabályozási használatának tényleges gyakoriságát. Az eredmények óvatosságra intenek azzal az állítással szemben, hogy az MI-hez fordulás önmagában javítaná a rövid távú közérzetet.
+
+**Korlátok / bizonytalanságok:** Megfigyeléses, önbevallásos vizsgálat, így oksági következtetés nem vonható le. A minta kínai, jellemzően fiatal egyetemistákból áll, a kézirat pedig még nem esett át folyóirati lektoráláson.
+
+**Forrás:** [PsyArXiv – eredeti preprint](https://osf.io/preprints/psyarxiv/3gyab_v1)
+
+---
+
+### 8. Intézményi hír: multimodális MI-t teszteltek pszichiátriai mentálisállapot-vizsgálatban
+**Típus:** sajtóközlemény – UTHealth Houston, 2026. szeptember 16.; az alapjául szolgáló lektorált tanulmány szeptember 14-én jelent meg.
+
+**Mi történt?** A UTHealth Houston egy multimodális, beszédet, hangjellemzőket és látható viselkedést elemző MI-rendszer pszichiátriai mentálisállapot-vizsgálaton (mental status examination) nyújtott teljesítményéről számolt be. A mögöttes tanulmány 396 osztályozást vizsgált tíz klinikai tartományban. A modell és a pszichiáterek közötti egyezés magas volt, de elmaradt a szakértők egymás közötti egyezésétől; az MI hajlamos volt a közvetlenül megfigyelhető eltérések túlbecslésére és gyengébben kezelte az olyan következtetést igénylő jelenségeket, mint például a téveszmék.
+
+**Miért fontos?** A multimodális modellek a szöveges chatbotokon túl a pszichiátriai megfigyelés automatizált támogatása felé is terjeszkednek. A kutatás egy potenciális döntéstámogató alkalmazást tesztel, nem pusztán általános kérdés–válasz teljesítményt.
+
+**Korlátok / bizonytalanságok:** A „pszichiáter-szinthez közeli” megfogalmazás a sajtóközlemény interpretációja; a részletes eredményekben az MI–szakértő egyezés alacsonyabb volt a szakértők egymás közötti egyezésénél. A standardizált pácienseken elért teljesítményt valódi klinikai populációban külön kell validálni. Maga a lektorált tanulmány két nappal a kért időablak előtt jelent meg, ezért ezt a tételt kizárólag a szeptember 16-i intézményi hír miatt szerepeltetem.
+
+**Források:**  
+[UTHealth Houston – szeptember 16-i sajtóközlemény](https://www.uth.edu/news/story/uthealth-houston-developed-ai-tool-nears-psychiatrist-level-accuracy)  
+[npj Mental Health Research – eredeti tanulmány](https://www.nature.com/articles/s44184-026-00245-y)
+
+---
+
+## Magyar vonatkozású hírek
+
+### 1. ELTE-kutatás került ismét nemzetközi tudományos hírekbe: mi befolyásolja az egyetemisták jövőbeli ChatGPT-használatát?
+**Típus:** intézményi tudománykommunikáció / sajtóhír, 2026. szeptember 16.; az alapjául szolgáló tanulmány korábban jelent meg.
+
+**Mi történt?** A Phys.org szeptember 16-án az Eötvös Loránd Tudományegyetem közreműködésével ismertette Chaman Verma, az ELTE Informatikai Kar kutatójának munkáját. A 166 egyetemista kérdőíves adatait értelmezhető gépi tanulási módszerekkel elemző tanulmány azt vizsgálta, milyen tényezők kapcsolódnak ahhoz, hogy a hallgatók a jövőben is használni kívánják-e a ChatGPT-t tanulási célokra. A tanulás támogatása, a hozzáférhetőség, az akadémiai bevonódás és a használhatóság fontos tényezőknek mutatkoztak; a megbízhatóság, pontosság és tanulmányi integritás szintén szerepet játszott a hallgatók értékelésében.
+
+**Miért fontos?** Magyar intézményi vonatkozásban ez közvetlenül kapcsolódik az MI-használat pszichológiai és oktatáspszichológiai oldalához: nem pusztán azt méri, használják-e a hallgatók a technológiát, hanem a továbbhasználati szándék mögötti attitűdöket és észlelt előnyöket vizsgálja. Az eredmények az MI-műveltségi programok és az egyetemi használati szabályok kialakításához is adhatnak támpontot.
+
+**Korlátok / bizonytalanságok:** A minta kicsi (N=166), a vizsgálat a jövőbeli használati **szándékot**, nem pedig tényleges hosszú távú viselkedést vizsgálta, és exploratív gépi tanulási elemzésre épült. Fontos dátumkorrekció: maga a lektorált tanulmány már 2026 júniusában megjelent, az ELTE saját intézményi híre pedig szeptember 10-i; a kért időablakba a szeptember 16-i nemzetközi tudományos újraközlés esik. Ezért nem új szeptember 16-i kutatási eredményként, hanem magyar vonatkozású tudományos hírként szerepel.
+
+**Források:**  
+[Phys.org – 2026. szeptember 16-i hír](https://phys.org/news/2026-09-chatgpt-university-students-ai.html)  
+[Eredeti lektorált tanulmány – Computers & Education: Artificial Intelligence](https://doi.org/10.1016/j.caeai.2026.100613)  
+[ELTE – eredeti intézményi összefoglaló](https://www.elte.hu/en/chatgpt-at-university-what-determines-whether-students-will-continue-using-it)
+
+---
+
+### Hazai lefedettségi megjegyzés
+
+A **2026. szeptember 16–20. közötti szigorú időablakban nem találtam további olyan új, érdemi magyar lektorált tanulmányt vagy preprintet, amely egyértelműen az MI és a pszichológia közös kutatási területére esne**. Több magyar intézményi MI-hír és rendezvénybejelentés jelent meg ebben az időszakban, de ezek jellemzően általános MI-, oktatási, üzleti vagy jogi témájúak voltak, ezért a témához csak lazán kapcsolódó tételekkel nem bővítettem mesterségesen a listát.
+
+## A hét fő tanulságai
+
+- A legerősebb új eredmények egyik közös témája az **MI-re való pszichológiai ráhagyatkozás**: a bizalomkalibráció, a megnyugtatáskeresés, az önfeltárás és az érzelemszabályozási használat egyaránt kutatási fókuszba került.
+- A mentális egészség területén már megjelentek **randomizált klinikai vizsgálatok**, ugyanakkor a tartós hatásokról továbbra is kevés a bizonyíték.
+- A klinikai szakirodalom egyre kevésbé kezeli az MI-t egyszerűen „terapeuta vagy nem terapeuta” kérdésként; inkább azt próbálja meghatározni, mely feladatok automatizálhatók, és melyek igényelnek továbbra is emberi kapcsolatot és klinikai ítéletet.
+- A friss eredmények jelentős része továbbra is **preprint, rövid követésű vagy speciális mintára épül**, ezért különösen indokolt kerülni az olyan általánosításokat, hogy az MI bizonyítottan javítja vagy rontja a mentális egészséget.
