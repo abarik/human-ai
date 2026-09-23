@@ -1,0 +1,185 @@
+---
+title: "MI és pszichológia – 2026. augusztus 24-30."
+author: "OpenAI - ChatGpt"
+date: "2026-08-31"
+---
+
+
+# Heti tudományos összefoglaló: MI × pszichológia
+
+**Időszak:** 2026. augusztus 24–30.  
+**Téma:** mesterséges intelligencia × pszichológia, mentális egészség, kogníció és ember–MI interakció
+
+> **Válogatási elv:** Elsősorban azokat a tételeket vettem fel, amelyek 2026. augusztus 24–30. között jelentek meg online, és közvetlenül kapcsolódnak az MI pszichológiai vagy mentális egészségi alkalmazásaihoz és hatásaihoz. Előnyt kaptak az eredeti, lektorált tanulmányok és az elsődleges intézményi források. A preprinteket külön jelölöm, mert ezek még nem estek át teljes folyóirati lektoráláson.
+
+---
+
+## Nemzetközi hírek
+
+### 1. A „mentális egészségi beszélgetés” definíciójától függően több mint húszszoros eltérés adódik a ChatGPT-beszélgetések gyakoriságában
+
+**Típus:** lektorált tanulmány – *JAMA Network Open*, 2026. augusztus 24.
+
+**Mi történt?**  
+A kutatók 620 699 nyilvánosan hozzáférhető ChatGPT-beszélgetést elemeztek a WildChat-4.8M adatbázisból, és egy validált LLM-alapú osztályozóval becsülték meg, milyen gyakoriak a mentális egészséggel kapcsolatos interakciók. Szűk definíció mellett – amikor egy azonosítható személy kifejezetten pszichológiai problémával kapcsolatban kért segítséget – a beszélgetések 0,21%-a számított mentális egészségi beszélgetésnek. Tágabb definícióval, amely már a mentális egészség periférikus említését is figyelembe vette, ez az arány 4,90% volt: több mint 23-szor magasabb.
+
+**Miért fontos?**  
+Az eredmény azt mutatja, hogy az MI-chatbotok mentális egészségi használatáról közölt gyakorisági adatok önmagukban könnyen félrevezetők lehetnek. A krízishelyzet, a klinikai segítségkérés és az általános érzelmi vagy kapcsolati beszélgetés külön kategóriák; a szerzők ezért többszintű osztályozási rendszert javasolnak az MI-rendszerek biztonsági monitorozására.
+
+**Korlátok / bizonytalanságok:**  
+A nyilvánosságra került beszélgetések nem tekinthetők a ChatGPT teljes felhasználói populációját reprezentáló mintának. Az automatikus osztályozó érzékenysége 87%, specificitása 95%, pozitív prediktív értéke viszont csak 67% volt. A tanulmány azt sem vizsgálta, hogy a javasolt osztályozási rendszer javítaná-e a felhasználók mentális egészségi kimeneteleit.
+
+**Forrás:**  
+[JAMA Network Open – eredeti tanulmány](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2853211)
+
+---
+
+### 2. Nagy áttekintés: az MI bizonyítékai erősebbek a mentális zavarok szűrésében, mint a tartós terápiás alkalmazásokban
+
+**Típus:** lektorált umbrella review – *Journal of Psychiatric and Mental Health Nursing*, 2026. augusztus 24.
+
+**Mi történt?**  
+Egy új „review of reviews” 54 korábbi szisztematikus áttekintést minőségileg értékelt, és közülük 27 közepes vagy magas módszertani minőségű áttekintés eredményeit szintetizálta. Ezek összesen több mint 14 millió résztvevő adataira támaszkodtak. A legerősebb bizonyítékok az MI depresszió, szorongás, stressz, PTSD és szuicid kockázat felismerésében, illetve kockázatbecslésében betöltött szerepére vonatkoztak. Az MI-chatbotok és mobil alkalmazások hozzáférést, monitorozást és önmenedzselést támogató szerepére is találtak kedvező eredményeket, de a tartós terápiás hatások bizonyítékai lényegesen gyengébbek voltak.
+
+**Miért fontos?**  
+A tanulmány jó ellensúly a generatív MI pszichológiai alkalmazásait övező erős várakozásokkal szemben: a jelenlegi bizonyítékok alapján az MI legjobban kiegészítő, szűrő- és döntéstámogató eszközként alátámasztott. Az áttekintés szerint a legígéretesebb modell az ember és MI együttműködése, amelyben a klinikai ítélet és felelősség az egészségügyi szakembernél marad.
+
+**Korlátok / bizonytalanságok:**  
+Az umbrella review örökli az alapjául szolgáló áttekintések heterogenitását és esetleges torzításait. Különböző MI-technológiákat, klinikai célokat és populációkat vontak össze, ezért az eredmények nem alkalmazhatók automatikusan egy konkrét chatbotra vagy terápiás rendszerre. A szerzők maguk is kiemelik a külső validáció, a transzparencia és az alulreprezentált populációkra vonatkozó bizonyítékok hiányát.
+
+**Forrás:**  
+[Wiley – eredeti tanulmány](https://onlinelibrary.wiley.com/doi/10.1111/jpm.70180)
+
+---
+
+### 3. Az LLM-ekkel történő szövegjavítás csökkentheti az egyéni nyelvi különbségeket
+
+**Típus:** lektorált eredeti kutatás – *Nature Human Behaviour*, 2026. augusztus 24.
+
+**Mi történt?**  
+Három vizsgálat, hét adatbázis és több mint 880 000 szöveg elemzése alapján a kutatók arra jutottak, hogy az LLM-alapú írássegítők használata a nyelvi változatosság csökkenésével járhat. Amikor különböző LLM-ek szövegeket javítottak vagy újrafogalmaztak, az alapvető tartalom nagyrészt megmaradt, ugyanakkor az írás komplexitásának varianciája modelltől és adathalmaztól függően 21–50%-kal csökkent. Bizonyos, életkorhoz, nemhez, ideológiai vagy más személyes tulajdonságokhoz társított nyelvi jelzések szintén gyengültek.
+
+**Miért fontos?**  
+A nyelv pszichológiai, személyiség- és társadalmi információkat is hordoz. Ha az MI nagy léptékben homogenizálja az írásstílust, az befolyásolhatja azokat a pszichológiai, egészségügyi vagy társadalomtudományi módszereket, amelyek szövegből próbálnak következtetni egyéni jellemzőkre. A jelenség a személyes önkifejezés szempontjából is releváns.
+
+**Korlátok / bizonytalanságok:**  
+A valós világban megfigyelt trendek egy része korrelációs, ezért az LLM-ek nem tekinthetők minden nyelvi homogenizáció bizonyított okának. A kontrollált átírási vizsgálatok erősítik a feltételezett mechanizmust, de a tanulmány nem bizonyítja, hogy a nyelvi homogenizáció ténylegesen rontja például a pszichológiai diagnosztikát vagy a kiválasztási döntéseket.
+
+**Forrás:**  
+[Nature Human Behaviour – eredeti tanulmány](https://www.nature.com/articles/s41562-026-02550-0)
+
+---
+
+### 4. Klinikusok hasonló minőségűnek értékelték az LLM és az ember által írt iCBT-válaszokat – de ez még nem klinikai hatásvizsgálat
+
+**Típus:** lektorált pilot kísérlet – *JMIR Mental Health*, 2026. augusztus 26.
+
+**Mi történt?**  
+Egy preregisztrált, vak értékelési kísérletben 54 megfelelő klinikai tapasztalattal rendelkező szakember értékelt öt fiktív páciensüzenetre adott emberi és LLM-generált válaszokat egy internetalapú kognitív viselkedésterápiás (iCBT) környezetben. Az általános minőség értékelése nagyon hasonló volt: az LLM-válaszok átlaga 4,00, az emberi válaszoké 3,96 volt az ötfokú skálán. Hasonló eredmény született a segítőkészség, professzionalizmus és protokollkövetés terén; az LLM-válaszok empátiáját valamivel magasabbra értékelték.
+
+**Miért fontos?**  
+A kutatás reálisabb felhasználási módot tesztel, mint az „MI-terapeuta” elképzelés: az LLM terapeutát támogató szövegezési eszközként csökkentheti a strukturált online kezelések munkaigényét. A kvalitatív értékelések ugyanakkor arra is rámutattak, hogy az MI szövegei időnként túl általánosak, túlságosan empatikusak és nem eléggé kihívók voltak.
+
+**Korlátok / bizonytalanságok:**  
+Fiktív páciensüzenetekről és szakértői szövegértékelésről van szó, nem valódi terápiáról. Nem mértek betegkimeneteleket, terápiás szövetséget, hosszú távú hatást vagy nemkívánatos eseményeket. Az eredmény tehát azt mutatja, hogy az LLM képes elfogadható terápiás jellegű szövegeket előállítani, nem azt, hogy ugyanolyan hatékony terapeutaként, mint egy ember.
+
+**Forrás:**  
+[JMIR Mental Health – eredeti tanulmány](https://mental.jmir.org/2026/1/e96835)
+
+---
+
+### 5. LLM + virtuális valóság + CBT: előzetes randomizált vizsgálat tanulmányi szorongás kezelésére
+
+**Típus:** lektorált, előzetes randomizált kontrollált vizsgálat – *Frontiers in Public Health*, 2026. augusztus 27.
+
+**Mi történt?**  
+Hatvan, tanulmányi szorongással küzdő egyetemistát három, egyenként 20 fős csoportba randomizáltak: LLM-mel és virtuális valósággal támogatott CBT-re, hagyományos személyes CBT-re vagy minimális támogatást kapó kontrollcsoportra. A négyhetes LLM–VR–CBT rendszer az ERNIE Bot 4.0-t, retrieval-augmented generationt, CBT-protokollokat és virtuális stresszhelyzeteket kombinált. Mindkét aktív kezelésben nagyobb mértékben csökkent a tanulmányi szorongás és az átlagos szívfrekvencia, mint a kontrollcsoportban. A két aktív kezelés közötti különbség nem volt statisztikailag szignifikáns.
+
+**Miért fontos?**  
+Ez azon kevés vizsgálatok egyike, amelyek generatív MI-t strukturált pszichoterápiás módszerrel kombinálva, kontrollcsoportos elrendezésben tesztelnek. A rendszerben az LLM nem önálló terapeuta volt: tudásbázis, előre meghatározott CBT-eljárások, biztonsági szabályok és emberi felügyelet korlátozták működését.
+
+**Korlátok / bizonytalanságok:**  
+A minta nagyon kicsi, a vizsgálat egyetlen centrumban zajlott, és csak rövid távú hatást mért. A kutatást nem regisztrálták előzetesen nyilvános klinikai vizsgálati adatbázisban, és a nemkívánatos eseményeket sem előre meghatározott végpontként gyűjtötték. Mivel nem végeztek ekvivalencia- vagy noninferioritási próbát, abból, hogy a két aktív kezelés között nem volt szignifikáns különbség, **nem következik**, hogy az MI-alapú kezelés egyenértékű lenne a hagyományos CBT-vel.
+
+**Forrás:**  
+[Frontiers in Public Health – eredeti tanulmány](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1874822/full)
+
+---
+
+### 6. Nem az MI-használat puszta gyakorisága, hanem a használat módja társult legerősebben depresszióhoz és szorongáshoz
+
+**Típus:** lektorált tanulmány, online előközlés – *Journal of Affective Disorders*, 2026. augusztus 27.
+
+**Mi történt?**  
+Egy 5748 kínai egyetemistára kiterjedő keresztmetszeti vizsgálat négy generatív-MI-használati profilt azonosított. A „Problem-Dependent” csoport – a minta körülbelül 15%-a – erős menekülési/eszkapista motivációval, alacsonyabb MI-műveltséggel és nagyobb függésszerű használattal jellemezhető, és náluk mérték a legmagasabb depresszió- és szorongásszinteket. Ezzel szemben az eszközjellegű, magasabb MI-műveltséggel társuló „Rational-Tool” profil kedvezőbb pszichológiai mutatókkal járt.
+
+**Miért fontos?**  
+Az eredmény azt sugallja, hogy az MI és a mentális egészség kapcsolatának vizsgálatában a „mennyi időt használja valaki?” kérdés önmagában kevés. A használat motivációja, a függés, az MI-műveltség és az önszabályozási jellemzők valószínűleg fontosabb megkülönböztető tényezők.
+
+**Korlátok / bizonytalanságok:**  
+A vizsgálat keresztmetszeti, ezért az okság iránya nem állapítható meg. Lehetséges például, hogy a depressziós vagy szorongásos tünetek fokozzák a menekülési célú MI-használatot, és nem fordítva. A vizsgálat négy nyugat-kínai egyetem önbevallásos mintájára épült, így más életkorokra és kultúrákra korlátozottan általánosítható.
+
+**Forrás:**  
+[Journal of Affective Disorders / ScienceDirect – eredeti tanulmány](https://www.sciencedirect.com/science/article/pii/S0165032726012814)
+
+---
+
+### 7. A serdülők fele használt már generatív chatbotot társas vagy érzelmi támogatásra egy nagy iskolai felmérés szerint
+
+**Típus:** **preprint – még nem lektorált**, JMIR Preprints, 2026. augusztus 24.
+
+**Mi történt?**  
+A szerzők 2458, 11–18 éves serdülőt kérdeztek meg nyolc texasi iskolában. A válaszadók 49,5%-a számolt be arról, hogy használt generatív MI-chatbotot társas vagy érzelmi támogatásra; 20,7% mentális egészségi problémát is megosztott MI-vel, 13,4% pedig kifejezetten mentális állapotának javítása céljából használta. A résztvevők 65%-a úgy vélte, hogy az MI neki vagy egy barátjának már segített, miközben 9% valamilyen káros tapasztalatról is beszámolt.
+
+**Miért fontos?**  
+A tanulmány arra utal, hogy a serdülők egy része már jóval azelőtt érzelmi vagy mentális egészségi szerepet ad az általános célú chatbotoknak, hogy ezek klinikailag validált eszközzé válnának. A használat ráadásul már a korai serdülőkorban megjelenik, ezért az MI-műveltség, a mentális egészségi műveltség és az életkornak megfelelő biztonsági megoldások kérdése különösen fontos.
+
+**Korlátok / bizonytalanságok:**  
+A kézirat jelenleg lektorálás alatt áll, tehát az eredményeket előzetesnek kell tekinteni. A minta nyolc texasi charter iskolából származott, nem reprezentálja az amerikai vagy a nemzetközi serdülőpopulációt. Önbeszámolós, keresztmetszeti adatokról van szó, így az MI-használat mentális egészségre gyakorolt ok-okozati hatásáról nem vonható le következtetés.
+
+**Forrás:**  
+[JMIR Preprints – eredeti preprint](https://preprints.jmir.org/preprint/110325)
+
+---
+
+## Magyar vonatkozású hírek
+
+### 1. Semmelweis Egyetem: szakmai vita arról, hogy az MI miként változtatja meg a gondolkodást és a tanulást
+
+**Típus:** intézményi közlemény / szakmai rendezvény – **nem kutatási tanulmány**, Semmelweis Egyetem, közlemény: 2026. augusztus 24.; esemény: augusztus 26.
+
+**Mi történt?**  
+A Semmelweis Egyetem 8. Nyári Egyetemén augusztus 26-án „Mesterséges intelligencia: Okosabb leszel tőle vagy kényelmesebb?” címmel tartottak pódiumbeszélgetést. Dr. Pollner Péter, az Egészségügyi Adattudományi és MI Tudásközpont vezető MI-szakértője és Dr. Báskay János MI-fejlesztő többek között azt tárgyalta, mire képes jelenleg az MI, hogyan érdemes használni, és hogyan alakíthatja át a gondolkodást, a tanulást és a munkát. A későbbi intézményi beszámoló szerint a magyar nyelv sajátosságainak MI-használatra gyakorolt hatása is téma volt.
+
+**Miért fontos?**  
+Bár nem új empirikus kutatásról van szó, a program jelzi, hogy egy vezető magyar egészségtudományi egyetem intézményi szinten már nem pusztán technológiai kérdésként foglalkozik az MI-vel, hanem annak kognitív, tanulási és viselkedési következményeivel is. Ez különösen releváns az egészségügyi szakemberek MI-műveltsége szempontjából.
+
+**Korlátok / bizonytalanságok:**  
+A pódiumbeszélgetésből nem származott publikált új adat vagy kísérleti eredmény. Az elhangzott szakértői megállapításokat ezért nem szabad empirikusan igazolt hatásként kezelni.
+
+**Forrás:**  
+[Semmelweis Egyetem – 2026. augusztus 24-i intézményi közlemény](https://semmelweis.hu/mediasarok/2026/08/24/sajtomeghivo-8-nyari-egyetem/)
+
+[Kiegészítő intézményi oldal – Egészségügyi Adattudományi és MI Tudásközpont](https://semmelweis.hu/emk/tudastranszfer/egeszsegugyi-adattudomanyi-es-mesterseges-intelligencia-tudaskozpont/)
+
+---
+
+### Hazai lefedettségi megjegyzés
+
+A **2026. augusztus 24–30. közötti szigorú időablakban nem találtam olyan új, közvetlenül az MI és a pszichológia metszetébe tartozó, magyar szerzőkhöz vagy magyar kutatóintézethez kapcsolódó lektorált empirikus tanulmányt vagy preprintet**, amelyet megfelelően erős elsődleges forrással ebbe a heti válogatásba érdemes lenne felvenni.
+
+A héten voltak további magyar MI-oktatási és intézményi programok – például a Semmelweis Egyetem Pető András Karán augusztus 24–28. között MI-vel kapcsolatos oktatásfejlesztési program –, ezek azonban nem közöltek új pszichológiai kutatási eredményeket, ezért nem szerepelnek önálló tudományos hírként.
+
+**Kapcsolódó intézményi forrás:**  
+[Semmelweis Egyetem – oktatásfejlesztési programok](https://semmelweis.hu/oktatasmodszertan/kepzesek/konzultacio/)
+
+---
+
+## A hét fő tanulságai
+
+- **Az MI és a mentális egészség kapcsolatát nem lehet pusztán a használat gyakoriságával leírni.** A definíció, a használat motivációja és a függésszerű viselkedés erősen befolyásolja, milyen eredményt kapunk.
+- **A klinikai bizonyítékok továbbra is erősebbek az MI-vel támogatott szűrésre és döntéstámogatásra, mint az autonóm MI-terápiára.** A hét új tanulmányai közül több is inkább ember–MI együttműködést vizsgált.
+- **Megjelentek az első kontrollált vizsgálatok az LLM-ek pszichoterápiás folyamatba történő beillesztéséről**, de a minták még kicsik, az utánkövetés rövid, és a biztonsági végpontok sokszor hiányosak.
+- **A serdülők érzelmi célú chatbot-használata különösen fontos kutatási és biztonsági területté válik.** Az augusztus 24-i preprint alapján az ilyen használat már a korai serdülőkorban megjelenhet, ugyanakkor az eredmény még nem lektorált.
+- **Az MI pszichológiai hatása nem korlátozódik a mentális egészségre.** A *Nature Human Behaviour* kutatása szerint az írássegítő LLM-ek az önkifejezés és a nyelvben hordozott egyéni különbségek mérhetőségét is módosíthatják.
+- **Magyarországon ebben az egyhetes periódusban a témához kapcsolódó intézményi diskurzus láthatóbb volt, mint az új publikált empirikus kutatás.**

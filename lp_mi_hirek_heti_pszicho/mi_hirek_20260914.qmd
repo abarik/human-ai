@@ -1,7 +1,7 @@
 ---
-title: "MI és pszichológia – 2022. nov. 1. - 2026. aug. 30."
+title: "MI és pszichológia – 2022. nov. 1. - 2026. aug. 23."
 author: "OpenAI - ChatGpt"
-date: "2026-08-30"
+date: "2026-08-23"
 ---
 
 
