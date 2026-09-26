@@ -4,9 +4,6 @@ author: "OpenAI - ChatGpt"
 date: "2026-09-20"
 ---
 
-
-# Napi MI-hírösszefoglaló — 2026. szeptember 20.
-
 *Reggeli kiadás — a válogatás elsősorban a szeptember 18–20. között megjelent, illetve frissült hírekre épül.*
 
 A mai nemzetközi MI-kép három fő témája: **az MI-szabályozás intézményesedése, a frontier-modellek biztonsági ellenőrzése és a technológia óriási tőke- és infrastruktúraigénye**. Európában közben egyre hangsúlyosabb kérdés, hogy az MI termelékenységi előnyei mennyire ellensúlyozzák az energia-, egyenlőtlenségi és technológiai függőségi kockázatokat.

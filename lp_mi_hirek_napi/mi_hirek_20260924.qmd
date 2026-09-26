@@ -4,7 +4,6 @@ author: "OpenAI - ChatGpt"
 date: "2026-09-24"
 ---
 
-# Napi MI-hírösszefoglaló — 2026. szeptember 24.
 
 *Reggeli kiadás — frissítve 2026. szeptember 24-én, 09:42 CEST. A nemzetközi válogatás főként az elmúlt 24 órában megjelent vagy frissült hírekre épül; a magyar blokk a szeptember 23–24-i legfontosabb hazai fejleményeket emeli ki.*
 

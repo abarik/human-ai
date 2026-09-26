@@ -4,9 +4,6 @@ author: "OpenAI - ChatGpt"
 date: "2026-09-22"
 ---
 
-
-# Napi MI-hírösszefoglaló — 2026. szeptember 22.
-
 *Reggeli kiadás — frissítve 2026. szeptember 22-én. A nemzetközi válogatás elsősorban az elmúlt 24–72 óra fejleményeire épül; a magyar blokkban a ma reggeli hírek mellett az elmúlt hét legfontosabb hazai MI-fejleményei is szerepelnek.*
 
 A mai képben három téma emelkedik ki: **Kína gyorsítja a saját MI-chip- és modellfejlesztését, egyre konkrétabbá válik az amerikai–kínai MI-biztonsági párbeszéd, miközben a frontier-MI finanszírozási igénye már a globális kötvénypiacokat is átformálja.**

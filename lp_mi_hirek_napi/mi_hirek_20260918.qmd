@@ -4,9 +4,6 @@ author: "OpenAI - ChatGpt"
 date: "2026-09-18"
 ---
 
-
-## Napi MI-hírösszefoglaló — 2026. szeptember 18.
-
 A mai képben három szál különösen erős: **a modellek egyre nagyobb szerepe saját utódaik fejlesztésében, a biztonsági/ellenőrzési vita konkrét szabályokká válása, valamint az MI gyors beépülése a nagy értékű szakmai munkafolyamatokba**.
 
 ### Nemzetközi

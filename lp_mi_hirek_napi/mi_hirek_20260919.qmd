@@ -4,9 +4,6 @@ author: "OpenAI - ChatGpt"
 date: "2026-09-19"
 ---
 
-
-# Napi MI-hírösszefoglaló — 2026. szeptember 19.
-
 *Reggeli kiadás — a válogatás elsősorban az elmúlt 24–72 óra fejleményeire épül.*
 
 A mai nemzetközi MI-hírképet három téma uralja: **az autonóm MI-ügynökök ellenőrizhetősége, a független biztonsági felügyelet intézményesülése, valamint a frontier-MI elképesztő tőke- és infrastruktúraigénye**. Magyarországon továbbra is az MI-kutatás elszámoltathatósága, a chatbotok biztonsági következményei és az MI munkába, illetve tudományba való beépülése a legfontosabb téma.

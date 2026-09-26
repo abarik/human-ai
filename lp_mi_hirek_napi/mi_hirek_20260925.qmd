@@ -4,8 +4,6 @@ author: "OpenAI - ChatGpt"
 date: "2026-09-25"
 ---
 
-# Napi MI-hírösszefoglaló — 2026. szeptember 25.
-
 *Reggeli kiadás — frissítve 2026. szeptember 25-én, 09:52 CEST. A válogatás elsősorban a szeptember 23–25. között megjelent vagy érdemben frissült hírekre épül.*
 
 A mai nemzetközi MI-hírképet három folyamat határozza meg: **az autonóm MI-ügynökök valós rendszerekben okozott biztonsági incidensei, az MI egyre mélyebb beépülése a tudományba és a kiberbiztonságba, valamint a frontier-modellek köré épülő hardveres és pénzügyi infrastruktúra gyors növekedése**. Magyarországon a banki MI-használat, az EU AI Act gyakorlati értelmezése, a társadalmi MI-várakozások és a konkrét kutatási alkalmazások kerülnek előtérbe.

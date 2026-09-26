@@ -4,9 +4,6 @@ author: "OpenAI - ChatGpt"
 date: "2026-09-21"
 ---
 
-
-# Napi MI-hírösszefoglaló — 2026. szeptember 21.
-
 *Reggeli kiadás — a válogatás elsősorban az elmúlt 24–72 óra friss fejleményeire épül.*
 
 A mai nemzetközi MI-hírkép középpontjában **az amerikai–kínai biztonsági párbeszéd, az autonóm MI-ügynökök ellenőrizhetősége, valamint a frontier-modellek körüli szabályozási és finanszírozási verseny** áll. Magyarországon a hétvége miatt kevesebb új bejelentés érkezett, ezért a hazai blokk az elmúlt napok legfontosabb, továbbra is aktuális fejleményeit emeli ki.
