@@ -151,7 +151,14 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
 }
 
 /* Navigation uses explicit colors to override the existing dark SCSS. */
+@property --emi-sidebar-light-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 145deg;
+}
+
 #quarto-sidebar {
+  isolation: isolate;
   background-color: var(--emi-sidebar);
   /* Echo the title's arcs, fading gently below the navigation. */
   background-image:
@@ -161,6 +168,32 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
   background-repeat: no-repeat;
   color: var(--emi-ink);
   border-right: 1px solid var(--emi-line);
+}
+
+/* The moving light is clipped to the existing arcs, behind the menu text. */
+#quarto-sidebar::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  background-image:
+    linear-gradient(to bottom, transparent, var(--emi-sidebar) 36rem),
+    conic-gradient(from var(--emi-sidebar-light-angle) at 115% -2rem,
+      transparent 0deg, var(--emi-accent) 14deg, transparent 28deg);
+  -webkit-mask-image: repeating-radial-gradient(circle at 115% -2rem,
+    transparent 0 29px, #000 30px 31px, transparent 32px 61px);
+  mask-image: repeating-radial-gradient(circle at 115% -2rem,
+    transparent 0 29px, #000 30px 31px, transparent 32px 61px);
+  animation: emi-sidebar-light 12s linear infinite;
+}
+
+@keyframes emi-sidebar-light {
+  0% { --emi-sidebar-light-angle: 145deg; opacity: 0; }
+  10% { opacity: .3; }
+  60% { opacity: .3; }
+  75%, 100% { --emi-sidebar-light-angle: 280deg; opacity: 0; }
 }
 
 #quarto-sidebar .sidebar-title {
@@ -390,10 +423,12 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  #quarto-sidebar::before { animation: none; display: none; }
   a, button, input, select { transition: none; }
 }
 
 @media print {
+  #quarto-sidebar::before { animation: none; display: none; }
   body { background: #fff !important; color: #000 !important; }
   #title-block-header, #kutatási-területeink > ul > li, #kapcsolat {
     background: transparent !important;
