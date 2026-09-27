@@ -1,1 +1,407 @@
-/* css styles */
+/* Ember–MI: editorial typography and a restrained research-inspired palette.
+   Quarto's body classes follow both the theme switch and system preference. */
+:root {
+  --emi-bg: #f8f7f3;
+  --emi-surface: #ffffff;
+  --emi-sidebar: #f0f2ee;
+  --emi-ink: #23343d;
+  --emi-heading: #142e39;
+  --emi-title-start: #234761;
+  --emi-title-middle: #23635f;
+  --emi-title-end: #397566;
+  --emi-section-heading: #28635f;
+  --emi-muted: #586972;
+  --emi-accent: #176b68;
+  --emi-accent-hover: #104e4c;
+  --emi-tint: #e6efea;
+  --emi-line: #d5dfda;
+  --emi-gold: #ac8241;
+  --emi-pattern: rgba(23, 107, 104, .09);
+  --emi-shadow: 0 8px 24px rgba(24, 48, 54, .05);
+}
+
+body.quarto-dark {
+  --emi-bg: #151e27;
+  --emi-surface: #1c2934;
+  --emi-sidebar: #18232d;
+  --emi-ink: #d9e2e7;
+  --emi-heading: #eef4f5;
+  --emi-title-start: #bed0e4;
+  --emi-title-middle: #a6d3cf;
+  --emi-title-end: #d9dfcd;
+  --emi-section-heading: #acd1ca;
+  --emi-muted: #a8bac3;
+  --emi-accent: #88d3c5;
+  --emi-accent-hover: #b8e9df;
+  --emi-tint: #243d40;
+  --emi-line: #354650;
+  --emi-gold: #d5b47c;
+  --emi-pattern: rgba(136, 211, 197, .09);
+  --emi-shadow: 0 8px 24px rgba(0, 0, 0, .13);
+  color-scheme: dark;
+}
+
+body.quarto-light { color-scheme: light; }
+
+body {
+  background-color: var(--emi-bg);
+  color: var(--emi-ink);
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: var(--emi-tint); color: var(--emi-heading); }
+
+main.content { padding-bottom: 3rem; min-width: 0; }
+
+main.content :is(p, li, td) { overflow-wrap: anywhere; }
+main.content p { margin-bottom: 1.25rem; }
+
+h1, h2, h3, h4, h5, h6 { color: var(--emi-heading); }
+
+main.content :is(h1, h2, h3, h4, h5, h6) {
+  color: var(--emi-section-heading);
+}
+
+#title-block-header h1.title { color: var(--emi-title-start); }
+
+#title-block-header {
+  position: relative;
+  isolation: isolate;
+  padding: clamp(1.5rem, 4vw, 3rem) clamp(1.25rem, 3vw, 2.5rem);
+  margin: 1rem 0 2rem;
+  border: 1px solid var(--emi-line);
+  border-top: 3px solid var(--emi-accent);
+  border-radius: 3px 3px 16px 3px;
+  background: var(--emi-surface);
+  box-shadow: var(--emi-shadow);
+}
+
+/* Decorative concentric arcs stay behind the title and contain no content. */
+#title-block-header::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: repeating-radial-gradient(circle at 105% -15%,
+    transparent 0 29px, var(--emi-pattern) 30px 31px, transparent 32px 61px);
+  mask-image: linear-gradient(to right, transparent 35%, #000);
+}
+
+#title-block-header h1.title {
+  max-width: 24ch;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 3.5vw, 3.2rem);
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -.035em;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+#title-block-header .subtitle {
+  margin-top: 1rem;
+  color: var(--emi-muted);
+  line-height: 1.5;
+}
+
+#title-block-header .quarto-title-meta { color: var(--emi-muted); }
+#title-block-header .quarto-title-meta-heading {
+  font-size: .7rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
+#title-block-header .quarto-title-meta-contents { font-size: .88rem; }
+
+#title-block-header + p {
+  font-size: 1.1rem;
+  line-height: 1.85;
+  color: var(--emi-heading);
+}
+
+main.content section > :is(h1, h2) {
+  margin-top: 2.6rem;
+  margin-bottom: 1.15rem;
+  padding-bottom: .65rem;
+  border-bottom: 1px solid var(--emi-line);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.5rem, 2.3vw, 1.95rem);
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -.02em;
+}
+
+main.content h3 { font-size: 1.2rem; line-height: 1.45; margin-top: 2rem; }
+main.content li { margin-bottom: .5rem; }
+main.content li::marker { color: var(--emi-accent); }
+
+a { color: var(--emi-accent); text-underline-offset: .2em; }
+a:hover { color: var(--emi-accent-hover); }
+main.content p a { text-decoration-thickness: 1px; }
+a, button, input, select { transition: color .16s ease, background-color .16s ease, border-color .16s ease; }
+:is(a, button, input, select, [tabindex]):focus-visible {
+  outline: 3px solid var(--emi-accent);
+  outline-offset: 4px;
+  border-radius: 3px;
+}
+
+/* Navigation uses explicit colors to override the existing dark SCSS. */
+#quarto-sidebar {
+  background-color: var(--emi-sidebar);
+  /* Echo the title's arcs, fading gently below the navigation. */
+  background-image:
+    linear-gradient(to bottom, transparent, var(--emi-sidebar) 36rem),
+    repeating-radial-gradient(circle at 115% -2rem,
+      transparent 0 29px, var(--emi-pattern) 30px 31px, transparent 32px 61px);
+  background-repeat: no-repeat;
+  color: var(--emi-ink);
+  border-right: 1px solid var(--emi-line);
+}
+
+#quarto-sidebar .sidebar-title {
+  padding-bottom: 1.25rem !important;
+  margin-bottom: 1rem !important;
+  border-bottom: 1px solid var(--emi-line);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.85rem;
+  letter-spacing: -.045em;
+}
+
+#quarto-sidebar .sidebar-title > a {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  color: var(--emi-title-start);
+}
+
+/* Solid colors remain the fallback for print and high-contrast displays. */
+@media screen and (forced-colors: none) {
+  @supports ((background-clip: text) or (-webkit-background-clip: text)) {
+    #quarto-sidebar .sidebar-title > a,
+    #title-block-header h1.title {
+      background-image: linear-gradient(110deg,
+        var(--emi-title-start) 0%,
+        var(--emi-title-middle) 55%,
+        var(--emi-title-end) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      -webkit-text-fill-color: transparent;
+    }
+
+    #quarto-sidebar .sidebar-title > a::selection,
+    #title-block-header h1.title::selection {
+      -webkit-text-fill-color: var(--emi-heading);
+    }
+  }
+}
+
+/* A decorative SVG mask inherits the palette without duplicating the link label. */
+#quarto-sidebar .sidebar-title > a::before {
+  content: "";
+  display: inline-block;
+  flex: 0 0 1.15em;
+  width: 1.15em;
+  height: 1.15em;
+  background-color: var(--emi-accent);
+  -webkit-mask: url("ember-mi-logo.svg") center / contain no-repeat;
+  mask: url("ember-mi-logo.svg") center / contain no-repeat;
+}
+#quarto-sidebar a { color: var(--emi-muted); }
+#quarto-sidebar .sidebar-item-container { margin: .2rem 0; }
+#quarto-sidebar .sidebar-item-text {
+  padding: .55rem .7rem;
+  border-left: 3px solid transparent;
+  border-radius: 0 6px 6px 0;
+  font-size: .9rem;
+  line-height: 1.45;
+}
+
+#quarto-sidebar .sidebar-item-text:hover,
+#quarto-sidebar .sidebar-item-text.active {
+  color: var(--emi-accent);
+  background-color: var(--emi-tint);
+}
+
+#quarto-sidebar .sidebar-item-text.active {
+  border-left-color: var(--emi-accent);
+  font-weight: 600;
+}
+
+#quarto-sidebar .sidebar-item-section > .sidebar-item-container { margin-top: 1rem; }
+#quarto-sidebar .sidebar-item-toggle:hover { color: var(--emi-accent); }
+#quarto-sidebar .sidebar-search { margin-bottom: 1.25rem; }
+#quarto-search .aa-Autocomplete .aa-Form {
+  background-color: var(--emi-surface);
+  color: var(--emi-ink);
+  border: 1px solid var(--emi-line);
+  border-radius: 6px;
+}
+#quarto-search .aa-Input { color: var(--emi-ink); }
+
+#quarto-margin-sidebar #TOC { border-left: 1px solid var(--emi-line); padding-left: .9rem; }
+#quarto-margin-sidebar #toc-title {
+  color: var(--emi-muted);
+  font-size: .7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  margin-bottom: 1rem;
+}
+#quarto-margin-sidebar #TOC .nav-link { color: var(--emi-muted); line-height: 1.5; }
+#quarto-margin-sidebar #TOC .nav-link.active {
+  color: var(--emi-accent) !important;
+  border-left-color: var(--emi-accent);
+  font-weight: 600;
+}
+#quarto-margin-sidebar #TOC .nav-link:hover { color: var(--emi-accent); }
+
+/* Only the home page's research list becomes a grid. */
+#kutatási-területeink > ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .85rem;
+  list-style: none;
+  padding: 0;
+  counter-reset: research;
+}
+
+#kutatási-területeink > ul > li {
+  counter-increment: research;
+  margin: 0;
+  padding: 1.2rem 1.3rem;
+  border: 1px solid var(--emi-line);
+  border-radius: 8px;
+  background: var(--emi-surface);
+  line-height: 1.6;
+  box-shadow: var(--emi-shadow);
+}
+
+#kutatási-területeink > ul > li::before {
+  content: counter(research, decimal-leading-zero);
+  display: block;
+  margin-bottom: .6rem;
+  color: var(--emi-accent);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
+
+#kapcsolat {
+  margin-top: 2.5rem;
+  padding: .1rem 1.5rem 1rem;
+  border-left: 3px solid var(--emi-gold);
+  border-radius: 0 8px 8px 0;
+  background-color: var(--emi-tint);
+}
+#kapcsolat > h2 { margin-top: 1.25rem; }
+
+/* News tables retain Quarto's sorting, filtering, and pagination. */
+main.content .table {
+  --bs-table-bg: var(--emi-surface);
+  --bs-table-color: var(--emi-ink);
+  --bs-table-border-color: var(--emi-line);
+  --bs-table-striped-bg: var(--emi-bg);
+  --bs-table-striped-color: var(--emi-ink);
+  --bs-table-hover-bg: var(--emi-tint);
+  --bs-table-hover-color: var(--emi-heading);
+  border-color: var(--emi-line);
+  font-size: .92rem;
+}
+main.content .table > :not(caption) > * > * { padding: .85rem .8rem; }
+main.content .table thead th {
+  background-color: var(--emi-tint);
+  color: var(--emi-heading);
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .025em;
+}
+.quarto-listing .listing-title a { font-weight: 600; text-decoration: none; }
+.quarto-listing .listing-title a:hover { text-decoration: underline; }
+.quarto-listing .listing-date { color: var(--emi-muted); font-variant-numeric: tabular-nums; }
+.quarto-listing .form-control,
+.quarto-listing .form-select,
+.quarto-listing .input-group-text {
+  background-color: var(--emi-surface);
+  color: var(--emi-ink);
+  border-color: var(--emi-line);
+  min-height: 2.6rem;
+}
+.quarto-listing .form-control::placeholder { color: var(--emi-muted); opacity: 1; }
+.quarto-listing .page-link {
+  color: var(--emi-accent);
+  background-color: var(--emi-surface);
+  border-color: var(--emi-line);
+}
+.quarto-listing .active > .page-link {
+  color: var(--emi-bg);
+  background-color: var(--emi-accent);
+  border-color: var(--emi-accent);
+}
+.quarto-listing .disabled > .page-link { color: var(--emi-muted); background-color: var(--emi-bg); }
+
+main.content blockquote {
+  padding: .8rem 1.25rem;
+  border-left: 3px solid var(--emi-gold);
+  background: var(--emi-tint);
+  color: var(--emi-ink);
+}
+main.content blockquote > :last-child { margin-bottom: 0; }
+main.content hr { margin: 2.5rem 0; border-color: var(--emi-line); opacity: 1; }
+main.content a.lightbox img { border: 1px solid var(--emi-line); border-radius: 8px; box-shadow: var(--emi-shadow); }
+main.content a.lightbox:hover img { border-color: var(--emi-accent); }
+
+.quarto-secondary-nav, .nav-footer {
+  background-color: var(--emi-sidebar);
+  color: var(--emi-muted);
+  border-color: var(--emi-line);
+}
+.quarto-secondary-nav { border-bottom: 1px solid var(--emi-line); }
+.quarto-secondary-nav :is(a, .quarto-btn-toggle, .quarto-search-button) { color: var(--emi-ink); }
+.nav-footer { border-top: 1px solid var(--emi-line); font-size: .8rem; }
+.nav-footer a { color: var(--emi-accent); }
+#quarto-back-to-top {
+  background-color: var(--emi-surface);
+  color: var(--emi-accent);
+  border: 1px solid var(--emi-line);
+  border-radius: 6px;
+  box-shadow: var(--emi-shadow);
+}
+
+@media (max-width: 991.98px) {
+  #quarto-sidebar { border-right: 0; border-bottom: 1px solid var(--emi-line); }
+  #title-block-header { margin-top: .75rem; }
+}
+
+@media (max-width: 575.98px) {
+  body { font-size: .96rem; }
+  #title-block-header { padding: 1.5rem 1.1rem; }
+  #title-block-header h1.title { font-size: 2rem; }
+  #kutatási-területeink > ul { grid-template-columns: 1fr; }
+  #kutatási-területeink > ul > li { padding: 1rem 1.15rem; }
+  main.content .table > :not(caption) > * > * { padding: .65rem .4rem; }
+  #kapcsolat { padding-right: 1rem; padding-left: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a, button, input, select { transition: none; }
+}
+
+@media print {
+  body { background: #fff !important; color: #000 !important; }
+  #title-block-header, #kutatási-területeink > ul > li, #kapcsolat {
+    background: transparent !important;
+    box-shadow: none;
+    border-color: #aaa;
+  }
+  #title-block-header::before { display: none; }
+  #title-block-header { padding: 1rem 0; }
+  main.content :is(h1, h2, h3, p, a, li) { color: #000 !important; }
+  #kutatási-területeink > ul > li { break-inside: avoid; }
+}

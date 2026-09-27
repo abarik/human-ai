@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <title>Ember–MI</title>
+  <g stroke="#176b68" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="17" r="5"/>
+    <path d="M3 35v-3a9 9 0 0 1 18 0v3M21 26h7"/>
+    <rect x="28" y="14" width="16" height="20" rx="4"/>
+    <path d="M33 10v4m6-4v4m-6 20v4m6-4v4m5-17h3m-3 6h3"/>
+  </g>
+  <circle cx="36" cy="24" r="3" fill="#176b68"/>
+</svg>
