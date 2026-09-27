@@ -9,12 +9,12 @@ Kutatócsoportunk a mesterséges intelligencia felelős, átlátható és társa
 
 ## Kutatási területeink
 
-* ember–MI együttműködés és interakció;
-* a mesterséges intelligencia társadalmi és kulturális hatásai;
-* etikus és felelős MI-fejlesztés;
-* bizalom, átláthatóság és elszámoltathatóság;
-* a mesterséges intelligencia szerepe az oktatásban és a munka világában;
-* emberközpontú technológiai megoldások vizsgálata.
+* Ember–MI együttműködés és interakció
+* A mesterséges intelligencia társadalmi és kulturális hatásai
+* Etikus és felelős MI-fejlesztés
+* Bizalom, átláthatóság és elszámoltathatóság
+* A mesterséges intelligencia szerepe az oktatásban és a munka világában
+* Emberközpontú technológiai megoldások vizsgálata
 
 ## Tevékenységünk
 
