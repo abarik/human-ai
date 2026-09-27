@@ -397,8 +397,90 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
 }
 .quarto-secondary-nav { border-bottom: 1px solid var(--emi-line); }
 .quarto-secondary-nav :is(a, .quarto-btn-toggle, .quarto-search-button) { color: var(--emi-ink); }
-.nav-footer { border-top: 1px solid var(--emi-line); font-size: .8rem; }
-.nav-footer a { color: var(--emi-accent); }
+/* One shared footer grid keeps contact details readable at every page width. */
+.nav-footer {
+  position: relative;
+  padding: 2.8rem clamp(1.25rem, 4vw, 4rem) 1.25rem;
+  border-top: 1px solid var(--emi-line);
+  background-image: radial-gradient(ellipse at top left, var(--emi-tint), transparent 65%);
+  font-size: .88rem;
+}
+.nav-footer::before {
+  content: "";
+  position: absolute;
+  inset: -1px 0 auto;
+  height: 3px;
+  background: linear-gradient(90deg, var(--emi-accent), var(--emi-gold) 55%, var(--emi-line));
+}
+.nav-footer .nav-footer-left,
+.nav-footer .nav-footer-right { display: none; }
+.nav-footer .nav-footer-center {
+  flex: 1 1 100%;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 0;
+  margin: 0 auto;
+  text-align: left;
+}
+.emi-footer {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr 1fr;
+  gap: 2rem clamp(1.5rem, 3vw, 3rem);
+  line-height: 1.6;
+}
+.emi-footer > div { min-width: 0; }
+.nav-footer .emi-footer p { margin: 0; }
+.nav-footer a { color: var(--emi-accent); text-decoration: none; }
+.nav-footer a:hover { color: var(--emi-accent-hover); text-decoration: underline; }
+.nav-footer .emi-footer-title {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  color: var(--emi-title-start);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.9rem;
+  letter-spacing: -.045em;
+  line-height: 1.2;
+}
+.emi-footer-title::before {
+  content: "";
+  width: 1.1em;
+  height: 1.1em;
+  background-color: var(--emi-accent);
+  -webkit-mask: url("ember-mi-logo.svg") center / contain no-repeat;
+  mask: url("ember-mi-logo.svg") center / contain no-repeat;
+}
+.nav-footer .emi-footer-subtitle { margin-top: .5rem; color: var(--emi-heading); font-weight: 600; }
+.nav-footer .emi-footer-description { margin-top: .65rem; max-width: 32ch; }
+.nav-footer .emi-footer-label {
+  margin-bottom: .9rem;
+  color: var(--emi-accent);
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.nav-footer .emi-footer-name { margin-bottom: .35rem; color: var(--emi-heading); font-weight: 600; }
+.emi-footer-email { display: inline-flex; align-items: baseline; gap: .55rem; padding-block: .25rem; }
+.emi-footer-email span { overflow-wrap: anywhere; }
+.emi-footer address { margin: 0; font-style: normal; }
+.nav-footer .emi-footer-institute { color: var(--emi-heading); font-weight: 600; }
+.emi-footer-address { display: block; margin-top: .5rem; }
+.emi-footer-bottom {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: .5rem 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--emi-line);
+  font-size: .75rem;
+}
+@media (max-width: 767.98px) {
+  .nav-footer { padding-top: 2rem; }
+  .emi-footer { grid-template-columns: 1fr; gap: 1.6rem; }
+  .emi-footer-bottom { flex-direction: column; }
+}
 #quarto-back-to-top {
   background-color: var(--emi-surface);
   color: var(--emi-accent);
