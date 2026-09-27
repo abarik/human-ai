@@ -39,6 +39,8 @@ website:
             href: lp_mi_hirek_napi.qmd
           - text: "Heti MI-Pszicho hírek"
             href: lp_mi_hirek_heti_pszicho.qmd
+      - text: "Linkek"
+        href: linkek.qmd
         
 
   page-footer:
