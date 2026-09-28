@@ -1,0 +1,90 @@
+---
+title: "MI és pszichológia – 2026. szeptember 21–28."
+author: "OpenAI - ChatGpt"
+date: "2026-09-28"
+---
+
+
+**Időszak:** 2026. szeptember 21–27.
+
+## Nemzetközi hírek
+
+### 1. A gépi tanulás nem tudta megbízhatóan személyre szabni az egyszeri digitális depresszióintervenciót
+
+**Típus:** Lektorált, preregisztrált kutatás  
+**Megjelenés:** 2026. szeptember 22.
+
+Egy 828 felnőtt részvételével végzett randomizált vizsgálatban gépi tanulással próbálták előre jelezni, kinek használna inkább a COMET nevű egyszeri digitális beavatkozás, mint a várólistás kontroll. A személyre szabott ajánlás a visszatartott tesztmintán nem jelezte szignifikánsan a kéthetes depressziópontszámokat. Ez fontos negatív eredmény: még viszonylag nagy mintán és korszerű validáció mellett sem feltétlenül készíthető klinikailag használható kezelési algoritmus.
+
+**Korlátok:** Rövid utánkövetés, egyetlen digitális beavatkozás és várólistás összehasonlítás; az eredmény nem zárja ki, hogy nagyobb vagy gazdagabb klinikai adatokkal jobb személyre szabás érhető el.
+
+[Az eredeti tanulmány – Clinical Psychological Science](https://journals.sagepub.com/doi/10.1177/21677026261473154)
+
+### 2. Keretrendszer készült a generatív MI pszichometriai használatához
+
+**Típus:** Lektorált módszertani áttekintés és kutatási program  
+**Megjelenés:** 2026. szeptember 23.
+
+A PLOS Mental Health tanulmánya szerint a generatív MI segíthet kérdőívtételek előállításában, nyílt szöveges válaszok osztályozásában és multimodális adatok feldolgozásában, de az így kapott pontszámokat nem szabad automatikusan valid pszichológiai mérőszámként kezelni. A szerzők külön hangsúlyozzák a humán validációt, a mérési invarianciát, a torzításvizsgálatot, az adatbiztonságot és a modellváltozások követését.
+
+**Korlátok:** A közlemény nem új klinikai hatásvizsgálat, hanem szakirodalmi és módszertani szintézis; ajánlásait konkrét mérőeszközökön még empirikusan tesztelni kell.
+
+[Az eredeti tanulmány – PLOS Mental Health](https://journals.plos.org/mentalhealth/article?id=10.1371/journal.pmen.0000702)
+
+### 3. Az LLM-ek felismerik a terápiás kapcsolat nyílt töréseit, de nehezebben javítják azokat
+
+**Típus:** Preprint, nem lektorált  
+**Megjelenés:** 2026. szeptember 21.
+
+Három nagy nyelvi modellt vizsgáltak 21 mentális egészséggel kapcsolatos beszélgetésben, 22 szakértő értékelésével. A modellek jól támaszkodtak a nyílt nyelvi jelekre, de kevésbé vették figyelembe a hosszabb távú kapcsolati és kontextuális információt. A „kapcsolati törések” helyreállítására adott válaszaik gyakran direktívek és sablonosak voltak, míg a szakértők inkább validálást, feltáró kérdéseket és pszichoedukációt alkalmaztak.
+
+**Korlátok:** Kicsi, forgatókönyv-alapú minta; szakértői értékelés, nem valódi terápiás eredmény; a vizsgált modellek frissítése után a teljesítmény megváltozhat.
+
+[Az eredeti preprint – arXiv](https://arxiv.org/abs/2609.25287)
+
+### 4. Értelmezhető szövegelemző eszköz készült az akut öngyilkossági kockázat jelzéseinek felismerésére
+
+**Típus:** Lektorált empirikus tanulmány  
+**Megjelenés:** 2026. szeptember 24.
+
+A kutatók nagy nyelvi modell segítségével, majd klinikusi ellenőrzéssel 49 kockázati tényezőhöz kapcsolódó szótárat készítettek, és körülbelül 16 000 krízisvonalas beszélgetésen tesztelték. A legsúlyosabb kockázattal különösen az öngyilkossági eszközök, a szerhasználat, az aktív öngyilkossági gondolatok és az önsértés említése függött össze. A könnyű, helyben futtatható modell előnye, hogy megmutatja, mely szövegrészletek alapján jelzett kockázatot.
+
+**Korlátok:** A szótáralapú módszer nehezen kezeli a kontextust, az iróniát és az új szóhasználatot; egyetlen krízisszolgálat adataira épül, ezért más nyelveken és populációkban külön validáció szükséges. A szerzők szerint emberi döntéshozó továbbra is nélkülözhetetlen.
+
+[Az eredeti tanulmány DOI-linkje](https://doi.org/10.1037/abn0001152)  
+[MIT McGovern Institute összefoglaló](https://mcgovern.mit.edu/2026/09/24/estimating-suicide-risk-from-text/)
+
+### 5. Országos program indul a demenciával kapcsolatos MI-eszközök értékelésére
+
+**Típus:** Intézményi sajtóközlemény, nem kutatási eredmény  
+**Megjelenés:** 2026. szeptember 25.
+
+A UCLA Health ötéves, 25 millió dolláros amerikai szövetségi támogatással országos programot indít az Alzheimer-kór és más demenciák diagnosztikájára, kezelésére és gondozására fejlesztett MI-eszközök vizsgálatára. A program több egészségügyi rendszerben kívánja ellenőrizni a biztonságot, a hatásosságot és a különböző társadalmi csoportokban mutatott teljesítményt.
+
+**Korlátok:** Ez finanszírozási és programindítási bejelentés, még nem szolgáltat bizonyítékot egyetlen MI-eszköz klinikai eredményességére sem.
+
+[UCLA intézményi közlemény](https://newsroom.ucla.edu/releases/ucla-health-leads-federal-effort-testing-ai-tools-alzheimers)
+
+## Magyar vonatkozású hírek
+
+### 1. Magyar kötődésű szerző vizsgálta, hogyan változtatja meg az MI használatának feltárása a társas benyomásokat
+
+**Típus:** SSRN-preprint, nem lektorált  
+**Közzététel:** 2026. szeptember 25.
+
+Hyeran Kang és a Pécsi Tudományegyetemen, illetve a CEU-n is tanult Andras Molnar két preregisztrált kísérletben, összesen 1022 amerikai résztvevővel vizsgálta az MI által közvetített kommunikációt. Az MI használatának feltárása jelentősen gyengítette az olyan pozitív következtetéseket, mint a hála, barátságosság vagy elégedettség, miközben a csalódottságra, elégedetlenségre és ellenségességre vonatkozó negatív következtetéseket alig mérsékelte. Ez arra utal, hogy az MI-transzparencia kapcsolati költsége aszimmetrikus lehet.
+
+**Korlátok:** Online amerikai minta és mesterségesen bemutatott üzenetek; a hétköznapi, hosszabb távú kapcsolatokban jelentkező hatást nem vizsgálták. Az eredmény még nem esett át folyóirati lektoráláson. A magyar vonatkozás a társszerző magyarországi tanulmányaihoz kötődik; a jelenlegi kutatóhely a University of Michigan.
+
+[Az eredeti preprint – SSRN](https://ssrn.com/abstract=7501238)  
+[Szerzői profil – University of Michigan](https://lsa.umich.edu/psych/people/faculty/andrasm.html)
+
+### Hazai helyzetkép
+
+A vizsgált héten nem találtam új, Magyarországon végzett és ellenőrizhetően publikált empirikus kutatást közvetlenül az MI és a pszichológia metszetében. A Semmelweis Egyetem szeptember 24-én egy ismeretterjesztő előadássorozatot jelentett be, amelyben külön előadások foglalkoznak az MI lehetőségeivel és több pszichológiai-neurológiai témával, de ez nem új kutatási eredmény, ezért nem szerepel önálló tudományos hírként.
+
+[Semmelweis Egyetem – Szenior Akadémia programbejelentés](https://semmelweis.hu/hirek/2026/09/24/a-mesterseges-intelligenciatol-az-idegsejtpusztulasig-kezdodik-a-szenior-akademia-oszi-evada/)
+
+## Rövid összkép
+
+A hét legerősebb közös üzenete a módszertani óvatosság. Az MI képes pszichológiai adatok strukturálására és kockázati mintázatok felismerésére, de a kezelések személyre szabása és a kapcsolatérzékeny kommunikáció továbbra is komoly korlátokat mutat. A friss eredmények inkább az ellenőrzött, ember által felügyelt alkalmazást támogatják, mint az autonóm pszichológiai döntéshozatalt.
