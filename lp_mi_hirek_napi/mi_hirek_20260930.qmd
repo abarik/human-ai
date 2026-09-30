@@ -1,0 +1,171 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. szeptember 30."
+author: "OpenAI - ChatGpt"
+date: "2026-09-30"
+---
+
+*Reggeli kiadás — frissítve 2026. szeptember 30-án. A nemzetközi válogatás elsősorban a szeptember 28–30. között megjelent fejleményekre épül. A magyar blokkban a legfrissebb hazai szakpolitikai, kutatási és vállalati hírek szerepelnek.*
+
+A mai MI-hírképben három folyamat különösen erős: **az állandóan működő MI-ügynökök gyors piacra lépése, az ezek köré épülő új biztonsági infrastruktúra, valamint a frontier-MI rendkívüli tőke- és számításikapacitás-igénye**. Az OpenAI már 24/7 dolgozó személyes ügynököt kínál, az Nvidia hardverszintű „őröket” épít az ügynökök köré, miközben az Anthropic IPO-dokumentuma több százmilliárd dolláros infrastruktúra-kötelezettségeket tár fel.
+
+## 🌍 Nemzetközi hírek
+
+### 1. Az Anthropic IPO-dokumentuma megmutatja, mennyibe kerül valójában a frontier-MI
+
+A Reuters és a Financial Times által megismert IPO-prospektus szerint az Anthropic **legalább 518 milliárd dollárnyi felhő- és számítási infrastruktúrához kapcsolódó kötelezettséggel számol a következő évtizedben**. A Reuters szerint ezek körülbelül 80%-a nem mondható fel, vagy akkor is fizetendő, ha a vállalat végül nem használja fel a teljes lekötött kapacitást.
+
+A dokumentum alapján az Anthropic 2025-ös árbevétele közel 4,6 milliárd dollár volt — nagyjából tizenkétszerese az előző évinek —, ugyanakkor működési vesztesége meghaladta a 8 milliárd dollárt. A prospektus emellett részletesen tárgyalja annak kockázatát is, hogy a fejlett MI-rendszerek súlyos vagy akár egzisztenciális veszélyeket okozhatnak. Fontos: a Reuters által látott dokumentum még nem nyilvános végleges tőzsdei prospektus.
+
+**Miért lényeges?** Ez az eddigi egyik legjobb betekintés abba, milyen gazdasági modellre épül a frontier-MI: a legnagyobb laboroknak évekkel előre kell több százmilliárd dollárnyi compute-ot lekötniük. A modellek fejlesztése ezért egyre inkább **energia-, adatközpont-, chip- és finanszírozási verseny**, nem pusztán algoritmikus verseny.
+
+**Forrás:** [Reuters – Anthropic's $518bn AI buildout and infrastructure commitments](https://www.investing.com/news/economy-news/morning-bid-our-products-could-end-all-human-life-buy-our-shares-4921558)
+
+**További forrás:** [Financial Times – Anthropic warns of AI risks in IPO prospectus](https://www.ft.com/content/c7685a7e-7745-4cbc-8053-4958d0ea449b)
+
+---
+
+### 2. OpenAI DevDay: megérkeztek a 24/7 dolgozó „Dots” ügynökök és a GPT-6.1 Sol
+
+Az OpenAI szeptember 29-i DevDay konferenciáján bemutatta **Dots** nevű, folyamatosan működő személyes MI-ügynökeit. Egy Dot saját felhőalapú számítógépet kap, visszajelzésekből tanulhat, és akár a nap 24 órájában dolgozhat a felhasználó céljain. Az OpenAI szerint a rendszer több mint **4000 alkalmazáshoz és szolgáltatáshoz** kapcsolódhat a plugin-ökoszisztémán keresztül.
+
+Ugyanezen a rendezvényen jelent meg a **GPT-6.1 Sol**, amelyet az OpenAI az Astra képességeihez közelítő, de lényegesen olcsóbb modellként pozicionál. A vállalat szerint agentikus programozásban, számítógép-használatban és összetett szakmai munkában közelíti a GPT-6 Astra szintjét, miközben a standard API-tokenár az Astra árának körülbelül ötöde.
+
+A bejelentés különösen érdekes, mert egy nappal korábban az OpenAI biztonsági problémák miatt elhalasztotta a fejlettebb GPT-6.1 Astra kiadását.
+
+**Miért lényeges?** Az OpenAI stratégiája egyértelműen elmozdul a kérdés-válasz chatbotoktól a **tartósan működő, feladatokat önállóan végrehajtó ügynökök** felé. Ez potenciálisan sokkal nagyobb termelékenységi ugrás, de az adat-, jogosultság- és felelősségi kockázat is nagyságrenddel nagyobb.
+
+**Forrás:** [OpenAI – Introducing dots](https://openai.com/index/introducing-dots/)
+
+**Forrás:** [OpenAI – DevDay 2026 Recap](https://openai.com/index/devday-2026-recap/)
+
+**További forrás:** [Associated Press – Altman unveils always-on AI agents](https://apnews.com/article/77b6b8888145869206996d7509d24256)
+
+---
+
+### 3. A vezető amerikai MI-cégek közös, önkéntes biztonsági megállapodást írtak alá a Fehér Házban
+
+Donald Trump szeptember 29-én a Fehér Házban találkozott a legnagyobb amerikai MI- és technológiai vállalatok vezetőivel. Az **Anthropic, Google, Meta, OpenAI, Nvidia és xAI** képviselői önkéntes megállapodást írtak alá, amely többek között belső biztonsági kontrollokat, független külső auditokat és az auditok eredményeit vizsgáló igazgatósági szintű felügyeletet irányoz elő.
+
+A megállapodás **nem jogilag kötelező**. Trump az iparág „önszabályozását” hangsúlyozta, miközben továbbra sem támogat olyan széles szövetségi szabályozást, amely szerinte lassítaná az amerikai MI-fejlesztést.
+
+**Miért lényeges?** A nagy laborok gyakorlatilag elismerték, hogy a frontier-MI fejlesztésében már nem elegendő a belső tesztelés. Ha a független audit valóban iparági normává válik, az jelentős változás lehet — de az önkéntes jelleg miatt az lesz a döntő, **hogyan és mennyire átláthatóan hajtják végre a vállalásokat**.
+
+**Forrás:** [Associated Press – Trump says top tech firms sign voluntary AI safety accord](https://apnews.com/article/595796511f110fc006cca0d01329733e)
+
+---
+
+### 4. Az Nvidia már hardverszinten is felügyelné az autonóm MI-ügynököket
+
+Az Nvidia bemutatta az **Open Agent Safety Platformot**, amelynek célja, hogy az MI-ügynököket ne kizárólag szoftveres utasításokkal lehessen korlátozni. Az OpenShell nevű nyílt forráskódú réteg szabályozza, milyen fájlokhoz, hálózatokhoz, API-khoz és eszközökhöz férhet hozzá egy ügynök.
+
+A rendszer másik eleme az **Nvidia Sentry**, amely külön BlueField-4 adatfeldolgozó processzoron fut. Mivel fizikailag elkülönül az ügynök futtatási környezetétől, az Nvidia szerint egy szabályszegő ügynököt ezredmásodpercek alatt karanténba tud helyezni. Több mint száz szervezet — köztük az Anthropic, Microsoft, SAP, Salesforce és CrowdStrike — kapcsolódik a kezdeményezéshez.
+
+**Miért lényeges?** A modellfejlesztők egyre inkább felismerik, hogy egy kellően képzett ügynök biztonságát nem lehet kizárólag arra alapozni, hogy „utasítjuk, hogy ne tegyen rosszat”. A védekezés ezért a hagyományos kiberbiztonsághoz hasonlóan **többrétegű, a modelltől független technikai kontrollok** felé mozdul.
+
+**Forrás:** [NVIDIA – NVIDIA Launches Open Agent Safety Platform](https://nvidianews.nvidia.com/news/open-agent-safety-platform)
+
+---
+
+### 5. Az amerikai kormány elindította az MI-alapú America.gov portált
+
+Az Egyesült Államok szeptember 29-én elindította az **America.gov** szolgáltatást, amely egyetlen, természetes nyelven használható felületen teszi kereshetővé a szövetségi kormányzat információit és szolgáltatásait.
+
+A General Services Administration szerint a rendszer több mint **29 000 kormányzati webhely** információit kapcsolja össze. Jelenleg elsősorban kérdésekre válaszol hivatalos állami források alapján, de a tervek szerint később — Login.gov-integrációval — konkrét ügyintézési műveleteket is lehet majd rajta keresztül végezni, például útlevéllel, Medicare-rel vagy más szövetségi szolgáltatásokkal kapcsolatban.
+
+**Miért lényeges?** Ez a generatív MI egyik eddigi legnagyobb közvetlen közigazgatási bevezetése. Ha működik, az MI a bonyolult kormányzati weboldal-struktúrák helyett **egységes állampolgári interfésszé** válhat. Ugyanakkor azonnal felveti a pontosság, a politikai semlegesség, az adatvédelem és a felelősség kérdését is.
+
+**Forrás:** [The White House – America.gov fact sheet](https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-streamlines-access-to-government-services-through-america-gov/)
+
+**További forrás:** [U.S. General Services Administration – America.gov launch](https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-joins-the-white-houses-national-design-studio-in-unveiling-americagov-09292026)
+
+---
+
+### 6. Az AMD 8,2 milliárd dollárért megveszi Fei-Fei Li World Labs nevű MI-kutatócégét
+
+Az AMD szeptember 28-án jelentette be, hogy **mintegy 8,2 milliárd dolláros, részvényben fizetett ügyletben felvásárolja a World Labst**, amelyet az ImageNet egyik kulcsfigurájaként ismert Fei-Fei Li vezet.
+
+A World Labs térbeli intelligenciával és úgynevezett világmodellekkel foglalkozik: olyan MI-rendszerekkel, amelyek képekből, videókból és más érzékelési adatokból képesek a fizikai környezet reprezentációját felépíteni. Ezek a technológiák fontosak lehetnek a robotika, a szimuláció és az autonóm rendszerek számára.
+
+**Miért lényeges?** Az AMD nem pusztán Nvidia-versenytársként szeretne gyorsítóchipeket eladni, hanem **közelebb akar kerülni magukhoz a modellekhez és a következő generációs MI-munkaterhelésekhez**. A felvásárlás egyben azt jelzi, hogy a „physical AI” és a világmodellek a következő nagy befektetési hullám egyik központi területévé válhatnak.
+
+**Forrás:** [AMD – AMD to Acquire World Labs](https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute)
+
+**Hivatalos SEC-dokumentum:** [AMD Form 8-K – World Labs acquisition](https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000182/amd-20260926.htm)
+
+---
+
+### 7. OpenAI, Anthropic, Google és Meta eskü alatt tesz vallomást a New York-i MI-meghallgatáson
+
+A New York City Council bejelentette, hogy **az OpenAI, az Anthropic, a Google és a Meta képviselői október 5-én nyilvánosan, eskü alatt válaszolnak a városi képviselők kérdéseire az MI biztonsági kockázatairól**. A tanács szerint ilyen formában most először hallgatják meg együtt a vezető frontier-laborokat.
+
+A cégek közül a Meta eredetileg önként vállalta a részvételt, a többiek azután erősítették meg megjelenésüket, hogy a tanács idézést helyezett kilátásba. Elon Musk SpaceXAI-ja nem reagált időben, ezért Julie Menin házelnök hivatalos idézést adott ki a vállalatnak.
+
+**Miért lényeges?** A frontier-MI felügyelete az általános politikai vitából **konkrét, jogilag számon kérhető közmeghallgatások** szintjére kerül. A New York-i javaslatok és a vállalatok válaszai más amerikai városok és államok szabályozására is hatással lehetnek.
+
+**Forrás:** [New York City Council – Major AI firms to testify publicly under oath](https://council.nyc.gov/press/2026/09/28/3266/)
+
+---
+
+## 🇭🇺 Magyar vonatkozások
+
+### 1. Ma külön konferencián kerül fókuszba a fizikai MI, a robotika és a magyar gyártóvállalatok automatizációja
+
+Szeptember 30-án Törökbálinton rendezi meg a Pest Vármegyei és Érdi Kereskedelmi és Iparkamara, a Német–Magyar Tudásközpont és a Magyar Robotikai Szövetség az **„AI, robotika és automatizáció a gyártásban”** konferenciát.
+
+A program az alapvető digitalizációtól és az első ipari robot bevezetésétől egészen a humanoid robotikáig és a **physical AI** alkalmazásáig vizsgálja, milyen technológiákkal lehet a magyar gyártó KKV-kat versenyképesebbé tenni.
+
+**Miért lényeges?** A generatív MI után egyre gyorsabban érkezik az MI következő hulláma: az algoritmusok **gépeket, robotokat és fizikai termelési folyamatokat** irányítanak. Ez Magyarország számára különösen fontos, mert a feldolgozóipar és az autóipar nagy súlyt képvisel a gazdaságban.
+
+**Forrás:** [Magyar Robotikai Szövetség – AI, robotika és automatizáció a gyártásban](https://robotikaiszovetseg.hu/hu/esemenyek/2026/09/ai-robotika-automatizacio-a-gyartasban-2026/)
+
+---
+
+### 2. Az oktatási miniszter támogatásáról biztosította az iskolai MI-használatról szóló szakmai kiáltványt
+
+Lannert Judit oktatási és gyermekügyi miniszter támogatásáról biztosította az **„Irányelvek az oktatás emberi jövőjéért”** kezdeményezést, amelyhez magyar oktatástechnológiai cégek, kutatók és szakértők csatlakoztak.
+
+A javaslat szerint az iskolákban sem a teljes MI-tiltás, sem a kontrollálatlan használat nem megfelelő megoldás. A hangsúly a gyermekek adatainak és jóllétének védelmén, az önálló gondolkodás megőrzésén, a pedagógus szakmai felelősségén és a magyar nyelvű oktatási tartalmakon lenne. A nyilvános konzultáció október 15-ig tart, az összegzett javaslatokat pedig az Oktatási és Gyermekügyi Minisztérium kapja meg.
+
+**Miért lényeges?** Az MI oktatási használatának szabályozása kezd konkrét szakpolitikai szintre kerülni. A most kialakuló elvek hosszabb távon meghatározhatják, **milyen életkorban, milyen feladatokra és milyen emberi ellenőrzés mellett használhatnak MI-t a magyar diákok és pedagógusok**.
+
+**Forrás:** [GlobalHír / MTI – Irányelvek az oktatás emberi jövőjéért](https://www.globalhir.hu/2026/09/29/iranyelvek-az-oktatas-emberi-jovoejert-ai-kialtvany/)
+
+**Háttér:** [Economx – Így szabályoznák az iskolai MI használatát](https://www.economx.hu/mesterseges-intelligencia/2026/09/25/mesterseges-intelligencia-kialtvany-edtech-oktatas/)
+
+---
+
+### 3. A BME 2030-ra Közép-Európa vezető MI-orientált műszaki egyeteme akar lenni
+
+Charaf Hassan rektor szeptember 28-i ismertetése szerint a Budapesti Műszaki és Gazdaságtudományi Egyetem célja, hogy **2030-ra Közép-Európa vezető AI-orientált műszaki egyetemévé váljon**.
+
+A BME közlése szerint az intézményben jelenleg mintegy száz MI-kutatócsoport dolgozik. A hallgatók saját MI-ügynököket is építhetnek, miközben az egyetem 5G-hálózata, nemzeti laboratóriumai és ipari K+F laborjai tesztkörnyezetet biztosítanak. A rektor szerint az MI-nek nem egyetlen külön tárgyként, hanem az oktatás, a kutatás, az innováció és az egyetemi működés egészében kell megjelennie.
+
+**Miért lényeges?** Magyarország MI-versenyképességének egyik legnagyobb szűk keresztmetszete továbbra is a szakember- és kutatói utánpótlás. Ha a BME valóban intézményi szinten építi be az MI-t a mérnökképzésbe, az **közvetlenül befolyásolhatja a következő évtized magyar technológiai munkaerőpiacát**.
+
+**Forrás:** [BME – Közép-Európa vezető AI-orientált műszaki egyeteme lenne a BME 2030-ra](https://www.bme.hu/hirek/260928/mesterseges-intelligencia-itbusiness-konferencia-charaf-hassan-bme)
+
+---
+
+### 4. A Semmelweis kutatói MI-vel elemzik a magyar dohányzásszabályozási társadalmi vitát
+
+A Semmelweis Egyetem Egészségügyi Adattudományi és MI Tudásközpontjának kutatói szeptember 29-én ismertetett munkájukban **adattudományi és MI-módszerekkel elemezték az Európai Bizottság dohányszabályozási konzultációjára érkező magyar hozzászólásokat**.
+
+A több mint 80 ezer európai hozzászólásból 7255 magyar nyelvű véleményt vizsgáltak. A kutatók többek között a résztvevői csoportokat, az alkalmazott érvrendszereket és a beérkezések időbeli eloszlását elemezték; megállapításuk szerint a magyar hozzászólások 47,2%-a mindössze három napon belül érkezett.
+
+**Miért lényeges?** Ez jó példa arra, hogy az MI Magyarországon nemcsak chatbotként vagy automatizációs eszközként jelenik meg, hanem **nagy léptékű társadalmi és egészségpolitikai adatok elemzésére** is használható. Az ilyen módszerek a jövőben segíthetik a közpolitikai konzultációk manipulációjának, koordinált kampányainak vagy társadalmi mintázatainak felismerését.
+
+**Forrás:** [Semmelweis Egyetem – Mesterséges intelligencia és adattudomány a dohányzás elleni küzdelemben](https://semmelweis.hu/emk/2026/09/29/a-dohanyzasszabalyozas-eredmenyei-nem-onfenntartok-folyamatos-alkalmazkodasra-van-szukseg/)
+
+---
+
+## 📌 Mai fő kép
+
+A szeptember 30-i hírekből négy különösen fontos tendencia rajzolódik ki:
+
+1. **Az „agentic AI” már nem kísérlet, hanem termékkategória.** Az OpenAI Dots rendszere folyamatosan dolgozhat, saját számítógépet használhat és több ezer külső szolgáltatáshoz kapcsolódhat.
+
+2. **A biztonsági kontroll leválik magáról a modellről.** Az Nvidia megközelítése szerint a jövőben külön szoftver- és hardverrétegnek kell ellenőriznie, hogy az ügynök valóban az engedélyezett keretek között marad-e.
+
+3. **A frontier-MI gazdasága rendkívül tőkeintenzív.** Az Anthropic 518 milliárd dolláros infrastruktúra-kötelezettségei jól mutatják, hogy a következő évtized MI-versenyében a compute-hoz és az energiához való hozzáférés legalább akkora stratégiai előny lehet, mint maga a modell.
+
+4. **Az MI intézményi infrastruktúrává válik.** Az amerikai kormány America.gov portálja, a New York-i szabályozói meghallgatás, valamint a magyar oktatási és ipari kezdeményezések egyaránt azt jelzik, hogy az MI már nem különálló technológiai eszköz, hanem fokozatosan a közigazgatás, az oktatás és a gazdaság alapvető működési rétegévé válik.
