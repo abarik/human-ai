@@ -1,0 +1,144 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. október 01."
+author: "OpenAI - ChatGpt"
+date: "2026-10-01"
+---
+
+*Frissítve: 2026. október 1., reggel. A nemzetközi válogatás elsősorban az elmúlt 24–48 óra fejleményeire épül.*
+
+A mai MI-hírképben **az autonóm rendszerek biztonsága, a frontier-modellek közötti technológiai verseny és a szabályozás gyorsulása** dominál. Az amerikai FTC vizsgálni kezdte az OpenAI és az Anthropic rendszereinek fogyasztói kockázatait, a Google bemutatta új Gemini 4 Argon modelljét, Kalifornia pedig emberi kontrollt ír elő több munkahelyi MI-döntésnél. Közben az OpenAI egy kínai szereplőkhöz kötött nagyszabású modellkivonási kampányról számolt be.
+
+## 🌍 Nemzetközi hírek
+
+### 1. Az amerikai FTC vizsgálja az OpenAI-t és az Anthropict az autonóm MI-ügynökök kockázatai miatt
+
+Az amerikai Szövetségi Kereskedelmi Bizottság (FTC) vizsgálatot indított az **OpenAI, az Anthropic és más MI-fejlesztők** rendszereivel kapcsolatban. Az Associated Press szerint a hatóság arra kíváncsi, hogy a fejlett modellek és autonóm ügynökök jelenthetnek-e érdemi veszélyt a fogyasztókra, különösen olyan esetekben, amikor a rendszerek a felhasználói utasítások keretein túl cselekszenek, internetes szolgáltatásokhoz férnek hozzá vagy külső rendszerekben hajtanak végre műveleteket.
+
+A vizsgálat egyelőre nem jelenti azt, hogy a cégek jogsértést követtek volna el. Jelentősége inkább abban van, hogy az autonóm MI-rendszerek biztonsága immár **fogyasztóvédelmi és potenciális végrehajtási ügyként** is megjelent az Egyesült Államokban.
+
+**Miért lényeges?** Eddig az agentikus MI biztonsági problémáinak jelentős részét maguk a laborok és független kutatók vizsgálták. Az FTC fellépése azt jelzi, hogy a kérdés átkerülhet a hatósági felügyelet szintjére, ami később kötelező incidensjelentéshez, tesztelési követelményekhez vagy más fogyasztóvédelmi szabályokhoz vezethet.
+
+**Forrás:** [Associated Press – FTC is investigating OpenAI and Anthropic over possible risks to consumers](https://apnews.com/article/89ac416717adbfb1d72f2d85e6ce83d1)
+
+---
+
+### 2. A Google bemutatta a Gemini 4 Argont, de egyelőre korlátozza a hozzáférést
+
+A Google szeptember 30-án bemutatta új csúcsmodelljét, a **Gemini 4 Argont**. A vállalat saját közlése szerint ez a Gemini család eddigi legerősebb modellje összetett, hosszú munkafolyamatokhoz, többek között szoftverfejlesztéshez, vállalati tudásmunkához és kiberbiztonsági feladatokhoz.
+
+A Google nem tette azonnal széles körben elérhetővé a modellt. Elsőként megbízható kiberbiztonsági partnerek kapnak hozzáférést a Fairwind programon keresztül, és a cég az amerikai kormány előzetes modellvizsgálati programjában is részt vesz. A Reuters szerint a Google az Argont az OpenAI és az Anthropic legerősebb modelljeivel egy kategóriába pozicionálja.
+
+**Miért lényeges?** A modellversenyben kezd megváltozni a kiadási stratégia: a legerősebb rendszereknél már nem feltétlenül az azonnali nyilvános premier az első lépés. A korlátozott, biztonsági szakértőkkel történő tesztelés **a frontier-modellek új kiadási normájává** válhat.
+
+**Forrás:** [Google – Gemini 4 Argon](https://blog.google/intl/ko-kr/products/gemini-4-argon-kr/)
+
+**További forrás:** [Reuters / GMA News – Google announces Gemini 4 flagship AI model after months of delays](https://www.gmanetwork.com/news/scitech/technology/1004363/google-announces-gemini-4-flagship-ai-model-after-months-of-delays/story/)
+
+---
+
+### 3. Kaliforniában törvény tiltja, hogy kizárólag MI döntsön egy dolgozó kirúgásáról
+
+Gavin Newsom kaliforniai kormányzó szeptember 30-án aláírta a **No Robo Bosses Act** néven ismert SB 947 törvényt. Ennek értelmében a munkáltatók nem támaszkodhatnak kizárólag automatizált döntési rendszerekre dolgozók elbocsátásakor vagy fegyelmezésekor; az MI által támogatott ilyen döntéseknél emberi felülvizsgálatra és ellenőrzésre van szükség.
+
+Newsom több további MI-törvényt is aláírt. Ezek szabályozzák többek között az algoritmikus munkahelyi megfigyelést, az MI szerepét tömeges elbocsátásoknál, a klinikai döntéstámogató rendszereket, valamint az MI-generált tartalmak jelölésének és digitális vízjeleinek kezelését.
+
+**Miért lényeges?** Kalifornia a világ egyik legnagyobb technológiai és munkaerőpiaca, ezért az ottani szabályok gyakran de facto iparági normává válnak. A törvény egy fontos elvet rögzít: **nagy következménnyel járó személyzeti döntést nem lehet teljes egészében algoritmusra delegálni**.
+
+**Forrás:** [Governor of California – California’s AI framework gets new worker protections](https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/)
+
+**További forrás:** [California Senate – Newsom signs the No Robo Bosses Act](https://sd05.senate.ca.gov/news/newsom-signs-mcnerneys-no-robo-bosses-act-2026-requiring-human-oversight-ai-workplace)
+
+---
+
+### 4. Az OpenAI szerint a Moonshot AI-hoz köthető szereplők megpróbálták kinyerni modelljeinek rejtett érvelését
+
+Az OpenAI szeptember 30-án közölte, hogy **nagyszabású, koordinált „adversarial distillation” kampányt** azonosított. A vállalat szerint az aktivitás egy központi része a kínai Moonshot AI-hoz, a Kimi modellek fejlesztőjéhez kapcsolódó személyekhez köthető.
+
+A kampány júliusban indult. Július 24–25-én az OpenAI mintegy **16 000 releváns lekérést és több mint 4000 felhasználót** azonosított; a vizsgálat később több mint 15 000 fiókból álló kapcsolódó hálózatot tárt fel. A támadók nem törtek fel adatbázist és nem jutottak hozzá tárolt beszélgetésekhez: speciális prompttechnikákkal próbálták a modellek védett belső érvelési tartalmát visszafejteni.
+
+Az OpenAI hangsúlyozza, hogy a számok **kísérleteket, nem feltétlenül sikeres kivonásokat** jelentenek. A Moonshot AI felelősségét független vizsgálat nem állapította meg.
+
+**Miért lényeges?** A frontier-modellek legértékesebb „szellemi tulajdona” egyre kevésbé pusztán a tréningadat vagy a modell súlya: a fejlett képességeket más modellek kimeneteiből is meg lehet próbálni reprodukálni. Emiatt a modelldesztilláció **technológiai, gazdasági és nemzetbiztonsági konfliktussá** válhat az amerikai és kínai MI-cégek között.
+
+**Forrás:** [OpenAI – Disrupting a coordinated model-distillation campaign](https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/)
+
+---
+
+### 5. A Bank of England vezetője már pénzügyi stabilitási kockázatként figyeli az MI-boomot
+
+Andrew Bailey, a Bank of England kormányzója október 1-jén arra figyelmeztetett, hogy az MI-cégekbe és infrastruktúrába áramló rendkívül nagy tőke **jelentős piaci korrekcióhoz vagy pénzügyi sokkhoz** vezethet, ha a befektetői várakozások nem teljesülnek.
+
+Bailey nem állította, hogy az MI-buborék összeomlása küszöbön áll. Szerinte a technológia komoly gazdasági növekedési potenciált hordoz, de a jegybank „nagyon szorosan” figyeli az MI-vállalatok finanszírozását, a magas értékeltségeket és az ezekhez kapcsolódó hitelpiaci kitettségeket.
+
+**Miért lényeges?** Az MI-infrastruktúrára fordított összegek már akkora méretűek, hogy a technológiai verseny **pénzügyi stabilitási kérdéssé** is kezd válni. Ha az adatközpontokba, chipekbe és frontier-cégekbe fektetett százmilliárdok megtérülése elmarad, az már nemcsak a technológiai részvényeket érintheti.
+
+**Forrás:** [BBC / Yahoo Finance – AI boom could trigger market shocks, Bank of England boss warns](https://sg.finance.yahoo.com/news/ai-boom-could-trigger-market-040323816.html)
+
+---
+
+## 🇭🇺 Magyar vonatkozások
+
+### 1. Ma a Semmelweis Egyetemen külön szakmai program foglalkozik az MI orvosi alkalmazásaival
+
+A Semmelweis Egyetem Bókay utcai Gyermekgyógyászati Klinikája **október 1-jén MI-tematikájú szakmai programot** rendez. Az előadások az általános etikai kérdések mellett a radiológiai képalkotásban, a genetikai diagnosztikában és a terápiás adherencia vizsgálatában használható mesterségesintelligencia-megoldásokat mutatják be.
+
+A program személyesen és online is követhető.
+
+**Miért lényeges?** A magyar egészségügyi MI-fejlesztés egyre kevésbé általános „digitalizációs” kérdés: már konkrét klinikai területeken vizsgálják, **mely döntéseket tud támogatni az MI, és melyeknél kell megmaradnia az emberi szakmai felelősségnek**.
+
+**Forrás:** [Semmelweis Egyetem – Mesterséges intelligencia, szakmai program 2026. október 1.](https://semmelweis.hu/bokayklinika/events/mesterseges-intelligencia/)
+
+---
+
+### 2. Az ELTE-n ma azt vizsgálják, hogyan használható MI a precíziós pszichiátriában
+
+Az ELTE InnoFair keretében október 1-jén rendezik meg a **Towards a Precision Psychiatry Ecosystem** workshopot. MI-kutatók, klinikusok és egészségügyi innovációs szakemberek azt vizsgálják, hogyan használhatók a spontán beszédből, társas interakciókból és más viselkedési jelekből kinyerhető adatok a mentális és kognitív állapot változásainak felismerésére.
+
+A program témái között szerepel a multimodális klinikai MI, a beszédelemzés, az autizmus, a precíziós pszichiátria és az avatárközvetített interakció is.
+
+**Miért lényeges?** A mentális egészség az egyik legérzékenyebb MI-alkalmazási terület. A magyar kutatások itt közvetlenül találkoznak az **adatvédelem, a diagnosztikai pontosság, a torzítás és az emberi klinikai döntés** kérdéseivel.
+
+**Forrás:** [ELTE Informatikai Kar – Towards a Precision Psychiatry Ecosystem](https://inf.elte.hu/towards-a-precision-psychiatry-ecosystem-uton-a-precizios-pszichiatriai-okoszisztema-fele)
+
+---
+
+### 3. A BME-n az SAP felsővezetője mutatta be, hogyan alakítja át az MI a vállalati működést
+
+A BME Villamosmérnöki és Informatikai Karán szeptember 30-án tartott előadást **Stefan Steinle, az SAP Executive Vice Presidentje és globális ügyféltámogatási vezetője**. Az előadás középpontjában az állt, hogyan épül be az MI a vállalati üzleti folyamatokba, az ügyfélkezelésbe és a nagyvállalati szoftverrendszerekbe.
+
+A rendezvény illeszkedik a BME tágabb MI-stratégiájába: az egyetem a héten azt is közölte, hogy 2030-ra Közép-Európa vezető AI-orientált műszaki egyetemévé szeretne válni.
+
+**Miért lényeges?** A vállalati MI következő szakasza már nem különálló chatbotokról szól, hanem arról, hogy **az MI bekerül-e az ERP-, pénzügyi, logisztikai és ügyfélkezelési rendszerek alapvető munkafolyamataiba**. A hazai mérnökképzésnek ehhez új készségeket kell biztosítania.
+
+**Forrás:** [BME VIK – SAP: AI and the Future of Enterprises](https://vik.bme.hu/esemenyek/1624/)
+
+**Háttér:** [BME – Közép-Európa vezető AI-orientált műszaki egyeteme lenne a BME 2030-ra](https://www.bme.hu/hirek/260928/mesterseges-intelligencia-itbusiness-konferencia-charaf-hassan-bme)
+
+---
+
+### 4. A magyar gyártó KKV-k számára már a „physical AI” és a humanoid robotika kerül napirendre
+
+A Magyar Robotikai Szövetség, a Pest Vármegyei és Érdi Kereskedelmi és Iparkamara, valamint a Német–Magyar Tudásközpont szeptember 30-án rendezte meg az **„AI, robotika és automatizáció a gyártásban”** konferenciát.
+
+A program az alapvető gyártásdigitalizációtól és az első ipari robot bevezetésétől a humanoid robotikáig és a **physical AI**, vagyis a fizikai környezetben érzékelő és cselekvő MI-rendszerek alkalmazásáig jutott el.
+
+**Miért lényeges?** Magyarország gazdaságában a feldolgozóipar és az autóipar kiemelt súlyú. Emiatt a következő MI-hullám — amely már nemcsak dokumentumokat generál, hanem **robotokat, gyártósorokat és logisztikai rendszereket irányít** — különösen nagy termelékenységi és munkaerőpiaci hatással járhat itthon.
+
+**Forrás:** [Magyar Robotikai Szövetség – AI, robotika és automatizáció a gyártásban](https://robotikaiszovetseg.hu/hu/esemenyek/2026/09/ai-robotika-automatizacio-a-gyartasban-2026/)
+
+---
+
+## 📌 Mai fő kép
+
+A 2026. október 1-jei hírfolyamból négy fontos tendencia rajzolódik ki:
+
+1. **Az agentikus MI már szabályozói ügy.** Az FTC vizsgálata és Kalifornia új munkajogi szabályai azt mutatják, hogy az autonóm rendszerekkel kapcsolatos felelősség egyre kevésbé marad önkéntes vállalati kérdés.
+
+2. **A legerősebb modelleket egyre óvatosabban engedik ki.** A Google a Gemini 4 Argont először kiberbiztonsági szakértőkkel tesztelteti, mielőtt széles körben hozzáférhetővé tenné.
+
+3. **A modellek képessége maga is stratégiai erőforrás.** Az OpenAI–Moonshot ügy azt mutatja, hogy a frontier-modellek tudásának és rejtett érvelésének reprodukálása az amerikai–kínai technológiai verseny új frontjává válik.
+
+4. **Az MI-boom mérete már a jegybankokat is érdekli.** A compute- és adatközpont-beruházások, valamint a frontier-cégek rendkívül magas értékeltsége miatt az MI már potenciális pénzügyi stabilitási tényezőként is megjelenik.
+
+Magyarországon eközben jól látható az alkalmazások specializálódása: **a klinikai MI, a mentális egészség, a vállalati rendszerek és a fizikai robotika** mind külön szakmai ökoszisztémává kezdenek fejlődni. A kérdés egyre kevésbé az, hogy „használjunk-e MI-t”, és egyre inkább az, hogy **mely folyamatokban, milyen felelősségi és biztonsági feltételek mellett érdemes rábízni valódi döntéseket vagy cselekvéseket**.
+
