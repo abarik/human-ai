@@ -1,0 +1,9 @@
+---
+title: "Rövid szakmai ismertetők a kutatócsoport tagjaitól"
+listing:
+  contents: lp_rovid_ismertetok
+  type: table
+  sort:
+    - "date desc"
+    - "title desc"
+---

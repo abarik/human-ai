@@ -31,6 +31,9 @@ website:
         href: index.qmd
       - text: "Kutatócsoportról"
         href: kutatocsoportrol.qmd
+      - text: "Tudásmegosztás"
+      - text: "Rövid ismertetők"
+        href: lp_rovid_ismertetok.qmd
       - text: "MI eszközök"
         href: mi_eszkozok_iras.qmd
       - section: "MI-generált hírek"

@@ -137,7 +137,8 @@ main.content section > :is(h1, h2) {
 }
 
 main.content h3 { font-size: 1.2rem; line-height: 1.45; margin-top: 2rem; }
-main.content li { margin-bottom: .5rem; }
+main.content li { margin-bottom: .125rem; }
+main.content li > p { margin-bottom: .3125rem; }
 main.content li::marker { color: var(--emi-accent); }
 
 a { color: var(--emi-accent); text-underline-offset: .2em; }
@@ -246,9 +247,9 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
   mask: url("ember-mi-logo.svg") center / contain no-repeat;
 }
 #quarto-sidebar a { color: var(--emi-muted); }
-#quarto-sidebar .sidebar-item-container { margin: .2rem 0; }
+#quarto-sidebar .sidebar-item-container { margin: .1rem 0; }
 #quarto-sidebar .sidebar-item-text {
-  padding: .55rem .7rem;
+  padding: .275rem .7rem;
   border-left: 3px solid transparent;
   border-radius: 0 6px 6px 0;
   font-size: .9rem;
@@ -266,7 +267,23 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
   font-weight: 600;
 }
 
-#quarto-sidebar .sidebar-item-section > .sidebar-item-container { margin-top: 1rem; }
+#quarto-sidebar .sidebar-item-section > .sidebar-item-container { margin-top: .5rem; }
+
+/* Plain menu labels mark sections, including any added in the future. */
+#quarto-sidebar .sidebar-item > .menu-text {
+  display: block;
+  margin-top: .75rem;
+  margin-bottom: .25rem;
+  padding: .6rem .7rem .2rem;
+  border-top: 1px solid var(--emi-line);
+  color: var(--emi-accent);
+  font-size: .7rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
 #quarto-sidebar .sidebar-item-toggle:hover { color: var(--emi-accent); }
 #quarto-sidebar .sidebar-search { margin-bottom: 1.25rem; }
 #quarto-search .aa-Autocomplete .aa-Form {
@@ -294,8 +311,9 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
 }
 #quarto-margin-sidebar #TOC .nav-link:hover { color: var(--emi-accent); }
 
-/* Only the home page's research list becomes a grid. */
-#kutatási-területeink > ul {
+/* Research cards and reusable QMD lists wrapped in .kartya-lista. */
+#kutatási-területeink > ul,
+main.content .kartya-lista > :is(ul, ol) {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: .85rem;
@@ -304,7 +322,8 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
   counter-reset: research;
 }
 
-#kutatási-területeink > ul > li {
+#kutatási-területeink > ul > li,
+main.content .kartya-lista > :is(ul, ol) > li {
   counter-increment: research;
   margin: 0;
   padding: 1.2rem 1.3rem;
@@ -315,7 +334,11 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
   box-shadow: var(--emi-shadow);
 }
 
-#kutatási-területeink > ul > li::before {
+main.content .kartya-lista > :is(ul, ol) > li { border-radius: 16px; }
+main.content .kartya-lista > :is(ul, ol) > li > :last-child { margin-bottom: 0; }
+
+#kutatási-területeink > ul > li::before,
+main.content .kartya-lista > :is(ul, ol) > li::before {
   content: counter(research, decimal-leading-zero);
   display: block;
   margin-bottom: .6rem;
@@ -498,8 +521,10 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
   body { font-size: .96rem; }
   #title-block-header { padding: 1.5rem 1.1rem; }
   #title-block-header h1.title { font-size: 2rem; }
-  #kutatási-területeink > ul { grid-template-columns: 1fr; }
-  #kutatási-területeink > ul > li { padding: 1rem 1.15rem; }
+  #kutatási-területeink > ul,
+  main.content .kartya-lista > :is(ul, ol) { grid-template-columns: 1fr; }
+  #kutatási-területeink > ul > li,
+  main.content .kartya-lista > :is(ul, ol) > li { padding: 1rem 1.15rem; }
   main.content .table > :not(caption) > * > * { padding: .65rem .4rem; }
   #kapcsolat { padding-right: 1rem; padding-left: 1rem; }
 }
@@ -512,7 +537,8 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
 @media print {
   #quarto-sidebar::before { animation: none; display: none; }
   body { background: #fff !important; color: #000 !important; }
-  #title-block-header, #kutatási-területeink > ul > li, #kapcsolat {
+  #title-block-header, #kutatási-területeink > ul > li, #kapcsolat,
+  main.content .kartya-lista > :is(ul, ol) > li {
     background: transparent !important;
     box-shadow: none;
     border-color: #aaa;
@@ -520,5 +546,6 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
   #title-block-header::before { display: none; }
   #title-block-header { padding: 1rem 0; }
   main.content :is(h1, h2, h3, p, a, li) { color: #000 !important; }
-  #kutatási-területeink > ul > li { break-inside: avoid; }
+  #kutatási-területeink > ul > li,
+  main.content .kartya-lista > :is(ul, ol) > li { break-inside: avoid; }
 }
