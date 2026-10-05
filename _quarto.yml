@@ -44,6 +44,8 @@ website:
             href: lp_mi_hirek_heti_pszicho.qmd
       - text: "Linkek"
         href: linkek.qmd
+      - text: "Munkacsoportok"
+      - text: "Kutatás"
         
 
   page-footer:

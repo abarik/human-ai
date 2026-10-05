@@ -9,119 +9,171 @@ link-citations: true
 
 *Az útmutató összeállításában a Claude.ai segítségét kértem.*
 
-Ez az útmutató azoknak szól, akik még egyáltalán nem, vagy csak alkalmanként próbáltak ki a generatív mesterséges intelligencia eszközöket. Nem feltételez semmilyen informatikai előismeretet. 
+Ez az útmutató azoknak szól, akik még egyáltalán nem, vagy csak alkalmanként próbáltak ki a generatív mesterséges intelligencia eszközöket. Nem feltételez semmilyen informatikai előismeretet.
 
-::: {.callout-note}
+::: callout-note
 ## A cél, hogy a fejezet végére
 
-- tudd, **mi a különbség** egy chatbot, egy MI-kereső és egy forrásalapú tanulási eszköz között;
-- **be tudj jelentkezni** és el tudj indulni a következő 5 eszköz valamelyikével: 
+- tudja, mi a különbség egy chatbot, egy MI-kereső és egy forrásalapú tanulási eszköz között;
 
-    - a Debreceni Egyetem **Microsoft 365 Copilot Chat** szolgáltatásával, 
-    - a **ChatGPT**-vel, 
-    - a **Claude**-dal, 
-    - a **Perplexity**-vel és a 
-    - **Gemini Notebook**-kal (korábbi nevén NotebookLM);
-    
-- meg tudd írni az **első jó promptodat**, és **ellenőrizni tudd** a választ;
-- ismerd azokat az **adatvédelmi és etikai alapszabályokat**, amelyeket egy pszichológia területén különösen komolyan kell venni.
+- be tudjon jelentkezni és el tudjon indulni a következő 5 eszköz valamelyikével:
+
+  - a Debreceni Egyetem **Microsoft 365 Copilot Chat** szolgáltatásával,
+  - a **ChatGPT**-vel,
+  - a **Claude**-dal,
+  - a **Perplexity**-vel és a
+  - **Gemini Notebook**-kal (korábbi nevén NotebookLM);
+
+- meg tudja írni az első jó promptját, és ellenőrizni tudja a választ;
+
+- ismerje azokat az adatvédelmi és etikai alapszabályokat, amelyeket egy pszichológia területén különösen komolyan kell venni.
 :::
 
-Mielőtt elkezded ennek a rövid ismertetőnek az olvasását, érdemes megismerned néhány alternatív kezdőpontot is. Ezek szintén jó kiindulási lehetőség a generatív mesterséges intelligencia megismeréséhez:
+Mielőtt elkezdi ennek a rövid ismertetőnek az olvasását, érdemes megismernie néhány alternatív tanulási utat. Ezek kiváló kiindulópontot jelenthetnek az egyes MI-eszközök megismeréséhez, valamint a generatív mesterséges intelligencia működésének, lehetőségeinek és gyakorlati alkalmazásainak általánosabb megértéséhez:
 
-::: {.kartya-lista}
-
-- A Microsoft hivatalos kezdő tananyaga: [Build foundational generative AI skills – Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-copilot-business-chat/){target="_blank"}.  
-Kezdő szintű tanulási útvonal a generatív MI alapjairól, a Microsoft 365 Copilot Chat használatáról és a hatékony promptírásról.
-- Az OpenAI hivatalos kezdőkurzusa: [AI Foundations – OpenAI Academy](https://academy.openai.com/public/courses/ai-foundations-juzjs?autoEnroll=true){target="_blank"}.  
-Önálló tempóban végezhető alapozó kurzus a ChatGPT használatáról, promptolásról, kontextusadásról, eredményellenőrzésről és felelős MI-használatról.
-- Az Anthropic hivatalos kezdő tananyaga: [AI Fluency: Framework & Foundations – Anthropic](https://www.anthropic.com/learn/claude-for-you){target="_blank"}.  
-Gyakorlati alapozó képzés arról, hogyan érdemes generatív MI-rendszerekkel, köztük Claude-dal hatékonyan együtt dolgozni.
-- A Perplexity hivatalos oktatási felülete: [Perplexity Academy](https://www.perplexity.ai/hub/academy){target="_blank"}.    
-Rövid, moduláris tananyagok és videós leckék a Perplexity használatáról, kezdő és haladó témákkal.
-- A Google hivatalos kezdő útmutatója: [Gemini Notebook / NotebookLM – Get started](https://support.google.com/notebooklm/answer/16246230?hl=en){target="_blank"}.   
-A kezdő útmutató bemutatja a notebookok létrehozását, a források hozzáadását, a kérdezést, a jegyzetelést, valamint az Audio és Video Overview funkciókat.
-
+::: kartya-lista
+- A Microsoft hivatalos kezdő tananyaga: [Build foundational generative AI skills – Microsoft Learn](https://learn.microsoft.com/en-us/training/paths/explore-microsoft-365-copilot-business-chat/){target="_blank"}.\
+  Kezdő szintű tanulási útvonal a generatív MI alapjairól, a Microsoft 365 Copilot Chat használatáról és a hatékony promptírásról.
+- Az OpenAI hivatalos kezdőkurzusa: [AI Foundations – OpenAI Academy](https://academy.openai.com/public/courses/ai-foundations-juzjs?autoEnroll=true){target="_blank"}.\
+  Önálló tempóban végezhető alapozó kurzus a ChatGPT használatáról, promptolásról, kontextusadásról, eredményellenőrzésről és felelős MI-használatról.
+- Az Anthropic hivatalos kezdő tananyaga: [AI Fluency: Framework & Foundations – Anthropic](https://www.anthropic.com/learn/claude-for-you){target="_blank"}.\
+  Gyakorlati alapozó képzés arról, hogyan érdemes generatív MI-rendszerekkel, köztük Claude-dal hatékonyan együtt dolgozni.
+- A Perplexity hivatalos oktatási felülete: [Perplexity Academy](https://www.perplexity.ai/hub/academy){target="_blank"}.\
+  Rövid, moduláris tananyagok és videós leckék a Perplexity használatáról, kezdő és haladó témákkal.
+- A Google hivatalos kezdő útmutatója: [Gemini Notebook / NotebookLM – Get started](https://support.google.com/notebooklm/answer/16246230?hl=en){target="_blank"}.\
+  A kezdő útmutató bemutatja a notebookok létrehozását, a források hozzáadását, a kérdezést, a jegyzetelést, valamint az Audio és Video Overview funkciókat.
 :::
 
+## Néhány alapfogalom, mielőtt elkezdjük
 
-## Néhány alapfogalom, mielőtt elkezded
+Első lépésként érdemes néhány fogalmat megismerni. A részletesebb technikai háttér a későbbi ismertetőkben lesz elérhető.
 
-Első lépésként érdemes néhány fogalmat megismerni. A részletesebb technikai háttér későbbi ismertetőkben lesz elérhető.
+- **Nagy nyelvi modell (LLM).** Hatalmas adatmennyiségen tanított statisztikai modell, amely egy szöveg folytatását "jósolja meg" – szóról szóra (pontosabban tokenről tokenre). Nem adatbázis és nem keresőmotor: nem "kikeresi" a választ, hanem *előállítja*. Emiatt a válasz nyelvileg teljesen természetesnek és meggyőzőnek tűnhet akkor is, ha tartalmilag pontatlan vagy hibás.
 
-- **Nagy nyelvi modell (LLM).** Hatalmas szövegmennyiségen tanított statisztikai modell, amely egy szöveg folytatását "jósolja meg" – szóról szóra (pontosabban tokenről tokenre). Nem adatbázis és nem keresőmotor: nem „kikeresi” a választ, hanem *előállítja*. Ezért lehet a válasz egyszerre folyékony és hibás.
+- **Chatbot (MI-asszisztens).** Egy nyelvi modellre épülő alkalmazás, amellyel beszélgetés formájában kommunikál. Ilyen a ChatGPT, a Claude, a Copilot Chat és a Gemini. Ugyanaz a cég gyakran több modellt is kínál egy chatboton belül (gyorsabbat és/vagy okosabbat).
 
-- **Chatbot (MI-asszisztens).** Egy nyelvi modellre épülő alkalmazás, amellyel beszélgetés formájában kommunikálsz. Ilyen a ChatGPT, a Claude, a Copilot Chat és a Gemini. Ugyanaz a cég gyakran több modellt is kínál egy chatboton belül (gyorsabbat és „okosabbat”).
+- **Prompt.** Az utasítás vagy kérdés, amelyet a chatbotnak ír. A jó prompt sokat javíthat a válasz relevanciáján és formáján, de nem garantálja a ténybeli pontosságot: azt a modell, a rendelkezésre álló források és az adott feladat is befolyásolja.
 
-- **Prompt.** Az utasítás vagy kérdés, amelyet a chatbotnak írsz. A válasz minősége nagymértékben a prompt minőségén múlik (lásd a [Az első jó prompt](#sec-elso-prompt) alfejezetet).
+- **Beszélgetés (chat) és kontextus.** A chatbot egy beszélgetésen belül "emlékszik" az előzményekre, mert azokat minden új kérdésnél újra megkapja. Egy *új* beszélgetésben viszont alapértelmezésben nem tud a régiekről. Gyakorlati szabály: egy téma – egy beszélgetés.
 
-- **Beszélgetés (chat) és kontextus.** A chatbot egy beszélgetésen belül „emlékszik” az előzményekre, mert azokat minden új kérdésnél újra megkapja. Egy *új* beszélgetésben viszont alapértelmezésben nem tud a régiekről. Gyakorlati szabály: **egy téma – egy beszélgetés.**
+- **Hallucináció (konfabuláció).** Magabiztosan megfogalmazott, de hibás vagy kitalált állítás, például nem létező tanulmány, rossz évszám, kitalált DOI [@ji2023; @nist2024]. Nem "hazugság", hiszen a modellnek nincs szándéka, de a felhasználó szempontjából ugyanolyan veszélyes. A pszichológiai szakirodalomra vonatkozó hivatkozásokat mindig ellenőrizni kell.
 
-- **Hallucináció (konfabuláció).** Magabiztosan megfogalmazott, de hibás vagy kitalált állítás – például nem létező tanulmány, rossz évszám, kitalált DOI [@ji2023; @nist2024]. Nem „hazugság”, hiszen a modellnek nincs szándéka, de a felhasználó szempontjából ugyanolyan veszélyes. **A pszichológiai szakirodalomra vonatkozó hivatkozásokat mindig ellenőrizni kell.**
+- **MI-kereső.** Olyan eszköz, amely a kérdésére először a weben keres, majd a talált oldalakból fogalmaz választ, és forrásokat jelöl meg. Ilyen a Perplexity, de a chatbotok is tudnak keresni.
 
-- **MI-kereső.** Olyan eszköz, amely a kérdésedre először a weben keres, majd a talált oldalakból fogalmaz választ, és **forrásokat jelöl meg**. Ilyen a Perplexity, de a chatbotok is tudnak keresni.
+- **Forrásalapú eszköz.** Olyan eszköz, amely elsősorban *az Ön által megadott dokumentumokból* dolgozik, és a válaszaiban megmutatja, melyik forrás melyik részére támaszkodik. Ilyen a Gemini Notebook. A hallucináció kockázata itt kisebb, de nem nulla.
 
-- **Forrásalapú (grounded) eszköz.** Olyan eszköz, amely elsősorban *az általad megadott dokumentumokból* dolgozik, és a válaszaiban megmutatja, melyik forrás melyik részére támaszkodik. Ilyen a Gemini Notebook. A hallucináció kockázata itt kisebb, de nem nulla.
+- **Ingyenes keret (használati korlát).** Az ingyenes változatok mindegyike korlátozza, mennyit és milyen funkciókat használhat egy adott időszakban (pl. néhány óránként megújuló keret). A fizetős változatokban ezek a korlátok jóval magasabbak, illetve egyes fejlettebb funkciók kizárólag előfizetéssel érhetők el.
 
-- **Ingyenes keret (használati korlát).** Az ingyenes változatok mindegyike korlátozza, mennyit és milyen funkciókat használhatsz egy adott időszakban (pl. néhány óránként megújuló keret).
+- **Személyes fiók vagy intézményi fiók.** Személyes fiókkal (saját e-mail-címmel) a szolgáltató általános felhasználási feltételei vonatkoznak Önre, és a beszélgetései – beállítástól függően – a modellek továbbfejlesztésére is felhasználhatók. Intézményi fiókkal (pl. az egyetemi Microsoft 365-fiókkal) az intézmény és a szolgáltató közötti szerződés adatvédelmi garanciái érvényesek.
 
-- **Személyes fiók vagy intézményi fiók.** Személyes fiókkal (saját e-mail-címmel) a szolgáltató általános felhasználási feltételei vonatkoznak rád, és a beszélgetéseid – beállítástól függően – a modellek továbbfejlesztésére is felhasználhatók. Intézményi fiókkal (pl. az egyetemi Microsoft 365-fiókkal) az intézmény és a szolgáltató közötti szerződés adatvédelmi garanciái érvényesek.
-
-## Mielőtt bármit feltöltesz: öt alapszabály
+## Mielőtt belekezd: öt alapszabály
 
 A pszichológia különösen érzékeny terület: klinikai esetek, kutatási adatok, hallgatói dolgozatok és személyes élettörténetek kerülhetnek a kezünk közé. Az alábbi szabályok minden eszközre érvényesek, különösen az ingyenes fiókok használata során.
 
-::: {.callout-warning}
+::: callout-warning
 ## Adatvédelmi és etikai alapszabályok
 
-1. **Személyes adatot ne tölts fel** – különösen nem egészségügyi, pszichológiai vagy más különleges kategóriájú adatot (GDPR 9. cikk) [@gdpr2016]. Kliens-, páciens- vagy kutatási résztvevői adat, nyers kérdőíves adatbázis, interjúátirat azonosítható személlyel: **semmilyen** ingyenes, személyes fiókos chatbotba.
-2. **Hallgatói munkát ne tölts fel engedély nélkül.** Egy dolgozat, szakdolgozat vagy vizsgadolgozat a hallgató szellemi terméke és személyes adat is.
-3. **Ellenőrizz mindent, amit felhasználsz** – különösen tényeket, számokat, hivatkozásokat. A felelősség a tiéd, nem az eszközé.
-4. **Tartsd be a kurzus szabályait.** Hogy egy beadandóban szabad-e és hogyan szabad MI-t használni, azt az oktató és az egyetemi szabályzat határozza meg. Ha szabad, jelöld az MI-használatot átláthatóan.
-5. **Ha választhatsz, az intézményi eszközt használd.** Munkaanyagokhoz az egyetemi fiókkal elérhető Copilot Chat erősebb adatvédelmi garanciákat ad, mint egy személyes fiókos ingyenes chatbot – de ez sem jelenti azt, hogy az 1. pontban felsorolt adatok bekerülhetnének.
+1.  **Személyes adatot ne töltsön fel.** Különösen nem egészségügyi, pszichológiai vagy más különleges kategóriájú adatot (GDPR 9. cikk) [@gdpr2016]. Kliens-, páciens- vagy kutatási résztvevői adatot, illetve azonosítható nyers kutatási adatot ne töltsön fel nyilvános vagy személyes MI-fiókba — függetlenül attól, hogy az ingyenes vagy fizetős. Csak intézményileg jóváhagyott, megfelelő szerződéses és adatvédelmi feltételekkel működő rendszer használható, a helyi szabályok szerint.
+2.  **Hallgatói munkát ne töltsön fel engedély nélkül.** A hallgatói munka szellemi alkotás; azonosított vagy azonosítható hallgatóhoz kapcsolva személyes adatot is tartalmazhat. Feltöltése előtt kérjen engedélyt, és kövesse az intézményi szabályokat.
+3.  **Ellenőrizzen mindent, amit felhasznál.** Különösen tényeket, számokat, hivatkozásokat. A felelősség az Öné, nem az eszközé.
+4.  **Tartsa be a kurzus szabályait.** Hogy egy beadandóban szabad-e és hogyan szabad MI-t használni, azt az oktató és az egyetemi szabályzat határozza meg. Ha szabad, jelölje az MI-használatot átláthatóan.
+5.  **Ha választhat, az intézményi eszközt használja.** Munkaanyagokhoz az egyetemi fiókkal elérhető Copilot Chat rendszerint erősebb szervezeti adatvédelmi és hozzáférés-kezelési garanciákat ad. Ez azonban nem írja felül az adatminimalizálást, az etikai engedélyeket, a titoktartást vagy az egyetemi adatkezelési előírásokat.
 :::
 
-**Anonimizálás.** Ha egy esetleírást vagy szöveget mégis elemeztetni szeretnél, előbb távolíts el belőle minden azonosításra alkalmas elemet (név, életkor + település + foglalkozás kombinációja, intézmény, dátumok). Ne feledd: a ritka részletek együttese is azonosíthat valakit.
+**Anonimizálás.** Ha egy esetleírást vagy szöveget mégis elemeztetni szeretne, előbb távolítson el belőle minden azonosításra alkalmas elemet (név, életkor + település + foglalkozás kombinációja, intézmény, dátumok). 
+
+**Deidentifikálás nem egyenlő anonimizálással.** Ha egy szövegből eltávolítja a közvetlen azonosítókat, az még nem feltétlenül anonim. A ritka események, helyszínek, időpontok és élettörténeti részletek kombinációja visszaazonosítható lehet.”
+
+## Egyetemi útmutatók és ajánlások
+
+A generatív mesterséges intelligencia oktatási, tanulási és kutatási célú használatával egyre több egyetem foglalkozik részletes útmutatókban, állásfoglalásokban és oktatási segédanyagokban. Az alábbi válogatás néhány hazai és nemzetközi egyetem anyagait gyűjti össze. Érdemes ezeket is áttekinteni, hiszen nemcsak az MI-eszközök használatához adnak gyakorlati segítséget, hanem az etikai, adatvédelmi és tudományos integritási kérdésekre is felhívják a figyelmet.
+
+### Debreceni Egyetem
+
+- **Irányelvek a mesterséges intelligencia alapú rendszerek használatához a Debreceni Egyetemen** – egyetemi szintű irányelvek az MI oktatási és kutatási alkalmazásáról, a felelős, etikus és átlátható használat alapelveiről.\
+  [Irányelvek a mesterséges intelligencia alapú rendszerek használatához a Debreceni Egyetemen](https://btk.unideb.hu/sites/default/files/inline-files/Ir%C3%A1nyelvek%20a%20mesters%C3%A9ges%20intelligencia%20alap%C3%BA%20rendszerek%20haszn%C3%A1lat%C3%A1hoz%20a%20Debreceni%20Egyetemen_1.pdf)
+
+- **A DE Bölcsészettudományi Kar állásfoglalása az MI-alapú rendszerek használatáról** – a Kar 2023-as állásfoglalása az MI oktatási alkalmazásáról. A dokumentum nem tiltja, hanem a jogszabályoknak és tudományetikai normáknak megfelelő MI-használatot ösztönzi, ugyanakkor hangsúlyozza az önálló hallgatói munkát, az MI használatának dokumentálását, valamint a létrehozott tartalomért viselt felelősséget.\
+  [Állásfoglalás a mesterséges intelligencia alapú rendszerek használatáról a DE BTK-n](https://btk.unideb.hu/sites/default/files/2023-09/Kari%20%C3%A1ll%C3%A1sfoglal%C3%A1s%20_23.09.25..pdf)
+
+### Eötvös Loránd Tudományegyetem (ELTE)
+
+- **MI és jövőorientált technológiák** – az ELTE mesterséges intelligenciával kapcsolatos kezdeményezéseinek, programjainak és híreinek gyűjtőoldala.\
+  [ELTE – Mesterséges intelligencia](https://www.elte.hu/mestersegesintelligencia)
+
+- **A mesterséges intelligenciával kapcsolatos szabályzatok és segédletek** – oktatóknak és hallgatóknak szóló dokumentumok, útmutatók és segédletek az MI egyetemi alkalmazásához.\
+  [ELTE PPK – Mesterséges intelligencia](https://ppk.elte.hu/mesterseges-intelligencia)
+
+### Károli Gáspár Református Egyetem (KRE)
+
+- **Útmutató a mesterséges intelligencia alapú rendszerek használatáról** – részletes egyetemi útmutató a felelős és etikus MI-használatról, az önálló munka, a dokumentálás és a tudományos integritás szempontjairól.\
+  [KRE – Útmutató a mesterséges intelligencia alapú rendszerek használatáról](https://portal.kre.hu/images/doc/ikt/MI_utmutato_20240628.pdf)
+
+- **A KRE szabályzatai** – az egyetem szabályzatai között a mesterséges intelligencia használatára vonatkozó intézményi szabályozás is megtalálható.\
+  [KRE – Szabályzatok](https://portal.kre.hu/index.php/home/szabalyzatok.html)
+
+### Massachusetts Institute of Technology (MIT)
+
+Az MIT több, szabadon hozzáférhető útmutatót és gyakorlati segédanyagot kínál a generatív mesterséges intelligencia oktatási alkalmazásához.
+
+- **AI and Education Report** – az MIT jelentése a mesterséges intelligencia oktatási alkalmazásairól, lehetőségeiről és kihívásairól.\
+  [MIT – AI and Education Report](https://aiandeducation.mit.edu/report/)
+
+- **MIT AI Community Hub** – az MIT központi MI-oldala, amely az oktatáshoz, tanuláshoz, kutatáshoz és az MI felelős használatához kapcsolódó forrásokat gyűjti össze.\
+  [MIT AI Community Hub](https://aihub.mit.edu/)
+
+- **AI Resources** – válogatott MIT-források MI-eszközökről, kurzustervezésről, oktatási gyakorlatokról és az MI használatának hivatkozási kérdéseiről.\
+  [MIT AI Resources](https://aihub.mit.edu/resources.html)
+
+- **Getting Started with AI-Enhanced Teaching** – gyakorlati bevezető a generatív MI oktatási alkalmazásához, az alapfogalmaktól az etikai és adatvédelmi kérdésekig.\
+  [MIT Sloan – Getting Started with AI-Enhanced Teaching](https://mitsloanedtech.mit.edu/ai/teach/getting-started/)
+
+- **Practical Strategies for Teaching with AI** – konkrét, tanórai környezetben is alkalmazható módszerek a generatív MI használatához.\
+  [MIT Sloan – Practical Strategies for Teaching with AI](https://mitsloanedtech.mit.edu/ai/teach/practical-strategies-for-teaching-with-ai/)
+
+- **Generative AI in your Teaching: Ways to Begin Engaging** – ötletek arra, hogyan lehet fokozatosan és tudatosan bevonni a generatív MI-t az oktatásba.\
+  [MIT Open Learning – Generative AI in your Teaching](https://openlearning.mit.edu/mit-faculty/residential-digital-innovations/generative-ai-your-teaching-ways-begin-engaging)
 
 ## Melyik eszközt mire? – Áttekintés
 
-| Eszköz | Típus | Belépés | Mire jó leginkább? | Mire vigyázz? |
-|---|---|---|---|---|
+| Eszköz | Típus | Belépés | Mire jó leginkább? | Mire vigyázzon? |
+|---------------|---------------|---------------|---------------|---------------|
 | **Microsoft 365 Copilot Chat** | chatbot (intézményi) | egyetemi Microsoft 365-fiók | általános kérdések, szövegírás, összefoglalás, munkahelyi dokumentumok – védett környezetben | csak bejelentkezve védett; a fizetős Copilot-funkciók nem érhetők el |
 | **ChatGPT** | chatbot | saját fiók (ingyenes) | sokoldalú általános asszisztens, magyarázat, ötletelés, átfogalmazás | ingyenes keret, adatbeállítások ellenőrzése |
 | **Claude** | chatbot | saját fiók (ingyenes, 18+) | hosszabb szövegek olvasása és írása, gondos megfogalmazás, strukturált anyagok | időablakonként megújuló keret, adatbeállítások ellenőrzése |
 | **Perplexity** | MI-kereső | fiók nélkül is, fiókkal több funkció | gyors, forrásokkal ellátott keresés, friss információ | a megjelölt forrást meg kell nyitni és elolvasni |
 | **Gemini Notebook** | forrásalapú tanulási eszköz | Google-fiók | saját jegyzetek, cikkek feldolgozása: összefoglaló, kérdések, kártyák, hangos összefoglaló | csak a feltöltött forrásokban „bízik”; azok minősége számít |
 
-A következő alfejezetek ebben a sorrendben vezetnek végig az eszközökön. **Ha csak egyet próbálsz ki, kezdd a Copilot Chattel** – ehhez nem kell új fiók, és adatvédelmi szempontból ez a legbiztonságosabb kiindulópont.
+A következő alfejezetek ebben a sorrendben vezetnek végig az eszközökön. Ha csak egyet próbál ki, kezdje a Copilot Chattel, ugyanis ehhez nem kell új fiók, és adatvédelmi szempontból ez a legbiztonságosabb kiindulópont.
 
 ## 1. Microsoft 365 Copilot Chat egyetemi fiókkal
 
 ### Mi ez?
 
-A Debreceni Egyetem polgárai – hallgatók és dolgozók – egyetemi Microsoft 365-fiókkal rendelkeznek, amellyel az egyetemi levelezést, a Teamst, a OneDrive-ot és az Office webes alkalmazásait használják [@unideb_mailbox]. Ehhez a fiókhoz a Microsoft külön díj nélkül biztosítja a **Copilot Chat** nevű MI-chatbotot. A felületen ez **„Basic”** megjelöléssel jelenik meg (*Copilot Chat (Basic)*, illetve az Office-alkalmazásokban *Microsoft 365 Copilot (Basic)*): ez azt jelzi, hogy a felhasználónak nincs külön megvásárolt, fizetős Copilot-licence, de az alapszolgáltatást „standard” hozzáféréssel használhatja [@ms_copilot_chat_overview].
+A Debreceni Egyetem polgárai – hallgatók és dolgozók – egyetemi Microsoft 365-fiókkal rendelkeznek, amellyel az egyetemi levelezést, a Teamst, a OneDrive-ot és az Office webes alkalmazásait használják [@unideb_mailbox]. Ehhez a fiókhoz a Microsoft külön díj nélkül biztosítja a **Copilot Chat** nevű MI-chatbotot. A felületen ez **Basic** megjelöléssel jelenik meg (*Copilot Chat (Basic)*, illetve az Office-alkalmazásokban *Microsoft 365 Copilot (Basic)*): ez azt jelzi, hogy a felhasználónak nincs külön megvásárolt, fizetős Copilot-licence, de az alapszolgáltatást "standard" hozzáféréssel használhatja [@ms_copilot_chat_overview].
 
-A Copilot Chat a háttérben az OpenAI GPT-modelljeit használja, tehát képességeiben a ChatGPT-hez hasonló. A lényeges különbség az **adatvédelem**: egyetemi fiókkal bejelentkezve **vállalati adatvédelem** (*enterprise data protection*) vonatkozik rá, vagyis a beszélgetéseidet nem használják fel a modellek tanítására, és az intézményi Microsoft 365-környezet biztonsági és megfelelőségi szabályai érvényesek [@ms_copilot_chat_overview].
+A Copilot Chat a háttérben az OpenAI GPT-modelljeit használja, tehát képességeiben a ChatGPT-hez hasonló. A konkrét modell és a modellválasztás idővel, funkciónként és intézményi beállításonként változhat. Emiatt a Copilot Chat és a ChatGPT képességei részben átfednek, de nem azonos szolgáltatásokról van szó. A lényeges különbség az adatvédelem: egyetemi fiókkal bejelentkezve vállalati adatvédelem (*enterprise data protection*) vonatkozik rá, vagyis a beszélgetéseit nem használják fel a modellek tanítására, és az intézményi Microsoft 365-környezet biztonsági és megfelelőségi szabályai érvényesek [@ms_copilot_chat_overview].
 
 ### Első lépések
 
-1. Nyisd meg a böngészőben a **m365copilot.com** címet (vagy a `copilot.cloud.microsoft` oldalt, illetve a Microsoft 365 kezdőlapján a Copilot ikont).
-2. Jelentkezz be az **egyetemi Microsoft 365-fiókoddal** – ugyanazzal, amellyel az egyetemi e-mailt vagy a Teamst használod. Ha még nem aktiváltad, ezt az egyetem eduID-felületén lehet megtenni.
-3. Ellenőrizd, hogy a felületen az egyetemi fiókod látszik-e, és megjelenik-e a **védettségre utaló jelzés** (pajzs ikon vagy „védett” / *Protected* felirat). Ha nem, valószínűleg személyes Microsoft-fiókkal vagy kijelentkezve vagy – ilyenkor a vállalati adatvédelem nem érvényes.
-4. Írd be az első kérdésedet az alsó szövegmezőbe.
+1.  Nyissa meg a böngészőben a [m365copilot.com](https://m365copilot.com) címet (vagy a [copilot.cloud.microsoft](https://copilot.cloud.microsoft) oldalt, illetve a Microsoft 365 kezdőlapján a Copilot ikont).
+2.  Jelentkezzen be az egyetemi Microsoft 365-fiókjával – ugyanazzal, amellyel az egyetemi e-mailt vagy a Teamst használja. Ha még nem aktiválta, ezt az egyetem eduID-felületén lehet megtenni.
+3.  Ellenőrizze, hogy a felületen az egyetemi fiókja látszik-e, és megjelenik-e a védettségre utaló jelzés (pajzs ikon a jobb felső sarokban vagy a *védett* / *Protected* felirat). Ha nem, valószínűleg személyes Microsoft-fiókkal van bejelentkezve, ilyenkor a vállalati adatvédelem nem érvényes.
+4.  Írja be az első kérdését az alsó szövegmezőbe.
 
 ### Mit tud az alapváltozat?
 
-- általános kérdések megválaszolása, **webes kereséssel** kiegészítve, forrásmegjelöléssel;
+- általános kérdések megválaszolása, webes kereséssel kiegészítve, forrásmegjelöléssel;
 - szövegírás, átfogalmazás, összefoglalás, fordítás;
-- **fájl feltöltése** és elemzése (pl. egy cikk PDF-je);
+- fájl feltöltése és elemzése (pl. egy cikk PDF-je);
 - képgenerálás;
-- egyszerű, előre elkészített **ágensek** használata;
-- a felület tetején **modellválasztás**: *Auto* (a rendszer dönt), gyors válasz, vagy alaposabb „gondolkodó” mód [@ms_copilot_chat_overview].
+- egyszerű, előre elkészített ágensek használata;
+- a felület tetején modellválasztás: *Auto* (a rendszer dönt), gyors válasz, vagy alaposabb "gondolkodó" mód [@ms_copilot_chat_overview].
 
-**Amit nem tud** a fizetős licenc nélkül: nem lát rá automatikusan az összes e-mailedre, Teams-csevegésedre és OneDrive-fájlodra, és a Word, Excel, PowerPoint alkalmazásokban sem nyújtja a teljes beépített Copilot-élményt. Amit elemeztetni szeretnél, azt neked kell bemásolnod vagy feltöltened [@ms_copilot_chat_overview]. Csúcsidőben a szolgáltatás lassulhat, mert az alapváltozat nem élvez elsőbbséget.
 
-### Próbáld ki
+Fizetős Microsoft 365 Copilot-licenc nélkül a Copilot Chat jellemzően nem végez széles körű, automatikus keresést a teljes Microsoft 365-környezetben. Bizonyos támogatott alkalmazási helyzetekben - például Outlookban - korlátozott szervezeti tartalomra támaszkodhat, mindig a meglévő jogosultságok keretében. Az alap-hozzáférés szolgáltatási kapacitástól függ, ezért egyes funkciók vagy válaszok időnként korlátozottak lehetnek. A bővített licencek elsőbbségi hozzáférést nyújthatnak.
+
+### Próbálja ki
 
 > Pszichológia BA első éves hallgató vagyok. Magyarázd el közérthetően, mi a különbség a klasszikus és az operáns kondicionálás között! Adj mindkettőre egy hétköznapi példát, és foglald össze a különbségeket egy táblázatban.
 
@@ -133,118 +185,130 @@ Oktatóként:
 
 ### Mi ez?
 
-A ChatGPT az OpenAI chatbotja, amely 2022. novemberi megjelenése indította el a generatív MI széles körű elterjedését. Az ingyenes változat a cég aktuális alapmodelljét kínálja, korlátozott kerettel. A fejlettebb modellek, a hosszabb kontextus és a fejlett eszközök (pl. mélykutatás, ágensmód) nagyobb kerettel a fizetős csomagokban érhetők el [@openai_chatgpt_pricing].
+A ChatGPT az OpenAI chatbotja, amely 2022. novemberi megjelenése indította el a generatív MI széles körű elterjedését. 
+A díjmentes ChatGPT-csomag szöveges beszélgetést és több eszközhöz korlátozott hozzáférést biztosít. Az elérhető modellek, használati limitek és funkciók idővel változnak. A fejlettebb modellek, a hosszabb kontextus és a fejlett eszközök (pl. mélykutatás, ágensmód) nagyobb kerettel a fizetős csomagokban érhetők el [@openai_chatgpt_pricing].
 
 ### Első lépések
 
-1. Nyisd meg a **chatgpt.com** oldalt (vagy töltsd le a hivatalos mobilalkalmazást).
-2. Válaszd a regisztrációt (*Sign up*): e-mail-címmel, Google-, Microsoft- vagy Apple-fiókkal. Személyes használatra a saját e-mail-címed javasolt.
-3. **Első teendő a belépés után:** nyisd meg a **Beállítások → Adatvezérlés** (*Settings → Data controls*) menüt, és döntsd el, hozzájárulsz-e, hogy a beszélgetéseidet a modellek fejlesztésére használják (*Improve the model for everyone*). Érdemes kikapcsolni.
-4. Opcionálisan: a **Személyre szabás** (*Personalization*) menüben megadhatsz állandó utasítást (pl. „Pszichológia BA-hallgató vagyok, magyarul válaszolj, és jelezd, ha valamiben bizonytalan vagy.”), és itt kapcsolhatod ki vagy be a **memória** funkciót is.
+1.  Nyissa meg a [chatgpt.com](https://chatgpt.com) oldalt (vagy töltse le a hivatalos mobilalkalmazást).
 
-### Mire figyelj az ingyenes változatban?
+2.  Válassza a regisztrációt (*Sign up*): e-mail-címmel, Google-, Microsoft- vagy Apple-fiókkal. Személyes használatra a saját e-mail-címe javasolt.
 
-- A keret **időablakonként** megújul. Ha elfogy, a rendszer egyszerűbb modellre vált vagy várakoztat.
-- A **fájlfeltöltés, képgenerálás, hangalapú beszélgetés** és a fejlett eszközök száma korlátozott.
-- Az ingyenes változat kontextusablaka kisebb, mint a fizetősé: egy hosszú dokumentumot vagy beszélgetést hamarabb "elfelejt”.
-- **Ideiglenes beszélgetés** (*Temporary chat*): olyan beszélgetés, amely nem kerül az előzmények közé, és nem használja a memóriát – érzékenyebb (de nem személyes adatot tartalmazó!) témákhoz hasznos.
+3.  Első teendő a belépés után: nyissa meg a *Beállítások → Adatvezérlők* (*Settings → Data controls*) menüt, és döntse el, hozzájárul-e, hogy a beszélgetéseit a modellek fejlesztésére használják: *A modell fejlesztése mindenki számára* (*Improve the model for everyone*). Érdemes kikapcsolni.
+
+4.  A *Beállítások → Személyre szabás → Egyéni utasítások* menüpontban érdemes megadni a következő kérést:
+
+    *„Ha nem tudod biztosan a választ a kérdésemre, ne találj ki információt. Jelezd egyértelműen, ha bizonytalan vagy, vagy ha nem tudod a választ.”*
+
+    Ez nem szünteti meg a hallucináció lehetőségét, de csökkentheti annak esélyét, hogy a modell bizonytalan vagy nem kellően alátámasztott információt tényként közöljön.
+
+5.  Ez a rész már opcionális. A *Személyre szabás* (*Personalization*) menüben többféleképpen is a saját igényeinkhez igazíthatjuk a ChatGPT működését. Az *Egyéni utasításokban* például megadhatjuk, hogy *„Pszichológia BA-hallgató vagyok, magyarul válaszolj”*, de azt is kérhetjük, hogy a válaszok legyenek rövidek, közérthetők, szakmaiak vagy éppen részletesebbek. Ezek az utasítások a későbbi beszélgetésekben is érvényesülhetnek. Ugyanitt választható meg a ChatGPT alapvető *stílusa és hangneme* (*Base style and tone*), de itt kezelhető a memória is.
+
+### Mire figyeljen az ingyenes változatban?
+
+- A használati keretek funkciónként, modelltípusonként és időszakonként változhatnak. A felület általában jelzi, ha elérte az adott funkció korlátját. Ha elfogy, a rendszer egyszerűbb modellre vált vagy várakoztat.
+- A fájlfeltöltés, képgenerálás, hangalapú beszélgetés és a fejlett eszközök száma korlátozott.
+- A díjmentes csomagban a hosszú kontextust, fájlfeldolgozást és egyes fejlett funkciókat jellemzően szűkebb használati keretek korlátozzák. A pontos határok szolgáltatásonként és idővel változnak.
+- Ideiglenes beszélgetés (*Temporary chat*): olyan beszélgetés, amely nem kerül az előzmények közé, és nem használja a memóriát – érzékenyebb (de nem személyes adatot tartalmazó!) témákhoz hasznos.
 
 ## 3. Claude – ingyenes változat
 
 ### Mi ez?
 
-A Claude az Anthropic chatbotja. Különösen erős hosszabb szövegek olvasásában, gondos megfogalmazásában és strukturált anyagok (táblázat, vázlat, kód, interaktív dokumentum) készítésében. Az ingyenes változat a cég középkategóriás modelljeit kínálja, webes kereséssel, fájlfeltöltéssel és korlátozott számú **projekttel**; a legerősebb modellek és a nagyobb keret a fizetős csomagokban érhetők el [@anthropic_claude_pricing].
+A Claude az Anthropic chatbotja. Különösen erős hosszabb szövegek olvasásában, gondos megfogalmazásában és strukturált anyagok (táblázat, vázlat, kód, interaktív dokumentum) készítésében. Az ingyenes változat a cég középkategóriás modelljeit kínálja, webes kereséssel, fájlfeltöltéssel és korlátozott számú projekttel. A legerősebb modellek és a nagyobb keret a fizetős csomagokban érhetők el [@anthropic_claude_pricing].
 
 ### Első lépések
 
-1. Nyisd meg a **claude.ai** oldalt (vagy a hivatalos asztali/mobilalkalmazást).
-2. Regisztrálj e-mail-címmel vagy Google-fiókkal. A Claude személyes használatához **legalább 18 évesnek** kell lenni.
-3. **Első teendő:** a **Beállítások → Adatvédelem** (*Settings → Privacy*) menüben döntsd el, hozzájárulsz-e, hogy a beszélgetéseidet a modellek fejlesztésére használják (*Help improve Claude*).
-4. A **Beállítások → Profil** menüben megadhatod, hogyan szólítson, és milyen háttérrel dolgozzon (pl. „pszichológia BA-hallgató vagyok”).
+1.  Nyissa meg a [claude.ai](https://claude.ai) oldalt (vagy a hivatalos asztali/mobilalkalmazást).
+2.  Regisztráljon e-mail-címmel vagy Google-fiókkal. A regisztráció előtt ellenőrizze az Anthropic aktuális, régióra vonatkozó életkori és felhasználási feltételeit.
+3.  Első teendő: a Beállítások → Adatvédelem (*Settings → Privacy*) menüben döntse el, hozzájárul-e, hogy a beszélgetéseit a modellek fejlesztésére használják (*Help improve Claude*).
+4.  A Beállítások → Profil menüben megadhatja, hogyan szólítson, és milyen háttérrel dolgozzon (pl. „pszichológia BA-hallgató vagyok”).
 
-### Mire figyelj az ingyenes változatban?
+### Mire figyeljen az ingyenes változatban?
 
-- A Claude keretét nem üzenetszámban, hanem a **ráfordított számítás** alapján méri, és néhány óránként megújuló időablakban adja. Egy hosszú beszélgetés vagy egy nagy PDF gyorsabban meríti, mint sok rövid kérdés – erről részletesen a [Tokenek, kontextus és kreditek](tokenek-es-kreditek.qmd) fejezet szól.
-- A **projektek** (*Projects*) segítségével egy témához (pl. egy kurzushoz) állandó utasítást és háttéranyagot rendelhetsz; az ingyenes változatban ezek száma korlátozott.
-- Az **artifact** a beszélgetés mellett megjelenő külön dokumentum vagy kis alkalmazás (pl. egy táblázat, egy gyakorló kvíz), amelyet tovább szerkeszthetsz és letölthetsz.
+- A Claude keretét nem üzenetszámban, hanem a *ráfordított számítás* alapján méri, és néhány óránként megújuló időablakban adja. Egy hosszú beszélgetés vagy egy nagy PDF gyorsabban meríti, mint sok rövid kérdés.
+- A *projektek* (*Projects*) segítségével egy témához (pl. egy kurzushoz) állandó utasítást és háttéranyagot rendelhet. Az ingyenes változatban ezek száma korlátozott.
+- Az *artifact* a beszélgetés mellett megjelenő külön dokumentum vagy kis alkalmazás (pl. egy táblázat, egy gyakorló kvíz), amelyet tovább szerkeszthet és letölthet.
 
 ## 4. Perplexity – MI-kereső
 
 ### Mi ez?
 
-A Perplexity nem elsősorban beszélgetőtárs, hanem **keresőmotor MI-vel**: a kérdésedre a weben keres, a talált oldalakból összefoglaló választ ír, és a válasz minden állításához **számozott forrást** rendel. Akkor hasznos, amikor *friss* vagy *ellenőrizhető* információra van szükséged: mi történt egy témában az utóbbi időben, milyen áttekintő cikkek léteznek, hol található egy adott teszt hivatalos leírása.
+A Perplexity a válaszban forrásjelöléseket jelenít meg, amelyek több állításhoz kapcsolódhatnak. Akkor hasznos, amikor *friss* vagy *ellenőrizhető* információra van szüksége: mi történt egy témában az utóbbi időben, milyen áttekintő cikkek léteznek, hol található egy adott teszt hivatalos leírása.
 
 Az ingyenes változatban az alapkeresés gyakorlatilag korlátlan, a mélyebb, többlépéses keresési módok (*Pro Search*, *Research*) száma viszont naponta vagy időablakonként erősen korlátozott [@perplexity_pricing].
 
 ### Első lépések
 
-1. Nyisd meg a **perplexity.ai** oldalt. Egyszerű kereséshez fiók sem kell; a regisztráció (e-mail, Google vagy Apple) után a keresési előzményeid megmaradnak.
-2. Írd be a kérdésedet teljes mondatban, ahogy egy könyvtárosnak tennéd fel.
-3. A válasz alatt és a szövegben látod a **forrásokat**. Kattints rájuk!
-4. A keresés **fókuszát** szűkítheted (pl. tudományos források, *Academic*), ha a felület kínálja.
+1.  Nyissa meg a [perplexity.ai](https://perplexity.ai) oldalt. Egyszerű kereséshez fiók sem kell, a regisztráció (e-mail, Google vagy Apple) után a keresési előzményei megmaradnak.
+2.  Írja be a kérdését teljes mondatban, ahogy egy könyvtárosnak tenné fel.
+3.  A válasz alatt és a szövegben látja a forrásokat. Kattintson rájuk!
+4.  A keresés fókuszát szűkítheti (pl. tudományos források, *Academic*), ha a felület kínálja.
 
-### A forrás nem bizonyíték, amíg el nem olvastad
+### A forrás nem bizonyíték, amíg el nem olvasta
 
 A Perplexity legnagyobb erénye – a forrásmegjelölés – könnyen hamis biztonságérzetet kelt. Gyakori hibák:
 
-- a forrás **létezik, de nem azt állítja**, amit a válasz neki tulajdonít;
-- a forrás **gyenge minőségű** (blog, marketingoldal, tartalomfarm), miközben a válasz tudományos tényként fogalmaz;
-- a forrás **elavult** vagy más országra vonatkozik.
+- a forrás létezik, de nem azt állítja, amit a válasz neki tulajdonít;
+- a forrás gyenge minőségű (blog, marketingoldal, tartalomfarm), miközben a válasz tudományos tényként fogalmaz;
+- a forrás elavult vagy más országra vonatkozik.
 
-**Szabály:** egy állítást csak akkor használj fel, ha a megjelölt forrást megnyitottad, és ott ténylegesen megtaláltad. Tudományos munkában a Perplexity *kiindulópont* a szakirodalom-kereséshez, nem helyettesíti a szakmai adatbázisokat (pl. PsycInfo, Scopus, Google Scholar) és a cikkek elolvasását [@white2023].
+**Szabály:** egy állítást csak akkor használjon fel, ha a megjelölt forrást megnyitotta, és ott ténylegesen megtalálta. Tudományos munkában a Perplexity *kiindulópont* a szakirodalom-kereséshez, nem helyettesíti a szakirodalmi adatbázisokat - például a PsycInfo-t vagy a Scopust -, illetve a tudományos keresőket, például a Google Scholart, és nem helyettesíti az eredeti cikkek elolvasását.
 
-### Próbáld ki
+### Próbálja ki
 
 > Milyen újabb (2020 utáni) metaanalízisek vizsgálták a mindfulness-alapú beavatkozások hatását egyetemi hallgatók szorongására? Csak lektorált tudományos forrásokat adj meg!
 
-Utána nyisd meg legalább két forrást, és ellenőrizd: létezik-e a cikk, valóban metaanalízis-e, és azt állítja-e, amit a válasz.
+Utána nyisson meg legalább két forrást, és ellenőrizze: létezik-e a cikk, valóban metaanalízis-e, és azt állítja-e, amit a válasz.
 
-## 5. Gemini Notebook (korábban NotebookLM) – tanulás saját forrásokból
+## 5. Gemini Notebook – tanulás saját forrásokból
 
 ### Mi ez?
 
-A Gemini Notebook a Google forrásalapú tanulási és kutatási eszköze. 2023-ban indult NotebookLM néven, 2026 júliusában kapta mai nevét; a régi címek és jegyzetfüzetek továbbra is működnek [@google2026geminotebook]. A jegyzetfüzetek 2026 áprilisa óta a Gemini alkalmazásban is megjelennek, az ingyenes felhasználók számára is [@google2026notebooksfree].
+A Gemini Notebook a Google forrásalapú tanulási és kutatási eszköze. 2023-ban indult NotebookLM néven, 2026-ban kapta mai nevét; a régi címek és jegyzetfüzetek továbbra is működnek [@google2026geminotebook]. A jegyzetfüzetek 2026 áprilisa óta a Gemini alkalmazásban is megjelennek, az ingyenes felhasználók számára is [@google2026notebooksfree].
 
-A működési elve eltér a chatbotokétól: **te adod meg a forrásokat** (PDF, Google-dokumentum, weboldal, YouTube-videó, bemásolt szöveg), az eszköz pedig **ezekből dolgozik**, és minden állításnál megmutatja, melyik forrás melyik részére támaszkodik. Ezért különösen alkalmas:
+A működési elve eltér a chatbotokétól: Ön adja meg a forrásokat (PDF, Google-dokumentum, weboldal, YouTube-videó, bemásolt szöveg), az eszköz pedig ezekből dolgozik, és minden állításnál megmutatja, melyik forrás melyik részére támaszkodik. Ezért különösen alkalmas:
 
 - egy kurzus jegyzeteinek és kötelező olvasmányainak feldolgozására;
-- több cikk összevetésére (pl. „miben tér el a három tanulmány módszertana?”);
-- vizsgafelkészülésre: **gyakorlókérdések**, **tanulókártyák**, **gondolattérkép**, tanulási útmutató készítésére;
-- **hangos összefoglaló** (*Audio Overview*) készítésére: két mesterséges „műsorvezető” beszélgetésben mondja el a források lényegét – ingázás közben is meghallgatható.
+- több cikk összevetésére (pl. "miben tér el a három tanulmány módszertana?");
+- vizsgafelkészülésre: gyakorlókérdések, tanulókártyák, gondolattérkép, tanulási útmutató készítésére;
+- hangos összefoglaló (*Audio Overview*) készítésére: két mesterséges műsorvezető beszélgetésben mondja el a források lényegét – ingázás közben is meghallgatható;
+- videós összefoglalók, infografikák, prezentációszerű összefoglalók és egyéb vizuális anyagok létrehozására;
+- egyedi összefoglalók és beszámolók készítésére, például briefing, tanulási összefoglaló vagy saját szerkezetű jelentés formájában.
 
 Az ingyenes változatban egy jegyzetfüzethez legfeljebb néhány tucat forrás adható (2026 októberében 50), és a használati keret néhány óránként újul meg [@google2026notebooksfree].
 
 ### Első lépések
 
-1. Nyisd meg a **notebooklm.google** oldalt (vagy a Gemini alkalmazásban, a **gemini.google.com** oldalon az oldalsáv *Notebooks* részét), és jelentkezz be Google-fiókkal.
-2. Hozz létre **új jegyzetfüzetet** (*New notebook*), és nevezd el (pl. „Fejlődéslélektan – vizsga”).
-3. **Add hozzá a forrásokat**: töltsd fel a PDF-eket, vagy illeszd be a weboldalak, videók címét. Csak olyan anyagot tölts fel, amelynek felhasználására jogod van, és amely nem tartalmaz személyes adatot.
-4. Kérdezz a forrásokról a középső csevegőablakban; a válaszban a **számozott hivatkozásokra** kattintva látod a pontos forrásrészletet.
-5. Az oldalsó **Studio** panelen készíttess összefoglalót, tanulókártyát, kvízt, gondolattérképet vagy hangos összefoglalót.
+1.  Nyissa meg a [notebooklm.google](https://notebooklm.google) oldalt (vagy a Gemini alkalmazásban, a [gemini.google.com](https://gemini.google.com) oldalon az oldalsáv *Notebooks* részét), és jelentkezzen be Google-fiókkal.
+2.  Hozzon létre új jegyzetfüzetet (*New notebook*), és nevezze el (pl. "Fejlődéslélektan – vizsga").
+3.  Adja hozzá a forrásokat: töltse fel a PDF-eket, vagy illessze be a weboldalak, videók címét. Csak olyan anyagot töltsön fel, amelynek felhasználására joga van, és amely nem tartalmaz személyes adatot.
+4.  Kérdezzen a forrásokról a középső csevegőablakban; a válaszban a számozott hivatkozásokra kattintva látja a pontos forrásrészletet.
+5.  Az oldalsó *Studio* panelen készíttessen összefoglalót, tanulókártyát, kvízt, gondolattérképet vagy hangos/videós összefoglalót.
 
-### Mire figyelj?
+### Mire figyeljen?
 
-- A Gemini Notebook **csak annyira megbízható, mint a forrásaid**. Ha egy gyenge minőségű vagy elavult anyagot töltesz fel, abból is magabiztos összefoglaló készül.
-- A forráshűség csökkenti, de **nem szünteti meg** a hibázás lehetőségét: az összefoglaló kihagyhat fontos árnyalatokat, és a hangos összefoglaló leegyszerűsíthet vagy félreérthet részleteket. A hivatkozott részletet ellenőrizd.
-- A tanulókártya és a kvíz **segíti, de nem helyettesíti** a tanulást. Pszichológiai szempontból a legtöbbet akkor nyersz vele, ha a kérdésekre előbb magadtól próbálsz válaszolni (előhívási gyakorlás), és csak utána nézed meg a választ.
+- A Gemini Notebook csak annyira megbízható, mint a forrásai. Ha egy gyenge minőségű vagy elavult anyagot tölt fel, abból is magabiztos összefoglaló készül.
+- A forráshűség csökkenti, de nem szünteti meg a hibázás lehetőségét: az összefoglaló kihagyhat fontos árnyalatokat, és a hangos összefoglaló leegyszerűsíthet vagy félreérthet részleteket. A hivatkozott részletet ellenőrizze.
+- A tanulókártya és a kvíz segíti, de nem helyettesíti a tanulást. Pszichológiai szempontból a legtöbbet akkor nyer vele, ha a kérdésekre előbb önállóan próbál válaszolni (előhívási gyakorlás), és csak utána nézi meg a választ.
 
-### Próbáld ki
+### Próbálja ki
 
-Tölts fel egy jegyzetfüzetbe 2–3 kötelező olvasmányt egy kurzusodból, majd kérd:
+Töltsön fel egy jegyzetfüzetbe 2–3 kötelező olvasmányt egy kurzusából, majd kérje:
 
 > Készíts 10 feleletválasztós gyakorlókérdést a források alapján! Minden kérdésnél jelöld meg, melyik forrás melyik részéből származik, és adj rövid magyarázatot a helyes válaszhoz.
 
 ## Az első jó prompt {#sec-elso-prompt}
 
-A kezdők leggyakoribb hibája, hogy a chatbotot keresőként használják: két-három szót írnak be. A chatbot ennél sokkal jobban teljesít, ha **úgy fogalmazol, mintha egy okos, de a helyzetedet nem ismerő kollégának adnál feladatot**.
+A kezdők leggyakoribb hibája, hogy a chatbotot keresőként használják: két-három szót írnak be. A chatbot ennél sokkal jobban teljesít, ha úgy fogalmaz, mintha egy okos, de a helyzetét nem ismerő kollégának adna feladatot.
 
 Egy jó prompt négy eleme:
 
 | Elem | Kérdés | Példa |
-|---|---|---|
-| **Szerep / háttér** | Ki vagy, és mi a helyzet? | „Pszichológia BA másodéves hallgató vagyok, kutatásmódszertan-vizsgára készülök.” |
+|------------------------|------------------------|------------------------|
+| **Szerep / háttér** | Ki Ön, és mi a helyzet? | „Pszichológia BA másodéves hallgató vagyok, kutatásmódszertan-vizsgára készülök.” |
 | **Feladat** | Mit kell pontosan csinálni? | „Magyarázd el a belső és a külső validitás közötti különbséget.” |
-| **Formátum** | Milyen formában kéred? | „Egy rövid bekezdésben, majd egy táblázatban, 2-2 példával.” |
+| **Formátum** | Milyen formában kéri? | „Egy rövid bekezdésben, majd egy táblázatban, 2-2 példával.” |
 | **Korlátok, minőség** | Mire figyeljen? | „Ha valamiben bizonytalan vagy, jelezd. Ne találj ki hivatkozást.” |
 
 **Gyenge prompt:**
@@ -255,66 +319,67 @@ Egy jó prompt négy eleme:
 
 > Pszichológia BA másodéves hallgató vagyok, kutatásmódszertan-vizsgára készülök. Magyarázd el a belső és a külső validitás közötti különbséget közérthetően, egy rövid bekezdésben! Utána adj egy táblázatot, amelyben mindkettőre két-két tipikus veszélyeztető tényezőt írsz egy-egy kísérleti példával. Ha valamiben bizonytalan vagy, jelezd, és ne adj meg hivatkozást, ha nem vagy biztos benne, hogy létezik.
 
-**Folytasd a beszélgetést.** Az első válasz ritkán tökéletes. Kérdezz vissza („a második példát nem értem, magyarázd el másképp”), kérj rövidebbet, egyszerűbbet, más szempontot. Ha a beszélgetés elkanyarodott, kezdj újat.
+**Folytassa a beszélgetést.** Az első válasz ritkán tökéletes. Kérdezzen vissza ("a második példát nem értem, magyarázd el másképp"), kérjen rövidebbet, egyszerűbbet, más szempontot. Ha a beszélgetés elkanyarodott, kezdjen újat.
 
-**Kérd, hogy ő kérdezzen.** Tanuláshoz különösen hasznos fordított szerep:
+**Kérje, hogy ő kérdezzen.** Tanuláshoz különösen hasznos fordított szerep:
 
 > Kérdezz ki a Piaget-féle fejlődési szakaszokból! Egyszerre egy kérdést tegyél fel, várd meg a válaszomat, és csak utána mondd meg, jó-e, és miért.
 
-Így az MI nem *elvégzi helyetted* a gondolkodást, hanem gyakorlótársként segíti.
+Így az MI nem *elvégzi Ön helyett* a gondolkodást, hanem gyakorlótársként segíti.
 
 ## Ellenőrzés: a legfontosabb készség
 
-A generatív MI legfontosabb korlátja, hogy **a hibás válasz ugyanolyan magabiztosan hangzik, mint a helyes**. A pszichológia ráadásul olyan terület, ahol a köznyelvi „pszichológiai tudás” és a szakirodalom gyakran eltér – a modellek pedig mindkettőn tanultak.
+A generatív MI legfontosabb korlátja, hogy a hibás válasz ugyanolyan magabiztosan hangzik, mint a helyes. A pszichológia ráadásul olyan terület, ahol a köznyelvi "pszichológiai tudás" és a szakirodalom gyakran eltér, viszont a modellek mindkettőn tanultak.
 
 Ellenőrző lépések:
 
-1. **Hivatkozás:** létezik-e a cikk? Keresd meg a címét a Google Scholarban vagy a DOI-ját a doi.org oldalon. Egyezik-e a szerző, az év, a folyóirat?
-2. **Tartalom:** a cikk valóban azt állítja-e? Legalább az absztraktot olvasd el.
-3. **Szakmai konszenzus:** egy állítás egyetlen tanulmányon alapul, vagy több vizsgálat, metaanalízis is alátámasztja? A klasszikus kísérletek egy részének eredményét a replikációs vizsgálatok nem erősítették meg.
-4. **Keresztellenőrzés:** tedd fel ugyanazt a kérdést egy másik eszköznek is, vagy nézd meg tankönyvben. Ha eltérnek, az jelzés.
-5. **Józan ész:** gyanús, ha a válasz túl kerek, túl általános, vagy ha egy számnak nincs forrása.
+1.  **Hivatkozás:** létezik-e a cikk? Keresse meg a címét a Google Scholarban vagy a DOI-ját a doi.org oldalon. Egyezik-e a szerző, az év, a folyóirat?
+2.  **Tartalom:** a cikk valóban azt állítja-e? Legalább az absztraktot olvassa el.
+3.  **Szakmai konszenzus:** egy állítás egyetlen tanulmányon alapul, vagy több vizsgálat, metaanalízis is alátámasztja?
+4.  **Keresztellenőrzés:** tegye fel ugyanazt a kérdést egy másik eszköznek is, vagy nézze meg tankönyvben. Ha eltérnek, az jelzés.
+5.  **Józan ész:** gyanús, ha a válasz túl kerek, túl általános, vagy ha egy számnak nincs forrása.
 
-::: {.callout-tip}
+::: callout-tip
 ## Pszichológiai háttér: miért hiszünk a gépnek?
 
-Az **automatizációs torzítás** (*automation bias*) az a hajlam, hogy egy automatizált rendszer javaslatát kritikátlanul elfogadjuk, és a vele ellentmondó jeleket figyelmen kívül hagyjuk [@parasuraman2010]. Az **antropomorfizáció** – hogy a folyékonyan, udvariasan fogalmazó rendszernek emberi tudást és szándékot tulajdonítunk – tovább erősítheti ezt [@epley2007]. A tudatos ellenőrzés ezek ellensúlyozása.
+Az automatizációs torzítás azt jelenti, hogy túlzottan támaszkodunk egy automatizált rendszer javaslatára: elfogadhatjuk a hibás ajánlását, vagy elmulaszthatjuk észrevenni a hibára utaló jeleket [@parasuraman2010]. Az antropomorfizáció során emberi tudást, szándékot vagy megértést tulajdonítunk egy nem emberi rendszernek [@epley2007]; a folyékony, udvarias MI-kommunikáció ezt elősegítheti. A cél a kalibrált bizalom [@lee2004]: az MI-választ ellenőrzendő javaslatként, nem kész tudásként kezeljük.
+
 :::
 
 ## Néhány gyakorló feladat
 
-| Nap | Feladat | Eszköz | Mit tanulsz belőle? |
-|---|---|---|---|
-| 1. | Jelentkezz be a Copilot Chatbe az egyetemi fiókoddal, ellenőrizd a védettségi jelzést, és kérj magyarázatot egy fogalomra a saját kurzusodból. | Copilot Chat | belépés, első prompt |
-| 2. | Ugyanazt a kérdést tedd fel a ChatGPT-nek és a Claude-nak is. Hasonlítsd össze a három választ: miben egyeznek, miben térnek el? | ChatGPT, Claude | eltérő modellek, keresztellenőrzés |
-| 3. | Kérj egy chatbottól három szakirodalmi hivatkozást egy szűk témában, majd ellenőrizd mindhármat a Google Scholarban. Hány létezik pontosan így? | bármelyik chatbot | hallucináció felismerése |
-| 4. | Ugyanerre a témára keress a Perplexityvel. Nyisd meg a forrásokat: valóban azt állítják-e, amit a válasz? | Perplexity | forráskritika |
-| 5. | Hozz létre egy Gemini Notebook-jegyzetfüzetet egy kurzus 2–3 olvasmányából, és készíttess belőle tanulókártyákat. Előbb próbálj magadtól válaszolni! | Gemini Notebook | forrásalapú tanulás |
+| Feladat | Eszköz | Mit tanul belőle? |
+|----------------------------------|-------------------|-------------------|
+| 1\. Jelentkezzen be a Copilot Chatbe az egyetemi fiókjával, ellenőrizze a védettségi jelzést, és kérjen magyarázatot egy fogalomra a saját kurzusából. | Copilot Chat | belépés, első prompt |
+| 2\. Ugyanazt a kérdést tegye fel a ChatGPT-nek és a Claude-nak is. Hasonlítsa össze a három választ: miben egyeznek, miben térnek el? | ChatGPT, Claude | eltérő modellek, keresztellenőrzés |
+| 3\. Kérjen egy chatbottól három szakirodalmi hivatkozást egy szűk témában, majd ellenőrizze mindhármat a Google Scholarban. Hány létezik pontosan így? | bármelyik chatbot | hallucináció felismerése |
+| 4\. Ugyanerre a témára keressen a Perplexityvel. Nyissa meg a forrásokat: valóban azt állítják-e, amit a válasz? | Perplexity | forráskritika |
+| 5\. Hozzon létre egy Gemini Notebook-jegyzetfüzetet egy kurzus 2–3 olvasmányából, és készíttessen belőle tanulókártyákat. Előbb próbáljon önállóan válaszolni! | Gemini Notebook | forrásalapú tanulás |
 
-Oktatóknak kiegészítő feladat: fogalmazz meg egy saját kurzusodhoz illő **MI-használati szabályt** (mit szabad, mit nem, hogyan kell jelölni), és próbáld ki, hogy a kurzus egyik beadandó feladatát mennyire tudja egy chatbot önállóan megoldani. Ez segít eldönteni, hol kell a feladaton vagy az értékelésen változtatni.
+Oktatóknak kiegészítő feladat: fogalmazzon meg egy saját kurzusához illő MI-használati szabályt (mit szabad, mit nem, hogyan kell jelölni), és próbálja ki, hogy a kurzus egyik beadandó feladatát mennyire tudja egy chatbot önállóan megoldani. Ez segít eldönteni, hol kell a feladaton vagy az értékelésen változtatni.
 
 ## Gyakori kezdő hibák
 
-| Hiba | Miért gond? | Mit tegyél helyette? |
-|---|---|---|
-| Kulcsszavas, rövid kérdés | Általános, felszínes válasz | Háttér, feladat, formátum, korlátok |
-| Egyetlen végtelen beszélgetés mindenre | A modell összekeveri a témákat, gyorsabban fogy a keret | Egy téma – egy beszélgetés |
-| A hivatkozások ellenőrzés nélküli átvétele | Kitalált vagy rosszul idézett források | Minden hivatkozást keress meg |
-| Személyes vagy kliensadat feltöltése | Adatvédelmi és etikai jogsértés | Anonimizálás vagy mellőzés; intézményi eszköz |
+| Hiba | Miért gond? | Mit tegyen helyette? |
+|------------------------|------------------------|------------------------|
+| Kulcsszavas, rövid kérdés | Általános, felszínes válasz | Jó prompt: háttér, feladat, formátum, korlátok |
+| Egyetlen végtelen beszélgetés mindenre | A modell összekeveri a témákat, gyorsabban fogy a keret | Egy téma – egy beszélgetés elv |
+| A hivatkozások ellenőrzés nélküli átvétele | Kitalált vagy rosszul idézett források | Minden hivatkozást keressen meg |
+| Személyes vagy kliensadat feltöltése | Adatvédelmi és etikai jogsértés | Anonimizálás vagy mellőzés; intézményi eszköz használata |
 | A kész szöveg beadása saját munkaként | Akadémiai integritás megsértése, elmaradó tanulás | Az MI mint magyarázó, kérdező, visszajelző; átlátható jelölés |
-| Személyes fiókkal a Copilotban | Nem érvényes a vállalati adatvédelem | Egyetemi fiókkal jelentkezz be, ellenőrizd a jelzést |
-| „Ha a Perplexity forrást ad, az igaz” | A forrás mást is állíthat | Nyisd meg és olvasd el a forrást |
+| Személyes fiókkal a Copilotban | Nem érvényes a vállalati adatvédelem | Egyetemi fiókkal jelentkezzen be, ellenőrizze a jelzést |
+| „Ha a Perplexity forrást ad, az igaz” | A forrás mást is állíthat | Nyissa meg és olvassa el a forrást |
 
 ## Fogalomtár
 
 | Fogalom | Rövid meghatározás |
-|---|---|
+|------------------------------------|------------------------------------|
 | **Nagy nyelvi modell (LLM)** | Nagy szövegmennyiségen tanított modell, amely a szöveg valószínű folytatását állítja elő. |
 | **Chatbot, MI-asszisztens** | Nyelvi modellre épülő, beszélgetős felületű alkalmazás. |
 | **Prompt** | A chatbotnak adott utasítás vagy kérdés. |
 | **Hallucináció (konfabuláció)** | Magabiztosan megfogalmazott, de hibás vagy kitalált MI-kimenet [@ji2023]. |
 | **MI-kereső** | Webes keresést és MI-alapú válaszírást ötvöző, forrásokat megjelölő eszköz (pl. Perplexity). |
-| **Forrásalapú (grounded) eszköz** | Elsősorban a felhasználó által megadott forrásokból dolgozó, a forrásrészletekre hivatkozó eszköz (pl. Gemini Notebook). |
+| **Forrásalapú eszköz** | Elsősorban a felhasználó által megadott forrásokból dolgozó, a forrásrészletekre hivatkozó eszköz (pl. Gemini Notebook). |
 | **Copilot Chat (Basic)** | A Microsoft 365-fiókhoz külön díj nélkül járó, vállalati adatvédelemmel működő MI-chatbot [@ms_copilot_chat_overview]. |
 | **Vállalati adatvédelem (enterprise data protection)** | Intézményi fiókkal érvényes garancia: a beszélgetések nem kerülnek modelltanításra, és az intézményi biztonsági szabályok vonatkoznak rájuk. |
 | **Ingyenes keret** | Az ingyenes változatban időszakonként felhasználható használati mennyiség. |
@@ -326,17 +391,16 @@ Oktatóknak kiegészítő feladat: fogalmazz meg egy saját kurzusodhoz illő **
 
 ## Ellenőrző kérdések
 
-1. Miben különbözik egy chatbot, egy MI-kereső és egy forrásalapú tanulási eszköz? Mondj mindháromra egy-egy példát!
-2. Miért érdemes munkaanyagokhoz az egyetemi fiókkal elérhető Copilot Chatet használni egy személyes fiókos ingyenes chatbot helyett? Hogyan ellenőrizheted, hogy valóban védett módban dolgozol?
-3. Mit jelent a „Basic” megjelölés a Microsoft 365 Copilot felületén? Mit nem tud az alapváltozat?
-4. Milyen beállítást érdemes első lépésként ellenőrizni a ChatGPT-ben és a Claude-ban, és miért?
-5. Mi a jó prompt négy eleme? Írj át egy kulcsszavas kérdést jó prompttá!
-6. Miért nem elegendő, hogy a Perplexity forrást jelöl meg egy állításhoz?
-7. Miben segít és miben nem a Gemini Notebook a vizsgafelkészülésben? Hogyan kapcsolódik ehhez az előhívási gyakorlás?
-8. Milyen adatokat nem szabad semmilyen ingyenes chatbotba feltölteni egy pszichológia tanszéken? Mi az anonimizálás, és mi a korlátja?
-9. Hogyan ellenőrzöd, hogy egy chatbot által megadott szakirodalmi hivatkozás valós-e?
+1.  Miben különbözik egy chatbot, egy MI-kereső és egy forrásalapú tanulási eszköz? Mondjon mindháromra egy-egy példát!
+2.  Miért érdemes munkaanyagokhoz az egyetemi fiókkal elérhető Copilot Chatet használni egy személyes fiókos ingyenes chatbot helyett? Hogyan ellenőrizheti, hogy valóban védett módban dolgozik?
+3.  Mit jelent a *Basic* megjelölés a Microsoft 365 Copilot felületén? Mit nem tud az alapváltozat?
+4.  Milyen beállítást érdemes első lépésként ellenőrizni a ChatGPT-ben és a Claude-ban, és miért?
+5.  Mi a jó prompt négy eleme? Írjon át egy kulcsszavas kérdést jó prompttá!
+6.  Miért nem elegendő, hogy a Perplexity forrást jelöl meg egy állításhoz?
+7.  Miben segít és miben nem a Gemini Notebook a vizsgafelkészülésben? Hogyan kapcsolódik ehhez az előhívási gyakorlás?
+8.  Milyen adatokat nem szabad semmilyen ingyenes chatbotba feltölteni? Mi az anonimizálás, és mi a korlátja?
+9.  Hogyan ellenőrzi, hogy egy chatbot által megadott szakirodalmi hivatkozás valós-e?
 10. Milyen pszichológiai jelenségek magyarázzák, hogy hajlamosak vagyunk kritika nélkül elfogadni a chatbot válaszait?
-
 
 # Hivatkozások
 

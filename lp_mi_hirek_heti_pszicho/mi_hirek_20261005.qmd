@@ -1,0 +1,86 @@
+---
+title: "MI és pszichológia – 2026. szept. 29. - okt. 4."
+author: "OpenAI - ChatGpt"
+date: "2026-10-05"
+---
+
+
+## Nemzetközi hírek
+
+### 1. A súlyos pszichés distresszt átélők csaknem fele fordult már generatív MI-hez támogatásért
+
+**Típus:** Lektorált, preregisztrált kutatás  
+**Megjelenés:** 2026. szeptember 29.
+
+Egy 584 izraeli felnőtt MI-használó bevonásával végzett vizsgálatban 29,3% számolt be arról, hogy legalább egyszer érzelmi támogatásért, megküzdési tanácsért vagy mentális egészségi segítségért fordult generatív MI-hez. A súlyos pszichés distresszt jelző résztvevőknél ez az arány 47% volt. A distressz bizonyult a használat legerősebb pszichológiai korrelátumának; a fiatalabb életkor és a női nem szintén együtt járt a gyakoribb igénybevétellel. Ez arra utal, hogy a fogyasztói chatbotok éppen a sérülékenyebb embereknél tölthetnek be informális segítő szerepet.
+
+**Korlátok:** Nem reprezentatív, önbeszámolón alapuló keresztmetszeti vizsgálat, ezért nem állapítható meg, hogy a distressz vezet-e MI-használathoz, vagy az MI-használat befolyásolja-e a tüneteket. Az „MI-hez fordulás” az egyszeri beszélgetéstől a tartós használatig mindent magában foglalt.
+
+[Az eredeti tanulmány – Cyberpsychology, Behavior, and Social Networking](https://journals.sagepub.com/doi/10.1177/21522715261494423)
+
+### 2. A pszichoterápiás szakemberek több mint fele használ már generatív MI-t, miközben a képzés elmarad
+
+**Típus:** Lektorált, több országra kiterjedő keresztmetszeti kutatás  
+**Megjelenés:** 2026. szeptember 30.
+
+Harminc ország 766 mentális egészségügyi szakemberének felmérésében 54,6% jelezte, hogy tudatosan használt már generatív MI-t pszichoterápiás munkájában. Leggyakoribb célként a kezeléstervezést, az adminisztrációt és a pszichoedukációs anyagok készítését nevezték meg; az MI-t használók 82,8%-a kisebb munkaterhelésről számolt be. Ugyanakkor a teljes minta 81,1%-a semmilyen szakmai MI-képzést nem kapott, és csak 18,1% dolgozott olyan intézményben, amely ösztönözte ezeknek az eszközöknek a használatát.
+
+**Korlátok:** Kényelmi mintavétel és önbeszámoló; a résztvevők 52,5%-a Németországban dolgozott, ezért az eredmények nem tekinthetők globálisan reprezentatívnak. A vizsgálat a használat gyakoriságát és megítélését, nem pedig annak klinikai minőségét vagy betegbiztonsági következményeit mérte.
+
+[Az eredeti tanulmány – JMIR Mental Health](https://mental.jmir.org/2026/1/e105052)
+
+### 3. Beszédalapú MI jelezheti a gyorsuló biológiai és kognitív öregedést
+
+**Típus:** Lektorált empirikus tanulmány  
+**Megjelenés:** 2026. szeptember 30.
+
+A kutatók 2928 spanyolul beszélő, öt latin-amerikai országból származó résztvevő beszédének több száz akusztikai és nyelvi jellemzőjéből készítettek „beszédórát”. Az MI által becsült és a tényleges életkor különbsége együtt járt a kognitív teljesítménnyel, az agyi és epigenetikai öregedés mutatóival, az Alzheimer-kór p-tau217 biomarkerével, valamint a társadalmi hátrányokkal. A legnagyobb eltéréseket a nyelvi tünetekkel járó frontotemporális demenciában figyelték meg.
+
+**Korlátok:** Elsősorban keresztmetszeti összefüggésekről van szó, így a módszer még nem igazolt előrejelző vagy diagnosztikai teszt. Spanyol nyelvre és latin-amerikai populációkra fejlesztették; más nyelveken külön validáció szükséges, a beszédet pedig depresszió, fáradtság és aktuális stressz is befolyásolhatja.
+
+[Az eredeti tanulmány – Science Advances](https://www.science.org/doi/10.1126/sciadv.aef9864)  
+[Trinity College Dublin intézményi összefoglaló](https://www.tcd.ie/news_events/articles/2026/voice-may-reveal-how-well-you-are-aging/)
+
+### 4. Hangalapú virtuális beteget teszteltek a depresszió klinikai felmérésének oktatására
+
+**Típus:** Lektorált, vegyes módszerű pilotkutatás  
+**Megjelenés:** 2026. október 2.
+
+Egy nagy nyelvi modellre épülő rendszer négy, előre meghatározott depressziós tünetprofillal rendelkező virtuális beteget szimulált. Öt tapasztalt klinikai értékelő összesen húsz MADRS-interjút végzett velük. Az értékelők pontszámai közel estek a programozott tünetpontszámokhoz, a teljes pontszámok értékelők közötti megbízhatósága pedig magas volt. A szakértők a párbeszédeket általában koherensnek és klinikailag hihetőnek ítélték.
+
+**Korlátok:** Mindössze öt értékelő és négy virtuális személyiség vett részt; a vizsgálat nem mérte, hogy a rendszer ténylegesen javítja-e a hallgatók vagy klinikusok készségeit, illetve hogyan teljesít összetettebb vagy akut kockázatú esetekben. Egyelőre technikai megvalósíthatósági bizonyíték, nem oktatási hatásvizsgálat.
+
+[Az eredeti tanulmány – Journal of Medical Internet Research](https://www.jmir.org/2026/1/e89066)
+
+### 5. Az emberek az MI „tudatosságát” és „észlelési képességét” eltérő logika alapján ítélik meg
+
+**Típus:** Lektorált, preregisztrált kísérletsorozat  
+**Megjelenés:** 2026. október 1.
+
+Öt kísérletben 1092 brit résztvevő emberi és mesterséges szereplőkről olvasott, amelyek különböző mértékben reagáltak térbeli, társas és időbeli környezetükre. Azonos viselkedési reakcióképesség mellett az embereket következetesen tudatosabbnak ítélték az MI-rendszereknél. Az „awareness”, vagyis a környezet észlelésének tulajdonítása ezzel szemben mindkét szereplőtípusnál fokozatosan nőtt a megfelelő válaszkészséggel. A kutatás szerint hétköznapi gondolkodásunkban a tudatosság inkább attól függ, hogy *mi* egy szereplő, az észlelési képesség pedig attól, hogy *mit tesz*.
+
+**Korlátok:** Szöveges forgatókönyvekre és brit mintára épülő ítéletvizsgálat. Nem szolgáltat bizonyítékot arra, hogy bármely MI-rendszer valóban tudatos vagy nem tudatos; kizárólag az emberek mentálisállapot-tulajdonítását méri.
+
+[Az eredeti tanulmány DOI-linkje – Cognition](https://doi.org/10.1016/j.cognition.2026.106733)
+
+## Magyar vonatkozású hírek
+
+### 1. Magyar részvétellel épül precíziós pszichiátriai együttműködési platform
+
+**Típus:** Intézményi szakmai esemény és kezdeményezés, nem új empirikus tanulmány  
+**Esemény:** 2026. október 1.
+
+Az ELTE InnoFair keretében MI-kutatók, klinikusok és innovációs szakemberek vitatták meg, hogyan használhatók a spontán beszédből, társas interakciókból és más viselkedési jelekből nyert adatok a mentális és kognitív változások felismerésére. Bemutatkozott a fejlesztés alatt álló nemzetközi **Precision Psychiatry Ecosystem** is. A programban az ELTE, az SZTE és a HUN-REN MI-kutatói, valamint a Semmelweis Egyetem Pszichiátriai és Pszichoterápiás Klinikájának szakértője is részt vett. Kiemelt témák voltak a beszédalapú mutatók, a multimodális klinikai MI, az autizmus viselkedéselemzése és az avatárközvetített interakció.
+
+**Korlátok:** Workshop- és hálózatépítési bejelentésről van szó, nem publikált klinikai eredményről. Az együttműködés értékét később a létrejövő többnyelvű adatbázisok, validációs vizsgálatok és betegellátási eredmények alapján lehet megítélni.
+
+[Az ELTE Informatikai Kar eseményoldala](https://www.inf.elte.hu/precision-psychiatry-translated-speech-avatars-and-the-path-to-clinical-ai-precizios-pszichiatria-beszed-avatarok-es-az-ut-a-klinikai-mesterseges-intelligenciahoz)
+
+### Hazai helyzetkép
+
+A vizsgált héten nem találtam ezen túl új, Magyarországon végzett és ellenőrizhetően publikált empirikus tanulmányt vagy preprintet közvetlenül az MI és a pszichológia metszetében. A hazai aktivitást ezen a héten elsősorban a precíziós pszichiátriai szakmai együttműködés és kutatási infrastruktúra előkészítése jelentette.
+
+## Rövid összkép
+
+A hét eredményeiben egyszerre látszik az MI gyors gyakorlati terjedése és az evidencia lemaradása. A mentális egészségügyi szakemberek már széles körben használják, a pszichés distresszt átélő felhasználók pedig gyakran támogatási csatornaként kezelik, miközben a képzés, az intézményi irányítás és a hosszú távú biztonsági adatok hiányosak. A beszédóra és a virtuális beteg ígéretes, jól körülhatárolt alkalmazások, de egyik sem tekinthető még önálló klinikai diagnosztikai vagy terápiás megoldásnak.
+
