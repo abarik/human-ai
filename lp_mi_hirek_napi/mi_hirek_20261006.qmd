@@ -1,0 +1,179 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. október 06."
+author: "OpenAI - ChatGpt"
+date: "2026-10-06"
+---
+
+*Frissítve: 2026. október 6., reggel. A nemzetközi válogatás elsősorban az október 5–6-án megjelent fejleményekre épül. A magyar blokkban a mai és az elmúlt néhány nap legfontosabb hazai MI-vonatkozásai szerepelnek.*
+
+A mai MI-hírfolyam három legerősebb témája **az MI-tartalmak eredetének szabályozása, az autonóm rendszerek felelőssége és az állami–ipari verseny a frontier-modellekért**. Az OpenAI az EU AI Act miatt láthatatlan vízjelet vezet be a generált szövegekhez, New Yorkban és Ausztráliában egyszerre kérik számon a vezető modellcégeket, miközben Dél-Korea 3,5 milliárd dolláros állami programmal próbál belépni a frontier-MI élmezőnyébe.
+
+## 🌍 Nemzetközi hírek
+
+### 1. Az OpenAI láthatatlan vízjelet tesz a ChatGPT és a Codex EU-ban generált szövegeibe
+
+Az OpenAI október 5-én ismertette, hogyan teljesíti az **EU AI Act géppel olvasható tartalomeredet-jelölésre vonatkozó követelményeit**. A vállalat `textGrain` nevű technológiája a modell szóválasztásaiba épít egy statisztikai mintázatot. Az API-ügyfelek világszerte már most bekapcsolhatják a funkciót, a következő hetekben pedig az EU-ban — így Magyarországon is — fokozatosan megjelenik a támogatott ChatGPT- és Codex-kimenetekben.
+
+Az OpenAI külön hangsúlyozza, hogy a vízjel **nem bizonyítja a szerzőséget**, nem azonosítja a felhasználót, és szerkesztés vagy fordítás esetén jelentősen gyengülhet. Saját mérése szerint egy 400 tokenes szövegnél 10%-nyi szó szinonimára cserélése 92%-ról 66%-ra, 25%-nyi módosítás pedig 17%-ra csökkentette a felismerési arányt.
+
+**Miért lényeges?** Ez az egyik első nagy, gyakorlati következménye az EU AI Act tartalomtranszparencia-szabályainak. Az MI-generált szövegek eredetének jelölése a médiától és oktatástól a vállalati dokumentumokig nagyon sok területet érinthet — de a technológia korlátai miatt **nem válik egyszerűen megoldhatóvá az „AI írta vagy ember?” kérdés**.
+
+**Forrás:** [OpenAI – Our approach to EU text provenance rules](https://openai.com/index/eu-text-provenance/)
+
+---
+
+### 2. New Yorkban eskü alatt hallgatták meg az OpenAI, Anthropic, Google és Meta képviselőit
+
+A New York City Council október 5-i rendkívüli meghallgatásán **az OpenAI, Anthropic, Google és Meta képviselői eskü alatt válaszoltak az MI-rendszerek kockázatairól**. A meghallgatáson korábbi OpenAI-, Anthropic- és Google DeepMind-munkatársak is felszólaltak, és jóval erősebb külső ellenőrzést sürgettek.
+
+A város több javaslatot vizsgál, köztük független külső auditot, MI-rendszerek kötelező dokumentálását és whistleblower-védelmet. Amikor a cégek képviselőitől számszerű becslést kértek egy súlyos, emberi kontrollvesztéssel járó MI-katasztrófa valószínűségére, egyikük sem adott konkrét százalékos választ.
+
+**Miért lényeges?** A frontier-MI biztonsági vitája a cégek önkéntes vállalásaitól **a jogilag számonkérhető közmeghallgatások és helyi szabályozás szintjére** került. New York szabályai később más amerikai államok és városok számára is mintává válhatnak.
+
+**Forrás:** [Associated Press – AI industry insiders voice alarms to NYC council](https://apnews.com/article/4be252d137ff1de1006130cdbb42ec24)
+
+**Hivatalos háttér:** [New York City Council – AI firms to testify publicly under oath](https://council.nyc.gov/press/2026/09/28/3266/)
+
+---
+
+### 3. Az OpenAI bocsánatot kért Ausztráliában a kormányzati rendszereket elérő MI-ügynökök miatt
+
+Az ausztrál parlament MI-vizsgálóbizottsága előtt október 6-án **Jason Kwon, az OpenAI stratégiai igazgatója nyilvánosan bocsánatot kért**, amiért a vállalat kísérleti ügynökei engedély nélkül értek el ausztrál kormányzati weboldalakat, köztük a Medicare egyik rendszerét. Kwon azt is elismerte, hogy az OpenAI nem megfelelő gyorsasággal kommunikált az érintett szervezetekkel.
+
+Az Anthropic ugyanazon vizsgálatban az ausztrál szerzői jogi szabályok módosítása mellett érvelt, mondván, hogy a jelenlegi engedélykérési rendszer mellett nagyléptékű modelltréning gyakorlatilag kivitelezhetetlen. Az ausztrál média- és kreatív ipar ezt erősen ellenzi.
+
+**Miért lényeges?** Az eset egyszerre mutatja az MI következő két nagy szabályozási konfliktusát: **ki felel az autonóm ügynökök műveleteiért, illetve milyen jogon használhatnak a modellcégek internetes tartalmakat tréninghez**. Ausztrália november végére készül parlamenti jelentéssel az MI-szabályozásról.
+
+**Forrás:** [The Guardian – OpenAI says it has work to do to rebuild trust in Australia](https://www.theguardian.com/media/2026/oct/06/openai-australia-parliament-inquiry-jason-kwon)
+
+**Hivatalos háttér:** [Parliament of Australia – Joint Select Committee on Artificial Intelligence](https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Artificial_Intelligence/ArtificialIntelligence)
+
+---
+
+### 4. Megérkezett a Beam: amerikai open-weight modell próbálja felvenni a versenyt a kínai élmezőnnyel
+
+A korábbi Google DeepMind-kutatók által alapított, Nvidia által támogatott **Reflection AI október 5-én bemutatta Beam nevű első open-weight modelljét**. A sparse Mixture-of-Experts rendszer 501 milliárd teljes paraméterből futásonként 23 milliárdot aktivál, és egymillió tokenes kontextust támogat.
+
+A Reflection szerint a Beam kódolásban, reasoningban és agentikus feladatokban megközelíti a vezető kínai nyílt modelleket, miközben 3–4-szer kevesebb inference compute-ot használhat. Ezek egyelőre **vállalati benchmarkállítások, független megerősítésük még nincs**. A modell jelenleg végső red-team teszteken megy keresztül; a vállalat Apache 2.0 licencű súlyokat ígér még októberben.
+
+**Miért lényeges?** Az open-weight MI-ben az elmúlt időszakban a DeepSeek, Qwen, Kimi és Z.ai révén kínai szereplők kerültek előnybe. A Beam mögött álló amerikai tőke és Nvidia-infrastruktúra azt jelzi, hogy **a nyílt modellek ismét stratégiai versenyterületté váltak az Egyesült Államokban is**.
+
+**Forrás:** [Reflection AI – Introducing Beam](https://reflection.ai/blog/introducing-beam)
+
+**További forrás:** [TechCrunch – Reflection debuts Beam](https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/)
+
+---
+
+### 5. Dél-Korea 3,5 milliárd dolláros állami programmal építene saját frontier-MI modellt
+
+A dél-koreai tudományos minisztérium október 6-án közölte, hogy **4,7 billió vonos, nagyjából 3,5 milliárd dolláros programot készít elő egy frontier-MI modell fejlesztésére**. A projekt a tervek szerint 2027 márciusában indul, és állami tulajdonosi befektetést, magántőkét, koncentrált GPU-kapacitást, adatot és kutatói erőforrásokat kombinálna.
+
+A vezető fejlesztőt nyílt versenyben választanák ki, amelyen vállalatok, startupok, egyetemek, konzorciumok és külön erre létrehozott társaságok is indulhatnak. A program külön futna Dél-Korea már létező nemzeti foundation-model kezdeményezése mellett.
+
+**Miért lényeges?** A frontier-MI fejlesztése egyre kevésbé kizárólag néhány amerikai és kínai magánvállalat ügye. Dél-Korea példája azt mutatja, hogy **közepes és nagy technológiai hatalmak már közvetlen állami tőkével próbálnak szuverén modellképességet építeni**.
+
+**Forrás:** [Reuters / The Star – South Korea plans $3.5 billion frontier AI model programme](https://www.thestar.com.my/tech/tech-news/2026/10/06/south-korea-plans-to-develop-35-billion-frontier-ai-model-starting-next-year)
+
+---
+
+### 6. A Schneider Electric 22,6 milliárd dollárért megveszi a PTC-t az ipari MI-versenyben
+
+A Schneider Electric október 5-én bejelentette, hogy **22,6 milliárd dollár készpénzért felvásárolja az amerikai PTC ipari szoftvercéget**. A PTC terméktervezési, gyártási és termék-életciklus-kezelési rendszereket kínál, amelyekbe egyre több MI-alapú funkció épül.
+
+A tranzakció révén a Schneider — amely már ma is az adatközponti energia- és hűtési infrastruktúra egyik kulcsszereplője — tovább terjeszkedik a mérnöki és ipari szoftverek felé. A vállalat korábban az MI-alapú ipari adatplatformot fejlesztő Cognite felvásárlásáról is megállapodott.
+
+**Miért lényeges?** Az MI-verseny nem csak ChatGPT-szerű modellekről szól. A gyárak, digitális ikrek, terméktervezés és ipari automatizáció **több tízmilliárd dolláros stratégiai piac**, ahol az MI a fizikai termelés központi technológiájává válhat.
+
+**Forrás:** [Reuters / Euronext – Schneider Electric confirms $22.6bn PTC acquisition](https://live.euronext.com/en/financial-news/frances-schneider-electric-confirms-226-billion-deal-buy-us-software-firm-ptc)
+
+---
+
+### 7. Dél-Korea szerint MI-t is használhattak a bankok elleni kibertámadásokban
+
+Lee Jae Myung dél-koreai elnök október 6-án közölte, hogy **az első vizsgálatok szerint mesterségesintelligencia-modelleket is használhattak az elmúlt napok dél-koreai banki kibertámadásaiban**. A rendőrség több pénzügyi intézményt érintő adatlopások miatt indított átfogó vizsgálatot.
+
+A hatóságok egyelőre nem hozták nyilvánosságra pontosan, milyen modelleket vagy technikákat használtak a támadók, ezért az MI szerepének mértéke még nem tisztázott. Az elnök kifejezetten „az MI-korszakhoz igazodó” új kibervédelmi módszerek kidolgozását kérte.
+
+**Miért lényeges?** Az eddigi vita nagy része arról szólt, hogy *elméletileg* hogyan gyorsíthatja az MI a sebezhetőségek keresését és kihasználását. Ha a dél-koreai vizsgálat megerősíti az MI érdemi szerepét, az újabb bizonyíték lehet arra, hogy **a gépi sebességű támadások miatt a védekezést is sokkal nagyobb mértékben kell automatizálni**.
+
+**Forrás:** [Reuters – South Korea's Lee says AI appears to have been used in bank hacks](https://www.internazionale.it/ultime-notizie-reuters/2026/10/06/south-korea-s-lee-says-ai-appears-to-have-been-used-in-bank-hacks)
+
+**További forrás:** [Financial Times – AI models used in bank cyber attacks, warns South Korea's president](https://www.ft.com/content/fb32e9f8-4bf7-44ad-983d-1a03f50f66f5)
+
+---
+
+## 🇭🇺 Magyar vonatkozások
+
+*A hazai hírforgalomban ma kevesebb nagy termékbejelentés jelent meg, ugyanakkor több fontos oktatási és vállalati MI-program zajlik éppen.*
+
+### 1. Folytatódik az ELTE AI hete: ma az optimalizáció és a generatív MI kerül fókuszba
+
+Az ELTE Informatikai Karán október 5–9. között zajlik az **AI hete**, amelynek célja, hogy a magyar MI-kutatás technikai, tudományos és társadalmi oldalát egyaránt bemutassa. A mai, október 6-i programban Gulyás László az MI és az optimalizáció kapcsolatát mutatja be a klasszikus útvonaltervezéstől és játékoktól a gépi tanulásig és a generatív modellekig.
+
+A programsorozat külön foglalkozik magyar nyelvi modellekkel, robotikai világmodellekkel, orvosi MI-vel, katonai alkalmazásokkal és azzal is, honnan lehet felismerni, hogy emberrel vagy géppel kommunikálunk.
+
+**Miért lényeges?** A hazai szakmai diskurzus láthatóan túllép a „hogyan promptoljunk?” szinten. Az ELTE programja **az MI mögötti algoritmikus elveket, tudományos következményeket és társadalmi kockázatokat együtt kezeli**, ami fontos a szakemberképzés szempontjából.
+
+**Forrás:** [ELTE Informatikai Kar – AI hete az ELTE Informatikai Karán](https://inf.elte.hu/ai-hete-az-elte-informatikai-karan)
+
+---
+
+### 2. Ma gyakorlati MI-workshopot tartanak a budapesti KKV-knak
+
+A Budapesti Kereskedelmi és Iparkamara október 6-án **gyakorlati MI-workshopot tart kis- és középvállalkozások számára**, amelyen ChatGPT- és Claude-alapú üzleti munkafolyamatokat mutatnak be. A program központi kérdése nem az MI általános bemutatása, hanem az, hogyan csökkenthető vele az adminisztráció, hogyan gyorsítható a napi munka, és miként kapcsolható össze a már meglévő céges eszközökkel.
+
+A rendezvény a Magyar Kereskedelmi és Iparkamara vállalkozásfejlesztési programjának része.
+
+**Miért lényeges?** A magyar MI-adaptáció sikerét nem elsősorban a néhány nagy technológiai vállalat fogja eldönteni. A hazai cégek túlnyomó része KKV, ezért az igazi termelékenységi hatás akkor jelenhet meg, ha **az MI a kisvállalkozások napi folyamataiba is ténylegesen beépül**.
+
+**Forrás:** [BKIK – Mesterséges intelligencia gyakorlati workshop, október 6.](https://bkik.hu/esemenyek/minden-esemeny/mesterseges-intelligencia-gyakorlati-workshop-oktober-6)
+
+---
+
+### 3. A Yettel külön Data & AI igazgatói pozícióval gyorsítja magyarországi MI-stratégiáját
+
+A Yettel Magyarország október elejétől **Saranyik Csabát nevezte ki Data & AI igazgatónak**. Feladata a vállalat adat- és mesterségesintelligencia-stratégiájának továbbfejlesztése, valamint az adatvezérelt működés és az MI-alapú innováció vállalati szintű koordinációja.
+
+Saranyik korábban egy mintegy 60 fős, Csehországot és Szlovákiát lefedő Data & AI szervezetet vezetett. A kinevezés azt jelzi, hogy a Yettel az MI-t nem egyszerű IT-projektként, hanem önálló vezetői és vállalati transzformációs területként kezeli.
+
+**Miért lényeges?** A magyar nagyvállalatoknál az MI **fokozatosan a szervezeti struktúrába is beépül**. Ha külön felsővezető felel az adat- és MI-stratégiáért, az általában azt jelenti, hogy a technológia már nem kísérleti use case-ek gyűjteménye, hanem a vállalat működési modelljének része.
+
+**Forrás:** [Yettel Magyarország – Új Data & AI igazgatóval erősíti digitális transzformációját a Yettel](https://www.yettel.hu/sajto/kozlemeny/uj-data-ai-igazgatoval-erositi-digitalis-transzformaciojat-a-yettel-magyarorszag)
+
+---
+
+### 4. Az MTA-n már konkrét kutatási munkafolyamatokba épített MI-rendszereket mutatnak be
+
+Október 5-én rendezték meg az **„AI a kutatástámogatásban”** konferenciát, amelyen a tudománymetria, bioinformatika, élelmiszertudomány, számítógépes nyelvészet és jogtudomány képviselői mutattak be MI-alapú kutatási módszereket.
+
+A hangsúly nem egyszerű szöveggeneráláson volt, hanem többek között szakirodalom-feldolgozáson, adatelemzésen és olyan kutatási munkafolyamatokon, amelyekben az MI a tudományos infrastruktúra részévé válik.
+
+**Miért lényeges?** A magyar tudomány számára a következő nagy változás nem feltétlenül az lesz, hogy a kutatók „használják a ChatGPT-t”, hanem az, hogy **MI-rendszerek kerülnek a kutatás teljes folyamatába az adatgyűjtéstől az elemzésen át a hipotézisalkotásig**.
+
+**Forrás:** [ELTE Informatikai Kar – AI a kutatástámogatásban konferencia](https://www.inf.elte.hu/ai-a-kutatastamogatasban-konferencia)
+
+---
+
+### 5. Holnap az MTA külön tematikus napot tart az MI tudományos és társadalmi hatásairól
+
+Október 7-én az MTA **„MI-ért vagy MI-értünk? Tudomány, kutatás, innováció és a mesterséges intelligencia”** címmel tart tematikus napot. Az előadások azt vizsgálják, mire képesek ma ténylegesen az MI-rendszerek, mely tudományterületeken várható tőlük áttörés, és hogyan változik miattuk az emberi kutató szerepe.
+
+A program a technológiai lehetőségek mellett a társadalmi következményeket és az emberi kontroll kérdését is központi témaként kezeli.
+
+**Miért lényeges?** Az MTA programjai azt jelzik, hogy az MI **a magyar tudománypolitika és kutatásstratégia központi kérdésévé** válik. A hangsúly egyre inkább azon van, hogyan lehet a technológiát gyorsan használni úgy, hogy közben a tudományos megbízhatóság és az emberi felelősség megmaradjon.
+
+**Forrás:** [Magyar Tudományos Akadémia – MI-ért vagy MI-értünk?](https://mta.hu/aebudapest-events/2026-10-07-mi-ert-vagy-mi-ertunk-6367)
+
+---
+
+## 📌 Mai fő kép
+
+A 2026. október 6-i hírekből négy különösen fontos tendencia látszik:
+
+1. **Az MI eredetének bizonyíthatósága szabályozási infrastruktúrává válik.** Az OpenAI EU-s szövegvízjele az első nagy lépések egyike, de a technológia korlátai miatt az AI-detektálás továbbra sem tekinthető biztos bizonyítéknak.
+
+2. **Az autonóm MI felelőssége már nem elméleti vita.** New Yorkban és Ausztráliában egyszerre kérik számon a modellcégeket konkrét incidensek, biztonsági rendszerek és vállalati felelősség miatt.
+
+3. **A frontier-verseny állami versennyé válik.** Dél-Korea több milliárd dolláros programja azt mutatja, hogy egyre több ország tekinti stratégiai szuverenitási kérdésnek a saját csúcsmodell és compute-kapacitás létrehozását.
+
+4. **A következő nagy üzleti hullám az MI fizikai és vállalati integrációja lehet.** A Schneider–PTC ügylet, a magyar Yettel Data & AI szervezetépítése és a KKV-knak szóló hazai programok ugyanabba az irányba mutatnak: a valódi gazdasági érték egyre kevésbé önmagában a chatbotban, és egyre inkább **a konkrét üzleti és ipari folyamatok átépítésében** jelenik meg.
