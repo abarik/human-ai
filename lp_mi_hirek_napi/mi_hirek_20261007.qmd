@@ -1,0 +1,177 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. október 07."
+author: "OpenAI - ChatGpt"
+date: "2026-10-07"
+---
+
+*Frissítve: 2026. október 7., reggel. A nemzetközi válogatás elsősorban az október 6–7-én megjelent fejleményekre épül. A hazai blokkban a mai, illetve az elmúlt 24–48 órában megjelent magyar vonatkozások szerepelnek.*
+
+A mai MI-hírképben három téma különösen erős: **az MI egyre mélyebb bevonása a tudományos kutatásba és vállalati munkafolyamatokba, a fejlett kiberképességek kontrollált hozzáférése, valamint az MI-infrastruktúra rohamos energiaigénye**. Az OpenAI több száz matematikai eredményt tett közzé egy belső frontier-modelltől, az Anthropic külön hozzáférési rendszert nyit a fejlett kibervédelmi képességekhez, miközben az IMF már makrogazdasági kockázatként is figyeli az MI-beruházási hullámot.
+
+## 🌍 Nemzetközi hírek
+
+### 1. Az OpenAI 722, MI által készített matematikai kéziratot tett közzé
+
+Az OpenAI október 6-án **722 matematikai kéziratot publikált, 372 egymással összefüggő eredménycsaládba rendezve**, amelyeket egy még nem nyilvános belső frontier-modell állított elő. A munka körülbelül 4000 vizsgált matematikai problémából indult ki; az OpenAI becslése szerint egy-egy publikált eredmény átlagosan nagyjából háromórányi ChatGPT Pro-szintű számítási kapacitást igényelt.
+
+A csomaghoz számos esetben géppel ellenőrizhető Lean-bizonyítások is tartoznak. Fontos ugyanakkor, hogy a közzétett eredmények tudományos jelentőségének és helyességének szélesebb matematikai ellenőrzése most kezdődik: az OpenAI maga is külön revíziós és idézési protokollt alakított ki, és a publikálás előtt az Institute for Advanced Study független matematikai MI-tanácsadó csoportjával konzultált.
+
+**Miért lényeges?** Ez az egyik legerősebb eddigi példa arra, hogy az MI **nemcsak ismert tudást foglal össze, hanem potenciálisan új tudományos eredményeket állít elő nagy léptékben**. Ha az eredmények jelentős része kiállja a szakmai ellenőrzést, az alapvetően változtathatja meg a matematikai kutatás munkafolyamatait és tempóját.
+
+**Forrás:** [OpenAI – Sharing AI progress in mathematics](https://openai.com/index/sharing-ai-progress-in-mathematics/)
+
+**További forrás:** [The Verge – OpenAI drops another batch of mathematical breakthroughs](https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github)
+
+---
+
+### 2. Az OpenAI valódi vállalati szoftvereken tanítja ügynökeit összetett szakmai munkára
+
+Az OpenAI és az **Ironclad** szerződéskezelő platform október 6-án új kutatási együttműködést mutatott be. A cél olyan MI-ügynökök fejlesztése, amelyek nem csupán gombokat nyomnak egy szoftverben, hanem képesek hosszú, üzleti szabályokkal terhelt munkafolyamatokat végigvinni: például NDA-kat konfigurálni, beszerzési jóváhagyási folyamatokat létrehozni vagy jogi klauzulákat módosítani.
+
+A kutatásban 11 valószerű jogi, kereskedelmi és beszerzési feladatot használtak. Az OpenAI szerint GPT-6 Astra átlagosan **55%-os teljesítményt ért el a részletes értékelési kritériumokon, szemben a GPT-5.6 Sol 41,6%-ával**, miközben a becsült feladatvégrehajtási idő 37 percről 19,2 percre csökkent.
+
+**Miért lényeges?** Az agentikus MI következő nagy ugrása nem feltétlenül egy jobb chatbot lesz, hanem az, hogy a modellek **megbízhatóan kezelnek komplex vállalati szoftvereket és üzleti szabályokat**. Ez közvetlenül érintheti a jogi, beszerzési, pénzügyi és adminisztratív munkaköröket.
+
+**Forrás:** [OpenAI – Advancing computer use with Ironclad](https://openai.com/index/advancing-computer-use-with-ironclad/)
+
+---
+
+### 3. Az Anthropic kibővítette a fejlett kiberképességekhez hozzáférést adó programját
+
+Az Anthropic október 6-án új, háromszintű rendszerben indította újra **Cyber Verification Programját**. A megfelelően ellenőrzött biztonsági szakemberek hozzáférhetnek a Claude legerősebb modelljeihez — köztük az Opus 5.5-höz, Sonnet 5.5-höz és Mythos 5.1-hez —, valamint olyan beállításokhoz, amelyeknél kevésbé szigorúak a kiberbiztonsági feladatokat blokkoló szűrők.
+
+A program a Project Glasswing kezdeményezésből nőtt ki. Az Anthropic szerint frontier-modelljei már olyan szintre jutottak, hogy **nagyon komoly, korábban ismeretlen sérülékenységeket képesek autonóm módon megtalálni és bizonyos esetekben kihasználási módszert is készíteni hozzájuk**. Emiatt a vállalat nem általános nyilvános hozzáférést, hanem ellenőrzött szakmai hozzáférést épít.
+
+**Miért lényeges?** Ez egy új hozzáférési modell kialakulását jelzi a dual-use MI számára: **ugyanaz a képesség lehet rendkívül értékes a védekezésben és veszélyes támadói kézben**. A jövőben egyre több frontier-képesség lehet „engedélyköteles” ahelyett, hogy minden felhasználónak ugyanúgy elérhető lenne.
+
+**Forrás:** [Anthropic – Project Glasswing / Cyber Verification Program](https://www.anthropic.com/glasswing)
+
+---
+
+### 4. Az OpenAI és az Atlassian mélyebben összeköti az MI-ügynököket a vállalati tudással
+
+Az Atlassian és az OpenAI kibővítette 2023 óta tartó együttműködését: **GPT-6 családba tartozó modellek kerülnek az Atlassian platformján és a Rovo rendszerében működő MI-ügynökök mögé**.
+
+A Rovo az OpenAI modelljeit az Atlassian Teamwork Graph rendszerével kapcsolja össze, amely embereket, Jira-feladatokat, Confluence-dokumentumokat, projekteket és korábbi döntéseket köt össze. Így az ügynök például nemcsak általános választ adhat arra, hogy egy projekt késésben van-e, hanem a vállalat saját munkafolyamataiból gyűjtheti össze a blokkoló tényezőket. Az Atlassian szerint több mint 3000 saját fejlesztője már most használja a Codexet.
+
+**Miért lényeges?** A vállalati MI egyik legnagyobb korlátja nem a modell intelligenciája, hanem hogy **nem ismeri a szervezet belső kontextusát**. Az Atlassian–OpenAI irány azt mutatja, hogy az MI következő vállalati rétege a belső tudás, jogosultságok és munkafolyamatok összekapcsolása lesz.
+
+**Forrás:** [OpenAI – Atlassian and OpenAI expand partnership](https://openai.com/index/atlassian-partnership/)
+
+**További forrás:** [Atlassian – Grounding Frontier Intelligence in Enterprise Context](https://www.atlassian.com/blog/company-news/atlassian-openai-strategic-partnership)
+
+---
+
+### 5. A Google fizetőssé teszi a fejlettebb Gemini-modellek jelentős részét
+
+A Google október 9-től átalakítja a Gemini ingyenes csomagját. A The Verge beszámolója szerint **az ingyenes felhasználók ezután csak a Flash Lite modellhez férnek hozzá**, míg a fejlettebb Flash modell használatához már Google AI Plus előfizetés kell.
+
+A Gemini Pro és a magasabb szintű „Deep Think” reasoning képességek a drágább Google AI Pro, illetve Ultra csomagokhoz kötődnek. A változás azt mutatja, hogy a Google az ingyenes frontier-MI hozzáférést fokozatosan szűkíti, miközben egy világosabb teljesítmény–ár lépcsőt épít.
+
+**Miért lényeges?** Az MI-piac kezd hasonlóvá válni a felhőszolgáltatásokhoz: a **nagy számításigényű intelligencia közvetlenül árazott erőforrássá válik**. A felhasználóknak és cégeknek egyre inkább el kell dönteniük, mikor éri meg drága frontier-modellt és mikor kisebb, olcsóbb modellt használni.
+
+**Forrás:** [The Verge – Google is about to remove free access to Gemini Flash and Pro](https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only)
+
+---
+
+### 6. Az IMF már globális gazdasági kockázatként figyeli az MI-beruházási boomot
+
+Kristalina Georgieva, a Nemzetközi Valutaalap ügyvezető igazgatója október 7-i beszédében arra figyelmeztetett, hogy a világgazdaságot egyszerre éri az energiaárak emelkedése és **az MI-beruházások által generált rendkívül erős keresleti hullám**.
+
+Georgieva szerint az MI komoly termelékenységi előnyöket hozhat, ezek azonban nagyon egyenlőtlenül oszlanak meg az országok között. Az adatközpont-, chip- és infrastruktúra-beruházások jelentős része néhány gazdaságra koncentrálódik, a túlzott piaci várakozások pedig pénzügyi sokkot okozhatnak, ha a vállalati nyereségek nem igazolják a jelenlegi értékeltségeket. Az IMF vezetője az MI szabályozása mellett munkavállalói átképzést és energiabiztonsági beruházásokat is sürgetett.
+
+**Miért lényeges?** Az MI már nem csupán technológiai trend: **elég nagy tőkét, energiát és tőzsdei értéket mozgat ahhoz, hogy makrogazdasági és pénzügyi stabilitási tényező legyen**.
+
+**Forrás:** [Associated Press – IMF chief urges countries to do more to curb debt and regulate AI](https://apnews.com/article/2da9d879e2eb70e1e16d14fd1a307a99)
+
+---
+
+### 7. 1,8 milliárd dollárnyi új energiatermelés épül egy Google-adatközpont kiszolgálására
+
+A Black Hills Corp. október 6-án végleges megállapodást jelentett be egy tervezett Google-adatközpont energiaellátására a wyomingi Cheyenne-ben. A társaság **2027 és 2029 között 1,8 milliárd dollárt fordít 564 MW új saját energiatermelő kapacitásra**, és további külső forrásokkal együtt egy több gigawattos energiaportfóliót kezel majd az adatközpont számára.
+
+A vállalat szerint az energiaigény fokozatosan nő, és a projekt 2030 körül érheti el a maximális terhelését. A megállapodást úgy alakították ki, hogy a külön infrastruktúra költségeit a Google viselje, ne a lakossági fogyasztók.
+
+**Miért lényeges?** A frontier-MI infrastruktúra egyik legnagyobb korlátja már **nem a GPU, hanem az elektromos energia**. Egyetlen nagy adatközpont kiszolgálása ma már egy kisebb erőműpark léptékű új termelőkapacitást igényelhet, ami az MI-versenyt közvetlenül összeköti az energiapolitikával.
+
+**Forrás:** [Black Hills Corp. – Agreements to serve Google's planned Cheyenne data center](https://ir.blackhillscorp.com/news-releases/news-release-details/black-hills-corp-executes-definitive-agreements-serve-googles)
+
+---
+
+## 🇭🇺 Magyar vonatkozások
+
+*A mai magyar hírfolyamban kevés nagy termék- vagy vállalati bejelentés jelent meg, viszont több jelentős tudományos és szakmai MI-program zajlik egyszerre.*
+
+### 1. Ma teltházas MI-tematikus napot tart a Magyar Tudományos Akadémia
+
+Október 7-én zajlik az MTA **„MI-ért vagy MI-értünk? Tudomány, kutatás, innováció és a mesterséges intelligencia”** című tematikus napja. A rendezvény regisztrációja megtelt, az előadások online is követhetők.
+
+A programban többek között Monostori László, a HUN-REN SZTAKI főigazgatója és Benczúr András, a SZTAKI MI Kutatólaboratóriumának vezetője vizsgálja, mire képesek ma ténylegesen a rendszerek, mely tudományterületeken várhatók áttörések, és hogyan változik az emberi kutató szerepe.
+
+**Miért lényeges?** Az MI **a magyar tudománypolitika központi témájává** vált. A kérdés már nem csak az, hogy kutatók használhatnak-e LLM-eket, hanem hogy a hipotézisalkotás, a kísérletezés és a tudományos felfedezés mely részeit lehet gépekre bízni.
+
+**Forrás:** [Magyar Tudományos Akadémia – MI-ért vagy MI-értünk?](https://mta.hu/esemenynaptar/2026-10-07-mi-ert-vagy-mi-ertunk-6367)
+
+---
+
+### 2. A BME-n ma azt vizsgálják, hogyan alakítja át az MI a magyar munkaerőpiacot
+
+A Budapesti Műszaki és Gazdaságtudományi Egyetem október 7-i üzleti reggelijének témája **az MI hatása a HR-re, toborzásra, kompetenciaigényekre és a jövő munkahelyeire**. A rendezvényen vállalati vezetők, HR-szakemberek és egyetemi szakértők vesznek részt.
+
+A beszélgetés a BME Állásbörze kiemelt kísérőprogramja, vagyis közvetlenül találkozik egymással az egyetemi képzés, a pályakezdők és a vállalati munkaerőigény.
+
+**Miért lényeges?** A generatív és agentikus MI terjedésének egyik legfontosabb magyar gazdasági kérdése az lesz, **milyen készségek értéke nő és mely feladatok automatizálódnak**. Ez közvetlenül befolyásolja az egyetemi képzések tartalmát és a vállalatok felvételi stratégiáját.
+
+**Forrás:** [BME – Hogyan alakítja át a HR-t és a munkaerőpiacot a mesterséges intelligencia?](https://www.bme.hu/esemenyek/uzleti-reggeli-mi-hr-munkaeropiac)
+
+---
+
+### 3. Folytatódik az ELTE AI hete: a hazai fejlesztésektől a világmodellekig terjed a program
+
+Az ELTE Informatikai Karán október 5–9. között zajlik az **AI hete**, amelynek mai programjában is kutatók és fejlesztők mutatják be a mesterséges intelligencia aktuális irányait.
+
+A hét témái között szerepelnek magyar nyelvi modellek, optimalizáció, generatív MI, robotika, térbeli intelligencia, világmodellek, orvosi MI, katonai alkalmazások és a Turing-teszt modern értelmezése.
+
+**Miért lényeges?** A program jól mutatja, hogy a hazai MI-képzés és kutatás **egyre kevésbé az általános chatbotokra koncentrál**, és egyre inkább a specializált modellek, autonóm rendszerek, robotika és tudományos alkalmazások felé nyit.
+
+**Forrás:** [ELTE Informatikai Kar – AI hete az ELTE Informatikai Karán](https://inf.elte.hu/ai-hete-az-elte-informatikai-karan)
+
+---
+
+### 4. A magyar igazságszolgáltatásban is napirendre került az MI gyakorlati használata
+
+A Pázmány Péter Katolikus Egyetem október 6-i beszámolója szerint a Budapest Környéki Törvényszék **„MI a bíróságon – elmélet és gyakorlat”** címmel tartott szakmai konferenciát bírák és igazságügyi dolgozók számára.
+
+A témák között az MI bírósági munkafolyamatokban történő használata, az adatvédelem, az MI által generált bizonyítási eszközök, a technológiai korlátok, az etika, az átláthatóság és az emberi kontroll szerepelt. A PPKE kapcsolódó nemzetközi kutatási projektje mintegy hetven kutatót és több mint ötven intézményt kapcsol össze.
+
+**Miért lényeges?** Az igazságszolgáltatás az MI egyik legmagasabb kockázatú alkalmazási területe. **Egy hibás összefoglalás, torzított ajánlás vagy hamis generált bizonyíték közvetlenül alapjogokat érinthet**, ezért itt különösen fontos a visszaellenőrizhetőség és az emberi döntési felelősség.
+
+**Forrás:** [PPKE – Jogi, technológiai és etikai kérdések a mesterséges intelligencia bírósági alkalmazásában](https://btk.ppke.hu/kari-hirek/jogi-technologiai-es-etikai-kerdesek-a-mesterseges-intelligencia-birosagi-alkalmazasaban)
+
+---
+
+### 5. Ma zárul Miskolcon a CECOL 2026, külön szekcióval az MI logisztikai alkalmazásairól
+
+Október 5–7. között a Miskolci Egyetem ad otthont a **Central European Conference on Logistics 2026** konferenciának, amelyen tizenkét ország több mint húsz egyeteme, kutatóintézete és vállalata vesz részt.
+
+Az idei program egyik fő témája a digitalizáció és **a mesterséges intelligencia logisztikai alkalmazása**, külön szekcióval az MI-alapú logisztikai és optimalizációs módszerekről. Több mint ötven előadást fogadtak el a konferenciára.
+
+**Miért lényeges?** Magyarország földrajzi helyzete és erős gyártóipara miatt a logisztika stratégiai ágazat. Az MI **útvonaltervezésben, készletoptimalizálásban, raktárautomatizálásban és ellátásilánc-előrejelzésben** közvetlen termelékenységi előnyt adhat a hazai vállalatoknak.
+
+**Forrás:** [Miskolci Egyetem – CECOL 2026](https://www.uni-miskolc.hu/esemenynaptar/cecol-2026-nemzetkozi-logisztikai-talalkozo-miskolcon/)
+
+---
+
+## 📌 Mai fő kép
+
+A 2026. október 7-i fejleményekből négy nagy tendencia rajzolódik ki:
+
+1. **Az MI kezd aktív kutatótárssá válni.** Az OpenAI több száz matematikai kézirata azt mutatja, hogy a modellek szerepe a tudományban a szakirodalom-összegzésből az eredménytermelés irányába tolódik.
+
+2. **A vállalati agentikus MI a valós szoftverekbe költözik.** Az Ironclad- és Atlassian-együttműködések arra épülnek, hogy az ügynök ne csak beszéljen egy feladatról, hanem a vállalat valódi rendszereiben hajtsa végre azt.
+
+3. **A legerősebb képességekhez egyre differenciáltabb hozzáférés társul.** Az Anthropic kiberprogramja azt mutatja, hogy bizonyos frontier-képességeket a jövőben valószínűleg csak ellenőrzött szakemberek használhatnak teljes funkcionalitással.
+
+4. **Az MI valódi fizikai infrastruktúrává vált.** A Google-adatközpont energiaigénye és az IMF figyelmeztetése ugyanarra mutat: a következő MI-verseny legalább annyira szól energiáról, adatközpontokról, finanszírozásról és szakemberekről, mint magukról a modellekről.
+
+Magyarországon ugyanez kisebb léptékben, de jól felismerhetően jelenik meg: **a tudomány, az egyetemi képzés, a munkaerőpiac, az igazságszolgáltatás és a logisztika egyszerre kezdi beépíteni az MI-t a saját működésébe**. A legfontosabb kérdés így már nem az, hogy használjuk-e a technológiát, hanem az, hogy mely feladatokat bízhatjuk rá biztonságosan, hogyan mérjük a teljesítményét, és hol kell kötelezően megmaradnia az emberi kontrollnak.
