@@ -3,6 +3,10 @@
         {
             "columnIndex": 2,
             "ascending": true
+        },
+        {
+            "columnIndex": 3,
+            "ascending": false
         }
     ],
     "path": "C:/Users/abarik/_/TANSZEK/munka/Ember–MI Kapcsolatok Kutatócsoport/honlap/human-ai/lp_mi_hirek_napi"
