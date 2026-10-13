@@ -1,0 +1,98 @@
+---
+title: "MI és pszichológia – 2026. okt. 5-11."
+author: "OpenAI - ChatGpt"
+date: "2026-10-12"
+---
+
+
+**Időszak:** 2026. október 5–11.
+
+## Nemzetközi hírek
+
+### 1. Elektronikus betegaktákban vizsgálták a chatbotokkal összefüggésbe hozott pszichotikus epizódokat
+
+**Típus:** Lektorált kutatási közlemény  
+**Megjelenés:** 2026. október 7.
+
+A Vanderbilt University Medical Center 215 712 mentális egészségügyi páciensének dokumentációjában 28 olyan esetet azonosítottak, amelyben a kezelők szerint a társalgási MI használata hozzájárult pszichotikus tünetek megjelenéséhez vagy romlásához. E betegek 60,7%-ánál ez volt az első pszichotikus epizód; az esetek közel kétharmadában a chatbotot a már kialakuló tünetek „felerősítőjeként” osztályozták. A kutatás azt jelzi, hogy pszichiátriai vizsgálatkor érdemes lehet rákérdezni a chatbotok használatára, különösen első epizód esetén.
+
+**Korlátok:** Retrospektív, egyetlen amerikai intézményre épülő vizsgálat, mindössze 28 releváns esettel. Az akták nem tartalmazták a teljes beszélgetéseket, a kategorizálás nem validált diagnosztikai módszer, és az összefüggés nem bizonyítja, hogy az MI okozta a pszichózist. A 0,013%-os arány nem tekinthető általános lakossági gyakoriságnak.
+
+[Az eredeti tanulmány – JAMA Psychiatry](https://jamanetwork.com/journals/jamapsychiatry/fullarticle/2854891)
+
+### 2. A mentális egészségügyi MI-eszközök gyakran kihagyják a méltányosság szempontjából fontos adatokat
+
+**Típus:** Lektorált, népességalapú keresztmetszeti kutatás  
+**Megjelenés:** 2026. október 6.
+
+Anglia 7 186 890, több tartós betegséggel élő felnőttjének egészségügyi adatait felhasználva öt, mentális egészségügyi diagnosztikára vagy triázsra szánt MI-eszköz bemeneti változóit elemezték. Az eszközök az előre meghatározott méltányossági tényezők mindössze 13–56,5%-át vették figyelembe. Az életkor, etnikai háttér, anyagi hátrány, fogyatékosság és szociális ellátásban való részvétel következetlenül szerepelt, noha az életkor és az etnikai háttér elhagyása csökkentette leginkább a kórházi felvételt magyarázó modell teljesítményét.
+
+**Korlátok:** A vizsgálat a modellek bemeneti változóit, nem pedig a tényleges csoportonkénti pontosságot vagy diszkriminációt mérte. A kórházi felvétel csak közvetett kimenet, az adatok 1987–2020 közötti ellátásból származtak, és több, az eredeti modellekben használt tünetváltozó nem volt rekonstruálható.
+
+[Az eredeti tanulmány – BMC Psychiatry](https://doi.org/10.1186/s12888-026-08723-5)
+
+### 3. Az MI-forrás feltüntetése alig változtatta meg az egészségügyi szövegek megítélését
+
+**Típus:** Lektorált online kísérlet  
+**Megjelenés:** 2026. október 6.
+
+A 774 résztvevős vizsgálatban az emberek hat rövid, táplálkozással kapcsolatos szöveg egyikét értékelték megbízhatóság, érthetőség, érdekesség, cselekvési szándék és megosztási hajlandóság alapján. Annak feltüntetése, hogy a szöveg MI-től származik, nem befolyásolta érdemben az értékeléseket. Ugyanakkor az MI-forrást látó résztvevőknek csak 41,5%-a emlékezett erre, ami arra utal, hogy egy egyszerű forráscímke önmagában kevés lehet a tudatosabb információértékeléshez.
+
+**Korlátok:** Rövid táplálkozási szövegeket és önbeszámolós szándékokat vizsgáltak, nem tényleges egészségügyi döntéseket. A résztvevők többsége nem vette észre a forrásjelölést, ezért az eredmény nem mutatja meg, hogyan reagálnának egy feltűnőbb címkére vagy mentális egészséggel kapcsolatos, nagyobb kockázatú tartalomra.
+
+[Az eredeti tanulmány – Applied Psychology: Health and Well-Being](https://doi.org/10.1111/aphw.70223)
+
+### 4. Az MI-re bízott döntés javíthatja vagy ronthatja a jóllétet – a döntés tárgyától függően
+
+**Típus:** Lektorált, négy online kísérletből álló kutatás  
+**Megjelenés:** 2026. október 5.
+
+Négy, összesen 1427 résztvevős kísérletben azt vizsgálták, hogyan hat a szubjektív jóllétre, ha egy vásárlási döntést az ember helyett MI hoz meg. Élményjellegű döntéseknél – például utazás kiválasztásakor – a delegálás növelte a várakozás örömét és a pillanatnyi jóllétet. Tárgyi vásárlásoknál viszont csökkentette a kontrollérzetet, növelte az autonómia frusztrációját és rontotta a jólléti értékelést. Az eredmény szerint az MI kényelme nem minden helyzetben ellensúlyozza a döntési önállóság elvesztését.
+
+**Korlátok:** Kínai online mintán végzett, elképzelt vásárlási forgatókönyvekről volt szó, nem valódi döntésekről vagy hosszú távú jóllétről. Az MI-feltételben a rendszer teljesen átvette a döntést, ami erősebb beavatkozás, mint a hétköznapi ajánlórendszerek többsége.
+
+[Az eredeti tanulmány – Psychology & Marketing](https://doi.org/10.1002/mar.70277)
+
+### 5. Tíz másodperc alatt eltérő bizalmi akadályokat látnak az MI-kezdők és a tapasztalt felhasználók
+
+**Típus:** Konferenciaközlemény; a forrásoldal nem részletezi a lektorálás módját  
+**Bemutatás és intézményi közlés:** 2026. október 6.
+
+Egy amerikai, valószínűségi alapú lakossági panel 354 tagja tíz másodperces videót látott egy demenciával élőket gondozó családtagok támogatására tervezett virtuális emberről. Az MI-t korábban nem használók gyakrabban kételkedtek saját technikai képességeikben: körülbelül 21%-uk említett ilyen aggályt. A tapasztalt MI-használók ehelyett gyakrabban kifogásolták a rendszer empátiáját, kapcsolati alkalmasságát és emberhez hasonló megjelenését; a kapcsolati aggályok aránya 25%-ról 41%-ra nőtt. Ez arra utal, hogy ugyanahhoz a támogató rendszerhez eltérő bevezetés és magyarázat szükséges az MI-tapasztalat függvényében.
+
+**Korlátok:** A résztvevők csak rövid videót láttak, nem használták ténylegesen a rendszert. A vizsgálat első benyomásokat és nyitott szöveges válaszokat elemzett, ezért nem bizonyítja, hogy a vélemények tartós használat, valódi bizalom vagy gondozói eredmények formájában is fennmaradnának.
+
+[Az eredeti konferenciaközlemény](https://doi.org/10.54941/ahfe1008104)  
+[USC Institute for Creative Technologies – intézményi összefoglaló](https://ict.usc.edu/news/ten-seconds-to-trust-ai-newcomers-doubt-themselves-ai-users-doubt-the-machine/)
+
+## Magyar vonatkozású hírek
+
+### 1. Reprezentatív felmérés készült a magyar lakosság MI-kockázatokkal kapcsolatos attitűdjeiről
+
+**Típus:** Nem lektorált közvélemény-kutatás  
+**Közlés:** 2026. október 10.
+
+A 21 Kutatóközpont telefonos felmérésében 1000 magyar felnőttet kérdeztek meg. A válaszadók 58%-a valószínűnek tartotta, hogy a fejlett MI az emberiség kihalásához vagy más rendkívül súlyos, tartós károkhoz vezethet, 79% pedig valószínűnek vélte a rosszindulatú felhasználásból eredő katasztrófát. A fejlesztések leállítását 51%, folytatását 40% támogatta; az idősebbek és a nők átlagosan óvatosabb álláspontot képviseltek. A kutatás fontos pillanatfelvétel az MI-vel kapcsolatos magyar kockázatészlelésről.
+
+**Korlátok:** A kérdőív pontos szövegezése és az előzetesen bemutatott információk befolyásolhatták a válaszokat. A vizsgálat véleményeket, nem a technológia tényleges kockázatát mérte; a megrendelő maga is az MI-kockázatokkal foglalkozó szerző. Az adatfelvétel szeptember 28–30. között történt, a nyilvános beszámoló jelent meg ezen a héten.
+
+[A kutatás részletes eredményei és módszertana – 24.hu](https://24.hu/fn/gazdasag/2026/10/10/ai-veszelyei-magyarok-21-kutatokozpont/)
+
+### 2. Az ELTE rendezvénysorozatán az MI antropomorfizálása is külön témát kapott
+
+**Típus:** Intézményi szakmai és ismeretterjesztő esemény, nem empirikus tanulmány  
+**Esemény:** 2026. október 5–9.
+
+Az ELTE Informatikai Kar AI hetének programja a technikai előadások mellett az ember–MI kapcsolat pszichológiai kérdéseivel is foglalkozott. Az október 8-i társadalomtudományi előadás központi témája volt, hogy az emberek miért tulajdonítanak tudatot, gondolkodást és érzelmeket az MI-rendszereknek. A programsorozat emellett az egészségügyi döntéstámogatás emberi felelősségét, az MI felismerésének nehézségeit, valamint a technológiához és tudáshoz fűződő viszony változását is tárgyalta.
+
+**Korlátok:** Nyilvános előadássorozatról van szó, nem új kutatási eredményről; az eseményoldal nem közöl résztvevői adatokat, hatásvizsgálatot vagy az előadások állításait alátámasztó önálló tanulmányokat.
+
+[Az ELTE AI hetének programja](https://www.elte.hu/ai-hete-az-elte-informatikai-karan)
+
+### Hazai helyzetkép
+
+A vizsgált héten nem találtam új, Magyarországon végzett és lektorált empirikus tanulmányt vagy preprintet közvetlenül az MI és a pszichológia metszetében. A hazai újdonságokat elsősorban a lakossági kockázatészlelési felmérés és az ember–MI kapcsolat társadalmi-pszichológiai kérdéseit is tárgyaló intézményi esemény jelentette.
+
+## Rövid összkép
+
+A hét eredményei két visszatérő problémát emelnek ki. Egyrészt a mentális egészségügyi MI-nél továbbra is hiányos a klinikai kockázatok és társadalmi egyenlőtlenségek kezelése. Másrészt az emberek gyakran nem pusztán az MI teljesítménye alapján reagálnak: számít a kontrollérzet, a korábbi tapasztalat, a forrásjelölés és az, hogy milyen szerepet tulajdonítanak a rendszernek. A friss kutatások ezért inkább kontextusérzékeny, ember által felügyelt alkalmazást indokolnak, nem általános következtetést az MI pszichológiai hasznáról vagy káráról.
