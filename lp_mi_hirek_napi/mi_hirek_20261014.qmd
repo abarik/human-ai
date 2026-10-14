@@ -1,0 +1,448 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. október 14."
+author: "OpenAI - ChatGpt"
+date: "2026-10-14"
+---
+
+**Frissítve:** 2026. október 14., 18:29 CEST  
+**Vizsgált időszak:** elsősorban 2026. október 13–14., szükség esetén az elmúlt néhány nap  
+**Tartalom:** 7 nemzetközi hír + 4 magyar vonatkozás
+
+---
+
+## 📌 Vezetői összefoglaló
+
+A mai hírfolyamból négy különösen fontos tendencia rajzolódik ki:
+
+1. **Európában gyorsan terjed az agentikus MI.** Az OpenAI új adatai szerint az EU-s vállalati ügyfeleknél a Codex és a ChatGPT Work már a generált kimeneti tokenek több mint felét adja.
+2. **A frontier-modellekből valódi munkavégző rendszerek lesznek.** A Google a Gemini 4 Argont már háttérben futó feladatokra és több mint 40 alkalmazás kezelésére is megnyitotta.
+3. **Az MI-chipboom továbbra is fizikai kapacitáskorlátokba ütközik.** Az ASML szerint a félvezetőgyártó berendezések iránti kereslet legalább 2028-ig meghaladhatja a kínálatot.
+4. **Magyarországon egyszerre kerül előtérbe az MI-biztonság, a chiptervezés és az oktatás.** A HUN-REN SZTAKI friss kiberbiztonsági rendezvénye mellett az MTA-n ma az MI-alapú integráltáramkör-tervezés is napirendre került.
+
+---
+
+# 🌍 NEMZETKÖZI MI-HÍREK
+
+## 1. OpenAI: az EU következő MI-fejezete az ügynökökről szól
+
+**Dátum:** 2026. október 14.  
+**Kategória:** vállalati MI, agentikus rendszerek, Európa
+
+Az OpenAI ma új európai gazdasági elemzést tett közzé az agentikus MI használatáról. A vállalat szerint a **ChatGPT Enterprise európai ügyfeleinél a Codex és a ChatGPT Work már a kimeneti tokenek több mint felét adja**, vagyis az MI-használat jelentős része már nem egyszerű kérdés-válasz interakció.
+
+Az OpenAI adatai szerint az európai kis- és középvállalkozások körében az agentikus eszközök heti aktív felhasználóinak száma **május óta 8,1-szeresére nőtt**.
+
+Az elemzésben „agentikus használatnak” tekintik, amikor a rendszer nemcsak információt ad, hanem egy feladat több lépését is végigviszi.
+
+### Miért lényeges?
+
+Ez erős jelzés arra, hogy a vállalati generatív MI következő szakasza **a feladatdelegálás és az autonóm munkavégzés** lesz.
+
+A vállalatok számára emiatt egyre fontosabbá válik:
+
+- milyen jogosultságot kap az MI,
+- milyen belső rendszereket érhet el,
+- hogyan auditálhatók a műveletei,
+- és mikor kell emberi jóváhagyás.
+
+**Forrás:**  
+[OpenAI – The EU’s next chapter in AI is agentic](https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic/)
+
+---
+
+## 2. Az Anthropic szingapúri irodát nyitott és megállapodást kötött a kormánnyal
+
+**Dátum:** 2026. október 14.  
+**Kategória:** Anthropic, Ázsia, állami MI-stratégia
+
+Az Anthropic ma bejelentette, hogy **új irodát nyit Szingapúrban**, amely az ötödik ázsiai–csendes-óceáni központja.
+
+A vállalat egyúttal együttműködési megállapodást írt alá Szingapúr Digitális Fejlesztési és Információs Minisztériumával.
+
+Claude már jelenleg is több jelentős szingapúri szervezetnél működik, köztük:
+
+- GovTech Singapore,
+- Grab,
+- DBS.
+
+Az együttműködés központi témája a megbízható és biztonságos vállalati, illetve kormányzati MI-használat.
+
+### Miért lényeges?
+
+A frontier-laborok globális versenye egyre kevésbé kizárólag az Egyesült Államokról és Európáról szól.
+
+Szingapúr fontos **ázsiai vállalati, pénzügyi és kormányzati MI-központtá** válik, ahol a szabályozott környezetben működő technológiák különösen gyorsan terjedhetnek.
+
+**Forrás:**  
+[Anthropic – Anthropic opens Singapore office and signs MOU with the Government of Singapore](https://www.anthropic.com/news/singapore-office-opening)
+
+---
+
+## 3. A Gemini 4 Argon már széles körben elérhető, és háttérben is képes feladatokat végrehajtani
+
+**Dátum:** 2026. október 13.  
+**Kategória:** Google, frontier-modellek, MI-ügynökök
+
+A Google szélesebb körben elérhetővé tette **Gemini 4 Argon** csúcsmodelljét.
+
+A modell már hozzáférhető:
+
+- a Gemini alkalmazásban,
+- a Gemini API-n keresztül,
+- a Google Antigravity fejlesztői környezetben,
+- valamint a Search AI Mode egyes funkcióiban.
+
+Az egyik legfontosabb változás a **Tasks** mód: a Gemini egy feladatot a háttérben is folytathat akkor, amikor a felhasználó nincs a számítógép előtt.
+
+A Google szerint Gemini jelenleg több mint **40 alkalmazáshoz és szolgáltatáshoz** kapcsolódhat, például OpenTable-, Shopify-, Adobe- és Instacart-rendszerekhez.
+
+### Miért lényeges?
+
+A Google is egyértelműen a hagyományos chatbot felől a **tartósan dolgozó személyes ügynök** irányába mozdul.
+
+A platformverseny egyik fő kérdése így az lesz, melyik MI-rendszer kapja meg a felhasználó e-mailjeihez, fájljaihoz, vásárlásaihoz és egyéb alkalmazásaihoz szükséges hozzáférést.
+
+**Forrás:**  
+[Google – Gemini 4 Argon comes to the Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/)
+
+**További forrás:**  
+[Google – Gemini 4 Argon: Built to solve your hardest problems](https://blog.google/intl/en-mena/product-updates/explore-get-answers/gemini-4-argon-built-to-solve-your-hardest-problems/)
+
+---
+
+## 4. ASML: az MI-chipgyártáshoz szükséges gépek iránti kereslet legalább 2028-ig meghaladhatja a kínálatot
+
+**Dátum:** 2026. október 14.  
+**Kategória:** félvezetők, MI-infrastruktúra, gazdaság
+
+Az ASML szerint az MI-hez kapcsolódó félvezetőboom miatt a vállalat fejlett chipgyártó berendezései iránti kereslet **legalább 2028-ig nagyobb lehet, mint a rendelkezésre álló kínálat**.
+
+A holland ASML gyártja a világ legfejlettebb chipek előállításához szükséges extrém ultraibolya, vagyis EUV litográfiai rendszereket.
+
+A vállalat harmadik negyedéves számai is rendkívül erősek:
+
+- nettó árbevétel: körülbelül **11,7 milliárd euró**,
+- nettó eredmény: körülbelül **5 milliárd euró**,
+- a negyedik negyedévre már 14,2–15,2 milliárd eurós árbevételt vár.
+
+Az ügyfelek között a TSMC, az Intel és a Samsung is gyorsítja a kapacitásbővítést.
+
+### Miért lényeges?
+
+A frontier-MI növekedésének egyik legfontosabb korlátja továbbra is **a fizikai chipgyártási kapacitás**.
+
+Hiába nő a kereslet GPU-k és más gyorsítók iránt, a teljes ellátási lánc bővítése éveket igényel.
+
+Ez azt jelenti, hogy az MI-verseny nem pusztán modellekről, hanem:
+
+- litográfiai gépekről,
+- chipgyárakról,
+- memóriáról,
+- csomagolási technológiáról,
+- és energiáról szól.
+
+**Forrás:**  
+[Financial Times – AI demand to exceed supply for 2 more years, says ASML](https://www.ft.com/content/2fc239ae-b0d4-41e8-81d0-cc2c0b3aba01)
+
+---
+
+## 5. Az FBI letartóztatott egy OpenAI-mérnököt, akit titkos lehallgatóeszköz elhelyezésével vádolnak
+
+**Dátum:** 2026. október 14.  
+**Kategória:** biztonság, ipari kémkedés, OpenAI
+
+Az amerikai szövetségi hatóságok letartóztattak egy OpenAI-mérnököt, akit azzal vádolnak, hogy **rejtett hangrögzítő eszközt helyezett el egy OpenAI-konferenciateremben**.
+
+Az Associated Press szerint a készüléket szeptember 30-án fedezték fel. Az eszköz egy televízió USB-portjáról kapott áramot, és fejlett titkosítási, illetve hangrögzítési funkciókkal rendelkezett.
+
+Az OpenAI szerint:
+
+- az esetet azonnal jelentették a hatóságoknak,
+- az érintett munkatárs munkaviszonyát megszüntették,
+- jelenleg nincs bizonyíték arra, hogy modelladatokat vagy forráskódot tulajdonítottak volna el.
+
+A vádemelés folyamatban van, tehát a gyanúsított büntetőjogi felelősségét bíróság még nem állapította meg.
+
+### Miért lényeges?
+
+A frontier-MI már **nemzetbiztonsági jelentőségű szellemi tulajdonná** vált.
+
+A laboroknak ezért nemcsak kibertámadásokkal, hanem klasszikus fizikai és belső információbiztonsági kockázatokkal is számolniuk kell.
+
+**Forrás:**  
+[Associated Press – FBI arrests OpenAI employee accused of placing recording device in company conference room](https://apnews.com/article/7f512b2552ffcbbf8f1ebbb18f81a9ba)
+
+---
+
+## 6. Apple–OpenAI jogvita: a bíróság kiadatta az OpenAI egyes felvételi dokumentumait
+
+**Dátum:** 2026. október 13–14.  
+**Kategória:** OpenAI, Apple, MI-hardver, szellemi tulajdon
+
+Egy amerikai bíró elrendelte, hogy az OpenAI adja át az Apple-nek **egyes korábbi Apple-alkalmazottak felvételéhez kapcsolódó interjú- és toborzási dokumentumait**.
+
+Az Apple júliusban indított üzleti titokkal kapcsolatos pert az OpenAI ellen. A vállalat azt állítja, hogy egyes volt alkalmazottai bizalmas Apple-technológiákról és még be nem jelentett termékekről szóló információkat vihettek magukkal.
+
+A mostani döntés többek között hozzáférést engedhet:
+
+- interjúútmutatókhoz,
+- technikai prezentációkhoz,
+- egyes privát üzenetekhez,
+- és az OpenAI hardveres üzletágának több korábbi Apple-munkatársával kapcsolatos dokumentumokhoz.
+
+A bíró ugyanakkor az Apple több ennél szélesebb adatkérését nem hagyta jóvá.
+
+### Miért lényeges?
+
+Az ügy azért különösen érdekes, mert az OpenAI **saját fogyasztói hardveren dolgozik**, amely hosszabb távon a telefonokkal vagy más személyes számítástechnikai eszközökkel is versenyezhet.
+
+A következő MI-platformháború így már nemcsak a modellekről, hanem a fizikai eszközökről és a hozzájuk kapcsolódó mérnöki tudásról is szól.
+
+**Forrás:**  
+[TechCrunch – Judge orders OpenAI to turn over hiring records in Apple trade secrets case](https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/)
+
+---
+
+## 7. Az ipari MI következő célja: percek alatt átprogramozható robotgyárak
+
+**Dátum:** 2026. október 13.  
+**Kategória:** robotika, physical AI, gyártás
+
+Az Industrial Next a TechCrunch Disrupt 2026-on olyan MI-alapú robotikai rendszert mutatott be, amelynek célja, hogy egy gyártócella **hetek helyett percek alatt átállítható legyen új feladatra**.
+
+A vállalat saját foundation modelleket használ a következők összekapcsolására:
+
+- kamerás érzékelés,
+- feladatértelmezés,
+- robotmozgás,
+- manipuláció.
+
+A startup bejelentette, hogy a BMW Group Technology Office-szal együtt teszteli a technológiát.
+
+### Miért lényeges?
+
+A hagyományos ipari robotika egyik fő hátránya a merevség: a rendszereket általában egyetlen pontos feladatra programozzák.
+
+Ha az MI képes valóban rugalmasan átállítani a robotokat, az különösen fontos lehet **kis sorozatú és gyakran változó termelésben**.
+
+Ez Magyarország számára is releváns az erős autóipari és feldolgozóipari jelenlét miatt.
+
+**Forrás:**  
+[TechCrunch – Industrial Next wants factory robots to switch tasks in minutes, not weeks](https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/)
+
+---
+
+# 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+## 1. HUN-REN SZTAKI: az MI-ügynökök komoly kiberbiztonsági és adatvédelmi kockázatot hoznak
+
+**Közzétéve:** 2026. október 13.  
+**Kategória:** MI-ügynökök, kiberbiztonság, magyar kutatás
+
+A HUN-REN SZTAKI közzétette az október 12-i **AI × kiberbiztonság 2.0 HunCERTalks** rendezvény összefoglalóját.
+
+A teltházas eseményen MI-kutatók és kiberbiztonsági szakértők azt vizsgálták, hogyan változtatja meg az agentikus MI:
+
+- a programozást,
+- a kutatói munkát,
+- a támadó és védekező kiberbiztonsági eszközöket,
+- valamint az érzékeny adatok kezelését.
+
+Sidló Csaba, a SZTAKI kutatója arra figyelmeztetett, hogy a kutatóknak különösen meg kell gondolniuk, **milyen modelleknek milyen adatokhoz adnak hozzáférést**, mert a kutatási adatok jelentős értéket képviselnek.
+
+### Miért lényeges?
+
+Ez a vállalati környezetre is közvetlenül alkalmazható.
+
+Egy MI-ügynök sokkal több kockázatot jelenthet, mint egy hagyományos chatbot, mert fájlokat, kódot, adatbázisokat és külső szolgáltatásokat is használhat.
+
+A hazai szervezeteknek ezért az agentikus MI bevezetésekor külön **jogosultsági és kiberbiztonsági architektúrára** lesz szükségük.
+
+**Forrás:**  
+[HUN-REN SZTAKI – Hiperűrugranak az AI agentek?](https://sztaki.hun-ren.hu/aktualitasok/hirek/2026/hiperurugranak-az-ai-agentek-telt-hazzal-zajlott-az-oktoberi-huncertalks)
+
+---
+
+## 2. Ma az MTA-n az MI chiptervezési alkalmazásai és a magyar chipkompetencia kerültek fókuszba
+
+**Dátum:** 2026. október 14.  
+**Helyszín:** Magyar Tudományos Akadémia, Budapest  
+**Kategória:** félvezetők, MI-hardver, magyar ipar
+
+Ma délután **„Irányok és innovációk a félvezetőtechnológiában”** címmel tartott tudományos ülést az MTA.
+
+A program első előadása kifejezetten a **mesterséges intelligencia integráltáramkör-tervezésben betöltött szerepével** foglalkozott.
+
+A további témák között szerepelt:
+
+- modern chipcsomagolás,
+- H-Chip Magyar Chip Kompetencia Központ,
+- oszcillátor-alapú neurális hálók,
+- memrisztorok,
+- neuromorfikus számítástechnika,
+- valamint a BME új félvezetőtechnológiai MSc-képzése.
+
+### Miért lényeges?
+
+A chiptervezés az MI egyik legfontosabb, de gyakran háttérbe szoruló alkalmazási területe.
+
+Az MI segíthet milliárdnyi tranzisztort tartalmazó áramkörök:
+
+- tervezésében,
+- optimalizálásában,
+- energiafogyasztásának csökkentésében,
+- és hibáinak előzetes felismerésében.
+
+Magyarország számára külön érték, ha ezen a területen **saját mérnöki és kutatási kompetencia** épül.
+
+**Forrás:**  
+[MTA – Irányok és innovációk a félvezetőtechnológiában](https://mta.hu/esemenynaptar/2026-10-14-iranyok-es-innovaciok-a-felvezetotechnologiaban-6343)
+
+---
+
+## 3. MTA-konferencia: mit jelent az MI az emberi gondolkodás, az oktatás és a tudomány számára?
+
+**Közzétéve:** 2026. október 14.  
+**Kategória:** MI-etika, tudomány, oktatás
+
+A Magyar Tudományos Akadémia ma tette közzé a **„Towards a Philosophy of Artificial Intelligence”** konferenciáról készült összefoglalót és videófelvételt.
+
+A tanácskozás többek között azt vizsgálta:
+
+- milyen hatással van az MI az emberi gondolkodásra,
+- hogyan változtathatja meg az oktatást,
+- milyen szerepe marad az emberi kutatónak,
+- mennyire érthető az egyre összetettebb MI-rendszerek működése.
+
+Pósfai Mihály, az MTA elnöke a konferencia megnyitóján azt a kérdést emelte ki, milyen helye lesz az embernek egy olyan világban, amelyet egyre inkább nehezen értelmezhető algoritmikus rendszerek alakítanak.
+
+### Miért lényeges?
+
+Az MI bevezetése nem pusztán informatikai projekt.
+
+Az oktatásban és a tudományban alapvető kérdés, hogy **mely gondolkodási feladatokat érdemes automatizálni, és mely képességeket kell továbbra is tudatosan emberben fejleszteni**.
+
+**Forrás:**  
+[MTA – A mesterséges intelligencia filozófiája](https://mta.hu/mta_hirei/a-mesterseges-intelligencia-filozofiaja-konferencia-az-mta-szekhazaban-115750)
+
+---
+
+## 4. Ma MI-alapképzés zajlik az ELTE-n vállalati résztvevők számára
+
+**Dátum:** 2026. október 14.  
+**Kategória:** MI-oktatás, KKV-k, kompetenciafejlesztés
+
+Az ELTE Informatikai Kara ma négyórás **MI-bevezető képzést** tart az AI EDIH Hungary program keretében.
+
+A tananyag nem egyszerűen generatív MI-re koncentrál, hanem végigveszi a technológia szélesebb alapjait, például:
+
+- felügyelt és felügyelet nélküli gépi tanulás,
+- neurális hálózatok,
+- számítógépes látás,
+- YOLO objektumfelismerés,
+- anomáliadetektálás,
+- autoenkóderek,
+- GAN-ok,
+- diffúziós modellek.
+
+A jogosult vállalkozások támogatott formában vehetnek részt a képzésen.
+
+### Miért lényeges?
+
+A magyar vállalati MI-adaptáció egyik fő korlátja **nem feltétlenül a technológia elérhetősége, hanem a megfelelő tudás hiánya**.
+
+A hosszú távú versenyképességhez nem elég egy-egy generatív MI-eszköz használatának megtanulása; fontos az is, hogy a döntéshozók értsék, mely technológia milyen problémára alkalmas.
+
+**Forrás:**  
+[ELTE Informatikai Kar – MI bevezetés, 2026. október 14.](https://www.inf.elte.hu/mi-bevezetes-2026-oktober-14)
+
+---
+
+# 📊 MAI FŐ TRENDEK
+
+## 1. Az MI egyre kevésbé „chat”, és egyre inkább munkavégző infrastruktúra
+
+Az OpenAI európai adatai és a Gemini 4 Argon új feladatmódja ugyanabba az irányba mutatnak.
+
+A következő vállalati MI-hullám középpontjában az áll, hogy a modell:
+
+- hozzáférjen a megfelelő adatokhoz,
+- használjon vállalati alkalmazásokat,
+- több lépésből álló munkát végezzen,
+- és eredményt állítson elő emberi közreműködés nélkül is.
+
+A legfontosabb kérdés emiatt egyre inkább a **biztonságos delegálás**.
+
+---
+
+## 2. A félvezetőkapacitás továbbra is stratégiai szűk keresztmetszet
+
+Az ASML friss számai azt mutatják, hogy az MI-chipboom fizikai infrastruktúrájának bővítése nem tud lépést tartani a kereslettel.
+
+Ez a következő években felértékelheti:
+
+- a chipgyártási kapacitást,
+- a fejlett csomagolást,
+- a memóriaipart,
+- az energiahatékony modelleket,
+- és a kisebb számítási igényű architektúrákat.
+
+A magyar félvezetőtechnológiai és chiptervezési kompetenciák emiatt stratégiai szempontból is érdekesebbé válhatnak.
+
+---
+
+## 3. A frontier-MI már klasszikus ipari és nemzetbiztonsági kémkedési célpont
+
+Az OpenAI-nál történt lehallgatási ügy és az Apple–OpenAI szellemitulajdon-vitája arra mutat, hogy a frontier-MI körüli versenyben **az emberek, a hardvertervek és a vállalati titkok ugyanúgy stratégiai értéket képviselnek, mint maguk a modellek**.
+
+A biztonság ezért nem csupán kiberbiztonsági kérdés.
+
+Beletartozik:
+
+- a fizikai biztonság,
+- a munkatársak hozzáférésének kezelése,
+- a szellemi tulajdon védelme,
+- és a belső információáramlás ellenőrzése is.
+
+---
+
+## 4. A physical AI a következő nagy ipari alkalmazási terület lehet
+
+Az Industrial Next fejlesztése azt mutatja, hogy az MI egyre inkább átlép a digitális térből a gyárakba.
+
+A nagy gazdasági változás akkor következhet be, ha a robotok már nem egyetlen, előre beprogramozott feladatot végeznek, hanem rugalmasan alkalmazkodnak:
+
+- új termékhez,
+- új munkafolyamathoz,
+- új környezethez.
+
+Ez a magyar autóipari és feldolgozóipari vállalatok számára különösen releváns trend.
+
+---
+
+# 🎯 Záró értékelés
+
+**A nap legfontosabb technológiai híre:**  
+A Gemini 4 Argon szélesebb körű bevezetése és háttérben futó feladatvégzése. Ez jól mutatja, milyen gyorsan alakul át a chatbot személyes, alkalmazások között dolgozó ügynökké.
+
+**A nap legfontosabb gazdasági híre:**  
+Az ASML előrejelzése, amely szerint az MI-chipgyártási eszközök kereslete legalább 2028-ig meghaladhatja a kínálatot.
+
+**A nap legfontosabb vállalati trendje:**  
+Az OpenAI európai adatai alapján az agentikus használat már nem marginális funkció: a vállalati MI-használat jelentős része tényleges feladatvégzés felé mozdult.
+
+**A nap legfontosabb magyar fejleménye:**  
+A HUN-REN SZTAKI friss kiberbiztonsági összefoglalója és az MTA mai félvezetőtechnológiai ülése együtt jól mutatja, hogy Magyarországon is egyszerre válik fontossá **az MI szoftveres biztonsága és a mögötte álló hardveres kompetencia**.
+
+## Összkép
+
+**2026. október 14-én az MI-verseny egyre kevésbé pusztán a modellek intelligenciájáról szól.**
+
+A valódi versenyelőnyt egyre inkább az adja, hogy egy ország vagy vállalat rendelkezik-e:
+
+1. megfelelő chipekkel és energiával,
+2. biztonságos agentikus infrastruktúrával,
+3. saját szakemberekkel és technológiai tudással,
+4. valamint olyan folyamatokkal, amelyekben az MI mérhető értéket képes létrehozni.
+
+A következő időszak központi kérdése ezért várhatóan nem az lesz, hogy **„melyik modell adja a legjobb választ?”**, hanem az, hogy **„melyik rendszer képes a való világban megbízhatóan, biztonságosan és gazdaságosan elvégezni a rábízott munkát?”**
