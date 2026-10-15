@@ -43,7 +43,27 @@ Az Ember–MI Kutatócsoport képviselői részt vettek a Tempus Közalapítván
 
 A délelőtti előadások az MI oktatási értékelésre és akadémiai integritásra gyakorolt hatásával, a szakdolgozatírás új kihívásaival, valamint a szóbeli vizsgáztatás szerepével foglalkoztak.
 
+**10:10–12:00 – MI, értékelés és akadémiai integritás**
+
+- **Dr. habil. Horváth László** (ELTE PPK): Hogyan biztosítható a tanulás-tanítás minősége és integritása a mesterséges intelligencia korában? – Egy kari szintű komplex, önszabályozó pedagógiai keretrendszer bemutatása.
+- **Dr. Arapovics Mária** (ELTE TáTK): A mesterséges intelligencia megjelenése a szakdolgozatírásban: tapasztalatok, bírálói kihívások és intézményi válaszok.
+- **Dr. Barczi András** (MATE): Szóbeli vizsgák az egyensúlyért.
+- Közös beszélgetés az előadásokról és a kapcsolódó témákról.
+
+
 A délutáni program a mesterséges intelligenciával támogatott aktív tanulás, az oktatási célú játékfejlesztés, a virtuális tanulási asszisztensek, a digitális tanulástámogatás és a hallgatói motiváció lehetőségeit járta körül.
+
+**12:45–14:00 – MI-alapú digitális tanulástámogatás és aktív tanulás**
+
+- **Oroján Sándor** (NYE): Edukatív órai játékok fejlesztése AI segítségével.
+- **Dr. Csóka László** (PTE): Kurzusra szabott mesterséges intelligencia alapú virtuális tanulási asszisztensek a hallgatói tanulás támogatására a felsőoktatásban.
+- **Dr. Alpár Vera** (METU): Digitális tanulástámogató eszközök és innovatív megközelítések: tapasztalatok nemzetközi hallgatók interkulturális fejlesztésében a felsőoktatásban.
+
+**Hallgatói motiváció és személyre szabott támogatás**
+
+- **Erdész Fanni** (NJE): A hallgatói motiváció újjáélesztése és fenntartása.
+
+**14:00–15:00 – Kérdések, tapasztalatmegosztás, zárás és összegzés**
 
 
 # Résztvevői reflexiók és tapasztalatok
