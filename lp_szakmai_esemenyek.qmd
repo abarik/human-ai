@@ -1,0 +1,11 @@
+---
+title: "Szakmai események"
+listing:
+  contents: lp_szakmai_esemenyek
+  type: table
+  sort:
+    - "date desc"
+    - "title desc"
+---
+
+

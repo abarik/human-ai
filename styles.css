@@ -235,6 +235,79 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
   }
 }
 
+
+/* Szakmai események adatlapjai */
+
+main.content .emi-event-card {
+  margin: 1.8rem 0 2rem;
+  padding: 1.5rem 1.8rem;
+  background: var(--emi-surface);
+  border: 1px solid var(--emi-line);
+  border-left: 4px solid var(--emi-accent);
+  border-radius: 12px;
+  box-shadow: var(--emi-shadow);
+}
+
+/* Kártya címe */
+main.content .emi-event-card h3 {
+  margin: 0 0 1.25rem;
+  padding: 0 0 .75rem;
+  border-bottom: 1px solid var(--emi-line);
+  color: var(--emi-section-heading);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+/* Kéthasábos adatlista */
+main.content .emi-event-card dl {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  column-gap: 1.25rem;
+  row-gap: .8rem;
+  margin: 0;
+}
+
+/* Mezőnevek */
+main.content .emi-event-card dt {
+  color: var(--emi-muted);
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+/* Mezőértékek */
+main.content .emi-event-card dd {
+  margin: 0;
+  min-width: 0;
+  color: var(--emi-ink);
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+main.content .emi-event-card dd p {
+  margin: 0;
+}
+
+/* Mobilos megjelenítés */
+@media (max-width: 575.98px) {
+  main.content .emi-event-card {
+    padding: 1.2rem;
+  }
+
+  main.content .emi-event-card dl {
+    grid-template-columns: 1fr;
+    row-gap: .2rem;
+  }
+
+  main.content .emi-event-card dd {
+    margin-bottom: .8rem;
+  }
+
+  main.content .emi-event-card dd:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
 /* A decorative SVG mask inherits the palette without duplicating the link label. */
 #quarto-sidebar .sidebar-title > a::before {
   content: "";

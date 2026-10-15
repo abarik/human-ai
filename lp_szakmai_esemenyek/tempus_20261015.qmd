@@ -1,0 +1,64 @@
+---
+title: "Oktatói kompetenciafejlesztő műhely"
+author: "Kutatócsoport"
+date: "2026-10-15"
+idopont: "2026. október 15., 9:30–15:00"
+helyszin: "Tempus Közalapítvány, 1077 Budapest, Kéthly Anna tér 1."
+szervezo: "Tempus Közalapítvány"
+---
+
+
+
+::: {.emi-event-card}
+
+### A rendezvény adatai
+
+Rendezvény
+: Oktatói kompetenciafejlesztő műhely: mesterséges intelligencia és digitalizáció a nemzetközi képzésekben
+
+Szervező
+: Tempus Közalapítvány
+
+Időpont
+: 2026\. október 15., 9:30–15:00
+
+Helyszín
+: 1077 Budapest, Kéthly Anna tér 1.
+
+Részvétel
+: Szakmai műhely résztvevőjeként
+
+Honlap
+: [A rendezvény hivatalos oldala](https://tempus.idloom.events/oktatoi-kompetenciafejleszto-muhely-2026-oktober)
+
+:::
+
+
+
+![Az Ember–MI Kutatócsoport képviselői a szakmai műhelyen.](images/tempus_20261015.png){width="85%" fig-align="center"}
+
+# Rövid beszámoló
+
+Az Ember–MI Kutatócsoport képviselői részt vettek a Tempus Közalapítvány által szervezett szakmai műhelyen, amely a mesterséges intelligencia és a digitalizáció felsőoktatásban betöltött szerepével foglalkozott. A műhely középpontjában a mesterséges intelligencia felsőoktatási alkalmazásának pedagógiai, módszertani és etikai kérdései álltak.
+
+A délelőtti előadások az MI oktatási értékelésre és akadémiai integritásra gyakorolt hatásával, a szakdolgozatírás új kihívásaival, valamint a szóbeli vizsgáztatás szerepével foglalkoztak.
+
+A délutáni program a mesterséges intelligenciával támogatott aktív tanulás, az oktatási célú játékfejlesztés, a virtuális tanulási asszisztensek, a digitális tanulástámogatás és a hallgatói motiváció lehetőségeit járta körül.
+
+
+# Résztvevői reflexiók és tapasztalatok
+
+A szakmai műhelyen részt vevő kutatócsoporti tagok az alábbiakban osztják meg a rendezvényhez kapcsolódó benyomásaikat, a számukra legfontosabb gondolatokat és a kutatómunkájuk szempontjából hasznosítható tapasztalatokat.
+
+## Abari Kálmán
+
+A műhely előadásai megerősítették számomra, hogy a felsőoktatás az átalakulás és az útkeresés fázisában van az MI rendkívüli fejlődése miatt. Az elhangzott értékes előadások felvetették azokat a kérdéseket, amelyek szinte minden oktatóban és kutatóban felmerülnek, miután 2-3 hónapot eltöltöttek egy MI eszközök használatával. Az előadások tartalmaztak jó gyakorlatokat és részben válaszokat is, nagyon hasznosnak találtam őket. A tanulságokat röviden így foglaltam össze magam számára:
+
+- az oktatók és hallgatók MI kompetenciáját növelni érdemes, kurzusokra, tudásmegosztó műhelyekre, jó gyakorlatok megosztására van szükség,
+- a Karok/Intézmények MI használati szabályozását érdemes lenne egységesíteni, legalább a hasonló profilú képzőhelyek MI szabályozása lehetne hasonló,
+- részletes útmutatót kellene kidolgozni az MI eszközök etikus használatára, amelyek tételesen felsorolják, hogy mely tevékenység milyen elbírálás alá esik,
+- a műhelymunkák/szakdolgozatok értékelési szempontjait az MI-re vonatkozó részekkel érdemes kiegészíteni,
+- oktatók és hallgatók biztonságos MI használatát támogatni érdemes, 
+- a játékosítás továbbra is fontos kutatási terület.
+
+
