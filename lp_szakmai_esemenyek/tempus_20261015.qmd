@@ -4,7 +4,7 @@ subtitle: "Tempus Közalapítvány"
 author: "Kutatócsoport"
 date: "2026-10-15"
 idopont: "2026. október 15., 9:30–15:00"
-description: "A műhely a mesterséges intelligencia és a digitalizáció felsőoktatásban betöltött szerepével foglalkozott."
+description: "Műhely az MI és a digitalizáció felsőoktatásban betöltött szerepéről"
 image: "images/tempus_20261015.png"
 helyszin: "Tempus Közalapítvány, 1077 Budapest, Kéthly Anna tér 1."
 szervezo: "Tempus Közalapítvány"
@@ -13,30 +13,32 @@ datum: "2026-10-15"
 
 # A rendezvény adatai
 
-
-::: {.emi-event-card}
+::: emi-event-card
 
 Rendezvény
+
 : Oktatói kompetenciafejlesztő műhely: mesterséges intelligencia és digitalizáció a nemzetközi képzésekben
 
 Szervező
+
 : Tempus Közalapítvány
 
 Időpont
+
 : 2026\. október 15., 9:30–15:00
 
 Helyszín
+
 : 1077 Budapest, Kéthly Anna tér 1.
 
 Részvétel
+
 : Szakmai műhely résztvevőjeként
 
 Honlap
+
 : [A rendezvény hivatalos oldala](https://tempus.idloom.events/oktatoi-kompetenciafejleszto-muhely-2026-oktober)
-
 :::
-
-
 
 ![Az Ember–MI Kutatócsoport képviselői a szakmai műhelyen.](images/tempus_20261015.png){width="85%" fig-align="center"}
 
@@ -53,7 +55,6 @@ A délelőtti előadások az MI oktatási értékelésre és akadémiai integrit
 - **Dr. Barczi András** (MATE): Szóbeli vizsgák az egyensúlyért.
 - Közös beszélgetés az előadásokról és a kapcsolódó témákról.
 
-
 A délutáni program a mesterséges intelligenciával támogatott aktív tanulás, az oktatási célú játékfejlesztés, a virtuális tanulási asszisztensek, a digitális tanulástámogatás és a hallgatói motiváció lehetőségeit járta körül.
 
 **12:45–14:00 – MI-alapú digitális tanulástámogatás és aktív tanulás**
@@ -68,7 +69,6 @@ A délutáni program a mesterséges intelligenciával támogatott aktív tanulá
 
 **14:00–15:00 – Kérdések, tapasztalatmegosztás, zárás és összegzés**
 
-
 # Résztvevői reflexiók és tapasztalatok
 
 A szakmai műhelyen részt vevő kutatócsoporti tagok az alábbiakban osztják meg a rendezvényhez kapcsolódó benyomásaikat, a számukra legfontosabb gondolatokat és a kutatómunkájuk szempontjából hasznosítható tapasztalatokat.
@@ -81,7 +81,15 @@ A műhely előadásai megerősítették számomra, hogy a felsőoktatás az áta
 - a Karok/Intézmények MI használati szabályozását érdemes lenne egységesíteni, legalább a hasonló profilú képzőhelyek MI szabályozása lehetne hasonló,
 - részletes útmutatót kellene kidolgozni az MI eszközök etikus használatára, amelyek tételesen felsorolják, hogy mely tevékenység milyen elbírálás alá esik,
 - a műhelymunkák/szakdolgozatok értékelési szempontjait az MI-re vonatkozó részekkel érdemes kiegészíteni,
-- oktatók és hallgatók biztonságos, védett MI használatát támogatni érdemes, 
+- oktatók és hallgatók biztonságos, védett MI használatát támogatni érdemes,
 - a játékosítás továbbra is fontos kutatási terület.
 
+## Hujber-Mitru Szilvia
 
+A műhelyen számomra rendkívül értékes volt, hogy a felsőoktatásban felmerülő dilemmák mellett konkrét, a saját oktatói gyakorlatunkban is továbbgondolható megoldásokat ismerhettünk meg. Örültem, hogy az *akadémiai integritás és a felelősségvállalás* kérdése is előkerült az előadások során.
+
+Pszichológiai szempontból különösen érdekesnek találtam a *transzaktív memória* és a *Google-effektus* kapcsán elhangzott gondolatokat, amelyek arra hívták fel a figyelmet, hogy a *könnyen elérhető digitális tudás* mellett továbbra is fontos a *mély megértés és a kritikus gondolkodás fejlesztése*. A tudás ugyanis nem azonos az információ gyors elérésének képességével.
+
+A gyakorlati példák közül inspirálónak találtam a videójátékok visszajelzési logikájára építő *tanulástámogató megoldásokat*, amelyekben a hallgatók szinte azonnal visszajelzést kapnak saját előrehaladásukról. A bemutatott *interaktív feladatok* és kurzusra szabott *virtuális tanulási asszisztensek* több ötletet is adtak ahhoz, hogyan támogathatjuk a hallgatók aktív részvételét, motivációját és önálló tanulását.
+
+A szakmai műhely megerősítette bennem, hogy a mesterséges intelligencia felsőoktatási alkalmazása *technológiai, pedagógiai, módszertani és etikai kérdések* együttes átgondolását igényli.
