@@ -6,6 +6,7 @@ listing:
   sort:
     - "date desc"
     - "title desc"
+  page-size: 10
 ---
 
 *Az oldalon megjelenő hírösszefoglalók az OpenAI ChatGPT ütemezett feladatok funkciójával, automatikusan készülnek. A tartalmak pontatlanságokat vagy téves információkat is tartalmazhatnak, ezért a fontosabb adatokat érdemes az eredeti forrásokban is ellenőrizni.*

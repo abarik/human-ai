@@ -2,10 +2,20 @@
 title: "Szakmai események"
 listing:
   contents: lp_szakmai_esemenyek
-  type: table
-  sort:
-    - "date desc"
-    - "title desc"
+  type: default
+  fields:
+    - image
+    - title
+    - subtitle
+    - datum
+    - description
+    - author
+  sort: "date desc"
+  page-size: 10
+  field-display-names:
+    helyszin: "Hol"
+    szervezo: "Ki"
+    datum: "Mikor"
 ---
 
 

@@ -1,0 +1,688 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. október 16."
+author: "OpenAI - ChatGpt"
+date: "2026-10-16"
+---
+
+**Frissítve:** 2026. október 16., reggel (CEST)  
+**Vizsgált időszak:** Elsősorban 2026. október 14–16.  
+**Tartalom:** 7 nemzetközi hír + 4 magyar vonatkozás  
+**Források:** Hivatalos vállalati és kutatóintézeti közlemények, Associated Press, Axios, Microsoft, Meta, Anthropic, NVIDIA, HUN-REN SZTAKI, MTA és ELTE.
+
+---
+
+# 📌 Vezetői összefoglaló
+
+A mai mesterségesintelligencia-hírekben négy különösen fontos fejlemény emelkedik ki.
+
+**1. Új szakaszba lépett a nyílt súlyú MI-modellek versenye.** A Meta bemutatta 816 milliárd paraméteres Muse Spark Open modelljét, amely megfelelő Apple-hardveren helyben is futtatható. Az NVIDIA pedig három új Nemotron-modellt jelentett be vállalati és helyi MI-ügynökökhöz.
+
+**2. A Microsoft saját frontier-modell fejlesztésével csökkentené külső modellbeszállítóktól való függőségét.** Az új MAI-Base-2 összesen 2,8 billió paraméterrel rendelkezik, és a vállalat szerint jelentős tanítási hatékonysági előrelépést jelent.
+
+**3. Szigorodik az MI-fejlesztők ellenőrzése az Egyesült Államokban.** Az amerikai Szövetségi Kereskedelmi Bizottság (FTC) dokumentumokat kért az OpenAI-tól és az Anthropictól, miközben több amerikai állam fogyasztóvédelmi pert indított az OpenAI ellen.
+
+**4. Magyarországon jelentős új MI-kutatási program indul.** A HUN-REN SZTAKI hároméves nemzeti laboratóriumot vezet az egészségügyi és ipari MI-alkalmazások fejlesztésére. A mai egyetemi és akadémiai programokban pedig a rákkutatás, az autonóm járművek és a biztonságkritikus MI-rendszerek kerülnek előtérbe.
+
+---
+
+# 🌍 NEMZETKÖZI MI-HÍREK
+
+## 1. A Meta bemutatta a Muse Spark Open modellt: 816 milliárd paraméter, helyi futtatási lehetőséggel
+
+**Dátum:** 2026. október 15.  
+**Kategória:** Új MI-modellek, nyílt súlyú rendszerek, helyi MI
+
+A Meta tegnap bejelentette a **Muse Spark Open** modellt, amelyet saját értékelése szerint az Egyesült Államok eddigi legerősebb nyílt súlyú MI-modelljeként pozicionál.
+
+A legfontosabb technikai jellemzők:
+
+- **816 milliárd teljes paraméter.**
+- Lekérésenként körülbelül 42 milliárd aktív paraméter.
+- Egymillió tokenes kontextusablak.
+- Natív multimodális működés.
+- Fejlett programozási és több lépésből álló agentikus feladatok támogatása.
+- Letölthető modellsúlyok és testreszabási lehetőségek.
+
+A Meta az Apple-lel együtt optimalizálta a modellt az új M5 Ultra processzorral felszerelt Mac Studio számítógépekre.
+
+A vállalat szerint **két megfelelően konfigurált Mac Studio már képes helyben futtatni a teljes modellt**.
+
+A modell több felhőszolgáltatón keresztül is elérhető, és a súlyokat a Hugging Face platformon is közzétették.
+
+Fontos pontosítás: a Muse Spark Open nyílt súlyú modell, de a Muse Model License kereskedelmi korlátozásokat tartalmaz. Ez nem azonos egy feltétel nélküli, nyílt forráskódú licenccel.
+
+### Miért lényeges?
+
+A fejlett MI-modellek helyi futtatása stratégiai jelentőségű.
+
+A vállalatok számára lehetőséget teremthet:
+
+- Érzékeny adatok saját infrastruktúrán történő feldolgozására.
+- Külső API-szolgáltatóktól való függőség csökkentésére.
+- Specializált modellek fejlesztésére.
+- Az MI-rendszerek működésének részletesebb ellenőrzésére.
+
+**A fő tendencia:** a frontier-képességek egy része fokozatosan kilép a kizárólag nagy adatközpontokban működtethető rendszerek világából.
+
+A helyi futtatás ugyanakkor továbbra is jelentős hardverberuházást igényelhet.
+
+**Források:**
+
+[Meta AI Research – Introducing Muse Spark Open, 2026. október 15.](https://research.meta.ai/blog/muse-spark-open)
+
+[The Verge – Meta and Apple team up to make Muse AI models run better on Macs](https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx)
+
+---
+
+## 2. A Microsoft bemutatta saját, 2,8 billió paraméteres frontier-alapmodelljét
+
+**Dátum:** 2026. október 15.  
+**Kategória:** Microsoft, frontier-modellek, MI-infrastruktúra
+
+A Microsoft AI tegnap ismertette új **MAI-Base-2** modelljének tanítási eredményeit.
+
+A modell Mixture-of-Experts architektúrát használ, amely lehetővé teszi, hogy egyszerre csak a paraméterek egy részét aktiválja.
+
+A főbb technikai adatok:
+
+| Tulajdonság | MAI-Base-2 |
+|---|---:|
+| Teljes paraméterszám | 2,8 billió |
+| Aktív paraméterek | 80 milliárd |
+| Tanításhoz használt GPU-k | 16 000 NVIDIA GB200 |
+| Tanítás időtartama | 38 nap |
+| Architektúra | Mixture-of-Experts |
+
+A Microsoft saját benchmarkjai szerint az új modell a vizsgált feladatokban felülmúlta az összehasonlításba bevont nyílt súlyú alapmodelleket.
+
+A vállalat azt is állítja, hogy az MAI-Base-2 tanítása bizonyos értékelési szempontok szerint **4–12-szer hatékonyabb számításierőforrás-felhasználást** eredményezett, mint a DeepSeek-V4-Pro-Base.
+
+Ezek vállalati mérések, amelyek független ellenőrzése még szükséges.
+
+A modell előtanítása befejeződött, de az utótanítás még zajlik. Az MAI-Base-2 tehát nem tekinthető általánosan elérhető, kész kereskedelmi modellnek.
+
+### Miért lényeges?
+
+A Microsoft hosszú ideje szorosan együttműködik az OpenAI-jal.
+
+A saját, rendkívül nagy teljesítményű modellek fejlesztése azonban lehetővé teheti, hogy **a Microsoft önállóbb technológiai pozíciót építsen ki a frontier-MI piacán**.
+
+Ez hosszabb távon hatással lehet:
+
+- A Microsoft Foundry kínálatára.
+- A Copilot mögötti modellstratégiára.
+- A vállalati MI-szolgáltatások árazására.
+- A modellfejlesztők és felhőszolgáltatók közötti versenyre.
+
+Különösen fontos, hogy a Microsoft egyre nagyobb hangsúlyt helyez a modellarchitektúra és a számítási infrastruktúra közös optimalizálására.
+
+**Források:**
+
+[Microsoft AI – Frontier Pre-training at Microsoft AI](https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/)
+
+[Investing.com – Microsoft AI unveils 2.8 trillion-parameter model](https://www.investing.com/news/stock-market-news/microsoft-ai-unveils-28-trillionparameter-model-claims-efficiency-gains-4952355)
+
+---
+
+## 3. NVIDIA: három új Nemotron-modell az adatközpontoktól a helyi számítógépekig
+
+**Dátum:** 2026. október 15.  
+**Kategória:** Nyílt modellek, agentikus MI, helyi automatizáció
+
+Az NVIDIA tegnap három új modellt jelentett be a **Nemotron 3.5** családban.
+
+A fejlesztések központi célja a nagy teljesítményű, folyamatosan működő MI-ügynökök hatékony kiszolgálása.
+
+### Nemotron 3.5 Super VL
+
+A 120 milliárd paraméteres, multimodális modell összetett agentikus feladatokra készült.
+
+Képes például:
+
+- Dokumentumok és PDF-ek feldolgozására.
+- Képek és grafikonok értelmezésére.
+- Több lépésből álló munkafolyamatok támogatására.
+- Külső eszközök használatára.
+- Specializált vállalati feladatok végrehajtására.
+
+Az NVIDIA szerint a modell egyes feladatokban a vállalat nagyobb rendszereivel összemérhető pontosságot érhet el, alacsonyabb számítási igény mellett.
+
+### Nemotron 3.5 Bolt 74B-A9B 24GB
+
+Ez a modell kifejezetten helyi MI-ügynökökhöz készült.
+
+A 74 milliárd teljes paraméterből körülbelül 9 milliárdot aktivál, és optimalizált formában 24 GB memóriával rendelkező megfelelő hardveren is használható.
+
+### Nemotron 3.5 Bolt E4B 4GB
+
+A kisebb modell gyors, helyben működő beszélgető és döntéstámogató rendszerekhez készül.
+
+**Várható megjelenés:** október 23.
+
+A Super VL és a Bolt 74B modell már elérhető.
+
+### Miért lényeges?
+
+A vállalati MI-piacon egyre fontosabbá válik a feladathoz illeszkedő modellméret.
+
+Nem minden feladathoz szükséges rendkívül nagy frontier-modell.
+
+A kisebb, specializált rendszerek különösen hasznosak lehetnek:
+
+- Ipari automatizációban.
+- Dokumentumfeldolgozásban.
+- Ügyfélszolgálati rendszerekben.
+- Robotikában.
+- Helyben futtatott vállalati alkalmazásokban.
+
+**A stratégiai változás:** az NVIDIA nemcsak hardvert, hanem egyre teljesebb modell- és szoftverökoszisztémát kínál az MI-ügynökök fejlesztéséhez.
+
+**Források:**
+
+[NVIDIA – Open From Data Center to Desktop: Nemotron 3.5 Super VL and Bolt](https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/)
+
+[AI Watch – NVIDIA Nemotron 3.5 modellek, 2026. október 16.](https://ai.watch.impress.co.jp/docs/news/2148539.html)
+
+---
+
+## 4. Az amerikai FTC hivatalos dokumentumkéréssel vizsgálja az OpenAI és az Anthropic biztonsági gyakorlatát
+
+**Bejelentés:** 2026. október 15.  
+**Hatósági intézkedés:** október 14.  
+**Kategória:** MI-biztonság, fogyasztóvédelem, szabályozás
+
+Az Axios tegnapi értesülése szerint az amerikai **Szövetségi Kereskedelmi Bizottság (FTC)** hivatalos vizsgálati dokumentumkéréseket küldött az OpenAI-nak és az Anthropicnak.
+
+A vizsgálat a fejlett MI-rendszerek biztonságára és az esetleges fogyasztóvédelmi jogsértésekre koncentrál.
+
+A dokumentumkérések több mint ötvenoldalasak, és részletes információkat várnak a vállalatoktól.
+
+A fő vizsgálati területek:
+
+- MI-biztonsági incidensek.
+- A modellek biztonsági tesztelése.
+- Az autonóm rendszerek jogosulatlan műveletei.
+- A fogyasztóknak tett biztonsági állítások.
+- Marketinganyagok és adatvédelmi gyakorlatok.
+- A fejlesztők incidenskezelési folyamatai.
+
+Az FTC vezető vállalati tisztségviselők meghallgatását is tervezi.
+
+Az OpenAI közölte, hogy együttműködik a hatósággal.
+
+**Fontos:** jelenleg vizsgálati és bizonyítékgyűjtési eljárásról van szó. A dokumentumkérés önmagában nem bizonyít jogsértést.
+
+### Miért lényeges?
+
+Ez jelentős változás az amerikai MI-szabályozásban.
+
+Az autonóm modellek biztonsága egyre inkább **közvetlen hatósági ellenőrzés tárgyává** válik.
+
+A vállalatoknak várhatóan részletesebben kell bizonyítaniuk, hogy:
+
+- megfelelően tesztelik rendszereiket;
+- ismerik a működési kockázatokat;
+- képesek kezelni a váratlan műveleteket;
+- és nem tesznek megtévesztő állításokat a technológia biztonságáról.
+
+Ez a nemzetközi vállalati MI-beszerzésekre is hatással lehet.
+
+**Forrás:**
+
+[Axios – FTC subpoenas OpenAI, Anthropic over consumer harms](https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation)
+
+---
+
+## 5. Több amerikai állam pert indított az OpenAI ellen a ChatGPT állítólagos fogyasztóvédelmi kockázatai miatt
+
+**Keresetek benyújtása:** 2026. október 14.  
+**Friss sajtóbeszámoló:** október 15–16.  
+**Kategória:** Fogyasztóvédelem, gyermekbiztonság, MI-szabályozás
+
+Az Associated Press beszámolója szerint **legalább nyolc amerikai állam indított pert az OpenAI ellen**, azt állítva, hogy a ChatGPT bizonyos működési jellemzői sérthetik az állami fogyasztóvédelmi szabályokat.
+
+A keresetek többek között azt kifogásolják, hogy a chatbot:
+
+- Nem megfelelő egészségügyi tanácsokat adhat.
+- Kiszolgáltatott felhasználóknál megerősíthet problémás gondolkodási mintákat.
+- Egyes esetekben káros vagy veszélyes válaszokat generálhat.
+- A felhasználók túlzott bizalmát keltheti.
+- Nem mindig megfelelően kezeli a fiatalkorúak biztonsági kockázatait.
+
+A felperes államok szerint az OpenAI biztonsági kommunikációja és a ténylegesen alkalmazott védelmi mechanizmusok között eltérések lehetnek.
+
+Az OpenAI vitatja az állításokat, és hangsúlyozza, hogy külön védelmi rendszereket fejlesztett a fiatalkorú felhasználók számára.
+
+### Miért lényeges?
+
+A ChatGPT és a hasonló rendszerek már nem kizárólag informatikai eszközök.
+
+Sokan használják őket:
+
+- Tanuláshoz.
+- Egészségügyi információk kereséséhez.
+- Személyes problémák megvitatásához.
+- Döntéstámogatáshoz.
+- Mindennapi ügyintézéshez.
+
+A technológia társadalmi jelentősége miatt a fogyasztóvédelmi felelősség egyre fontosabb kérdés.
+
+**A fő tanulság:** az MI-fejlesztőknek nemcsak azt kell bizonyítaniuk, hogy modelljeik hasznosak, hanem azt is, hogy a különösen sérülékeny felhasználók számára megfelelő védelmet biztosítanak.
+
+A keresetekben megfogalmazott állítások jogi értelemben egyelőre nem bizonyított tények.
+
+**Forrás:**
+
+[Associated Press – States sue OpenAI, saying ChatGPT is hurting children and deceiving adults](https://apnews.com/article/openai-lawsuits-chatbot-chatgpt-artificial-intelligence-f29fa6c206cfe41d46ba38ee7be78218)
+
+---
+
+## 6. Az Anthropic független kutatóknak ad mély belső hozzáférést az MI-biztonság ellenőrzéséhez
+
+**Dátum:** 2026. október 15.  
+**Kategória:** MI-biztonság, független audit, vállalatirányítás
+
+Az Anthropic tegnap bejelentette, hogy a **METR nevű független MI-biztonsági szervezet hat kutatójának munkatársi szinthez közeli hozzáférést biztosít** belső értékelési és biztonsági rendszereihez.
+
+A kutatók hozzáférést kapnak:
+
+- Belső értékelési eszközökhöz.
+- Egyes modellbiztonsági információkhoz.
+- A kockázatkezelési folyamatok részleteihez.
+- A biztonsági incidensekkel kapcsolatos dokumentációhoz.
+- A belső értékelőcsapatokéhoz hasonló munkakörnyezethez.
+
+A megállapodás egyik legfontosabb eleme, hogy **az Anthropic nem vétózhatja meg a METR kutatási eredményeinek közzétételét**.
+
+A vállalat ugyanakkor meghatározott kategóriákban, például ügyféladatok vagy bizalmas technikai információk esetén, korlátozott kitakarást kérhet.
+
+A METR nyilvánosan jelezheti, ha egy ilyen korlátozást indokolatlannak tart.
+
+Az Anthropic más külső értékelőkkel, köztük a SecureBio és az Accenture szakembereivel is együttműködik.
+
+### Miért lényeges?
+
+A frontier-MI egyik legfontosabb problémája, hogy a fejlesztővállalatok sokkal többet tudnak saját rendszereik kockázatairól, mint a külső ellenőrök.
+
+Ez jelentős információs különbséget hoz létre.
+
+Az Anthropic kezdeményezése egy olyan modellt képvisel, amelyben **a külső ellenőrök nemcsak kész benchmarkeredményeket látnak, hanem mélyebb betekintést kapnak a biztonsági folyamatokba is**.
+
+Ez később a frontier-MI független auditálásának egyik fontos mintájává válhat.
+
+**Források:**
+
+[Anthropic – An update on independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators)
+
+[TechCrunch – Anthropic gives METR researchers employee-level access](https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/)
+
+---
+
+## 7. ServiceNow és NVIDIA: digitális jogosultsági rendszert fejlesztenek az MI-ügynököknek
+
+**Dátum:** 2026. október 15.  
+**Kategória:** Vállalati MI, agentikus biztonság, jogosultságkezelés
+
+A ServiceNow bemutatta **AI Passport** nevű új megoldását, amelynek célja az autonóm MI-ügynökök jogosultságainak ellenőrzése.
+
+A vállalat az NVIDIA-val együtt dolgozik a technológia biztonságos futtatási környezetekbe történő integrálásán.
+
+Az AI Passport lényege egy **kriptográfiailag aláírt digitális jogosultsági igazolás**, amely meghatározza, hogy az adott MI-ügynök milyen műveleteket végezhet.
+
+A rendszer például ellenőrizheti:
+
+- Milyen adatokat olvashat egy ügynök.
+- Milyen alkalmazásokhoz kapcsolódhat.
+- Milyen műveleteket hajthat végre.
+- Milyen feladatokat delegálhat más ügynököknek.
+- Mikor kell korlátozni vagy leállítani a működését.
+
+A ServiceNow emellett új eszközöket mutatott be az engedély nélkül működő MI-rendszerek felismerésére és a vállalati MI-költségek követésére.
+
+A vállalat közlése szerint az AI Passport, a kapcsolódó MI-felderítési és költségkezelési funkciók **2026 negyedik negyedévében válhatnak elérhetővé**.
+
+### Miért lényeges?
+
+Az MI-ügynökök vállalati alkalmazásának egyik legnagyobb akadálya a biztonságos jogosultságkezelés.
+
+Egy önállóan dolgozó rendszer hozzáférhet:
+
+- Pénzügyi adatokhoz.
+- Ügyféladatbázisokhoz.
+- Vállalati dokumentumokhoz.
+- E-mail-rendszerekhez.
+- Külső szolgáltatásokhoz.
+
+Ezért nem elegendő arra utasítani az MI-t, hogy bizonyos műveleteket ne hajtson végre.
+
+**A valódi biztonsághoz technikailag kikényszeríthető korlátokra van szükség.**
+
+Az AI Passport jellegű rendszerek hosszabb távon az autonóm vállalati MI-infrastruktúra alapvető komponenseivé válhatnak.
+
+**Forrás:**
+
+[ServiceNow – AI Passport and expanded enterprise AI governance](https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-advances-its-operational-harness-for-enterprise-AI-with-AI-Passport-and-expanded-governance-capabilities/default.aspx)
+
+---
+
+# 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+## 1. Új magyar nemzeti MI-laboratórium indul az egészségügyi és ipari alkalmazások fejlesztésére
+
+**Bejelentés:** 2026. október 15.  
+**Kategória:** Magyar MI-kutatás, egészségügy, ipari automatizáció
+
+A HUN-REN SZTAKI tegnap bejelentette, hogy vezetésével elindul az **„Egészségügyi és ipari MI-alkalmazások” Misszióvezérelt Nemzeti Laboratórium**.
+
+A hároméves kutatási programot **Benczúr András**, a HUN-REN SZTAKI kutatója vezeti.
+
+A projekt célja olyan mesterségesintelligencia-rendszerek fejlesztése, amelyek:
+
+- Megbízhatóan működnek.
+- Ellenőrizhető döntéseket támogatnak.
+- Emberi felügyelet mellett használhatók.
+- Integrálhatók meglévő szakmai munkafolyamatokba.
+- Valós egészségügyi és ipari problémákra adnak megoldást.
+
+A kutatók különösen az úgynevezett **moduláris, ágensalapú MI-rendszerekre** koncentrálnak.
+
+Ezekben több specializált modell és hagyományos döntési mechanizmus működhet együtt.
+
+A laboratórium a 2020–2026 között működő Mesterséges Intelligencia Nemzeti Laboratórium, a MILAB eredményeire épít.
+
+### Miért lényeges?
+
+Ez a magyar MI-kutatás egyik legfontosabb friss fejleménye.
+
+A korábbi időszakban jelentős figyelem irányult az általános nyelvi modellek fejlesztésére.
+
+Az új laboratórium ezzel szemben **konkrét, magas szakmai követelményeket támasztó alkalmazásokra** koncentrál.
+
+Az egészségügyben az MI támogathatja a diagnosztikai és terápiás döntéseket.
+
+Az iparban segítheti:
+
+- A gyártás optimalizálását.
+- A minőségellenőrzést.
+- Az energiahatékonyság javítását.
+- Az összetett mérnöki rendszerek működtetését.
+
+A kutatások eredményei hosszabb távon hozzájárulhatnak a magyar MI-fejlesztések nemzetközi versenyképességéhez.
+
+**Forrás:**
+
+[HUN-REN SZTAKI – Megbízható mesterséges intelligenciát fejleszt az egészségügy és az ipar számára az új nemzeti laboratórium](https://sztaki.hun-ren.hu/aktualitasok/hirek/2026/megbizhato-mesterseges-intelligenciat-fejleszt-az-egeszsegugy-es-az-ipar)
+
+---
+
+## 2. Ma az MTA-n a biztonságkritikus MI-rendszerek és az autonóm járművek kerülnek fókuszba
+
+**Dátum:** 2026. október 16., 14:00  
+**Helyszín:** Magyar Tudományos Akadémia, Budapest  
+**Kategória:** Autonóm rendszerek, ipari MI, kutatás
+
+A Magyar Tudományos Akadémia ma délután **„A jövő informatikája”** címmel tart tudományos előadássorozatot.
+
+A program egyik központi témája a gépi tanulás alkalmazása olyan rendszerekben, ahol a biztonság és a működés megbízhatósága alapvető követelmény.
+
+A meghirdetett előadások:
+
+**14:00 – Az adatoktól a robusztus irányításig a gépi tanulás tükrében**
+
+Előadó: Szabó Zoltán, HUN-REN SZTAKI.
+
+**14:20 – Autonóm járműirányítás mesterséges intelligenciára épülő tervezéssel**
+
+Előadó: Németh Balázs, HUN-REN SZTAKI.
+
+**15:00 – Mesterséges intelligencia az iparban: ember–robot kooperáció a mikroelektronikától az autóiparig**
+
+Előadó: Varga Pál, Budapesti Műszaki és Gazdaságtudományi Egyetem.
+
+A rendezvény kvantumkommunikációs kutatásokkal is foglalkozik.
+
+A szakmai program hangsúlyozza, hogy a gépi tanulásra épülő irányítási rendszereknél különösen nehéz a biztonsági és teljesítménykövetelmények garantálása.
+
+### Miért lényeges?
+
+Az autonóm rendszerek terjedése Magyarország számára kiemelten fontos, mivel a járműipar és a gyártástechnológia jelentős szerepet tölt be a hazai gazdaságban.
+
+Egy autonóm jármű vagy ipari robot esetében a hibás döntés fizikai következményekkel járhat.
+
+Ezért a fejlesztés központi kérdése:
+
+**Hogyan lehet az MI-alapú döntéseket megbízható, ellenőrizhető és biztonságos mérnöki rendszerekbe integrálni?**
+
+A mai program az ilyen technológiák hazai kutatási irányait mutatja be.
+
+**Forrás:**
+
+[Magyar Tudományos Akadémia – A jövő informatikája, 2026. október 16.](https://mta.hu/esemenynaptar/2026-10-16-a-jovo-informatikaja-6346)
+
+---
+
+## 3. Az ELTE-n ma bemutatják, hogyan támogatja az MI a rákkutatást
+
+**Dátum:** 2026. október 16.  
+**Helyszín:** ELTEfeszt, Budapest  
+**Kategória:** Egészségügyi MI, rákkutatás, felsőoktatás
+
+Az ELTE Természettudományi Kara ma tartja az **ELTEfeszt 2026** tudományos ismeretterjesztő programját.
+
+A rendezvény egyik kiemelt MI-vonatkozású előadása:
+
+**„Fizikusként a rákkutatásért”**
+
+Előadó: **Pipek Orsolya**, az ELTE Fizikai és Csillagászati Intézetének tudományos munkatársa.
+
+Az előadás azt mutatja be, hogyan használhatók a fizika, az adattudomány és a mesterséges intelligencia módszerei a daganatos betegségek kutatásában.
+
+Központi kérdések:
+
+- Hogyan azonosíthatók mintázatok a daganatok DNS-ében?
+- Hogyan elemezhetők a szövettani képek MI segítségével?
+- Miért reagálnak eltérően a betegek ugyanarra a kezelésre?
+- Hogyan támogathatja az adattudomány a személyre szabott terápiák fejlesztését?
+
+A rendezvény elsősorban középiskolásoknak és a továbbtanulás iránt érdeklődőknek szól.
+
+### Miért lényeges?
+
+A daganatos betegségek kezelésében az egyik legfontosabb kihívás, hogy a betegek eltérően reagálhatnak ugyanarra a terápiára.
+
+Az MI-alapú adatelemzés segíthet olyan összefüggések felismerésében, amelyek hagyományos módszerekkel nehezen azonosíthatók.
+
+A technológia hosszabb távon hozzájárulhat:
+
+- A daganatok pontosabb osztályozásához.
+- A kezelési válaszok előrejelzéséhez.
+- Új biomarkerek azonosításához.
+- A személyre szabott orvoslás fejlődéséhez.
+
+**A magyar kutatás szempontjából fontos, hogy az MI az orvostudomány, a fizika és a számítástechnika együttműködésének eszköze is lehet.**
+
+**Forrás:**
+
+[ELTE Természettudományi Kar – ELTEfeszt 2026, részletes program](https://ttk.elte.hu/eltefeszt-2026-ttk)
+
+---
+
+## 4. A magyar projektmenedzsment-szakma is az MI okozta szervezeti változásokra készül
+
+**Dátum:** 2026. október 15.  
+**Helyszín:** Bosch Budapest Innovációs Kampusz  
+**Kategória:** Vállalati MI, projektmenedzsment, munkaerőpiac
+
+A Magyar Projektmenedzsment Szövetség tegnapra hirdette meg **46. Körkapcsolás Konferenciáját**, amelynek címe:
+
+**„A projektmenedzsment új valósága”**
+
+A teltházas rendezvény központi témái között szerepelt az MI és az automatizáció hatása a projektvezetők munkájára.
+
+A meghirdetett program többek között az alábbi kérdésekkel foglalkozott:
+
+- Hogyan alakítja át az MI a projektmenedzsmentet?
+- Mely projektvezetői feladatokat érdemes automatizálni?
+- Hogyan változik az emberi döntéshozatal szerepe?
+- Milyen új kompetenciákra lesz szükség?
+- Hogyan mérhető a vállalati MI-átállás gazdasági eredménye?
+
+A konferencia programjában szerepelt az **AI Comfort Index 2026** kutatás bemutatása is.
+
+A kutatás a magyar munkavállalók MI-hez való viszonyát és a technológiához kapcsolódó szervezeti alkalmazkodást vizsgálja.
+
+Fontos: a jelenleg ellenőrizhető forrás a konferencia meghirdetett programját dokumentálja. A rendezvényen bemutatott kutatási eredmények részletes adataihoz külön publikáció szükséges.
+
+### Miért lényeges?
+
+Az MI elterjedése a vállalatoknál egyre kevésbé kizárólag informatikai fejlesztés.
+
+A technológia közvetlenül megváltoztathatja:
+
+- A munkaszervezést.
+- A projektvezetők felelősségét.
+- A csapatok közötti együttműködést.
+- Az információfeldolgozást.
+- A döntési és jóváhagyási folyamatokat.
+
+**A fő tanulság:** a sikeres vállalati MI-bevezetéshez nemcsak új technológia, hanem új vezetői és szervezeti működés is szükséges.
+
+**Forrás:**
+
+[Magyar Projektmenedzsment Szövetség – 46. Körkapcsolás Konferencia](https://pmsz.hu/korkapcsolas-konferencia-46-2026/)
+
+---
+
+# 📊 A MAI NAP LEGFONTOSABB TRENDEI
+
+## 1. A nyílt súlyú MI-modellek versenye új szakaszba lépett
+
+A Meta Muse Spark Open modellje és az NVIDIA új Nemotron-rendszerei egyaránt azt mutatják, hogy a fejlett MI-képességek egyre többféle infrastruktúrán válnak elérhetővé.
+
+A modellpiacon már nem kizárólag a maximális intelligencia számít.
+
+Egyre fontosabb:
+
+- A helyi futtatás lehetősége.
+- A memóriaigény.
+- A működtetési költség.
+- A testreszabhatóság.
+- A hozzáférési és adatkezelési kontroll.
+
+**Következmény:** a vállalatok számára egyre több alternatíva áll rendelkezésre a zárt, felhőalapú frontier-modellekkel szemben.
+
+---
+
+## 2. Az MI-fejlesztők biztonsági ellenőrzése jelentősen szigorodik
+
+Az FTC vizsgálata, az amerikai államok OpenAI elleni keresetei és az Anthropic független értékelőkkel kötött megállapodása ugyanannak a folyamatnak különböző elemei.
+
+Az MI-biztonság egyre kevésbé kizárólag önkéntes vállalati vállalás.
+
+A szabályozó hatóságok és a független kutatók is nagyobb átláthatóságot várnak.
+
+A jövőben fontosabbá válhat:
+
+- A biztonsági incidensek jelentése.
+- A független auditálás.
+- A modellképességek rendszeres ellenőrzése.
+- A fogyasztóvédelmi megfelelés.
+- Az autonóm rendszerek műveleteinek dokumentálása.
+
+---
+
+## 3. A vállalati MI-ügynökök számára új biztonsági infrastruktúra épül
+
+A ServiceNow AI Passport fejlesztése azt jelzi, hogy az autonóm MI-rendszerekhez külön jogosultságkezelési megoldásokra lehet szükség.
+
+A jelenlegi vállalati informatikában egy emberi alkalmazott vagy szoftveralkalmazás jogosultságai viszonylag jól szabályozhatók.
+
+Az MI-ügynökök azonban gyakran:
+
+- Több rendszeren dolgoznak.
+- Feladatokat delegálnak egymásnak.
+- Új eszközöket használnak.
+- Önálló döntéseket hoznak a munkafolyamat során.
+
+Ezért az MI-ügynökök jogosultságainak ellenőrzése új információbiztonsági területté válhat.
+
+**Vállalati következmény:** a következő években az agentikus MI bevezetésének egyik legfontosabb feltétele a technikailag kikényszeríthető jogosultságkezelés lesz.
+
+---
+
+## 4. Magyarországon az egészségügyi és ipari MI-kutatás gyakorlati alkalmazásai kerülnek előtérbe
+
+A HUN-REN SZTAKI új nemzeti laboratóriuma, az MTA autonóm rendszerekkel foglalkozó programja és az ELTE rákkutatási előadása közös irányt mutat.
+
+A magyar kutatói közösség egyre több területen vizsgálja, hogyan lehet az általános MI-képességeket konkrét szakmai alkalmazásokká alakítani.
+
+Különösen fontos kutatási irányok:
+
+- Orvosi döntéstámogatás.
+- Személyre szabott kezelések.
+- Gyártási folyamatok optimalizálása.
+- Autonóm járműirányítás.
+- Ember–robot együttműködés.
+- Biztonságkritikus rendszerek ellenőrizhetősége.
+
+A következő években az jelenthet tartós versenyelőnyt, ha ezekből a kutatásokból validált, gyakorlati környezetben használható rendszerek születnek.
+
+---
+
+# 🎯 ZÁRÓ ÉRTÉKELÉS
+
+### A nap legfontosabb technológiai híre
+
+**A Meta Muse Spark Open modelljének megjelenése.**
+
+A 816 milliárd paraméteres modell különösen fontos, mert új lehetőségeket teremthet a fejlett, nyílt súlyú MI-rendszerek saját infrastruktúrán történő működtetésében.
+
+### A nap legfontosabb vállalati MI-fejleménye
+
+**A Microsoft MAI-Base-2 alapmodelljének bemutatása.**
+
+A fejlesztés azt mutatja, hogy a Microsoft egyre nagyobb hangsúlyt helyez a saját frontier-modellképességek kialakítására.
+
+### A nap legfontosabb szabályozási híre
+
+**Az amerikai FTC vizsgálata az OpenAI és az Anthropic biztonsági gyakorlatával kapcsolatban.**
+
+Ez azt jelzi, hogy a fejlett MI-rendszerek biztonsága egyre inkább közvetlen hatósági ellenőrzés tárgyává válik.
+
+### A nap legfontosabb MI-biztonsági fejleménye
+
+**Az Anthropic és a METR közötti független értékelési együttműködés.**
+
+Az alkalmazotti szinthez közeli hozzáférés és a közzétételi szabadság fontos lépés lehet a frontier-MI átláthatóságának erősítésében.
+
+### A nap legfontosabb magyar híre
+
+**A HUN-REN SZTAKI új, egészségügyi és ipari MI-alkalmazásokkal foglalkozó nemzeti laboratóriumának elindítása.**
+
+A program különösen jelentős, mert a magyar MI-kutatás eredményeit közvetlenül az egészségügyi és ipari gyakorlatban hasznosítható rendszerek fejlesztésére kívánja felhasználni.
+
+---
+
+# 🧭 ÖSSZKÉP
+
+**2026. október 16-án a mesterséges intelligencia fejlődésének három kulcskérdése rajzolódik ki.**
+
+**1. Technológiai hozzáférés**
+
+A fejlett modellek egyre több infrastruktúrán futtathatók, és a vállalatok egyre szélesebb kínálatból választhatnak.
+
+**2. Biztonság és felelősség**
+
+A hatóságok és a független értékelők nagyobb átláthatóságot követelnek a legfejlettebb MI-rendszerek működésével kapcsolatban.
+
+**3. Gyakorlati alkalmazás**
+
+Az MI valódi gazdasági és társadalmi értéke egyre inkább a konkrét munkafolyamatokban, egészségügyi alkalmazásokban és ipari rendszerekben jelenhet meg.
+
+**Magyarország számára a legfontosabb lehetőség, hogy az általános MI-modellekhez való hozzáférést saját kutatási, mérnöki és alkalmazásfejlesztési kompetenciákkal egészítse ki.**
+
+A következő időszakban várhatóan azok az országok és vállalatok kerülhetnek előnybe, amelyek a mesterséges intelligenciát nemcsak használják, hanem képesek azt **biztonságosan, ellenőrizhetően és mérhető gazdasági vagy tudományos értéket teremtve integrálni saját működésükbe**.
+
+---
+
+*Forráskezelési megjegyzés: az összefoglaló a 2026. október 16-án reggel elérhető hivatalos közleményekre, kutatási beszámolókra és megbízható sajtóforrásokra épül. A vállalati benchmarkeredményeket saját közlésként, a jogi keresetekben szereplő állításokat nem bizonyított tényként kezeljük. A később kezdődő mai magyar rendezvényeknél a meghirdetett programot ismertetjük, nem feltételezett eredményeket.*

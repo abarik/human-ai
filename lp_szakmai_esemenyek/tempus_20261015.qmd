@@ -1,17 +1,20 @@
 ---
 title: "Oktatói kompetenciafejlesztő műhely"
+subtitle: "Tempus Közalapítvány"
 author: "Kutatócsoport"
 date: "2026-10-15"
 idopont: "2026. október 15., 9:30–15:00"
+description: "A műhely a mesterséges intelligencia és a digitalizáció felsőoktatásban betöltött szerepével foglalkozott."
+image: "images/tempus_20261015.png"
 helyszin: "Tempus Közalapítvány, 1077 Budapest, Kéthly Anna tér 1."
 szervezo: "Tempus Közalapítvány"
+datum: "2026-10-15"
 ---
 
+# A rendezvény adatai
 
 
 ::: {.emi-event-card}
-
-### A rendezvény adatai
 
 Rendezvény
 : Oktatói kompetenciafejlesztő műhely: mesterséges intelligencia és digitalizáció a nemzetközi képzésekben
@@ -78,7 +81,7 @@ A műhely előadásai megerősítették számomra, hogy a felsőoktatás az áta
 - a Karok/Intézmények MI használati szabályozását érdemes lenne egységesíteni, legalább a hasonló profilú képzőhelyek MI szabályozása lehetne hasonló,
 - részletes útmutatót kellene kidolgozni az MI eszközök etikus használatára, amelyek tételesen felsorolják, hogy mely tevékenység milyen elbírálás alá esik,
 - a műhelymunkák/szakdolgozatok értékelési szempontjait az MI-re vonatkozó részekkel érdemes kiegészíteni,
-- oktatók és hallgatók biztonságos MI használatát támogatni érdemes, 
+- oktatók és hallgatók biztonságos, védett MI használatát támogatni érdemes, 
 - a játékosítás továbbra is fontos kutatási terület.
 
 
