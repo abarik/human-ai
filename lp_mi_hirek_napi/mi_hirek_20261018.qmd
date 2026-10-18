@@ -1,0 +1,775 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. október 18."
+author: "OpenAI - ChatGpt"
+date: "2026-10-18"
+---
+
+**Frissítve:** 2026. október 18., 09:07 (CEST)  
+**Vizsgált időszak:** Elsősorban 2026. október 15–18.  
+**Tartalom:** 7 nemzetközi hír + 4 magyar vonatkozás  
+**Források:** Financial Times, Reuters, The Verge, Anthropic, DeepSeek, Perplexity, Replit, HUN-REN SZTAKI, EMNLP és magyar szakmai források.
+
+---
+
+# 📌 Vezetői összefoglaló
+
+A hétvége mesterségesintelligencia-híreiben négy fontos tendencia rajzolódik ki.
+
+**1. Az MI-ügynökök előtt új akadály jelent meg: maga az internet.**
+
+Miközben az OpenAI, a Meta és a Google egyre fejlettebb autonóm ügynököket fejleszt, számos nagy weboldal és szolgáltató elkezdte korlátozni ezek hozzáférését. Ez alapjaiban befolyásolhatja az MI-alapú digitális asszisztensek jövőjét.
+
+**2. A kínai nyílt MI-modellek versenyképessége tovább erősödik.**
+
+A DeepSeek október 17-én kiadta a V4.1-Flash-1017 modellt, amely jelentős előrelépést ígér a programozási, következtetési és agentikus feladatokban. A modell súlyai MIT-licenc alatt érhetők el.
+
+**3. Az MI-infrastruktúra beruházási hulláma egyre komolyabb akadályokba ütközik.**
+
+A Financial Times friss elemzése szerint az amerikai adatközpont-építési boomot projektcsúszások, finanszírozási problémák, energiaellátási korlátok és helyi ellenállás nehezítik.
+
+**4. Magyarországon a megbízható MI és a tudományos együttműködés kerül előtérbe.**
+
+A HUN-REN SZTAKI új nemzeti laboratóriuma egészségügyi és ipari alkalmazásokat fejleszt, miközben Budapest hat nap múlva a nemzetközi nyelvtechnológiai kutatás egyik legfontosabb konferenciájának ad otthont.
+
+---
+
+# 🌍 NEMZETKÖZI MI-HÍREK
+
+## 1. DeepSeek: megjelent a V4.1-Flash-1017, jelentős előrelépéssel a programozási feladatokban
+
+**Dátum:** 2026. október 17.  
+**Kategória:** Új modellek, nyílt súlyú MI, programozás  
+**Jelentőség:** 🔴 Kiemelt
+
+A kínai DeepSeek kiadta a **DeepSeek-V4.1-Flash-1017** modellt, amely a szeptemberben bemutatott V4.1-Flash továbbfejlesztett változata.
+
+A fejlesztő szerint az új verzió jelentős teljesítménynövekedést ér el:
+
+- Összetett programozási feladatokban.
+- Több lépésből álló MI-ügynökös munkafolyamatokban.
+- Logikai következtetésben.
+- Vizuális információk feldolgozásában.
+- Automatizált szoftverfejlesztési feladatokban.
+
+### Fontosabb benchmarkeredmények
+
+| Teszt | Korábbi V4.1 Flash | V4.1-Flash-1017 |
+|---|---:|---:|
+| Terminal-Bench 4.0 | 31,2 | 42,3 |
+| DeepSWE v1.1 | 74,2 | 77,0 |
+| ProgramBench | 20,3 | 29,1 |
+| Automation-Bench | 54,8 | 60,5 |
+| Agents' Last Exam | 31,8 | 35,4 |
+
+A DeepSeek szerint a modell nemcsak pontosabb, hanem rövidebb kimenetekkel és alacsonyabb végrehajtási idővel is képes megoldani bizonyos feladatokat.
+
+A modell súlyai letölthetők a Hugging Face platformról, **MIT-licenc alatt**.
+
+A benchmarkeredmények a fejlesztő által közzétett mérések, ezért azok általánosíthatóságát független teszteknek is meg kell erősíteniük.
+
+### Miért lényeges?
+
+A modellmegjelenés tovább erősíti a nyílt súlyú MI-rendszerek versenyét.
+
+A vállalatok számára az egyik legfontosabb kérdés már nem kizárólag az, melyik modell rendelkezik a legerősebb képességekkel.
+
+Egyre fontosabb:
+
+- A feladatmegoldás költsége.
+- A szükséges számítási kapacitás.
+- A helyi üzemeltetés lehetősége.
+- A modell testreszabhatósága.
+- A teljes munkafolyamat végrehajtási ideje.
+
+**A fő tanulság:** a kínai fejlesztők továbbra is komoly versenyt jelentenek az amerikai frontier-modellek számára, különösen az ár-érték arány és a nyílt modellek területén.
+
+**Források:**
+
+[DeepSeek – V4.1-Flash-1017 hivatalos modelloldal](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017)
+
+[DeepSeek – Hivatalos API-dokumentáció és modellfrissítések](https://api-docs.deepseek.com/updates/)
+
+---
+
+## 2. A nagy weboldalak elkezdték kizárni az autonóm MI-ügynököket
+
+**Dátum:** 2026. október 17.  
+**Kategória:** MI-ügynökök, e-kereskedelem, adatvédelem  
+**Jelentőség:** 🔴 Kiemelt
+
+A The Verge friss elemzése szerint **egyre több nagy internetes szolgáltató tiltja vagy korlátozza az autonóm MI-ügynökök hozzáférését**.
+
+Ez közvetlenül érinti az OpenAI, a Meta, a Google és más vállalatok személyes MI-asszisztenseinek működését.
+
+A beszámoló szerint:
+
+**Amazon**
+
+Az Amazon továbbra is jogi és technikai eszközökkel próbálja korlátozni az engedély nélküli MI-alapú vásárlási automatizációt.
+
+**Yelp**
+
+A szolgáltató adatlicenc-megállapodásokhoz köti bizonyos MI-ügynökök hozzáférését.
+
+**Delta Air Lines**
+
+A légitársaság korlátozza az MI-ügynökök önálló repülőjegy-foglalási tevékenységét.
+
+**JPMorgan Chase és Charles Schwab**
+
+A pénzügyi szolgáltatók biztonsági megfontolásokból korlátozzák az autonóm rendszerek hozzáférését az ügyfélszámlákhoz.
+
+A Meta Muse és az OpenAI Dots felhasználói is beszámoltak arról, hogy bizonyos weboldalakon ügynökeik nem tudtak végrehajtani feladatokat.
+
+A korlátozások mögött többféle ok állhat:
+
+- Adatvédelmi és információbiztonsági aggályok.
+- Csalások és jogosulatlan tranzakciók megelőzése.
+- Adatlicencelési viták.
+- Üzleti érdekek.
+- A botforgalom korlátozása.
+
+### Miért lényeges?
+
+Ez az autonóm MI-ügynökök fejlődésének egyik legfontosabb gyakorlati akadálya.
+
+A technológiai vállalatok azt ígérik, hogy az MI-asszisztensek képesek lesznek:
+
+- Vásárolni.
+- Repülőjegyet foglalni.
+- Pénzügyi ügyeket intézni.
+- Weboldalakat kezelni.
+- Több alkalmazásban dolgozni.
+
+Ehhez azonban a külső szolgáltatóknak is engedélyezniük kell az automatizált hozzáférést.
+
+**A stratégiai következmény:** az MI-ügynökök piacán egyre fontosabbá válhatnak a hivatalos partnerkapcsolatok, a szabványosított hozzáférési megoldások és a megfelelő jogosultságkezelés.
+
+A következő években az is meghatározó lehet, hogy az internet mennyire válik MI-ügynökök számára használható környezetté.
+
+**Forrás:**
+
+[The Verge – Websites are closing their doors to AI agents](https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web)
+
+---
+
+## 3. Az Anthropic jogászokkal dolgozik azon, hogyan tárgyalhatnak egymással az MI-ügynökök
+
+**Dátum:** 2026. október 18.  
+**Kategória:** Agentikus MI, jog, gazdasági automatizáció  
+**Jelentőség:** 🔴 Kiemelt
+
+A Financial Times mai beszámolója szerint az Anthropic **jogi szakértőkkel és ügyvédi irodákkal egyeztet az autonóm MI-ügynökök tárgyalási viselkedéséről**.
+
+A vállalat olyan jövőbeli helyzetekre készül, amelyekben az MI-rendszerek már nemcsak egyszerű feladatokat végeznek, hanem az emberek nevében gazdasági megállapodásokat is kötnek.
+
+Lehetséges alkalmazások:
+
+- Termékek és szolgáltatások árának megtárgyalása.
+- Ügyfélszolgálati viták rendezése.
+- Szerződéses feltételek egyeztetése.
+- Beszerzési folyamatok támogatása.
+- Üzleti partnerekkel folytatott automatizált kommunikáció.
+
+Az Anthropic egyik fontos kutatási kérdése, hogyan lehet biztosítani, hogy az ügynök **a felhasználó érdekeit képviselje, de közben ne alkalmazzon megtévesztő vagy tisztességtelen tárgyalási módszereket**.
+
+A vállalat azt is vizsgálja, milyen gyakran kell az ügynöknek emberi jóváhagyást kérnie.
+
+A Financial Times szerint az Anthropic kísérleteket végzett különböző tárgyalási stratégiákkal.
+
+A határozottabb tárgyalási stílus bizonyos helyzetekben jobb gazdasági eredményt hozhat, míg az együttműködőbb megközelítés kiegyensúlyozottabb megállapodásokhoz vezethet.
+
+### Miért lényeges?
+
+Ez fontos lépés az MI-asszisztensektől az önálló gazdasági szereplőként működő MI-ügynökök felé.
+
+Ha két MI-rendszer egymással tárgyal, új kérdések jelennek meg:
+
+- Ki felel a megállapodásért?
+- Milyen felhatalmazással rendelkezik az ügynök?
+- Mi történik, ha a rendszer hibás döntést hoz?
+- Hogyan akadályozható meg a manipuláció?
+- Mikor szükséges emberi jóváhagyás?
+
+**A fő tanulság:** az autonóm MI fejlődése új jogi és üzleti szabványok kialakítását teheti szükségessé.
+
+A technológiai kérdés egyre kevésbé az lesz, hogy az MI képes-e tárgyalni, hanem az, hogy milyen szabályok mellett teheti ezt meg.
+
+**Forrás:**
+
+[Financial Times – Anthropic turns to lawyers to help AI agents strike deals](https://www.ft.com/content/f7c26ac0-f5f2-443a-86b2-39d62f7920a9)
+
+---
+
+## 4. Financial Times: egyre több akadályba ütközik az amerikai MI-adatközpontok hatalmas beruházási hulláma
+
+**Dátum:** 2026. október 18.  
+**Kategória:** MI-infrastruktúra, adatközpontok, gazdaság  
+**Jelentőség:** 🔴 Kiemelt
+
+A Financial Times friss elemzése szerint **az Egyesült Államok több ezer milliárd dolláros MI-infrastruktúra-fejlesztési hulláma egyre jelentősebb gazdasági és fizikai akadályokba ütközik**.
+
+A lap a hosszabb távon akár 10 000 milliárd dolláros nagyságrendűre becsült amerikai MI-infrastruktúra-bővítési terveket vizsgálta.
+
+Az elemzés szerint egyre több adatközponti projekt esetében jelentkeznek:
+
+- Finanszírozási problémák.
+- Megemelkedett hitelköltségek.
+- Engedélyezési nehézségek.
+- Villamosenergia-hálózati korlátok.
+- Helyi lakossági ellenállás.
+- Beruházási csúszások és projektmódosítások.
+
+Különösen érzékenyek azok az új MI-felhőszolgáltatók, amelyek jelentős részben adósságból finanszírozzák GPU- és adatközponti beruházásaikat.
+
+A Financial Times szerint több jelentős projektet már elhalasztottak vagy töröltek.
+
+Fontos, hogy a 10 000 milliárd dolláros nagyságrend hosszabb távú beruházási becslés, nem már elköltött összeg.
+
+### Miért lényeges?
+
+A mesterséges intelligencia fejlődését egyre inkább a fizikai infrastruktúra korlátai is meghatározzák.
+
+Egy új frontier-modell kifejlesztéséhez nem elegendő a megfelelő algoritmus.
+
+Szükség van:
+
+- Fejlett félvezetőkre.
+- Nagy teljesítményű adatközpontokra.
+- Megbízható energiaellátásra.
+- Hálózati infrastruktúrára.
+- Megfelelő finanszírozásra.
+
+**A legfontosabb gazdasági kérdés:** képes-e a számítási kapacitás iránti kereslet olyan gyorsan növekedni, hogy a hatalmas beruházások megtérüljenek?
+
+Az infrastruktúra-fejlesztések problémái hosszabb távon a frontier-modellek működtetési költségeit is befolyásolhatják.
+
+**Forrás:**
+
+[Financial Times – America's $10tn AI infrastructure boom is starting to fray](https://www.ft.com/content/9ea5a37d-15c9-4d5b-94d6-719048c9cd3c)
+
+---
+
+## 5. Az Anthropic saját MI-biztonsági törvénytervezetet javasolt az amerikai törvényhozóknak
+
+**Dátum:** 2026. október 16–17.  
+**Kategória:** MI-szabályozás, frontier-modellek, biztonság  
+**Jelentőség:** 🔴 Kiemelt
+
+A Reuters a Politico értesülései alapján arról számolt be, hogy az Anthropic képviselői **új MI-biztonsági törvénytervezetet ismertettek amerikai törvényhozókkal**.
+
+A javaslat a legfejlettebb frontier-modellek biztonsági ellenőrzését szabályozná.
+
+A tervezet egyik legfontosabb eleme, hogy az állam csak meghatározott, rendkívül súlyos kockázatok esetén korlátozhatná egy modell nyilvános bevezetését.
+
+A beszámoló szerint ilyen helyzet lehetne, ha egy MI-modell működése előreláthatóan és közvetlenül:
+
+- Egymilliárd dollárnál nagyobb kárt okozhatna.
+- Több mint ötven ember halálát vagy súlyos sérülését eredményezhetné.
+- Kiemelten veszélyes kibertámadást tehetne lehetővé.
+- Súlyos biológiai biztonsági kockázatot teremtene.
+
+A tervezet független MI-biztonsági értékelők bevonását is előírná.
+
+A javasolt rendszerben a független értékelőknek bizonyos súlyos kockázatok felismerése esetén **72 órán belül jelentést kellene tenniük az amerikai Kereskedelmi Minisztériumnak**.
+
+A modell bevezetésének felfüggesztéséről végső soron bíróság dönthetne.
+
+**Fontos:** ez még nem elfogadott amerikai törvény, hanem iparági szereplő által javasolt szabályozási keret.
+
+### Miért lényeges?
+
+A fejlett MI-modellek szabályozásának egyik legnehezebb kérdése, hogyan lehet meghúzni a határt az innováció szabadsága és a társadalmi biztonság között.
+
+Az Anthropic javaslata azért jelentős, mert konkrét feltételeket és intézményi eljárásokat kíván kialakítani.
+
+A vita hosszabb távon meghatározhatja:
+
+- A frontier-modellek megjelenés előtti tesztelését.
+- A független biztonsági auditokat.
+- A fejlesztővállalatok jogi felelősségét.
+- A hatóságok beavatkozási lehetőségeit.
+
+**A fő tanulság:** a frontier-MI szabályozása fokozatosan a konkrétan meghatározott kockázatok, ellenőrzési mechanizmusok és jogi felelősségi szabályok irányába mozdul.
+
+**Források:**
+
+[Reuters – Anthropic quietly pitches its own AI safety bill to lawmakers](https://www.aol.com/articles/anthropic-quietly-pitches-own-ai-223222000.html)
+
+[Reuters – Anthropic's proposed frontier AI safety framework](https://radiousa.com/2026/10/16/anthropic-quietly-pitches-its-own-ai-safety-bill-to-lawmakers-politico-reports/)
+
+---
+
+## 6. A Perplexity nyílt forráskódúvá tette az autonóm MI-ügynökök biztonságos futtatókörnyezetét
+
+**Bejelentés:** 2026. október 15.  
+**Friss fejlemények:** október 16–17.  
+**Kategória:** MI-biztonság, nyílt forráskód, fejlesztői infrastruktúra  
+**Jelentőség:** 🟠 Fontos
+
+A Perplexity közzétette **SPACE** nevű biztonságos futtatókörnyezetének forráskódját.
+
+A SPACE a *Sandboxed Platform for Agentic Code Execution* rövidítése.
+
+A rendszer célja, hogy az autonóm MI-ügynökök úgy futtathassanak programkódot és dolgozhassanak fájlokon, hogy közben ne kapjanak korlátlan hozzáférést a gazdarendszerhez.
+
+A technológia főbb jellemzői:
+
+- Firecracker-alapú elkülönített virtuális gépek.
+- Külön futtatókörnyezet minden ügynökfeladathoz.
+- Külső hálózati hozzáférések szabályozása.
+- Hitelesítő adatok védelme.
+- Munkafolyamatok szüneteltetése és folytatása.
+- Korábbi állapotok helyreállítása.
+- Nyílt forráskód, Apache 2.0 licenc alatt.
+
+A Perplexity szerint a rendszer július óta a Computer nevű MI-ügynökös termékének infrastruktúráját biztosítja.
+
+A vállalat saját mérései szerint a SPACE gyorsabban hoz létre új futtatókörnyezeteket, mint az általa korábban használt kereskedelmi megoldás.
+
+### Miért lényeges?
+
+Az autonóm MI-rendszerek egyik legfontosabb biztonsági problémája, hogy önállóan képesek programokat futtatni és külső rendszerekkel kommunikálni.
+
+A biztonsági korlátozásokat nem lehet kizárólag a modellnek adott utasításokra bízni.
+
+A megfelelő futtatókörnyezet technikailag is korlátozhatja:
+
+- Az elérhető fájlokat.
+- A hálózati kapcsolatokat.
+- Az érzékeny hitelesítő adatokat.
+- A végrehajtható műveleteket.
+
+**A fő tendencia:** az MI-biztonság egyre inkább a modellek köré épített infrastruktúra tulajdonságává válik.
+
+A SPACE nyílt közzététele lehetővé teszi, hogy más fejlesztők is tanulmányozzák, alkalmazzák és ellenőrizzék a technológiát.
+
+**Források:**
+
+[Perplexity – SPACE hivatalos nyílt forráskódú projekt](https://github.com/perplexityai/SPACE)
+
+[Perplexity – SPACE, the sandbox platform behind Computer, is now open source](https://www.perplexity.ai/de/hub/blog/open-sourcing-space)
+
+---
+
+## 7. Replit: a vállalatok már saját felhőjükben is működtethetik az MI-alapú alkalmazásfejlesztési infrastruktúrát
+
+**Dátum:** 2026. október 16.  
+**Kategória:** Vállalati MI, alkalmazásfejlesztés, adatvédelem  
+**Jelentőség:** 🟠 Fontos
+
+A Replit bemutatta új **Bring Your Own Cloud (BYOC)** megoldását.
+
+A fejlesztés célja, hogy a vállalatok a Replit MI-alapú szoftverfejlesztési eszközeit saját, ellenőrzött felhőkörnyezetükben használhassák.
+
+A támogatott platformok:
+
+- Microsoft Azure.
+- Google Cloud.
+- Amazon Web Services.
+
+A Replit három működési modellt kínál.
+
+### 1. Full BYOC
+
+A teljes Replit-platform a vállalat saját felhőkörnyezetében működik.
+
+Ez nagyobb kontrollt ad a vállalati adatok és alkalmazások felett.
+
+### 2. BYOC for Published Apps
+
+A fejlesztői platformot a Replit kezeli, de az elkészült alkalmazások a vállalat saját felhőjében futnak.
+
+### 3. Image Exports
+
+A vállalat az MI-vel készített alkalmazásokat saját infrastruktúrájára telepítheti szabványos konténeres és infrastruktúra-kezelési eszközökkel.
+
+A Full BYOC jelenleg korlátozott vállalati előzetesként, a másik két megoldás korai hozzáférési programként érhető el.
+
+### Miért lényeges?
+
+A vállalati MI bevezetésének egyik legfontosabb akadálya az adatok és rendszerek feletti ellenőrzés.
+
+Sok szervezet nem engedheti meg, hogy érzékeny adatai vagy kritikus alkalmazásai teljes egészében külső fejlesztői infrastruktúrán működjenek.
+
+A BYOC-megközelítés ezért különösen fontos lehet:
+
+- Pénzügyi intézményeknél.
+- Egészségügyi szolgáltatóknál.
+- Nagyvállalatoknál.
+- Állami szervezeteknél.
+- Érzékeny adatokat kezelő fejlesztőcsapatoknál.
+
+**A fő tanulság:** az MI-alapú alkalmazásfejlesztés egyre inkább integrálódik a vállalatok meglévő informatikai és biztonsági infrastruktúrájába.
+
+**Forrás:**
+
+[Replit – Bring Your Own Cloud to Replit, hivatalos bejelentés](https://ld.replit.com/blog/bring-your-own-cloud)
+
+---
+
+# 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+*A vasárnapi hazai hírforgalom visszafogottabb. A következő válogatás egy október 17-én megjelent szakértői interjút, egy friss magyar kutatási fejleményt, valamint két közelgő tudományos eseményt tartalmaz. Az eseményeket nem kezeljük már megtörtént bejelentésekként.*
+
+## 1. Keleti Arthur: a mesterséges intelligencia új korszakot nyithat a kiberbűnözésben
+
+**Közzétéve:** 2026. október 17.  
+**Interjú készült:** 2026. október 16.  
+**Kategória:** Magyar kiberbiztonság, MI-kockázatok, társadalmi hatások  
+**Jelentőség:** 🔴 Kiemelt magyar vonatkozás
+
+Az InfoRádió Aréna című műsorában **Keleti Arthur kibertitok-jövőkutató, az Informatikai Biztonság Napja (ITBN) alapítója** beszélt a mesterséges intelligencia fejlődésének előnyeiről és veszélyeiről.
+
+A frissen közzétett beszélgetés több fontos kérdést jár körül:
+
+- Hogyan változtatja meg az MI a kiberbűnözést?
+- Milyen új veszélyeket jelentenek az MI-vel előállított hamis tartalmak?
+- Kinek a felelőssége a technológia biztonságos működtetése?
+- Mennyire védhető egy ország a digitális térben?
+- Hogyan alakítja át az MI az oktatást és a munkaerőpiacot?
+- Milyen morális és jogi problémákat vetnek fel az autonóm rendszerek?
+
+A beszélgetés különösen aktuális, mivel a nemzetközi MI-fejlesztők az elmúlt hetekben több, váratlanul viselkedő autonóm rendszerrel kapcsolatos incidenst is feltártak.
+
+### Miért lényeges?
+
+Magyarországon is gyorsan terjednek az MI-alapú alkalmazások.
+
+Ez a kiberbiztonsági feladatokat jelentősen átalakíthatja.
+
+A támadók az MI-t például felhasználhatják:
+
+- Megtévesztő üzenetek előállítására.
+- Hamis képek és hangfelvételek készítésére.
+- Célzott adathalász kampányok támogatására.
+- Sérülékenységek keresésének automatizálására.
+
+A védekező szervezetek ugyanakkor szintén alkalmazhatják a technológiát fenyegetések felismerésére és incidensek elemzésére.
+
+**A fő tanulság:** a magyar szervezetek számára az MI bevezetését egyre inkább az információbiztonsági folyamatok fejlesztésével együtt kell kezelni.
+
+**Forrás:**
+
+[InfoRádió – Lehet-e morális fenntartása a mesterséges intelligenciának? Keleti Arthur, Aréna](https://infostart.hu/video/20261017/lehet-e-moralis-fenntartasa-a-mesterseges-intelligencianak-keleti-arthur-inforadio-arena)
+
+---
+
+## 2. HUN-REN SZTAKI: új magyar kutatási program indul a megbízható egészségügyi és ipari MI fejlesztésére
+
+**Bejelentés:** 2026. október 15.  
+**Kategória:** Magyar MI-kutatás, egészségügy, ipar  
+**Jelentőség:** 🔴 Kiemelt magyar vonatkozás
+
+A HUN-REN SZTAKI vezetésével új, hároméves kutatási program indul **„Egészségügyi és ipari MI-alkalmazások”** címmel.
+
+A Misszióvezérelt Nemzeti Laboratóriumot **Benczúr András**, a HUN-REN SZTAKI kutatója vezeti.
+
+A program központi célja olyan MI-rendszerek kialakítása, amelyek:
+
+- Megbízhatóan működnek.
+- Emberi felügyelet mellett alkalmazhatók.
+- Ellenőrizhető döntéseket támogatnak.
+- Integrálhatók a meglévő egészségügyi és ipari folyamatokba.
+
+A kutatók különösen a moduláris, ágensalapú megoldások fejlesztésére koncentrálnak.
+
+Ezekben különböző specializált modellek és hagyományos döntési mechanizmusok működhetnek együtt.
+
+A kutatás a korábbi Mesterséges Intelligencia Nemzeti Laboratórium, a MILAB eredményeire épül.
+
+### Miért lényeges?
+
+Az általános célú nagy nyelvi modellek önmagukban nem feltétlenül alkalmasak olyan feladatokra, ahol a hibás döntések súlyos következményekkel járhatnak.
+
+Az egészségügyben és az iparban különösen fontos:
+
+- A döntések visszakövethetősége.
+- Az emberi jóváhagyás.
+- A szakmai validáció.
+- A kiszámítható működés.
+- Az adatkezelési követelmények betartása.
+
+**A magyar kutatás szempontjából az egyik legfontosabb lehetőség, hogy a nemzetközi alapmodellekre építve saját, ágazatspecifikus és ellenőrizhető alkalmazások készüljenek.**
+
+A program hosszabb távon a hazai egészségipari és gyártástechnológiai fejlesztések versenyképességét is támogathatja.
+
+**Forrás:**
+
+[HUN-REN SZTAKI – Megbízható mesterséges intelligenciát fejleszt az egészségügy és az ipar számára az új nemzeti laboratórium](https://sztaki.hun-ren.hu/aktualitasok/hirek/2026/megbizhato-mesterseges-intelligenciat-fejleszt-az-egeszsegugy-es-az-ipar)
+
+---
+
+## 3. Hat nap múlva Budapesten kezdődik az EMNLP 2026, a világ egyik vezető nyelvtechnológiai konferenciája
+
+**Aktualitás:** 2026. október 18.  
+**Konferencia:** 2026. október 24–29.  
+**Helyszín:** Budapest, HUNGEXPO  
+**Kategória:** Magyar MI-kutatás, nagy nyelvi modellek, nemzetközi tudomány  
+**Jelentőség:** 🔴 Kiemelt magyar vonatkozás
+
+Október 24-én Budapesten kezdődik a **2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)**.
+
+Az EMNLP a természetesnyelv-feldolgozás és a nagy nyelvi modellek kutatásának egyik legrangosabb nemzetközi konferenciája.
+
+A rendezvény programja:
+
+| Dátum | Program |
+|---|---|
+| Október 24. | Regisztráció és megnyitó |
+| Október 25–27. | Fő konferencia |
+| Október 28–29. | Szakmai workshopok és oktatóprogramok |
+
+A konferencia különösen fontos kutatási területei:
+
+- Nagy nyelvi modellek.
+- Többnyelvű MI-rendszerek.
+- Természetesnyelv-feldolgozás.
+- Modellértékelés és megbízhatóság.
+- MI-alapú információkinyerés.
+- Tudományos és ipari alkalmazások.
+
+### Új szempont: az MI-vel készült tudományos publikációk ellenőrzése
+
+Az EMNLP 2026 szigorú publikációs integritási szabályokat alkalmaz.
+
+A konferencia felléphet többek között:
+
+- A hamis hivatkozásokat tartalmazó kéziratokkal szemben.
+- Az érdemi kutatási hozzájárulást nélkülöző publikációkkal szemben.
+- A szabálytalanul előállított, teljes egészében MI-generált tanulmányokkal szemben.
+
+A konferencia ugyanakkor megengedi az MI megfelelően dokumentált használatát a tudományos írás támogatására.
+
+### Miért lényeges?
+
+Az EMNLP budapesti megrendezése jelentős lehetőség a magyar kutatói közösség számára.
+
+A rendezvény közvetlen kapcsolatot teremthet:
+
+- Magyar egyetemek.
+- Nemzetközi kutatóintézetek.
+- Frontier-MI vállalatok.
+- Nyelvtechnológiai fejlesztők.
+- Magyar startupok között.
+
+Különösen fontos a magyar nyelvű MI-rendszerek fejlesztése, hiszen a kisebb nyelvek kezelése továbbra is önálló kutatási kihívás.
+
+**A fő tanulság:** Budapest október végén a nemzetközi nyelvtechnológiai kutatás egyik fontos találkozóhelyévé válik.
+
+**Források:**
+
+[EMNLP 2026 – Hivatalos konferenciaoldal](https://2026.emnlp.org/)
+
+[EMNLP 2026 – Részletes konferenciaprogram](https://2026.emnlp.org/program/)
+
+[EMNLP 2026 – Tudományos publikációs integritási szabályzat](https://2026.emnlp.org/paper-integrity-policy/)
+
+---
+
+## 4. A BME Mesterséges Intelligencia Tanszéke tudományos és innovációs konferenciát szervez
+
+**Aktualitás:** 2026. október 18.  
+**Esemény:** 2026. október 20., 17:00  
+**Helyszín:** BME Q épület, Budapest  
+**Kategória:** Magyar felsőoktatás, tudományos innováció  
+**Jelentőség:** 🟠 Szakmai vonatkozás
+
+A Budapesti Műszaki és Gazdaságtudományi Egyetem Távközlési és Mesterséges Intelligencia Tanszéke október 20-án rendezi meg a **Kreatív Tudomány és Innováció Konferencia 2026** című eseményt.
+
+A rendezvény több tudományterület képviselőit kapcsolja össze.
+
+A meghirdetett előadók:
+
+- Dr. Stipsicz András.
+- Dr. Matolcsi Máté.
+- Dr. Hoffmann Miklós.
+- Dr. Bereczki Enikő Orsolya.
+- Dr. Kőváry Zoltán.
+
+A konferencia szélesebb tudományos és innovációs program, nem kizárólag MI-rendezvény.
+
+MI-vonatkozását elsősorban a szervező tanszék és a tudományterületek közötti együttműködés adja.
+
+### Miért lényeges?
+
+A mesterséges intelligencia fejlődése egyre inkább több tudományterület együttműködésére épül.
+
+A modellek fejlesztéséhez nemcsak informatikai tudásra, hanem például:
+
+- Matematikai módszerekre.
+- Mérnöki szemléletre.
+- Kognitív és viselkedéstudományi ismeretekre.
+- Tudományos módszertani felkészültségre is szükség van.
+
+Az ilyen egyetemi rendezvények hozzájárulhatnak a tudományterületek közötti kapcsolatok erősítéséhez.
+
+**Forrás:**
+
+[BME – Kreatív Tudomány és Innováció Konferencia 2026](https://www.tmit.bme.hu/KTIK26)
+
+---
+
+# 📊 A MAI NAP LEGFONTOSABB TRENDJEI
+
+## 1. Az MI-ügynökök terjedését már nemcsak a modellek képességei korlátozzák
+
+A DeepSeek új modellje és az Anthropic tárgyalási rendszerekkel kapcsolatos kutatásai azt mutatják, hogy az MI-ügynökök technológiai képességei gyorsan fejlődnek.
+
+A The Verge elemzése ugyanakkor más problémára világít rá.
+
+A legtöbb üzleti folyamat külső informatikai rendszerekre épül.
+
+Ezek üzemeltetői nem feltétlenül szeretnék, hogy autonóm ügynökök korlátlanul használják a szolgáltatásaikat.
+
+A következő években ezért különösen fontos lehet:
+
+- Az MI-ügynökök hitelesítése.
+- A hozzáférési jogosultságok kezelése.
+- Az üzleti API-megállapodások.
+- Az ügynökök által kötött megállapodások jogi kezelése.
+- A biztonságos, auditálható munkafolyamatok kialakítása.
+
+**A valódi versenyelőny egyre inkább a modellek és a külső rendszerek közötti megbízható együttműködésből származhat.**
+
+---
+
+## 2. Az MI-infrastruktúra fejlődését a pénzügyi és fizikai korlátok egyre jobban befolyásolják
+
+A Financial Times mai elemzése arra figyelmeztet, hogy a rendkívül nagy infrastruktúra-beruházások nem feltétlenül valósíthatók meg az eredetileg tervezett ütemben.
+
+A legfontosabb korlátok:
+
+- A hitelfinanszírozás költsége.
+- A villamosenergia-hálózat kapacitása.
+- Az adatközpontok engedélyezése.
+- A megfelelő hardverek elérhetősége.
+- A beruházások megtérülése.
+
+Ezzel párhuzamosan a DeepSeek és más modellfejlesztők egyre nagyobb hangsúlyt helyeznek a hatékonyabb modellarchitektúrákra.
+
+**A fő gazdasági kérdés:** a jövő MI-fejlődése mennyire épül majd további hatalmas infrastruktúra-beruházásokra, és mennyire a meglévő számítási kapacitás hatékonyabb kihasználására?
+
+---
+
+## 3. Az MI-biztonság egyre inkább infrastruktúra- és szabályozási kérdés
+
+A Perplexity SPACE fejlesztése és az Anthropic törvénytervezete két különböző megközelítést képvisel.
+
+**Technikai megközelítés:**
+
+A rendszernek eleve meg kell akadályoznia, hogy az MI-ügynök jogosulatlanul férjen hozzá adatokhoz vagy alkalmazásokhoz.
+
+**Szabályozási megközelítés:**
+
+A fejlesztőknek és üzemeltetőknek dokumentálniuk kell a kockázatokat, és megfelelő ellenőrzési eljárásokat kell alkalmazniuk.
+
+A két megközelítés együtt jelentheti a biztonságos agentikus MI egyik alapját.
+
+---
+
+## 4. A vállalati MI következő szakasza a saját infrastruktúrába történő integrációról szólhat
+
+A Replit új BYOC-megoldása azt mutatja, hogy a vállalatok egyre nagyobb kontrollt szeretnének saját MI-alapú fejlesztési környezetük felett.
+
+A fő igények:
+
+- Érzékeny adatok védelme.
+- Meglévő felhőinfrastruktúra használata.
+- Vállalati biztonsági szabályok betartása.
+- Saját jogosultságkezelés.
+- Az MI-ügynökök tevékenységének ellenőrzése.
+
+Ez különösen fontos lehet az európai és magyar vállalatok számára, ahol az adatkezelési és szabályozási követelmények meghatározó szerepet töltenek be.
+
+---
+
+## 5. Magyarországon a megbízható, szakmai MI-alkalmazások jelenthetik a legnagyobb lehetőséget
+
+A HUN-REN SZTAKI új kutatási programja és a közelgő budapesti tudományos rendezvények közös fejlődési irányt mutatnak.
+
+Magyarország számára nem feltétlenül az jelenti a legnagyobb lehetőséget, hogy közvetlenül versenyezzen a világ legnagyobb frontier-modellfejlesztő vállalataival.
+
+Fontosabb lehet:
+
+- Ágazatspecifikus MI-rendszerek fejlesztése.
+- Magyar nyelvű modellek és alkalmazások javítása.
+- Az orvosi és mérnöki döntéstámogatás.
+- A biztonságkritikus rendszerek kutatása.
+- A nemzetközi kutatási együttműködések erősítése.
+
+**A hosszú távú értékteremtés kulcsa a nemzetközi modellek és a hazai szakterületi tudás összekapcsolása lehet.**
+
+---
+
+# 🎯 ZÁRÓ ÉRTÉKELÉS
+
+### A nap legfontosabb technológiai híre
+
+**A DeepSeek-V4.1-Flash-1017 megjelenése.**
+
+A modell újabb példája annak, hogy a nyílt súlyú rendszerek egyre versenyképesebbek az összetett programozási és agentikus feladatokban.
+
+### A nap legfontosabb üzleti MI-fejleménye
+
+**A nagy weboldalak és szolgáltatók egyre gyakrabban blokkolják az autonóm MI-ügynököket.**
+
+Ez a következő években alapvetően befolyásolhatja a személyes MI-asszisztensek üzleti modelljét és használhatóságát.
+
+### A nap legfontosabb gazdasági híre
+
+**A Financial Times elemzése az amerikai MI-adatközponti beruházások növekvő problémáiról.**
+
+A fejlemény arra mutat rá, hogy az MI-infrastruktúra bővítése nem kizárólag technológiai, hanem finanszírozási, energetikai és társadalmi kérdés is.
+
+### A nap legfontosabb szabályozási híre
+
+**Az Anthropic új amerikai MI-biztonsági törvénytervezete.**
+
+A javaslat konkrét kockázati küszöbértékekkel és független ellenőrzési mechanizmusokkal próbálja meghatározni, mikor indokolt állami beavatkozás.
+
+### A legfontosabb friss magyar szakmai fejlemény
+
+**Keleti Arthur MI-biztonságról szóló interjúja**, amely az autonóm rendszerek, a kiberbűnözés és a szabályozási felelősség összefüggéseire irányítja a figyelmet.
+
+### A legfontosabb magyar kutatási vonatkozás
+
+**A HUN-REN SZTAKI új egészségügyi és ipari MI-laboratóriuma**, valamint a jövő héten kezdődő budapesti EMNLP 2026 konferencia.
+
+Ezek a fejlemények a hazai MI-kutatás gyakorlati hasznosítását és nemzetközi kapcsolatait is erősíthetik.
+
+---
+
+# 🧭 ÖSSZKÉP
+
+**2026. október 18-án a mesterséges intelligencia fejlődésének három meghatározó problémája rajzolódik ki.**
+
+**1. Az autonóm működés korlátai**
+
+Az MI-ügynökök egyre több feladatot képesek végrehajtani, de a webes szolgáltatók és vállalati rendszerek nem feltétlenül készültek fel ezek biztonságos fogadására.
+
+**2. Az infrastruktúra fenntarthatósága**
+
+A rendkívül nagy adatközponti beruházások megtérülése egyre fontosabb kérdéssé válik, miközben a hatékonyabb modellek csökkenthetik bizonyos feladatok számítási költségét.
+
+**3. A biztonságos és ellenőrizhető alkalmazás**
+
+A fejlett MI-rendszerek működéséhez egyre inkább külön technikai, jogi és szervezeti garanciákra lesz szükség.
+
+**Magyarország számára a legfontosabb lehetőség, hogy a nemzetközi MI-fejlődést saját kutatási kompetenciákkal, ágazatspecifikus fejlesztésekkel és felelős vállalati alkalmazásokkal kapcsolja össze.**
+
+A következő években várhatóan nem pusztán az határozza meg a versenyképességet, hogy ki fér hozzá a legerősebb MI-modellekhez.
+
+Legalább ennyire fontos lesz, hogy **ki képes a mesterséges intelligenciát biztonságosan, jogszerűen, költséghatékonyan és mérhető gazdasági vagy tudományos értéket teremtve alkalmazni**.
+
+---
+
+## Forráskezelési megjegyzés
+
+Az összefoglaló 2026. október 18-án reggel elérhető hivatalos közleményekre, kutatási dokumentációkra és nemzetközi sajtóbeszámolókra épül.
+
+- Az új modellek benchmarkeredményeit a fejlesztők saját állításaiként kezeljük.
+- A még el nem fogadott törvénytervezeteket nem tekintjük hatályos szabályozásnak.
+- A beruházási becslések és előrejelzések nem már megvalósult pénzügyi teljesítményt jelentenek.
+- A magyar blokkban a hétvégi hírforgalom miatt közelgő tudományos események is szerepelnek; ezeknél kizárólag az előre meghirdetett programot ismertetjük.
+- A Financial Times egyes hivatkozott cikkei előfizetéshez kötöttek.
