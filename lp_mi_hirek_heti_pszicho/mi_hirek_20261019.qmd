@@ -1,0 +1,88 @@
+---
+title: "MI és pszichológia – 2026. okt. 12-18."
+author: "OpenAI - ChatGpt"
+date: "2026-10-19"
+---
+
+
+**Időszak:** 2026. október 12–18.
+
+## Nemzetközi hírek
+
+### 1. A serdülők mentális egészségét célzó MI-kutatásokból szinte teljesen hiányoznak a klinikai hatás- és biztonsági vizsgálatok
+
+**Típus:** Lektorált áttekintő tanulmány  
+**Megjelenés:** 2026. október 12.
+
+A BMJ Open scoping review-ja 103 közleményt, köztük 95 elsődleges vizsgálatot tekintett át. A kutatások 87,4%-a algoritmikus előrejelző vagy diagnosztikai teljesítményt közölt, de mindössze egy vizsgálat mérte közvetlenül a tünetek változását. Egyetlen elsődleges tanulmány sem végzett kifejezetten prospektív MI-biztonsági értékelést, és nem találtak tartós, rutinellátásban megvalósult bevezetést vizsgáló kutatást sem. Ez azt mutatja, hogy a technikai pontosság bizonyítékai sokkal gyorsabban gyűlnek, mint a tényleges klinikai haszonra és biztonságra vonatkozó adatok.
+
+**Korlátok:** A keresés csak angol nyelvű forrásokra és négy adatbázisra terjedt ki; több fontos pszichológiai és műszaki adatbázis kimaradt. Scoping review-ként nem végzett formális torzításkockázati értékelést, 63 potenciálisan releváns teljes szöveg pedig nem volt hozzáférhető.
+
+[Az eredeti tanulmány – BMJ Open](https://bmjopen.bmj.com/content/16/10/e125586)
+
+### 2. A gyors hozzáférés ellenére továbbra is az emberi terapeutát részesítik előnyben
+
+**Típus:** Lektorált keresztmetszeti kutatási közlemény  
+**Megjelenés:** 2026. október 14.
+
+Egy 1185 amerikai felnőtt részvételével készült felmérésben a válaszadók 57,4%-a választotta volna a legfeljebb öt percen belül érkező MI-választ logisztikai egészségügyi kérdéseknél. Orvosi kérdések esetén viszont 63,1% inkább kivárta volna az egészségügyi szakember által ellenőrzött választ. Mentális egészségi támogatásnál 63,9% tartotta elfogadhatónak a három hónap múlva elérhető emberi terapeutát, 50,2% az egy hónapon belül elérhető, terapeuta által felügyelt MI-t, és 44,3% az azonnali, önálló MI-chatbotot. Az eredmény szerint a várakozási idő számít, de a nagyobb tétű helyzetekben az emberi felügyelet értéke megmarad.
+
+**Korlátok:** A vizsgálat hipotetikus forgatókönyveket használt, és a válasz gyorsaságát összekeverte azzal, hogy ember vagy MI nyújtja a szolgáltatást. Nem valószínűségi amerikai mintára épült, a lehetőségek sorrendjét nem randomizálták, és nem mért tényleges szolgáltatáshasználatot vagy terápiás eredményt.
+
+[Az eredeti tanulmány – JAMA Network Open](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855284)
+
+### 3. Mélytanulással három, diagnózisokon átívelő ADHD–szorongás „biotípust” azonosítottak
+
+**Típus:** Lektorált empirikus tanulmány  
+**Megjelenés:** 2026. október 16.
+
+A kutatók az ABCD-vizsgálat 3508, 9–11 éves résztvevőjének funkcionális agyi kapcsolati, kognitív és viselkedési adatait integrálták mélytanulással. Két reprodukálható dimenziót találtak – a kognitív kontrollt, illetve az érzelem- és figyelemszabályozást –, amelyek alapján három csoport rajzolódott ki: externalizáló–gátolatlan, internalizáló–distresszes és kevert diszregulációs biotípus. A mintázatokat egy 224 fős független mintában is kimutatták, és csoportszinten már a később megjelenő tünetek előtt jelen voltak.
+
+**Miért fontos:** A módszer az ADHD és a szorongás átfedő mechanizmusait próbálja feltárni a hagyományos diagnosztikai kategóriák helyett. Hosszabb távon segítheti a célzottabb prevenció kutatását.
+
+**Korlátok:** Megfigyeléses képalkotó vizsgálatról van szó, nem diagnosztikai tesztről. A biotípusok egyéni előrejelző pontosságát, kezelési hasznát és különböző életkorokban vagy egészségügyi rendszerekben való alkalmazhatóságát még prospektíven igazolni kell.
+
+[Az eredeti tanulmány – Nature Mental Health](https://www.nature.com/articles/s44220-026-00740-3)
+
+### 4. Szintetikus klinikai interjúkkal javították egy depressziófelismerő modell teljesítményét
+
+**Típus:** Lektorált empirikus, módszertani tanulmány  
+**Megjelenés:** 2026. október 16.
+
+A PRISM nevű keretrendszer nagy nyelvi modellek szerepjátékával, biopszichoszociális személyiségprofilokkal és az interjúk szerkezetét modellező eljárással állított elő szintetikus pszichológiai beszélgetéseket. A DAIC-WoZ benchmarkon az ezekkel bővített depressziófelismerő rendszer Macro-F1 értéke 0,61-ről 0,762-re emelkedett; a szerzők egy kínai adathalmazon és további hálózati architektúrákon is tesztelték az átvihetőséget. A módszer csökkentheti az érzékeny valódi interjúadatok iránti igényt.
+
+**Korlátok:** A jobb benchmarkeredmény nem jelenti azt, hogy a rendszer valódi klinikai interjúkban biztonságosan vagy pontosan szűri a depressziót. A szintetikus párbeszédek átvehetik a generáló modell sztereotípiáit és tévedéseit; prospektív, klinikai populációkon végzett hatásvizsgálat nem történt.
+
+[Az eredeti tanulmány – International Journal of Machine Learning and Cybernetics](https://link.springer.com/article/10.1007/s13042-026-03337-5)
+
+### 5. Sürgetik a mentális egészségi célú és az általános chatbotok szabályozási elkülönítését
+
+**Típus:** Lektorált szakmai nézőpont, nem empirikus tanulmány  
+**Megjelenés:** 2026. október 14.
+
+A JAMA Psychiatry szerzői szerint fontos egyértelműbben elkülöníteni a kifejezetten mentális egészségügyi felhasználásra fejlesztett, ellenőrzött MI-eszközöket az általános chatbotoktól. Előbbiek bizonyítékai még főként rövid, módszertanilag korlátozott vizsgálatokból származnak, miközben az általános rendszereket már széles körben használják lelki támogatásra, akár öngyilkossági vagy pszichotikus tartalmú beszélgetésekben is. A bizonytalanságot a felhasználók – különösen a serdülők – nem feltétlenül ismerik fel.
+
+**Korlátok:** Érvelő szakmai közlemény, nem szisztematikus áttekintés vagy új biztonsági vizsgálat. Nem méri a károk gyakoriságát, és önmagában nem bizonyítja, hogy egy adott szabályozási megoldás eredményes lenne.
+
+[Az eredeti szakmai közlemény – JAMA Psychiatry](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2854924)
+
+## Magyar vonatkozású hírek
+
+### 1. Az MTA konferenciáján a gondolkodás MI-re történő kiszervezésének pszichológiai kockázatai is napirendre kerültek
+
+**Típus:** Intézményi konferenciabeszámoló, nem empirikus tanulmány  
+**Közlés:** 2026. október 14.
+
+A Magyar Tudományos Akadémián rendezett *Towards a Philosophy of Artificial Intelligence* konferencia az MI oktatási, tudományos és emberképre gyakorolt hatását vizsgálta. Csépe Valéria pszichológus, akadémikus az MI által lehetővé tett „gondolati tehermentesítés” veszélyeiről beszélt; a program az autonóm gondolkodás, az emberi felelősség és az ember–MI viszony kérdéseit is érintette. Pszichológiai szempontból a kezdeményezés azért releváns, mert az MI használatának kognitív következményeit a technikai teljesítménytől külön kezelendő kutatási problémaként emeli ki.
+
+**Korlátok:** Konferencia-előadásokról és intézményi beszámolóról van szó, nem új adatfelvételről vagy konszenzusos szakmai irányelvről. A bemutatott állításokból nem következik, hogy az MI-használat általában vagy szükségszerűen rontja a gondolkodási képességeket.
+
+[Az MTA konferenciabeszámolója és felvétele](https://mta.hu/mta_hirei/a-mesterseges-intelligencia-filozofiaja-konferencia-az-mta-szekhazaban-115750)
+
+### Hazai helyzetkép
+
+A vizsgált héten nem találtam új, Magyarországon végzett és ellenőrizhetően megjelent lektorált empirikus tanulmányt vagy preprintet közvetlenül az MI és a pszichológia metszetében. A hazai fejleményeket ezen a héten elsősorban szakmai és ismeretterjesztő rendezvények jelentették; ezek fontos kérdéseket vetettek fel, de új empirikus bizonyítékot nem közöltek.
+
+## Rövid összkép
+
+A hét kutatásai ismét jelentős különbséget mutatnak a technikai és a klinikai érettség között. A mélytanulás agyi-viselkedési mintázatokat azonosíthat, a szintetikus interjúk pedig javíthatják a benchmarkokon mért teljesítményt, de egyik eredmény sem jelent még használatra kész diagnosztikai eszközt. Ezzel párhuzamosan a serdülők mentális egészségét célzó MI-ről alig áll rendelkezésre prospektív biztonsági vagy tüneti hatásossági adat. A friss eredmények ezért továbbra is a világosan körülhatárolt, ember által felügyelt és klinikailag validált alkalmazást támasztják alá.
