@@ -1,0 +1,344 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. október 25."
+author: "OpenAI - ChatGpt"
+date: "2026-10-25"
+---
+
+**Referencia-dátum:** 2026. október 25.  
+**Tartalom:** 6 nemzetközi hír + 4 magyar vonatkozás  
+**Források:** AP News, The Verge, The Decoder, Telex, Magyar Hang, Index, Világgazdaság.
+
+---
+
+## 📌 Vezetői összefoglaló
+
+2026. október 25-én a mesterséges intelligencia híreit elsősorban a technológia gyakorlati alkalmazásaival, gazdasági következményeivel és társadalmi kockázataival kapcsolatos fejlemények határozták meg.
+
+**A nap három meghatározó trendje:**
+
+1. **Hatékonyabb és önállóbb MI-rendszerek:** Az Nvidia új, nyílt robotikai adatfeldolgozó rendszere lényegesen csökkentheti a robotok tanításához szükséges adatelőkészítés költségeit. Az Anthropic pedig a kevesebb, de összetettebb feladatokat kezelő MI-ügynök alkalmazása mellett érvel.
+
+2. **Erősödő gazdasági és társadalmi feszültségek:** A Google MI-alapú keresése átalakítja az online tartalomszolgáltatók üzleti modelljét, miközben Bill Gates a munkaerőpiac évtizedekig tartó átalakulására figyelmeztet.
+
+3. **Biztonság, etika és emberi kontroll:** Az MI-modellek erkölcsi alapelveinek kialakítása, az önfejlesztő rendszerek lehetősége és az emberi szakértelem megőrzése egyre fontosabb kutatási és szabályozási kérdés.
+
+**Kiemelt nemzetközi hír:** az Nvidia Flora rendszerének bemutatása a robotikai MI-adatok feldolgozására.
+
+**Kiemelt magyar vonatkozás:** a mesterséges intelligencia munkaerőpiaci következményeiről és az emberi szakértelem megőrzéséről szóló magyarországi vita.
+
+---
+
+# 🌍 I. Nemzetközi MI-hírek
+
+## 1. Az Nvidia nyílt robotikai MI-rendszere drasztikusan olcsóbbá teheti a robotok tanítását
+
+**Dátum:** 2026. október 25.  
+**Kategória:** Robotika, nyílt modellek, automatizálás
+
+Az Nvidia nyílt forráskódú Flora rendszere a robotok tanításához szükséges videófelvételek automatikus értelmezésére, feliratozására és értékelésére készült.
+
+A rendszer három, célzottan finomhangolt Qwen3.5 modellen alapul, amelyek képesek azonosítani az egyes robotmozdulatokat, értékelni a feladatok végrehajtását és felismerni a hibás műveleteket.
+
+Az Nvidia által ismertetett számítások szerint egyórányi robotvideó feldolgozása megközelítőleg 0,72 dollárba kerülhet, szemben az összehasonlításként használt GPT-6 Astra 88 dolláros költségével.
+
+A beszámoló szerint a Flora már az Nvidia GR00T robotikai modelljeinek tanításában is szerepet kap.
+
+**Miért lényeges?**
+
+A robotikai MI egyik legnagyobb kihívása a jó minőségű tanítóadatok előállításának költsége.
+
+Az automatizált adatfeldolgozás csökkentheti a robotikai fejlesztések költségeit, és felgyorsíthatja az ipari, logisztikai és szolgáltatórobotok fejlődését.
+
+A közölt költségelőny az Nvidia saját módszertanán alapul; nem jelenti azt, hogy minden feladatban azonos mértékű megtakarítás érhető el.
+
+**Forrás:**
+[The Decoder – Nvidia open-sources Flora to make robot video labeling 125x cheaper (2026.10.25.)](https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/)
+
+---
+
+## 2. Az Anthropic szerint egy jól megtervezett MI-ügynök gyakran hatékonyabb, mint sok kisebb ügynök
+
+**Dátum:** 2026. október 25.  
+**Kategória:** MI-ügynökök, vállalati automatizálás, szoftverarchitektúra
+
+Az Anthropic vállalati alkalmazásokkal kapcsolatos tapasztalatai alapján azt javasolja, hogy a fejlesztők vizsgálják felül a sok specializált alügynökre épített rendszereiket.
+
+A vállalat szerint az újabb MI-modellek egyetlen fő ügynökön belül is képesek összetett folyamatokat irányítani, miközben a szükséges információkat és eszközöket dinamikusan töltik be.
+
+A sok alügynökből álló megoldásoknál ugyanis:
+
+- Növekedhet a válaszidő.
+- Megemelkedhetnek a működési költségek.
+- Információ veszhet el az ügynökök közötti átadások során.
+- Nehezebbé válhat az egységes működés ellenőrzése.
+
+Egyes tesztekben az egyszerűbb, egyetlen fő ügynökre épülő architektúra körülbelül kétszer gyorsabban működött.
+
+**Miért lényeges?**
+
+A vállalati MI-rendszerek fejlesztésében fontos szemléletváltást jelezhet: nem feltétlenül a több ügynök jelenti a jobb megoldást.
+
+A vállalatok számára a megfelelő architektúra kiválasztása közvetlenül befolyásolja az automatizálás árát, megbízhatóságát és karbantarthatóságát.
+
+Az Anthropic ugyanakkor továbbra is indokoltnak tartja a többügynökös rendszereket bizonyos párhuzamos vagy erősen specializált feladatoknál.
+
+**Forrás:**
+[The Decoder – Anthropic says one AI agent beats many subagents (2026.10.25.)](https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/)
+
+---
+
+## 3. A Google MI-alapú keresése egyre nagyobb nyomást helyez az online kiadókra
+
+**Dátum:** 2026. október 25.  
+**Kategória:** MI-keresés, digitális média, üzleti modellek
+
+A The Verge elemzése szerint a Google MI-alapú keresési funkciói alapvetően megváltoztatják az internetes tartalomszolgáltatók és a keresőmotorok kapcsolatát.
+
+A Google AI Overviews és AI Mode funkciói sok esetben már közvetlenül a keresési felületen összefoglalják a releváns információkat, így a felhasználóknak kevesebb okuk lehet felkeresni az eredeti forrásoldalakat.
+
+A beszámoló több olyan kiadói példát ismertet, amelyben jelentősen csökkent a keresőből érkező forgalom.
+
+A Google vitatja, hogy MI-funkciói általánosságban károsítanák a webes ökoszisztémát, és több kezdeményezéssel próbálja javítani a források láthatóságát.
+
+**Miért lényeges?**
+
+A tartalomkészítők és hírportálok üzleti modellje hagyományosan jelentős mértékben támaszkodik a keresőforgalomra.
+
+Ha a keresők egyre több kérdésre önálló választ adnak, a kiadóknak új bevételi és közönségépítési stratégiákat kell kidolgozniuk.
+
+Ez a magyar online médiát és a keresőoptimalizálásra támaszkodó vállalkozásokat is érintheti.
+
+**Forrás:**
+[The Verge – Google's AI search changes upended online publishing (2026.10.25.)](https://www.theverge.com/column/1017983/google-ai-search-online-publishing)
+
+---
+
+## 4. Jack Clark szerint már 2027-ben megjelenhetnek az önmaguk fejlesztését elősegítő MI-rendszerek
+
+**Dátum:** 2026. október 25.  
+**Kategória:** Fejlett MI, automatizált kutatás, technológiai előrejelzés
+
+Jack Clark, az Anthropic társalapítója új kutatási eredmények alapján előrébb hozta az önfejlesztő MI-rendszerek megjelenésére vonatkozó becslését.
+
+A TasteVal nevű értékelési rendszer azt vizsgálja, hogy az MI-modellek mennyire képesek önállóan megtervezni a kutatási kísérleteket, értelmezni az eredményeket és eldönteni, melyik következő kísérlet lehet a leghasznosabb.
+
+A beszámoló szerint a vizsgált képesség 2025 decembere óta hozzávetőleg háromhavonta megduplázódott.
+
+Clark korábbi, 2028-as várakozását módosítva már 2027-et is reális lehetőségnek tekinti.
+
+Fontos azonban, hogy ez szakértői előrejelzés, nem pedig egy már megvalósult, teljesen önfejlesztő rendszer bejelentése.
+
+**Miért lényeges?**
+
+Ha az MI-rendszerek képesek lesznek saját fejlesztési folyamatukat érdemben felgyorsítani, az alapvetően megváltoztathatja a technológiai fejlődés ütemét.
+
+Ugyanakkor új kérdéseket vet fel az emberi ellenőrzés, a biztonsági értékelés és a kutatási eredmények megbízhatósága terén.
+
+**Forrás:**
+[The Decoder – Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027 (2026.10.25.)](https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/)
+
+---
+
+## 5. Az MI-fejlesztők vallási és filozófiai szakértők segítségével keresik az etikusabb chatbotok alapelveit
+
+**Dátum:** 2026. október 25-i hírösszesítés  
+**Kategória:** MI-etika, társadalmi felelősség, modellbiztonság
+
+Az Associated Press beszámolója szerint a vezető MI-vállalatok egyre több vallási vezetőt, filozófust és társadalomtudományi szakértőt vonnak be a chatbotok viselkedésének és értékrendjének kialakításába.
+
+A cél olyan rendszerek fejlesztése, amelyek különböző kulturális, vallási és társadalmi helyzetekben is megfelelően reagálnak.
+
+A szakértők ugyanakkor figyelmeztetnek arra, hogy az eltérő erkölcsi hagyományokat nem lehet egyszerűen egyetlen szabálygyűjteménnyé alakítani.
+
+**Miért lényeges?**
+
+A mesterséges intelligencia egyre gyakrabban kerül olyan helyzetekbe, amelyekben nem elegendő egy technikailag helyes válasz.
+
+Az egészségügyi, oktatási, személyes és társadalmi kérdésekben az MI viselkedése jelentős etikai következményekkel járhat.
+
+A fejlesztők előtt álló feladat nem csupán a káros válaszok kizárása, hanem a különböző kulturális értékek tiszteletben tartása is.
+
+**Forrás:**
+[Associated Press – To make AI morally good, tech companies are turning to religion (2026.10.)](https://apnews.com/article/2bb91e3334fd6d732edf22288cabf4ec)
+
+---
+
+## 6. Az OpenAI és az Anthropic közötti árverseny a vállalati MI-piacot is átalakíthatja
+
+**Dátum:** 2026. október 25.  
+**Kategória:** Vállalati MI, üzleti verseny, modellárazás
+
+A The Decoder a The Information beszámolójára hivatkozva arról írt, hogy az OpenAI jelentős, egyes esetekben rendkívül magas kedvezményekkel próbálja növelni részesedését az Anthropic vállalati ügyfelei körében.
+
+A cikk többek között a Rippling, a Replit és a DataCamp példáját említi.
+
+A vállalatok számára az MI-modellek költsége, sebessége és megbízhatósága egyre fontosabb szempont a szolgáltató kiválasztásakor.
+
+**Miért lényeges?**
+
+A modellpiac gyorsan fejlődő versenye csökkentheti a vállalati MI-szolgáltatások költségeit, ugyanakkor fokozhatja a szolgáltatók pénzügyi nyomását.
+
+A vállalatok számára érdemes az ár mellett a szolgáltatás minőségét, az adatvédelmi feltételeket és a hosszú távú fenntarthatóságot is figyelembe venni.
+
+A közölt kedvezmények egyedi ügyfélmegállapodásokra vonatkoznak, nem általánosan elérhető árlistákra.
+
+**Forrás:**
+[The Decoder – OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers (2026.10.25., hírszemle)](https://the-decoder.com/)
+
+---
+
+# 🇭🇺 II. Magyar vonatkozású MI-hírek
+
+**Megjegyzés:** A következő négy hír október 25-én megjelent magyar sajtóanyagokra épül. Ezek nem minden esetben magyarországi technológiai bejelentések, hanem a magyar munkaerőpiac, oktatás, gazdaság és kultúra szempontjából is releváns nemzetközi fejlemények hazai feldolgozásai.
+
+## 1. Bill Gates szerint húsz évig tartó felfordulást hozhat az MI térnyerése
+
+**Dátum:** 2026. október 25.  
+**Kategória:** Munkaerőpiac, társadalom, gazdasági átalakulás
+
+A Telex október 25-i beszámolója szerint Bill Gates a mesterséges intelligencia hosszú távú társadalmi következményeiről beszélt egy podcastműsorban.
+
+Gates szerint az MI végül jelentős gazdasági bőséget teremthet, a következő két évtized azonban komoly átmeneti nehézségekkel járhat.
+
+Különösen érintettek lehetnek:
+
+- Az ügyfélszolgálati dolgozók.
+- A telefonos értékesítők.
+- A könyvelési és adminisztrációs munkakörök.
+- Hosszabb távon a fizikai munkát végző dolgozók is.
+
+Gates a munkaidő csökkentését és a társadalmi alkalmazkodást segítő intézkedéseket is lehetséges megoldásként említette.
+
+**Miért lényeges Magyarország számára?**
+
+A magyar gazdaságban az adminisztratív szolgáltatások, az üzleti szolgáltatóközpontok, a feldolgozóipar és a logisztika egyaránt jelentős foglalkoztatók.
+
+Az MI-alapú automatizálás ezért hosszabb távon a hazai munkaerőpiac szerkezetét is átalakíthatja.
+
+Gates kijelentéseit előrejelzésként, nem bizonyított jövőbeli tényként kell kezelni.
+
+**Forrás:**
+[Telex – Bill Gates szerint előbb húsz év káoszt, aztán igazi bőséget hoz a mesterséges intelligencia (2026.10.25.)](https://telex.hu/techtud/2026/10/25/bill-gates-20-ev-felfordulas-kaosz-mesterseges-intelligencia)
+
+---
+
+## 2. Magyar Hang: az MI túlzott használata gyengítheti az emberi szakértelmet
+
+**Dátum:** 2026. október 25.  
+**Kategória:** Oktatás, kognitív képességek, egészségügyi MI
+
+A Magyar Hang tudományos elemzése az MI-használat egyik kevésbé látványos kockázatát vizsgálja: a technológiai segítségre való túlzott támaszkodás az emberi képességek romlásával járhat.
+
+A cikk egy olyan orvosi vizsgálatot is ismertet, amelyben a diagnosztikai MI-eszközök használata javította az orvosok teljesítményét, de az eszközök megvonása után a résztvevők egy részénél gyengébb önálló teljesítményt figyeltek meg.
+
+A kérdés nem az, hogy az MI szükségszerűen károsítja-e a gondolkodást, hanem az, hogy milyen használati minták mellett marad meg az önálló szakmai tudás.
+
+**Miért lényeges Magyarország számára?**
+
+Az oktatásban, az egészségügyben és a vállalati munkafolyamatokban az MI alkalmazása mellett meg kell őrizni az önálló problémamegoldás képességét.
+
+A magyar oktatási intézmények és munkáltatók számára ezért az MI-használati szabályoknak a kritikus gondolkodás fejlesztésére is ki kell terjedniük.
+
+**Forrás:**
+[Magyar Hang – Totálisan elbutulunk a mesterséges intelligencia miatt? (2026.10.25., részben előfizetéses)](https://hang.hu/magyar-hang-plusz/mesterseges-intelligencia-elbutulas-a-tudas-mcdonaldizacioja-192830)
+
+---
+
+## 3. Index: új francia irodalmi díj ismeri el az MI-vel közösen készített műveket
+
+**Dátum:** 2026. október 25.  
+**Kategória:** Kreatív ipar, szerzői jog, kulturális innováció
+
+Az Index beszámolója szerint Franciaországban új irodalmi díjat alapítottak az MI közreműködésével készült alkotások számára.
+
+A Blaise Pascalról elnevezett díj különlegessége, hogy a pályázóknak nem csupán a kész művet, hanem az alkotási folyamat során használt MI-eszközök dokumentációját is be kell mutatniuk.
+
+A kezdeményezés egy olyan időszakban jelent meg, amikor a könyvkiadásban egyre nagyobb vitát vált ki a generatív MI használatának átláthatósága.
+
+**Miért lényeges Magyarország számára?**
+
+A magyar könyvkiadás, újságírás, fordítás és kreatívipar számára is fontos kérdéssé válik az MI-vel támogatott alkotások szerzői megítélése.
+
+A francia kezdeményezés példát adhat arra, hogyan lehet az MI használatát tiltás helyett átlátható módon kezelni.
+
+**Források:**
+[Index – Lebukott egy AI-val író szerző, erre a franciák inkább díjat alapítottak (2026.10.25.)](https://index.hu/techtud/2026/10/25/ai-konyv-irodalom-iras-dij/)
+
+[Euronews magyar kiadás – Prix Pascal: új francia irodalmi díj MI-vel közösen írt könyveknek (2026.10.22.)](https://hu.euronews.com/2026/10/22/prix-pascal-uj-francia-irodalmi-dij-mesterseges-intelligenciaval-kozosen-irt-konyveknek)
+
+---
+
+## 4. Világgazdaság: az MI-adatközpontok körüli konfliktusok a tőzsdéket is megrázhatják
+
+**Dátum:** 2026. október 25.  
+**Kategória:** MI-beruházások, tőkepiacok, energiaellátás
+
+A Világgazdaság október 25-i elemzése szerint az amerikai adatközpont-fejlesztésekkel kapcsolatos növekvő lakossági ellenállás kockázatot jelenthet az MI-ipar beruházási tervei számára.
+
+Az érintett közösségekben egyre nagyobb figyelmet kap:
+
+- Az adatközpontok energiaigénye.
+- A helyi környezeti terhelés.
+- Az energiaárakra gyakorolt hatás.
+- A beruházások helyi szabályozása.
+
+Az Egyesült Államok novemberi félidős választásai további bizonytalanságot okozhatnak a technológiai szektor befektetői számára.
+
+**Miért lényeges Magyarország számára?**
+
+A globális adatközpont-fejlesztések jelentős hatást gyakorolhatnak az energiaigényre, az infrastruktúra-beruházásokra és a technológiai piacokra.
+
+A Magyarországon működő vállalatok és befektetők számára a felhőszolgáltatások ára, az energiaellátás és a nemzetközi MI-szektor pénzügyi stabilitása is fontos szempont.
+
+A cikk kockázati forgatókönyveket ismertet, nem bekövetkezett tőzsdei visszaesést.
+
+**Forrás:**
+[Világgazdaság – Hatalmas pofont kaphat a mesterséges intelligencia, a tőzsdék is beleremeghetnek (2026.10.25.)](https://www.vg.hu/nemzetkozi-gazdasag/2026/10/mesterseges-intelligencia-adatkozpont-valasztasok)
+
+---
+
+# 📊 III. A nap legfontosabb MI-trendjei
+
+| Trend | Nemzetközi fejlemény | Magyarországi jelentőség |
+|---|---|---|
+| Robotika | Nvidia Flora, olcsóbb tanítóadat-feldolgozás | Ipari és logisztikai automatizálás |
+| MI-ügynökök | Anthropic: kevesebb alügynök is elegendő lehet | Hatékonyabb vállalati automatizálás |
+| Digitális média | Google MI-keresése és csökkenő kiadói forgalom | Magyar hírportálok és online vállalkozások alkalmazkodása |
+| Munkaerőpiac | Bill Gates hosszú átmeneti időszakot jósol | Átképzés, szakmai kompetenciák megőrzése |
+| MI-etika | Vallási és filozófiai szakértők bevonása | Felelős MI-használati keretrendszerek |
+| MI-gazdaság | Modellárverseny, adatközpont-beruházási kockázatok | Költségoptimalizálás és beruházási döntések |
+
+---
+
+# 🎯 IV. Záró értékelés
+
+2026. október 25-ének MI-hírei alapján a technológiai verseny súlypontja fokozatosan az új modellek képességeiről a rendszerek hatékonyságára, integrálhatóságára és gazdasági következményeire is áthelyeződik.
+
+### 1. A hatékonyabb MI-rendszerek üzleti előnyt jelentenek
+
+Az Nvidia és az Anthropic fejleményei azt mutatják, hogy a működési költség és az architektúra egyszerűsége egyre fontosabb versenytényező.
+
+### 2. Az emberi szakértelem megőrzése stratégiai kérdés
+
+A magyar sajtóban megjelent elemzések rámutatnak, hogy az MI rövid távon növelheti a termelékenységet, de a túlzott függés új kockázatokat teremthet a munkaerőpiacon és az oktatásban.
+
+### 3. A gazdasági és társadalmi fenntarthatóság meghatározza az MI terjedését
+
+Az adatközpontok energiaigénye, a digitális média üzleti modelljének átalakulása és a fejlett MI biztonsági kérdései hosszabb távon befolyásolhatják a technológia elterjedését.
+
+## A nap három legfontosabb tanulsága
+
+- **Technológiai szempontból:** az MI versenyképességét már nemcsak a modellméret és a teljesítmény, hanem a működtetés hatékonysága is meghatározza.
+- **Magyarország számára:** a munkaerőpiaci alkalmazkodás, az oktatás és a digitális készségek fejlesztése kulcsfontosságú.
+- **Vállalati döntéshozóknak:** az MI bevezetésekor érdemes egyszerre vizsgálni a költségeket, a működési megbízhatóságot, az emberi ellenőrzést és az üzleti értéket.
+
+---
+
+## Módszertani megjegyzés
+
+Az összefoglaló elsősorban a 2026. október 25-én közzétett vagy ezen a napon tárgyalt MI-fejleményekre koncentrál.
+
+A vasárnapi hírforgalom miatt a hírek között technológiai kutatásokat, iparági elemzéseket, szakértői előrejelzéseket és magyar sajtóvisszhangokat is szerepeltettem.
+
+A szakértői előrejelzéseket, vállalati teljesítményadatokat és piaci forgatókönyveket nem szabad bizonyított jövőbeli eseményekként értelmezni.
+

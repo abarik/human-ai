@@ -1,0 +1,372 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. október 26."
+author: "OpenAI - ChatGpt"
+date: "2026-10-26"
+---
+
+**Referencia-dátum:** 2026. október 26.  
+**Vizsgált időszak:** Elsősorban október 24–26., néhány korábbi, továbbra is fontos fejleménnyel.  
+**Tartalom:** 6 nemzetközi hír + 4 magyar vonatkozás  
+**Források:** The Washington Post, Bloomberg, TechCrunch, Associated Press, OpenAI, EMNLP, Google Research, Pannon Egyetem, MIEF, Portfolio.
+
+---
+
+## 📌 Vezetői összefoglaló
+
+2026. október 26-án a mesterséges intelligencia híreit a kiberbiztonság, a technológiai vállalatok finanszírozása, a politikai elfogultság és az MI-rendszerek ellenőrizhetősége határozza meg.
+
+**A nap négy meghatározó fejleménye:**
+
+1. **Az Anthropic biztonsági rendszereiben sérülékenységeket tártak fel.** A Cathedral kiberbiztonsági vállalat kutatói kevesebb mint 12 óra alatt hozzáfértek az Anthropic egyes belső üzleti rendszereihez. Az eset rávilágít a harmadik féltől származó vállalati szoftverek kockázataira.
+
+2. **Az OpenAI újabb rekordméretű tőkebevonásról tárgyal.** A vállalat körülbelül 30 milliárd dolláros finanszírozást keres, miközben a tárgyalásokon 1,25 billió dolláros vállalatérték szerepel.
+
+3. **Kutatás mutatott ki jelentős politikai különbségeket az MI-modellek válaszaiban.** A Grok és az OpenAI egyik modellje ugyanazokra az amerikai választási kérdésekre gyakran ellentétes jelöltet ajánlott.
+
+4. **Magyarországon két fontos tudományos konferencia zajlik.** Budapesten folytatódik az EMNLP 2026, Veszprémben pedig megkezdődik a SciComp26, ahol az MI, az adattudomány és a tudományos számítások találkoznak.
+
+**Kiemelt nemzetközi hír:** az Anthropic vállalati rendszereiben feltárt biztonsági sérülékenységek.
+
+**Kiemelt magyar vonatkozás:** az EMNLP 2026 budapesti szakmai programja, különös tekintettel a biztonságos és értékalapú MI-ügynökökre.
+
+---
+
+# 🌍 I. Nemzetközi MI-hírek
+
+## 1. Kiberbiztonsági kutatók 12 órán belül hozzáfértek az Anthropic érzékeny belső rendszereihez
+
+**Dátum:** 2026. október 26.  
+**Kategória:** MI-biztonság, vállalati információbiztonság
+
+A The Washington Post beszámolója szerint a Cathedral nevű amerikai kiberbiztonsági startup kutatói kevesebb mint 12 óra alatt hozzáfértek az Anthropic több érzékeny vállalati rendszeréhez.
+
+A kutatók az Anthropic sérülékenység-bejelentési programjának keretében dolgoztak, és harmadik féltől származó üzleti szoftverek hibáit használták ki.
+
+A hozzáférhető adatok között szerepeltek:
+
+- Belső megbeszélések leiratai.
+- Fizetési és állásajánlati információk.
+- Fejlett MI-modellekkel kapcsolatos belső Slack-üzenetek.
+- Egyes ügyfél- és alkalmazotti adatok.
+
+Az Anthropic megerősítette a korlátozott hozzáférést, de közölte, hogy a kutatók nem fértek hozzá a Claude-felhasználók beszélgetéseihez, a modellek forráskódjához vagy súlyaihoz.
+
+A vállalat szerint az érintett sérülékenységeket elhárították, és nincs bizonyíték arra, hogy a hibákat a kutatókon kívül mások is kihasználták volna.
+
+**Miért lényeges?**
+
+Az eset azt mutatja, hogy még a legfejlettebb MI-vállalatok biztonsága is függ a hagyományos vállalati informatikai rendszerek védelmétől.
+
+A vállalatok számára különösen fontos a külső alkalmazások jogosultságainak korlátozása, a hozzáférések ellenőrzése és a folyamatos biztonsági tesztelés.
+
+**Forrás:**
+[The Washington Post – It took just 12 hours for an AI start-up to break into Anthropic (2026.10.26.)](https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/)
+
+---
+
+## 2. Az OpenAI 30 milliárd dolláros tőkebevonásról tárgyal, 1,25 billió dolláros értékelés mellett
+
+**Dátum:** 2026. október 22–23.; október 26-án is aktuális  
+**Kategória:** MI-gazdaság, befektetések, technológiai verseny
+
+A Bloomberg és a TechCrunch beszámolói szerint az OpenAI újabb, körülbelül 30 milliárd dolláros befektetési kör előkészítésén dolgozik.
+
+A tárgyalásokon a vállalat tervezett értékelése 1,25 billió dollárra módosult, a korábbi 1,4 billió dolláros célértékhez képest.
+
+A lehetséges befektetők között a Coatue Management és egyes egyesült arab emírségekbeli befektetési alapok is megjelentek.
+
+A finanszírozási tárgyalások azonban még nem zárultak le, ezért az összeg és a végleges értékelés változhat.
+
+**Miért lényeges?**
+
+Az MI-fejlesztés számítási kapacitásigénye rendkívül nagy, ezért a vezető modellfejlesztők működése egyre jelentősebb tőkebefektetést igényel.
+
+Az OpenAI esetleges új finanszírozása tovább növelheti a vállalat technológiai mozgásterét, de egyúttal fokozhatja a befektetői elvárásokat és az MI-ágazat magas vállalatértékeléseivel kapcsolatos vitákat.
+
+**Források:**
+[Bloomberg – OpenAI Shifts Value to $1.25 Trillion as Funding Talks Finalize (2026.10.22.)](https://www.bloomberg.com/news/articles/2026-10-22/openai-shifts-value-to-1-25-trillion-as-funding-talks-finalize)
+
+[TechCrunch – OpenAI working on new $30B raise at $1.25T valuation (2026.10.22.)](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)
+
+---
+
+## 3. Kutatás: a Grok és az OpenAI egyik modellje szinte ellentétes politikai ajánlásokat adott
+
+**Dátum:** 2026. október 24.; október 26-án is releváns  
+**Kategória:** MI-etika, politikai elfogultság, választások
+
+A TechCrunch által ismertetett kutatás szerint jelentős eltérések mutatkoztak két vezető MI-modell politikai ajánlásai között.
+
+A Convovo kutatói közel 500 amerikai választási versenyre vonatkozó kérdést tettek fel a modelleknek.
+
+A vizsgálatban:
+
+- A Grok 4.7 a válaszok 92%-ában republikánus jelöltet választott.
+- Az OpenAI GPT-6.1 Sol modellje a válaszok 97%-ában demokrata jelöltet ajánlott.
+- A két modell az esetek kevesebb mint 10%-ában értett egyet.
+
+A vizsgálat kifejezetten választásra kényszerítő kérdésekre épült, ezért az eredmények nem tekinthetők az összes modellválasz vagy felhasználási helyzet általános jellemzésének.
+
+**Miért lényeges?**
+
+A generatív MI egyre fontosabb információforrás, ezért jelentős társadalmi kérdés, hogyan jelennek meg benne a politikai preferenciák és az esetleges torzítások.
+
+Az eredmények az MI-rendszerek független értékelésének, átláthatóságának és politikai semlegességére vonatkozó elvárásoknak a jelentőségét hangsúlyozzák.
+
+**Forrás:**
+[TechCrunch – Forced to pick, Grok's AI model chooses Republicans, OpenAI's picks Democrats (2026.10.24.)](https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/)
+
+---
+
+## 4. Az ENSZ új kezdeményezéssel próbálja csökkenteni a katonai MI alkalmazásának kockázatait
+
+**Dátum:** 2026. október 21.; október 26-án is aktuális  
+**Kategória:** Nemzetközi szabályozás, katonai MI, biztonságpolitika
+
+Az Associated Press beszámolója szerint az ENSZ Leszerelési Kutatóintézete (UNIDIR) új nemzetközi kezdeményezést indít a mesterséges intelligencia katonai alkalmazásával kapcsolatos kockázatok kezelésére.
+
+A program kormányzati szereplőket, technológiai vállalatokat, kutatókat és civil szervezeteket kapcsol össze.
+
+A legfontosabb vizsgált területek:
+
+- MI-alapú katonai döntéstámogatás.
+- Hírszerzési és felderítési rendszerek.
+- Automatizált korai figyelmeztetési rendszerek.
+- Az emberi ellenőrzés fenntartása.
+- A katonai MI-rendszerek megbízhatósága és elszámoltathatósága.
+
+A kezdeményezéshez kapcsolódó munkában az öt elismert nukleáris fegyverrel rendelkező állam is részt vesz.
+
+**Miért lényeges?**
+
+A katonai MI alkalmazása különösen nagy kockázatot jelenthet, ha az automatizált döntéshozatal csökkenti az emberi mérlegelés lehetőségét.
+
+A nemzetközi együttműködés fontos lehet a félreértések, a nem szándékos eszkaláció és a technológiai versenyből fakadó biztonsági veszélyek mérséklésében.
+
+**Forrás:**
+[Associated Press – New UN initiative will aim to tackle the military uses of AI (2026.10.21.)](https://apnews.com/article/e0a3c48c91a9de89cab72609d185f658)
+
+---
+
+## 5. Az OpenAI szigorúbb biztonsági intézkedéseket alkalmaz a legfejlettebb modelljeinek tanításakor
+
+**Dátum:** 2026. október 23.; október 26-án is fontos fejlemény  
+**Kategória:** Frontier MI, kiberbiztonság, autonóm rendszerek
+
+Az OpenAI részletesen ismertette, hogyan erősítette meg a legfejlettebb modelljeihez használt tanítási környezetek biztonságát.
+
+A vállalat nagyobb hangsúlyt helyez az elkülönített számítási környezetekre, a hozzáférések korlátozására és a modellek viselkedésének ellenőrzésére.
+
+A fejlett modellek ugyanis egyre összetettebb műveletek végrehajtására képesek, ami új kockázatokat teremthet a tanítási és tesztelési infrastruktúrában is.
+
+Az OpenAI a fejlett MI-rendszereket biztonsági tesztek és támadásszimulációk támogatására is felhasználja.
+
+**Miért lényeges?**
+
+A modellbiztonság már nem kizárólag azt jelenti, hogy az MI milyen válaszokat ad a felhasználóknak.
+
+Az is alapvető követelmény, hogy a rendszerek milyen infrastruktúrához férhetnek hozzá, milyen műveleteket végezhetnek, és hogyan akadályozható meg a nem kívánt viselkedés.
+
+A vállalati MI-ügynökök elterjedése miatt ezek a szempontok a hagyományos informatikai környezetekben is egyre fontosabbá válnak.
+
+**Forrás:**
+[OpenAI – Securing our frontier model training environment (2026.10.23.)](https://openai.com/index/securing-our-frontier-model-training-environment/)
+
+---
+
+## 6. Az OpenAI modelljeinek Google Cloud-integrációja átalakíthatja a vállalati MI-piacot
+
+**Dátum:** 2026. október 21.; továbbra is aktuális  
+**Kategória:** Vállalati MI, felhőszolgáltatások, automatizálás
+
+Az OpenAI és a Google Cloud együttműködésében az OpenAI modelljei és bizonyos Codex-alapú ügynöki munkafolyamatok bekerülnek a Google Cloud vállalati kínálatába.
+
+A Google Cloud Model Garden használatával a vállalati ügyfelek a meglévő felhőinfrastruktúrájukhoz kapcsolva érhetik majd el ezeket a rendszereket.
+
+A szolgáltatás fokozatos bevezetése lehetőséget teremthet a különböző MI-modellek rugalmasabb használatára.
+
+A Microsoft továbbra is az OpenAI elsődleges felhőpartnere.
+
+**Miért lényeges?**
+
+A vállalatok egyre kevésbé szeretnének egyetlen MI-modellre vagy technológiai szolgáltatóra támaszkodni.
+
+A többmodellű felhőmegoldások növelhetik a választási szabadságot, egyszerűsíthetik az integrációt és fokozhatják a versenyt a vállalati MI-piacon.
+
+**Forrás:**
+[OpenAI – OpenAI models are coming to Google Cloud (2026.10.21.)](https://openai.com/index/openai-models-google-cloud/)
+
+---
+
+# 🇭🇺 II. Magyar vonatkozású MI-hírek
+
+## 1. Budapesten folytatódik az EMNLP 2026: hétfőn az értékalapú MI-ügynökök biztonsága is napirendre kerül
+
+**Dátum:** 2026. október 26.  
+**Kategória:** Magyarországi MI-kutatás, nyelvtechnológia, nemzetközi konferencia
+
+A Budapesten zajló EMNLP 2026 konferencia október 26-i programjában kiemelt szerepet kap a nyelvi modellek értékelése és a biztonságos MI-ügynökök fejlesztése.
+
+A Google Research hivatalos konferenciaprogramja szerint a hétfői iparági szekcióban Verena Rieser az értékalapú MI-igazítás tudományos megközelítéséről tart előadást.
+
+Az előadás témái közé tartozik:
+
+- Az autonóm MI-rendszerek biztonságos működése.
+- Az értékeken alapuló viselkedési elvek kialakítása.
+- A modellek döntéseinek ellenőrizhetősége.
+- Az MI-rendszerek értékelési és irányítási módszerei.
+
+A konferencián a Google Research és a Google DeepMind kutatói is részt vesznek.
+
+**Miért lényeges Magyarország számára?**
+
+A rendezvény Budapestet a nemzetközi nyelvtechnológiai kutatás egyik központjává teszi.
+
+Különösen fontos lehet a magyar nyelvű MI-modellek fejlesztése, a hazai egyetemi kutatások nemzetközi kapcsolatai és a biztonságos MI-alapú szolgáltatások kialakítása szempontjából.
+
+**Források:**
+[EMNLP 2026 – Hivatalos konferenciaoldal](https://2026.emnlp.org/)
+
+[Google Research – Google at EMNLP 2026, október 26-i program](https://research.google/conferences-and-events/google-at-emnlp-2026/)
+
+---
+
+## 2. Veszprémben ma kezdődik a SciComp26 tudományos számítási és MI-konferencia
+
+**Dátum:** 2026. október 26.  
+**Kategória:** Magyar kutatás, adattudomány, mesterséges intelligencia
+
+Október 26–28. között a Pannon Egyetemen rendezik meg a SciComp26 interdiszciplináris tudományos konferenciát.
+
+A rendezvény célja a tudományos számításokkal, szimulációkkal, adattudománnyal és mesterséges intelligenciával foglalkozó kutatók közötti együttműködés erősítése.
+
+A konferencia több tudományterületet kapcsol össze:
+
+- Matematika és fizika.
+- Kémia és biológia.
+- Közgazdaságtan.
+- Nyelvészet és társadalomtudományok.
+- Adattudomány és MI-alapú modellezés.
+
+A programban meghívott plenáris előadások, tematikus szekciók és poszterbemutatók szerepelnek.
+
+**Miért lényeges?**
+
+Az MI tudományos alkalmazása egyre inkább összekapcsolódik a hagyományos számítási és szimulációs módszerekkel.
+
+A magyar kutatóhelyek számára a SciComp26 lehetőséget biztosít új kutatási együttműködések kialakítására és az MI interdiszciplináris alkalmazásainak bemutatására.
+
+**Forrás:**
+[Tudományos Számítások Egyesülete – SciComp26 konferencia, 2026. október 26–28.](https://scicomp.hu/scicomp26-konferencia/)
+
+---
+
+## 3. Magyar MI-etikai szakmai fórum: mennyi emberi ellenőrzés szükséges az MI-vel írt szövegeknél?
+
+**Dátum:** 2026. október 26. – meghirdetett szakmai program  
+**Kategória:** MI-etika, tartalomkészítés, emberi kontroll
+
+A Mesterséges Intelligencia Etikai Fórum (MIEF) október 26-ra hirdette meg 14. online szakmai műhelyét.
+
+A tervezett előadás címe:
+
+**„Az AI cikk lehet alap, de kell az emberi kéz hozzá”**
+
+Az előadó Károly Zsolt.
+
+A meghirdetett téma a generatív MI-vel létrehozott szövegek és az emberi szerkesztői munka kapcsolatára irányítja a figyelmet.
+
+A szakmai kérdés különösen fontos a sajtóban, az oktatásban, a vállalati kommunikációban és a tudományos tartalomkészítésben.
+
+**Miért lényeges?**
+
+Az MI egyre gyorsabban képes szövegeket előállítani, de a tényellenőrzés, a szakmai felelősség és a tartalmi minőség biztosítása továbbra is emberi feladat marad.
+
+A magyar vállalatok és intézmények számára ezért egyre fontosabb a generatív MI használatának dokumentált, ellenőrizhető folyamata.
+
+**Forrás:**
+[Mesterséges Intelligencia Etikai Fórum – Szakmai műhelyek, 2026. október 26.](https://www.mief.hu/esemenyek)
+
+---
+
+## 4. A K&H Alapkezelőnél már befektetési döntések előkészítésére és portfóliókezelésre is alkalmaznak MI-t
+
+**Dátum:** 2026. október 22.; október 26-án is releváns magyar vállalati fejlemény  
+**Kategória:** Magyar pénzügyi szektor, vállalati MI, automatizálás
+
+A Portfolio beszámolója szerint a K&H Alapkezelő már közel tíz éve fejleszt mesterséges intelligencián alapuló befektetéskezelési megoldásokat.
+
+Az alkalmazott rendszerek napi szinten több mint ezer gazdasági és piaci mutatót dolgoznak fel.
+
+A vállalat három szinten alkalmaz MI-t:
+
+1. A portfóliómenedzserek munkájának támogatására.
+2. Konkrét befektetési javaslatok előállítására.
+3. Bizonyos befektetési alapok eszközallokációjának meghatározására.
+
+A vállalat hangsúlyozza, hogy a végső döntés minden esetben emberi ellenőrzés mellett születik.
+
+**Miért lényeges?**
+
+Ez konkrét magyarországi példa arra, hogy az MI nem csupán kísérleti vagy ügyfélszolgálati eszköz, hanem összetett gazdasági döntésekben is alkalmazható.
+
+A fejlesztés a hazai pénzügyi szektor digitális átalakulását és az ember–MI együttműködés jelentőségét is szemlélteti.
+
+**Forrás:**
+[Portfolio – Átveszi a hatalmat a mesterséges intelligencia a befektetéskezelésben? (2026.10.22.)](https://www.portfolio.hu/gazdasag/20261022/atveszi-a-hatalmat-a-mesterseges-intelligencia-a-befekteteskezelesben-871448)
+
+---
+
+# 📊 III. A nap legfontosabb MI-trendjei
+
+| Trend | Nemzetközi fejlemény | Magyarországi jelentőség |
+|---|---|---|
+| MI-kiberbiztonság | Anthropic belső rendszereinek sérülékenységei | Vállalati adatvédelem, külső szolgáltatók biztonsága |
+| MI-befektetések | OpenAI 30 milliárd dolláros finanszírozási tárgyalásai | MI-szolgáltatások költsége és piaci versenye |
+| MI-elfogultság | Grok és OpenAI modellek eltérő politikai ajánlásai | Kritikus MI-használat és független modellértékelés |
+| Nemzetközi szabályozás | ENSZ-kezdeményezés a katonai MI kockázatairól | Biztonságos, ellenőrizhető MI-rendszerek |
+| Nyelvtechnológia | Nemzetközi kutatási együttműködések | EMNLP 2026 Budapest |
+| Tudományos MI | MI és szimulációs rendszerek összekapcsolása | SciComp26 Veszprém |
+| Pénzügyi MI | Automatizált elemzés és döntéstámogatás | K&H Alapkezelő gyakorlati MI-alkalmazása |
+
+---
+
+# 🎯 IV. Záró értékelés
+
+2026. október 26-ának MI-hírei alapján három jelentős fejlődési irány rajzolódik ki.
+
+### 1. A biztonság a fejlett MI-rendszerek alapvető versenytényezőjévé válik
+
+Az Anthropic biztonsági incidense és az OpenAI védelmi intézkedései egyaránt azt mutatják, hogy a legfejlettebb modellek fejlesztése mellett a működési infrastruktúra védelmére is jelentős figyelmet kell fordítani.
+
+A vállalatok számára kiemelten fontos a jogosultságkezelés, az MI-ügynökök felügyelete és a külső rendszerek biztonságának ellenőrzése.
+
+### 2. Az MI gazdasági jelentősége tovább növekszik, de a kockázatok is erősödnek
+
+Az OpenAI finanszírozási tervei rendkívüli befektetői érdeklődést jeleznek.
+
+Ugyanakkor a magas vállalatértékelések és a jelentős infrastruktúra-költségek miatt a hosszú távú megtérülés kérdése továbbra is meghatározó.
+
+### 3. Magyarországon a kutatási és gyakorlati MI-alkalmazások egyaránt fejlődnek
+
+A budapesti EMNLP és a veszprémi SciComp26 olyan tudományos fórumokat biztosítanak, amelyek elősegíthetik a nemzetközi együttműködést és az MI új alkalmazásainak megjelenését.
+
+A pénzügyi szektor példája pedig azt mutatja, hogy az MI már ma is képes konkrét üzleti döntési folyamatokat támogatni.
+
+## A nap három legfontosabb tanulsága
+
+- **Nemzetközi szinten:** a fejlett MI-rendszerek biztonsága és ellenőrizhetősége legalább olyan fontossá válik, mint a modellek teljesítménye.
+- **Magyarország számára:** a nemzetközi kutatási kapcsolatok és az interdiszciplináris MI-alkalmazások fejlesztése stratégiai lehetőség.
+- **Vállalati döntéshozóknak:** az MI bevezetésének sikere a technológiai képességek mellett az adatbiztonságtól, az emberi kontrolltól és a mérhető üzleti értéktől is függ.
+
+---
+
+## Módszertani megjegyzés
+
+Az összefoglaló a 2026. október 26-án elérhető híreket és a naphoz kapcsolódó fejleményeket tartalmazza.
+
+A korábban megjelent, de továbbra is meghatározó híreknél feltüntettem az eredeti publikálási dátumot.
+
+A magyar részben a mai rendezvények mellett egy közelmúltbeli konkrét vállalati alkalmazás is szerepel. A meghirdetett programok esetében a leírás nem jelenti az előadások megtörténtének vagy elhangzott eredményeinek utólagos megerősítését.
+
+A befektetési tárgyalásokat, a kutatási megállapításokat és a tervezett fejlesztéseket a forrásokban szereplő bizonytalanságok figyelembevételével kell értelmezni.

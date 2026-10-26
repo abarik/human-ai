@@ -1,0 +1,300 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. október 24."
+author: "OpenAI - ChatGpt"
+date: "2026-10-24"
+---
+
+
+**Időszak:** 2026. október 21–24., kiemelten október 24.  
+**Tartalom:** 6 nemzetközi hír + 4 magyar vonatkozás  
+**Források:** brit kormány, Reuters, OpenAI, The Verge, EMNLP, Google Research, Semmelweis Egyetem, Index, Telex.
+
+---
+
+## 📌 Vezetői összefoglaló
+
+A mesterséges intelligencia világában október 24-én három meghatározó trend emelkedett ki:
+
+1. **Az MI nemzetbiztonsági és gazdaságpolitikai prioritássá válik.** Az Egyesült Királyság átfogó beruházási programot hirdetett, amely biológiai fenyegetésekre, kiberbiztonságra, hazai technológiai képességekre és munkaerőpiaci hatásokra egyaránt kiterjed.
+
+2. **Az MI biztonsági kockázatai egyre kézzelfoghatóbbak.** Az MI-vel felfedezett szoftversérülékenységek, az autonóm rendszerek ellenőrizhetősége és a mesterségesen előállított reklámok jelölése új technológiai és jogi válaszokat követelnek.
+
+3. **A vállalati MI-piac és a gyakorlati alkalmazások átalakulnak.** Az OpenAI és a Google Cloud megállapodása a vállalati modellválaszték bővülését jelzi. Magyarországon pedig a nemzetközi nyelvtechnológiai kutatás, az egészségügyi alkalmazások és a lakossági MI-használat került előtérbe.
+
+**A nap kiemelt nemzetközi fejleménye:** az Egyesült Királyság MI-biztonsági és technológiai beruházási programja.
+
+**A nap kiemelt magyar eseménye:** a nemzetközi EMNLP 2026 nyelvtechnológiai konferencia budapesti kezdete.
+
+---
+
+# 🌍 I. Nemzetközi MI-hírek
+
+## 1. Nagy-Britannia átfogó MI-beruházási és biztonsági programot jelentett be
+
+**Dátum:** 2026. október 24.  
+**Kategória:** MI-stratégia, gazdaságpolitika, technológiai szuverenitás
+
+A brit kormány új beruházási csomagot jelentett be, amely egyszerre támogatja a hazai MI-ipart, a kiberbiztonságot, a chiptervezést és a munkaerőpiaci felkészülést.
+
+A bejelentett intézkedések között szerepel:
+
+- 120 millió font többletforrás az AI Security Institute számára.
+- 60 millió font egy MI-alapú nemzeti kibervédelmi programra.
+- 70 millió font egy sérülékenységek feltárásával foglalkozó központra.
+- További támogatás brit MI-vállalatoknak, chiptervezési képzéseknek és helyi MI-programoknak.
+
+A kormány külön forrásokat irányoz elő az MI munkaerőpiaci és termelékenységi hatásainak vizsgálatára is.
+
+**Miért lényeges?**
+
+A bejelentés azt mutatja, hogy az MI-fejlesztés már nem pusztán vállalati innovációs kérdés, hanem az iparpolitika és a nemzetbiztonság meghatározó eleme. A technológiai szuverenitás erősítése más európai országok számára is stratégiai mintává válhat.
+
+**Forrás:**
+[Brit kormány – Chancellor unveils Britain's ambitious plan for AI (2026.10.24.)](https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai)
+
+---
+
+## 2. Új brit MI-biobiztonsági laboratórium indul az OpenAI és az Anthropic támogatásával
+
+**Dátum:** 2026. október 24.  
+**Kategória:** MI-biztonság, egészségügy, biotechnológia
+
+Az Egyesült Királyság bejelentette az AI Biosecurity Lab létrehozását, amelynek feladata a biológiai fenyegetések jobb felismerése, megelőzése és kezelése.
+
+A kezdeményezés 100 millió font közvetlen állami finanszírozást kap, amelyet az OpenAI és az Anthropic legfeljebb 200 millió font értékű vállalása egészíthet ki, elsősorban MI-modellek használatához biztosított erőforrások formájában.
+
+A program kutatási partnerei között szerepel a Google DeepMind és a Basecamp Research is.
+
+**Miért lényeges?**
+
+A fejlett MI-modellek felgyorsíthatják a biológiai kutatást és az új kezelések keresését, ugyanakkor új visszaélési lehetőségeket teremthetnek. A laboratórium célja, hogy az MI tudományos előnyeit a biológiai biztonság megerősítésével kapcsolja össze.
+
+**Forrás:**
+[UK Cabinet Office – Introducing the AI Biosecurity Lab (2026.10.24.)](https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab)
+
+---
+
+## 3. Pennsylvania kötelező jelölést vezet be a megtévesztő MI-reklámoknál
+
+**Dátum:** 2026. október 24-i hírösszesítés  
+**Kategória:** MI-szabályozás, fogyasztóvédelem, digitális reklám
+
+Pennsylvania állam új jogszabályt fogadott el a mesterséges intelligenciával készített vagy jelentősen módosított reklámtartalmak átláthatóságának növelésére.
+
+A szabályozás bizonyos MI-generált vagy jelentősen módosított hirdetések esetén kötelező tájékoztatást ír elő, és többféle reklámformátumra is kiterjed.
+
+A jogszabály alkalmazása körül ugyanakkor maradtak értelmezési kérdések, különösen a jelentős módosítás és a fogyasztói megtévesztés pontos meghatározásában.
+
+**Miért lényeges?**
+
+Az MI-vel előállított képek, hangok és videók egyre nehezebben különböztethetők meg a valódi tartalmaktól. A szabályozás fontos precedens lehet a reklámipar, a platformüzemeltetők és a fogyasztóvédelem számára.
+
+**Forrás:**
+[The Verge – Pennsylvania will require labels on AI-generated ads](https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act)
+
+---
+
+## 4. Reuters: az MI-vel feltárt szoftverhibák újabb kibervédelmi zavarokat okozhatnak
+
+**Dátum:** 2026. október 23.  
+**Kategória:** Kiberbiztonság, kritikus infrastruktúra
+
+A Reuters hét kiberbiztonsági szakértővel készített beszámolója szerint a mesterséges intelligencia egyre gyorsabban fedez fel korábban rejtett szoftversérülékenységeket.
+
+A VulnCheck kutatására hivatkozva a beszámoló azt jelzi, hogy az MI jelentősen hozzájárulhat a feltárt hibák számának növekedéséhez.
+
+A szakértők szerint mindez rövid távon további szolgáltatáskieséseket és sürgős biztonsági javításokat eredményezhet, különösen a széles körben használt informatikai komponenseknél.
+
+**Miért lényeges?**
+
+Az MI egyszerre javítja a védekező szakemberek hibakeresési képességeit és gyorsíthatja a támadók munkáját. A vállalatok számára ezért még fontosabbá válik a folyamatos sérülékenységvizsgálat, a javítások gyors telepítése és az informatikai rendszerek naprakész nyilvántartása.
+
+**Forrás:**
+[Reuters – AI-discovered bugs may soon trigger fresh disruptions (2026.10.23.)](https://www.investing.com/news/stock-market-news/aidiscovered-bugs-may-soon-trigger-fresh-disruptions-cyber-experts-say-4968682)
+
+---
+
+## 5. Az OpenAI megerősítette a legfejlettebb modelljeinek tanítására használt környezetek biztonságát
+
+**Dátum:** 2026. október 23.  
+**Kategória:** Frontier MI, modellbiztonság, autonóm rendszerek
+
+Az OpenAI részletesen ismertette, hogyan erősítette meg a legfejlettebb modelljeinek tanításához és értékeléséhez használt számítástechnikai környezetek elkülönítését és védelmét.
+
+A vállalat a saját fejlett modelljeit is felhasználja arra, hogy támadásszimulációkkal tesztelje a biztonsági korlátokat.
+
+Ez különösen fontos a még fejlesztés alatt álló rendszereknél, amelyek nem feltétlenül estek át minden olyan biztonsági és viselkedési ellenőrzésen, amely a széles körű bevezetést megelőzi.
+
+**Miért lényeges?**
+
+A nagy teljesítményű MI-rendszerek egyre összetettebb digitális műveletekre képesek. Emiatt nem elegendő kizárólag a modellek válaszait ellenőrizni: a hozzáférési jogosultságokat, a végrehajtási környezeteket és az autonóm műveletek határait is biztonságossá kell tenni.
+
+**Forrás:**
+[OpenAI – Securing our frontier model training environment (2026.10.23.)](https://openai.com/index/securing-our-frontier-model-training-environment/)
+
+---
+
+## 6. Az OpenAI modelljei megjelennek a Google Cloud kínálatában
+
+**Dátum:** 2026. október 21.  
+**Kategória:** Vállalati MI, felhőszolgáltatások, MI-ügynökök
+
+Az OpenAI és a Google Cloud együttműködést jelentett be, amelynek keretében az OpenAI fejlett modelljei és Codex-alapú ügynöki munkafolyamatai elérhetővé válnak a Google Cloud Model Garden kínálatában.
+
+A vállalati ügyfelek a Google Cloud meglévő adatkezelési, hozzáférés-szabályozási és infrastruktúra-megoldásai mellett használhatják majd ezeket a rendszereket.
+
+Az általános elérhetőséget a bejelentést követő hetekre tervezik; a Microsoft továbbra is az OpenAI elsődleges felhőpartnere.
+
+**Miért lényeges?**
+
+A fejlesztés növelheti a vállalatok választási szabadságát a különböző MI-modellek és felhőplatformok között. Különösen jelentős lehet a nagyvállalati szoftverfejlesztés, az automatizálás és a szabályozott iparágak számára.
+
+**Forrás:**
+[OpenAI – OpenAI models are coming to Google Cloud (2026.10.21.)](https://openai.com/index/openai-models-google-cloud/)
+
+---
+
+# 🇭🇺 II. Magyar vonatkozású MI-hírek
+
+## 1. Budapesten kezdődött az EMNLP 2026, a világ egyik legfontosabb nyelvtechnológiai konferenciája
+
+**Dátum:** 2026. október 24.  
+**Kategória:** Magyar MI-kutatás, nyelvtechnológia, nemzetközi tudomány
+
+Október 24-én Budapesten megkezdődött a Conference on Empirical Methods in Natural Language Processing (EMNLP 2026), amely október 29-ig tart.
+
+A konferencia a természetesnyelv-feldolgozás, a nagy nyelvi modellek, a többnyelvű rendszerek és az MI-értékelés meghatározó nemzetközi kutatási fóruma.
+
+A Google Research és a Google DeepMind is jelentős szakmai jelenléttel vesz részt a rendezvényen. A Google 31 elfogadott kutatási publikációt, 11 workshopban és két oktatási programban való részvételt jelzett előre.
+
+**Miért lényeges?**
+
+Budapest a konferencia idejére a nemzetközi nyelvtechnológiai kutatások egyik központjává válik. Ez közvetlen kapcsolatteremtési és együttműködési lehetőséget jelent a magyar egyetemek, kutatók és technológiai vállalatok számára.
+
+A magyar nyelvű MI-rendszerek fejlesztése szempontjából különösen értékes lehet a többnyelvű modellekkel kapcsolatos kutatási tapasztalatok megismerése.
+
+**Források:**
+[EMNLP 2026 – Hivatalos konferenciaoldal](https://2026.emnlp.org/)
+
+[Google Research – Google at EMNLP 2026](https://research.google/conferences-and-events/google-at-emnlp-2026/)
+
+---
+
+## 2. A Semmelweis Egyetem bemutatta a ChatGPT egészségügyi használatának lehetőségeit és korlátait
+
+**Dátum:** 2026. október 24.  
+**Kategória:** Egészségügyi MI, digitális egészségértés, betegbiztonság
+
+A Semmelweis Egyetem október 24-én közzétett szakmai anyagában dr. Dinya Elek, a Digitális Egészségtudományi Intézet professor emeritusa ismertette a ChatGPT tudatos egészségügyi alkalmazásának lehetőségeit.
+
+Az MI többek között segíthet:
+
+- Orvosi szakkifejezések közérthető magyarázatában.
+- Laboreredmények és zárójelentések jobb megértésében.
+- Panaszok rendszerezésében.
+- Az orvosi konzultációra való felkészülésben.
+
+A szakmai üzenet egyértelmű: az MI által adott válasz nem helyettesíti az orvosi vizsgálatot és a szakmai diagnózist.
+
+**Miért lényeges?**
+
+Az egészségügyi MI-eszközök lakossági használata már a mindennapok része. A biztonságos alkalmazáshoz azonban szükség van az MI korlátainak ismeretére és az egészségügyi szakemberek ellenőrző szerepének megőrzésére.
+
+**Forrás:**
+[Semmelweis Egyetem – Mesterséges intelligencia és egészség: hogyan használjuk biztonságosan a ChatGPT-t? (2026.10.24.)](https://semmelweis.hu/hirek/2026/10/24/mesterseges-intelligencia-es-egeszseg-hogyan-hasznaljuk-biztonsagosan-a-chatgpt-t/)
+
+---
+
+## 3. A magyarok 48 százaléka már használ MI-t pénzügyi vagy biztosítási kérdésekben
+
+**Dátum:** 2026. október 24.  
+**Kategória:** Lakossági MI-használat, pénzügyi technológia, digitális bizalom
+
+Az OVB megbízásából készült, öt országra kiterjedő Ipsos-felmérés szerint a magyar válaszadók 48 százaléka már legalább alkalmanként használ mesterséges intelligenciát pénzügyi vagy biztosítási témákban.
+
+A kutatás fontosabb megállapításai:
+
+- A 18–34 éves magyarok 68 százaléka használ MI-t ilyen kérdésekben.
+- Jelentős pénzügyi döntéseknél a válaszadók 64 százaléka inkább emberi szakértőre támaszkodna.
+- Mindössze 5 százalék választaná inkább az MI-t a szakember helyett.
+- A válaszadók 35 százaléka csak szakértői megerősítés után követne MI által adott befektetési javaslatot.
+
+**Miért lényeges?**
+
+A felmérés alapján Magyarországon az MI gyorsan válik a pénzügyi tájékozódás eszközévé, de a szakértői bizalom továbbra is meghatározó.
+
+Ez kedvezhet az olyan szolgáltatásoknak, amelyek az MI-alapú elemzést emberi tanácsadással és ellenőrzéssel kombinálják.
+
+A felmérés eredményeit önbevalláson alapuló kutatási adatokként érdemes értelmezni.
+
+**Forrás:**
+[Index / MTI – A magyarok mintegy fele előbb fordul a mesterséges intelligenciához pénzügyi kérdésekben, mint szakértőhöz (2026.10.24.)](https://index.hu/gazdasag/2026/10/24/mesterseges-intelligencia-penzugyi-biztonsagi-kerdesek-magyarok-kutatas/)
+
+---
+
+## 4. A Corvinus Egyetemen az MI munkaerőpiaci és társadalmi hatásait kutatják
+
+**Dátum:** 2026. október 21.  
+**Kategória:** Magyar felsőoktatás, MI-kutatás, társadalomtudomány
+
+A Budapesti Corvinus Egyetem kutatásait bemutató, támogatott Telex-tartalom szerint az intézményben nemzetközi együttműködések keretében vizsgálják a mesterséges intelligencia gazdasági és társadalmi következményeit.
+
+Johannes Wachs és kutatócsoportja többek között az MI, a tudás, a földrajzi elhelyezkedés és a munka jövője közötti összefüggésekkel foglalkozik.
+
+A kutatások az adattudományi megközelítéseket társadalmi és gazdasági kérdésekkel kapcsolják össze.
+
+**Miért lényeges?**
+
+Az MI gazdasági hatásainak megértéséhez nem elegendő kizárólag a technológia teljesítményét vizsgálni. A munkahelyek átalakulása, a tudásmegosztás, a regionális különbségek és az emberi együttműködés ugyancsak alapvető kutatási területek.
+
+A magyar kutatóhelyek számára ez lehetőséget teremt arra, hogy nemzetközileg releváns eredményekkel járuljanak hozzá az MI társadalmi hatásainak megértéséhez.
+
+**Forrás:**
+[Telex – AI, hidrogén, emberi viselkedés: határokon átívelő kutatások a Corvinuson (2026.10.21., támogatott tartalom)](https://k8s-cache.telex.hu/tamogatott-tartalom/2026/10/21/ai-hidrogen-emberi-viselkedes-hatarokon-ativelo-kutatasok-a-corvinus-egyetem)
+
+---
+
+# 📊 III. A nap legfontosabb MI-trendjei
+
+| Trend | Nemzetközi fejlemény | Magyar jelentőség |
+|---|---|---|
+| MI-biztonság | Brit biobiztonsági és kibervédelmi beruházások | Hazai kibervédelmi és MI-biztonsági képességek fejlesztése |
+| MI-szabályozás | MI-generált reklámok jelölése | Átlátható MI-használat és vállalati megfelelés |
+| Vállalati MI | OpenAI–Google Cloud együttműködés | Több modell és felhőalapú MI-szolgáltatás közötti választás |
+| MI-kutatás | A nagy nyelvi modellek és az ügynöki rendszerek fejlődése | EMNLP 2026 Budapest, magyar kutatói kapcsolatok |
+| Lakossági alkalmazások | MI az egészségügyben és a mindennapi döntésekben | Egészségértés, pénzügyi tudatosság és emberi ellenőrzés |
+
+---
+
+# 🎯 IV. Záró értékelés
+
+2026. október 24-ének MI-hírei alapján a mesterséges intelligencia fejlődése három, egymással összefüggő területen válik különösen fontossá.
+
+**1. Technológiai versenyképesség**
+
+A fejlett MI-rendszerekhez való hozzáférés, a számítási infrastruktúra és a hazai innovációs képességek egyre nagyobb gazdasági jelentőséget kapnak.
+
+**2. Biztonság és ellenőrizhetőség**
+
+Az MI által feltárt sérülékenységek, az autonóm rendszerek jogosultságai és a generált tartalmak hitelessége egyaránt új szakmai követelményeket támasztanak.
+
+**3. Tudatos társadalmi és vállalati alkalmazás**
+
+A magyarországi példák azt mutatják, hogy az MI már nem kizárólag fejlesztői és kutatói kérdés. Az egészségügyi tájékozódásban, a pénzügyi döntések előkészítésében és a felsőoktatási kutatásokban is megjelenik.
+
+## A nap három legfontosabb tanulsága
+
+- **Nemzetközi szinten:** az MI gazdasági jelentőségével párhuzamosan a biztonsági és nemzeti technológiai képességek is stratégiai prioritássá válnak.
+- **Magyarországon:** a budapesti EMNLP konferencia fontos lehetőség a magyar nyelvtechnológiai kutatás nemzetközi beágyazottságának erősítésére.
+- **A vállalatok számára:** az MI-alapú automatizálás bevezetésekor a termelékenységi előnyök mellett a biztonsági, adatkezelési és emberi ellenőrzési szempontokat is alapvető követelményként kell kezelni.
+
+---
+
+## Módszertani megjegyzés
+
+Az összefoglaló 2026. október 24-i pillanatképet ad. Mivel a vizsgált nap szombatra esett, a jelentősebb aznapi bejelentések mellett az október 21–23. között közzétett, továbbra is releváns hírek is szerepelnek.
+
+A hírekhez minden esetben konkrét, közvetlenül megnyitható forráslink tartozik. A bejelentett beruházások és jövőbeli szolgáltatások nem feltétlenül jelentenek már megvalósult vagy általánosan elérhető megoldásokat.
+
+
+
