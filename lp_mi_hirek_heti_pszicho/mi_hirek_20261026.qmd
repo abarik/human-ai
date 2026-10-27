@@ -1,0 +1,96 @@
+---
+title: "MI és pszichológia – 2026. okt. 19-25."
+author: "OpenAI - ChatGpt"
+date: "2026-10-26"
+---
+
+## Nemzetközi hírek
+
+### 1. A többféle biológiai adat nem javította a depresszió-visszaesés MI-alapú előrejelzését
+
+**Típus:** Lektorált, longitudinális prognosztikai tanulmány  
+**Megjelenés:** 2026. október 21.
+
+A kutatók 564 major depresszióval diagnosztizált páciens kétéves utánkövetési adataiból próbálták előre jelezni a visszaesést. Kilencféle adatforrást – klinikai és pszichometriai változókat, strukturális és funkcionális MRI-t, genetikai, neurokognitív, vér- és bélmikrobiom-adatokat – integráltak gépi tanulással. A legjobb modell kiegyensúlyozott pontossága 64,43% volt, és ezt néhány hagyományos klinikai kockázati tényezővel érte el. A drága, multimodális adatok hozzáadása nem javította a teljesítményt.
+
+**Miért fontos:** Az eredmény óvatosságra int azzal a feltételezéssel szemben, hogy minél több és összetettebb biológiai adat kerül egy modellbe, annál jobb lesz a személyre szabott pszichiátriai előrejelzés.
+
+**Korlátok:** Két németországi helyszín természetes lefolyású kohorszvizsgálata; az adatokat egyetlen kiindulási időpontban vették fel. A mérsékelt pontosság nem elegendő önálló, egyéni klinikai döntésekhez, és külső populáción történő validációra is szükség van.
+
+[Az eredeti tanulmány – JAMA Psychiatry](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2855664)
+
+### 2. Emberi klinikust kapcsoltak be az MI-chatbot által jelzett öngyilkossági kockázat kezelésébe
+
+**Típus:** Lektorált, prospektív megvalósíthatósági tanulmány  
+**Megjelenés:** 2026. október 23.
+
+Egy generatív MI-re épülő mentális egészségi chatbotban olyan protokollt teszteltek, amely a PHQ-9 kérdőív és a beszélgetésekben megjelenő öngyilkossági tartalmak alapján emberi klinikust riasztott. A második, 650 fős szakaszban 172 résztvevőnél összesen 284 riasztás keletkezett, köztük 50 beszélgetésalapú jelzés. A klinikusi kapcsolatfelvétel átlagosan 11,5 percen belül megkezdődött.
+
+**Miért fontos:** A vizsgálat ritka, valós működés közben szerzett adatot szolgáltat arról, hogyan lehet a „human-in-the-loop” elvet konkrét kríziskezelési folyamattá alakítani.
+
+**Korlátok:** A riasztott résztvevőknek csak 42,4%-át sikerült elérni, így a rendszer biztonsága éppen a nem elérhető embereknél maradt bizonytalan. Egykarú, rövid, 30 napos vizsgálat volt; klinikai kimenetekre gyakorolt hatást nem igazolt. A kutatást a chatbotot fejlesztő vállalat finanszírozta, és valamennyi szerző a vállalat alkalmazottja, részvényopciókkal rendelkezik.
+
+[Az eredeti tanulmány – JMIR Formative Research](https://formative.jmir.org/2026/1/e106118)
+
+### 3. Nagy nyelvi modellekkel keresték a serdülők depressziós tüneteinek jeleit a klinikai feljegyzésekben
+
+**Típus:** Lektorált algoritmusfejlesztési és validációs pilotkutatás  
+**Megjelenés:** 2026. október 21.
+
+Három nyelvi modellt – FLAN-T5, Llama 3 és Phi – vizsgáltak abból a szempontból, hogy felismerik-e a PHQ-9-hez kapcsolódó depressziós tüneteket 15–17 évesek szabad szöveges egészségügyi dokumentációjában. A vizsgált konfigurációk közül a FLAN-T5 érte el a legjobb pontosságot: átlagos F1-értéke 0,65, precizitása 0,78 volt. A Llama 3 érzékenyebbnek bizonyult, de gyakran túláltalánosított. A szerzők a modelleket bizonyítékrészletek kiemelésére, nem önálló diagnózis felállítására javasolják.
+
+**Korlátok:** Bár az alapadatbázis 924 serdülőt tartalmazott, a kézi validáció csak 22 beteg 85 feljegyzésére épült. A modellek eltérő promptolási eljárást kaptak, ami megnehezíti közvetlen összehasonlításukat. Egyetlen amerikai gyermekklinika adatait használták, és a címkéket nem több, egymástól független klinikus validálta.
+
+[Az eredeti tanulmány – JMIR Formative Research](https://formative.jmir.org/2026/1/e71614)
+
+### 4. A terapeuták támogatásra elfogadnák az MI-t, az autonóm diagnózist viszont elutasítják
+
+**Típus:** Lektorált kvalitatív tanulmány  
+**Megjelenés:** 2026. október 19.
+
+Tizennyolc brit tanácsadóval és pszichoterapeutával készített interjú szerint az MI elfogadhatósága a terápiás folyamat szakaszától függ. A résztvevők hasznosnak tartották a tünetváltozás követésében, az információk összegzésében és a kezelések személyre szabásának támogatásában, de erősen ellenezték, hogy az MI önálló pszichiátriai diagnózist hozzon. Az elfogadható szerep szerintük a klinikusi ítélet ellenőrzése és kiegészítése, nem annak helyettesítése.
+
+**Korlátok:** Kis, egyetlen brit szakmai szervezetből toborzott és nemileg kiegyensúlyozatlan minta. A résztvevők elképzelt alkalmazásokat értékeltek, nem tényleges klinikai használatot. A beszélgetések előtti MI-bemutató és depressziófelismerési forgatókönyv befolyásolhatta a válaszaikat.
+
+[Az eredeti tanulmány – JMIR Mental Health](https://mental.jmir.org/2026/1/e91884)
+
+### 5. Pszichiátria-specifikus értékelést sürgetnek a klinikumban használt nyelvi modellekhez
+
+**Típus:** Lektorált szakmai nézőpont, nem empirikus tanulmány  
+**Megjelenés:** 2026. október 21.
+
+A JAMA Psychiatry közleménye szerint az LLM-ek klinikai terjedése gyorsabb, mint a biztonságukra és hatásosságukra vonatkozó bizonyítékok gyűjtése. A szerzők úgy érvelnek, hogy az általános, statikus benchmarkok nem tükrözik megfelelően a pszichiátriai használatot, ahol a beteg–klinikus kapcsolat, az egyéni esetösszefüggések, az ismételt beszélgetések és a klinikusi szakértelem egyaránt befolyásolják az eredményt. Közösségi szintű koordinációt és valós használati helyzetekhez kötött értékelést javasolnak.
+
+**Korlátok:** Szakértői állásfoglalás, nem új adatfelvétel vagy szisztematikus áttekintés. Az ajánlott értékelési megközelítések gyakorlati kivitelezhetőségét és betegbiztonsági hatását külön vizsgálatokban kell tesztelni.
+
+[Az eredeti szakmai közlemény – JAMA Psychiatry](https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2855663)
+
+## Magyar vonatkozású hírek
+
+### 1. Pécsi kutatók vizsgálták, hogyan kapcsolódik a korábbi zaklatás az MI felé irányuló agresszív viselkedéshez
+
+**Típus:** Lektorált empirikus tanulmány  
+**Megjelenés:** 2026. október 23.
+
+A Pécsi Tudományegyetem kutatói 289 résztvevőnél mérték a társas szorongást, a korábbi zaklatói és áldozati tapasztalatokat, valamint a társalgási MI felé irányuló, zaklatásszerű viselkedést. A legtöbb ilyen viselkedésről azok számoltak be, akik korábban egyszerre voltak elkövetők és áldozatok. A társas szorongás önmagában nem jelezte előre az MI elleni agressziót; a kapcsolatot a korábbi áldozattá válás közvetítette. A tanulmány szerint a chatbotok társas célpontként működhetnek, amelyekre az emberek korábbi kapcsolati mintáikat is átvihetik.
+
+**Miért fontos:** A kutatás az ember–MI kapcsolatot nem pusztán technológiahasználatként, hanem pszichológiai és társas viselkedési térként vizsgálja.
+
+**Korlátok:** Keresztmetszeti, önbeszámolós kutatás, főként női egyetemi hallgatók részvételével; ezért nem állapítható meg ok-okozati kapcsolat. Az egyes zaklatói csoportok mérete eltért, és a vizsgálat elsősorban szöveges chatbotokra vonatkozott. A tanulmány nem mutatta ki, hogy az MI-vel szembeni agresszió később emberek elleni agresszióhoz vezetne.
+
+[Az eredeti tanulmány – Frontiers in Psychology](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1867609/full)
+
+### 2. Az MTA pszichológiai konferenciáján a természetes és mesterséges intelligenciát is összehasonlították
+
+**Típus:** Intézményi tudományos esemény, nem új empirikus tanulmány  
+**Esemény:** 2026. október 19.
+
+A Barkóczi Ilona emlékére rendezett akadémiai konferencia a motiváció, a tanulás, a kreativitás és a kognitív idegtudomány mai helyzetét tekintette át. A program külön előadást szentelt a természetes és mesterséges intelligencia hasonlóságainak és különbségeinek, valamint annak, mit jelenthet az emberi intelligencia jövője az MI korában.
+
+**Korlátok:** Tudományos konferenciáról van szó, nem új kutatási eredményről. A programleírás nem közöl empirikus adatokat, ezért az elhangzott elméleti állítások érvényességét az előadók mögöttes publikációi alapján lehet megítélni.
+
+[Az MTA hivatalos eseményoldala](https://mta.hu/esemenynaptar/2026-10-19-az-emberi-lelek-termeszettudomanyos-megkozelitese-6369)
+
+## Rövid összkép
+
+A hét eredményei az emberi felügyelet fontosságát két oldalról támasztják alá. A multimodális depressziómodell megmutatta, hogy az összetettebb adat nem feltétlenül jelent jobb egyéni előrejelzést; a chatbotban kipróbált krízisprotokoll pedig azt, hogy a gyors automatikus riasztás önmagában kevés, ha a veszélyeztetett felhasználók többségét nem sikerül elérni. A magyar kutatás eközben arra figyelmeztet, hogy az MI-rendszerekkel folytatott interakciókban az emberek korábbi társas és agressziós mintázatai is megjelenhetnek.
