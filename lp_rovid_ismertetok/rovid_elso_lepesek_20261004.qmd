@@ -9,6 +9,8 @@ link-citations: true
 
 *Az útmutató összeállításában a Claude.ai segítségét kértem.*
 
+Kapcsolódó diasor: [A mesterséges intelligencia ma](online_workshop_20261028_MI_I.html)
+
 Ez az útmutató azoknak szól, akik még egyáltalán nem, vagy csak alkalmanként próbáltak ki a generatív mesterséges intelligencia eszközöket. Nem feltételez semmilyen informatikai előismeretet.
 
 ::: callout-note

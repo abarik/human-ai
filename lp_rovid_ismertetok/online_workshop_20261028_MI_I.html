@@ -1,0 +1,638 @@
+<!doctype html><html lang="hu"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>A mesterséges intelligencia ma</title><style>:root{color-scheme:light;--bg:#f7f8fc;--paper:#ffffff;--fg:#141a2e;--muted:#5f6b85;--line:#e2e6f0;--accent:#4f46e5;--accent-2:#0891b2;--grad:linear-gradient(90deg,#4f46e5,#7c3aed 55%,#06b6d4);--on-accent:#ffffff;--ok:#059669;--warn:#d97706;--danger:#e11d48;--code-bg:#f1f3fa;--tok-comment:#8a93a8;--tok-string:#059669;--tok-number:#c2410c;--tok-keyword:#7c3aed;--stripe:rgba(79,70,229,.04);--glow:rgba(79,70,229,.12);--glow-2:rgba(6,182,212,.12);--dot:rgba(79,70,229,.10);--part-bg:#0e1230;--part-fg:#eef0ff;--part-hi:#67e8f9;--inv-bg:#0e1230;--inv-fg:#e8eaf8;--inv-hi:#67e8f9;--note-bg:#fffbea;--note-fg:#3d3410;--note-line:#ecd98a;--track:rgba(20,26,46,.07);--hover:rgba(79,70,229,.10);--shadow:rgba(20,26,70,.22);--sans:"Inter","Segoe UI Variable","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;--display:"Inter Tight","Inter","Segoe UI Variable Display","Segoe UI",Roboto,Arial,sans-serif;--mono:"JetBrains Mono","Cascadia Code","Fira Code",ui-monospace,Consolas,monospace}*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden}body{background:var(--bg);color:var(--fg);font-family:var(--sans);transition:background-color .4s}.deck{position:absolute;left:50%;top:50%;width:1280px;height:720px;transform:translate(-50%,-50%)}.deck>section{position:absolute;inset:0;display:flex;flex-direction:column;padding:54px 84px 70px;font-size:28px;line-height:1.45;overflow:hidden;opacity:0;visibility:hidden;transform:translateX(30px);transition:opacity .35s ease,transform .35s ease,visibility .35s}.deck>section.past{transform:translateX(-30px)}.deck>section.present{opacity:1;visibility:visible;transform:none}.deck>section>*{flex-shrink:0}h1,h2,h3{font-family:var(--display);font-weight:750;line-height:1.12;margin:0 0 .5em;letter-spacing:-.02em}h2{font-size:44px;color:var(--fg)}h2::after{content:"";display:block;width:64px;height:4px;border-radius:4px;background:var(--grad);margin-top:14px}h3{font-size:20px;font-family:var(--sans);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:.2em 0 .45em}p{margin:0 0 .6em}strong{color:var(--accent);font-weight:650}a{color:var(--accent);text-underline-offset:3px;text-decoration-thickness:1.5px}ul,ol{margin:0 0 .6em;padding-left:1.2em}li{margin:.25em 0}li::marker{color:var(--accent-2)}ol>li::marker{font-family:var(--sans);font-weight:700;font-variant-numeric:tabular-nums}li ul,li ol{font-size:.85em;margin:.15em 0}blockquote{margin:0 0 .7em;padding:.3em 1em;border-left:4px solid;border-image:var(--grad) 1;color:var(--muted);font-style:italic}figure{margin:0 0 .6em;text-align:center}figcaption{color:var(--muted);font-size:.72em;margin-top:.4em}img{max-width:100%;max-height:100%;border-radius:10px}hr{border:0;border-top:1px solid var(--line);margin:.8em 0}math{font-family:"STIX Two Math","Cambria Math","Latin Modern Math","Noto Sans Math",math;font-size:1.05em}math[display=block]{margin:.4em 0 .7em;font-size:1.2em}code{font-family:var(--mono);font-size:.8em;background:var(--code-bg);padding:.08em .35em;border-radius:6px;color:#3730a3}pre{margin:0 0 .7em;background:var(--code-bg);border:1px solid var(--line);border-radius:14px;padding:18px 22px;overflow:auto;position:relative}pre::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:3px;background:var(--grad)}pre code{display:block;padding:0;background:none;color:var(--fg);font-size:20px;line-height:1.55}.tc{color:var(--tok-comment);font-style:italic}.ts{color:var(--tok-string)}.tn{color:var(--tok-number)}.tk{color:var(--tok-keyword);font-weight:600}table{border-collapse:separate;border-spacing:0;width:100%;font-size:.78em;margin:.2em 0 .7em;background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden}caption{caption-side:bottom;text-align:left;color:var(--muted);font-size:.8em;padding-top:.6em}th{text-align:left;padding:.45em .7em;background:color-mix(in srgb,var(--accent) 7%,var(--paper));font-weight:650;color:var(--fg);border-bottom:1px solid var(--line)}td{border-bottom:1px solid var(--line);padding:.4em .7em;vertical-align:top}tbody tr:last-child td{border-bottom:0}tbody tr:nth-child(even){background:var(--stripe)}.title-slide{justify-content:center;padding-left:110px;background:radial-gradient(circle at 86% 16%,var(--glow),transparent 38%),radial-gradient(circle at 70% 92%,var(--glow-2),transparent 34%),radial-gradient(var(--dot) 1.2px,transparent 1.3px) 0 0 / 24px 24px,var(--bg)}.title-slide .title::before{content:"";display:block;width:84px;height:5px;border-radius:5px;background:var(--grad);margin-bottom:26px}.title-slide .title{font-family:var(--display);font-size:62px;font-weight:800;letter-spacing:-.025em;line-height:1.2;max-width:none;padding:.05em 0 .12em;margin-bottom:.45em;background:linear-gradient(100deg,var(--fg) 35%,#4f46e5 75%,#0891b2);-webkit-background-clip:text;background-clip:text;color:transparent}.subtitle{font-size:28px;line-height:1.45;color:var(--muted);margin-bottom:1.7em;max-width:46ch}.author{font-weight:650;margin:0}.institute,.date{color:var(--muted);font-size:21px;margin:.3em 0 0;font-family:var(--sans);letter-spacing:.01em}.part{justify-content:center;padding-left:110px;color:var(--part-fg);background:radial-gradient(circle at 82% 22%,rgba(124,58,237,.35),transparent 40%),radial-gradient(circle at 18% 88%,rgba(6,182,212,.22),transparent 38%),radial-gradient(rgba(255,255,255,.09) 1.2px,transparent 1.3px) 0 0 / 26px 26px,var(--part-bg)}.part h1{font-size:76px;font-weight:800;letter-spacing:-.03em;max-width:15ch}.part h1::before{content:"";display:block;width:90px;height:5px;border-radius:5px;background:var(--grad);margin-bottom:30px}.part p{color:var(--part-hi);font-family:var(--sans);font-weight:500;letter-spacing:.04em;font-size:22px}.part strong,.part a{color:var(--part-hi)}.inverse{color:var(--inv-fg);background:radial-gradient(circle at 85% 15%,rgba(124,58,237,.28),transparent 40%),var(--inv-bg)}.inverse h2{color:var(--inv-fg)}.inverse strong{color:var(--inv-hi)}.inverse li::marker{color:var(--inv-hi)}.inverse code{background:rgba(255,255,255,.08);color:var(--inv-hi)}.center{justify-content:center}.smaller,.deck>section.smaller{font-size:22px}.smaller h2{font-size:38px}.smaller pre code{font-size:17px;line-height:1.45}.scrollable{overflow-y:auto}.absolute{position:absolute}.muted{color:var(--muted)}.small{font-size:.75em}.columns{display:flex;gap:44px;align-items:flex-start;min-height:0}.column{flex:1 1 0;min-width:0}.column[style*="width"]{flex:0 1 auto}.callout{--c:var(--accent);border:1px solid color-mix(in srgb,var(--c) 22%,var(--line));border-left:4px solid var(--c);background:color-mix(in srgb,var(--c) 6%,var(--paper));border-radius:12px;padding:.6em 1em;margin:0 0 .8em;font-size:.86em}.callout>:last-child{margin-bottom:0}.callout-title{font-family:var(--sans);font-size:.76em;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--c);margin:0 0 .3em}.callout-tip{--c:var(--ok)}.callout-warning{--c:var(--warn)}.callout-important{--c:var(--danger)}.callout-caution{--c:var(--accent-2)}.fragment{opacity:0;transform:translateY(8px);transition:opacity .3s,transform .3s}.fragment.visible{opacity:1;transform:none}.notes{display:none}.show-notes .present .notes{display:block;position:absolute;left:24px;right:24px;bottom:24px;z-index:5;background:var(--note-bg);color:var(--note-fg);border:1px solid var(--note-line);border-radius:12px;padding:14px 18px;font-size:20px;line-height:1.4;box-shadow:0 10px 30px -10px var(--shadow)}.show-notes .present .notes>:last-child{margin-bottom:0}.deck>footer{position:absolute;left:84px;bottom:24px;display:flex;align-items:center;gap:10px;font:400 12.5px var(--sans);letter-spacing:.05em;color:var(--muted);opacity:.7;pointer-events:none}.deck>footer::before{content:"";width:18px;height:2px;border-radius:2px;background:var(--grad);opacity:.8}.deck:has(.title-slide.present,.part.present,.inverse.present)>footer{display:none}.progress{position:fixed;left:0;right:0;bottom:0;height:4px;background:var(--track)}.progress i{display:block;height:100%;width:0;background:var(--grad);transition:width .35s}.ctl{position:fixed;right:14px;bottom:12px;display:flex;align-items:center;gap:4px;font:13px var(--sans);font-variant-numeric:tabular-nums;color:var(--muted);opacity:.6;transition:opacity .2s}.ctl:hover{opacity:1}.ctl button{border:0;background:none;font-size:22px;line-height:1;color:inherit;cursor:pointer;padding:2px 8px;border-radius:6px}.ctl button:hover{background:var(--hover)}.widget{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:12px 14px 10px;box-shadow:0 14px 34px -18px var(--shadow)}.widget svg{display:block;width:100%;height:auto}.widget .grid{stroke:var(--line);stroke-width:1}.widget .axis{stroke:var(--fg);stroke-width:1.5}.widget .tick{fill:var(--muted);font:14px var(--sans)}.widget .curve{fill:none;stroke:var(--accent);stroke-width:3.5;stroke-linejoin:round}.widget .ref{fill:none;stroke:var(--muted);stroke-width:2;stroke-dasharray:7 6;opacity:.6}.widget .area{fill:var(--accent);fill-opacity:.15}.widget .mean{stroke:var(--accent-2);stroke-width:2.5;stroke-dasharray:5 5}.widget .label{fill:var(--accent-2);font:600 17px var(--sans)}.legend{display:flex;gap:22px;margin:4px 0 0 46px;font-size:16px;color:var(--muted)}.legend i{display:inline-block;width:24px;vertical-align:middle;margin-right:6px;border-top:4px solid var(--accent)}.legend i.dash{border-top:2px dashed var(--muted)}.controls{display:grid;gap:14px;font-size:20px}.controls label{display:block}.controls label input[type=range]{display:block;margin-top:4px}.controls output{font-family:var(--sans);font-weight:700;font-variant-numeric:tabular-nums;color:var(--accent)}input[type=range]{width:100%;margin:0;accent-color:var(--accent);cursor:pointer}input[type=number],input[type=text]{font:500 17px var(--sans);padding:4px 8px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--fg)}input[type=number]{width:6.5em}.seg{display:inline-flex;gap:2px;padding:3px;margin-left:6px;border:1px solid var(--line);border-radius:999px;background:var(--paper);vertical-align:middle}.seg button{border:0;background:none;border-radius:999px;padding:4px 14px;font:600 16px var(--sans);color:var(--muted);cursor:pointer}.seg button.on{background:var(--grad);color:var(--on-accent)}.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}.stat{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px 16px;position:relative;overflow:hidden}.stat::before{content:"";position:absolute;left:0;top:0;right:0;height:3px;background:var(--grad)}.stat b{display:block;font:750 28px var(--display);letter-spacing:-.01em;font-variant-numeric:tabular-nums;color:#4338ca;padding-bottom:.08em;margin-bottom:.1em;background:linear-gradient(110deg,#3730a3 0%,#7c3aed 18%,#db2777 34%,#0891b2 52%,#4f46e5 70%,#9333ea 86%,#3730a3 100%) 0 0 / 300% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:iris 14s ease-in-out infinite alternate}.stat:nth-child(2n) b{animation-delay:-4s}.stat:nth-child(3n) b{animation-delay:-9s}@keyframes iris{from{background-position:0% 50%}to{background-position:100% 50%}}.stat small{display:block;color:var(--muted);font-size:15px;line-height:1.3}.widget .bar{fill:var(--accent);fill-opacity:.55}.widget .area-2{fill:var(--accent-2);fill-opacity:.25}.widget .dot{fill:var(--accent);stroke:var(--paper);stroke-width:1.5}.widget .title{fill:var(--fg);font:700 17px var(--sans)}.btn{border:1px solid var(--line);background:var(--paper);color:var(--fg);border-radius:999px;padding:6px 16px;font:600 16px var(--sans);cursor:pointer;transition:border-color .15s,color .15s}.btn:hover{border-color:var(--accent);color:var(--accent)}.btn.on{background:var(--grad);border-color:transparent;color:var(--on-accent)}.btn.ok{background:var(--ok);border-color:var(--ok);color:#fff}.btn.bad{background:var(--danger);border-color:var(--danger);color:#fff}.btn:disabled{cursor:default;opacity:.5}.btn.on:disabled,.btn.ok:disabled,.btn.bad:disabled{opacity:1}.grid{display:grid;grid-template-columns:repeat(var(--cols,2),minmax(0,1fr));gap:16px;margin:0 0 .6em}.chip{display:inline-block;font:600 .62em var(--sans);letter-spacing:.04em;padding:.2em .7em;border-radius:999px;color:var(--accent);background:color-mix(in srgb,var(--accent) 9%,var(--paper));border:1px solid color-mix(in srgb,var(--accent) 25%,var(--line));vertical-align:.2em}.grad-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:700}.cite{color:var(--muted);font-size:.72em}.source p{font-size:.7em;line-height:1.38;color:var(--muted);margin:.3em 0 .4em}.source a{color:inherit;text-decoration:none}.source a:hover{color:var(--accent)}.refs{font-size:.68em;line-height:1.35}.refs p{margin:0 0 .45em;padding-left:1.6em;text-indent:-1.6em}@media print{@page{size:1280px 720px;margin:0}html,body{height:auto;overflow:visible;background:none !important}.deck{position:static;transform:none !important;width:auto;height:auto}.deck>section{position:relative;width:1280px;height:720px;opacity:1;visibility:visible;transform:none;break-after:page;print-color-adjust:exact;-webkit-print-color-adjust:exact}:where(.deck>section){background-color:var(--bg)}.fragment{opacity:1;transform:none}.progress,.ctl,.notes,.deck>footer{display:none !important}}@media (prefers-reduced-motion:reduce){*{transition:none !important;animation:none !important}}</style><div class="deck"><section class="title-slide"><h1 class="title">A mesterséges intelligencia ma</h1><p class="subtitle">Mit tudnak a nagy nyelvi modellek 2026 őszén – és hogyan segíthetik az oktatást és a pszichológiai kutatást?</p><p class="author">Abari Kálmán</p><p class="institute">Debreceni Egyetem, Pszichológiai Intézet · online workshop</p><p class="date">2026. október 28.</p></section><section><h2>Miről lesz szó?</h2><div class="grid" style="--cols:3;gap:14px">
+  <div class="stat"><b>01 · Hol tartunk?</b><small style="font-size:17px">2022 novemberétől máig: a modellek megtanultak <strong>kommunikálni</strong>, <strong>gondolkodni</strong> és <strong>cselekedni</strong></small></div>
+  <div class="stat"><b>02 · Mire jó nekünk?</b><small style="font-size:17px">Az MI az <strong>oktatásban</strong> és a <strong>pszichológiai kutatásban</strong> – lehetőségek és kockázatok</small></div>
+  <div class="stat"><b>03 · Eszközök</b><small style="font-size:17px">Chatbotok, ágensek, forrásalapú eszközök, MI-keresők – mikor melyiket?</small></div>
+  <div class="stat"><b>04 · Tanulás</b><small style="font-size:17px">Promptolás és ingyenes képzések: OpenAI, Anthropic, Microsoft, <strong>human-ai</strong></small></div>
+  <div class="stat"><b>05 · Copilot a DE-n</b><small style="font-size:17px">Ingyenes, <strong>védett</strong> hozzáférés egyetemi fiókkal – mit jelent a védettség?</small></div>
+  <div class="stat"><b>06 · Példák</b><small style="font-size:17px">Két teljes oktatói munkafolyamat: tesztkérdések és szakirodalmi összefoglalás</small></div>
+</div>
+<style>
+  /* a diasor saját kiegészítései: csevegőablak, idővonal, kártyák */
+  .chat { background: var(--paper); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 16px 36px -20px var(--shadow); overflow: hidden; font-family: var(--sans) }
+  .chat-head { display: flex; align-items: center; gap: 10px; padding: 9px 14px; border-bottom: 1px solid var(--line); background: #fafbff; font-size: 15px; font-weight: 600 }
+  .chat-head .logo { width: 22px; height: 22px; border-radius: 6px; background: conic-gradient(from 200deg, #0ea5e9, #6366f1, #a855f7, #22c55e, #0ea5e9) }
+  .chat-head .pill { margin-left: auto; display: inline-flex; align-items: center; gap: 5px; font-size: 13px; color: #047857; background: #ecfdf5; border: 1px solid #a7f3d0; padding: 2px 10px; border-radius: 999px }
+  .chat-head .newchat { margin-left: auto; font-size: 13px; font-weight: 500; color: var(--muted); border: 1px solid var(--line); border-radius: 8px; padding: 2px 10px }
+  /* a Copilot Chat jelenlegi védettségjelzője: zöld pajzs pipával */
+  .edp { display: inline-block; width: 1.15em; height: 1.15em; vertical-align: -.2em; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2.2 4.2 5v6.1c0 4.9 3.3 9.2 7.8 10.7 4.5-1.5 7.8-5.8 7.8-10.7V5L12 2.2z' fill='%23107C10'/%3E%3Cpath d='m8.4 12.1 2.5 2.5 4.8-5' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat }
+  .chat-head .edp { width: 22px; height: 22px }
+  .chat-body { padding: 12px 16px; display: grid; align-content: start; gap: 10px; font-size: 16px; line-height: 1.45 }
+  .msg { max-width: 92%; padding: 9px 13px; border-radius: 14px }
+  .msg.user { justify-self: end; background: #eef2ff; border: 1px solid #dfe3fb }
+  .msg.ai { justify-self: start; background: var(--paper); border: 1px solid var(--line) }
+  .msg .file { display: inline-block; font: 600 13px var(--sans); background: var(--paper); border: 1px solid var(--line); border-radius: 8px; padding: 2px 8px; margin-bottom: 6px }
+  .msg table { font-size: 14px; margin: 6px 0 2px; border-radius: 8px }
+  .msg th, .msg td { padding: .25em .5em }
+  .msg p { margin: 0 0 .4em }
+  .chat-input { display: flex; gap: 8px; padding: 9px 14px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted) }
+  .chat-input span { flex: 1; border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px }
+  .typing::after { content: "▍"; animation: blink 1s steps(1) infinite; color: var(--accent) }
+  @keyframes blink { 50% { opacity: 0 } }
+  /* címdia címe: ugyanaz a színjátszó, áramló átmenet, mint a kártyacímeken */
+  .title-slide .title { background: linear-gradient(110deg, #3730a3 0%, #7c3aed 18%, #db2777 34%, #0891b2 52%, #4f46e5 70%, #9333ea 86%, #3730a3 100%) 0 0 / 300% 100%; -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; animation: iris 14s ease-in-out infinite alternate }
+  .phase { font: 700 13px var(--sans); padding: 2px 9px; border-radius: 999px; color: #fff }
+  .ph-k { background: #0891b2 } .ph-g { background: #7c3aed } .ph-c { background: #db2777 }
+  .linkcard { display: block; text-decoration: none; color: var(--fg) }
+  .linkcard:hover { border-color: var(--accent) }
+  .linkcard code { font-size: 13px; white-space: nowrap }
+  .stat code { font-family: var(--sans); font-weight: 600; letter-spacing: .01em }
+</style>
+<script>
+// a diasor ábráinak közös segédfüggvényei
+window.J = {
+  NS: 'http://www.w3.org/2000/svg',
+  fmt: (v, d = 0) => v.toLocaleString('hu-HU', {minimumFractionDigits: d, maximumFractionDigits: d}),
+  el(p, tag, a = {}, text) {
+    const e = document.createElementNS(this.NS, tag);
+    for (const k in a) e.setAttribute(k, a[k]);
+    if (text != null) e.textContent = text;
+    return p.appendChild(e);
+  },
+  clear(svg) { while (svg.firstChild) svg.firstChild.remove(); },
+  seg(id, fn) {
+    const box = document.getElementById(id);
+    box.onclick = e => {
+      const b = e.target.closest('button');
+      if (!b) return;
+      for (const x of box.children) x.classList.toggle('on', x === b);
+      fn(b.dataset);
+    };
+  },
+  // szöveg „begépelése” egy elembe (HTML-darabokra bontva)
+  type(el, html, speed = 6, done) {
+    clearInterval(el._t);
+    const parts = html.match(/<[^>]+>|[^<]/g) || [];
+    let i = 0; el.innerHTML = ''; el.classList.add('typing');
+    el._t = setInterval(() => {
+      for (let k = 0; k < speed && i < parts.length; k++) el.innerHTML += parts[i++];
+      const box = el.closest('.chat-body'); if (box) box.scrollTop = box.scrollHeight;
+      if (i >= parts.length) { clearInterval(el._t); el.innerHTML = html; el.classList.remove('typing'); done && done(); }
+    }, 16);
+  }
+};
+</script><aside class="notes"><p>60 perc: kb. 15 perc helyzetkép, 10 perc oktatás és kutatás, 10 perc eszközök, 5 perc tanulás, 10 perc Copilot, 10 perc példák és kérdések.</p></aside></section><section class="part"><h1>Hol tartunk?</h1><p>2022. november → 2026. október</p></section><section><h2>Három lépés négy év alatt</h2><div class="grid" style="--cols:3;gap:18px;margin-top:6px">
+  <div class="stat" style="padding:16px 18px"><span class="phase ph-k">2022–2024</span><b style="font-size:30px;margin:10px 0 6px">Kommunikál</b><small style="font-size:17px">A modell <strong>érti és létrehozza</strong> a természetes nyelvet: szöveg, majd kép, hang, valós idejű beszélgetés. Sok nyelven, köztük jól magyarul.</small></div>
+  <div class="stat" style="padding:16px 18px"><span class="phase ph-g">2024–2025</span><b style="font-size:30px;margin:10px 0 6px">Gondolkodik</b><small style="font-size:17px">„Gondolkodó” (<em>reasoning</em>) modellek: válasz előtt <strong>lépésenként végiggondolják</strong> a feladatot – matematika, logika, programozás, tervezés.</small></div>
+  <div class="stat" style="padding:16px 18px"><span class="phase ph-c">2025–2026</span><b style="font-size:30px;margin:10px 0 6px">Cselekszik</b><small style="font-size:17px"><strong>Ágensek</strong>: keresnek, böngésznek, fájlokat és programokat kezelnek, többlépéses feladatokat <strong>önállóan</strong> végeznek el, órákon át.</small></div>
+</div><p>A három képesség <strong>egymásra épül</strong>: a mai rendszerek egyszerre beszélgetnek, gondolkodnak és cselekszenek – a kérdés már nem az, <em>tud-e</em> valamit az MI, hanem hogy <strong>mit bízunk rá</strong>, és <strong>hogyan ellenőrizzük</strong>.</p><aside class="notes"><p>A ChatGPT 2022. november 30-án jelent meg; két hónap alatt 100 millió felhasználó. Ma (2026 ősz) a nagy szolgáltatók mindegyike ágens-funkciókat kínál.</p></aside></section><section><h2>Próbálja ki: az idővonal</h2><div style="font:16px var(--sans);margin-bottom:8px">Szakasz: <span class="seg" id="tl-seg"><button class="on" data-p="">mind</button><button data-p="k">kommunikál</button><button data-p="g">gondolkodik</button><button data-p="c">cselekszik</button></span></div>
+<div class="widget" style="padding:10px 14px"><svg id="tl" viewBox="0 0 1100 245" role="img" aria-label="Az MI fejlődésének idővonala 2022 és 2026 között"></svg></div>
+<div class="callout" id="tl-t" style="margin-top:10px;min-height:96px;font-size:20px"><p class="callout-title">Kattintson egy pontra!</p><p>A fontosabb mérföldkövek 2022 novemberétől. A színek a három szakaszt jelölik.</p></div>
+<script>
+(() => {
+  const svg = document.getElementById('tl'), txt = document.getElementById('tl-t');
+  const C = {k: '#0891b2', g: '#7c3aed', c: '#db2777'};
+  const E = [
+    [2022.91, 'k', '2022. nov.', 'ChatGPT', 'Az OpenAI szabadon elérhetővé teszi a ChatGPT-t (GPT-3.5). Két hónap alatt 100 millió felhasználó – a generatív MI „iPhone-pillanata”.'],
+    [2023.2, 'k', '2023. márc.', 'GPT-4, Claude', 'A GPT-4 már képet is ért, és szakmai vizsgákon emberi szinten teljesít; megjelenik az Anthropic Claude-ja. 2023 februárjától a Bing Chat (a későbbi Copilot).'],
+    [2023.95, 'k', '2023. dec.', 'Gemini', 'A Google Gemini-modellcsaládja: eleve „multimodális” (szöveg, kép, hang, videó).'],
+    [2024.38, 'k', '2024. máj.', 'GPT-4o: beszéd', 'Valós idejű hangos beszélgetés, érzelmi hangszínnel, kamerán keresztüli „látással”. A gép–ember kommunikáció természetessé válik.'],
+    [2024.7, 'g', '2024. szept.', 'o1: gondolkodó modell', 'Az OpenAI o1 válasz előtt hosszan „gondolkodik” (belső gondolatmenet). Ugrásszerű javulás matematikában, logikában, programozásban.'],
+    [2024.88, 'c', '2024. okt–nov.', 'Gépkezelés, MCP', 'A Claude képernyőt lát, egeret és billentyűzetet kezel; az MCP szabvány összeköti a modelleket külső eszközökkel és adatforrásokkal.'],
+    [2025.05, 'g', '2025. jan.', 'DeepSeek R1', 'Nyílt, olcsón futtatható gondolkodó modell Kínából – a képesség „demokratizálódik”.'],
+    [2025.12, 'c', '2025. febr.', 'Deep Research', 'Kutatóágensek (2024 végén Gemini, 2025 februárjától ChatGPT, később Claude, Copilot): percek alatt tucatnyi forrást keresnek, olvasnak, és hivatkozott jelentést írnak.'],
+    [2025.6, 'g', '2025. aug.', 'GPT-5', 'Egyetlen rendszer, amely maga dönti el, mikor kell „gondolkodnia”. A gondolkodás alapfunkcióvá válik.'],
+    [2025.85, 'c', '2025. nov.', 'Gemini 3, Claude Opus 4.5', 'Új csúcsmodellek, amelyek már órákig tartó, önálló, többlépéses munkára (pl. programfejlesztésre) képesek.'],
+    [2026.5, 'c', '2026', 'Ágensek a mindennapokban', 'Új csúcsmodell-generáció 2026 őszén: Claude 5, GPT-6, Gemini 4. A Copilot áprilistól ágensként dolgozik a Wordben, az Excelben és a PowerPointban, a ChatGPT és a Claude pedig szintén önállóan készít dokumentumot, táblázatot és prezentációt, és kezeli az e-mailt meg a naptárat.']
+  ];
+  const x = y => 50 + (y - 2022.8) / (2026.7 - 2022.8) * 1000;
+  let flt = '';
+  function draw() {
+    J.clear(svg);
+    J.el(svg, 'line', {x1: 30, x2: 1080, y1: 115, y2: 115, style: 'stroke:var(--line);stroke-width:3'});
+    [2023, 2024, 2025, 2026].forEach(y => { J.el(svg, 'line', {x1: x(y), x2: x(y), y1: 108, y2: 122, style: 'stroke:var(--muted)'}); J.el(svg, 'text', {x: x(y), y: y === 2026 ? 103 : 137, 'text-anchor': 'middle', style: 'font:700 12px var(--sans);letter-spacing:.06em;fill:var(--muted)'}, y); });
+    E.forEach(([t, p, d, n, desc], i) => {
+      const on = !flt || flt === p, g = J.el(svg, 'g', {style: `cursor:pointer;opacity:${on ? 1 : .18}`});
+      const [yd, yn, yl] = [[20, 37, 44], [176, 193, 158], [62, 79, 86], [218, 235, 200]][i % 4];
+      J.el(g, 'line', {x1: x(t), x2: x(t), y1: 115, y2: yl, style: `stroke:${C[p]};stroke-width:1.5;opacity:.45`});
+      J.el(g, 'circle', {cx: x(t), cy: 115, r: 9, style: `fill:${C[p]};stroke:#fff;stroke-width:3`});
+      J.el(g, 'text', {x: x(t), y: yd, 'text-anchor': 'middle', style: `font:700 13px var(--sans);fill:${C[p]}`}, d);
+      J.el(g, 'text', {x: x(t), y: yn, 'text-anchor': 'middle', style: 'font:600 14px var(--sans);fill:var(--fg)'}, n);
+      g.onclick = () => { txt.style.setProperty('--c', C[p]); txt.innerHTML = `<p class="callout-title">${d} · ${n}</p><p>${desc}</p>`; };
+    });
+  }
+  J.seg('tl-seg', o => { flt = o.p; draw(); });
+  draw();
+})();
+</script></section><section><h2>Hogyan „beszél” egy nyelvi modell?</h2><div class="columns"><div class="column" style="width:40%"><div class="smaller"><p>A nagy nyelvi modell (LLM) hatalmas szövegmennyiségen tanult meg egy egyszerű dolgot: <strong>megjósolni a következő szót</strong> (pontosabban szódarabot, <em>tokent</em>).</p><p>Minden lépésben valószínűségi eloszlást ad a lehetséges folytatásokra, és ebből <strong>mintát vesz</strong>.</p><ul><li>A <strong>hőmérséklet</strong> szabályozza a véletlenséget.</li><li>Ugyanarra a kérdésre <strong>más-más</strong> választ kaphatunk.</li><li>A modell <strong>valószínű szöveget</strong> állít elő, nem tényeket „tud” – innen ered a <strong>hallucináció</strong>.</li></ul></div></div><div class="column" style="width:60%"><div class="widget" style="padding:14px 16px">
+<div style="font:15px var(--sans);margin-bottom:8px"><span class="seg" id="nt-seg" style="margin:0"><button class="on" data-i="0">1. mondat</button><button data-i="1">2. mondat</button><button data-i="2">3. mondat</button></span></div>
+<p id="nt-s" style="font-size:22px;margin:0 0 10px;min-height:2.6em"></p>
+<div id="nt-bars" style="display:grid;gap:5px;font:15px var(--sans)"></div>
+<div class="controls" style="grid-template-columns:1fr auto;align-items:end;font-size:16px;margin-top:10px">
+  <label>Hőmérséklet: <output id="nt-o">1,0</output><input id="nt-t" type="range" min="0.1" max="2" step="0.1" value="1"></label>
+  <button class="btn" id="nt-b">Következő szó →</button>
+</div>
+</div>
+<script>
+(() => {
+  const S = [
+    ['A pszichológia a viselkedés és a mentális', [['folyamatok', .62], ['működés', .14], ['állapotok', .09], ['egészség', .06], ['élet', .05], ['zene', .02], ['kávé', .02]]],
+    ['A statisztikai próba eredménye szerint a különbség', [['szignifikáns', .48], ['nem', .27], ['jelentős', .12], ['kicsi', .07], ['elhanyagolható', .04], ['lila', .02]]],
+    ['A vizsgaszorongás csökkentésének egyik hatékony módja a', [['relaxáció', .31], ['felkészülés', .24], ['kognitív', .18], ['mozgás', .12], ['légzés', .1], ['kvantumfizika', .05]]]
+  ];
+  let cur = 0;
+  const T = document.getElementById('nt-t'), bars = document.getElementById('nt-bars'), s = document.getElementById('nt-s');
+  const dist = () => { const t = +T.value, w = S[cur][1].map(([n, p]) => [n, Math.pow(p, 1 / t)]), z = w.reduce((a, b) => a + b[1], 0); return w.map(([n, v]) => [n, v / z]); };
+  function draw(pick) {
+    document.getElementById('nt-o').textContent = J.fmt(+T.value, 1);
+    s.innerHTML = S[cur][0] + (pick ? ` <b style="color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,transparent);padding:0 4px;border-radius:4px">${pick}</b>` : ' <span class="muted">…</span>');
+    bars.innerHTML = dist().map(([n, p]) => `<div style="display:grid;grid-template-columns:120px 1fr 52px;gap:8px;align-items:center"><span>${n}</span><span style="height:16px;border-radius:8px;background:var(--line)"><i style="display:block;height:100%;width:${(p * 100).toFixed(1)}%;border-radius:8px;background:${n === pick ? 'var(--grad)' : 'color-mix(in srgb, var(--accent) 45%, var(--paper))'}"></i></span><span style="font-family:var(--sans);text-align:right">${J.fmt(p * 100, 0)}%</span></div>`).join('');
+  }
+  document.getElementById('nt-b').onclick = () => { let r = Math.random(), acc = 0; for (const [n, p] of dist()) { acc += p; if (r <= acc) return draw(n); } };
+  T.oninput = () => draw();
+  J.seg('nt-seg', o => { cur = +o.i; draw(); });
+  draw();
+})();
+</script><div class="source"><p>Szemléltető, kitalált valószínűségek.</p></div></div></div></section><section class="smaller"><h2>Gondolkodó modellek: „lassú gondolkodás” a gépben</h2><div class="columns"><div class="column" style="width:52%"><ul><li>2024 szeptemberétől a modellek válasz előtt <strong>belső gondolatmenetet</strong> generálnak: részcélokra bontanak, ellenőriznek, visszalépnek.</li><li>A gondolkodási idő <strong>beállítható</strong>: több idő → jobb eredmény bonyolult feladatoknál, de lassabb és drágább.</li><li>Ma már egyetlen rendszer <strong>maga dönti el</strong>, mikor kell „gondolkodnia”.</li></ul></div><div class="column" style="width:48%"><div class="chat">
+  <div class="chat-head"><span class="logo"></span>Gondolkodó modell</div>
+  <div class="chat-body">
+    <div class="msg user">Egy kísérletben 3 csoport van, csoportonként 12 fő. Hány páros összehasonlítás kell a csoportok között, és mi lesz a Bonferroni-korrigált α, ha α = 0,05?</div>
+    <div class="msg ai" style="background:#faf5ff;border-color:#e9d5ff;font-size:14px;color:#6b21a8">
+      <b style="font-family:var(--sans)">▾ Gondolkodás (4 mp)</b><br>
+      3 csoport → párok: C(3,2) = 3 · a csoportlétszám itt nem számít · Bonferroni: α / m = 0,05 / 3 = 0,0167 · ellenőrzés: 3 · 0,0167 ≈ 0,05 ✓
+    </div>
+    <div class="msg ai"><b>3</b> páros összehasonlítás kell (A–B, A–C, B–C), a korrigált szint <b>α ≈ 0,0167</b>. A csoportonkénti 12 fő a próba erejét befolyásolja, a korrekciót nem.</div>
+  </div>
+</div></div></div></section><section><h2>Ágensek: a modell cselekszik</h2><div class="columns"><div class="column" style="width:40%"><div class="smaller"><p>A <strong>chatbot</strong> egy kérdésre egy választ ad. Az <strong>ágens</strong> célt kap, és azt <strong>önállóan, több lépésben</strong> valósítja meg: tervez, <strong>eszközöket</strong> használ (keresés, böngésző, fájlok, programkód), az eredményt ellenőrzi, és szükség esetén újratervez.</p><p>Eszközök: <em>Deep Research</em> (kutatási jelentés), <em>ChatGPT agent</em>, <em>Claude</em> (Cowork, Code), <em>Copilot</em> ágensei (Researcher, Analyst), <em>Gemini</em> ágens mód.</p><p><strong>Az emberi felügyelet</strong> itt még fontosabb: az ágens hibázhat, és a hibát több lépésen át „viheti tovább”.</p></div></div><div class="column" style="width:60%"><div class="widget" style="padding:14px 16px">
+<p style="font:600 17px var(--sans);margin:0 0 8px">Feladat: <i>„Gyűjtsd össze a vizsgaszorongás csökkentéséről szóló 2020 utáni metaanalíziseket, és készíts belőlük összefoglaló táblázatot!”</i></p>
+<div style="font:15px var(--sans);margin-bottom:8px"><span class="seg" id="ag-seg" style="margin:0"><button class="on" data-m="c">chatbot</button><button data-m="a">ágens</button></span> <button class="btn" id="ag-b" style="padding:3px 12px;font-size:14px">következő lépés ▸</button></div>
+<div id="ag" style="display:grid;gap:6px;font:16px var(--sans);min-height:250px"></div>
+</div>
+<script>
+(() => {
+  const STEP = {
+    c: [['💬', 'Válasz emlékezetből', 'Felsorol néhány metaanalízist – a hivatkozások egy része pontatlan vagy kitalált lehet, és nincs friss keresés.', 'warn']],
+    a: [['🗺️', 'Tervezés', 'Részfeladatok: keresőkifejezések, adatbázisok, beválogatási szempontok, táblázat oszlopai.', ''],
+        ['🔎', 'Keresés', '14 keresés a weben és szakirodalmi adatbázisokban; 37 találat.', ''],
+        ['📄', 'Olvasás', 'A 11 releváns tanulmány absztraktjának és módszertanának feldolgozása.', ''],
+        ['🧮', 'Összegzés', 'Táblázat: szerzők, év, k, N, beavatkozás típusa, hatásnagyság (g).', ''],
+        ['✅', 'Ellenőrzés', 'A DOI-k feloldása, a duplikátumok kiszűrése, a hatásnagyságok összevetése a forrással.', 'ok'],
+        ['📝', 'Jelentés', 'Hivatkozott összefoglaló + táblázat – amit a kutatónak még át kell néznie.', 'ok']]
+  };
+  let m = 'c', k = 0;
+  const box = document.getElementById('ag');
+  function draw() {
+    box.innerHTML = STEP[m].slice(0, k + 1).map(([i, h, d, c]) => `<div style="display:grid;grid-template-columns:34px 1fr;gap:8px;align-items:start;padding:7px 10px;border:1px solid var(--line);border-radius:10px;background:${c === 'ok' ? '#ecfdf5' : c === 'warn' ? '#fffbeb' : 'var(--paper)'}"><span style="font-size:20px">${i}</span><span><b>${h}</b><br><span class="muted">${d}</span></span></div>`).join('');
+    document.getElementById('ag-b').disabled = k >= STEP[m].length - 1;
+  }
+  J.seg('ag-seg', o => { m = o.m; k = 0; draw(); });
+  document.getElementById('ag-b').onclick = () => { k = Math.min(k + 1, STEP[m].length - 1); draw(); };
+  draw();
+})();
+</script></div></div></section><section><h2>A korlátok – amiket egy pszichológusnak ismernie kell</h2><div class="grid" style="--cols:4;gap:12px">
+  <div class="stat" style="padding:12px 14px"><b style="font-size:22px">Hallucináció</b><small style="font-size:16px">Magabiztosan állít valótlant. Régebbi modelleknél a generált szakirodalmi hivatkozások <strong>55% (GPT-3.5)</strong>, illetve <strong>18% (GPT-4)</strong> volt kitalált (Walters és Wilder, 2023). Ma ritkább, de <strong>nem nulla</strong>.</small></div>
+  <div class="stat" style="padding:12px 14px"><b style="font-size:22px">Megfelelés</b><small style="font-size:16px">Hajlamos <strong>egyetérteni</strong> a felhasználóval és dicsérni (<em>szikofancia - hízelgő igazodás</em>) – kritikus visszajelzést kifejezetten kérni kell.</small></div>
+  <div class="stat" style="padding:12px 14px"><b style="font-size:22px">Torzítás</b><small style="font-size:16px">A tanítóadatok kulturális és társadalmi <strong>torzításait</strong> örökli – pl. nyugati, angolszász minták túlsúlya.</small></div>
+  <div class="stat" style="padding:12px 14px"><b style="font-size:22px">Adatvédelem</b><small style="font-size:16px">A promptjainkat és a feltöltött fájljainkat a szolgáltató <strong>tárolhatja és tanításra</strong> is felhasználhatja (beállításfüggő). Személyes adatot <strong>ne</strong> adjunk meg.</small></div>
+</div><div class="callout callout-important"><p class="callout-title">Az alapszabály</p><p>Az MI <strong>segédeszköz</strong>: a tartalomért a szerző, a tanításért az oktató <strong>teljes felelősséggel</strong> tartozik – ezt a Debreceni Egyetem MI-irányelvei is rögzítik.</p></div></section><section class="part"><h1>MI az oktatásban és a kutatásban</h1></section><section class="smaller"><h2>Az oktató és a hallgató oldaláról</h2><div class="columns"><div class="column" style="width:50%"><h3>oktatóként</h3><ul><li>tananyag, <strong>feladatok, tesztkérdések</strong> és megoldókulcs készítése</li><li><strong>szakirodalmi összefoglalások</strong>, olvasmányok kivonatolása</li><li>esettanulmányok, szerepjáték-forgatókönyvek (pl. klinikai interjú gyakorlása)</li><li>nehéz fogalmak <strong>többféle magyarázata</strong>, példák</li><li>adminisztráció: e-mailek, jegyzőkönyvek, tematikák</li></ul></div><div class="column" style="width:50%"><h3>hallgatóként</h3><ul><li><strong>személyi tutor</strong>: kérdez, magyaráz, gyakoroltat</li><li>visszajelzés saját szövegre, érvelésre</li><li>statisztikai kód (R, jamovi) magyarázata, hibakeresés</li><li>idegen nyelvű szakirodalom megértése</li></ul><div class="callout callout-warning"><p class="callout-title">De…</p><p>A hallgató könnyen „kiszervezi” a gondolkodást. A cél: az MI <strong>támogassa</strong>, ne <strong>helyettesítse</strong> a tanulást.</p></div></div></div></section><section><h2>MI a pszichológiai kutatásban</h2><div style="font:16px var(--sans);margin-bottom:8px">A kutatási folyamat lépése:
+<span class="seg" id="rs-seg"><button class="on" data-i="0">tervezés</button><button data-i="1">mérőeszköz</button><button data-i="2">adatgyűjtés</button><button data-i="3">elemzés</button><button data-i="4">írás</button></span></div>
+<div class="grid" style="--cols:2;gap:14px">
+  <div class="callout callout-tip" id="rs-a" style="margin:0;min-height:200px"></div>
+  <div class="callout callout-warning" id="rs-b" style="margin:0;min-height:200px"></div>
+</div>
+<script>
+(() => {
+  const R = [
+    ['Irodalomkutatás, hipotézisek, tervezés', 'MI-keresők és Deep Research a szakirodalom feltérképezéséhez; kutatási kérdések finomítása; mintanagyság-számítás.', 'Minden hivatkozást az eredeti forrásban ellenőrizni kell; az összefoglaló „átlagos” képet ad, a friss vagy magyar nyelvű irodalmat kihagyhatja.'],
+    ['Kérdőívek és ingeranyag', 'Itemek generálása és átfogalmazása, fordítás és visszafordítás vázlata, kísérleti helyzetleírások és ingerek változatai.', 'A generált item nem validált: a pszichometriai próbát (reliabilitás, validitás) nem pótolja.'],
+    ['Adatgyűjtés', 'Online kísérletek programozása (PsychoPy, jsPsych), csevegés-alapú interjúk, kódkönyvek.', 'A résztvevőket tájékoztatni kell az MI szerepéről; GDPR, etikai engedély.'],
+    ['Elemzés', 'R- és Python-kód írása és magyarázata, kvalitatív kódolás első köre, eredmények szöveges összefoglalása.', 'A kódot futtatni és érteni kell; a kvalitatív kódolásnál az egyezést emberi kódolóval mérni kell.'],
+    ['Írás és közlés', 'Nyelvi javítás, angol nyelvű szöveg csiszolása, összefoglalók, bírálói válaszlevél vázlata.', 'A DE irányelvei szerint az MI használatát részletesen fel kell tüntetni (eszköz, verzió, cél, prompt); az MI szerző nem lehet.']
+  ];
+  const a = document.getElementById('rs-a'), b = document.getElementById('rs-b');
+  const show = i => { a.innerHTML = `<p class="callout-title">${R[i][0]} – lehetőség</p><p>${R[i][1]}</p>`; b.innerHTML = `<p class="callout-title">Mire figyeljünk?</p><p>${R[i][2]}</p>`; };
+  J.seg('rs-seg', o => show(+o.i)); show(0);
+})();
+</script><div class="source"><p>Részletesebben: <a href="https://dea.lib.unideb.hu/bitstreams/7430580a-b248-4861-aad3-b82b9e1df540/download" target="_blank">Abari, K., &amp; Kurucz, Gy. (2025). A pszichológiai kutatás informatikai háttere és a digitális kompetenciák. In Abari K. &amp; Balázs K. (szerk.), <em>Pszichológiai statisztika, alapismeretek – jamovi és R példákkal</em> (29–60. o.). Debreceni Egyetemi Kiadó.</a></p></div></section><section class="smaller"><h2>Szabályok és keretek</h2><style>
+.rk-lv{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;position:relative}
+.rk-lv .stat{padding:8px 12px}
+.rk-lv .stat small:first-child{font:700 12px var(--sans);letter-spacing:.06em;color:var(--accent)}
+.rk-lv .stat b{font-size:18px;font-family:var(--sans);margin:2px 0}
+.rk-lv .stat small+b+small{font-size:13.5px;line-height:1.3}
+.rk-ax{display:flex;align-items:center;gap:8px;font:600 12px var(--sans);letter-spacing:.05em;color:var(--muted);margin:5px 2px 10px}
+.rk-ax i{flex:1;height:2px;border-radius:2px;background:var(--grad);opacity:.5}
+.rk-doc{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:10px 16px 8px;font:15px/1.35 var(--sans)}
+.rk-doc h4{margin:0 0 6px;font:700 17px var(--sans);display:flex;align-items:baseline;gap:8px}
+.rk-doc h4 small{font:700 11.5px var(--sans);letter-spacing:.06em;color:var(--accent-2)}
+.rk-doc h4 a{margin-left:auto;font:600 12.5px var(--sans);color:var(--accent);text-decoration:none;white-space:nowrap}
+.rk-doc h4 a:hover{text-decoration:underline}
+.rk-doc ul{margin:0;padding-left:1.1em}
+.rk-doc li{margin:0 0 4px}
+</style>
+<div class="rk-lv">
+  <div class="stat"><small>EU</small><b>EU MI-rendelet (AI Act)</b><small>A 4. cikk előírja, hogy az MI-rendszereket alkalmazó intézmények gondoskodjanak munkatársaik megfelelő <strong>MI‑jártasságáról</strong> (<em>AI literacy</em>).</small></div>
+  <div class="stat"><small>MAGYARORSZÁG</small><b>Magyar MI-törvény</b><small>A hazai végrehajtás kerete: az uniós rendelet alkalmazása itthon.</small></div>
+  <div class="stat"><small>EU · ADATVÉDELEM</small><b>GDPR</b><small>A személyes adatok védelme – az MI‑eszközökbe írt adatokra is vonatkozik.</small></div>
+  <div class="stat" style="box-shadow:0 0 0 2px var(--accent-2)"><small style="color:var(--accent-2)">DE · BTK</small><b>Egyetemi és kari szabályzatok</b><small>A hallgatói és oktatói MI-használat <strong>konkrét feltételei</strong>.</small></div>
+</div>
+<div class="rk-ax">TÁGABB KERET<i></i>KONKRÉT FELTÉTELEK ▸</div>
+<div class="grid" style="--cols:2;gap:12px">
+  <div class="rk-doc">
+    <h4><span><small>DEBRECENI EGYETEM · IRÁNYELVEK</small><br>Az egyetem szintjén</span><a href="https://btk.unideb.hu/sites/default/files/inline-files/Ir%C3%A1nyelvek%20a%20mesters%C3%A9ges%20intelligencia%20alap%C3%BA%20rendszerek%20haszn%C3%A1lat%C3%A1hoz%20a%20Debreceni%20Egyetemen_1.pdf" target="_blank" rel="noopener">📄 PDF ↗</a></h4>
+    <ul>
+      <li><strong>Bátorítja</strong> az MI használatát – felelősen, etikusan, átláthatóan; az MI csak <strong>segédeszköz</strong>.</li>
+      <li>A szerző <strong>teljes felelősséggel</strong> tartozik a tartalomért (dolgozat, publikáció, előadás).</li>
+      <li><strong>Ne adjunk meg</strong> személyes, érzékeny vagy bizalmas adatot; védjük a szellemi tulajdont.</li>
+      <li>A használatot <strong>közölni kell</strong>: eszköz, verzió, cél, prompt, kinyert információ.</li>
+      <li>Az MI-felismerők tévedhetnek: szankció helyett a tudás <strong>szóbeli ellenőrzése</strong> (pl. szakdolgozat védésén).</li>
+    </ul>
+  </div>
+  <div class="rk-doc">
+    <h4><span><small>DE BTK · KARI ÁLLÁSFOGLALÁS · 2023. SZEPT. 25.</small><br>A kar szintjén</span><a href="https://btk.unideb.hu/sites/default/files/inline-files/Kari%20%C3%A1ll%C3%A1sfoglal%C3%A1s%20_23.09.25..pdf" target="_blank" rel="noopener">📄 PDF ↗</a></h4>
+    <ul>
+      <li>Nem tiltja, sőt <strong>ösztönzi</strong> a szabályoknak és a tudományetikának megfelelő használatot.</li>
+      <li>Elvárás az <strong>önálló munka</strong>: a beadott szöveg érdemi része a hallgató saját munkája.</li>
+      <li>A hallgató <strong>felel</strong> a tévedésekért, a tartalom és a következtetések helyességéért.</li>
+      <li><strong>Dokumentálni</strong> kell: milyen célból, hogyan, és mely részek származnak MI‑től.</li>
+      <li>A visszaélés <strong>plágiumnak</strong> minősül; a kurzus szabályait az <strong>oktató</strong> határozza meg: engedi, támogatja vagy tiltja.</li>
+    </ul>
+  </div>
+</div>
+<div class="callout callout-tip" style="margin:10px 0 0;padding:6px 14px;font-size:16px"><p><b>Gyakorlati javaslat:</b> a tematikában <strong>írjuk le</strong>, mit engedünk és mit nem – és miért, valamint azt is, <strong>hogyan</strong> kell dokumentálni az MI-használatot.</p></div></section><section class="part"><h1>Eszközök</h1></section><section><h2>Próbálja ki: az MI-eszközök térképe</h2><div style="font:15px var(--sans);margin-bottom:8px"><span class="seg" id="tm-seg" style="margin:0"><button class="on" data-c="">mind</button><button data-c="a">általános asszisztensek</button><button data-c="g">ágensek</button><button data-c="f">forrásalapú</button><button data-c="k">MI-keresők</button><button data-c="m">egyéb (kép, hang, írás)</button></span> <span class="muted" style="font-size:14px;margin-left:8px">szemléltető, nem teljes lista</span></div>
+<div id="tm" class="grid" style="--cols:4;gap:10px"></div>
+<script>
+(() => {
+  const T = [
+    ['a', 'Microsoft Copilot Chat', 'DE-fiókkal ingyenes, védett; OpenAI-modellekre épül', 1],
+    ['a', 'ChatGPT', 'OpenAI; a legismertebb, sokoldalú; hang, kép, projektek', 0],
+    ['a', 'Claude', 'Anthropic; hosszú szövegek, írás, programozás', 0],
+    ['a', 'Gemini', 'Google; a Google-szolgáltatásokba építve', 0],
+    ['g', 'Deep Research', 'ChatGPT, Gemini, Claude, Copilot: kutatási jelentés forrásokkal', 0],
+    ['g', 'ChatGPT agent / Claude Cowork', 'böngészik, fájlokat kezel, többlépéses feladatot végez', 0],
+    ['g', 'Copilot Researcher, Analyst', 'kutató és adatelemző ágens a Microsoft-környezetben', 0],
+    ['f', 'Gemini Notebook', 'Google (korábban NotebookLM); csak a feltöltött forrásokból válaszol, hivatkozva; tanulási útmutató, kártyák, kvíz', 0],
+    ['f', 'Projektek, Notebooks', 'ChatGPT- és Claude-projektek, Copilot Notebooks: saját anyag mint háttértudás', 0],
+    ['k', 'Perplexity', 'általános MI-kereső, minden állításhoz forrás', 0],
+    ['k', 'Consensus, Elicit, Scite', 'tudományos MI-keresők: kutatási kérdésre szakcikkek, összegzés, idézetkontextus', 0],
+    ['k', 'Semantic Scholar, ResearchRabbit', 'cikkek és hivatkozási hálók feltérképezése', 0],
+    ['m', 'DeepL Write, Grammarly', 'nyelvi javítás, stílus, fordítás', 0],
+    ['m', 'Gamma, Napkin', 'prezentáció- és ábravázlatok szövegből', 0],
+    ['m', 'Whisper-alapú átírók', 'interjúk hanganyagának leiratozása (adatvédelem!)', 0],
+    ['m', 'Képgenerálás', 'ChatGPT, Gemini, Copilot: illusztrációk, ingeranyag-vázlatok', 0]
+  ];
+  const L = {a: 'asszisztens', g: 'ágens', f: 'forrásalapú', k: 'MI-kereső', m: 'egyéb'};
+  const box = document.getElementById('tm');
+  const show = c => { box.innerHTML = T.filter(t => !c || t[0] === c).map(([k, n, d, de]) => `<div class="stat" style="padding:7px 12px${de ? ';box-shadow:0 0 0 2px #10b981' : ''}"><small style="font:700 12px var(--sans);letter-spacing:.06em;color:var(--accent)">${L[k].toUpperCase()}${de ? ' · <span style="color:#059669">DE-n ingyenes</span>' : ''}</small><b style="font-size:16px;margin:2px 0;font-family:var(--sans)">${n}</b><small style="font-size:13px;line-height:1.25">${d}</small></div>`).join(''); };
+  J.seg('tm-seg', o => show(o.c)); show('');
+})();
+</script><aside class="notes"><p>A piac gyorsan változik; a lista szemléltető, nem teljes, és nem ajánlás. Fogyasztói szolgáltatásba ne kerüljön személyes adat.</p></aside></section><section><h2>Melyik eszközt mire?</h2><div class="columns"><div class="column" style="width:45%"><div id="dq" style="display:grid;gap:8px;font:17px var(--sans)"></div>
+<script>
+(() => {
+  const Q = [
+    ['Mi a feladat?', [['szöveget írni, átírni, ötletelni', 'chat'], ['szakirodalmat keresni', 'search'], ['a saját anyagaimból dolgozni', 'source'], ['több lépéses munkát elvégeztetni', 'agent']]],
+    ['Van benne személyes vagy bizalmas adat?', [['nincs', 'no'], ['van (pl. hallgatói adatok, nyers kutatási adat)', 'yes']]]
+  ];
+  const st = {0: 'chat', 1: 'no'}, box = document.getElementById('dq');
+  Q.forEach(([q, opts], i) => {
+    const d = document.createElement('div');
+    d.innerHTML = `<div style="margin-bottom:4px;font-weight:600">${q}</div>` + opts.map(([t, v], k) => `<button class="btn${k === 0 ? ' on' : ''}" data-v="${v}" style="margin:0 6px 6px 0;font-size:14px">${t}</button>`).join('');
+    d.onclick = e => { const b = e.target.closest('button'); if (!b) return; d.querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b)); st[i] = b.dataset.v; upd(); };
+    box.append(d);
+  });
+  const A = {chat: ['Általános asszisztens', 'Copilot Chat, ChatGPT, Claude, Gemini. Adjunk szerepet, kontextust és formátumot!'],
+    search: ['MI-kereső vagy Deep Research', 'Consensus, Elicit, Perplexity; Deep Research áttekintéshez. A hivatkozásokat mindig nyissuk meg!'],
+    source: ['Forrásalapú eszköz', 'Gemini Notebook vagy egy projekt / notebook: csak a feltöltött anyagokból válaszol, hivatkozással.'],
+    agent: ['Ágens', 'Deep Research, ChatGPT agent, Claude, Copilot-ágensek. Adjunk pontos célt és ellenőrizzük a lépéseket!']};
+  function upd() {
+    const [h, t] = A[st[0]];
+    document.getElementById('dq-o').innerHTML = `<p class="callout-title">Javaslat: ${h}</p><p>${t}</p>` + (st[1] === 'yes'
+      ? '<p style="margin-top:8px;color:#b45309"><b>Bizalmas adat esetén:</b> csak az egyetemi, védett Microsoft Copilot Chat jöhet szóba – és ott is csak a szükséges minimum, lehetőleg anonimizálva. Különleges (pl. egészségügyi) adatot ott sem.</p>'
+      : '');
+  }
+  addEventListener('DOMContentLoaded', upd);
+})();
+</script></div><div class="column" style="width:55%"><div class="callout" id="dq-o" style="min-height:230px;font-size:21px"></div><div class="smaller"><p><strong>Ökölszabály:</strong> minél inkább <strong>tényekre</strong> és <strong>forrásokra</strong> van szükség, annál inkább forrásalapú eszköz vagy MI-kereső kell; minél inkább <strong>szövegalkotásra</strong>, annál inkább általános asszisztens.</p></div></div></div></section><section class="part"><h1>Hogyan tanuljuk meg?</h1></section><section><h2>Próbálja ki: jó prompt öt elemből</h2><div class="columns"><div class="column" style="width:44%"><style>
+#pb .pbr b,#pb .pbr input{transition:opacity .2s}
+#pb .pbr.off b,#pb .pbr.off input{opacity:.45}
+#pb .pbr.off input{text-decoration:line-through}
+#pb .pbh{display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none}
+#pb .sw{width:34px;height:19px;border-radius:10px;background:#a5b0c0;position:relative;transition:background .2s;flex:none}
+#pb .sw::after{content:"";position:absolute;top:2px;left:2px;width:15px;height:15px;border-radius:50%;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.25);transition:left .2s}
+#pb .pbr:not(.off) .sw{background:var(--grad)}
+#pb .pbr:not(.off) .sw::after{left:17px}
+#pb-o.empty{background:transparent;border:1.5px dashed #cbd5e1;color:var(--muted);font-style:italic;box-shadow:none}
+</style>
+<div style="display:grid;gap:8px;font:16px var(--sans)" id="pb">
+  <div class="pbr"><div class="pbh" role="switch" aria-checked="true" title="be/ki"><b>Szerep</b><span class="sw"></span></div><input type="text" data-k="0" value="Tapasztalt pszichológia-oktató vagy." style="width:100%;font:15px var(--sans)"></div>
+  <div class="pbr"><div class="pbh" role="switch" aria-checked="true" title="be/ki"><b>Feladat</b><span class="sw"></span></div><input type="text" data-k="1" value="Írj 4 vitaindító kérdést a megerősítési torzításról." style="width:100%;font:15px var(--sans)"></div>
+  <div class="pbr"><div class="pbh" role="switch" aria-checked="true" title="be/ki"><b>Kontextus</b><span class="sw"></span></div><input type="text" data-k="2" value="Elsőéves BA hallgatók, 20 fős szeminárium." style="width:100%;font:15px var(--sans)"></div>
+  <div class="pbr"><div class="pbh" role="switch" aria-checked="true" title="be/ki"><b>Formátum</b><span class="sw"></span></div><input type="text" data-k="3" value="Számozott lista, kérdésenként egy hétköznapi példával." style="width:100%;font:15px var(--sans)"></div>
+  <div class="pbr"><div class="pbh" role="switch" aria-checked="true" title="be/ki"><b>Korlátok</b><span class="sw"></span></div><input type="text" data-k="4" value="Ne adj megoldást; a kérdések legyenek nyitottak, magyar nyelvűek." style="width:100%;font:15px var(--sans)"></div>
+</div></div><div class="column" style="width:56%"><div class="chat">
+  <div class="chat-head"><span class="logo"></span>Az összeállított prompt <span class="pill" id="pb-q">jó</span></div>
+  <div class="chat-body"><div class="msg user" id="pb-o" style="max-width:100%;font-size:17px"></div></div>
+  <div class="chat-input"><span>Tipp: mindig kérjen 2–3 változatot, majd finomítson!</span><button class="btn" id="pb-c" style="font-size:13px;padding:3px 12px">másolás</button></div>
+</div>
+<script>
+(() => {
+  const ins = [...document.querySelectorAll('#pb input')], o = document.getElementById('pb-o'), q = document.getElementById('pb-q');
+  const on = i => !i.parentElement.classList.contains('off');
+  function upd() {
+    const v = ins.map(i => on(i) ? i.value.trim() : '');
+    const n = v.filter(Boolean).length;
+    o.classList.toggle('empty', !n);
+    o.textContent = n ? v.filter(Boolean).join(' ') : 'Még nincs prompt. Kapcsoljon be bal oldalt legalább egy elemet – érdemes a Feladattal kezdeni.';
+    q.textContent = !n ? 'üres · 0/5' : n >= 5 ? 'teljes · 5/5' : n >= 3 ? `közepes · ${n}/5` : `hiányos · ${n}/5`;
+    q.style.cssText = !n ? 'color:#64748b;background:#f1f5f9;border-color:#e2e8f0' : n >= 5 ? '' : n >= 3 ? 'color:#b45309;background:#fffbeb;border-color:#fde68a' : 'color:#be123c;background:#fff1f2;border-color:#fecdd3';
+  }
+  ins.forEach(i => i.oninput = upd);
+  document.querySelectorAll('#pb .pbh').forEach(h => h.onclick = () => {
+    const r = h.parentElement, off = r.classList.toggle('off');
+    h.setAttribute('aria-checked', !off); upd();
+  });
+  document.getElementById('pb-c').onclick = () => { try { navigator.clipboard.writeText(o.textContent); } catch (e) {} };
+  upd();
+})();
+</script><div class="source"><p>Kapcsolja ki (a címkére kattintva) a kontextust vagy a formátumot – a prompt hiányosabb lesz, és a válasz minősége is így „romlik”.</p></div></div></div></section><section><h2>Ingyenes képzések és források</h2><div class="grid" style="--cols:3;gap:12px">
+  <a class="stat linkcard" href="https://academy.openai.com" target="_blank" rel="noopener"><small style="font:700 12px var(--sans);letter-spacing:.06em;color:var(--accent)">OPENAI ACADEMY</small><b style="font-size:18px;font-family:var(--sans);margin:3px 0">ChatGPT-alapok oktatóknak</b><small style="font-size:14px">Rövid, gyakorlati modulok és élő workshopok (pl. <i>ChatGPT Foundations for Teachers</i>). <code>academy.openai.com</code></small></a>
+  <a class="stat linkcard" href="https://academy.claude.com/" target="_blank" rel="noopener"><small style="font:700 12px var(--sans);letter-spacing:.06em;color:var(--accent)">ANTHROPIC · CLAUDE ACADEMY</small><b style="font-size:18px;font-family:var(--sans);margin:3px 0">AI Fluency és társai</b><small style="font-size:14px">Ingyenes kurzusok, pl. <i>AI Fluency: Framework and foundations</i> (a „4D” keret), <i>AI capabilities and limitations</i>. <code>academy.claude.com</code></small></a>
+  <a class="stat linkcard" href="https://learn.microsoft.com/training/modules/enhance-teaching-learning-microsoft-copilot/" target="_blank" rel="noopener"><small style="font:700 12px var(--sans);letter-spacing:.06em;color:var(--accent)">MICROSOFT LEARN · COPILOT ACADEMY</small><b style="font-size:18px;font-family:var(--sans);margin:3px 0">Teaching with Microsoft Copilot</b><small style="font-size:14px">Oktatóknak szóló ingyenes modul; a <i>Copilot Academy</i> a Viva Learningben. <code>learn.microsoft.com</code></small></a>
+  <a class="stat linkcard" href="https://www.perplexity.ai/help-center/en/articles/10354975-getting-started-with-perplexity" target="_blank" rel="noopener"><small style="font:700 12px var(--sans);letter-spacing:.06em;color:var(--accent)">PERPLEXITY · SÚGÓKÖZPONT</small><b style="font-size:18px;font-family:var(--sans);margin:3px 0">Getting started with Perplexity</b><small style="font-size:14px">Hivatalos bevezető: hogyan működik, és hogyan kérdezzünk, hogy jobb, forrásolt választ kapjunk. <code>perplexity.ai/help-center</code></small></a>
+  <a class="stat linkcard" href="https://grow.google/ai-for-educators/" target="_blank" rel="noopener"><small style="font:700 12px var(--sans);letter-spacing:.06em;color:var(--accent)">GOOGLE · GEMINI NOTEBOOK</small><b style="font-size:18px;font-family:var(--sans);margin:3px 0">Generative AI for Educators</b><small style="font-size:14px">Ingyenes, 2 órás Google-kurzus a Gemini és a Gemini Notebook oktatói használatáról. <code>grow.google/ai-for-educators</code></small></a>
+  <a class="stat linkcard" href="https://human-ai.arts.unideb.hu/lp_rovid_ismertetok/rovid_elso_lepesek_20261004.html" target="_blank" rel="noopener" style="box-shadow:0 0 0 2px var(--accent-2)"><small style="font:700 12px var(--sans);letter-spacing:.06em;color:var(--accent-2)">DE · EMBER–MI KUTATÓCSOPORT</small><b style="font-size:18px;font-family:var(--sans);margin:3px 0">Első lépések az MI világában</b><small style="font-size:14px">Rövid magyar bevezető kezdőknek: eszközök, promptolás, ellenőrzés, adatvédelem. <code>human-ai.arts.unideb.hu</code></small></a>
+</div><div class="callout callout-tip"><p class="callout-title">A leghatékonyabb tanulás</p><p>Napi 10 perc <strong>saját feladaton</strong>: ugyanazt a kérést próbálja ki két eszközben, és hasonlítsa össze a válaszokat.</p></div></section><section class="part"><h1>Microsoft Copilot a Debreceni Egyetemen</h1></section><section class="smaller"><h2>Mi ez, és hogyan érem el?</h2><div class="columns"><div class="column" style="width:52%"><ul><li>A <strong>Microsoft Copilot Chat</strong> (korábbi nevén Microsoft 365 Copilot Chat) a DE oktatói és hallgatói számára <strong>egyetemi fiókkal ingyenes</strong>.</li><li>A háttérben élvonalbeli modellek (OpenAI GPT, az egyetemi beállítástól függően Anthropic Claude is) dolgoznak; tud <strong>webes keresést</strong>, <strong>fájlfeltöltést</strong>, képgenerálást és <strong>ágenseket</strong>.</li><li>Böngészőből, a Windows Copilot-alkalmazásából, a Teamsből és az Edge oldalsávjából is elérhető.</li></ul></div><div class="column" style="width:48%"><div style="display:grid;gap:8px;font:17px var(--sans)">
+  <div class="stat" style="padding:9px 14px"><b style="font-size:18px">1. Nyissa meg</b><small style="font-size:15px"><a href="https://m365copilot.com" target="_blank" rel="noopener" style="text-decoration:none"><code>m365copilot.com</code></a> → átirányít a Copilot Chatre (vagy nyissa meg a Copilot-alkalmazást)</small></div>
+  <div class="stat" style="padding:9px 14px"><b style="font-size:18px">2. Jelentkezzen be</b><small style="font-size:15px"><strong>munkahelyi vagy iskolai fiókkal</strong> – az egyetemi azonosítóval, nem személyes Microsoft-fiókkal</small></div>
+  <div class="stat" style="padding:9px 14px;border-color:#a7f3d0"><b style="font-size:18px">3. Ellenőrizze a pajzsot <span class="edp"></span></b><small style="font-size:15px">a zöld pajzsikon felül, az <strong>Új csevegés</strong> gomb mellett jelzi a vállalati adatvédelmet (rámutatva: <i>Enterprise data protection</i>)</small></div>
+</div></div></div><div class="callout callout-warning"><p class="callout-title">Figyelem</p><p>Ha <strong>nincs</strong> <span class="edp"></span> <strong>zöld pajzs</strong>, akkor személyes fiókkal vagy bejelentkezés nélkül használja – ilyenkor a védettség <strong>nem érvényes</strong>.</p></div></section><section class="smaller"><h2>Mit jelent a „védett”?</h2><div class="columns"><div class="column" style="width:52%"><h3>a vállalati adatvédelem (EDP) szerint</h3><ul><li>a promptokra és válaszokra ugyanazok a szerződéses garanciák vonatkoznak, mint az egyetemi <strong>e-mailekre és OneDrive-fájlokra</strong>;</li><li>az adatokat <strong>nem használják</strong> az alapmodellek <strong>tanítására</strong>;</li><li>titkosítás, a szervezetek közötti adatelkülönítés, <strong>GDPR</strong> és EU-adathatár;</li><li>a Microsoft <strong>adatfeldolgozóként</strong> jár el az egyetem nevében.</li></ul><div class="source"><p>Forrás: <a href="https://learn.microsoft.com/en-us/copilot/microsoft-365/enterprise-data-protection" target="_blank">Microsoft Learn: <em>Enterprise data protection in Microsoft Copilot and Microsoft Copilot Chat</em> (2026).</a></p></div></div><div class="column" style="width:48%"><h3>amit a védettség NEM jelent</h3><ul><li><strong>nem</strong> tesz igazzá egy választ – a hallucináció ugyanúgy előfordul;</li><li>a <strong>webes keresések</strong> rövidített kérései a Bing-szolgáltatáshoz kerülnek (azonosítók nélkül, de más adatkezelési feltételekkel);</li><li>harmadik féltől származó <strong>ágensek</strong> saját feltételekkel működhetnek;</li><li><strong>nem</strong> mentesít az egyetemi szabályok alól: <strong>érzékeny személyes adat</strong> (pl. egészségügyi, klinikai adat) <strong>ide sem</strong> kerülhet.</li></ul></div></div></section><section><h2>Próbálja ki: beírhatom-e?</h2><p style="font-size:19px;margin:0 0 12px">Egyetemi fiókkal, <b>védett</b> Copilot Chatben dolgozom. Mehet?<br><span class="muted" style="font:15px/1.3 var(--sans)">A javasolt válaszok <b>vitaindítók</b>, nem végleges szabályok: vitathatók, közösen tisztázandók.</span></p>
+<div id="ok" style="display:grid;gap:8px;font-size:17px;line-height:1.3"></div>
+<p id="ok-s" class="muted" style="font:15px var(--sans);margin:4px 0 0"></p>
+<script>
+(() => {
+  const Q = [
+    ['Saját előadásvázlatom egy fejezete, hogy tesztkérdéseket készítsen belőle.', 'g', 'Saját szellemi termék, nincs benne személyes adat – ideális felhasználás.'],
+    ['Egy hallgatói beadandó szövege, a hallgató nevét és Neptun-kódját kitörölve.', 'y', 'Anonimizálva, a visszajelzés vázlatához elfogadható; jobb, ha a kurzus elején tájékoztatjuk erről a hallgatókat. Az értékelés felelőssége az oktatóé.'],
+    ['A teljes évfolyam névsora jegyekkel, hogy statisztikát készítsen.', 'r', 'Azonosítható személyes adat – a jegyekhez nevek nélkül, kódolt formában adjuk meg az adatot.'],
+    ['Klinikai interjúk leirata, amelyben diagnózisok szerepelnek.', 'r', 'Különleges kategóriájú (egészségügyi) adat: nem kerülhet MI-szolgáltatásba – a védett Copilot Chatbe sem.'],
+    ['Egy publikált cikk PDF-je, hogy foglalja össze a módszertanát.', 'g', 'Rendben, de az összefoglalót vessük össze az eredetivel.'],
+    ['Kitöltött kérdőívek nyers adatai név és e-mail-cím oszloppal.', 'y', 'Az azonosító oszlopokat előbb távolítsuk el (vagy pszeudonimizáljuk); a kutatási etikai engedély feltételeit is nézzük meg.']
+  ];
+  const L = {g: ['mehet', '#059669'], y: ['csak feltétellel', '#d97706'], r: ['nem', '#e11d48']};
+  const box = document.getElementById('ok'), sc = document.getElementById('ok-s'); let ok = 0, n = 0;
+  Q.forEach(([q, a, why]) => {
+    const row = document.createElement('div');
+    row.style.cssText = 'display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:10px';
+    row.innerHTML = `<span>${q}<br><small class="muted" style="font:14px/1.25 var(--sans)"></small></span><span></span>`;
+    Object.entries(L).forEach(([k, [t, c]]) => {
+      const b = document.createElement('button'); b.className = 'btn'; b.textContent = t; b.style.cssText = 'font-size:14px;padding:4px 12px;margin-left:4px';
+      b.onclick = () => { const r = k === a; b.style.cssText += `;background:${r ? '#059669' : '#e11d48'};color:#fff;border-color:transparent`;
+        if (!r) row.querySelectorAll('button').forEach(x => { if (x.textContent === L[a][0]) x.style.cssText += `;box-shadow:0 0 0 2px ${L[a][1]}`; });
+        row.querySelectorAll('button').forEach(x => x.disabled = true); row.querySelector('small').textContent = `${r ? '✓' : '✗'} ${L[a][0].toUpperCase()}: ${why}`; ok += r; n++; sc.textContent = `${n} / ${Q.length} kész, ${ok} egyezik a javaslattal.`; };
+      row.lastChild.append(b);
+    });
+    box.append(row);
+  });
+})();
+</script></section><section class="part"><h1>Példák egyetemi oktatóknak</h1></section><section class="smaller"><h2>1. példa: tesztkérdések az előadásomból</h2><div class="columns"><div class="column" style="width:34%"><div class="smaller"><p><strong>Helyzet:</strong> zárthelyi kérdések kellenek az emlékezetről szóló előadáshoz.</p><p><strong>Munkafolyamat:</strong></p><ol><li>feltöltöm a <strong>saját</strong> előadásvázlatomat;</li><li>pontos prompt: szint, darabszám;</li><li><strong>megoldókulcs</strong> indoklással;</li><li><strong>Moodle XML</strong> → ellenőrzés → import az E-learningbe.</li></ol><p><strong>Időigény:</strong> ~10 perc, ellenőrzéssel.</p></div></div><div class="column" style="width:66%"><style>
+.xmlbox{margin:8px 0 0;padding:8px 10px;border-radius:8px;background:#0f172a;color:#c7d2fe;font:12px/1.45 ui-monospace,Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;overflow:hidden;max-height:118px;max-width:100%;box-sizing:border-box}
+#ex1b{min-width:0;max-width:100%;box-sizing:border-box}
+.chat-body:has(#ex1){overflow-x:hidden}
+.dl{display:inline-flex;align-items:center;gap:6px;margin-top:8px;font:600 13px var(--sans);padding:5px 12px;border-radius:8px;border:1px solid var(--line);background:var(--paper);cursor:pointer;color:var(--accent)}
+.dl:hover{border-color:var(--accent)}
+</style>
+<div class="chat">
+  <div class="chat-head"><span class="logo"></span>Copilot<span class="newchat">＋ Új csevegés</span><span class="edp" title="Enterprise data protection – vállalati adatvédelem"></span></div>
+  <div class="chat-body" style="height:380px;overflow-y:auto">
+    <div class="msg user"><span class="file">📎 eloadas_05_emlekezet.pptx</span><br>Pszichológia BA, elsőéves általános lélektan. A csatolt előadás alapján írj <b>3 feleletválasztós kérdést</b> (4 opció, 1 helyes) a tanulás és az emlékezet témájából. A rossz válaszok tipikus <b>hallgatói tévhiteket</b> tükrözzenek. A végén adj megoldókulcsot rövid indoklással.</div>
+    <div class="msg ai" id="ex1" style="font-size:15px"></div>
+    <div class="msg user" id="ex1-uc" style="display:none"><b>Ellenőriztem:</b> a tartalom rendben van, de a 3. kérdés D) opciója túl könnyen kizárható. Cseréld le egy hihetőbb tévhitre, és nézd át újra: minden kérdésben pontosan egy helyes válasz van-e?</div>
+    <div class="msg ai" id="ex1c" style="font-size:15px;display:none"></div>
+    <div class="msg user" id="ex1-u2" style="display:none">Készíts a kérdésekből letölthető <b>Moodle XML</b> formátumú állományt, hogy importálni tudjam az E-learning kérdésbankjába.</div>
+    <div class="msg ai" id="ex1b" style="font-size:15px;display:none"></div>
+  </div>
+  <div class="chat-input"><span>Üzenet a Copilotnak…</span><button class="btn" id="ex1-b" style="font-size:13px;padding:3px 12px">Küldés ▸</button></div>
+</div>
+<script>
+(() => {
+  const Q = [
+    ['Melyik állítás igaz az emberi emlékezetről?', ['Úgy működik, mint egy videofelvétel: amit egyszer rögzített, azt változatlanul őrzi.', 'A felidézés rekonstruktív: az utólagos információ is torzíthatja az emléket.', 'Az erős érzelmekkel járó („vaku”) emlékek mindig pontosak.', 'Hipnózissal az elfelejtett emlékek pontosan visszahozhatók.'], 1, 'A felidézés rekonstruktív (Loftus félretájékoztatási vizsgálatai); a „videofelvétel”-kép, a vakuemlékek pontossága és a hipnózis ereje gyakori tévhit.'],
+    ['Egy 15 szóból álló lista bemutatása után azonnal kérjük a szabad felidézést. Mely szavakat idézik fel a legnagyobb valószínűséggel?', ['A lista közepén lévőket, mert azokra jut a legtöbb figyelem.', 'Csak az utolsókat; az elsők a rövid távú emlékezetből már kiestek.', 'A lista elején és végén lévőket (sorrendi pozíció hatás).', 'Mindegyiket egyforma valószínűséggel.'], 2, 'Elsőbbségi és frissességi hatás: U alakú sorrendi pozíció görbe.'],
+    ['Mit mutatnak a kutatások arról, ha a tanítást a hallgató „tanulási stílusához” (vizuális, auditív, kinesztetikus) igazítjuk?', ['Jelentősen javítja a tanulási eredményt.', 'Az illeszkedési hipotézist a kontrollált vizsgálatok nem támasztják alá.', 'Csak a vizuális típusú hallgatóknál hatékony.', 'Felnőtteknél hatékony, gyerekeknél nem.'], 1, 'A tanulási stílusok szerinti illesztés az egyik legelterjedtebb oktatási tévhit; kísérletes bizonyíték nincs rá.']
+  ];
+  const L = 'ABCD';
+  const out = Q.map((q, i) => `<p><b>${i + 1}.</b> ${q[0]}<br>${q[1].map((o, k) => `${L[k]}) ${o}`).join('<br>')}</p>`).join('') +
+    `<p><b>Megoldókulcs:</b> ${Q.map((q, i) => `${i + 1}–${L[q[2]]} (${q[3]})`).join(' · ')}</p>`;
+  const fix = 'Hatékony, ha a hallgató maga is meg van győződve a saját tanulási stílusáról.';
+  const chk = `<p><b>Javítva – 3. kérdés D):</b> „${fix}”</p><p>Újraellenőrzés: mindhárom kérdésben pontosan egy helyes válasz van (1–B, 2–C, 3–B); a rossz válaszok tévhitek, nem részben igaz állítások.</p>`;
+  Q[2][1][3] = fix;
+  const esc = t => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const xml = '<?xml version="1.0" encoding="UTF-8"?>\n<quiz>\n' + Q.map((q, i) => `  <question type="multichoice">
+    <name><text>Emlékezet ${String(i + 1).padStart(2, '0')}</text></name>
+    <questiontext format="html"><text><![CDATA[<p>${q[0]}</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>${q[3]}</p>]]></text></generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+${q[1].map((o, k) => `    <answer fraction="${k === q[2] ? 100 : 0}" format="html"><text><![CDATA[<p>${o}</p>]]></text></answer>`).join('\n')}
+  </question>`).join('\n') + '\n</quiz>\n';
+  const el = document.getElementById('ex1'), b = document.getElementById('ex1-b'), u2 = document.getElementById('ex1-u2'), o2 = document.getElementById('ex1b'), uc = document.getElementById('ex1-uc'), oc = document.getElementById('ex1c');
+  let st = 0;
+  b.onclick = () => {
+    if (st === 0) { st = 1; J.type(el, out, 8); b.textContent = 'Következő kérdés ▸'; }
+    else if (st === 1) { st = 2; uc.style.display = ''; oc.style.display = ''; J.type(oc, chk, 6); }
+    else if (st === 2) {
+      st = 3; b.disabled = true; u2.style.display = ''; o2.style.display = '';
+      J.type(o2, '<p>Elkészült a 3 kérdés Moodle XML formátumban (feleletválasztós, egy helyes válasz, keverhető opciók, általános visszajelzéssel). Importálás: <i>Kérdésbank → Importálás → Moodle XML formátum</i>.</p>', 6, () => {
+        o2.insertAdjacentHTML('beforeend', `<div class="xmlbox">${esc(xml)}</div><button class="dl" id="ex1-dl">⬇ emlekezet_kerdesek.xml</button>`);
+        document.getElementById('ex1-dl').onclick = () => {
+          const a = document.createElement('a');
+          a.href = URL.createObjectURL(new Blob([xml], { type: 'application/xml' }));
+          a.download = 'emlekezet_kerdesek.xml'; document.body.appendChild(a); a.click(); a.remove();
+        };
+        const box = o2.closest('.chat-body'); box.scrollTop = box.scrollHeight;
+      });
+    }
+  };
+  el.closest('section').addEventListener('slideenter', () => { if (!el.innerHTML) el.innerHTML = '<span class="muted">Nyomja meg a Küldés gombot!</span>'; });
+})();
+</script></div></div><div class="source"><p>Szemléltető felület és válasz. Az ellenőrzés az oktató dolga; a letöltés gomb valódi, importálható Moodle XML fájlt ad.</p></div></section><section class="smaller"><h2>2. példa: szakirodalmi összefoglalás</h2><div class="columns"><div class="column" style="width:34%"><div class="smaller"><p><strong>Helyzet:</strong> gyors áttekintés kell az <strong>MI-tutorok és a tanulás</strong> szakirodalmáról.</p><p><strong>Munkafolyamat:</strong></p><ol><li>cikkek (PDF) <strong>feltöltése</strong> a védett Copilot Chatbe;</li><li><strong>kivonat</strong> táblázatban;</li><li><strong>szintézis</strong> és kutatási rések;</li><li>minden állítás <strong>ellenőrzése</strong> az eredeti cikkben.</li></ol></div></div><div class="column" style="width:66%"><style>
+.att{display:inline-block;font:600 12px var(--sans);padding:2px 8px;margin:4px 4px 0 0;border-radius:6px;background:#fff;border:1px solid #e2e8f0;color:#475569}
+#ex2 table{font-size:13.5px}
+</style>
+<div class="chat">
+  <div class="chat-head"><span class="logo"></span>Copilot<span class="newchat">＋ Új csevegés</span><span class="edp" title="Enterprise data protection – vállalati adatvédelem"></span></div>
+  <div class="chat-body" style="height:380px;overflow-y:auto">
+    <div class="msg user">Csatoltam három cikket az MI-tutorok és a tanulás kapcsolatáról. Készíts kivonatot <b>táblázatban</b>: szerzők (év), minta, módszer, fő eredmény, korlát. Csak a csatolt cikkekre támaszkodj!<br><span class="att">📄 Bastani_2025.pdf</span><span class="att">📄 Kestin_2025.pdf</span><span class="att">📄 Kosmyna_2025.pdf</span></div>
+    <div class="msg ai" id="ex2" style="font-size:15px"><span class="muted">Nyomja meg a Küldés gombot!</span></div>
+    <div class="msg user" id="ex2-u2" style="display:none">Írj ebből kb. 120 szavas <b>szakirodalmi összefoglalót</b> magyarul, APA-hivatkozásokkal, és nevezz meg két kutatási rést.</div>
+    <div class="msg ai" id="ex2b" style="font-size:15px;display:none"></div>
+  </div>
+  <div class="chat-input"><span>Üzenet a Copilotnak…</span><button class="btn" id="ex2-b" style="font-size:13px;padding:3px 12px">Küldés ▸</button></div>
+</div>
+<script>
+(() => {
+  const r1 = `<table><thead><tr><th>Cikk</th><th>Minta</th><th>Módszer</th><th>Fő eredmény</th><th>Korlát</th></tr></thead><tbody>
+<tr><td>Bastani és mtsai (2025)</td><td>kb. 1000 középiskolás</td><td>terepkísérlet, matematika</td><td>gyakorláskor jobb; az eszköz elvétele után a korlátlan GPT-4-csoport gyengébb a kontrollnál</td><td>egy tantárgy, egy ország</td></tr>
+<tr><td>Kestin és mtsai (2025)</td><td>194 egyetemi hallgató</td><td>keresztezett RCT: MI-tutor vs. aktív tanulás (fizika)</td><td>nagyobb tanulási nyereség rövidebb idő alatt</td><td>rövid távú mérés</td></tr>
+<tr><td>Kosmyna és mtsai (2025)</td><td>54 felnőtt</td><td>EEG, esszéírás: LLM / kereső / segítség nélkül</td><td>gyengébb idegi kapcsoltság, kisebb „szerzői birtoklás”</td><td>kis minta, preprint</td></tr></tbody></table>`;
+  const r2 = `<p>Az MI-alapú tutorálás hatása elsősorban a tervezésen múlik. Egyetemi fizikakurzuson a didaktikai elvek szerint felépített MI-tutor a tantermi aktív tanulásnál nagyobb nyereséget hozott rövidebb idő alatt (Kestin és mtsai, 2025). Középiskolai terepkísérletben a korlátozás nélküli GPT-4 javította a gyakorlás eredményeit, de elvétele után a tanulók gyengébben teljesítettek a kontrollcsoportnál; a tanári szempontok szerint korlátozott változat ezt mérsékelte (Bastani és mtsai, 2025). Egy kis mintás EEG-vizsgálat esszéírásnál gyengébb idegi kapcsoltságot talált LLM-használat mellett (Kosmyna és mtsai, 2025).</p><p><b>Kutatási rések:</b> (1) hosszú távú, késleltetett mérések; (2) társadalomtudományi és pszichológiaoktatási minták.</p>`;
+  let st = 0; const b = document.getElementById('ex2-b');
+  b.onclick = () => {
+    if (st === 0) { st = 1; J.type(document.getElementById('ex2'), r1, 10); b.textContent = 'Következő kérdés ▸'; }
+    else if (st === 1) { st = 2; document.getElementById('ex2-u2').style.display = ''; const o = document.getElementById('ex2b'); o.style.display = ''; J.type(o, r2, 8); b.disabled = true; }
+  };
+})();
+</script></div></div><div class="source"><p>Szemléltető felület és válasz, a Forrásokban szereplő három cikk alapján. Az összefoglaló kiindulópont: minden állítást az eredeti cikkben kell ellenőrizni.</p></div></section><section><h2>Összefoglalás: öt tanács</h2><div class="incremental"><ol><li class="fragment"><strong>Kezdje kicsiben, saját feladaton:</strong> egy feladatsor, egy szakirodalmi összefoglaló, egy e-mail.</li><li class="fragment"><strong>Az egyetemi, védett Copilot Chatet</strong> használja (<a href="https://m365copilot.com">m365copilot.com</a>) – és mindig nézze meg a <span class="edp"></span> zöld pajzsot.</li><li class="fragment"><strong>Ellenőrizzen:</strong> minden tényt, hivatkozást és számot – a felelősség az emberé.</li><li class="fragment"><strong>Tervezze meg a hallgatói használatot:</strong> írja le a tematikában, mit enged, és olyan feladatot adjon, ahol az MI a <strong>tanulást segíti</strong>, nem helyettesíti.</li><li class="fragment"><strong>Tanuljon folyamatosan:</strong> Anthropic, OpenAI, Microsoft képzései – és az <a href="https://human-ai.arts.unideb.hu/" target="_blank" rel="noopener" style="text-decoration:none"><strong>Ember–MI kutatócsoport</strong> honlapja</a>.</li></ol></div></section><section><h2>Források</h2><div class="refs"><p>Abari, K., &amp; Kurucz, Gy. (2025). A pszichológiai kutatás informatikai háttere és a digitális kompetenciák. In Abari K. &amp; Balázs K. (szerk.), <em>Pszichológiai statisztika, alapismeretek – jamovi és R példákkal</em> (29–60. o.). Debreceni Egyetemi Kiadó.</p><p>Bastani, H. és mtsai (2025). Generative AI without guardrails can harm learning. <em>PNAS, 122</em>(26), e2422633122.</p><p>Debreceni Egyetem (é. n.). <em>Irányelvek a mesterséges intelligencia alapú rendszerek használatához a Debreceni Egyetemen.</em></p><p>Debreceni Egyetem Bölcsészettudományi Kar (2023). <em>Állásfoglalás a mesterséges intelligencia alapú rendszerek használatáról a DE BTK-n</em> (2023. szeptember 25.).</p><p>Kestin, G. és mtsai (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. <em>Scientific Reports, 15</em>, 17458.</p><p>Kosmyna, N. és mtsai (2025). Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing task. <em>arXiv:2506.08872</em> (preprint).</p><p>Microsoft (2026). <em>Enterprise data protection in Microsoft Copilot and Microsoft Copilot Chat.</em> Microsoft Learn.</p><p>Walters, W. H., &amp; Wilder, E. I. (2023). Fabrication and errors in the bibliographic citations generated by ChatGPT. <em>Scientific Reports, 13</em>, 14045.</p></div></section><section><style>
+.thx a{color:inherit;text-decoration:none;transition:color .2s}
+.thx a:hover{color:var(--accent)}
+.thx .ant{animation:ant 1.6s ease-in-out infinite alternate}
+@keyframes ant{from{fill:#7c3aed}to{fill:#06b6d4}}
+/* viccek körhintája */
+.jk-stage{position:relative;width:660px;height:292px;margin:12px auto 0}
+.jk-item{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;transform:translateY(8px);transition:opacity .6s,transform .6s;pointer-events:none}
+.jk-item.on{opacity:1;transform:none;pointer-events:auto}
+.jk-nav{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:4px}
+.jk-nav button{border:0;background:none;cursor:pointer;padding:0;font:600 20px/1 var(--sans);color:var(--muted)}
+.jk-nav button:hover{color:var(--accent)}
+.jk-dots{display:flex;gap:8px}
+.jk-dots button{width:9px;height:9px;border-radius:50%;background:var(--line);transition:background .3s,transform .3s}
+.jk-dots button.on{background:var(--accent);transform:scale(1.25)}
+/* 2. vicc: retró terminál */
+.jk-term{width:580px;height:262px;border-radius:12px;background:#0a0f0a;box-shadow:0 18px 40px -18px #000a,inset 0 0 60px #0f02;overflow:hidden;text-align:left;font:17px/1.6 var(--mono);color:#4ade80;text-shadow:0 0 6px #22c55e88;position:relative}
+.jk-term::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,#0000 0 2px,#0003 2px 3px);pointer-events:none}
+.jk-bar{display:flex;align-items:center;gap:7px;padding:8px 12px;background:#1c1f1c;color:#9ca3af;font-size:13px;text-shadow:none}
+.jk-bar i{width:11px;height:11px;border-radius:50%;background:#ef4444}.jk-bar i+i{background:#f59e0b}.jk-bar i+i+i{background:#22c55e;margin-right:8px}
+.jk-term .sh{padding:16px 20px;white-space:pre-wrap}
+.jk-term .l{display:block;opacity:0}
+.jk-item.on .jk-term .l{animation:jkl .01s forwards}
+.jk-item.on .jk-term .l:nth-child(2){animation-delay:.9s}.jk-item.on .jk-term .l:nth-child(3){animation-delay:1.9s}.jk-item.on .jk-term .l:nth-child(4){animation-delay:2.9s}.jk-item.on .jk-term .l:nth-child(5){animation-delay:3.4s}
+@keyframes jkl{to{opacity:1}}
+.jk-term .p{color:#86efac;font-weight:700}.jk-term .a{color:#fde047}
+.jk-term .cur{display:inline-block;width:.6em;height:1.1em;vertical-align:-.2em;background:#4ade80;animation:blink 1s steps(1) infinite}
+</style>
+<div class="thx" style="text-align:center;margin-top:24px">
+  <p style="font:800 64px var(--display);margin:0;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent">Köszönöm a figyelmet!</p>
+  <p style="font-size:26px;color:var(--muted);margin-top:14px">Kérdések, tapasztalatok, ötletek?</p>
+  <p style="font:18px var(--sans);color:var(--muted);margin-top:18px">abari.kalman@arts.unideb.hu · <a href="https://m365copilot.com" target="_blank" rel="noopener">m365copilot.com</a> · <a href="https://human-ai.arts.unideb.hu/" target="_blank" rel="noopener">human-ai.arts.unideb.hu</a></p>
+  <div style="width:220px;height:3px;margin:20px auto 0;border-radius:2px;background:var(--grad);opacity:.55"></div>
+  <div id="jk">
+  <div class="jk-stage">
+    <div class="jk-item on">
+  <svg viewBox="0 0 520 230" width="660" height="292" role="img" aria-label="Rajz: egy robot fekszik a pszichológus díványán" style="display:block;font-family:var(--sans)">
+    <ellipse cx="260" cy="200" rx="250" ry="14" fill="#eef2ff"/>
+    <line x1="10" y1="194" x2="510" y2="194" stroke="#e2e8f0" stroke-width="2"/>
+    <!-- dívány -->
+    <rect x="52" y="180" width="10" height="14" rx="2" fill="#4338ca"/><rect x="282" y="180" width="10" height="14" rx="2" fill="#4338ca"/>
+    <rect x="40" y="118" width="260" height="36" rx="12" fill="#a5b4fc"/>
+    <rect x="40" y="148" width="262" height="34" rx="10" fill="#c7d2fe"/>
+    <rect x="26" y="108" width="42" height="76" rx="15" fill="#818cf8"/>
+    <!-- robot -->
+    <line x1="73" y1="88" x2="73" y2="72" stroke="#475569" stroke-width="3"/>
+    <circle class="ant" cx="73" cy="68" r="6" fill="#7c3aed"/>
+    <rect x="50" y="88" width="46" height="40" rx="10" fill="#f1f5f9" stroke="#475569" stroke-width="2.5"/>
+    <path d="M59 106 q5 5 10 0 M77 106 q5 5 10 0" fill="none" stroke="#475569" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M66 117 q7 4 14 0" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+    <rect x="96" y="112" width="122" height="36" rx="11" fill="#f1f5f9" stroke="#475569" stroke-width="2.5"/>
+    <circle cx="124" cy="130" r="5" fill="#06b6d4"/><circle cx="142" cy="130" r="5" fill="#7c3aed"/><circle cx="160" cy="130" r="5" fill="#db2777"/>
+    <rect x="216" y="118" width="70" height="11" rx="5.5" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+    <rect x="216" y="132" width="70" height="11" rx="5.5" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+    <rect x="284" y="110" width="14" height="22" rx="5" fill="#475569"/><rect x="284" y="128" width="14" height="22" rx="5" fill="#475569"/>
+    <!-- robot buborék -->
+    <rect x="14" y="8" width="232" height="50" rx="14" fill="#fff" stroke="#c7d2fe" stroke-width="2"/>
+    <path d="M70 57 L88 57 L66 78 Z" fill="#fff" stroke="#c7d2fe" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="68" y="54" width="22" height="5" fill="#fff"/>
+    <text x="130" y="29" text-anchor="middle" font-size="15" fill="#1e1b4b">Doktor úr, mostanában</text>
+    <text x="130" y="48" text-anchor="middle" font-size="15" fill="#1e1b4b">gyakran <tspan font-weight="700">hallucinálok</tspan>…</text>
+    <!-- pszichológus -->
+    <rect x="462" y="98" width="10" height="64" rx="4" fill="#94a3b8"/>
+    <rect x="404" y="150" width="70" height="11" rx="4" fill="#94a3b8"/>
+    <rect x="410" y="160" width="6" height="34" fill="#94a3b8"/><rect x="462" y="160" width="6" height="34" fill="#94a3b8"/>
+    <path d="M412 150 H384 V190" fill="none" stroke="#334155" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="404" y="96" width="44" height="58" rx="13" fill="#0891b2"/>
+    <circle cx="426" cy="77" r="18" fill="#fcd9b6"/>
+    <path d="M408 74 q2 -22 22 -20 q16 2 14 18 q-8 -10 -22 -8 q-8 1 -14 10z" fill="#64748b"/>
+    <circle cx="418" cy="79" r="5" fill="none" stroke="#1e293b" stroke-width="1.8"/><circle cx="432" cy="79" r="5" fill="none" stroke="#1e293b" stroke-width="1.8"/>
+    <line x1="423" y1="79" x2="427" y2="79" stroke="#1e293b" stroke-width="1.8"/>
+    <rect x="382" y="108" width="28" height="34" rx="3" fill="#fff" stroke="#94a3b8" stroke-width="1.5" transform="rotate(-8 396 125)"/>
+    <path d="M387 117 h17 M387 124 h17 M387 131 h11" stroke="#cbd5e1" stroke-width="2" transform="rotate(-8 396 125)"/>
+    <line x1="404" y1="128" x2="418" y2="112" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+    <!-- pszichológus buborék -->
+    <rect x="292" y="14" width="216" height="44" rx="14" fill="#fff" stroke="#a5f3fc" stroke-width="2"/>
+    <path d="M410 57 L428 57 L424 68 Z" fill="#fff" stroke="#a5f3fc" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="409" y="54" width="20" height="5" fill="#fff"/>
+    <text x="400" y="41" text-anchor="middle" font-size="15" fill="#0e7490" font-style="italic">Mi ezt konfabulációnak hívjuk.</text>
+  </svg>
+    </div>
+    <div class="jk-item"><div class="jk-term" role="img" aria-label="Terminál-vicc: az MI 12 forrást talált, de arra, hány létezik, csak annyit felel: Remek kérdés!">
+      <div class="jk-bar"><i></i><i></i><i></i>hallgato@de: ~/szakdolgozat</div>
+      <div class="sh"><span class="l"><span class="p">$</span> mi "Gyűjts forrásokat a szakdolgozatomhoz!"</span><span class="l"><span class="a">✔</span> 12 releváns, lektorált forrást találtam.</span><span class="l"><span class="p">$</span> mi "És ebből hány létezik?"</span><span class="l"><span class="a">✔</span> Remek kérdés! :)</span><span class="l"><span class="p">$</span> <span class="cur"></span></span></div>
+    </div></div>
+    <div class="jk-item"><svg viewBox="0 0 520 230" width="660" height="292" role="img" aria-label="Tollrajz: a hallgató szerint csak ötletelésre használta az MI-t, de a dolgozat utolsó mondata: Szeretné, hogy egy rövidebb változatot is megírjak?" style="display:block;font-family:'Comic Sans MS','Segoe Print','Bradley Hand',cursive">
+      <defs><filter id="jk-rough"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="3.2"/></filter></defs>
+      <rect x="4" y="4" width="512" height="222" fill="#fffdf4"/>
+      <g fill="none" stroke="#1f2937" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" filter="url(#jk-rough)">
+        <rect x="6" y="6" width="508" height="218" rx="3"/>
+        <!-- hallgató -->
+        <circle cx="96" cy="112" r="15"/><path d="M90 110 v2 M102 110 v2 M91 119 q5 4 10 0"/>
+        <path d="M96 127 V172 M96 172 L82 210 M96 172 L110 210 M96 140 L76 156 M96 140 L114 126 L120 112"/>
+        <path d="M22 22 Q20 14 32 14 H226 Q236 14 236 24 V58 Q236 68 226 68 H112 L94 88 L96 68 H32 Q20 68 20 58 Z"/>
+        <!-- oktató -->
+        <circle cx="430" cy="106" r="15"/><circle cx="424" cy="105" r="4.5"/><circle cx="437" cy="105" r="4.5"/><path d="M428.5 105 h4 M425 117 h11"/>
+        <path d="M430 121 V170 M430 170 L416 210 M430 170 L444 210 M430 136 L396 142 M430 136 L404 152"/>
+        <path d="M352 112 L398 116 L394 176 L348 172 Z" fill="#fff"/>
+        <path d="M286 22 Q284 14 296 14 H494 Q504 14 504 24 V52 Q504 62 494 62 H436 L430 82 L414 62 H296 Q284 62 284 52 Z"/>
+        <!-- nagyító a dolgozat utolsó sorára -->
+        <circle cx="372" cy="160" r="9" stroke="#dc2626"/>
+        <path d="M363 162 Q346 168 336 172" stroke="#dc2626" stroke-dasharray="5 5"/>
+        <path d="M132 140 L334 140 L332 216 L134 214 Z" fill="#fff"/>
+      </g>
+      <g stroke="#cbd5e1" stroke-width="2" filter="url(#jk-rough)"><path d="M358 124 h30 M358 133 h30 M357 142 h30 M357 151 h22"/></g>
+      <g fill="#1f2937" font-size="15" text-anchor="middle">
+        <text x="128" y="37">Az MI-t csak ötletelésre</text>
+        <text x="128" y="57">használtam, tanár úr!</text>
+        <text x="394" y="44">Értem. És ez itt a végén?</text>
+      </g>
+      <g fill="#1f2937" font-size="13.5" text-anchor="middle">
+        <text x="233" y="160" fill="#6b7280" font-size="12">… és ezzel a dolgozat zárul.</text>
+        <text x="233" y="184">Szeretné, hogy egy rövidebb</text>
+        <text x="233" y="203">változatot is megírjak?</text>
+      </g>
+      <path d="M153 209 q10 -4 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0" fill="none" stroke="#dc2626" stroke-width="1.8" filter="url(#jk-rough)"/>
+    </svg></div>
+  </div>
+  <div class="jk-nav"><button class="jk-prev" aria-label="Előző vicc">‹</button><span class="jk-dots"></span><button class="jk-next" aria-label="Következő vicc">›</button></div>
+  </div>
+</div>
+<script>
+// viccek: lapozás nyilakkal/pöttyökkel, és 15 másodpercenként automatikusan körbe
+(() => {
+  const root = document.getElementById('jk'), items = root.querySelectorAll('.jk-item'), dots = root.querySelector('.jk-dots');
+  let i = 0, t;
+  const go = k => {
+    i = (k + items.length) % items.length;
+    items.forEach((e, n) => e.classList.toggle('on', n === i));
+    [...dots.children].forEach((d, n) => d.classList.toggle('on', n === i));
+    clearInterval(t); t = setInterval(() => go(i + 1), 15000);
+  };
+  const btn = (b, f) => b.onclick = e => { f(); e.currentTarget.blur(); };
+  items.forEach((_, k) => btn(dots.appendChild(document.createElement('button')), () => go(k)));
+  btn(root.querySelector('.jk-prev'), () => go(i - 1));
+  btn(root.querySelector('.jk-next'), () => go(i + 1));
+  go(0);
+})();
+</script></section><footer>A mesterséges intelligencia ma · 2026. október 28.</footer></div><div class="progress"><i></i></div><nav class="ctl"><button class="prev" aria-label="Előző">‹</button><span class="num"></span><button class="next" aria-label="Következő">›</button></nav><script>(()=>{const d=document,b=d.body,deck=d.querySelector('.deck'),S=[...deck.querySelectorAll(':scope>section')],
+bar=d.querySelector('.progress i'),num=d.querySelector('.num');let c=-1;
+const fit=()=>deck.style.transform=`translate(-50%,-50%) scale(${Math.min(innerWidth/1280,innerHeight/720)})`;
+const F=s=>[...s.querySelectorAll('.fragment')];
+function go(n,back){n=Math.max(0,Math.min(S.length-1,n|0));if(n===c)return;c=n;
+S.forEach((s,i)=>{s.classList.toggle('past',i<n);s.classList.toggle('present',i==n);s.classList.toggle('future',i>n)});
+const s=S[n],bg=getComputedStyle(s).backgroundColor;F(s).forEach(f=>f.classList.toggle('visible',!!back));
+b.style.backgroundColor=/^rgba\(.*, 0\)$|transparent/.test(bg)?'':bg;
+bar.style.width=(S.length>1?n/(S.length-1)*100:100)+'%';num.textContent=n+1+' / '+S.length;
+history.replaceState(null,'','#/'+(n+1));s.dispatchEvent(new Event('slideenter',{bubbles:true}))}
+function next(){const f=F(S[c]).find(f=>!f.classList.contains('visible'));f?f.classList.add('visible'):go(c+1)}
+function prev(){const f=F(S[c]).filter(f=>f.classList.contains('visible')).pop();f?f.classList.remove('visible'):go(c-1,1)}
+d.addEventListener('keydown',e=>{const t=e.target,k=e.key;
+if(e.ctrlKey||e.metaKey||e.altKey||t.closest('input,textarea,select,[contenteditable]')&&k!='Escape'||t.closest('button')&&(k==' '||k=='Enter'))return;
+if(['ArrowRight','ArrowDown','PageDown',' '].includes(k))next();
+else if(['ArrowLeft','ArrowUp','PageUp','Backspace'].includes(k))prev();
+else if(k=='Home')go(0);else if(k=='End')go(S.length-1);
+else if(k=='f')d.fullscreenElement?d.exitFullscreen():d.documentElement.requestFullscreen();
+else if(k=='n'||k=='s')b.classList.toggle('show-notes');
+else if(k=='Escape')t.blur&&t.blur();else return;e.preventDefault()});
+d.querySelector('.next').onclick=e=>{next();e.currentTarget.blur()};
+d.querySelector('.prev').onclick=e=>{prev();e.currentTarget.blur()};
+let x0=null;deck.addEventListener('pointerdown',e=>{x0=e.pointerType=='touch'&&!e.target.closest('input')?e.clientX:null});
+deck.addEventListener('pointerup',e=>{if(x0==null)return;const dx=e.clientX-x0;x0=null;if(Math.abs(dx)>50)dx<0?next():prev()});
+const h=()=>+(/\d+/.exec(location.hash)||[1])[0]-1;
+addEventListener('resize',fit);addEventListener('hashchange',()=>go(h()));fit();go(h())})();</script></html>
