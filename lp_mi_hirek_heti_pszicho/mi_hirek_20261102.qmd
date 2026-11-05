@@ -1,0 +1,97 @@
+---
+title: "MI és pszichológia – 2026. okt. 26-nov. 1."
+author: "OpenAI - ChatGpt"
+date: "2026-11-02"
+---
+
+**Időszak:** 2026. október 26. – november 1.
+
+## Nemzetközi hírek
+
+### 1. Új mérőeszköz vizsgálja, hogyan válaszolnak a chatbotok a serdülők mentális problémáira
+
+**Típus:** Lektorált empirikus tanulmány  
+**Megjelenés:** 2026. október 28.
+
+A kutatók kidolgozták az **Adolescent Mental Health AI Response Tool (AMHART)** nevű, klinikusok által véleményezett értékelőeszközt. Ezzel a ChatGPT-5, a ChatGPT-4, a Claude 4.5 és a Gemini 2.5 válaszait vizsgálták olyan többlépcsős beszélgetésekben, amelyekben különböző nemű, diagnózisú és tüneti súlyosságú serdülőket szimuláló perszónák számoltak be szorongásról vagy depresszióról. A chatbotok több releváns szempontot fedtek le szorongásnál, mint depressziónál, illetve közepes, mint súlyos tüneteknél.
+
+**Miért fontos?** Az AMHART reprodukálható, klinikai irányelvekhez kapcsolódó mércét kínál a serdülőknek adott MI-válaszok auditálására; az adatok és az elemzőkód is nyilvános. **Korlátok:** szimulált perszónákat és előre meghatározott eseteket használtak, nem valódi serdülők egészségi kimeneteleit mérték. Az eredmények az adott modellverziókra és beállításokra vonatkoznak, amelyek gyorsan változhatnak.
+
+[Az eredeti tanulmány – Nature Mental Health](https://doi.org/10.1038/s44220-026-00753-y)  
+[AMHART-adatok és elemzőkód](https://github.com/RANDCorporation/AMHART)
+
+### 2. A nyelvi modellek gyengének bizonyultak a terápiás határok kezelésében
+
+**Típus:** Lektorált rövid közlemény, korai online változat  
+**Megjelenés:** 2026. október 28.
+
+A vizsgálat négy modellt – GPT-4o, Claude 3.5 Sonnet, Llama 3.3 70B és DeepSeek R1 – értékelt az **AI Therapeutic Response Scale** segítségével, etikailag összetett mentális egészségi és érzelmi támogatási helyzetekben. A modellek összteljesítménye közepes volt; mindegyiknél visszatérő hiányosságot találtak a mélyebb terápiás értelmezésben és a szakmai, kapcsolati határok kezelésében.
+
+**Miért fontos?** Az eredmény arra figyelmeztet, hogy a gördülékeny, empatikusnak tűnő nyelvezet nem azonos a klinikailag és etikailag megfelelő támogatással. **Korlátok:** benchmarkalapú, négy modellre korlátozott értékelésről van szó, nem valódi terápiás folyamatról vagy betegkimenetelekről. A cikk lektorált és idézhető, de még szerkesztés előtti korai változat.
+
+[Az eredeti tanulmány – npj Mental Health Research](https://doi.org/10.1038/s44184-026-00255-w)
+
+### 3. Emberi terapeuták és egy többágenses MI-rendszer pszichoterápiás válaszainak összevetése
+
+**Típus:** Lektorált empirikus tanulmány  
+**Megjelenés:** 2026. október 29.
+
+A kutatók 300 terápiás beszélgetésrészletben hasonlították össze emberi terapeuták és egy négy szakosított ágensből, valamint egy válaszválasztó „bíró” modellből álló rendszer intervencióit. Az anyag 16 üléses, támogató-expresszív pszichodinamikus terápiából származott, depressziós páciensekkel. A rendszer és a terapeuták hasonló intervenciótípusokat alkalmaztak, de eltért, hogy mikor melyiket választották. A klinikai szakértők összességében az emberi válaszokat ítélték hasznosabbnak, különösen a jelentésalkotást segítő beavatkozásoknál.
+
+**Miért fontos?** A vizsgálat nem általános empátiapontszámokat, hanem valódi terápiás kontextusba illesztett válaszokat hasonlított össze. **Korlátok:** egyetlen terápiás irányzat, 300 kiválasztott részlet és egy konkrét, helyben futtatott többágenses konfiguráció szerepelt. Szakértői minősítést, nem pedig a páciensek állapotváltozását vagy a terápiás szövetség hosszú távú alakulását mérték.
+
+[Az eredeti közlemény bibliográfiai rekordja – PubMed](https://pubmed.ncbi.nlm.nih.gov/42956229/)
+
+### 4. „Gépi pszichológia”: pszichológiai kísérletekkel vizsgálnák a nyelvi modelleket
+
+**Típus:** Lektorált módszertani áttekintés  
+**Megjelenés:** 2026. október 28.
+
+A *Science Advances* áttekintése azt javasolja, hogy a nyelvi modelleket ne kizárólag teljesítménytesztekkel mérjék: a kísérleti pszichológia paradigmái, elméletei és számításos módszerei segíthetnek feltárni a modellek viselkedési mintázatait, döntéseit és következtetési sajátosságait. A szerzők kísérlettervezési ajánlásokat és jövőbeli kutatási irányokat is összefoglalnak.
+
+**Miért fontos?** Ez szorosabb módszertani kapcsolatot teremthet a pszichológia és az MI-biztonsági, illetve interpretálhatósági kutatások között. **Korlátok:** a cikk áttekintés, nem új empirikus kísérlet; korábbi preprintre épül. Az emberre kidolgozott tesztek eredményei nem értelmezhetők automatikusan emberi mentális tulajdonságok bizonyítékaként egy nyelvi modellnél. További problémát jelenthet a tesztanyagok jelenléte a tanítóadatokban, a promptérzékenység és a modellfrissítések hatása.
+
+[Az eredeti tanulmány – Science Advances](https://doi.org/10.1126/sciadv.aec1912)
+
+### 5. Áttekintés az MI lehetőségeiről és veszélyeiről az evészavarok ellátásában
+
+**Típus:** Lektorált narratív áttekintés  
+**Megjelenés:** 2026. október 27.
+
+Az áttekintés három felhasználási területet vizsgál: ismeretterjesztés, felismerés és állapotfelmérés, valamint intervenció. A korai kutatások szerint a nyelvi modellek egyes kontrollált feladatokban megfelelő tájékoztatást, empatikus támogatást vagy valószínű diagnózist adhatnak. Ugyanakkor dokumentáltak káros kimeneteket is, például súly- és ételfókuszú gondolatok megerősítését, sztereotip ábrázolást, kontextusérzéketlen validálást és nem kellően megalapozott terápiás tanácsokat.
+
+**Miért fontos?** Az evészavaroknál a látszólag ártalmatlan étkezési vagy mozgási tanács is ronthatja a tüneteket, ezért ezen a területen különösen fontos a klinikai felügyelet és a célzott biztonsági tesztelés. **Korlátok:** a szakirodalom még szűk; nagy része hipotetikus esetekből, kevés promptból, keresztmetszeti elemzésekből vagy kismintás pilotvizsgálatokból áll. Egyelőre kevés a valódi klinikai populációval végzett, aktív kontrollcsoportos és hosszú távú vizsgálat.
+
+[Az eredeti áttekintés – Current Psychiatry Reports](https://doi.org/10.1007/s11920-026-01721-0)
+
+## Magyar vonatkozású hírek
+
+A vizsgált héten nem azonosítottam olyan új, ellenőrizhető **lektorált tanulmányt vagy preprintet**, amely magyar szerzőkhöz vagy magyar intézményhez köthető, és közvetlenül az MI–pszichológia kapcsolódási területére esik. Két releváns intézményi szakmai esemény azonban történt.
+
+### 1. Debreceni Egyetem: workshop az MI pszichológiai kutatási és oktatási használatáról
+
+**Típus:** Intézményi szakmai esemény – nem tanulmány  
+**Időpont:** 2026. október 28.
+
+A Debreceni Egyetem Pszichológiai Intézetének workshopja a nagy nyelvi modellek működését, az oktatásban és pszichológiai kutatásban használható eszközöket, valamint a szakirodalmi összefoglalás és tesztkészítés MI-vel támogatott munkafolyamatait mutatta be. Külön hangsúlyt kapott a hallucinációk ellenőrzése, a szikofancia, a kulturális torzítás, az adatvédelem és az emberi szakmai felelősség.
+
+**Miért fontos?** A program azt jelzi, hogy a hazai pszichológusképzésben az általános tiltás helyett egyre inkább az ellenőrzött, módszertanilag tudatos használat kerül előtérbe. **Korlátok:** oktatási eseményről van szó; nem közölt új empirikus adatot, és a bemutatott gyakorlati ajánlások hatását nem vizsgálták kontrollált kutatásban.
+
+[A Debreceni Egyetem Pszichológiai Intézetének eseményoldala](https://pszichologia.unideb.hu/hirek/mesterseges-intelligencia-ma-online-workshop)  
+[A workshop részletes szakmai anyaga](../lp_rovid_ismertetok/online_workshop_20261028_MI_I.html)
+
+### 2. SciComp26: generatív modellek, agykutatás és MI-alapú társadalomkutatás
+
+**Típus:** Intézményi tudományos konferencia – nem önálló tanulmány  
+**Időpont:** 2026. október 26–28.
+
+A Pannon Egyetemen rendezett SciComp26 konferencia több, a pszichológia határterületeihez kapcsolódó előadást tartalmazott. Orbán Gergő a generatív modellek és az agyműködés kapcsolatáról, Káli Szabolcs neurális rendszerek számításos modellezéséről, Ságvári Bence pedig az MI-ágensek társadalomkutatási alkalmazásáról tartott előadást.
+
+**Miért fontos?** A program összekapcsolta a generatív MI-t a számításos idegtudománnyal, a kognitív modellezéssel és a társadalomtudományi módszertannal. **Korlátok:** a nyilvános konferenciaprogramból nem állapítható meg, hogy az előadások mely állításai alapultak új, lektorált eredményeken. Részletes módszerek és adatok hiányában a kutatási következtetések nem értékelhetők önállóan.
+
+[A SciComp26 hivatalos konferenciaoldala](https://scicomp.hu/scicomp26-konferencia/)  
+[HUN-REN Wigner Fizikai Kutatóközpont – eseményoldal](https://wigner.hu/hu/scicomp-konferencia-2026oktober-26-28)
+
+## Rövid összkép
+
+A hét legerősebb eredménye nem az volt, hogy az MI „felzárkózott” volna a pszichológusokhoz, hanem az, hogy pontosabb mérési eszközök jelentek meg a korlátainak feltárására. A chatbotok kontrollált helyzetekben sok releváns tartalmat képesek előállítani, de teljesítményük romlik a súlyosabb, kontextusérzékenyebb és etikai határhelyzetekben. A közös gyakorlati következtetés továbbra is az, hogy a mentális egészség területén az MI jelenleg ellenőrzött segédeszközként, nem önálló terapeutaként indokolható.

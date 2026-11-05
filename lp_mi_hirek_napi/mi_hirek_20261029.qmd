@@ -1,0 +1,828 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. október 29."
+author: "OpenAI - ChatGpt"
+date: "2026-10-29"
+---
+
+**Frissítve:** 2026. október 29., 09:55 (CET)  
+**Vizsgált időszak:** Elsősorban 2026. október 27–29.  
+**Tartalom:** 7 nemzetközi hír + 4 magyar vonatkozás  
+**Források:** Google DeepMind, Microsoft, Alphabet, NVIDIA, Anthropic, Reuters, TechCrunch, Budapesti Gazdaságtudományi Egyetem, Óbudai Egyetem, BME és EMNLP.
+
+---
+
+# 📌 VEZETŐI ÖSSZEFOGLALÓ
+
+A mai mesterségesintelligencia-hírekben négy jelentős fejlemény emelkedik ki.
+
+**1. A Google új frontier-modellt mutatott be, kiemelkedő kiberbiztonsági képességekkel.**
+
+A Gemini 4 Carbon a Google szerint jelentős előrelépést hoz a sérülékenységek felismerésében, a programozásban és az összetett, hosszú munkafolyamatokat végrehajtó MI-ügynökök működésében. A vállalat biztonsági megfontolásokból egyelőre csak korlátozott hozzáférést biztosít.
+
+**2. A Microsoft és az Alphabet pénzügyi eredményei megmutatják az MI-beruházások két oldalát.**
+
+A Microsoft Azure üzletága 48%-kal növekedett, a Google Cloud bevétele pedig több mint megduplázódott. Ugyanakkor az Alphabet negatív szabad cash flow-ról számolt be, ami ismét ráirányítja a figyelmet az MI-infrastruktúra finanszírozási igényére.
+
+**3. Új szakaszba lép az MI-alapú automatizáció.**
+
+A Google bemutatta Genie 4 világmodelljét, az NVIDIA új, nyílt súlyú beszédfeldolgozó rendszert adott ki, az Anthropic pedig olyan vállalati eszközöket vezetett be, amelyekkel mérhetőbbé tehető az MI-alkalmazások költsége és eredményessége.
+
+**4. Magyarországon ma négy fontos MI-vonatkozású szakmai program zajlik.**
+
+A Budapesti Gazdaságtudományi Egyetem a marketing MI-alapú átalakulásával foglalkozik, az Óbudai Egyetem AI Act-képzést indít, a BME-n vállalati MI-ügynököket fejlesztő workshopot tartanak, Budapesten pedig lezárul az EMNLP 2026 nemzetközi nyelvtechnológiai konferencia.
+
+---
+
+# 🌍 NEMZETKÖZI MI-HÍREK
+
+## 1. Google DeepMind: megjelent a Gemini 4 Carbon, új csúcs a kiberbiztonsági modellértékeléseken
+
+**Dátum:** 2026. október 28.  
+**Kategória:** Frontier-modellek, kiberbiztonság, MI-ügynökök  
+**Jelentőség:** 🔴 Kiemelt
+
+A Google DeepMind szerdán bemutatta **Gemini 4 Carbon** nevű új frontier-modelljét.
+
+A vállalat elsősorban a kiberbiztonsági, programozási és hosszú távú agentikus feladatokra optimalizálta a rendszert.
+
+A Google szerint a Carbon jelenleg az egyik legerősebb általános célú MI-modell, különösen a valós szoftveres sérülékenységeket vizsgáló feladatokban.
+
+### Fontosabb benchmarkeredmények
+
+| Benchmark | Gemini 4 Carbon |
+|---|---:|
+| Artificial Analysis Intelligence Index v5.0 | 59 pont |
+| SEC-bench Pro – sérülékenységek felismerése | 88,2% |
+| ExploitGym – sérülékenységek kihasználhatóságának vizsgálata | 54,8% |
+| CWE-bench – biztonsági hibák javítása | 71,0% |
+
+A Google közlése szerint a modell többnapos programozási és hibakeresési munkafolyamatokban is képes tartósan dolgozni.
+
+A fejlesztő külön hangsúlyozta a jogosulatlan műveletek visszaszorítását és a prompt injection támadásokkal szembeni ellenállást.
+
+### Korlátozott bevezetés
+
+A Google egyelőre kiválasztott kiberbiztonsági szakembereknek és partnereknek biztosít hozzáférést.
+
+A szélesebb fejlesztői és vállalati bevezetés később várható.
+
+A modell tervezett bevezető API-ára:
+
+- Bemenet: 2 USD / millió token.
+- Kimenet: 10 USD / millió token.
+
+A bevezető időszak után a közölt listaár megduplázódhat.
+
+### Miért lényeges?
+
+Ez az elmúlt napok egyik legfontosabb technológiai fejleménye.
+
+A mesterséges intelligencia egyre hatékonyabban képes felismerni és javítani az összetett szoftveres sérülékenységeket.
+
+Ez jelentősen felgyorsíthatja a vállalatok és a kritikus infrastruktúrák biztonsági ellenőrzését.
+
+Ugyanakkor a fejlett kiberbiztonsági képességek kettős felhasználásúak: a védekező szakemberek mellett támadók számára is értékesek lehetnek.
+
+**A fő tanulság:** a frontier-MI fejlődésében a kiberbiztonság és az autonóm szoftverfejlesztés egyre meghatározóbb területté válik.
+
+A benchmarkeredmények részben a Google saját mérésein alapulnak. A modell valós környezetben nyújtott teljesítményét további független vizsgálatoknak kell megerősíteniük.
+
+**Források:**
+
+[Google DeepMind – Introducing Gemini 4 Carbon, 2026. október 28.](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)
+
+[The Verge – Google launches Gemini 4 Carbon with a significant leap in cybersecurity](https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier)
+
+---
+
+## 2. Microsoft: 92,3 milliárd dolláros negyedéves bevétel, az Azure 48%-kal növekedett
+
+**Dátum:** 2026. október 28.  
+**Kategória:** MI-gazdaság, Microsoft, felhőinfrastruktúra  
+**Jelentőség:** 🔴 Kiemelt
+
+A Microsoft szerdán közzétette a 2027-es pénzügyi év első negyedévének eredményeit.
+
+A vállalat a szeptember 30-án zárult időszakban a várakozásokat meghaladó teljesítményt ért el.
+
+### Legfontosabb pénzügyi adatok
+
+| Mutató | Eredmény |
+|---|---:|
+| Teljes negyedéves árbevétel | 92,3 milliárd USD |
+| Éves árbevétel-növekedés | +19% |
+| Nettó eredmény | 36,6 milliárd USD |
+| Nettó eredmény éves változása | +32% |
+| Microsoft Cloud bevétel | 63,9 milliárd USD |
+| Microsoft Cloud növekedés | +30% |
+| Azure bevételnövekedés | +48% |
+| Azure bevétel | Körülbelül 33,2 milliárd USD |
+
+A Microsoft közölte, hogy kereskedelmi szerződésállományának még nem teljesített része 73%-kal, 677 milliárd dollárra növekedett.
+
+A vállalat szerint az eredményeket jelentős részben a felhőszolgáltatások és az MI-infrastruktúra iránti kereslet támogatta.
+
+Az Azure bevételnövekedése meghaladta az elemzői várakozásokat.
+
+### Miért lényeges?
+
+Az MI-beruházások megtérülésével kapcsolatos befektetői aggodalmak közepette a Microsoft eredményei fontos pozitív visszajelzést jelentenek.
+
+A vállalat egyszerre képes:
+
+- Jelentős MI-infrastruktúrát fejleszteni.
+- Növelni felhőszolgáltatási bevételeit.
+- Magas nyereségességet fenntartani.
+- Hosszú távú vállalati szerződésállományt építeni.
+
+**A legfontosabb következtetés:** az MI-infrastruktúra piacán egyre nagyobb különbség alakulhat ki a stabil készpénztermeléssel rendelkező nagy technológiai vállalatok és a finanszírozásra erősebben ráutalt szereplők között.
+
+**Források:**
+
+[Microsoft – FY27 Q1 Earnings Release, hivatalos pénzügyi beszámoló](https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast)
+
+[Reuters – Microsoft beats quarterly cloud revenue estimates](https://www.marketscreener.com/news/microsoft-beats-quarterly-cloud-revenue-estimates-ce785cd3d980f624)
+
+---
+
+## 3. Alphabet: a Google Cloud bevétele 103%-kal nőtt, de jelentős készpénzkiáramlást okoznak az MI-beruházások
+
+**Dátum:** 2026. október 28.  
+**Kategória:** MI-gazdaság, Alphabet, adatközpontok  
+**Jelentőség:** 🔴 Kiemelt
+
+A Google anyavállalata, az Alphabet szerdán közzétette harmadik negyedéves eredményeit.
+
+A vállalat bevétele éves összevetésben **25%-kal, 127,6 milliárd dollárra emelkedett**.
+
+A legfontosabb növekedési terület a Google Cloud volt.
+
+### Pénzügyi adatok
+
+| Mutató | 2026. III. negyedév |
+|---|---:|
+| Alphabet árbevétel | 127,6 milliárd USD |
+| Árbevétel-növekedés | +25% |
+| Google Cloud bevétel | 30,7 milliárd USD |
+| Google Cloud növekedés | +103% |
+| Nettó eredmény | 26,2 milliárd USD |
+| Szabad cash flow | Körülbelül -9,1 milliárd USD |
+
+A Google Cloud bevételének megduplázódását elsősorban a vállalati MI-infrastruktúra, a felhőszolgáltatások és a TPU-rendszerek iránti kereslet támogatta.
+
+Az Alphabet azt is közölte, hogy:
+
+- A Gemini alkalmazás elérte az egymilliárd felhasználót.
+- Saját modelljeinek API-szolgáltatásai közel 32 milliárd tokent dolgoznak fel percenként.
+- A Google Search lekérdezéseinek éves növekedési üteme ötéves csúcsot ért el.
+
+Ugyanakkor a jelentős beruházások miatt az Alphabet negyedéves szabad cash flow-ja negatív lett.
+
+### Miért lényeges?
+
+A Google Cloud eredménye erős bizonyítéka annak, hogy a vállalati MI-szolgáltatások iránt jelentős kereslet mutatkozik.
+
+Ugyanakkor a negatív cash flow megmutatja, milyen tőkeigényes a növekedés finanszírozása.
+
+A Microsoft és az Alphabet pénzügyi eredményei között ezért fontos különbség látható.
+
+**A fő tanulság:** a befektetők már nemcsak az MI-hez kapcsolódó bevételek növekedését figyelik, hanem azt is, hogy a vállalatok mennyi készpénzt képesek előállítani a hatalmas beruházások mellett.
+
+A negatív szabad cash flow önmagában nem jelent fizetésképtelenséget vagy veszteséges működést.
+
+**Források:**
+
+[Alphabet – Hivatalos 2026. harmadik negyedéves pénzügyi eredmények](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm)
+
+[Reuters – Alphabet's heavy cloud spending drives bigger-than-expected cash burn](https://www.investing.com/news/stock-market-news/alphabets-heavy-cloud-spending-drives-biggerthanexpected-cash-burn-4980612)
+
+---
+
+## 4. Google DeepMind: bemutatták a Genie 4 világmodellt, amely interaktív környezeteket generál
+
+**Dátum:** 2026. október 27.  
+**Kategória:** Generatív MI, szimuláció, robotika  
+**Jelentőség:** 🔴 Kiemelt
+
+A Google DeepMind bemutatta **Genie 4** nevű új világmodelljét.
+
+A fejlesztés különlegessége, hogy a rendszer valós időben képes interaktív, audiovizuális környezeteket generálni.
+
+A Genie 4 nem egyszerűen videót készít.
+
+A felhasználó a létrehozott környezetet folyamatosan módosíthatja.
+
+### Fontosabb képességek
+
+- Interaktív virtuális környezetek létrehozása.
+- Kameramozgás valós idejű módosítása.
+- Időjárás és környezeti feltételek megváltoztatása.
+- Új szereplők és objektumok beillesztése.
+- Környezeti hangok és párbeszédek generálása.
+- Összefüggő eseménysorok szimulálása.
+
+A Google szerint a modell a Gemini rendszerek technológiai fejlesztéseire épül.
+
+A Genie 4 egyelőre korlátozott kutatási hozzáféréssel érhető el.
+
+A vállalat később a Google AI Ultra előfizetők és kiválasztott API-partnerek számára is elérhetővé kívánja tenni.
+
+### Miért lényeges?
+
+A világmodellek fejlődése a generatív MI egyik legfontosabb új kutatási iránya.
+
+A technológia hosszabb távon használható lehet:
+
+- Robotok virtuális betanítására.
+- Autonóm járművek szimulációjára.
+- Ipari környezetek modellezésére.
+- Filmgyártásra.
+- Játékfejlesztésre.
+- Biztonságos MI-ügynökös tesztkörnyezetek kialakítására.
+
+**A fő tanulság:** a mesterséges intelligencia fokozatosan a szövegek, képek és videók generálásától az interaktív, modellezhető virtuális világok előállítása felé fejlődik.
+
+Fontos, hogy a látványos demonstrációk még nem bizonyítják, hogy a modell minden esetben fizikailag pontos szimulációt készít.
+
+**Forrás:**
+
+[Google DeepMind – Introducing Genie 4, hivatalos bejelentés](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/)
+
+---
+
+## 5. NVIDIA: új, 40 nyelvet kezelő, nyílt súlyú beszédfeldolgozó MI-modell jelent meg
+
+**Dátum:** 2026. október 28.  
+**Kategória:** Nyílt modellek, beszédfelismerés, vállalati MI  
+**Jelentőség:** 🟠 Fontos
+
+Az NVIDIA szerdán bemutatta a **Nemotron 3.5 Transcribe** modellt.
+
+A rendszer célja a hangfelvételek automatizált feldolgozásának egyszerűsítése.
+
+### Főbb technikai jellemzők
+
+| Tulajdonság | Nemotron 3.5 Transcribe |
+|---|---|
+| Teljes paraméterszám | Körülbelül 30 milliárd |
+| Aktív paraméterek | Körülbelül 4,3 milliárd |
+| Beszédfelismerés | 40 nyelv |
+| Fordítás | 31 nyelv és az angol között |
+| Beszélők megkülönböztetése | Legfeljebb 8 |
+| Modellsúlyok | Nyíltan elérhetők |
+
+A modell több beszédfeldolgozási feladatot egyetlen rendszerben egyesít.
+
+Képes:
+
+- Beszéd átírására.
+- Beszélők megkülönböztetésére.
+- Hanganyagok fordítására.
+- Felvételekkel kapcsolatos kérdések megválaszolására.
+- Speciális szakmai kifejezések figyelembevételére.
+
+A fejlesztők természetes nyelvű utasításokkal meghatározhatják a feldolgozás kontextusát.
+
+Az NVIDIA saját benchmarkjai szerint a modell kiemelkedő beszédfelismerési teljesítményt ér el.
+
+A rendszer elsősorban rögzített hanganyagok feldolgozására készült, nem élő beszédközvetítések folyamatos átírására.
+
+### Miért lényeges?
+
+A beszédfeldolgozás az MI egyik leggyorsabban gazdasági értéket teremtő alkalmazási területe.
+
+Különösen hasznos lehet:
+
+- Üzleti megbeszélések dokumentálásában.
+- Ügyfélszolgálati beszélgetések elemzésében.
+- Orvosi dokumentáció előkészítésében.
+- Interjúk feldolgozásában.
+- Többnyelvű vállalati kommunikációban.
+
+A nyílt súlyú modell lehetővé teheti, hogy a vállalatok saját infrastruktúrájukon dolgozzanak fel hanganyagokat.
+
+**A fő tanulság:** a specializált, helyben működtethető MI-rendszerek egyre versenyképesebb alternatívát jelenthetnek a felhőalapú szolgáltatásokkal szemben.
+
+A magyar nyelv támogatottságát a most ellenőrzött források alapján nem lehet külön megerősíteni.
+
+**Források:**
+
+[NVIDIA – Nemotron 3.5 Transcribe és helyi MI-fejlesztések](https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/)
+
+[TechCrunch – Voice AI in vogue: Nvidia releases new open transcription model](https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/)
+
+---
+
+## 6. Anthropic: új eszközökkel mérhetőbbé válik a vállalati MI-használat megtérülése
+
+**Dátum:** 2026. október 28.  
+**Kategória:** Vállalati MI, költségmenedzsment, termelékenység  
+**Jelentőség:** 🔴 Kiemelt
+
+Az Anthropic három új vállalati funkció általános elérhetőségét jelentette be a Claude Enterprise felhasználói számára.
+
+A fejlesztések célja, hogy a szervezetek jobban megértsék, mire használják munkavállalóik az MI-t, és mennyibe kerülnek az egyes munkafolyamatok.
+
+### A három új funkció
+
+**1. Smart Reports**
+
+Az intelligens jelentések elemzik a kiválasztott csapatok Claude-használatát.
+
+A rendszer összesíti:
+
+- A végrehajtott feladatok típusait.
+- A munkafolyamatok költségeit.
+- A létrehozott eredményeket.
+- Az ismétlődő problémákat.
+- A lehetséges automatizációs fejlesztéseket.
+
+**2. In-app Surveys**
+
+A munkavállalók közvetlenül visszajelzést adhatnak arról, hogyan támogatja munkájukat az MI.
+
+**3. Pooled Group Budgets**
+
+A vállalatok közös havi költségkeretet határozhatnak meg egy-egy csapat számára.
+
+A funkciók már általánosan elérhetők a megfelelő Claude Enterprise konfigurációkban.
+
+Az Anthropic hangsúlyozza, hogy a jelentések nem egyéni munkavállalói teljesítményértékelésre készültek.
+
+### Miért lényeges?
+
+A vállalati MI-bevezetés egyik legnagyobb kihívása a tényleges megtérülés meghatározása.
+
+Egy vállalat könnyen mérheti a tokenfelhasználást vagy az előfizetési költségeket.
+
+Sokkal nehezebb megállapítani, hogy:
+
+- Mennyi időt takarított meg.
+- Milyen feladatokat automatizált.
+- Javult-e a munkavégzés minősége.
+- Mely folyamatokban térül meg az MI.
+- Hol indokolt a költségek csökkentése.
+
+**A fő tanulság:** a vállalati MI-piac következő szakaszában az alkalmazások használata mellett azok mérhető üzleti eredményessége is egyre fontosabbá válik.
+
+**Források:**
+
+[Anthropic – Smart reports, surveys, and pooled group budgets for Claude Enterprise](https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets)
+
+[TechCrunch – Anthropic just launched tools to show companies what their AI spending is buying](https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/)
+
+---
+
+## 7. Google: tíz új országban jelennek meg hirdetések az MI-alapú keresésben
+
+**Dátum:** 2026. október 28.  
+**Kategória:** MI-gazdaság, digitális marketing, Google Search  
+**Jelentőség:** 🟠 Fontos
+
+A Google szerdán bejelentette, hogy újabb tíz országban terjeszti ki a kereső **AI Mode** funkciójában megjelenő hirdetéseket.
+
+Az érintett országok:
+
+- Ausztrália.
+- Kanada.
+- India.
+- Kenya.
+- Malajzia.
+- Új-Zéland.
+- Nigéria.
+- Pakisztán.
+- Fülöp-szigetek.
+- Szingapúr.
+
+A vállalat 2026 negyedik negyedévében további piacokra, köztük Brazíliára, Mexikóra és az Egyesült Királyságra is kiterjesztené a szolgáltatást.
+
+Az Egyesült Államokban a Google új, többfordulós beszélgetésekhez kapcsolódó hirdetési formátumot is bevezet.
+
+### Mit jelent ez?
+
+A hagyományos keresőben a felhasználó kulcsszavakat ír be, majd találati listát kap.
+
+Az MI-alapú keresésben ehelyett hosszabb, természetes nyelvű kérdéseket is feltehet.
+
+A Google szerint az AI Mode lekérdezései átlagosan háromszor hosszabbak a hagyományos kereséseknél.
+
+Az új hirdetési megoldások ezekhez a beszélgetésalapú keresésekhez kapcsolódnak.
+
+A Google közlése szerint a szponzorált találatok egyértelmű jelölést kapnak.
+
+### Miért lényeges?
+
+A generatív MI alapvetően megváltoztathatja az internetes keresés és a digitális marketing üzleti modelljét.
+
+A vállalatok számára egyre fontosabb lehet, hogy termékeik és szolgáltatásaik:
+
+- Megjelennek-e az MI-alapú keresésekben.
+- Milyen kontextusban jelennek meg.
+- Hogyan mérhető a hirdetések eredményessége.
+- Mennyiben változik az organikus webes forgalom.
+
+**Magyar vonatkozás:** a hazai marketingügynökségeknek és e-kereskedelmi vállalkozásoknak is érdemes figyelniük az MI-alapú keresés monetizációját.
+
+A mostani bejelentés nem jelenti azt, hogy az új hirdetési formátum már Magyarországon is általánosan elérhető.
+
+**Források:**
+
+[Google – Ads in AI Mode expand to new markets](https://blog.google/products/ads-commerce/ads-in-ai-mode-global/)
+
+[TechCrunch – Google expands AI Search ads globally as core ad growth slows](https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/)
+
+---
+
+# 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+*A mai hazai válogatás négy, október 29-ére megerősített szakmai fejleményt tartalmaz. A délelőtti hírforgalomban elsősorban egyetemi, fejlesztői és szabályozási események azonosíthatók. Ezeket nem kezeljük új termékbevezetésként vagy már bizonyított kutatási eredményként.*
+
+## 1. Ma Budapesten: az MI marketingre gyakorolt hatását vizsgálják a BGE konferenciáján
+
+**Dátum:** 2026. október 29., 09:00–14:00  
+**Helyszín:** UniZone, Budapest  
+**Kategória:** Magyar vállalati MI, marketing, digitális gazdaság  
+**Jelentőség:** 🔴 Kiemelt magyar vonatkozás
+
+A Budapesti Gazdaságtudományi Egyetem Marketing Tanszéke ma rendezi meg az **„AI, Adat, Algoritmus – Mesterséges intelligencia a marketingben”** című konferenciát.
+
+A rendezvény célja annak vizsgálata, hogyan alakítja át a mesterséges intelligencia a marketing gyakorlati működését.
+
+### A program fontosabb témái
+
+- MI-alapú fogyasztói elemzés.
+- Mesterségesen létrehozott vásárlói perszónák.
+- Adatvizualizáció.
+- Generatív MI a kreatív munkában.
+- MI-használat költségei és kockázatai.
+- MI-szorongás és társadalmi hatások.
+- MI-alapú marketing az oktatásban.
+
+A meghirdetett előadók között szerepelnek a Dunnhumby Hungary, az Ipsos, a Stratify AI és több hazai felsőoktatási intézmény szakemberei.
+
+A program nyolc előadást és kapcsolódó kerekasztal-beszélgetéseket tartalmaz.
+
+### Miért lényeges?
+
+A marketing az egyik olyan vállalati terület, ahol az MI már rövid távon is jelentős működési változásokat idézhet elő.
+
+Ugyanakkor a technológia használata új kérdéseket vet fel:
+
+- Mennyire megbízhatók az MI által létrehozott vásárlói perszónák?
+- Hogyan mérhető a generatív tartalmak üzleti hatása?
+- Milyen adatvédelmi követelmények érvényesülnek?
+- Hogyan változik a kreatív szakemberek munkája?
+
+**A fő tanulság:** a magyar marketingpiacon egyre fontosabbá válik az MI-eszközök tudatos, mérhető és szakmailag ellenőrizhető alkalmazása.
+
+**Források:**
+
+[BGE – Konferenciafelhívás: AI, Adat, Algoritmus – Mesterséges intelligencia a marketingben](https://uni-bge.hu/hu/marketing-es-uzleti-kommunikacio-kar/hirek/ai-adat-algoritmus-mesterseges-intelligencia-a-marketingben-konferenciafelhivas)
+
+[IAB Hungary – Hivatalos konferenciaprogram és időpont](https://iab.hu/esemeny/ai-adat-algoritmus-mesterseges-intelligencia-a-marketingben/)
+
+---
+
+## 2. Óbudai Egyetem: ma indul a gyakorlati AI Act-tanácsadói és megfelelőségi képzés
+
+**Kezdés:** 2026. október 29.  
+**Időtartam:** 6 hónap  
+**Kategória:** Magyar MI-szabályozás, vállalati megfelelés, szakemberképzés  
+**Jelentőség:** 🔴 Kiemelt magyar vonatkozás
+
+Az Óbudai Egyetem ma indítja el **AI Act Consultant & Authorised Representative** képzését.
+
+A program célja olyan szakemberek felkészítése, akik képesek támogatni a vállalatokat az Európai Unió mesterséges intelligenciáról szóló rendeletének gyakorlati alkalmazásában.
+
+### A képzés főbb jellemzői
+
+| Tulajdonság | Részlet |
+|---|---|
+| Kezdés | 2026. október 29. |
+| Időtartam | 6 hónap |
+| Képzési forma | Hibrid |
+| Teljes képzési idő | 210 tanóra |
+| Gyakorlati workshopok | 9 alkalom |
+| E-learning modulok | 9 modul |
+| Záróvizsga | 2027. május 6. |
+| Kimenet | Egyetemi mikrotanúsítvány |
+
+A képzés többek között az alábbi kérdésekre koncentrál:
+
+- MI-rendszerek kockázati besorolása.
+- AI Act-kötelezettségek azonosítása.
+- Megfelelőségi dokumentáció készítése.
+- Vállalati felelősségi körök meghatározása.
+- Kockázatkezelés.
+- Megfelelőségértékelés.
+- Meghatalmazott képviselői feladatok.
+
+A program az Óbudai Egyetem és több szakmai partner együttműködésében valósul meg.
+
+### Miért lényeges?
+
+Az EU AI Act alkalmazása fokozatosan egyre több konkrét kötelezettséget jelent az MI-rendszereket fejlesztő vagy alkalmazó szervezeteknek.
+
+A vállalatoknak nem elegendő ismerniük a szabályozás általános céljait.
+
+A gyakorlatban meg kell tudniuk határozni:
+
+- Milyen kockázati kategóriába tartozik egy rendszer.
+- Milyen dokumentáció szükséges.
+- Ki viseli a működtetési felelősséget.
+- Milyen ellenőrzési folyamatokat kell kialakítani.
+
+**A fő tanulság:** Magyarországon is növekszik az igény olyan szakemberekre, akik egyszerre értik az MI technológiai és jogi követelményeit.
+
+A képzés elindítása nem jelent új jogszabályt vagy automatikus hatósági felhatalmazást a résztvevők számára.
+
+**Források:**
+
+[Óbudai Egyetem – AI Act Consultant & Authorised Representative képzés](https://aiakademia.uni-obuda.hu/aiactconsultant/)
+
+[Magyar Kiberbiztonsági Klaszter – Gyakorlati AI Act képzést indít az Óbudai Egyetem](https://kiberklaszter.hu/2026/10/02/gyakorlati-ai-act-kepzest-indit-az-obudai-egyetem/)
+
+---
+
+## 3. BME: ma az SAP Joule Studio segítségével fejleszthetnek MI-ügynököket a hallgatók
+
+**Dátum:** 2026. október 29., 14:15  
+**Helyszín:** BME V1 épület, Budapest  
+**Kategória:** Magyar MI-oktatás, vállalati automatizáció, MI-ügynökök  
+**Jelentőség:** 🟠 Fontos magyar vonatkozás
+
+A Budapesti Műszaki és Gazdaságtudományi Egyetem Villamosmérnöki és Informatikai Karán ma rendezik meg az **SAP Agentic Lab** gyakorlati workshopot.
+
+A rendezvényen a résztvevők az SAP **Joule Studio** fejlesztői környezetének segítségével készíthetnek működő MI-ügynököket.
+
+### A program jellemzői
+
+- Időtartam: körülbelül 60 perc.
+- Maximális létszám: 20 fő.
+- Kódolási előismeret nem feltétlenül szükséges.
+- A résztvevők számára biztosítják a szükséges eszközöket.
+- A workshop egy működő MI-ügynök létrehozását célozza.
+
+A BME közleménye szerint a Joule Studio ezen változata még korlátozottan elérhető technológia.
+
+A résztvevők így olyan fejlesztői környezetet próbálhatnak ki, amelyet egyelőre csak kevés vállalat használ.
+
+### Miért lényeges?
+
+A vállalati MI-fejlesztés egyre inkább az autonóm ügynökök irányába mozdul el.
+
+Egy MI-ügynök nemcsak válaszol a felhasználó kérdéseire, hanem megfelelő jogosultságok mellett:
+
+- Vállalati adatokat dolgozhat fel.
+- Üzleti alkalmazásokat használhat.
+- Munkafolyamatokat indíthat.
+- Több lépésből álló feladatokat végezhet el.
+
+A Joule Studio jellegű platformok csökkenthetik az ilyen rendszerek fejlesztésének technikai belépési korlátját.
+
+**A fő tanulság:** a magyar egyetemi MI-oktatásban is egyre nagyobb szerepet kaphat a konkrét, működő vállalati ügynökök fejlesztése.
+
+**Forrás:**
+
+[BME VIK – SAP Agentic Lab: Építsd meg az első AI ágensedet a Joule Studio segítségével!](https://www.vik.bme.hu/esemenyek/)
+
+---
+
+## 4. Ma zárul Budapesten az EMNLP 2026, a világ egyik vezető nyelvtechnológiai konferenciája
+
+**Dátum:** 2026. október 29.  
+**Konferencia időszaka:** október 24–29.  
+**Helyszín:** Budapest  
+**Kategória:** Magyar MI-kutatás, nyelvtechnológia, nemzetközi tudomány  
+**Jelentőség:** 🔴 Kiemelt magyar vonatkozás
+
+Ma ér véget Budapesten a **2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)**.
+
+A rendezvény a természetesnyelv-feldolgozás és a nagy nyelvi modellek egyik legjelentősebb nemzetközi tudományos fóruma.
+
+A konferencia október 24-én kezdődött, és hat napon keresztül kapcsolta össze a világ vezető egyetemeinek, kutatóintézeteinek és MI-fejlesztő vállalatainak szakembereit.
+
+### Főbb kutatási területek
+
+- Nagy nyelvi modellek.
+- Többnyelvű MI.
+- Multimodális rendszerek.
+- Gépi fordítás.
+- MI-ügynökök.
+- Modellértékelés.
+- Megbízhatóság és biztonság.
+- Ipari nyelvtechnológiai alkalmazások.
+
+A rendezvény kutatási és ipari programjai külön foglalkoznak azzal is, hogyan integrálhatók a nyelvi modellek valódi vállalati munkafolyamatokba.
+
+### Miért lényeges?
+
+Az EMNLP budapesti megrendezése jelentős nemzetközi szakmai lehetőség a magyar kutatói közösség számára.
+
+Különösen fontos a magyar nyelvű MI-rendszerek fejlesztése szempontjából.
+
+A kisebb nyelvek támogatása több területen továbbra is jelentős kutatási kihívás:
+
+- Szakterületi terminológia.
+- Nyelvi árnyalatok.
+- Megbízható magyar nyelvű válaszadás.
+- Kisebb nyelvekre optimalizált modellek.
+- Alacsony erőforrásigényű nyelvtechnológiai rendszerek.
+
+**A fő tanulság:** a hazai MI-kutatás nemzetközi versenyképességében fontos szerepet játszhatnak a magyar nyelvtechnológiai kompetenciák és a nemzetközi kutatási együttműködések.
+
+A konferencia zárónapjáról még nem áll rendelkezésre teljes, ellenőrzött eredménybeszámoló, ezért a tudományos program jelentőségét értékeljük, nem feltételezett új felfedezéseket ismertetünk.
+
+**Források:**
+
+[EMNLP 2026 – Hivatalos konferenciaoldal](https://2026.emnlp.org/)
+
+[EMNLP 2026 – Industry Track és vállalati nyelvtechnológiai alkalmazások](https://2026.emnlp.org/calls/industry_track/)
+
+---
+
+# 📊 A MAI NAP LEGFONTOSABB MI-TRENDJEI
+
+## 1. Az MI-infrastruktúra gazdasági megtérülése kerül a befektetői figyelem középpontjába
+
+A Microsoft és az Alphabet tegnapi pénzügyi jelentései a mesterséges intelligencia gazdasági fejlődésének két fontos oldalát mutatják.
+
+**Microsoft:** jelentős felhőszolgáltatási növekedés, magas nyereségesség és erős szerződésállomány.
+
+**Alphabet:** rendkívül gyors Google Cloud-növekedés, de a hatalmas infrastruktúra-beruházások miatt negatív szabad cash flow.
+
+A következő időszakban egyre fontosabb lesz megkülönböztetni:
+
+- Az árbevétel növekedését.
+- A működési nyereséget.
+- A készpénztermelő képességet.
+- A beruházások finanszírozási igényét.
+- A hosszú távú megtérülést.
+
+**A fő következtetés:** az MI technológiai fejlődése és a hozzá kapcsolódó befektetések gazdasági eredményessége nem feltétlenül mozog azonos ütemben.
+
+---
+
+## 2. A kiberbiztonság a frontier-modellek egyik legfontosabb versenyterületévé vált
+
+A Gemini 4 Carbon bejelentése különösen jól mutatja ezt a folyamatot.
+
+A fejlett MI-modellek már nem kizárólag szövegalkotásban vagy általános problémamegoldásban versenyeznek.
+
+Egyre fontosabb a képességük:
+
+- Sérülékenységek felismerésére.
+- Programkód biztonsági ellenőrzésére.
+- Hibák javítására.
+- Összetett informatikai rendszerek elemzésére.
+
+A következő években a vállalati kiberbiztonsági csapatok munkájában egyre nagyobb szerepet kaphatnak a specializált MI-ügynökök.
+
+**Fontos feltétel:** a modellek műveleteit megfelelő technikai jogosultságkezeléssel és emberi felügyelettel kell korlátozni.
+
+---
+
+## 3. A világmodellek a robotika és a fizikai MI fejlődését gyorsíthatják
+
+A Google Genie 4 fejlesztése új lehetőségeket teremt az interaktív szimulációkban.
+
+A technológia hosszabb távon különösen értékes lehet az olyan területeken, ahol a valós környezetben történő tesztelés drága vagy kockázatos.
+
+Ilyen lehet például:
+
+- Ipari robotok betanítása.
+- Autonóm járművek tesztelése.
+- Gyártási folyamatok modellezése.
+- Veszélyes helyzetek szimulációja.
+
+**Magyar szempontból** ez különösen érdekes a HUN-REN SZTAKI, az autóipari fejlesztők és az ipari automatizációval foglalkozó kutatócsoportok számára.
+
+A technológia széles körű ipari alkalmazása azonban további fejlesztést és validációt igényel.
+
+---
+
+## 4. A vállalati MI-versenyben egyre fontosabbá válik a költségek és eredmények mérése
+
+Az Anthropic új vállalati funkciói egy fontos szemléletváltást mutatnak.
+
+Az MI-szolgáltatások bevezetése önmagában már nem elegendő.
+
+A vállalatok egyre gyakrabban szeretnének választ kapni arra, hogy:
+
+- Milyen feladatokat végeznek el az MI-eszközök?
+- Mennyi munkaidőt takarítanak meg?
+- Mennyibe kerül egy elvégzett feladat?
+- Milyen hibák és működési problémák jelentkeznek?
+- Melyik munkafolyamatot érdemes automatizálni?
+
+Ez a magyar KKV-k számára is fontos fejlődési irány.
+
+**A fő tanulság:** a következő vállalati MI-hullám egyik meghatározó jellemzője az alkalmazások gazdasági eredményességének mérése lehet.
+
+---
+
+## 5. Magyarországon a gyakorlati MI-kompetenciák és a szabályozási megfelelés fejlődése kerül előtérbe
+
+A mai magyar események jól mutatják, hogy a mesterséges intelligencia már több különböző szakmai terület működését érinti.
+
+**Marketing:** az MI alkalmazása fogyasztói elemzésben, kreatív munkában és adatfeldolgozásban.
+
+**Szabályozás:** az EU AI Act gyakorlati követelményeinek értelmezése és alkalmazása.
+
+**Szoftverfejlesztés:** autonóm MI-ügynökök kialakítása és vállalati alkalmazása.
+
+**Tudomány:** nyelvi modellek fejlesztése, értékelése és nemzetközi kutatási együttműködés.
+
+A magyar vállalatok és intézmények számára egyre fontosabb a technológiai, üzleti és szabályozási ismeretek együttes fejlesztése.
+
+**A fő lehetőség:** a nemzetközi MI-modellekhez való hozzáférés összekapcsolása a hazai szakmai tudással és a gyakorlati alkalmazási képességekkel.
+
+---
+
+# 🎯 ZÁRÓ ÉRTÉKELÉS
+
+### A nap legfontosabb technológiai híre
+
+**A Google Gemini 4 Carbon modelljének bemutatása.**
+
+A fejlesztés jelentős előrelépést jelez az MI-alapú programozás és kiberbiztonsági sérülékenységkutatás területén.
+
+### A nap legfontosabb gazdasági híre
+
+**A Microsoft és az Alphabet pénzügyi eredményei.**
+
+A két vállalat adatai egyszerre mutatják az MI-felhőszolgáltatások rendkívül gyors növekedését és az infrastruktúra-fejlesztések hatalmas tőkeigényét.
+
+### A nap legfontosabb kutatási fejleménye
+
+**A Google Genie 4 világmodelljének megjelenése.**
+
+A fejlesztés új lehetőségeket teremthet az interaktív szimulációkban és hosszabb távon a robotikai MI-rendszerek betanításában.
+
+### A nap legfontosabb vállalati MI-fejleménye
+
+**Az Anthropic új költség- és eredményességmérési eszközei.**
+
+A fejlesztések azt mutatják, hogy a vállalati MI-alkalmazások piacán a mérhető megtérülés egyre fontosabb tényezővé válik.
+
+### A nap legfontosabb magyar üzleti eseménye
+
+**A Budapesti Gazdaságtudományi Egyetem MI-marketing konferenciája.**
+
+A rendezvény a generatív MI gyakorlati vállalati hasznosítását és annak szakmai, etikai következményeit vizsgálja.
+
+### A nap legfontosabb magyar szabályozási fejleménye
+
+**Az Óbudai Egyetem AI Act-tanácsadói és megfelelőségi képzésének elindítása.**
+
+A képzés a hazai vállalatok számára egyre fontosabbá váló MI-megfelelőségi kompetenciák fejlesztését támogatja.
+
+### A nap legfontosabb magyar tudományos vonatkozása
+
+**Az EMNLP 2026 budapesti zárónapja.**
+
+A nemzetközi konferencia hozzájárulhat a magyar nyelvtechnológiai kutatás nemzetközi kapcsolatainak és láthatóságának erősítéséhez.
+
+---
+
+# 🧭 ÖSSZKÉP
+
+**2026. október 29-én a mesterséges intelligencia fejlődésének három meghatározó kérdése rajzolódik ki.**
+
+**1. Technológiai teljesítmény**
+
+A fejlett modellek egyre összetettebb programozási, kiberbiztonsági és szimulációs feladatokat képesek megoldani.
+
+**2. Gazdasági fenntarthatóság**
+
+Az MI-felhőszolgáltatások bevétele gyorsan növekszik, de az infrastruktúra fejlesztése rendkívül nagy beruházásokat igényel.
+
+**3. Gyakorlati alkalmazás**
+
+A vállalatok számára egyre fontosabb, hogy a technológia ne pusztán új képességeket biztosítson, hanem ellenőrizhető és mérhető gazdasági eredményeket is teremtsen.
+
+**Magyarország számára a legfontosabb lehetőség a nemzetközi MI-fejlődés és a hazai szakmai kompetenciák összekapcsolása.**
+
+A marketing, a vállalati automatizáció, a szabályozási megfelelés és a nyelvtechnológiai kutatás olyan területek, ahol a megfelelő szaktudással rendelkező magyar szervezetek jelentős értéket teremthetnek.
+
+A következő években várhatóan nem kizárólag az jelent majd versenyelőnyt, hogy egy vállalat hozzáfér-e a legerősebb MI-modellekhez.
+
+Legalább ennyire fontos lesz, hogy **képes-e a mesterséges intelligenciát biztonságosan, költséghatékonyan, jogszerűen és mérhető eredményeket teremtve alkalmazni**.
+
+---
+
+## 📝 FORRÁSKEZELÉSI MEGJEGYZÉS
+
+Az összefoglaló a 2026. október 29-én délelőtt elérhető hivatalos vállalati közleményekre, pénzügyi jelentésekre, kutatási bejelentésekre és ellenőrzött szakmai forrásokra épül.
+
+- A nemzetközi hírek elsősorban 2026. október 27–28-i fejleményeket tartalmaznak.
+- A Microsoft és az Alphabet pénzügyi adatai hivatalos vállalati jelentésekből származnak.
+- A Google Gemini 4 Carbon benchmarkeredményeit a fejlesztő közléseként kezeljük.
+- A Google Genie 4 korlátozott kutatási elérhetőségét megkülönböztetjük a széles körű kereskedelmi bevezetéstől.
+- Az NVIDIA beszédfeldolgozó modelljénél nem feltételezünk külön nem igazolt magyar nyelvi támogatást.
+- Az Anthropic új vállalati funkciói a megfelelő Claude Enterprise konfigurációkra vonatkoznak.
+- A Google keresési hirdetéseinek nemzetközi bővítését nem azonosítjuk magyarországi bevezetéssel.
+- A magyar szakmai eseményeknél az ellenőrizhető programokat ismertetjük, nem feltételezett kutatási eredményeket.
+- A vállalati előrejelzéseket és a fejlesztők saját teljesítményállításait megkülönböztetjük a függetlenül igazolt eredményektől.
+
+**A mai kiadás legfontosabb üzenete: az MI-versenyben a frontier-modellek fejlődése mellett egyre meghatározóbbá válik a kiberbiztonság, az infrastruktúra gazdasági fenntarthatósága és a vállalati alkalmazások mérhető megtérülése.**

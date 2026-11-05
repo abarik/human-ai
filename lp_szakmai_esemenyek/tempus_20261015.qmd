@@ -5,7 +5,7 @@ author: "Kutatócsoport"
 date: "2026-10-15"
 idopont: "2026. október 15., 9:30–15:00"
 description: "Műhely az MI és a digitalizáció felsőoktatásban betöltött szerepéről"
-image: "images/tempus_20261015.png"
+image: "images/tempus_20261015.jpg"
 helyszin: "Tempus Közalapítvány, 1077 Budapest, Kéthly Anna tér 1."
 szervezo: "Tempus Közalapítvány"
 datum: "2026-10-15"
@@ -40,7 +40,7 @@ Honlap
 : [A rendezvény hivatalos oldala](https://tempus.idloom.events/oktatoi-kompetenciafejleszto-muhely-2026-oktober)
 :::
 
-![Az Ember–MI Kutatócsoport képviselői a szakmai műhelyen.](images/tempus_20261015.png){width="85%" fig-align="center"}
+![Az Ember–MI Kutatócsoport képviselői a szakmai műhelyen.](images/tempus_20261015.jpg){width="85%" fig-align="center"}
 
 # Rövid beszámoló
 

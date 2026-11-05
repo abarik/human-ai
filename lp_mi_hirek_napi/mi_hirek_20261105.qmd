@@ -1,0 +1,738 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. november 5."
+author: "OpenAI - ChatGpt"
+date: "2026-11-05"
+---
+
+**Frissítve:** 2026. november 5., 09:43 (CET)  
+**Vizsgált időszak:** Elsősorban 2026. november 4–5.  
+**Tartalom:** 6 nemzetközi hír + 4 magyar vonatkozás  
+**Fő források:** OpenAI, Arm, Tencent, Reuters, Financial Times, Google, Agility Robotics, Portfolio, ELTE és IFUA Horváth.
+
+---
+
+# 📌 VEZETŐI ÖSSZEFOGLALÓ
+
+A mai mesterségesintelligencia-hírekben négy meghatározó fejlemény emelkedik ki.
+
+**1. Az OpenAI újabb lépést tett az MI-alapú szoftverfejlesztés teljes automatizálása felé.**
+
+A vállalat november 4-én bejelentette a Pierre Computer felvásárlását. A fejlesztés célja, hogy a Codex ne kizárólag programkódot készítsen, hanem a kód tárolását, verziókezelését és ellenőrzését is támogassa.
+
+**2. A hardverpiacon továbbra is erős az MI-kereslet.**
+
+Az Arm rekordnak számító, 1,44 milliárd dolláros negyedéves bevételről számolt be. Az adatközponti technológiákhoz kapcsolódó jogdíjbevételei egy év alatt megduplázódtak.
+
+**3. Az MI-infrastruktúra finanszírozásában egyszerre láthatók új beruházások és komoly nehézségek.**
+
+A Google 15 milliárd dolláros malajziai fejlesztési tervet jelentett be, miközben a Microsoft elállt egy további, jelentős Nscale-adatközponti kapacitás bérlésének lehetőségétől. Ez a kontraszt a piac növekedési lehetőségeire és finanszírozási kockázataira is rámutat.
+
+**4. Magyarországon a vállalati MI-bevezetés szervezeti és gazdasági kérdései kerülnek előtérbe.**
+
+Ma az IFUA Horváth Data & Digital konferenciáján az MI vállalati integrációjáról, az ELTE-n pedig többek között generatív MI-alkalmazásokról és a fogyasztói bizalomról lesz szó. A MOL HR-vezetője szerint az MI nem feltétlenül szünteti meg a pályakezdő pozíciókat, de jelentősen átalakíthatja azokat.
+
+---
+
+# 🌍 NEMZETKÖZI MI-HÍREK
+
+## 1. OpenAI: felvásárolja a Pierre Computert, tovább bővül a Codex
+
+**Dátum:** 2026. november 4.  
+**Kategória:** MI-ügynökök, szoftverfejlesztés, vállalati automatizáció  
+**Jelentőség:** 🔴 Kiemelt
+
+Az OpenAI szerdán bejelentette, hogy megállapodott a **Pierre Computer Company** felvásárlásáról.
+
+A Pierre olyan fejlesztői eszközöket készít, amelyek programkódok tárolását, verziókezelését és felülvizsgálatát támogatják.
+
+A vállalat több technológiáját az OpenAI már jelenleg is használja a Codex alkalmazásban:
+
+- **Trees:** programprojektek fájljainak áttekintése.
+- **Diffs:** programkód-változások megjelenítése és ellenőrzése.
+- **Code Storage:** Git-alapú kódtárolás és verziókezelés.
+- **Highlights:** gyors szintaxiskiemelés.
+
+Az OpenAI célja, hogy a Codex teljesebb szoftverfejlesztési környezetté váljon, amelyben emberi fejlesztők és autonóm MI-ügynökök közösen dolgozhatnak.
+
+A felvásárlás pénzügyi feltételeit nem hozták nyilvánosságra.
+
+**Fontos:** a tranzakció még nem zárult le, hatósági jóváhagyásokhoz kötött.
+
+### Miért lényeges?
+
+Ez a nap egyik legfontosabb technológiai híre.
+
+A generatív MI-alapú programozás következő szakasza már nem kizárólag új programkód előállításáról szól.
+
+Az MI-rendszerek egyre nagyobb szerepet kaphatnak:
+
+- A teljes szoftverfejlesztési munkafolyamatban.
+- A programkód felülvizsgálatában.
+- A változtatások kezelésében.
+- A párhuzamosan dolgozó MI-ügynökök koordinálásában.
+- A szoftverek kiadásának előkészítésében.
+
+**A fő tanulság:** az MI-alapú fejlesztőeszközök egyre inkább a teljes szoftverfejlesztési infrastruktúra részévé válnak.
+
+**Források:**
+
+[OpenAI – OpenAI to acquire Pierre Computer Company, hivatalos közlemény](https://openai.com/index/openai-to-acquire-pierre/)
+
+[Axios – OpenAI targets Microsoft's GitHub with Pierre Computer deal](https://www.axios.com/2026/11/04/openai-pierre-computer-github)
+
+---
+
+## 2. Arm: rekordbevétel, megduplázódtak az adatközponti jogdíjak
+
+**Dátum:** 2026. november 4.  
+**Kategória:** Félvezetők, MI-hardver, adatközpontok  
+**Jelentőség:** 🔴 Kiemelt
+
+Az Arm Holdings szerdán közzétette a 2027-es pénzügyi év második negyedévének eredményeit.
+
+A szeptember 30-án zárult időszakban a vállalat rekordnak számító **1,44 milliárd dolláros negyedéves bevételt** ért el.
+
+### Fontosabb pénzügyi adatok
+
+| Mutató | Eredmény |
+|---|---:|
+| Negyedéves árbevétel | 1,44 milliárd USD |
+| Éves árbevétel-növekedés | +27% |
+| Licencbevételek | 773 millió USD |
+| Licencbevételek éves növekedése | +50% |
+| Jogdíjbevételek | 670 millió USD |
+| Adatközponti jogdíjak | Körülbelül kétszeres éves növekedés |
+
+A vállalat szerint az eredmények mögött jelentős részben a mesterséges intelligenciához kapcsolódó számítási igények növekedése áll.
+
+Az Arm technológiái több területen is fontosak:
+
+- Energiahatékony adatközponti processzorok.
+- Mobil MI-alkalmazások.
+- Autonóm járművek.
+- Robotikai rendszerek.
+- Helyben futó MI-modellek.
+
+A vállalat beszámolója szerint partnerei egyetlen negyedév alatt több mint 10 milliárd Arm-alapú chipet szállítottak le.
+
+### Miért lényeges?
+
+Az MI-infrastruktúra fejlesztése nem kizárólag a GPU-k piacát érinti.
+
+A nagy teljesítményű rendszereknek energiahatékony központi processzorokra is szükségük van.
+
+Az Arm eredménye azt mutatja, hogy a számítási kapacitások növekedéséből a processzorarchitektúrák fejlesztői is jelentős bevételekre tehetnek szert.
+
+**A fő tanulság:** az MI-hardverpiac növekedése a GPU-gyártókon túl a processzortervezők és az energiahatékonyságot javító technológiai vállalatok számára is lehetőséget teremt.
+
+**Források:**
+
+[Arm – Arm delivers a record second quarter, reaching $1.44 billion in total revenue](https://newsroom.arm.com/news/arm-q2-fye27-results)
+
+[The Wall Street Journal – Arm Holdings Sales Climb 27% on AI Demand](https://www.wsj.com/business/earnings/arm-holdings-sales-climb-27-on-ai-demand-206782b6)
+
+---
+
+## 3. Tencent: megjelent a Hy4, az új multimodális MI-modell
+
+**Dátum:** 2026. november 4.  
+**Kategória:** Frontier-modellek, multimodális MI, kiberbiztonság  
+**Jelentőség:** 🔴 Kiemelt
+
+A kínai Tencent szerdán bejelentette **Hy4** nevű új nagy nyelvi modelljének megjelenését.
+
+A rendszer a korábbi változathoz képest jelentősen bővített képességeket kínál.
+
+### Fontosabb technológiai fejlesztések
+
+**Képfeldolgozás**
+
+A modell képes összetett vizuális információk, diagramok és képek értelmezésére.
+
+**Számítógép-használat**
+
+A Hy4 parancssori és grafikus felületeken is képes műveleteket végrehajtani.
+
+**Összetett feladatok**
+
+A Tencent szerint a rendszer több lépésből álló, hosszabb munkafolyamatok kezelésére is alkalmas.
+
+**Szakmai szoftverek**
+
+A fejlesztés során olyan környezetek használatára is felkészítették a modellt, mint a Blender és a CAD-alkalmazások.
+
+### Kiberbiztonsági korlátozások
+
+A Tencent a modell tanításánál külön figyelmet fordított a visszaélések kockázatára.
+
+A vállalat közlése szerint:
+
+- A kiberbiztonsági képzés elsősorban védekező feladatokra koncentrált.
+- Bizonyos támadó jellegű oktatóanyagokat kizártak.
+- A biológiai biztonsági kockázatokat is vizsgálták.
+
+A modell már elérhető egyes Tencent-szolgáltatásokban és API-kon keresztül.
+
+**Fontos pontosítás:** a teljes új változat letölthető modellsúlyainak és biztonsági dokumentációjának közzétételét a vállalat a következő napokra ígérte. Ezeket nem tekintjük már megjelentnek.
+
+### Miért lényeges?
+
+A kínai fejlesztők tovább erősítik jelenlétüket a globális MI-piacon.
+
+A Hy4 különösen azért érdekes, mert a szöveg- és képfeldolgozást közvetlen számítógép-használati képességekkel kombinálja.
+
+**A fő tanulság:** a nagy nyelvi modellek fejlesztése egyre inkább az autonóm, számítógépes feladatokat végrehajtó rendszerek irányába mozdul el.
+
+A Tencent saját teljesítmény- és biztonsági értékeléseit további független vizsgálatoknak kell megerősíteniük.
+
+**Források:**
+
+[Reuters – Tencent rolls out AI model trained with limited cybersecurity data amid hacking fears](https://www.streetinsider.com/Reuters/Tencent%2Brolls%2Bout%2BAI%2Bmodel%2Btrained%2Bwith%2Blimited%2Bcybersecurity%2Bdata%2Bamid%2Bhacking%2Bfears/27284725.html)
+
+[SiliconANGLE – Tencent releases Hy4 with visual understanding and computer-use capabilities](https://siliconangle.com/2026/11/04/tencent-releases-hy4-powerful-frontier-llm-introducing-visual-understanding-and-computer-use/)
+
+---
+
+## 4. Agility Robotics: tőzsdére lép az autonóm humanoid robotokat fejlesztő vállalat
+
+**Bejelentés:** 2026. november 4.  
+**Tervezett első kereskedési nap:** 2026. november 5.  
+**Kategória:** Fizikai MI, robotika, tőkepiac  
+**Jelentőség:** 🔴 Kiemelt
+
+Az Agility Robotics szerdán bejelentette, hogy lezárta egyesülését a Churchill Capital Corp XI vállalattal.
+
+Az ügylet lehetővé teszi, hogy a humanoid robotokat fejlesztő vállalat részvényei megjelenjenek az amerikai Nasdaq tőzsdén.
+
+A részvények kereskedése a tervek szerint **november 5-én indul AGLT azonosító alatt**.
+
+Az Agility legismertebb terméke a **Digit humanoid robot**.
+
+A robotokat ipari és logisztikai környezetekben alkalmazzák, illetve tesztelik.
+
+### Fontosabb adatok
+
+| Mutató | Eredmény vagy terv |
+|---|---|
+| Tervezett részvényazonosító | AGLT |
+| Várható bruttó tőkebevonás | Kb. 465 millió USD |
+| Valós üzemi működési tapasztalat | Több mint 65 000 óra |
+| Következő generációs robot | Digit 5 |
+| Digit 5 korai kiszállítások | 2027 első fele |
+
+Az Agility közlése szerint a Digit robotokat többek között a GXO, a Schaeffler és a Toyota egyes üzemi környezeteiben alkalmazzák.
+
+A következő generációs Digit 5 fejlesztésének fontos célja, hogy a robotok biztonságosan dolgozhassanak emberek közvetlen közelében.
+
+### Miért lényeges?
+
+A fizikai MI a mesterséges intelligencia egyik fontos következő fejlődési területe.
+
+A humanoid robotok fejlesztői arra törekednek, hogy rendszereik ne kizárólag előre meghatározott mozdulatokat hajtsanak végre.
+
+A cél az alkalmazkodóbb, intelligensebb ipari munkavégzés.
+
+**Magyar vonatkozás:** a technológia különösen fontos lehet a hazai autóipar, elektronikai gyártás és logisztikai ágazat számára.
+
+**A fő tanulság:** a humanoid robotika fokozatosan a kutatási és demonstrációs szakaszból a korlátozott kereskedelmi alkalmazások irányába halad.
+
+A vállalat tőzsdei megjelenése önmagában még nem bizonyítja a humanoid robotok tömeges, nyereséges elterjedését.
+
+**Források:**
+
+[Agility Robotics – Agility Robotics and Churchill Capital Corp XI Complete Business Combination](https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-complete-business-combination)
+
+[Agility Robotics – A tervezett 465 millió dolláros finanszírozás részletei](https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-announce-expected-gross-capital-raise-of-approximately-465-million-and-anticipated-closing-of-business-combination)
+
+---
+
+## 5. Google: 15 milliárd dolláros MI-adatközponti beruházási terv Malajziában
+
+**Dátum:** 2026. november 4.  
+**Kategória:** MI-infrastruktúra, adatközpontok, energiaellátás  
+**Jelentőség:** 🔴 Kiemelt
+
+A Google szerdán bejelentette, hogy **2027 és 2028 között összesen 15 milliárd dollárt kíván befektetni Malajziában**.
+
+A beruházás célja a digitális és mesterségesintelligencia-infrastruktúra jelentős bővítése.
+
+A terv három fontos területet kapcsol össze:
+
+**1. Adatközpontok**
+
+Új, energiahatékony adatközponti létesítmények építése.
+
+**2. Energiaellátás**
+
+A Google több mint 1 gigawatt új tisztaenergia-kapacitás létrehozását kívánja támogatni Malajziában.
+
+**3. Képzés**
+
+A program részeként 2031-ig körülbelül 800 ezer malajziai számára biztosítanának digitális és MI-kompetenciafejlesztési lehetőségeket.
+
+A vállalat becslése szerint a beruházások építési szakasza évente átlagosan több mint 37 ezer munkahelyet támogathat.
+
+A működő létesítmények hosszabb távon több mint 9000 munkahelyet tarthatnak fenn a közvetlen és kapcsolódó gazdasági tevékenységekben.
+
+### Miért lényeges?
+
+A globális MI-infrastruktúra egyre több ország gazdaságfejlesztési stratégiájában jelenik meg.
+
+A Google programja jól mutatja, hogy az adatközponti beruházásokat egyre gyakrabban kapcsolják össze:
+
+- Energiafejlesztéssel.
+- Helyi munkahelyteremtéssel.
+- Informatikai képzéssel.
+- Beszállítói együttműködésekkel.
+- Vízgazdálkodási intézkedésekkel.
+
+**A fő tanulság:** az MI-adatközpontokért folyó globális verseny már nem kizárólag az ingatlanokról és a számítási kapacitásról szól.
+
+Az energia, a vízellátás és a munkaerő rendelkezésre állása egyaránt fontos tényező.
+
+Fontos: a közölt munkahelyteremtési és gazdasági hatások becslések, a beruházások pedig jövőbeli tervek.
+
+**Források:**
+
+[Google – $15 Billion Malaysia Investment: Digital Infrastructure, Jobs and Clean Energy](https://blog.google/intl/en-my/company-news/inside-google/google-investment-malaysia-digital-infrastructure-november-2026/)
+
+[AFP / The Jakarta Post – Google unveils $15 billion data center investment in Malaysia](https://www.thejakartapost.com/business/2026/11/04/google-unveils-15b-data-center-investment-in-malaysia)
+
+---
+
+## 6. Microsoft–Nscale: újabb komoly figyelmeztetés az MI-adatközpontok finanszírozásában
+
+**Dátum:** 2026. november 5.  
+**Kategória:** MI-gazdaság, felhőinfrastruktúra, beruházási kockázatok  
+**Jelentőség:** 🔴 Kiemelt
+
+A Financial Times friss beszámolója szerint a Microsoft nem élt egy olyan szerződéses lehetőséggel, amely jelentősen növelhette volna az Nscale texasi adatközpontjából bérelt számítási kapacitását.
+
+A brit Nscale az MI-infrastruktúra egyik gyorsan növekvő szolgáltatója.
+
+A vállalat a tervek szerint még 2026-ban tőzsdére lépne, körülbelül **35 milliárd dolláros értékeltség** mellett.
+
+### Mi történt?
+
+Az Nscale korábban körülbelül 240 megawattnyi kapacitás bérléséről állapodott meg a Microsofttal.
+
+A Microsoftnak lehetősége lett volna további, nagyjából 500 megawattnyi kapacitás lekötésére.
+
+A Financial Times szerint a vállalat ezt az opciót nem gyakorolta.
+
+Ez jelentős potenciális jövőbeli bevételtől foszthatja meg az Nscale-t.
+
+### További pénzügyi adatok
+
+Az Nscale 2026 első félévére:
+
+- Körülbelül 141 millió dolláros árbevételt.
+- Mintegy 1 milliárd dolláros számviteli nettó veszteséget jelentett.
+
+A vállalat hosszú távú szerződésállománya ugyanakkor a közlések szerint körülbelül 103 milliárd dollár.
+
+### Miért lényeges?
+
+Ez a nap egyik legfontosabb MI-gazdasági fejleménye.
+
+Az Nscale helyzete jól mutatja, milyen jelentős kockázatot jelenthet az adatközpontok hitelből finanszírozott fejlesztése.
+
+A beruházóknak egyszerre kell biztosítaniuk:
+
+- A számítási infrastruktúra finanszírozását.
+- A megfelelő villamosenergia-kapacitást.
+- A szükséges engedélyeket.
+- A hosszú távú ügyfélszerződéseket.
+
+Ha egy jelentős ügyfél nem bővíti a megrendelését, az közvetlenül befolyásolhatja az új fejlesztések finanszírozhatóságát.
+
+**A fő tanulság:** az MI-szolgáltatások iránti általános kereslet növekedése nem garantálja minden adatközpont-beruházás sikerét.
+
+Fontos: a Microsoft nem a teljes meglévő szerződését mondta fel, hanem egy további bővítési lehetőséggel nem élt.
+
+**Források:**
+
+[Financial Times – Microsoft rejects multibillion-dollar AI deal with UK's Nscale](https://www.ft.com/content/668e6ef8-88a1-4bef-8664-8f495baf09f8)
+
+[Portfolio – Egymilliárd dolláros veszteség: megroppant a tőzsdére készülő brit AI-cég](https://www.portfolio.hu/uzlet/20261105/egymilliard-dollaros-veszteseg-megroppant-a-tozsdere-keszulo-brit-ai-ceg-874378)
+
+---
+
+# 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+*A mai magyar válogatás egy friss vállalatvezetői értékelést, két november 5-i szakmai-tudományos rendezvényt és egy november 4-i társadalmi MI-programot tartalmaz. A rendezvények meghirdetett témáit nem kezeljük már igazolt kutatási vagy üzleti eredményként.*
+
+## 1. MOL: az MI átalakítja a pályakezdő munkaköröket, de nem feltétlenül szünteti meg őket
+
+**Dátum:** 2026. november 5.  
+**Kategória:** Magyar munkaerőpiac, vállalati MI, HR  
+**Jelentőség:** 🔴 Kiemelt magyar vonatkozás
+
+A Portfolio november 5-i beszámolójában Bán Zoltán, a MOL Magyarország HR-vezetője ismertette a hazai munkaerőpiac legfontosabb átalakulási folyamatait.
+
+A szakember szerint a mesterséges intelligencia és a digitalizáció gyors fejlődése miatt jelentősen változnak a munkavállalóktól elvárt készségek.
+
+### A legfontosabb megállapítások
+
+**Átalakuló pályakezdő munkakörök**
+
+Az MI nem feltétlenül szünteti meg a junior pozíciókat, de megváltoztatja a feladatok jellegét.
+
+**Gyorsabb tanulás**
+
+Az MI segítheti a fiatal munkavállalókat a rutinfeladatok elsajátításában és a szakmai fejlődésben.
+
+**Folyamatos átképzés**
+
+A technológiai változások miatt a munkavállalóknak és vezetőknek rendszeresen fejleszteniük kell kompetenciáikat.
+
+**Emberi felelősség**
+
+A vezető szerint a felvételi, előléptetési és más, munkavállalókat érintő jelentős döntések felelősségét nem lehet egyszerűen algoritmusokra átruházni.
+
+### Miért lényeges?
+
+A mesterséges intelligencia munkaerőpiaci hatása Magyarországon is egyre fontosabb vállalatvezetési kérdés.
+
+A következő években a pályakezdőknek nem feltétlenül ugyanazokat a rutinfeladatokat kell majd elvégezniük, mint korábban.
+
+Ehelyett előtérbe kerülhetnek:
+
+- Az összetettebb problémamegoldási feladatok.
+- Az MI-eszközök ellenőrzése.
+- A kritikus gondolkodás.
+- A szakmai döntés-előkészítés.
+- A folyamatos tanulás.
+
+**A fő tanulság:** a magyar vállalatok számára az MI-bevezetés nem kizárólag informatikai fejlesztés, hanem munkaerő-fejlesztési és szervezetirányítási feladat is.
+
+Fontos: az interjú vállalatvezetői szakmai értékelés, nem új, reprezentatív magyar munkaerőpiaci felmérés.
+
+**Forrás:**
+
+[Portfolio – Mi okozza a HR-vezetők legnagyobb fejtörését ma Magyarországon?](https://www.portfolio.hu/uzlet/20261105/mi-okozza-a-hr-vezetok-legnagyobb-fejtoreset-ma-magyarorszagon-874342)
+
+---
+
+## 2. Ma Budapesten: Data & Digital 2026 – hogyan válik az MI a vállalatok alapvető képességévé?
+
+**Dátum:** 2026. november 5.  
+**Kategória:** Magyar vállalati MI, digitális transzformáció, ipari alkalmazások  
+**Jelentőség:** 🔴 Kiemelt magyar vonatkozás
+
+Ma rendezik meg az **IFUA Horváth Data & Digital 2026** szakmai konferenciáját.
+
+A rendezvény központi kérdése, hogyan alakul át a vállalatok informatikai és üzleti működése 2030-ig a mesterséges intelligencia hatására.
+
+A programban magyar és nemzetközi vállalatok szakemberei vesznek részt.
+
+### Kiemelt MI-témák
+
+**A pilottól a globális működésig**
+
+Hogyan válhat az MI az ipari vállalatok mindennapi informatikai működésének részévé?
+
+**MI-alapú szoftverfejlesztés**
+
+Milyen mértékben automatizálhatók a szoftverfejlesztési munkafolyamatok?
+
+**Pénzügyi automatizáció**
+
+Milyen MI-megoldások támogathatják a pénzügyi vezetők és CFO-szervezetek munkáját?
+
+**Vállalati adatok és MI**
+
+Hogyan alakíthatók ki az MI-rendszerek működéséhez szükséges adatplatformok?
+
+**Szervezeti átalakulás**
+
+Miért jelenthet nagyobb kihívást a vállalat működésének átalakítása, mint maga a technológia bevezetése?
+
+### Kiemelt vállalati szereplők
+
+A programban többek között a következő vállalatok informatikai vezetői szerepelnek:
+
+- MOL Csoport.
+- Egis Gyógyszergyár.
+- Kostal.
+- IFUA Horváth.
+
+### Miért lényeges?
+
+Ez a nap egyik legfontosabb magyar vállalati MI-eseménye.
+
+A vállalatok számára egyre nagyobb kihívás az MI-kísérletek üzemi szintű alkalmazássá alakítása.
+
+Ehhez nem elegendő egy fejlett modellhez hozzáférni.
+
+Szükséges:
+
+- Megfelelő adatminőség.
+- Biztonságos integráció.
+- Világos üzleti cél.
+- Szervezeti felkészültség.
+- Megtérülésmérés.
+
+**A fő tanulság:** a magyar vállalati MI-fejlődés következő szakaszában az elszigetelt kísérletek helyett az üzleti rendszerekbe integrált, ellenőrizhető alkalmazások kerülhetnek előtérbe.
+
+**Forrás:**
+
+[IFUA Horváth – Data & Digital 2026 hivatalos konferenciaprogram](https://conf-digital.horvath-partners.com/hu/program)
+
+---
+
+## 3. ELTE: ma mutatják be a generatív MI-vel kapcsolatos új hallgatói kutatásokat
+
+**Dátum:** 2026. november 5.  
+**Helyszín:** ELTE Gazdaságtudományi Kar, Budapest  
+**Kategória:** Magyar MI-kutatás, digitális gazdaság, fogyasztói magatartás  
+**Jelentőség:** 🟠 Fontos magyar vonatkozás
+
+Az ELTE Gazdaságtudományi Kara november 4–5-én rendezi meg éves Tudományos Diákköri Konferenciáját.
+
+A mai programban több kifejezetten mesterségesintelligencia-vonatkozású hallgatói kutatás szerepel.
+
+### Kiemelt kutatási témák
+
+**1. Generatív MI a tudásmunkában**
+
+A kutatás az MI-eszközök használatával kapcsolatos függőség, tudatosság és metakogníció kérdéseit vizsgálja.
+
+**2. MI-generált képek és fogyasztói bizalom**
+
+Egy másik kutatás azt elemzi, hogyan viszonyulnak a fiatalok a mesterséges intelligenciával előállított vizuális tartalmakhoz.
+
+**3. Fizetési hajlandóság az MI-szolgáltatásokért**
+
+A kutatás azt vizsgálja, hogy a felhasználók mennyivel hajlandók többet fizetni a magasabbnak érzékelt MI-minőségért.
+
+**4. MI-alapú pénzügyi döntéstámogatás**
+
+A programban szerepel egy lokális RAG-rendszer alkalmazásának vizsgálata a nemzetközi számviteli szabályokhoz kapcsolódó döntéstámogatásban.
+
+A kutatás fontos szempontjai:
+
+- Válaszpontosság.
+- Téves válaszok.
+- Válaszlefedettség.
+- Üzemeltetési költség.
+
+**5. Mesterséges intelligencia a megfelelőségi munkában**
+
+Egy külön előadás az MI compliance-területen történő használatát vizsgálja.
+
+### Miért lényeges?
+
+A mai ELTE-program jól mutatja, hogy a mesterséges intelligencia kutatása már nem kizárólag informatikai kérdés.
+
+A technológia a következő területeken is fontos tudományos témává vált:
+
+- Menedzsment.
+- Pénzügy.
+- Marketing.
+- Vállalati döntéstámogatás.
+- Fogyasztói magatartás.
+- Szabályozási megfelelés.
+
+**A fő tanulság:** a magyar MI-kutatás egyik fontos fejlődési lehetősége a technológiai és gazdaságtudományi kompetenciák összekapcsolása.
+
+Fontos: ezek meghirdetett hallgatói kutatási előadások. A tudományos eredmények végső értékelését nem előlegezzük meg.
+
+**Forrás:**
+
+[ELTE Gazdaságtudományi Kar – TDK Konferencia 2026, részletes szekcióprogram](https://gtk.elte.hu/tdk/2026)
+
+---
+
+## 4. Budapesten az MI időskori alkalmazásait és veszélyeit vizsgálták
+
+**Program időpontja:** 2026. november 4.  
+**Helyszín:** KMO Művelődési Központ, Budapest  
+**Kategória:** Magyar társadalmi MI, digitális készségek, idősgondozás  
+**Jelentőség:** 🟠 Fontos magyar vonatkozás
+
+November 4-re hirdették meg a KMO Művelődési Központ **„Pozitív idősödés és mesterséges intelligencia”** című előadássorozatának záróalkalmát.
+
+A négyalkalmas program a mesterséges intelligencia időskori használatának lehetőségeivel és kockázataival foglalkozott.
+
+### A program fő témái
+
+**Mindennapi MI-használat**
+
+Hogyan segíthetik a digitális asszisztensek az információkeresést és az egyszerűbb feladatokat?
+
+**Egészség és jóllét**
+
+Milyen lehetőségeket és korlátokat jelentenek az MI-alapú egészségügyi és életviteli alkalmazások?
+
+**Digitális biztonság**
+
+Hogyan ismerhetők fel az MI-vel támogatott megtévesztési és csalási kísérletek?
+
+**Jövőbeli idősgondozási lehetőségek**
+
+Milyen szerepet kaphatnak az egyedileg kialakított MI-asszisztensek az időskori önállóság támogatásában?
+
+A szervezők gyakorlati példákon keresztül mutatták be a technológia használatát.
+
+### Miért lényeges?
+
+A mesterséges intelligencia társadalmi hasznossága nem kizárólag a gazdasági termelékenységben mérhető.
+
+A megfelelően kialakított alkalmazások az idősebb emberek számára is támogathatják:
+
+- Az információhoz való hozzáférést.
+- A digitális ügyintézést.
+- A mindennapi feladatok elvégzését.
+- Az önálló életvitelt.
+
+Ugyanakkor különösen fontos a megbízhatóság és a digitális csalások elleni védekezés.
+
+**A fő tanulság:** a magyar MI-adaptációban a technológiai hozzáférés mellett a különböző társadalmi csoportok digitális felkészítése is kiemelt jelentőségű.
+
+**Forrás:**
+
+[KMO – Pozitív idősödés és mesterséges intelligencia, hivatalos program](https://kmo5.eagent.hu/budapest/kispest/idoskori-programok/5344/pozitiv-idosodes-es-mesterseges-intelligencia/)
+
+---
+
+# 📊 A MAI NAP LEGFONTOSABB MI-TRENDJEI
+
+## 1. Az autonóm MI-ügynökök egyre nagyobb szerepet kapnak a szoftverfejlesztésben
+
+Az OpenAI Pierre-felvásárlási megállapodása és a Tencent Hy4 bevezetése közös fejlődési irányt mutat.
+
+A fejlett MI-rendszerek egyre több esetben nem pusztán válaszolnak a felhasználó kérdéseire.
+
+Képesek lehetnek:
+
+- Programkódot létrehozni.
+- Fájlokat szerkeszteni.
+- Számítógépes alkalmazásokat kezelni.
+- Változtatásokat ellenőrizni.
+- Több lépésből álló munkafolyamatokat végrehajtani.
+
+**A vállalati következmény:** az MI-ügynökök jogosultságkezelése, ellenőrzése és biztonságos integrációja egyre fontosabb feladattá válik.
+
+---
+
+## 2. A fizikai MI és a robotika új gazdasági szakaszba lép
+
+Az Agility Robotics tőzsdei megjelenése fontos mérföldkő.
+
+A humanoid robotokat fejlesztő vállalatoknak egyre inkább bizonyítaniuk kell, hogy technológiájuk a laboratóriumi környezeten kívül is működőképes.
+
+A legfontosabb kérdések:
+
+- Mennyire megbízható a robot?
+- Milyen feladatokat képes gazdaságosan elvégezni?
+- Mennyibe kerül az üzemeltetése?
+- Milyen biztonsági feltételek mellett dolgozhat emberek között?
+- Milyen gyorsan térül meg a beruházás?
+
+**Magyarország számára** az ipari robotika különösen fontos lehet a feldolgozóipari és logisztikai versenyképesség szempontjából.
+
+---
+
+## 3. Az MI-infrastruktúra piacán egyre jelentősebb különbség alakulhat ki a beruházók között
+
+A Google malajziai fejlesztési terve és az Nscale nehézségei két eltérő helyzetet mutatnak.
+
+**Nagy technológiai vállalatok:** jelentős saját pénzügyi erőforrásokkal és meglévő ügyfélbázissal rendelkeznek.
+
+**Fiatal infrastruktúra-szolgáltatók:** gyakran új finanszírozásra és további ügyfélszerződésekre szorulnak.
+
+A következő években a befektetők számára egyre fontosabb lehet:
+
+- A hosszú távú szerződésállomány minősége.
+- A beruházások finanszírozási költsége.
+- Az adatközpontok energiaellátása.
+- A kapacitások tényleges kihasználtsága.
+- A működési készpénztermelés.
+
+**A fő tanulság:** az MI-infrastruktúra gyors növekedése nem garantálja minden piaci szereplő pénzügyi sikerét.
+
+---
+
+## 4. Magyarországon az MI-bevezetés következő nagy kihívása a szervezeti alkalmazkodás
+
+A MOL HR-vezetőjének értékelése és az IFUA Horváth mai konferenciájának témái közös következtetésre vezetnek.
+
+A vállalati MI-bevezetés sikere nem kizárólag a modellek technikai teljesítményén múlik.
+
+Legalább ilyen fontos:
+
+- A munkavállalók képzése.
+- A megfelelő üzleti folyamatok kiválasztása.
+- A vezetői felelősség meghatározása.
+- Az adatbiztonság.
+- A technológiai beruházások megtérülésének mérése.
+
+**A fő lehetőség:** a magyar vállalatok a nemzetközi MI-technológiákat saját iparági tudásukkal összekapcsolva teremthetnek tartós versenyelőnyt.
+
+---
+
+# 🎯 ZÁRÓ ÉRTÉKELÉS
+
+| Kategória | A nap legfontosabb fejleménye |
+|---|---|
+| Nemzetközi technológia | OpenAI–Pierre Computer felvásárlási megállapodás |
+| MI-hardver | Arm: 27%-os bevételnövekedés |
+| Frontier-modellek | Tencent Hy4 megjelenése |
+| Fizikai MI | Agility Robotics: lezárt egyesülés, tervezett tőzsdei kereskedés |
+| MI-infrastruktúra | Google: 15 milliárd dolláros malajziai beruházási terv |
+| MI-finanszírozás | Microsoft–Nscale: elmaradó kapacitásbővítési megrendelés |
+| Magyar munkaerőpiac | MOL: átalakuló pályakezdő munkakörök |
+| Magyar vállalati MI | IFUA Horváth Data & Digital 2026 |
+| Magyar MI-kutatás | ELTE: generatív MI és digitális gazdaság |
+| Társadalmi MI | MI-alkalmazások az időskori önállóság támogatásában |
+
+---
+
+# 🧭 ÖSSZKÉP
+
+**2026. november 5-én a mesterséges intelligencia fejlődésének három meghatározó iránya rajzolódik ki.**
+
+**1. Autonóm működés**
+
+A nagy nyelvi modellek egyre inkább önálló, több lépésből álló munkafolyamatokat végrehajtó rendszerekké fejlődnek.
+
+**2. Fizikai és gazdasági infrastruktúra**
+
+Az MI fejlődéséhez egyre jelentősebb számítási, energetikai és pénzügyi erőforrásokra van szükség. Az infrastruktúra fejlesztése ugyanakkor jelentős megtérülési kockázatokat is hordoz.
+
+**3. Gyakorlati értékteremtés**
+
+A technológiai fejlődés valódi gazdasági és társadalmi jelentősége azon múlik, hogy az MI-rendszerek képesek-e megbízhatóan támogatni a vállalatokat, a kutatást és a mindennapi életet.
+
+**Magyarország számára a legfontosabb lehetőség a hazai szakmai kompetenciák, az ipari tapasztalatok és a nemzetközi MI-technológiák összekapcsolása.**
+
+A következő években várhatóan nem önmagában a legerősebb MI-modellhez való hozzáférés biztosítja majd a legnagyobb versenyelőnyt.
+
+Legalább ennyire fontos lesz, hogy **egy vállalat képes-e a mesterséges intelligenciát biztonságosan, ellenőrizhetően és mérhető gazdasági értéket teremtve alkalmazni**.
+
+---
+
+## 📝 FORRÁSKEZELÉSI MEGJEGYZÉS
+
+Az összefoglaló a 2026. november 5-én reggel elérhető hivatalos vállalati közleményekre, pénzügyi beszámolókra, kutatási és szakmai programokra, valamint megbízható nemzetközi sajtóforrásokra épül.
+
+**Frissesség:**
+
+- A nemzetközi hírek döntően 2026. november 4–5-i fejleményeket tartalmaznak.
+- A magyar blokkban november 5-i szakmai események és értékelések, illetve egy november 4-i program szerepel.
+- A november 5-i rendezvények későbbi eredményeit nem előlegezzük meg.
+
+**Fontos értelmezési korlátok:**
+
+- Az OpenAI Pierre-felvásárlása még nem zárult le.
+- Az Agility Robotics egyesülése lezárult, de a részvények mai kereskedésének tényleges megkezdését a reggeli hírlezáráskor még nem lehetett ellenőrizni.
+- A Google malajziai beruházásai jövőbeli tervekre vonatkoznak.
+- A Microsoft az Nscale meglévő szerződését nem szüntette meg, hanem egy további bővítési lehetőséggel nem élt.
+- Az Arm pénzügyi adatai a szeptember 30-án lezárt negyedévre vonatkoznak.
+- A Tencent Hy4 teljes modellsúlyainak közzététele még várható.
+- A MOL munkaerőpiaci értékelése vállalatvezetői szakmai vélemény.
+- Az ELTE hallgatói kutatásait meghirdetett tudományos előadásokként kezeljük, nem függetlenül validált, új kutatási eredményekként.
+- Egyes nemzetközi sajtóforrások előfizetéshez kötöttek.
+
+**A mai kiadás legfontosabb üzenete: az MI-verseny egyre inkább a teljes munkafolyamatokat kezelő autonóm rendszerek, a fizikai robotika, az energiahatékony infrastruktúra és a vállalati alkalmazások tényleges megtérülése köré szerveződik.**
