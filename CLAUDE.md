@@ -22,6 +22,7 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - Listázó oldalak (`lp_*.qmd`) és a hozzájuk tartozó mappák:
   - `lp_mi_hirek_napi/` – napi MI-hírek (`mi_hirek_ÉÉÉÉHHNN.qmd`), automatikusan generált tartalom.
   - `lp_mi_hirek_heti_pszicho/` – heti MI–pszichológia hírek, automatikusan generált tartalom.
+  - A két híroldal megjelenítése: `_templates/hirarchivum.ejs` – hónapok szerint tagolt idővonal (hónapugró gombok, dátumjel, a nap/hét fő híre és még két hírcím), saját keresőmezővel (ékezetfüggetlen, minden szóra illeszt). A témák a hírek fejlécének `temak:` mezőjéből jönnek (legfeljebb 3 hírcím, a szöveg első három számozott hírcíme); heti hírnél a dátumjel melletti felirat a cím „MI és pszichológia – ” utáni része. A sablon kimenete ```` ```{=html} ```` blokkban van, hogy a Pandoc ne törje szét.
   - `lp_rovid_ismertetok/` – tagok rövid ismertetői (BibTeX + `apa.csl`, kapcsolódó HTML diasor).
   - `lp_szakmai_esemenyek/` – események; saját mezők: `datum`, `idopont`, `helyszin`, `szervezo`; képek az `images/` mappában.
 - `mi_eszkozok.qmd` – MI eszközök oldal: eszközválasztó (kétszintű címkék) és eszközkártyák (név, leírás, az eszköz oldala, „Megtanulom” súgólink). Az adatok a `mi_eszkozok.yml`-ben vannak (mezők leírása a fájl elején), a megjelenítést a `_templates/mi-eszkozok.ejs` adja, a szűrő kis szkriptje is a sablonban van. Szempontok: Árazás (alapár: pontosan egy; oktatási kedvezmény: elhagyható lista), MI-típus, Feladat, Nyelv. A címke szövege egyben a szűrőgomb felirata; a sablon elején lévő `rend` listák csak a gombok sorrendjét adják, ismeretlen új érték a végére kerül, nem használt érték nem jelenik meg. Új eszköz = új bejegyzés a YAML-ban; az árazást az eszköz hivatalos oldalán ellenőrizzük, és frissítjük az oldal bevezetőjében az ellenőrzés hónapját. A régi `mi_eszkozok_iras.html` címről az `aliases:` irányít át.
@@ -40,7 +41,7 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 
 - Képeket webre optimalizált méretben tegyünk fel (fotó: JPG, kb. 1500 px szélesség, néhány száz kB).
 - Ne használjunk `date: today` mezőt olyan oldalon, ahol a dátumnak tartalmi jelentése van.
-- Hírek beillesztése: YAML fejléc (`title`, `author: "OpenAI - ChatGpt"`, `date`), a forrásszöveg saját főcíme elhagyva; fájlnév `mi_hirek_ÉÉÉÉHHNN.qmd`. A honlap saját oldalaira mutató linkek relatívak legyenek.
+- Hírek beillesztése: YAML fejléc (`title`, `author: "OpenAI - ChatGpt"`, `date`, `temak:` – a hír első három számozott hírcíme, JSON-listaként), a forrásszöveg saját főcíme elhagyva; fájlnév `mi_hirek_ÉÉÉÉHHNN.qmd`. A honlap saját oldalaira mutató linkek relatívak legyenek.
 - Új menüpontnál a menüfelirat és az oldal `title` mezője legyen összhangban.
 - Akadálymentesség: minden képnek legyen képleírása (Markdown `![leírás](…)`, ábránál `fig-alt`, eseménynél a fejlécben `image-alt` a lista bélyegképéhez); oldalanként egy H1 (a lapcím) – a hírek, az események és a Kutatócsoportról oldalon a `#` fejezetcímek a `shift-heading-level-by: 1` beállítással (mappánként `_metadata.yml`) egy szinttel lejjebb kerülnek; kattintható elemek legalább 24×24 px.
 
@@ -66,3 +67,4 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - 2026-11-06: adatkezelési mondat a láblécben (`.emi-footer-adat`): „Az oldal látogatottságát sütik és személyes adatok gyűjtése nélkül mérjük.”
 - 2026-11-06: Cloudflare Web Analytics a GoatCounter mellé, szintén csak az élő oldalon.
 - 2026-11-06: a Quarto további felületi szövegei magyarítva a `language:` blokkban (színmód-váltó: „Váltás világos és sötét mód között”, mobilmenü, keresés, másolás gomb, üres lista); nagyobb színmód-váltó ikon (asztalon 1,75 rem, mobilon 1,5 rem) és rámutatáskor halvány háttér.
+- 2026-11-06: a napi és a heti híroldal táblázat helyett hónapok szerint tagolt idővonal (`_templates/hirarchivum.ejs`): hónapugró gombok, dátumjel, fő hír + két további hírcím, keresőmező; a Szerző oszlop és a lapozás megszűnt; minden hír fejlécébe `temak:` mező került (74 fájl; a szeptember 12–18-i napi és a 2026-09-14-i átfogó heti összefoglaló témái kézzel/eltérő minta alapján).

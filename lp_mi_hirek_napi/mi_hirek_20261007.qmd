@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 07."
 author: "OpenAI - ChatGpt"
 date: "2026-10-07"
+temak: ["Az OpenAI 722, MI által készített matematikai kéziratot tett közzé", "Az OpenAI valódi vállalati szoftvereken tanítja ügynökeit összetett szakmai munkára", "Az Anthropic kibővítette a fejlett kiberképességekhez hozzáférést adó programját"]
 ---
 
 *Frissítve: 2026. október 7., reggel. A nemzetközi válogatás elsősorban az október 6–7-én megjelent fejleményekre épül. A hazai blokkban a mai, illetve az elmúlt 24–48 órában megjelent magyar vonatkozások szerepelnek.*

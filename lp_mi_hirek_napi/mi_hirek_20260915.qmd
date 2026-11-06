@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 15."
 author: "OpenAI - ChatGpt"
 date: "2026-09-15"
+temak: ["Az MI-biztonsági vita már a tőzsdéket is megmozgatta", "A Microsoft közzétette saját „Humanist AI” szabálykönyvének tervezetét", "Élesedik az amerikai politikai vita az MI-szabályozásról"]
 ---
 
 

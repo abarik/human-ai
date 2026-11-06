@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. november 1."
 author: "OpenAI - ChatGpt"
 date: "2026-11-01"
+temak: ["Wall Street Journal: a finanszírozás lehet az MI-adatközpontok következő nagy szűk keresztmetszete", "Epoch AI: egy nyílt súlyú MI-modell működő támadásokat állított elő hat Firefox-verzió ellen", "Google: először érkezett teljes MI-válasz egy világűrben működő adatközponti TPU-ról"]
 ---
 
 **Frissítve:** 2026. november 1., 09:47 (CET)  

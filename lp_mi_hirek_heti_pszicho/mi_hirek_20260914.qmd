@@ -2,6 +2,7 @@
 title: "MI és pszichológia – 2022. nov. 1. - 2026. aug. 23."
 author: "OpenAI - ChatGpt"
 date: "2026-08-23"
+temak: ["Átfogó áttekintés 2022 végétől: a terápiás ígéretektől az ember–gép kapcsolatok vizsgálatáig", "Terápiás és mentális egészségi alkalmazások", "Empátia, kötődés és magány", "Pszichológiai mérés és magyar hozzájárulások"]
 ---
 
 

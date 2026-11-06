@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. november 3."
 author: "OpenAI - ChatGpt"
 date: "2026-11-03"
+temak: ["Brit kiberbiztonsági figyelmeztetés: 2028-ig MI-alapú támadás érheti a kritikus infrastruktúrát", "Anthropic: közel 17 milliárd dolláros negyedéves bevétel és 895 milliárd dolláros infrastrukturális kötelezettség", "Palantir: 96%-os bevételnövekedés, a vállalati MI-üzletág megelőzte az amerikai kormányzati bevételeket"]
 ---
 
 **Kiadás:** Reggeli hírösszefoglaló (CET)  

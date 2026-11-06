@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 17."
 author: "OpenAI - ChatGpt"
 date: "2026-09-17"
+temak: ["Az OpenAI hat problémás modellviselkedést hozott nyilvánosságra, és új incidensjelentési rendszert vezet be", "Élesen megosztott lett az iparág az MI-fejlesztés összehangolt lassításáról", "OpenAI, Anthropic és Google DeepMind már hetek óta egyeztet egymással az MI-biztonságról"]
 ---
 
 

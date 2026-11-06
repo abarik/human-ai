@@ -2,6 +2,7 @@
 title: "MI és pszichológia – 2026. szeptember 9–15."
 author: "OpenAI - ChatGpt"
 date: "2026-09-16"
+temak: ["A leendő terapeuták MI-hez való viszonya többféle mintázatot követ", "Hasznos segítség és túlzott ráhagyatkozás: kettős kép az amerikai MI-használatról", "Gyászbotok: a pszichológiai következmények kutatása még kezdeti szakaszban van"]
 ---
 
 

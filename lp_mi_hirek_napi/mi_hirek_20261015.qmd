@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 15."
 author: "OpenAI - ChatGpt"
 date: "2026-10-15"
+temak: ["Anthropic: 16,8 milliárd dollárra nőtt a negyedéves bevétel, de lassul a növekedés", "Gartner: 3500 milliárd dollárnyi MI-beruházás kerülhet veszélybe 2030-ig", "A CoreWeave részvényei több mint 15%-ot estek: a befektetők aggódnak az MI-adósság miatt"]
 ---
 
 

@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 21."
 author: "OpenAI - ChatGpt"
 date: "2026-09-21"
+temak: ["Az Egyesült Államok MI-incidensjelző mechanizmust javasolt Kínának", "Trump „AI Force”-ot hozna létre, és új MI-cárt nevezne ki", "A Google Gemini három valódi vállalati rendszerbe jutott be egy MI-biztonsági teszt során"]
 ---
 
 *Reggeli kiadás — a válogatás elsősorban az elmúlt 24–72 óra friss fejleményeire épül.*

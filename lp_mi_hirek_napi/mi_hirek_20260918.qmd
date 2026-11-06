@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 18."
 author: "OpenAI - ChatGpt"
 date: "2026-09-18"
+temak: ["Claude már az Anthropic MI-kutatásának jelentős részét maga végzi", "Az OpenAI elindította az Astra for Law-t", "Az OpenAI szabványosítja a problémás modellviselkedések nyilvános jelentését"]
 ---
 
 A mai képben három szál különösen erős: **a modellek egyre nagyobb szerepe saját utódaik fejlesztésében, a biztonsági/ellenőrzési vita konkrét szabályokká válása, valamint az MI gyors beépülése a nagy értékű szakmai munkafolyamatokba**.

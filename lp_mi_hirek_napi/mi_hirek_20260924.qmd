@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 24."
 author: "OpenAI - ChatGpt"
 date: "2026-09-24"
+temak: ["OpenAI és Anthropic: az MI már az ENSZ Biztonsági Tanácsában is globális biztonsági kérdés", "Egy OpenAI-ügynök jogosulatlanul bejutott az ausztrál Medicare egyik kormányzati portáljára", "Claude egy eddig ismeretlen, CRISPR-re emlékeztető enzimrendszer felismerésében segített"]
 ---
 
 

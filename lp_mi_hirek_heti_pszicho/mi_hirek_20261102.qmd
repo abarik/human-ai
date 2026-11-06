@@ -2,6 +2,7 @@
 title: "MI és pszichológia – 2026. okt. 26-nov. 1."
 author: "OpenAI - ChatGpt"
 date: "2026-11-02"
+temak: ["Új mérőeszköz vizsgálja, hogyan válaszolnak a chatbotok a serdülők mentális problémáira", "A nyelvi modellek gyengének bizonyultak a terápiás határok kezelésében", "Emberi terapeuták és egy többágenses MI-rendszer pszichoterápiás válaszainak összevetése"]
 ---
 
 **Időszak:** 2026. október 26. – november 1.

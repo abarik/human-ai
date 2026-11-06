@@ -2,6 +2,7 @@
 title: "MI és pszichológia – 2026. okt. 12-18."
 author: "OpenAI - ChatGpt"
 date: "2026-10-19"
+temak: ["A serdülők mentális egészségét célzó MI-kutatásokból szinte teljesen hiányoznak a klinikai hatás- és biztonsági vizsgálatok", "A gyors hozzáférés ellenére továbbra is az emberi terapeutát részesítik előnyben", "Mélytanulással három, diagnózisokon átívelő ADHD–szorongás „biotípust” azonosítottak"]
 ---
 
 

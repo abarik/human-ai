@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 19."
 author: "OpenAI - ChatGpt"
 date: "2026-10-19"
+temak: ["Anthropic: a vállalat részvényeinek 5%-át közérdekű alapba helyezné", "Financial Times: a befektetők egyre inkább elfordulnak az MI-adatközpontok kötvényeitől", "Világbank: a kisebb MI-modellek jelenthetik az egyik legnagyobb gazdasági lehetőséget"]
 ---
 
 **Frissítve:** 2026. október 19., 10:16 (CEST)  

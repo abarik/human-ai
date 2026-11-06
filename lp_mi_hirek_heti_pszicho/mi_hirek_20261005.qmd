@@ -2,6 +2,7 @@
 title: "MI és pszichológia – 2026. szept. 29. - okt. 4."
 author: "OpenAI - ChatGpt"
 date: "2026-10-05"
+temak: ["A súlyos pszichés distresszt átélők csaknem fele fordult már generatív MI-hez támogatásért", "A pszichoterápiás szakemberek több mint fele használ már generatív MI-t, miközben a képzés elmarad", "Beszédalapú MI jelezheti a gyorsuló biológiai és kognitív öregedést"]
 ---
 
 

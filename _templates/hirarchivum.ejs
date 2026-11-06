@@ -1,0 +1,42 @@
+<%
+const honapok = ['január','február','március','április','május','június','július','augusztus','szeptember','október','november','december'];
+const honapRovid = ['jan.','febr.','márc.','ápr.','máj.','jún.','júl.','aug.','szept.','okt.','nov.','dec.'];
+const napok = ['vasárnap','hétfő','kedd','szerda','csütörtök','péntek','szombat'];
+const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const csoportok = [];
+items.forEach(it => {
+const d = new Date(String(it.date).slice(0, 10) + 'T12:00:00');
+const kulcs = d.getFullYear() + '-' + d.getMonth();
+let cs = csoportok.find(c => c.kulcs === kulcs);
+if (!cs) { cs = { kulcs, cim: d.getFullYear() + '. ' + honapok[d.getMonth()], azon: 'h' + d.getFullYear() + String(d.getMonth() + 1).padStart(2, '0'), elemek: [] }; csoportok.push(cs); }
+cs.elemek.push({ it, d });
+});
+const sorok = [];
+sorok.push('<div class="emi-hirkereso" hidden><label class="visually-hidden" for="emi-hirkereso-mezo">Keresés a hírek között</label><input type="search" id="emi-hirkereso-mezo" placeholder="Keresés a hírek között (pl. OpenAI, chatbot, oktatás)…" autocomplete="off"><p class="emi-hirkereso-allapot" aria-live="polite"></p></div>');
+sorok.push('<nav class="emi-honap-ugro" aria-label="Ugrás hónapra">' + csoportok.map(cs => '<a href="#' + cs.azon + '">' + esc(cs.cim) + ' <span>' + cs.elemek.length + '</span></a>').join('') + '</nav>');
+sorok.push('<div class="list emi-hirarchivum">');
+csoportok.forEach(cs => {
+sorok.push('<section class="emi-honap" id="' + cs.azon + '"><h2 class="emi-honap-cim">' + esc(cs.cim) + '</h2><ol class="emi-hirnapok">');
+cs.elemek.forEach(({ it, d }) => {
+const t = it.temak || [];
+const cim = String(it.title || '');
+const heti = /^MI és pszichológia\s*[–-]\s*/.test(cim);
+const cimke = heti ? cim.replace(/^MI és pszichológia\s*[–-]\s*/, '') : honapok[d.getMonth()] + ' ' + d.getDate() + '., ' + napok[d.getDay()];
+const kereso = (cimke + ' ' + t.join(' ') + ' ' + cim).toLowerCase();
+sorok.push('<li data-kereses="' + esc(kereso) + '"><a class="emi-hirnap" href="' + esc(String(it.path).replace(/^\//, '').replace(/\.qmd$/, '.html')) + '">'
++ '<span class="emi-datumjel" aria-hidden="true"><span class="emi-datumjel-nap">' + d.getDate() + '</span><span class="emi-datumjel-ho">' + honapRovid[d.getMonth()] + '</span></span>'
++ '<span class="emi-hirnap-szoveg"><span class="emi-hirnap-datum">' + esc(cimke) + '</span>'
++ (t.length ? '<span class="emi-hirnap-fo">' + esc(t[0]) + '</span>' : '<span class="emi-hirnap-fo">' + esc(it.title) + '</span>')
++ (t.length > 1 ? '<span class="emi-hirnap-tovabbi">' + esc(t.slice(1).join(' · ')) + '</span>' : '')
++ '</span><span class="emi-hirnap-nyil" aria-hidden="true">→</span></a></li>');
+});
+sorok.push('</ol></section>');
+});
+sorok.push('</div>');
+sorok.push('<p class="emi-hirkereso-nincs" hidden>Nincs a keresésnek megfelelő hírösszefoglaló.</p>');
+sorok.push('<script>(function(){var d=document.querySelector(".emi-hirkereso");if(!d)return;d.hidden=false;var m=d.querySelector("input"),a=d.querySelector(".emi-hirkereso-allapot"),n=document.querySelector(".emi-hirkereso-nincs");var norm=function(s){return s.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g,"");};var sorok=[].slice.call(document.querySelectorAll(".emi-hirnapok > li"));sorok.forEach(function(l){l._k=norm(l.getAttribute("data-kereses")||"");});var honapok=[].slice.call(document.querySelectorAll(".emi-honap"));function frissit(){var q=norm(m.value.trim()),szavak=q.split(/\\s+/).filter(Boolean),db=0;sorok.forEach(function(l){var ok=szavak.every(function(w){return l._k.indexOf(w)!==-1;});l.hidden=!ok;if(ok)db++;});honapok.forEach(function(h){var v=h.querySelectorAll(".emi-hirnapok > li:not([hidden])").length;h.hidden=v===0;var g=document.querySelector(\'.emi-honap-ugro a[href="#\'+h.id+\'"]\');if(g){g.hidden=v===0;g.querySelector("span").textContent=v;}});a.textContent=szavak.length?db+" találat":"";n.hidden=db>0;}m.addEventListener("input",frissit);})();</script>');
+%>
+```{=html}
+<%= sorok.join('\n') %>
+```
+

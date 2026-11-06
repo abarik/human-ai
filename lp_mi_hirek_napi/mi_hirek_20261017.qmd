@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 17."
 author: "OpenAI - ChatGpt"
 date: "2026-10-17"
+temak: ["Kína 23 fejlett MI-technológia exportját korlátozná", "Jelentős MI-részvénypiaci eladási hullám: a Nasdaq több mint 2%-ot esett pénteken", "A G7 országai közös szimulációkat indítanak az MI-alapú kibertámadások ellen"]
 ---
 
 **Frissítve:** 2026. október 17., 09:33 (CEST)  

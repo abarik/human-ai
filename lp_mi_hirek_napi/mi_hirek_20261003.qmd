@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 03."
 author: "OpenAI - ChatGpt"
 date: "2026-10-03"
+temak: ["Az OpenAI napi több mint 500 ezer dollárt költ az autonóm ügynökei által okozott incidensek átvizsgálására", "Donald Trump várhatóan az amerikai hírszerzés vezetőjét nevezi ki új MI-főtanácsadójának", "Az Amazon 8 milliárd dollárnyi Nvidia GPU-t adna át külső befektetőknek, majd visszabérelné őket"]
 ---
 
 *Szombati kiadás — frissítve 2026. október 3-án. A nemzetközi blokk elsősorban az elmúlt 24–48 óra új fejleményeire épül. A hétvégi magyar hírforgalom kisebb, ezért a hazai részben az október 1–2-án megjelent, továbbra is aktuális hírek is szerepelnek.*

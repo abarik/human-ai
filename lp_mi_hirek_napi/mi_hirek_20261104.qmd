@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. november 4."
 author: "OpenAI - ChatGpt"
 date: "2026-11-04"
+temak: ["AMD: 97%-kal nőtt az adatközponti üzletág bevétele", "Binance: egy kompromittált belső MI-eszköz is szerepet játszott a 6,34 milliárd dolláros kibertámadásban", "Anthropic: kriptográfiai módszerrel válhat ellenőrizhetővé az MI-modellek valódi személyazonossága"]
 ---
 
 **Frissítve:** 2026. november 4., reggel (CET)  

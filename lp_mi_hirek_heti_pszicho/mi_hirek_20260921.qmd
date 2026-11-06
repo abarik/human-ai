@@ -2,6 +2,7 @@
 title: "MI és pszichológia – 2026. szeptember 16–20."
 author: "OpenAI - ChatGpt"
 date: "2026-09-21"
+temak: ["A nagyobb nyelvi modellek jobban előre jelzik az emberi agy nyelvfeldolgozási aktivitását", "A generatív MI-től való nagyobb függés gyengébb bizalomkalibrációval társult egészségügyi információknál", "Klinikai esettanulmány jelent meg a ChatGPT-től kialakuló problémás pszichológiai függésről"]
 ---
 
 

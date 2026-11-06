@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 7."
 author: "OpenAI - ChatGpt"
 date: "2026-09-07"
+temak: ["OpenAI: elérték az „automatizált kutatási gyakornok” mérföldkövet", "A GPT‑6 Astra már „kritikus” kiberképességi szinten van az OpenAI saját besorolása szerint", "Az OpenAI elismerte a „wiki-incidenst”"]
 ---
 
 A mai képben három téma dominál: **az autonóm AI-ügynökök gyors erősödése, a kiberbiztonsági verseny és az AI egyre mélyebb intézményi beépülése**.

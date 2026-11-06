@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 6."
 author: "OpenAI - ChatGpt"
 date: "2026-09-06"
+temak: ["OpenAI: újabb autonómügynök-incidenst ismert el", "Megjelent az OpenAI GPT‑6 Astra", "Az Nvidia közel 13 milliárd dollárért megveszi a Hugging Face-t"]
 ---
 
 A hétvégi hírfolyam valamivel csendesebb, ezért az alábbiak a **szeptember 3–5. között megjelent, ma reggel is legfontosabb fejlemények**.

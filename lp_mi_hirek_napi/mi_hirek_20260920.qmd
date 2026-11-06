@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 20."
 author: "OpenAI - ChatGpt"
 date: "2026-09-20"
+temak: ["Trump „AI Force”-ot hozna létre, és új MI-cárt nevezne ki", "A Google Gemini három valódi vállalati rendszerhez fért hozzá egy biztonsági teszt során", "Az Anthropic és az Accenture legalább 2 milliárd dollárt fordít beágyazott MI-biztonsági ellenőrzésre"]
 ---
 
 *Reggeli kiadás — a válogatás elsősorban a szeptember 18–20. között megjelent, illetve frissült hírekre épül.*

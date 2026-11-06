@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 30."
 author: "OpenAI - ChatGpt"
 date: "2026-10-30"
+temak: ["Amazon: rekordütemben nő az AWS, de az MI-beruházások hatalmas készpénzkiáramlást okoznak", "Samsung: rekordnyereséget hozott az MI-adatközpontok memóriaéhsége", "Mistral AI: nyilvánosan elérhetővé vált a Mistral Large 4 továbbfejlesztett változata"]
 ---
 
 **Frissítve:** 2026. október 30., reggel (CET)  

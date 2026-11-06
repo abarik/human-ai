@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 31."
 author: "OpenAI - ChatGpt"
 date: "2026-10-31"
+temak: ["OpenAI: 30 milliárdról 20 milliárd dollárra csökkent a tervezett tőkebevonás", "Közel 3%-ot esett a Nasdaq, az Intel 29%-os zuhanása megrázta a félvezetőpiacot", "OpenAI, Google, Microsoft és Anthropic: közös szabvány készül az MI-adatgyűjtés szabályozására"]
 ---
 
 **Frissítve:** 2026. október 31., 09:22 (CET)  

@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 18."
 author: "OpenAI - ChatGpt"
 date: "2026-10-18"
+temak: ["DeepSeek: megjelent a V4.1-Flash-1017, jelentős előrelépéssel a programozási feladatokban", "A nagy weboldalak elkezdték kizárni az autonóm MI-ügynököket", "Az Anthropic jogászokkal dolgozik azon, hogyan tárgyalhatnak egymással az MI-ügynökök"]
 ---
 
 **Frissítve:** 2026. október 18., 09:07 (CEST)  

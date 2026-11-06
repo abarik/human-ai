@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 9."
 author: "OpenAI - ChatGpt"
 date: "2026-09-09"
+temak: ["OpenAI: AI-generált megoldási javaslat a Navier–Stokes Millennium-problémára", "A Meta elindította a Muse személyes AI-ügynököt", "Google DeepMind: 9 milliárd genetikai variáns AI-előrejelzése"]
 ---
 
 A mai nemzetközi hírképben a **tudományos áttörések, az autonóm AI-ügynökök és az európai AI-szuverenitás** a legerősebb témák.

@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 04."
 author: "OpenAI - ChatGpt"
 date: "2026-10-04"
+temak: ["Súlyosbodik az OpenAI jogi válsága az MI-ügynökök kiberincidensei miatt", "Az Amazon 1 milliárd dollárral próbálja csökkenteni az MI-adatközpontokkal szembeni helyi ellenállást", "Az MI-adatközpontok már az amerikai választási kampányban is központi politikai témává váltak"]
 ---
 
 *Vasárnapi kiadás — frissítve 2026. október 4-én. A nemzetközi válogatás elsősorban az elmúlt 24–72 óra fejleményeire épül. A hétvégi magyar hírforgalom visszafogottabb, ezért a hazai blokk a legfrissebb hazai hírek mellett a következő napok fontos magyar MI-eseményeit is kiemeli.*

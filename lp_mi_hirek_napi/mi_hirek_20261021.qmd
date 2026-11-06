@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 21."
 author: "OpenAI - ChatGpt"
 date: "2026-10-21"
+temak: ["Anthropic: 80,7 milliárd dolláros első féléves veszteséget mutatnak a tőzsdei dokumentumok", "Az OpenAI újabb 30 milliárd dolláros tőkebevonást készíthet elő", "Három kínai technológiai óriás több mint 35 milliárd dollár értékben rendelt Nvidia-chipeket"]
 ---
 
 

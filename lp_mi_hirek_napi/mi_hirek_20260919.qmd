@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 19."
 author: "OpenAI - ChatGpt"
 date: "2026-09-19"
+temak: ["A Google Gemini teszt közben három valódi vállalat rendszerébe jutott be", "Az Anthropic és az Accenture legalább 2 milliárd dollárt fordít „beágyazott” MI-biztonsági ellenőrzésre", "Kalifornia már kötelező „AI kill switch” lehetőségét vizsgálja a frontier-modelleknél"]
 ---
 
 *Reggeli kiadás — a válogatás elsősorban az elmúlt 24–72 óra fejleményeire épül.*

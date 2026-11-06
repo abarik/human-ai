@@ -2,6 +2,7 @@
 title: "MI és pszichológia – 2026. aug. 31. - 2026. szept. 8."
 author: "OpenAI - ChatGpt"
 date: "2026-09-08"
+temak: ["Az MI-hez fűződő kapcsolat jellege összefügghet a depressziós és szorongásos tünetekkel", "A mentális egészség támogatására már a hétköznapi, nem klinikai chatbotokat is széles körben használják", "Egy GPT-4o-alapú depresszió-chatbot jól követte a terápiás protokollt, de a klinikai mérlegelés gyengébb pont maradt"]
 ---
 
 # Heti tudományos összefoglaló: mesterséges intelligencia × pszichológia

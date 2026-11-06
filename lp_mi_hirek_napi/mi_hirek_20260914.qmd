@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 14."
 author: "OpenAI - ChatGpt"
 date: "2026-09-14"
+temak: ["Az Anthropic lassítaná a frontier MI fejlesztését — és a piac már reagált", "Washingtonban élesen eltérnek a vélemények arról, mennyire kell szabályozni a legerősebb modelleket", "Az Anthropic konkrét fegyver-, biológiai és kibervisszaélési kísérleteket tárt fel"]
 ---
 
 A hétfő reggeli hírképben három téma emelkedik ki: **a frontier MI biztonsága körüli fordulat, az amerikai szabályozási vita, valamint az infrastruktúra- és szuverenitási verseny**. A biztonsági vita már a piacokra is átterjedt.

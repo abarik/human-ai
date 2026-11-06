@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 10."
 author: "OpenAI - ChatGpt"
 date: "2026-10-10"
+temak: ["Az autonóm MI-rendszerek biztonsága szabályozói kérdéssé vált", "Egyre nagyobb figyelem irányul az MI-iparág pénzügyi fenntarthatóságára", "Az MI fejlődésének következő szakasza az alkalmazásokban és a tudományban zajlik"]
 ---
 
 

@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 11."
 author: "OpenAI - ChatGpt"
 date: "2026-10-11"
+temak: ["Az Nvidia a Reflection AI felvásárlását mérlegeli", "Az amerikai kormány kötelező MI-biztonsági incidensjelentést vár el", "Az Anthropic leválasztja belső modelltesztjeit a nyílt internetről"]
 ---
 
 

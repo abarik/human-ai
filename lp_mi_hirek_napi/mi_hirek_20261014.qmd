@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 14."
 author: "OpenAI - ChatGpt"
 date: "2026-10-14"
+temak: ["Európában gyorsan terjed az agentikus MI", "A frontier-modellekből valódi munkavégző rendszerek lesznek", "Az MI-chipboom továbbra is fizikai kapacitáskorlátokba ütközik"]
 ---
 
 **Frissítve:** 2026. október 14., 18:29 CEST  

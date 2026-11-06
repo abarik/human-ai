@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. november 2."
 author: "OpenAI - ChatGpt"
 date: "2026-11-02"
+temak: ["Egyesült Királyság: új MI-szuverenitási stratégia és szigorúbb adatközponti feltételek", "Argentína: Javier Milei szabályozásmentes MI-központtá alakítaná Patagóniát", "Nscale: jelentős kockázatok fenyegetik az MI-infrastruktúra egyik legnagyobb beruházását"]
 ---
 
 **Frissítve:** 2026. november 2., 10:00 (CET)  

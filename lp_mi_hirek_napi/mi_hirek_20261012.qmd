@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 12."
 author: "OpenAI - ChatGpt"
 date: "2026-10-12"
+temak: ["Az Amazon 7 milliárd dollárért vásárolhatja fel a Decart MI-startupot", "Az Egyesült Királyság kötelező MI-biztonsági jelentéstételt vezethet be", "Az Nvidia a Reflection AI felvásárlását vagy további finanszírozását vizsgálja"]
 ---
 
 

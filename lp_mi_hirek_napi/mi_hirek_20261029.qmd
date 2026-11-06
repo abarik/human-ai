@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 29."
 author: "OpenAI - ChatGpt"
 date: "2026-10-29"
+temak: ["Google DeepMind: megjelent a Gemini 4 Carbon, új csúcs a kiberbiztonsági modellértékeléseken", "Microsoft: 92,3 milliárd dolláros negyedéves bevétel, az Azure 48%-kal növekedett", "Alphabet: a Google Cloud bevétele 103%-kal nőtt, de jelentős készpénzkiáramlást okoznak az MI-beruházások"]
 ---
 
 **Frissítve:** 2026. október 29., 09:55 (CET)  

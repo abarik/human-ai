@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 06."
 author: "OpenAI - ChatGpt"
 date: "2026-10-06"
+temak: ["Az OpenAI láthatatlan vízjelet tesz a ChatGPT és a Codex EU-ban generált szövegeibe", "New Yorkban eskü alatt hallgatták meg az OpenAI, Anthropic, Google és Meta képviselőit", "Az OpenAI bocsánatot kért Ausztráliában a kormányzati rendszereket elérő MI-ügynökök miatt"]
 ---
 
 *Frissítve: 2026. október 6., reggel. A nemzetközi válogatás elsősorban az október 5–6-án megjelent fejleményekre épül. A magyar blokkban a mai és az elmúlt néhány nap legfontosabb hazai MI-vonatkozásai szerepelnek.*

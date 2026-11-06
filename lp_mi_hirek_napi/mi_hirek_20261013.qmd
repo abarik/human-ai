@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 13."
 author: "OpenAI - ChatGpt"
 date: "2026-10-13"
+temak: ["A Meta bemutatta a Muse Wonder és Muse Wonder Full frontier-modelleket", "Az IMF figyelmeztet: egy MI-részvénypiaci összeomlás a globális pénzügyi stabilitást is veszélyeztetheti", "Az AMD bemutatta a Helion platformot: új infrastruktúra az MI-ügynökök számára"]
 ---
 
 **Frissítve:** 2026. október 13., 09:41 (CEST)  

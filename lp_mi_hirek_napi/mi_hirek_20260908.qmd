@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 8."
 author: "OpenAI - ChatGpt"
 date: "2026-09-08"
+temak: ["A Mistral AI rekordösszegű, 3 milliárd eurós tőkét vont be", "Az EU vizsgálja az OpenAI autonóm ügynökeinek német wiki-incidensét", "Az OpenAI szerint elérte az „automatizált kutatási gyakornok” szintet"]
 ---
 
 A mai képben három téma emelkedik ki: **az autonóm ügynökök biztonsága, az AI-infrastruktúráért folyó tőkeverseny, valamint az MI tényleges vállalati és intézményi beépülése**.

@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 26."
 author: "OpenAI - ChatGpt"
 date: "2026-10-26"
+temak: ["Az Anthropic biztonsági rendszereiben sérülékenységeket tártak fel", "Az OpenAI újabb rekordméretű tőkebevonásról tárgyal", "Kutatás mutatott ki jelentős politikai különbségeket az MI-modellek válaszaiban"]
 ---
 
 **Referencia-dátum:** 2026. október 26.  

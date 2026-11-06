@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 05."
 author: "OpenAI - ChatGpt"
 date: "2026-10-05"
+temak: ["Trump Jay Claytont nevezte ki az új amerikai „Super Intelligence Force” élére", "Schneider Electric 22,6 milliárd dollárért megveszi a PTC-t, és ipari MI-platformot épít", "Az Nvidia által támogatott Reflection nagy teljesítményű nyílt súlyú MI-modellre készül"]
 ---
 
 *Reggeli kiadás — frissítve 2026. október 5-én, 09:15 CEST. A válogatás elsősorban az elmúlt 24–72 óra fejleményeire épül.*

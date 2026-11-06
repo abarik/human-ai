@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 23."
 author: "OpenAI - ChatGpt"
 date: "2026-10-23"
+temak: ["Világszintű kiberbiztonsági riadó: MI segítségével azonosítottak kritikus PHP-sérülékenységeket", "Jelentős tőzsdei visszaesés: 2,6%-ot esett a Nasdaq az MI-beruházások miatti aggodalmak közepette", "Barclays: 5000 munkahelyet szüntetnek meg, részben az MI-alapú hatékonyságnövelés miatt"]
 ---
 
 **Frissítve:** 2026. október 23., 09:56 (CEST)  

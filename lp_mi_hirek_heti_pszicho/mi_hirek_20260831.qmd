@@ -2,6 +2,7 @@
 title: "MI és pszichológia – 2026. augusztus 24-30."
 author: "OpenAI - ChatGpt"
 date: "2026-08-31"
+temak: ["A „mentális egészségi beszélgetés” definíciójától függően több mint húszszoros eltérés adódik a ChatGPT-beszélgetések gyakoriságában", "Nagy áttekintés: az MI bizonyítékai erősebbek a mentális zavarok szűrésében, mint a tartós terápiás alkalmazásokban", "Az LLM-ekkel történő szövegjavítás csökkentheti az egyéni nyelvi különbségeket"]
 ---
 
 

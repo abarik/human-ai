@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 22."
 author: "OpenAI - ChatGpt"
 date: "2026-09-22"
+temak: ["Alibaba bemutatta Kína eddigi legerősebbnek mondott saját MI-chipjét, és 5–10 billió paraméteres modellt tervez", "Az OpenAI amerikai vezetéssel globális frontier-MI szabványokat sürget", "Az Egyesült Államok MI-incidensjelző mechanizmust javasolt Kínának"]
 ---
 
 *Reggeli kiadás — frissítve 2026. szeptember 22-én. A nemzetközi válogatás elsősorban az elmúlt 24–72 óra fejleményeire épül; a magyar blokkban a ma reggeli hírek mellett az elmúlt hét legfontosabb hazai MI-fejleményei is szerepelnek.*

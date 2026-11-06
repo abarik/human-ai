@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 30."
 author: "OpenAI - ChatGpt"
 date: "2026-09-30"
+temak: ["Az Anthropic IPO-dokumentuma megmutatja, mennyibe kerül valójában a frontier-MI", "OpenAI DevDay: megérkeztek a 24/7 dolgozó „Dots” ügynökök és a GPT-6.1 Sol", "A vezető amerikai MI-cégek közös, önkéntes biztonsági megállapodást írtak alá a Fehér Házban"]
 ---
 
 *Reggeli kiadás — frissítve 2026. szeptember 30-án. A nemzetközi válogatás elsősorban a szeptember 28–30. között megjelent fejleményekre épül. A magyar blokkban a legfrissebb hazai szakpolitikai, kutatási és vállalati hírek szerepelnek.*

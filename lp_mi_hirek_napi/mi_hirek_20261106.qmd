@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. november 6."
 author: "OpenAI - ChatGpt"
 date: "2026-11-06"
+temak: ["Összeomlásszerű eladási hullám az MI-részvények piacán: 5,5%-ot zuhant a Nasdaq", "OpenAI: megjelent a GPT-6 Cyber, jelentős előrelépés az MI-alapú kiberbiztonságban", "OpenAI: új vállalások az MI-adatközpontok energia- és vízfelhasználásának átláthatóságáról"]
 ---
 
 **Frissítve:** 2026. november 6., reggel (CET)  
@@ -698,4 +699,4 @@ Az összefoglaló a 2026. november 6-án reggel elérhető hivatalos vállalati 
 
 ---
 
-**A mai kiadás legfontosabb üzenete: az MI-verseny következő szakaszában a modellek teljesítménye mellett a pénzügyi fenntarthatóság, a kiberbiztonság, a kreatív alkalmazások költséghatékonysága és a technológia társadalmi elfogadottsága is egyre meghatározóbbá válik.**
+**A mai kiadás legfontosabb üzenete: az MI-verseny következő szakaszában a modellek teljesítménye mellett a pénzügyi fenntarthatóság, a kiberbiztonság, a kreatív alkalmazások költséghatékonysága és a technológia társadalmi elfogadottsága is egyre meghatározóbbá válik.**

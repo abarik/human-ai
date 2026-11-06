@@ -2,6 +2,7 @@
 title: "MI és pszichológia – 2026. okt. 5-11."
 author: "OpenAI - ChatGpt"
 date: "2026-10-12"
+temak: ["Elektronikus betegaktákban vizsgálták a chatbotokkal összefüggésbe hozott pszichotikus epizódokat", "A mentális egészségügyi MI-eszközök gyakran kihagyják a méltányosság szempontjából fontos adatokat", "Az MI-forrás feltüntetése alig változtatta meg az egészségügyi szövegek megítélését"]
 ---
 
 

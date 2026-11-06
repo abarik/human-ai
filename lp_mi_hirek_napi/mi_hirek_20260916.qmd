@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 16."
 author: "OpenAI - ChatGpt"
 date: "2026-09-16"
+temak: ["OpenAI, Anthropic és Google DeepMind már hetek óta közösen egyeztet az MI-biztonságról", "Mark Zuckerberg szakított a közös lassítás gondolatával", "Bernie Sanders és Steve Bannon ugyanazon az oldalon találta magát az MI-szabályozás ügyében"]
 ---
 
 

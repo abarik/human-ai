@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 27."
 author: "OpenAI - ChatGpt"
 date: "2026-10-27"
+temak: ["Anthropic: hivatalosan benyújtották a tőzsdei bevezetés dokumentumait", "OpenAI: megjelent a GPT-6.1 Terra, az olcsóbb, számítógépes feladatokra optimalizált modell", "Meta: akár 95 milliárd dollárnyi új részvényfinanszírozás az MI-infrastruktúra fejlesztésére"]
 ---
 
 **Frissítve:** 2026. október 27., délelőtt (CET)  

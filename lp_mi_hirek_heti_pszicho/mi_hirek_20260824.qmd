@@ -2,6 +2,7 @@
 title: "MI és pszichológia – 2026. augusztus 17-23."
 author: "OpenAI - ChatGpt"
 date: "2026-08-24"
+temak: ["Az emberek kevésbé fogadnák el a pszichoterápiát, ha a terapeuta MI-t használ – különösen, ha ezt nem közli", "Helyben futó LLM-et teszteltek traumaleírások és PTSD-releváns információk elemzésére", "Vezető pszichiátriai szakértők öt prioritást fogalmaztak meg a mentális egészségügyi MI biztonságos alkalmazásához"]
 ---
 
 

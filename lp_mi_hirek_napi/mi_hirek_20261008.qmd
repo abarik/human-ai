@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 08."
 author: "OpenAI - ChatGpt"
 date: "2026-10-08"
+temak: ["Anthropic: megérkezett a Claude Haiku 5.5, jelentősen olcsóbb MI-automatizációval", "A Mistral bemutatta az ezermilliárd paraméteres Large 4 modellt", "Google, Meta és amerikai kutatási szervezetek: 1,8 milliárd dolláros kezdeményezés a biológiai MI fejlesztésére"]
 ---
 
 

@@ -1113,6 +1113,61 @@ body.quarto-dark .emi-morzsa li[aria-current] { color: var(--emi-gold); }
 .emi-morzsa a { color: var(--emi-accent); font-weight: 700; text-decoration: none; }
 .emi-morzsa a:hover { text-decoration: underline; }
 
+/* Hírarchívum (napi MI-hírek): hónapok szerint tagolt idővonal (_templates/hirarchivum.ejs) */
+.emi-hirkereso { margin: 1.5rem 0 0; }
+.emi-hirkereso input {
+  width: 100%; min-height: 2.75rem; padding: .55rem 1rem .55rem 2.6rem;
+  border: 1px solid var(--emi-line); border-radius: 10px; background: var(--emi-surface);
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%2364748b" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.242.656a5 5 0 1 1 0-10 5 5 0 0 1 0 10"/></svg>');
+  background-repeat: no-repeat; background-position: .95rem center;
+  color: var(--emi-ink); font: inherit;
+}
+.emi-hirkereso input:focus { border-color: var(--emi-accent); outline: 3px solid color-mix(in srgb, var(--emi-accent) 25%, transparent); }
+.emi-hirkereso-allapot { min-height: 1.2rem; margin: .4rem 0 0; color: var(--emi-muted); font-size: .88rem; }
+.emi-hirkereso-nincs { padding: 1.5rem; border: 1px dashed var(--emi-line); border-radius: 10px; color: var(--emi-muted); text-align: center; }
+.emi-honap[hidden], .emi-honap-ugro a[hidden], .emi-hirnapok > li[hidden] { display: none !important; }
+.emi-honap-ugro { display: flex; flex-wrap: wrap; gap: .45rem; margin: .8rem 0 2rem; }
+.emi-honap-ugro a {
+  display: inline-flex; align-items: center; gap: .45rem; min-height: 2.25rem; padding: .3rem .85rem;
+  border: 1px solid var(--emi-line); border-radius: 999px; background: var(--emi-surface);
+  color: var(--emi-heading); font-size: .92rem; font-weight: 700; text-decoration: none;
+}
+.emi-honap-ugro a:hover { border-color: var(--emi-gold); }
+.emi-honap-ugro span { padding: 0 .4rem; border-radius: 999px; background: var(--emi-tint); color: var(--emi-muted); font-size: .78rem; font-weight: 400; }
+.emi-honap { scroll-margin-top: 5rem; margin-bottom: 2.5rem; }
+main.content h2.emi-honap-cim {
+  display: flex; align-items: center; gap: 1rem; margin: 0 0 .9rem; padding: 0; border: 0;
+  font-size: 1.55rem;
+}
+main.content h2.emi-honap-cim::after { content: ""; flex: 1; height: 1px; background: var(--emi-line); }
+main.content ol.emi-hirnapok { margin: 0; padding: 0; list-style: none; }
+main.content ol.emi-hirnapok > li { margin: 0; }
+main.content a.emi-hirnap {
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 1.1rem;
+  padding: .85rem .9rem; border-bottom: 1px solid var(--emi-line); border-radius: 8px;
+  color: var(--emi-ink); text-decoration: none;
+  transition: background-color var(--emi-dur-gyors, 220ms) ease, padding var(--emi-dur, 320ms) var(--emi-ease-out, ease-out);
+}
+main.content ol.emi-hirnapok > li:last-child a.emi-hirnap { border-bottom: 0; }
+main.content a.emi-hirnap:hover { background: var(--emi-tint); }
+.emi-hirnap .emi-datumjel { min-width: 3.4rem; }
+.emi-hirnap-szoveg { display: flex; flex-direction: column; gap: .15rem; min-width: 0; }
+.emi-hirnap-datum { color: var(--emi-muted); font-size: .85rem; }
+.emi-hirnap-fo { color: var(--emi-heading); font-family: var(--emi-font-head); font-size: 1.2rem; font-weight: 600; line-height: 1.25; }
+body.quarto-dark .emi-hirnap-fo { color: var(--emi-ink); }
+.emi-hirnap-tovabbi { overflow: hidden; color: var(--emi-muted); font-size: .9rem; white-space: nowrap; text-overflow: ellipsis; }
+.emi-hirnap-nyil { color: var(--emi-gold); font-size: 1.2rem; transition: transform var(--emi-dur, 320ms) var(--emi-ease-out, ease-out); }
+main.content a.emi-hirnap:hover .emi-hirnap-nyil { transform: translateX(4px); }
+main.content a.emi-hirnap:hover .emi-datumjel { background: var(--emi-band); color: #fff; }
+body.quarto-dark main.content a.emi-hirnap:hover .emi-datumjel { background: var(--emi-gold); color: #142033; }
+@media (max-width: 575.98px) {
+  main.content a.emi-hirnap { gap: .8rem; padding: .75rem .4rem; }
+  .emi-hirnap-nyil { display: none; }
+  .emi-hirnap-tovabbi { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .emi-honap-ugro a { min-height: 2rem; padding: .2rem .65rem; font-size: .85rem; }
+  .emi-hirnap-fo { font-size: 1.08rem; }
+}
+
 /* ------------------------------------------------------------------
    Mozgás
    - kifelé lassuló görbe; csak transform és opacity mozog

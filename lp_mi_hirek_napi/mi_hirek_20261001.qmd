@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 01."
 author: "OpenAI - ChatGpt"
 date: "2026-10-01"
+temak: ["Az amerikai FTC vizsgálja az OpenAI-t és az Anthropict az autonóm MI-ügynökök kockázatai miatt", "A Google bemutatta a Gemini 4 Argont, de egyelőre korlátozza a hozzáférést", "Kaliforniában törvény tiltja, hogy kizárólag MI döntsön egy dolgozó kirúgásáról"]
 ---
 
 *Frissítve: 2026. október 1., reggel. A nemzetközi válogatás elsősorban az elmúlt 24–48 óra fejleményeire épül.*

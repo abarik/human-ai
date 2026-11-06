@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 13."
 author: "OpenAI - ChatGpt"
 date: "2026-09-13"
+temak: ["Az Anthropic vezérigazgatója az MI-fejlesztési verseny lassítását sürgeti", "Az amerikai Szenátus olyan szabályozást tárgyal, amely akár egy veszélyes MI-modell megjelenését is megakadályozhatná", "Az Anthropic valós fegyver-, biológiai és kibervisszaélési kísérleteket tárt fel"]
 ---
 
 A mai nemzetközi hírkép szokatlanul erősen a **frontier modellek biztonsága és az autonóm MI-ügynökök ellenőrizhetősége** köré szerveződik. Magyarországon hétvége lévén kevesebb új bejelentés érkezett, ezért a legfrissebb, szeptember 8–11. közötti fejleményeket emelem ki.

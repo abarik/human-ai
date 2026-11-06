@@ -2,6 +2,7 @@
 title: "MI és pszichológia – 2026. okt. 19-25."
 author: "OpenAI - ChatGpt"
 date: "2026-10-26"
+temak: ["A többféle biológiai adat nem javította a depresszió-visszaesés MI-alapú előrejelzését", "Emberi klinikust kapcsoltak be az MI-chatbot által jelzett öngyilkossági kockázat kezelésébe", "Nagy nyelvi modellekkel keresték a serdülők depressziós tüneteinek jeleit a klinikai feljegyzésekben"]
 ---
 
 ## Nemzetközi hírek

@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 28."
 author: "OpenAI - ChatGpt"
 date: "2026-10-28"
+temak: ["SK hynix: rekordnyereség, és 2030-ig fennmaradhat a memóriahiány", "NVIDIA és AMD: 4 milliárd dollárnyi befektetés a Metába, szorosabb együttműködés az MI-ügynökök fejlesztésében", "Oracle: 2027-től Google TPU-kat is kínálna, miközben több gigawattos NVIDIA-infrastruktúrára készül"]
 ---
 
 **Frissítve:** 2026. október 28., 09:46 (CET)  

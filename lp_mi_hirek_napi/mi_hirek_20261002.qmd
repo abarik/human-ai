@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 02."
 author: "OpenAI - ChatGpt"
 date: "2026-10-02"
+temak: ["A Google bemutatta a Gemini 4 Argont, de biztonsági okokból nem engedi még széles körben használni", "Kalifornia hivatalosan beidézte az OpenAI-t az autonóm MI-ügynökök kiberincidensei miatt", "A Broadcom akár 42 milliárd dollárt hitelezhet az Anthropicnak az MI-compute finanszírozására"]
 ---
 
 *Reggeli kiadás — a válogatás elsősorban az elmúlt 24–48 óra fejleményeire épül. A magyar blokkban a tegnapi és a ma zajló, érdemi hazai MI-fejlemények szerepelnek.*

@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 10."
 author: "OpenAI - ChatGpt"
 date: "2026-09-10"
+temak: ["Google: 13 milliárd eurós AI-infrastruktúra-beruházás Finnországban", "Az OpenAI kötelező amerikai AI-biztonsági szabályokat sürget", "Újabb amerikai–kínai konfliktus az AI-modellek „desztillációja” körül"]
 ---
 
 A mai képben az **AI-infrastruktúra, a biztonsági szabályozás és a geopolitikai technológiaverseny** dominál. Az alábbiak főként a szeptember 9–10-i fejlemények.

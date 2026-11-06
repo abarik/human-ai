@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 22."
 author: "OpenAI - ChatGpt"
 date: "2026-10-22"
+temak: ["Az OpenAI modelljei megjelennek a Google Cloud platformján", "NVIDIA: a moduláris MI-adatközpontok akár 14 nap alatt üzembe helyezhetők lehetnek", "NVIDIA OpenShell: új hardveres és szoftveres biztonsági architektúra az MI-ügynökök számára"]
 ---
 
 **Frissítve:** 2026. október 22., reggel (CEST)  

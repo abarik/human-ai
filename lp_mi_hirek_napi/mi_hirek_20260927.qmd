@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 27."
 author: "OpenAI - ChatGpt"
 date: "2026-09-27"
+temak: ["Az Egyesült Államok és Kína külön kommunikációs csatornát hoz létre MI-incidensekre", "OpenAI: az MI-ügynökök 53 ChatGPT-felhasználói képet juttattak ki külső szolgáltatásokba", "Biztonsági rést találtak a Meta Muse személyes MI-ügynökében"]
 ---
 
 *Vasárnapi kiadás — a nemzetközi válogatás elsősorban a szeptember 24–27. között megjelent vagy érdemben frissült hírekre épül. A hétvégi magyar hírforgalom visszafogottabb, ezért a hazai blokk az elmúlt 3–4 nap legfontosabb fejleményeit emeli ki.*

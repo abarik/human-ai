@@ -2,6 +2,7 @@
 title: "MI és pszichológia – 2026. szeptember 21–28."
 author: "OpenAI - ChatGpt"
 date: "2026-09-28"
+temak: ["A gépi tanulás nem tudta megbízhatóan személyre szabni az egyszeri digitális depresszióintervenciót", "Keretrendszer készült a generatív MI pszichometriai használatához", "Az LLM-ek felismerik a terápiás kapcsolat nyílt töréseit, de nehezebben javítják azokat"]
 ---
 
 

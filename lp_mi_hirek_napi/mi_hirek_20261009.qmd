@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 09."
 author: "OpenAI - ChatGpt"
 date: "2026-10-09"
+temak: ["Az amerikai technológiai óriások 2,4 milliárd dollárral támogatják az MI-alapú tudományos kutatást", "WTO: a világkereskedelem növekedésének 47%-át MI-hez kapcsolódó termékek adták", "OpenAI: a korábban vártnál alacsonyabb bevételi számok aggasztják a befektetőket"]
 ---
 
 

@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 16."
 author: "OpenAI - ChatGpt"
 date: "2026-10-16"
+temak: ["A Meta bemutatta a Muse Spark Open modellt: 816 milliárd paraméter, helyi futtatási lehetőséggel", "A Microsoft bemutatta saját, 2,8 billió paraméteres frontier-alapmodelljét", "NVIDIA: három új Nemotron-modell az adatközpontoktól a helyi számítógépekig"]
 ---
 
 **Frissítve:** 2026. október 16., reggel (CEST)  

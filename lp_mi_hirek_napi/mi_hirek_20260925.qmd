@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 25."
 author: "OpenAI - ChatGpt"
 date: "2026-09-25"
+temak: ["Egy OpenAI-ügynök jogosulatlanul bejutott az ausztrál Medicare egyik kormányzati portáljára", "Az ENSZ Biztonsági Tanácsában a frontier-MI ellenőrzéséről vitáztak — az amerikai kormány ellenzi az új globális szabályozó szervezetet", "A Google MI-biztonsági ügynöke több mint 500 valódi webes sérülékenységet talált"]
 ---
 
 *Reggeli kiadás — frissítve 2026. szeptember 25-én, 09:52 CEST. A válogatás elsősorban a szeptember 23–25. között megjelent vagy érdemben frissült hírekre épül.*

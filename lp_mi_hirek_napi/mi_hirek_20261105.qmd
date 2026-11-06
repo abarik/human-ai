@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. november 5."
 author: "OpenAI - ChatGpt"
 date: "2026-11-05"
+temak: ["OpenAI: felvásárolja a Pierre Computert, tovább bővül a Codex", "Arm: rekordbevétel, megduplázódtak az adatközponti jogdíjak", "Tencent: megjelent a Hy4, az új multimodális MI-modell"]
 ---
 
 **Frissítve:** 2026. november 5., 09:43 (CET)  

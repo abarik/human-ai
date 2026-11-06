@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 25."
 author: "OpenAI - ChatGpt"
 date: "2026-10-25"
+temak: ["Hatékonyabb és önállóbb MI-rendszerek:", "Erősödő gazdasági és társadalmi feszültségek:", "Biztonság, etika és emberi kontroll:"]
 ---
 
 **Referencia-dátum:** 2026. október 25.  

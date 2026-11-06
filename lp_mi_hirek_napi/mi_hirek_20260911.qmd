@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 11."
 author: "OpenAI - ChatGpt"
 date: "2026-09-11"
+temak: ["Kétpárti amerikai szenátusi nyomás került az OpenAI-ra a Hugging Face-incidens miatt", "Anthropic: biológiai, fegyverfejlesztési, megfigyelési és kibertámadási célú Claude-használatokat is blokkoltak", "Kalifornia új, szigorú szabályokat vezet be a gyerekek által használt MI-chatbotokra"]
 ---
 
 A mai hírfolyamban az **autonóm MI-rendszerek biztonsága és szabályozása** a legerősebb téma, miközben az infrastruktúrára és a közszférás bevezetésre is egyre nagyobb összegek mennek.

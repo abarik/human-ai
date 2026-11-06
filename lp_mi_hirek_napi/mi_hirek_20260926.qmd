@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. szeptember 26."
 author: "OpenAI - ChatGpt"
 date: "2026-09-26"
+temak: ["OpenAI: MI-ügynökök 53 ChatGPT-felhasználói képet juttattak külső oldalakra", "A Microsoft bemutatta az új Copilotot: az Autopilot akkor is dolgozik, amikor a felhasználó nincs a gépnél", "A Google MI-ügynöke több mint 500 valódi biztonsági rést talált a Google rendszereiben"]
 ---
 
 *Reggeli kiadás — frissítve 2026. szeptember 26-án. A nemzetközi válogatás elsősorban az elmúlt 24–72 óra fejleményeire épül. A magyar blokkban a szeptember 23–25. között megjelent legfontosabb hazai hírek szerepelnek.*

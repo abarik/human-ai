@@ -2,6 +2,7 @@
 title: "Napi MI-hírösszefoglaló — 2026. október 20."
 author: "OpenAI - ChatGpt"
 date: "2026-10-20"
+temak: ["Anthropic–Nscale: újabb 45 milliárd dolláros MI-infrastruktúra-megállapodás készülhet", "Microsoft: új biztonsági megközelítés az önállóan működő MI-ügynökök ellenőrzésére", "AstraZeneca és Oracle: MI-alapú együttműködés indulhat a klinikai kutatások fejlesztésére"]
 ---
 
 **Frissítve:** 2026. október 20., 09:50 (CEST)  
