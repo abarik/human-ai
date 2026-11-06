@@ -1,9 +1,17 @@
 /*-- scss:defaults --*/
 
-// Felső navigációs sáv: világos háttér, sötét szöveg
+// „A” irány – akadémiai, intézményi paletta (világos mód)
+// Alapszín: intézményi sötétkék; kiemelés: arany/mustár.
+$primary: #1E3A5F;
+$body-bg: #F8FAFC;
+$body-color: #0F172A;
+$link-color: #1E3A5F;
+$link-hover-color: #A16207;
+
+// Felső navigációs sáv: fehér háttér, sötét szöveg
 // (az ikonok – keresés, színmód-váltó, menügomb – ebből kapják a színüket)
-$navbar-bg: #f8f7f3;
-$navbar-fg: #23343d;
-$navbar-hl: #176b68;
+$navbar-bg: #FFFFFF;
+$navbar-fg: #0F172A;
+$navbar-hl: #A16207;
 
 /*-- scss:rules --*/

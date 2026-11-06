@@ -1,53 +1,38 @@
 /*-- scss:defaults --*/
 
-$body-bg: #1e2024;
-$body-color: #d8dadd;
-$link-color: #8eb8dc;
-$link-hover-color: #b5d2ea;
+// „A” irány – akadémiai, intézményi paletta (sötét mód)
+$primary: #9CC2F0;
+$body-bg: #0E1626;
+$body-color: #E2E8F0;
+$link-color: #9CC2F0;
+$link-hover-color: #E9C78B;
 
 // Felső navigációs sáv (az ikonok is ebből kapják a színüket)
-$navbar-bg: #151e27;
-$navbar-fg: #d9e2e7;
-$navbar-hl: #88d3c5;
+$navbar-bg: #121D31;
+$navbar-fg: #E2E8F0;
+$navbar-hl: #E9C78B;
 
-$footer-bg: #25282d;
-$footer-fg: #aeb4ba;
+$footer-bg: #0A1120;
+$footer-fg: #C9D6E6;
 
-$input-bg: #25282d;
-$input-color: #d8dadd;
-$input-border-color: #3b3f45;
-$input-group-addon-bg: #25282d;
-$input-group-addon-color: #d8dadd;
+$input-bg: #16233A;
+$input-color: #E2E8F0;
+$input-border-color: #2A3B55;
+$input-group-addon-bg: #16233A;
+$input-group-addon-color: #E2E8F0;
 
 /*-- scss:rules --*/
 
-// Lábléc
-.nav-footer {
-  background-color: #25282d;
-  color: #aeb4ba;
-  border-top: 1px solid #3b3f45;
-}
-
-.nav-footer a {
-  color: #c8d0d8;
-}
-
-// Listing: rendezés és keresés ikonmezői
-.quarto-listing .input-group-text {
-  color: #d8dadd;
-  background-color: #25282d;
-  border-color: #3b3f45;
-}
-
-// Listing beviteli mező és legördülő lista
+// Listing: rendezés és keresés ikonmezői, beviteli mezők
+.quarto-listing .input-group-text,
 .quarto-listing .form-control,
 .quarto-listing .form-select {
-  color: #d8dadd;
-  background-color: #25282d;
-  border-color: #3b3f45;
+  color: #E2E8F0;
+  background-color: #16233A;
+  border-color: #2A3B55;
 }
 
 .quarto-listing .form-control::placeholder {
-  color: #969da5;
+  color: #A9B6C8;
   opacity: 1;
 }

@@ -1,43 +1,71 @@
-/* Ember–MI: editorial typography and a restrained research-inspired palette.
-   Quarto's body classes follow both the theme switch and system preference. */
+/* Ember–MI – „A” irány: akadémiai, intézményi arculat.
+   Intézményi sötétkék + arany kiemelés; Crimson Pro címek, Atkinson Hyperlegible szöveg
+   (UI UX Pro Max: „Research Lab / University Department” ajánlás).
+   A Quarto body-osztályai követik a színmód-váltót és a rendszerbeállítást is. */
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap");
+
 :root {
-  --emi-bg: #f8f7f3;
+  --emi-font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --emi-font-head: "Crimson Pro", Georgia, "Times New Roman", serif;
+
+  --emi-bg: #f8fafc;
   --emi-surface: #ffffff;
-  --emi-sidebar: #f0f2ee;
-  --emi-ink: #23343d;
-  --emi-heading: #142e39;
-  --emi-title-start: #234761;
-  --emi-title-middle: #23635f;
-  --emi-title-end: #397566;
-  --emi-section-heading: #28635f;
-  --emi-muted: #586972;
-  --emi-accent: #176b68;
-  --emi-accent-hover: #104e4c;
-  --emi-tint: #e6efea;
-  --emi-line: #d5dfda;
-  --emi-gold: #ac8241;
-  --emi-pattern: rgba(23, 107, 104, .09);
-  --emi-shadow: 0 8px 24px rgba(24, 48, 54, .05);
+  --emi-sidebar: #e9eef5;
+  --emi-ink: #0f172a;
+  --emi-heading: #1e3a5f;
+  --emi-title-start: #1e3a5f;
+  --emi-title-middle: #1e3a5f;
+  --emi-title-end: #2b4c7a;
+  --emi-section-heading: #1e3a5f;
+  --emi-muted: #475569;
+  --emi-accent: #1e3a5f;
+  --emi-accent-hover: #a16207;
+  --emi-tint: #e9eef5;
+  --emi-line: #cbd5e1;
+  --emi-gold: #a16207;
+  --emi-pattern: rgba(30, 58, 95, .07);
+  --emi-shadow: 0 6px 20px rgba(15, 23, 42, .06);
+
+  /* Sötétkék sávok: bemutató sáv és lábléc */
+  --emi-band: #1e3a5f;
+  --emi-band-panel: #233f64;
+  --emi-band-line: #3b5878;
+  --emi-band-text: #dce6f2;
+  --emi-band-eyebrow: #e9c78b;
+  --emi-btn-bg: #a16207;
+  --emi-btn-fg: #ffffff;
+  --emi-btn-hover: #8a5306;
+  --emi-footer-bg: #0f2440;
 }
 
 body.quarto-dark {
-  --emi-bg: #151e27;
-  --emi-surface: #1c2934;
-  --emi-sidebar: #18232d;
-  --emi-ink: #d9e2e7;
-  --emi-heading: #eef4f5;
-  --emi-title-start: #bed0e4;
-  --emi-title-middle: #a6d3cf;
-  --emi-title-end: #d9dfcd;
-  --emi-section-heading: #acd1ca;
-  --emi-muted: #a8bac3;
-  --emi-accent: #88d3c5;
-  --emi-accent-hover: #b8e9df;
-  --emi-tint: #243d40;
-  --emi-line: #354650;
-  --emi-gold: #d5b47c;
-  --emi-pattern: rgba(136, 211, 197, .09);
-  --emi-shadow: 0 8px 24px rgba(0, 0, 0, .13);
+  --emi-bg: #0e1626;
+  --emi-surface: #16233a;
+  --emi-sidebar: #121d31;
+  --emi-ink: #e2e8f0;
+  --emi-heading: #ffffff;
+  --emi-title-start: #f1f5f9;
+  --emi-title-middle: #dce6f2;
+  --emi-title-end: #e9c78b;
+  --emi-section-heading: #f1f5f9;
+  --emi-muted: #a9b6c8;
+  --emi-accent: #9cc2f0;
+  --emi-accent-hover: #e9c78b;
+  --emi-tint: #1e3050;
+  --emi-line: #2a3b55;
+  --emi-gold: #e9c78b;
+  --emi-pattern: rgba(156, 194, 240, .07);
+  --emi-shadow: 0 6px 20px rgba(0, 0, 0, .25);
+
+  --emi-band: #142a47;
+  --emi-band-panel: #1a3456;
+  --emi-band-line: #2f4a6e;
+  --emi-band-text: #c9d6e6;
+  --emi-band-eyebrow: #e9c78b;
+  --emi-btn-bg: #e9c78b;
+  --emi-btn-fg: #142033;
+  --emi-btn-hover: #f3d9a8;
+  --emi-footer-bg: #0a1120;
   color-scheme: dark;
 }
 
@@ -46,9 +74,9 @@ body.quarto-light { color-scheme: light; }
 body {
   background-color: var(--emi-bg);
   color: var(--emi-ink);
-  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-family: var(--emi-font-body);
   font-size: 1rem;
-  line-height: 1.75;
+  line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -73,8 +101,8 @@ main.content :is(h1, h2, h3, h4, h5, h6) {
   padding: clamp(1.5rem, 4vw, 3rem) clamp(1.25rem, 3vw, 2.5rem);
   margin: 1rem 0 2rem;
   border: 1px solid var(--emi-line);
-  border-top: 3px solid var(--emi-accent);
-  border-radius: 3px 3px 16px 3px;
+  border-top: 3px solid var(--emi-gold);
+  border-radius: 10px;
   background: var(--emi-surface);
   box-shadow: var(--emi-shadow);
 }
@@ -95,11 +123,11 @@ main.content :is(h1, h2, h3, h4, h5, h6) {
 #title-block-header h1.title {
   max-width: 24ch;
   margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2rem, 3.5vw, 3.2rem);
-  font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: -.035em;
+  font-family: var(--emi-font-head);
+  font-size: clamp(2.2rem, 4vw, 3.4rem);
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -.01em;
   text-wrap: balance;
   overflow-wrap: break-word;
 }
@@ -129,11 +157,11 @@ main.content section > :is(h1, h2) {
   margin-bottom: 1.15rem;
   padding-bottom: .65rem;
   border-bottom: 1px solid var(--emi-line);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.5rem, 2.3vw, 1.95rem);
-  font-weight: 400;
-  line-height: 1.3;
-  letter-spacing: -.02em;
+  font-family: var(--emi-font-head);
+  font-size: clamp(1.7rem, 2.6vw, 2.2rem);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0;
 }
 
 main.content h3 { font-size: 1.2rem; line-height: 1.45; margin-top: 2rem; }
@@ -159,14 +187,14 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
   --bs-navbar-brand-color: var(--emi-title-start);
   --bs-navbar-brand-hover-color: var(--emi-title-start);
   padding-block: .55rem;
-  background-color: var(--emi-bg) !important;
+  background-color: var(--emi-surface) !important;
   border-bottom: 1px solid var(--emi-line);
   box-shadow: none;
 }
 
 @supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
   #quarto-header .navbar {
-    background-color: color-mix(in srgb, var(--emi-bg) 82%, transparent) !important;
+    background-color: color-mix(in srgb, var(--emi-surface) 86%, transparent) !important;
     -webkit-backdrop-filter: saturate(1.4) blur(12px);
     backdrop-filter: saturate(1.4) blur(12px);
   }
@@ -183,35 +211,36 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
   box-shadow: none;
 }
 #quarto-header .navbar-toggler:focus-visible { box-shadow: 0 0 0 3px var(--emi-tint); }
+#quarto-header .navbar-nav .nav-link.active::after { display: none; }
 #quarto-header .navbar-toggler-icon { width: 1.25em; height: 1.25em; }
 
 #quarto-header .navbar-title {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.5rem;
-  letter-spacing: -.04em;
+  font-family: var(--emi-font-head);
+  font-size: 1.65rem;
+  font-weight: 600;
+  letter-spacing: -.01em;
   color: var(--emi-title-start);
 }
 
 #quarto-header .navbar-nav .nav-link {
-  margin-inline: .1rem;
-  padding: .45rem .9rem !important;
-  border-radius: 999px;
-  font-size: .95rem;
-  font-weight: 500;
-  transition: background-color .2s ease, color .2s ease;
+  margin-inline: .15rem;
+  padding: .55rem .8rem !important;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  font-size: 1rem;
+  transition: color .2s ease, border-color .2s ease;
 }
 
 #quarto-header .navbar-nav .nav-link:hover,
 #quarto-header .navbar-nav .nav-link:focus-visible,
 #quarto-header .navbar-nav .nav-link.show {
-  color: var(--emi-accent);
-  background-color: var(--emi-tint);
+  color: var(--emi-accent-hover);
 }
 
 #quarto-header .navbar-nav .nav-link.active {
-  color: var(--emi-accent);
-  background-color: var(--emi-tint);
-  font-weight: 600;
+  color: var(--emi-heading);
+  border-bottom-color: var(--emi-gold);
+  font-weight: 700;
 }
 
 /* Lenyíló menü */
@@ -235,7 +264,7 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
 #quarto-header .dropdown-item:hover,
 #quarto-header .dropdown-item:focus-visible,
 #quarto-header .dropdown-item.active {
-  color: var(--emi-accent);
+  color: var(--emi-accent-hover);
   background-color: var(--emi-tint);
 }
 
@@ -420,7 +449,7 @@ main.content .kartya-lista > :is(ul, ol) > li::before {
   display: block;
   margin-bottom: .6rem;
   color: var(--emi-accent);
-  font-family: "Segoe UI", system-ui, sans-serif;
+  font-family: var(--emi-font-body);
   font-size: .75rem;
   font-weight: 600;
   letter-spacing: .1em;
@@ -490,10 +519,16 @@ main.content hr { margin: 2.5rem 0; border-color: var(--emi-line); opacity: 1; }
 main.content a.lightbox img { border: 1px solid var(--emi-line); border-radius: 8px; box-shadow: var(--emi-shadow); }
 main.content a.lightbox:hover img { border-color: var(--emi-accent); }
 
-.quarto-secondary-nav, .nav-footer {
+.quarto-secondary-nav {
   background-color: var(--emi-sidebar);
   color: var(--emi-muted);
   border-color: var(--emi-line);
+}
+/* Lábléc: sötétkék sáv mindkét színmódban */
+.nav-footer {
+  background-color: var(--emi-footer-bg) !important;
+  color: var(--emi-band-text);
+  border-color: transparent;
 }
 .quarto-secondary-nav { border-bottom: 1px solid var(--emi-line); }
 .quarto-secondary-nav :is(a, .quarto-btn-toggle, .quarto-search-button) { color: var(--emi-ink); }
@@ -501,16 +536,16 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
 .nav-footer {
   position: relative;
   padding: 2.8rem clamp(1.25rem, 4vw, 4rem) 1.25rem;
-  border-top: 1px solid var(--emi-line);
-  background-image: radial-gradient(ellipse at top left, var(--emi-tint), transparent 65%);
-  font-size: .88rem;
+  border-top: 0;
+  font-size: .95rem;
 }
 .nav-footer::before {
   content: "";
   position: absolute;
   inset: -1px 0 auto;
   height: 3px;
-  background: linear-gradient(90deg, var(--emi-accent), var(--emi-gold) 55%, var(--emi-line));
+  background: var(--emi-band-eyebrow);
+  opacity: .9;
 }
 .nav-footer .nav-footer-left,
 .nav-footer .nav-footer-right { display: none; }
@@ -530,41 +565,42 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
 }
 .emi-footer > div { min-width: 0; }
 .nav-footer .emi-footer p { margin: 0; }
-.nav-footer a { color: var(--emi-accent); text-decoration: none; }
-.nav-footer a:hover { color: var(--emi-accent-hover); text-decoration: underline; }
+.nav-footer a { color: #ffffff; text-decoration: none; }
+.nav-footer a:hover { color: var(--emi-band-eyebrow); text-decoration: underline; }
 .nav-footer .emi-footer-title {
   display: inline-flex;
   align-items: center;
   gap: .5rem;
-  color: var(--emi-title-start);
-  font-family: Georgia, "Times New Roman", serif;
+  color: #ffffff;
+  font-family: var(--emi-font-head);
   font-size: 1.9rem;
-  letter-spacing: -.045em;
+  font-weight: 600;
+  letter-spacing: -.01em;
   line-height: 1.2;
 }
 .emi-footer-title::before {
   content: "";
   width: 1.1em;
   height: 1.1em;
-  background-color: var(--emi-accent);
+  background-color: var(--emi-band-eyebrow);
   -webkit-mask: url("ember-mi-logo.svg") center / contain no-repeat;
   mask: url("ember-mi-logo.svg") center / contain no-repeat;
 }
-.nav-footer .emi-footer-subtitle { margin-top: .5rem; color: var(--emi-heading); font-weight: 600; }
+.nav-footer .emi-footer-subtitle { margin-top: .5rem; color: #ffffff; font-weight: 700; }
 .nav-footer .emi-footer-description { margin-top: .65rem; max-width: 32ch; }
 .nav-footer .emi-footer-label {
   margin-bottom: .9rem;
-  color: var(--emi-accent);
+  color: var(--emi-band-eyebrow);
   font-size: .7rem;
   font-weight: 700;
   letter-spacing: .12em;
   text-transform: uppercase;
 }
-.nav-footer .emi-footer-name { margin-bottom: .35rem; color: var(--emi-heading); font-weight: 600; }
+.nav-footer .emi-footer-name { margin-bottom: .35rem; color: #ffffff; font-weight: 700; }
 .emi-footer-email { display: inline-flex; align-items: baseline; gap: .55rem; padding-block: .25rem; }
 .emi-footer-email span { overflow-wrap: anywhere; }
 .emi-footer address { margin: 0; font-style: normal; }
-.nav-footer .emi-footer-institute { color: var(--emi-heading); font-weight: 600; }
+.nav-footer .emi-footer-institute { color: #ffffff; font-weight: 700; }
 .emi-footer-address { display: block; margin-top: .5rem; }
 .emi-footer-bottom {
   grid-column: 1 / -1;
@@ -573,8 +609,8 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
   justify-content: space-between;
   gap: .5rem 1.5rem;
   padding-top: 1rem;
-  border-top: 1px solid var(--emi-line);
-  font-size: .75rem;
+  border-top: 1px solid var(--emi-band-line);
+  font-size: .8rem;
 }
 @media (max-width: 767.98px) {
   .nav-footer { padding-top: 2rem; }
@@ -622,4 +658,225 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
   main.content :is(h1, h2, h3, p, a, li) { color: #000 !important; }
   #kutatási-területeink > ul > li,
   main.content .kartya-lista > :is(ul, ol) > li { break-inside: avoid; }
+}
+
+/* ===================== Kezdőlap („A” irány) ===================== */
+
+/* Cím nélküli oldalon (kezdőlap) az üres címblokk ne jelenjen meg. */
+#title-block-header:empty { display: none; }
+/* A kezdőlap utolsó sávja közvetlenül a láblécig ér. */
+/* A kezdőlap sávjai közvetlenül a navigációs sávhoz és a lábléchez érnek. */
+body:has(.emi-hero) main.content { margin-top: 0; padding-top: 0 !important; }
+body:has(.emi-sav) main.content { padding-bottom: 0; margin-bottom: 0; }
+body:has(.emi-sav) #quarto-content { grid-template-rows: [content-top] auto [content-bottom] 0 [page-bottom]; }
+body:has(.emi-sav) .nav-footer { margin-top: 0; }
+
+.emi-wrap { width: 100%; max-width: 1200px; margin-inline: auto; padding-inline: clamp(1rem, 3vw, 1.5rem); }
+
+.emi-eyebrow {
+  display: block;
+  margin: 0;
+  color: var(--emi-band-eyebrow);
+  font-size: .85rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+/* Bemutató sáv: teljes szélességű sötétkék blokk */
+main.content .emi-hero {
+  margin-top: 0;
+  margin-bottom: 0;
+  background: var(--emi-band);
+  color: #ffffff;
+  border-bottom: 1px solid var(--emi-band-line);
+}
+.emi-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: clamp(2rem, 4vw, 3.5rem);
+  align-items: center;
+  padding-block: clamp(3.5rem, 7vw, 5.5rem);
+}
+.emi-hero-szoveg { display: flex; flex-direction: column; gap: 1.2rem; }
+.emi-hero-szoveg > p { margin: 0; }
+main.content .emi-hero .emi-hero-cim {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #ffffff;
+  font-family: var(--emi-font-head);
+  font-size: clamp(2.6rem, 5.2vw, 4rem);
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -.01em;
+  text-wrap: balance;
+}
+.emi-hero-lead { display: block; max-width: 36rem; color: var(--emi-band-text); font-size: 1.2rem; line-height: 1.6; }
+
+main.content .emi-gomb {
+  display: inline-block;
+  margin: .4rem .5rem 0 0;
+  padding: .8rem 1.35rem;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+main.content .emi-gomb-elsodleges { background: var(--emi-btn-bg); color: var(--emi-btn-fg); }
+main.content .emi-gomb-elsodleges:hover { background: var(--emi-btn-hover); color: var(--emi-btn-fg); }
+main.content .emi-gomb-masodlagos { border-color: #93a9c4; color: #ffffff; }
+main.content .emi-gomb-masodlagos:hover { border-color: #ffffff; color: #ffffff; background: rgba(255, 255, 255, .08); }
+.emi-hero :focus-visible { outline-color: var(--emi-band-eyebrow); }
+
+.emi-hero-panel .emi-hero-esemeny {
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+  padding: 1.75rem;
+  border: 1px solid var(--emi-band-line);
+  border-radius: 10px;
+  background: var(--emi-band-panel);
+}
+.emi-hero-esemeny p { margin: 0; }
+.emi-hero-esemeny-cim { font-family: var(--emi-font-head); font-size: 1.9rem; font-weight: 600; line-height: 1.15; color: #ffffff; }
+.emi-hero-esemeny-adat, .emi-hero-esemeny-leiras { color: var(--emi-band-text); }
+main.content .emi-hero-esemeny-link { align-self: flex-start; color: #ffffff; font-weight: 700; }
+main.content .emi-hero-esemeny-link:hover { color: var(--emi-band-eyebrow); }
+
+/* Szakaszok */
+.emi-szakasz { padding-top: clamp(3rem, 6vw, 4.5rem); }
+main.content :is(.emi-szakasz, .emi-sav) .emi-cimsor,
+main.content section > h2.emi-cimsor {
+  margin: 0 0 .5rem;
+  padding: 0;
+  border: 0;
+  color: var(--emi-heading);
+  font-family: var(--emi-font-head);
+  font-size: clamp(2rem, 3.2vw, 2.4rem);
+  font-weight: 600;
+}
+.emi-bevezeto { display: block; max-width: 44rem; margin-bottom: 2rem; color: var(--emi-muted); }
+
+main.content .emi-teruletek > ul { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+main.content .emi-teruletek > ul > li {
+  padding: 1.4rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: none;
+  font-size: 1.12rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--emi-ink);
+}
+main.content .emi-teruletek > ul > li::before { color: var(--emi-gold); font-size: .85rem; letter-spacing: .04em; }
+
+/* Hírek és események két oszlopban */
+.emi-ketoszlop {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(2rem, 4vw, 3rem);
+  padding-block: clamp(3rem, 6vw, 4.5rem);
+}
+.emi-oszlop { min-width: 0; }
+.emi-blokkfej {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: .5rem 1rem;
+  padding-bottom: .6rem;
+  margin-bottom: .25rem;
+  border-bottom: 2px solid var(--emi-heading);
+}
+.emi-blokkfej > p { display: contents; }
+.emi-blokkcim { font-family: var(--emi-font-head); font-size: 1.9rem; font-weight: 600; color: var(--emi-heading); line-height: 1.2; }
+main.content .emi-blokkfej a { font-weight: 700; text-decoration: none; }
+
+main.content a.emi-hir,
+main.content a.emi-esemeny {
+  display: flex;
+  gap: 1.1rem;
+  padding: 1.05rem 0;
+  border-bottom: 1px solid var(--emi-line);
+  color: var(--emi-ink);
+  text-decoration: none;
+}
+main.content a.emi-hir { flex-direction: column; gap: .1rem; }
+.emi-hir-meta { color: var(--emi-muted); font-size: .88rem; }
+.emi-hir-cim, .emi-esemeny-cim { font-size: 1.12rem; font-weight: 700; line-height: 1.35; }
+main.content a.emi-hir:hover .emi-hir-cim,
+main.content a.emi-esemeny:hover .emi-esemeny-cim { color: var(--emi-accent-hover); text-decoration: underline; text-underline-offset: .2em; }
+.emi-esemeny-szoveg { display: flex; flex-direction: column; justify-content: center; min-width: 0; }
+.emi-esemeny-al { color: var(--emi-muted); font-size: .9rem; }
+.emi-datumjel {
+  flex: 0 0 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: .45rem 0;
+  border-radius: 6px;
+  background: var(--emi-tint);
+  color: var(--emi-heading);
+}
+.emi-datumjel-nap { font-family: var(--emi-font-head); font-size: 1.75rem; font-weight: 700; line-height: 1; }
+.emi-datumjel-ho { font-size: .78rem; }
+body.quarto-dark .emi-datumjel { color: var(--emi-gold); }
+
+/* Vezetők sávja */
+main.content .emi-sav {
+  margin-bottom: 0;
+  padding-block: clamp(3rem, 6vw, 4.5rem);
+  background: var(--emi-sidebar);
+  border-top: 1px solid var(--emi-line);
+}
+.emi-szemelyek {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+.emi-szemelyek > p { display: contents; }
+main.content a.emi-szemely {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  padding: 1.5rem;
+  border: 1px solid var(--emi-line);
+  border-radius: 10px;
+  background: var(--emi-surface);
+  color: var(--emi-ink);
+  text-decoration: none;
+}
+main.content a.emi-szemely:hover { border-color: var(--emi-gold); }
+.emi-monogram {
+  flex: 0 0 4.5rem;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--emi-band);
+  color: #ffffff;
+  font-family: var(--emi-font-head);
+  font-size: 1.6rem;
+}
+body.quarto-dark .emi-monogram { background: var(--emi-gold); color: #142033; }
+.emi-szemely-nev { display: block; font-size: 1.25rem; font-weight: 700; }
+.emi-szemely-beosztas { display: block; color: var(--emi-muted); }
+.emi-sav .emi-bevezeto { margin-bottom: 0; }
+
+@media (max-width: 991.98px) {
+  .emi-hero-grid { grid-template-columns: 1fr; }
+  main.content .emi-teruletek > ul { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .emi-ketoszlop { grid-template-columns: 1fr; }
+}
+@media (max-width: 575.98px) {
+  main.content .emi-teruletek > ul { grid-template-columns: 1fr; }
+  .emi-hero-esemeny-cim { font-size: 1.6rem; }
+}
+@media print {
+  main.content .emi-hero, main.content .emi-sav { background: transparent !important; color: #000 !important; }
+  main.content .emi-hero .emi-hero-cim, .emi-hero-lead, .emi-eyebrow { color: #000 !important; }
 }

@@ -1,31 +1,93 @@
 ---
-title: "Üdvözöljük az Ember--MI kutatócsoport honlapján"
+pagetitle: "Ember–MI Kapcsolatok Kutatócsoport"
+description: "Az Ember–MI Kapcsolatok Kutatócsoport azt vizsgálja, hogyan alakítja a mesterséges intelligencia az emberi gondolkodást, döntéshozatalt, munkavégzést és társas kapcsolatokat."
+page-layout: full
+toc: false
+listing:
+  - id: hero-esemeny
+    contents: "lp_szakmai_esemenyek/*.qmd"
+    template: _templates/hero-esemeny.ejs
+    sort: "date desc"
+    max-items: 1
+    date-format: "YYYY-MM-DD"
+  - id: friss-hirek
+    contents:
+      - "lp_mi_hirek_napi/*.qmd"
+      - "lp_mi_hirek_heti_pszicho/*.qmd"
+      - "lp_rovid_ismertetok/*.qmd"
+    template: _templates/friss-hirek.ejs
+    sort: "date desc"
+    max-items: 4
+    date-format: "YYYY-MM-DD"
+  - id: friss-esemenyek
+    contents: "lp_szakmai_esemenyek/*.qmd"
+    template: _templates/friss-esemenyek.ejs
+    sort: "date desc"
+    max-items: 3
+    date-format: "YYYY-MM-DD"
 ---
 
+::::: {.emi-hero .column-screen}
+:::: {.emi-wrap .emi-hero-grid}
+::: {.emi-hero-szoveg}
+[Debreceni Egyetem · Pszichológiai Intézet]{.emi-eyebrow}
 
-Az Ember–MI Kutatócsoport célja annak tudományos vizsgálata, hogy a mesterséges intelligencia miként alakítja az emberi gondolkodást, döntéshozatalt, munkavégzést és társadalmi kapcsolatokat. Interdiszciplináris megközelítésünkben a technológiai fejlődést emberközpontú, etikai és társadalmi szempontokkal kapcsoljuk össze.
+<h1 class="emi-hero-cim">Ember–MI Kapcsolatok Kutatócsoport</h1>
 
-Kutatócsoportunk a mesterséges intelligencia felelős, átlátható és társadalmilag hasznos alkalmazását kívánja elősegíteni. Tudományos munkánkkal hozzájárulunk ahhoz, hogy az új technológiák fejlesztése és használata az emberi értékek, jogok és szükségletek figyelembevételével történjen.
+[Azt vizsgáljuk, hogyan alakítja a mesterséges intelligencia az emberi gondolkodást, döntéshozatalt, munkavégzést és társas kapcsolatokat.]{.emi-hero-lead}
 
-## Kutatási területeink
+[A kutatócsoportról](kutatocsoportrol.qmd){.emi-gomb .emi-gomb-elsodleges} [Legfrissebb hírek](#friss){.emi-gomb .emi-gomb-masodlagos}
+:::
 
-* Ember–MI együttműködés és interakció
-* A mesterséges intelligencia társadalmi és kulturális hatásai
-* Etikus és felelős MI-fejlesztés
-* Bizalom, átláthatóság és elszámoltathatóság
-* A mesterséges intelligencia szerepe az oktatásban és a munka világában
-* Emberközpontú technológiai megoldások vizsgálata
+::: {#hero-esemeny .emi-hero-panel}
+:::
+::::
+:::::
 
-## Tevékenységünk
+:::: {.emi-wrap .emi-szakasz .column-screen}
+<h2 class="emi-cimsor">Kutatási területeink</h2>
 
-A kutatócsoport elméleti és empirikus kutatásokat végez, szakmai rendezvényeket szervez, valamint hazai és nemzetközi együttműködésekben vesz részt. Eredményeinket tudományos publikációk, konferencia-előadások és közérthető szakmai anyagok formájában tesszük hozzáférhetővé.
+[Interdiszciplináris megközelítésben kapcsoljuk össze a technológiai fejlődést emberközpontú, etikai és társadalmi szempontokkal. Célunk a mesterséges intelligencia felelős, átlátható és társadalmilag hasznos alkalmazásának elősegítése.]{.emi-bevezeto}
 
-## Együttműködés
+::: {.kartya-lista .emi-teruletek}
+- Ember–MI együttműködés és interakció
+- Az MI társadalmi és kulturális hatásai
+- Etikus és felelős MI-fejlesztés
+- Bizalom, átláthatóság és elszámoltathatóság
+- Az MI szerepe az oktatásban és a munka világában
+- Emberközpontú technológiai megoldások
+:::
+::::
 
-Nyitottak vagyunk kutatási, oktatási és szakmai együttműködésekre felsőoktatási intézményekkel, kutatóhelyekkel, közintézményekkel, civil szervezetekkel és vállalati partnerekkel.
+::::: {#friss .emi-wrap .emi-ketoszlop .column-screen}
+:::: {.emi-oszlop}
+::: {.emi-blokkfej}
+[Hírek]{.emi-blokkcim} [Összes hír →](lp_mi_hirek_napi.qmd)
+:::
 
-## Kapcsolat
+::: {#friss-hirek}
+:::
+::::
 
-Kutatási együttműködéssel, szakmai megkereséssel vagy rendezvényeinkkel kapcsolatban forduljon hozzánk bizalommal.
+:::: {.emi-oszlop}
+::: {.emi-blokkfej}
+[Események]{.emi-blokkcim} [Összes esemény →](lp_szakmai_esemenyek.qmd)
+:::
 
-- E-mail: hujber-mitru.szilvia@arts.unideb.hu
+::: {#friss-esemenyek}
+:::
+::::
+:::::
+
+::::: {.emi-sav .column-screen}
+:::: {.emi-wrap}
+<h2 class="emi-cimsor">A kutatócsoport vezetői</h2>
+
+::: {.emi-szemelyek}
+<a class="emi-szemely" href="kutatocsoportrol.qmd"><span class="emi-monogram" aria-hidden="true">AK</span><span><span class="emi-szemely-nev">Dr. Abari Kálmán</span><span class="emi-szemely-beosztas">egyetemi adjunktus</span></span></a>
+<a class="emi-szemely" href="mailto:hujber-mitru.szilvia@arts.unideb.hu"><span class="emi-monogram" aria-hidden="true">HSz</span><span><span class="emi-szemely-nev">Hujber-Mitru Szilvia</span><span class="emi-szemely-beosztas">egyetemi tanársegéd · kapcsolattartó</span></span></a>
+:::
+
+[Nyitottak vagyunk kutatási, oktatási és szakmai együttműködésekre felsőoktatási intézményekkel, kutatóhelyekkel, közintézményekkel, civil szervezetekkel és vállalati partnerekkel. [A kutatócsoport tagjai és kutatási irányai →](kutatocsoportrol.qmd)]{.emi-bevezeto}
+::::
+:::::

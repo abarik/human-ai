@@ -1,0 +1,16 @@
+<%
+// Kezdőlap: a legutóbbi események, dátumjelzővel (nap + hónap rövidítése).
+const honapok = ['jan.','febr.','márc.','ápr.','máj.','jún.','júl.','aug.','szept.','okt.','nov.','dec.'];
+const resz = (s) => { const m = /(\d{4})-(\d{2})-(\d{2})/.exec(s || ''); return m ? { nap: +m[3], ho: honapok[+m[2]-1] } : null; };
+%>
+<div class="list emi-esemenylista">
+<% for (const item of items) { const d = resz(item.date); %>
+<a class="emi-esemeny" href="<%- item.path %>" <%= metadataAttrs(item) %>>
+<% if (d) { %><span class="emi-datumjel" aria-hidden="true"><span class="emi-datumjel-nap"><%= d.nap %></span><span class="emi-datumjel-ho"><%= d.ho %></span></span><% } %>
+<span class="emi-esemeny-szoveg">
+<span class="emi-esemeny-cim"><%= item.title %></span>
+<% if (item.subtitle) { %><span class="emi-esemeny-al"><%= item.subtitle %></span><% } %>
+</span>
+</a>
+<% } %>
+</div>

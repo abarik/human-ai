@@ -1,0 +1,15 @@
+<%
+// Kezdőlap, bemutató sáv: a legutóbbi esemény kiemelése.
+// (Behúzás nélkül, hogy a Markdown ne kódblokknak lássa.)
+%>
+<div class="list">
+<% for (const item of items) { %>
+<div class="emi-hero-esemeny" <%= metadataAttrs(item) %>>
+<p class="emi-eyebrow">Legutóbbi esemény</p>
+<p class="emi-hero-esemeny-cim"><%= item.title %></p>
+<p class="emi-hero-esemeny-adat"><% if (item.subtitle) { %><%= item.subtitle %><% } %><% if (item.subtitle && item.idopont) { %> · <% } %><% if (item.idopont) { %><%= item.idopont %><% } %></p>
+<% if (item.description) { %><p class="emi-hero-esemeny-leiras"><%= item.description %></p><% } %>
+<a class="emi-hero-esemeny-link" href="<%- item.path %>">Részletek →</a>
+</div>
+<% } %>
+</div>

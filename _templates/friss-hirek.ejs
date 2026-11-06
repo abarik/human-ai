@@ -1,0 +1,16 @@
+<%
+// Kezdőlap: a legfrissebb hírek listája (napi, heti, rövid ismertető).
+// A dátumot ÉÉÉÉ-HH-NN formában kapja (date-format), és magyarul írja ki.
+const honapok = ['január','február','március','április','május','június','július','augusztus','szeptember','október','november','december'];
+const datum = (s) => { const m = /(\d{4})-(\d{2})-(\d{2})/.exec(s || ''); return m ? `${m[1]}. ${honapok[+m[2]-1]} ${+m[3]}.` : ''; };
+const cim = (t) => (t || '').replace(/\s+[—–-]\s+\d{4}\..*$/, '');
+const kategoria = (p) => (p || '').includes('heti_pszicho') ? 'Heti · MI és pszichológia' : (p || '').includes('mi_hirek_napi') ? 'Napi MI-hírek' : 'Rövid ismertető';
+%>
+<div class="list emi-hirlista">
+<% for (const item of items) { %>
+<a class="emi-hir" href="<%- item.path %>" <%= metadataAttrs(item) %>>
+<span class="emi-hir-meta"><%= kategoria(item.path) %><% if (datum(item.date)) { %> · <%= datum(item.date) %><% } %></span>
+<span class="emi-hir-cim"><%= cim(item.title) %></span>
+</a>
+<% } %>
+</div>
