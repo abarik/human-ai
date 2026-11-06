@@ -85,6 +85,30 @@ format:
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap">
+        <script>
+        (function () {
+          var d = document.documentElement;
+          if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+          d.classList.add('emi-mozog');
+          document.addEventListener('DOMContentLoaded', function () {
+            var sel = '.emi-szakasz .emi-cimsor, .emi-szakasz .emi-bevezeto, .emi-teruletek li, .emi-blokkfej, a.emi-hir, a.emi-esemeny, .emi-sav .emi-cimsor, a.emi-szemely, .emi-sav .emi-bevezeto, .emi-event-card, main.content a.lightbox img, .quarto-listing .quarto-post, .quarto-listing tbody tr';
+            var els = document.querySelectorAll(sel);
+            var io = new IntersectionObserver(function (bej) {
+              bej.forEach(function (b) {
+                if (b.isIntersecting) { b.target.classList.add('emi-latszik'); io.unobserve(b.target); }
+              });
+            }, { rootMargin: '0px 0px -6% 0px', threshold: 0.1 });
+            var h = window.innerHeight;
+            els.forEach(function (el) {
+              if (el.getBoundingClientRect().top < h) return;
+              var i = Array.prototype.indexOf.call(el.parentNode.children, el);
+              el.style.setProperty('--emi-i', Math.min(i, 5));
+              el.classList.add('emi-felbukkan');
+              io.observe(el);
+            });
+          });
+        })();
+        </script>
     css: styles.css
     toc: true
                 

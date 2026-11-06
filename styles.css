@@ -864,58 +864,102 @@ main.content :is(#refs, .csl-entry, .references) { overflow-wrap: anywhere; word
 }
 
 /* ------------------------------------------------------------------
-   Visszafogott mozgás
-   - rövid (150–250 ms), kifelé lassuló görbe; csak transform és opacity
-   - csak az mozog, ami kattintható vagy újonnan jelenik meg
+   Mozgás
+   - kifelé lassuló görbe; csak transform és opacity mozog
+   - interakció: 220–320 ms; megjelenés: 700–800 ms, lépcsőzetesen
+   - görgetéskor az elemek egyszer úsznak be (kis szkript a fejlécben:
+     JavaScript nélkül vagy „mozgás csökkentése” beállításnál minden
+     azonnal, mozgás nélkül látszik)
    - hover-emelés csak egérrel (finom mutatónál), érintőképernyőn nem
-   - a „mozgás csökkentése” rendszerbeállításnál minden kikapcsol
    ------------------------------------------------------------------ */
 :root {
-  --emi-ease-out: cubic-bezier(.23, 1, .32, 1);
-  --emi-dur-gyors: 160ms;
-  --emi-dur: 220ms;
+  --emi-ease-out: cubic-bezier(.22, 1, .36, 1);
+  --emi-dur-gyors: 220ms;
+  --emi-dur: 320ms;
+  --emi-dur-be: 780ms;
+  --emi-lepcso: 90ms;
 }
 
-/* Gombok: nyomásra enyhén összehúzódnak */
+/* Gombok: egérrel enyhén megemelkednek, nyomásra összehúzódnak */
 main.content .emi-gomb {
   transition: transform var(--emi-dur-gyors) var(--emi-ease-out),
               background-color var(--emi-dur-gyors) ease,
               border-color var(--emi-dur-gyors) ease,
               color var(--emi-dur-gyors) ease;
 }
-main.content .emi-gomb:active { transform: scale(.97); }
+main.content .emi-gomb:active { transform: scale(.96); transition-duration: 120ms; }
 
-/* Lenyíló menü: rövid beúszás a menüpont alól (asztali nézet) */
+/* Lenyíló menü: beúszás a menüpont alól, a tételek lépcsőzetesen (asztali nézet) */
 @keyframes emi-menu-be {
-  from { opacity: 0; transform: translateY(-6px) scale(.98); }
+  from { opacity: 0; transform: translateY(-10px) scale(.97); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes emi-tetel-be {
+  from { opacity: 0; transform: translateY(-4px); }
   to   { opacity: 1; transform: none; }
 }
 @media (min-width: 992px) {
   #quarto-header .dropdown-menu.show {
     transform-origin: top left;
-    animation: emi-menu-be var(--emi-dur-gyors) var(--emi-ease-out);
+    animation: emi-menu-be var(--emi-dur) var(--emi-ease-out);
   }
+  #quarto-header .dropdown-menu.show > li {
+    animation: emi-tetel-be var(--emi-dur) var(--emi-ease-out) backwards;
+  }
+  #quarto-header .dropdown-menu.show > li:nth-child(2) { animation-delay: 30ms; }
+  #quarto-header .dropdown-menu.show > li:nth-child(3) { animation-delay: 60ms; }
+  #quarto-header .dropdown-menu.show > li:nth-child(4) { animation-delay: 90ms; }
+  #quarto-header .dropdown-menu.show > li:nth-child(5) { animation-delay: 120ms; }
+  #quarto-header .dropdown-menu.show > li:nth-child(6) { animation-delay: 150ms; }
+  #quarto-header .dropdown-menu.show > li:nth-child(n+7) { animation-delay: 180ms; }
 }
 
-/* Kártyák és listaelemek: egérrel enyhe emelés vagy elmozdulás */
+/* Menüpontok: az arany aláhúzás középről nő ki */
+@media (min-width: 992px) {
+  #quarto-header .navbar-nav .nav-link { position: relative; }
+  #quarto-header .navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: .8rem;
+    right: .8rem;
+    bottom: -2px;
+    height: 2px;
+    background: var(--emi-gold);
+    transform: scaleX(0);
+    transition: transform var(--emi-dur) var(--emi-ease-out);
+  }
+  #quarto-header .navbar-nav .nav-link:hover::after,
+  #quarto-header .navbar-nav .nav-link.show::after { transform: scaleX(.6); }
+  #quarto-header .navbar-nav .nav-link.active::after { display: none; }
+}
+
+/* Kártyák és listaelemek */
 main.content a.emi-szemely,
-main.content .emi-hero-panel .emi-hero-esemeny,
 main.content a.lightbox img,
-main.content .emi-datumjel {
+main.content .emi-datumjel,
+main.content .emi-monogram {
   transition: transform var(--emi-dur) var(--emi-ease-out),
               border-color var(--emi-dur) ease,
               background-color var(--emi-dur) ease,
               color var(--emi-dur) ease;
 }
+main.content a.emi-hir,
+main.content a.emi-esemeny { transition: padding var(--emi-dur) var(--emi-ease-out); }
 main.content .emi-hir-cim,
 main.content .emi-esemeny-cim { transition: color var(--emi-dur-gyors) ease; }
 
 @media (hover: hover) and (pointer: fine) {
-  main.content a.emi-szemely:hover { transform: translateY(-2px); }
-  main.content a.lightbox:hover img { transform: translateY(-2px); }
+  main.content .emi-gomb:hover { transform: translateY(-2px); }
+  main.content .emi-gomb:active { transform: scale(.96); }
+  main.content a.emi-szemely:hover { transform: translateY(-4px); }
+  main.content a.emi-szemely:hover .emi-monogram { transform: scale(1.06); }
+  main.content a.lightbox:hover img { transform: translateY(-4px); }
+  main.content a.emi-hir:hover,
+  main.content a.emi-esemeny:hover { padding-left: .5rem; }
   main.content a.emi-esemeny:hover .emi-datumjel {
     background: var(--emi-band);
     color: #ffffff;
+    transform: scale(1.05);
   }
   body.quarto-dark main.content a.emi-esemeny:hover .emi-datumjel {
     background: var(--emi-gold);
@@ -923,26 +967,47 @@ main.content .emi-esemeny-cim { transition: color var(--emi-dur-gyors) ease; }
   }
 }
 
-/* Kezdőlap: a bemutató sáv tartalma betöltéskor egyszer, lépcsőzetesen jelenik meg */
+/* Megjelenés */
 @keyframes emi-be {
-  from { opacity: 0; transform: translateY(10px); }
+  from { opacity: 0; transform: translateY(22px); }
   to   { opacity: 1; transform: none; }
 }
+
+/* Kezdőlap: a bemutató sáv tartalma betöltéskor lépcsőzetesen jelenik meg */
 .emi-hero-szoveg > *,
 .emi-hero-panel {
-  animation: emi-be 480ms var(--emi-ease-out) both;
+  animation: emi-be var(--emi-dur-be) var(--emi-ease-out) backwards;
 }
-.emi-hero-szoveg > :nth-child(2) { animation-delay: 60ms; }
-.emi-hero-szoveg > :nth-child(3) { animation-delay: 120ms; }
-.emi-hero-szoveg > :nth-child(4) { animation-delay: 180ms; }
-.emi-hero-panel { animation-delay: 240ms; }
+.emi-hero-szoveg > :nth-child(2) { animation-delay: 90ms; }
+.emi-hero-szoveg > :nth-child(3) { animation-delay: 180ms; }
+.emi-hero-szoveg > :nth-child(4) { animation-delay: 270ms; }
+.emi-hero-panel { animation-delay: 360ms; }
+
+/* Belső oldalak: a címblokk betöltéskor beúszik */
+#title-block-header:not(:empty) {
+  animation: emi-be var(--emi-dur-be) var(--emi-ease-out) backwards;
+}
+
+/* Görgetéskor beúszó elemek (az osztályokat a fejléc kis szkriptje adja) */
+html.emi-mozog .emi-felbukkan { opacity: 0; }
+html.emi-mozog .emi-felbukkan.emi-latszik {
+  opacity: 1;
+  animation: emi-be var(--emi-dur-be) var(--emi-ease-out) backwards;
+  animation-delay: calc(var(--emi-i, 0) * var(--emi-lepcso));
+}
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation: none !important;
     transition: none !important;
   }
+  html.emi-mozog .emi-felbukkan { opacity: 1; }
+  main.content .emi-gomb:hover,
   main.content .emi-gomb:active,
   main.content a.emi-szemely:hover,
-  main.content a.lightbox:hover img { transform: none; }
+  main.content a.emi-szemely:hover .emi-monogram,
+  main.content a.lightbox:hover img,
+  main.content a.emi-esemeny:hover .emi-datumjel { transform: none; }
+  main.content a.emi-hir:hover,
+  main.content a.emi-esemeny:hover { padding-left: 0; }
 }
