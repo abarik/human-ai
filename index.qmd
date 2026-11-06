@@ -62,7 +62,9 @@ listing:
 ::::: {#friss .emi-wrap .emi-ketoszlop .column-screen}
 :::: {.emi-oszlop}
 ::: {.emi-blokkfej}
-[Hírek]{.emi-blokkcim} [Összes hír →](lp_mi_hirek_napi.qmd)
+<h2 class="emi-blokkcim">Hírek</h2>
+
+[Összes hír →](lp_mi_hirek_napi.qmd)
 :::
 
 ::: {#friss-hirek}
@@ -71,7 +73,9 @@ listing:
 
 :::: {.emi-oszlop}
 ::: {.emi-blokkfej}
-[Események]{.emi-blokkcim} [Összes esemény →](lp_szakmai_esemenyek.qmd)
+<h2 class="emi-blokkcim">Események</h2>
+
+[Összes esemény →](lp_szakmai_esemenyek.qmd)
 :::
 
 ::: {#friss-esemenyek}

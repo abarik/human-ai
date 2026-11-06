@@ -1,5 +1,6 @@
 ---
 title: MI eszközök
+shift-heading-level-by: 1
 lightbox:
   match: auto
   effect: fade
@@ -10,27 +11,26 @@ lightbox:
 
 # Az írást támogató eszközök
 
-![](tudastar/mi_eszkozok/iras/iras_01_chatgpt.png){.lightbox width=20% group="my-gallery-01"}
-![](tudastar/mi_eszkozok/iras/iras_02_claude.png){.lightbox width=20% group="my-gallery-01"}
-![](tudastar/mi_eszkozok/iras/iras_03_gemini.png){.lightbox width=20% group="my-gallery-01"}
-![](tudastar/mi_eszkozok/iras/iras_04_jenni.png){.lightbox width=20% group="my-gallery-01"}
-![](tudastar/mi_eszkozok/iras/iras_05_paperpal.png){.lightbox width=20% group="my-gallery-01"}
-![](tudastar/mi_eszkozok/iras/iras_06_writefull.png){.lightbox width=20% group="my-gallery-01"}
-![](tudastar/mi_eszkozok/iras/iras_07_trinka.png){.lightbox width=20% group="my-gallery-01"}
-![](tudastar/mi_eszkozok/iras/iras_08_ajk.png){.lightbox width=20% group="my-gallery-01"}
-![](tudastar/mi_eszkozok/iras/iras_09_grammarly.png){.lightbox width=20% group="my-gallery-01"}
-![](tudastar/mi_eszkozok/iras/iras_10_deepl.png){.lightbox width=20% group="my-gallery-01"}
+![ChatGPT – 1. Vázlat és gondolatmenet: ötleteléshez, vázlatkészítéshez és kutatási szövegek első verzióinak megfogalmazásához.](tudastar/mi_eszkozok/iras/iras_01_chatgpt.webp){.lightbox width=20% group="my-gallery-01"}
+![Claude – 1. Vázlat és gondolatmenet: hosszabb, árnyalt szövegek és logikus szerkezetek kidolgozásához.](tudastar/mi_eszkozok/iras/iras_02_claude.webp){.lightbox width=20% group="my-gallery-01"}
+![Gemini – 1. Vázlat és gondolatmenet: gyors összefoglalásokhoz, forrásalapú ötleteléshez és kutatási kérdések finomításához.](tudastar/mi_eszkozok/iras/iras_03_gemini.webp){.lightbox width=20% group="my-gallery-01"}
+![Jenni AI – 1. Vázlat és gondolatmenet: akadémiai szövegíráshoz, bekezdések folytatásához és írási támogatáshoz.](tudastar/mi_eszkozok/iras/iras_04_jenni.webp){.lightbox width=20% group="my-gallery-01"}
+![Paperpal – 2. Akadémiai nyelvi javítás: akadémiai angol javításához, átfogalmazáshoz és kézirat-előkészítéshez.](tudastar/mi_eszkozok/iras/iras_05_paperpal.webp){.lightbox width=20% group="my-gallery-01"}
+![Writefull – 2. Akadémiai nyelvi javítás: tudományos stílusú nyelvi ellenőrzéshez, főleg Word és Overleaf környezetben.](tudastar/mi_eszkozok/iras/iras_06_writefull.webp){.lightbox width=20% group="my-gallery-01"}
+![Trinka – 2. Akadémiai nyelvi javítás: formális, technikai és akadémiai angol kéziratok precíz nyelvi javításához.](tudastar/mi_eszkozok/iras/iras_07_trinka.webp){.lightbox width=20% group="my-gallery-01"}
+![AJE Digital Editing – 3. Végső csiszolás és beküldés előtt: publikálás előtti nyelvi szerkesztéshez és kéziratfinomításhoz.](tudastar/mi_eszkozok/iras/iras_08_ajk.webp){.lightbox width=20% group="my-gallery-01"}
+![Grammarly – 3. Végső csiszolás és beküldés előtt: végső nyelvi és stiláris tisztázáshoz, valamint az olvashatóság javításához.](tudastar/mi_eszkozok/iras/iras_09_grammarly.webp){.lightbox width=20% group="my-gallery-01"}
+![DeepL Write – 3. Végső csiszolás és beküldés előtt: mondatok természetesebb, letisztultabb angol újrafogalmazásához.](tudastar/mi_eszkozok/iras/iras_10_deepl.webp){.lightbox width=20% group="my-gallery-01"}
 
 # Az irodalomkeresést támogató eszközök
 
-![](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_01_elicit.png){.lightbox width=20%
-group="my-gallery-02"}
-![](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_02_consensus.png){.lightbox width=20% group="my-gallery-02"}
-![](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_03_semantic_scholar.png){.lightbox width=20% group="my-gallery-02"}
-![](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_04_scite_ai.png){.lightbox width=20% group="my-gallery-02"}
-![](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_05_researchrabbit.png){.lightbox width=20% group="my-gallery-02"}
-![](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_06_connected_papers.png){.lightbox width=20% group="my-gallery-02"}
-![](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_07_litmaps.png){.lightbox width=20% group="my-gallery-02"}
-![](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_08_scispace.png){.lightbox width=20% group="my-gallery-02"}
-![](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_09_perplexity.png){.lightbox width=20% group="my-gallery-02"}
-![](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_10_notebooklm.png){.lightbox width=20% group="my-gallery-02"}
+![Elicit – MI-kutatóasszisztens, amely segít szakirodalmat keresni, szűrni és több száz cikkből táblázatos formában eredményeket kinyerni. Ideális: irodalomáttekintés és adatkivonás.](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_01_elicit.webp){.lightbox width=20% group="my-gallery-02"}
+![Consensus – tudományos kérdésekre keres választ lektorált irodalomból, és megmutatja, mit mondanak a kutatások összességében. Ideális: gyors tájékozódás és evidenciakeresés.](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_02_consensus.webp){.lightbox width=20% group="my-gallery-02"}
+![Semantic Scholar – MI-alapú tudományos keresőmotor releváns cikkekkel, idézésekkel és rövid MI-összefoglalókkal. Ideális: első lépés a szakirodalom feltérképezésében.](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_03_semantic_scholar.webp){.lightbox width=20% group="my-gallery-02"}
+![scite.ai – megmutatja, hogy más tanulmányok támogatják, vitatják vagy csak említik-e az adott cikket. Ideális: forráskritika és állítások ellenőrzése.](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_04_scite_ai.webp){.lightbox width=20% group="my-gallery-02"}
+![ResearchRabbit – vizualizálja a kapcsolódó cikkeket, szerzőket és témákat, így segít felfedezni a szakirodalmi hálózatokat. Ideális: irodalmi hálóépítés és felfedezés.](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_05_researchrabbit.webp){.lightbox width=20% group="my-gallery-02"}
+![Connected Papers – egy kiinduló cikk alapján vizuális térképet készít a kapcsolódó tanulmányokról. Ideális: új téma gyors feltérképezése.](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_06_connected_papers.webp){.lightbox width=20% group="my-gallery-02"}
+![Litmaps – irodalmi térképezés és folyamatos szakirodalom-monitorozás, értesítés új releváns publikációkról. Ideális: folyamatos szakirodalom-követés.](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_07_litmaps.webp){.lightbox width=20% group="my-gallery-02"}
+![SciSpace – MI-alapú PDF-olvasó és kutatási asszisztens, amely segít cikkeket megérteni, összefoglalni és magyarázni. Ideális: mélyebb megértés és hatékony olvasás.](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_08_scispace.webp){.lightbox width=20% group="my-gallery-02"}
+![Perplexity – MI-alapú keresőmotor, amely forrásmegjelöléssel ad gyors válaszokat webes és tudományos tartalmak alapján. Ideális: gyors tájékozódás és ötletgyűjtés.](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_09_perplexity.webp){.lightbox width=20% group="my-gallery-02"}
+![NotebookLM – saját feltöltött dokumentumok alapján készít összefoglalókat, válaszol kérdésekre és rendszerezi a kutatási anyagokat. Ideális: saját kutatási anyagok feldolgozása.](tudastar/mi_eszkozok/irodalomkereses/irodalomkereses_10_notebooklm.webp){.lightbox width=20% group="my-gallery-02"}

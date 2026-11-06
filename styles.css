@@ -2,7 +2,6 @@
    Intézményi sötétkék + arany kiemelés; Crimson Pro címek, Atkinson Hyperlegible szöveg
    (UI UX Pro Max: „Research Lab / University Department” ajánlás).
    A Quarto body-osztályai követik a színmód-váltót és a rendszerbeállítást is. */
-@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap");
 
 :root {
   --emi-font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
@@ -82,6 +81,11 @@ body {
 
 ::selection { background: var(--emi-tint); color: var(--emi-heading); }
 
+/* Böngészőfelületek a palettából: görgetősáv, beviteli kurzor, számjegyek */
+html { scrollbar-color: var(--emi-line) var(--emi-bg); }
+input, textarea { caret-color: var(--emi-gold); }
+main.content table, .quarto-listing .listing-date, .emi-datumjel, .emi-hir-meta { font-variant-numeric: tabular-nums; }
+
 main.content { padding-bottom: 3rem; min-width: 0; }
 
 main.content :is(p, li, td) { overflow-wrap: anywhere; }
@@ -104,22 +108,9 @@ main.content :is(h1, h2, h3, h4, h5, h6) {
   border-top: 3px solid var(--emi-gold);
   border-radius: 10px;
   background: var(--emi-surface);
-  box-shadow: var(--emi-shadow);
 }
 
-/* Decorative concentric arcs stay behind the title and contain no content. */
-#title-block-header::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  border-radius: inherit;
-  pointer-events: none;
-  background: repeating-radial-gradient(circle at 105% -15%,
-    transparent 0 29px, var(--emi-pattern) 30px 31px, transparent 32px 61px);
-  mask-image: linear-gradient(to right, transparent 35%, #000);
-}
-
+/* (A korábbi koncentrikus ív-díszítés kikerült: a címblokk tiszta felület.) */
 #title-block-header h1.title {
   max-width: 24ch;
   margin: 0;
@@ -190,14 +181,6 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
   background-color: var(--emi-surface) !important;
   border-bottom: 1px solid var(--emi-line);
   box-shadow: none;
-}
-
-@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
-  #quarto-header .navbar {
-    background-color: color-mix(in srgb, var(--emi-surface) 86%, transparent) !important;
-    -webkit-backdrop-filter: saturate(1.4) blur(12px);
-    backdrop-filter: saturate(1.4) blur(12px);
-  }
 }
 
 #quarto-header .navbar-brand { gap: .55rem; margin-right: 1.5rem; }
@@ -287,7 +270,6 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
     background: var(--emi-surface);
     border: 1px solid var(--emi-line);
     border-radius: 12px;
-    box-shadow: var(--emi-shadow);
   }
 
   #quarto-header .dropdown-menu { box-shadow: none; border: 0; padding-left: .8rem; }
@@ -297,27 +279,7 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
   #quarto-header .navbar-nav .nav-link { transition: none; }
 }
 
-/* Solid colors remain the fallback for print and high-contrast displays. */
-@media screen and (forced-colors: none) {
-  @supports ((background-clip: text) or (-webkit-background-clip: text)) {
-    #quarto-header .navbar-title,
-    #title-block-header h1.title {
-      background-image: linear-gradient(110deg,
-        var(--emi-title-start) 0%,
-        var(--emi-title-middle) 55%,
-        var(--emi-title-end) 100%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-      -webkit-text-fill-color: transparent;
-    }
-
-    #quarto-header .navbar-title::selection,
-    #title-block-header h1.title::selection {
-      -webkit-text-fill-color: var(--emi-heading);
-    }
-  }
-}
+/* Címek: egyszínűek (a hangsúlyt a betűvastagság és a méret adja). */
 
 
 /* Szakmai események adatlapjai */
@@ -327,9 +289,8 @@ main.content .emi-event-card {
   padding: 1.5rem 1.8rem;
   background: var(--emi-surface);
   border: 1px solid var(--emi-line);
-  border-left: 4px solid var(--emi-accent);
+  border-top: 3px solid var(--emi-gold);
   border-radius: 12px;
-  box-shadow: var(--emi-shadow);
 }
 
 /* Kártya címe */
@@ -437,7 +398,6 @@ main.content .kartya-lista > :is(ul, ol) > li {
   border-radius: 8px;
   background: var(--emi-surface);
   line-height: 1.6;
-  box-shadow: var(--emi-shadow);
 }
 
 main.content .kartya-lista > :is(ul, ol) > li { border-radius: 16px; }
@@ -458,8 +418,8 @@ main.content .kartya-lista > :is(ul, ol) > li::before {
 #kapcsolat {
   margin-top: 2.5rem;
   padding: .1rem 1.5rem 1rem;
-  border-left: 3px solid var(--emi-gold);
-  border-radius: 0 8px 8px 0;
+  border: 1px solid var(--emi-line);
+  border-radius: 10px;
   background-color: var(--emi-tint);
 }
 #kapcsolat > h2 { margin-top: 1.25rem; }
@@ -509,14 +469,15 @@ main.content .table thead th {
 .quarto-listing .disabled > .page-link { color: var(--emi-muted); background-color: var(--emi-bg); }
 
 main.content blockquote {
-  padding: .8rem 1.25rem;
-  border-left: 3px solid var(--emi-gold);
+  padding: .9rem 1.25rem;
+  border: 1px solid var(--emi-line);
+  border-radius: 10px;
   background: var(--emi-tint);
   color: var(--emi-ink);
 }
 main.content blockquote > :last-child { margin-bottom: 0; }
 main.content hr { margin: 2.5rem 0; border-color: var(--emi-line); opacity: 1; }
-main.content a.lightbox img { border: 1px solid var(--emi-line); border-radius: 8px; box-shadow: var(--emi-shadow); }
+main.content a.lightbox img { border: 1px solid var(--emi-line); border-radius: 8px; }
 main.content a.lightbox:hover img { border-color: var(--emi-accent); }
 
 .quarto-secondary-nav {
@@ -769,7 +730,7 @@ main.content .emi-teruletek > ul > li {
   line-height: 1.4;
   color: var(--emi-ink);
 }
-main.content .emi-teruletek > ul > li::before { color: var(--emi-gold); font-size: .85rem; letter-spacing: .04em; }
+main.content .emi-teruletek > ul > li::before { content: none; }
 
 /* Hírek és események két oszlopban */
 .emi-ketoszlop {
@@ -790,7 +751,7 @@ main.content .emi-teruletek > ul > li::before { color: var(--emi-gold); font-siz
   border-bottom: 2px solid var(--emi-heading);
 }
 .emi-blokkfej > p { display: contents; }
-.emi-blokkcim { font-family: var(--emi-font-head); font-size: 1.9rem; font-weight: 600; color: var(--emi-heading); line-height: 1.2; }
+main.content .emi-blokkcim { margin: 0; padding: 0; border: 0; font-family: var(--emi-font-head); font-size: 1.9rem; font-weight: 600; color: var(--emi-heading); line-height: 1.2; }
 main.content .emi-blokkfej a { font-weight: 700; text-decoration: none; }
 
 main.content a.emi-hir,
@@ -879,4 +840,25 @@ body.quarto-dark .emi-monogram { background: var(--emi-gold); color: #142033; }
 @media print {
   main.content .emi-hero, main.content .emi-sav { background: transparent !important; color: #000 !important; }
   main.content .emi-hero .emi-hero-cim, .emi-hero-lead, .emi-eyebrow { color: #000 !important; }
+}
+
+/* ===================== Akadálymentességi javítások ===================== */
+
+/* Hosszú URL-ek a hivatkozásjegyzékben ne okozzanak vízszintes görgetést. */
+main.content :is(#refs, .csl-entry, .references) { overflow-wrap: anywhere; word-break: break-word; }
+
+/* Legalább 24×24 px-es kattintható célterületek */
+#quarto-header .quarto-color-scheme-toggle,
+#quarto-header .quarto-navigation-tool {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+}
+.quarto-listing table .sort,
+.quarto-listing .listing-table thead a {
+  display: inline-block;
+  padding-block: .3rem;
+  min-height: 1.75rem;
 }

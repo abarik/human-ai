@@ -6,6 +6,7 @@ date: "2026-10-28"
 idopont: "2026. október 28., 12:00–13:00"
 description: "Abari Kálmán online workshopja arról, mire képesek a nagy nyelvi modellek 2026 őszén, és hogyan segíthetik az oktatást és a pszichológiai kutatást"
 image: "images/honlap_20261028.jpg"
+image-alt: "A workshop diasorának címlapja: A mesterséges intelligencia ma, előadó Abari Kálmán."
 helyszin: "Online"
 szervezo: "Debreceni Egyetem, Pszichológiai Intézet"
 datum: "2026-10-28"
@@ -41,8 +42,6 @@ Diasor
 
 : [A mesterséges intelligencia ma – a workshop diasora](../lp_rovid_ismertetok/online_workshop_20261028_MI_I.html#/1)
 :::
-
-[![A workshop diasorának címlapja](images/honlap_20261028.jpg){width="85%" fig-align="center"}](../lp_rovid_ismertetok/online_workshop_20261028_MI_I.html#/1)
 
 # A workshop diasora
 

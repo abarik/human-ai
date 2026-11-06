@@ -24,7 +24,7 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
   - `lp_mi_hirek_heti_pszicho/` – heti MI–pszichológia hírek, automatikusan generált tartalom.
   - `lp_rovid_ismertetok/` – tagok rövid ismertetői (BibTeX + `apa.csl`, kapcsolódó HTML diasor).
   - `lp_szakmai_esemenyek/` – események; saját mezők: `datum`, `idopont`, `helyszin`, `szervezo`; képek az `images/` mappában.
-- `tudastar/` – képek az MI-eszköz oldalakhoz (pl. `mi_eszkozok_iras.qmd`).
+- `tudastar/` – képek az MI-eszköz oldalakhoz (pl. `mi_eszkozok_iras.qmd`), webre méretezett WebP formátumban (max. 800 px széles); minden kép képleírása a kártya szövegét adja vissza.
 - Nincs bal oldali menü (sidebar). A lenyíló menüben a `href` nélküli tétel csoportcímként, a `text: "---"` elválasztóként jelenik meg.
 
 ## Publikálás
@@ -38,6 +38,7 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - Ne használjunk `date: today` mezőt olyan oldalon, ahol a dátumnak tartalmi jelentése van.
 - Hírek beillesztése: YAML fejléc (`title`, `author: "OpenAI - ChatGpt"`, `date`), a forrásszöveg saját főcíme elhagyva; fájlnév `mi_hirek_ÉÉÉÉHHNN.qmd`. A honlap saját oldalaira mutató linkek relatívak legyenek.
 - Új menüpontnál a menüfelirat és az oldal `title` mezője legyen összhangban.
+- Akadálymentesség: minden képnek legyen képleírása (Markdown `![leírás](…)`, ábránál `fig-alt`, eseménynél a fejlécben `image-alt` a lista bélyegképéhez); oldalanként egy H1 (a lapcím) – a hírek, az események, a Kutatócsoportról és az MI eszközök oldalon a `#` fejezetcímek a `shift-heading-level-by: 1` beállítással (mappánként `_metadata.yml`) egy szinttel lejjebb kerülnek; kattintható elemek legalább 24×24 px.
 
 ## Változásnapló
 
@@ -47,3 +48,5 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - 2026-11-06: a `.gitignore` által kizárt `_site/`, `.quarto/` és `.Rproj.user/` kivéve a Git követéséből (`git rm -r --cached`).
 - 2026-11-06: a bal oldali menü helyett felső navigációs sáv (logó, Kezdőlap, Kutatócsoportról, Tudásmegosztás lenyíló menü, Események, keresés, színmód-váltó); új `theme-light.scss`; az oldalsáv stílusai törölve. Az üres „Munkacsoportok” és „Kutatás” menüpontok kikerültek.
 - 2026-11-06: új arculat („A” irány, UI UX Pro Max „Research Lab” ajánlás alapján): sötétkék–arany paletta világos és sötét módra, Crimson Pro + Atkinson Hyperlegible betűk, fehér navigációs sáv arany aláhúzással, sötétkék lábléc; új kezdőlap bemutató sávval, kutatási területekkel, automatikus hír- és eseménylistával (`_templates/*.ejs`) és a vezetők kártyáival; logó színe frissítve.
+- 2026-11-06: Impeccable-szerű átvizsgálás (12/20) után javítva: 20 MI-eszköz-kártya és az eseményképek képleírása; az MI-eszköz képek PNG → WebP (11,5 MB → 0,5 MB); hivatkozásjegyzék URL-tördelése mobilon; egyetlen H1 oldalanként (`shift-heading-level-by`); a kezdőlap „Hírek” / „Események” felirata valódi címsor; nagyobb színmód-váltó és rendezőfejlécek; a workshop-eseményről a duplikált borítókép kikerült.
+- 2026-11-06: tervezési csiszolás: a címek egyszínűek (gradiens szöveg nélkül); oldalsó színes csíkok helyett felső arany vonal (eseménykártya) vagy vékony keret (kapcsolat, idézet); a dekoratív árnyékok és a navigációs sáv elmosása kikerült; a kutatási területek kártyái számozás nélkül; a betűk `@import` helyett `include-in-header` linkkel, `preconnect`-tel töltődnek; görgetősáv és kurzor a palettához igazítva, táblázatban táblázatos számjegyek. A kezdőlap felülcímkéje („Debreceni Egyetem · Pszichológiai Intézet”) tudatosan marad.

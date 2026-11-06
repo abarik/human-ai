@@ -404,7 +404,7 @@ Oktatóknak kiegészítő feladat: fogalmazzon meg egy saját kurzusához illő 
 9.  Hogyan ellenőrzi, hogy egy chatbot által megadott szakirodalmi hivatkozás valós-e?
 10. Milyen pszichológiai jelenségek magyarázzák, hogy hajlamosak vagyunk kritika nélkül elfogadni a chatbot válaszait?
 
-# Hivatkozások
+## Hivatkozások
 
 ::: {#refs}
 :::
