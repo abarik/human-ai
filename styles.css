@@ -151,72 +151,127 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
   border-radius: 3px;
 }
 
-/* Navigation uses explicit colors to override the existing dark SCSS. */
-@property --emi-sidebar-light-angle {
-  syntax: "<angle>";
-  inherits: false;
-  initial-value: 145deg;
-}
-
-#quarto-sidebar {
-  isolation: isolate;
-  background-color: var(--emi-sidebar);
-  /* Echo the title's arcs, fading gently below the navigation. */
-  background-image:
-    linear-gradient(to bottom, transparent, var(--emi-sidebar) 36rem),
-    repeating-radial-gradient(circle at 115% -2rem,
-      transparent 0 29px, var(--emi-pattern) 30px 31px, transparent 32px 61px);
-  background-repeat: no-repeat;
-  color: var(--emi-ink);
-  border-right: 1px solid var(--emi-line);
-}
-
-/* The moving light is clipped to the existing arcs, behind the menu text. */
-#quarto-sidebar::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  pointer-events: none;
-  opacity: 0;
-  background-image:
-    linear-gradient(to bottom, transparent, var(--emi-sidebar) 36rem),
-    conic-gradient(from var(--emi-sidebar-light-angle) at 115% -2rem,
-      transparent 0deg, var(--emi-accent) 14deg, transparent 28deg);
-  -webkit-mask-image: repeating-radial-gradient(circle at 115% -2rem,
-    transparent 0 29px, #000 30px 31px, transparent 32px 61px);
-  mask-image: repeating-radial-gradient(circle at 115% -2rem,
-    transparent 0 29px, #000 30px 31px, transparent 32px 61px);
-  animation: emi-sidebar-light 12s linear infinite;
-}
-
-@keyframes emi-sidebar-light {
-  0% { --emi-sidebar-light-angle: 145deg; opacity: 0; }
-  10% { opacity: .3; }
-  60% { opacity: .3; }
-  75%, 100% { --emi-sidebar-light-angle: 280deg; opacity: 0; }
-}
-
-#quarto-sidebar .sidebar-title {
-  padding-bottom: 1.25rem !important;
-  margin-bottom: 1rem !important;
+/* Felső navigációs sáv: áttetsző, elmosott háttér, finom alsó vonal. */
+#quarto-header .navbar {
+  --bs-navbar-color: var(--emi-ink);
+  --bs-navbar-hover-color: var(--emi-accent);
+  --bs-navbar-active-color: var(--emi-accent);
+  --bs-navbar-brand-color: var(--emi-title-start);
+  --bs-navbar-brand-hover-color: var(--emi-title-start);
+  padding-block: .55rem;
+  background-color: var(--emi-bg) !important;
   border-bottom: 1px solid var(--emi-line);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.85rem;
-  letter-spacing: -.045em;
+  box-shadow: none;
 }
 
-#quarto-sidebar .sidebar-title > a {
-  display: inline-flex;
-  align-items: center;
-  gap: .45rem;
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  #quarto-header .navbar {
+    background-color: color-mix(in srgb, var(--emi-bg) 82%, transparent) !important;
+    -webkit-backdrop-filter: saturate(1.4) blur(12px);
+    backdrop-filter: saturate(1.4) blur(12px);
+  }
+}
+
+#quarto-header .navbar-brand { gap: .55rem; margin-right: 1.5rem; }
+#quarto-header .navbar-brand-logo { margin-right: 0; padding-right: 0; }
+#quarto-header .navbar-logo { width: 34px; height: 34px; max-height: none; }
+
+#quarto-header .navbar-toggler {
+  padding: .35rem .5rem;
+  border: 1px solid var(--emi-line);
+  border-radius: 10px;
+  box-shadow: none;
+}
+#quarto-header .navbar-toggler:focus-visible { box-shadow: 0 0 0 3px var(--emi-tint); }
+#quarto-header .navbar-toggler-icon { width: 1.25em; height: 1.25em; }
+
+#quarto-header .navbar-title {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.5rem;
+  letter-spacing: -.04em;
   color: var(--emi-title-start);
+}
+
+#quarto-header .navbar-nav .nav-link {
+  margin-inline: .1rem;
+  padding: .45rem .9rem !important;
+  border-radius: 999px;
+  font-size: .95rem;
+  font-weight: 500;
+  transition: background-color .2s ease, color .2s ease;
+}
+
+#quarto-header .navbar-nav .nav-link:hover,
+#quarto-header .navbar-nav .nav-link:focus-visible,
+#quarto-header .navbar-nav .nav-link.show {
+  color: var(--emi-accent);
+  background-color: var(--emi-tint);
+}
+
+#quarto-header .navbar-nav .nav-link.active {
+  color: var(--emi-accent);
+  background-color: var(--emi-tint);
+  font-weight: 600;
+}
+
+/* Lenyíló menü */
+#quarto-header .dropdown-menu {
+  margin-top: .45rem;
+  padding: .45rem;
+  min-width: 16rem;
+  background: var(--emi-surface);
+  border: 1px solid var(--emi-line);
+  border-radius: 12px;
+  box-shadow: var(--emi-shadow);
+}
+
+#quarto-header .dropdown-item {
+  padding: .5rem .8rem;
+  border-radius: 8px;
+  color: var(--emi-ink);
+  font-size: .95rem;
+}
+
+#quarto-header .dropdown-item:hover,
+#quarto-header .dropdown-item:focus-visible,
+#quarto-header .dropdown-item.active {
+  color: var(--emi-accent);
+  background-color: var(--emi-tint);
+}
+
+#quarto-header .dropdown-header {
+  padding: .6rem .8rem .3rem;
+  color: var(--emi-muted);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+#quarto-header .dropdown-divider { border-color: var(--emi-line); margin: .4rem .3rem; }
+
+/* Mobilnézet: a lenyitott menü külön panelen, jól tagolva */
+@media (max-width: 991.98px) {
+  #quarto-header .navbar-collapse {
+    margin-top: .6rem;
+    padding: .5rem;
+    background: var(--emi-surface);
+    border: 1px solid var(--emi-line);
+    border-radius: 12px;
+    box-shadow: var(--emi-shadow);
+  }
+
+  #quarto-header .dropdown-menu { box-shadow: none; border: 0; padding-left: .8rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #quarto-header .navbar-nav .nav-link { transition: none; }
 }
 
 /* Solid colors remain the fallback for print and high-contrast displays. */
 @media screen and (forced-colors: none) {
   @supports ((background-clip: text) or (-webkit-background-clip: text)) {
-    #quarto-sidebar .sidebar-title > a,
+    #quarto-header .navbar-title,
     #title-block-header h1.title {
       background-image: linear-gradient(110deg,
         var(--emi-title-start) 0%,
@@ -228,7 +283,7 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
       -webkit-text-fill-color: transparent;
     }
 
-    #quarto-sidebar .sidebar-title > a::selection,
+    #quarto-header .navbar-title::selection,
     #title-block-header h1.title::selection {
       -webkit-text-fill-color: var(--emi-heading);
     }
@@ -308,57 +363,6 @@ main.content .emi-event-card dd p {
 }
 
 
-/* A decorative SVG mask inherits the palette without duplicating the link label. */
-#quarto-sidebar .sidebar-title > a::before {
-  content: "";
-  display: inline-block;
-  flex: 0 0 1.15em;
-  width: 1.15em;
-  height: 1.15em;
-  background-color: var(--emi-accent);
-  -webkit-mask: url("ember-mi-logo.svg") center / contain no-repeat;
-  mask: url("ember-mi-logo.svg") center / contain no-repeat;
-}
-#quarto-sidebar a { color: var(--emi-muted); }
-#quarto-sidebar .sidebar-item-container { margin: .1rem 0; }
-#quarto-sidebar .sidebar-item-text {
-  padding: .275rem .7rem;
-  border-left: 3px solid transparent;
-  border-radius: 0 6px 6px 0;
-  font-size: .9rem;
-  line-height: 1.45;
-}
-
-#quarto-sidebar .sidebar-item-text:hover,
-#quarto-sidebar .sidebar-item-text.active {
-  color: var(--emi-accent);
-  background-color: var(--emi-tint);
-}
-
-#quarto-sidebar .sidebar-item-text.active {
-  border-left-color: var(--emi-accent);
-  font-weight: 600;
-}
-
-#quarto-sidebar .sidebar-item-section > .sidebar-item-container { margin-top: .5rem; }
-
-/* Plain menu labels mark sections, including any added in the future. */
-#quarto-sidebar .sidebar-item > .menu-text {
-  display: block;
-  margin-top: .75rem;
-  margin-bottom: .25rem;
-  padding: .6rem .7rem .2rem;
-  border-top: 1px solid var(--emi-line);
-  color: var(--emi-accent);
-  font-size: .7rem;
-  font-weight: 700;
-  line-height: 1.4;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-}
-
-#quarto-sidebar .sidebar-item-toggle:hover { color: var(--emi-accent); }
-#quarto-sidebar .sidebar-search { margin-bottom: 1.25rem; }
 #quarto-search .aa-Autocomplete .aa-Form {
   background-color: var(--emi-surface);
   color: var(--emi-ink);
@@ -586,7 +590,6 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
 }
 
 @media (max-width: 991.98px) {
-  #quarto-sidebar { border-right: 0; border-bottom: 1px solid var(--emi-line); }
   #title-block-header { margin-top: .75rem; }
 }
 
@@ -603,12 +606,10 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  #quarto-sidebar::before { animation: none; display: none; }
   a, button, input, select { transition: none; }
 }
 
 @media print {
-  #quarto-sidebar::before { animation: none; display: none; }
   body { background: #fff !important; color: #000 !important; }
   #title-block-header, #kutatási-területeink > ul > li, #kapcsolat,
   main.content .kartya-lista > :is(ul, ol) > li {

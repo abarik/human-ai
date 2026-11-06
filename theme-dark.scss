@@ -5,13 +5,10 @@ $body-color: #d8dadd;
 $link-color: #8eb8dc;
 $link-hover-color: #b5d2ea;
 
-$navbar-bg: #25282d;
-$navbar-fg: #e8e9eb;
-$navbar-hl: #ffffff;
-
-$sidebar-bg: #25282d;
-$sidebar-fg: #d8dadd;
-$sidebar-hl: #ffffff;
+// Felső navigációs sáv (az ikonok is ebből kapják a színüket)
+$navbar-bg: #151e27;
+$navbar-fg: #d9e2e7;
+$navbar-hl: #88d3c5;
 
 $footer-bg: #25282d;
 $footer-fg: #aeb4ba;
@@ -23,22 +20,6 @@ $input-group-addon-bg: #25282d;
 $input-group-addon-color: #d8dadd;
 
 /*-- scss:rules --*/
-
-// Bal oldali navigáció
-#quarto-sidebar {
-  background-color: #25282d;
-  color: #d8dadd;
-  border-color: #3b3f45;
-}
-
-#quarto-sidebar a {
-  color: #c8d0d8;
-}
-
-#quarto-sidebar a:hover,
-#quarto-sidebar a.active {
-  color: #ffffff;
-}
 
 // Lábléc
 .nav-footer {

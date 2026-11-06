@@ -12,16 +12,16 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 
 ## Felépítés
 
-- `_quarto.yml` – projekt, oldalsáv-menü, lábléc (nyers HTML), témák (`cosmo` + `theme-dark.scss`), `styles.css`.
-- `styles.css` – saját tipográfia, színpaletta, lábléc, eseménykártyák, hírtáblák; a sötét módot a `body.quarto-dark` szelektor kezeli.
-- `theme-dark.scss` – a sötét téma Bootstrap/Quarto változói.
+- `_quarto.yml` – projekt, felső navigációs sáv (`website: navbar:`, logóval, kereséssel, lenyíló „Tudásmegosztás” menüvel), lábléc (nyers HTML), témák (`cosmo` + `theme-light.scss` / `theme-dark.scss`), `styles.css`.
+- `styles.css` – saját tipográfia, színpaletta (`--emi-*` változók), navigációs sáv, lábléc, eseménykártyák, hírtáblák; a sötét módot a `body.quarto-dark` szelektor kezeli.
+- `theme-light.scss` / `theme-dark.scss` – a világos és a sötét téma Bootstrap/Quarto változói (a navigációs sáv színei is: ebből kapják színüket a keresés, a színmód-váltó és a mobilmenü ikonjai).
 - Listázó oldalak (`lp_*.qmd`) és a hozzájuk tartozó mappák:
   - `lp_mi_hirek_napi/` – napi MI-hírek (`mi_hirek_ÉÉÉÉHHNN.qmd`), automatikusan generált tartalom.
   - `lp_mi_hirek_heti_pszicho/` – heti MI–pszichológia hírek, automatikusan generált tartalom.
   - `lp_rovid_ismertetok/` – tagok rövid ismertetői (BibTeX + `apa.csl`, kapcsolódó HTML diasor).
   - `lp_szakmai_esemenyek/` – események; saját mezők: `datum`, `idopont`, `helyszin`, `szervezo`; képek az `images/` mappában.
 - `tudastar/` – képek az MI-eszköz oldalakhoz (pl. `mi_eszkozok_iras.qmd`).
-- A menüben a `href` nélküli tételek (Tudásmegosztás, Szakmai élet, Munkacsoportok, Kutatás) szakaszcímként jelennek meg.
+- Nincs bal oldali menü (sidebar). A lenyíló menüben a `href` nélküli tétel csoportcímként, a `text: "---"` elválasztóként jelenik meg.
 
 ## Publikálás
 
@@ -41,3 +41,4 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - 2026-11-05: napi MI-hírek pótolva (2026-10-28 – 2026-11-05), heti MI–pszichológia hír (2026-11-02) hozzáadva; új esemény: Abari Kálmán „A mesterséges intelligencia ma” online workshopja (2026-10-28, `lp_szakmai_esemenyek/honlap_20261028.qmd`, kép a diasor címlapjáról).
 - 2026-11-05: workshop-esemény kiegészítve (12:00–13:00, beágyazott diasor, `resources:` a diasor HTML-jére); új esemény: IPCRF 2026, Hongkong (`lp_szakmai_esemenyek/ipcrf_20260728.qmd`), kép nélkül.
 - 2026-11-06: a `.gitignore` által kizárt `_site/`, `.quarto/` és `.Rproj.user/` kivéve a Git követéséből (`git rm -r --cached`).
+- 2026-11-06: a bal oldali menü helyett felső navigációs sáv (logó, Kezdőlap, Kutatócsoportról, Tudásmegosztás lenyíló menü, Események, keresés, színmód-váltó); új `theme-light.scss`; az oldalsáv stílusai törölve. Az üres „Munkacsoportok” és „Kutatás” menüpontok kikerültek.

@@ -23,36 +23,35 @@ language:
 output-dir: _site
 
 website:
-  title: "Ember--MI"
-  bread-crumbs: true
+  title: "Ember–MI"
   back-to-top-navigation: true
-  sidebar:
-    background: light
+  navbar:
+    logo: ember-mi-logo.svg
+    logo-alt: "Ember–MI logó"
+    title: "Ember–MI"
     search: true
-    contents:
-      - text: " Kezdőlap"
+    collapse-below: lg
+    left:
+      - text: "Kezdőlap"
         href: index.qmd
       - text: "Kutatócsoportról"
         href: kutatocsoportrol.qmd
       - text: "Tudásmegosztás"
-      - text: "Rövid ismertetők"
-        href: lp_rovid_ismertetok.qmd
-      - text: "MI eszközök"
-        href: mi_eszkozok_iras.qmd
-      - section: "MI-generált hírek"
-        contents: 
-          - text: "Napi MI hírek"
+        menu:
+          - text: "Rövid ismertetők"
+            href: lp_rovid_ismertetok.qmd
+          - text: "MI eszközök"
+            href: mi_eszkozok_iras.qmd
+          - text: "Linkek"
+            href: linkek.qmd
+          - text: "---"
+          - text: "MI-generált hírek"
+          - text: "Napi MI-hírek"
             href: lp_mi_hirek_napi.qmd
-          - text: "Heti MI-Pszicho hírek"
+          - text: "Heti MI–pszichológia hírek"
             href: lp_mi_hirek_heti_pszicho.qmd
-      - text: "Linkek"
-        href: linkek.qmd
-      - text: "Szakmai élet"
-      - text: "Szakmai események"
+      - text: "Események"
         href: lp_szakmai_esemenyek.qmd
-      - text: "Munkacsoportok"
-      - text: "Kutatás"
-        
 
   page-footer:
     background: light
@@ -78,7 +77,7 @@ website:
 format:
   html:
     theme:
-      light: cosmo
+      light: [cosmo, theme-light.scss]
       dark: [cosmo, theme-dark.scss]
     respect-user-color-scheme: true
     css: styles.css
