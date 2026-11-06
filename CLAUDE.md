@@ -30,6 +30,9 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 
 ## Publikálás
 
+- Élő cím: https://human-ai.arts.unideb.hu/
+- Látogatottságmérés: GoatCounter (fiók: `human-ai`, irányítópult: https://human-ai.goatcounter.com; elsődleges látogatottsági adat) és Cloudflare Web Analytics (Cloudflare-fiók → Web Analytics → `human-ai.arts.unideb.hu`; betöltési sebesség, Core Web Vitals), mindkettő süti és személyes adat nélkül, ezért nem kell hozzájárulást kérő ablak. A szkripteket a `_quarto.yml` `include-in-header` része csak az élő címen (`human-ai.arts.unideb.hu`) tölti be, helyi előnézetben nem mér.
+
 - `main` ágra pusholás → GitHub Actions (`.github/workflows/render.yml`) rendereli a `_site/` mappát, majd webhookkal szól a `psycho.unideb.hu` szerveren futó `deploy.php`-nek (rsync `--delete`). Részletek: `README.md`.
 - A `_site/`, a `.quarto/` és a `.Rproj.user/` nincs verziókezelve (2026-11-06-tól a Git sem követi őket; ne kerüljenek vissza commitba).
 
@@ -59,3 +62,6 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - 2026-11-06: az MI-eszközkártya leírása lebegő doboz helyett a kártyán belül, animáltan nyílik és záródik (a rácssor magasságának animálásával, kb. 0,3–0,46 s, rövid szándékkésleltetéssel), eltérő (halványkék, sötét módban aranyos) hátterű dobozban; a kártya megnő, a rács elemei felülre igazodnak, így csak a kinyitott kártya oszlopa tolódik.
 - 2026-11-06: alapár-átsorolás: a ChatGPT, Claude, Gemini, Perplexity, Consensus és Trinka „Korlátozottan ingyenes” lett (mérce: „Ingyenesen jól használható” = a fő funkció ingyen, rendszeres kutatói munkára is elég). Adatelemzés: új MI-típus (Adatelemző) és feladat (Adatelemzés és vizualizáció); új eszközök: Julius AI, Google Colab (Gemini-vel), Posit Assistant (RStudio, Positron); a ChatGPT és a Claude is megkapta az adatelemzés címkéit. Összesen 31 eszköz.
 - 2026-11-06: menü-navigáció: a Tudásmegosztás alatti oldalakon a „Tudásmegosztás” menüpont is kijelölt, a lenyíló menüben az aktuális tétel kiemelt (arany pont, félkövér, háttér, `aria-current`); a cím fölött morzsamenü mutatja a helyet; hír- és eseményoldalakon a listázó oldal menüpontja jelölt.
+- 2026-11-06: látogatottságmérés: GoatCounter (`human-ai`), csak az élő oldalon.
+- 2026-11-06: adatkezelési mondat a láblécben (`.emi-footer-adat`): „Az oldal látogatottságát sütik és személyes adatok gyűjtése nélkül mérjük.”
+- 2026-11-06: Cloudflare Web Analytics a GoatCounter mellé, szintén csak az élő oldalon.

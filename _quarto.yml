@@ -72,6 +72,7 @@ website:
       <address><a class="emi-footer-institute" href="https://pszichologia.unideb.hu/">Debreceni Egyetem<br>Pszichológiai Intézet</a><span class="emi-footer-address">4032 Debrecen, Dóczy József utca 2.</span></address>
       </div>
       <div class="emi-footer-bottom"><span>© 2026 Ember–MI Kapcsolatok Kutatócsoport</span><span>Debreceni Egyetem · Pszichológiai Intézet</span></div>
+      <p class="emi-footer-adat">Az oldal látogatottságát sütik és személyes adatok gyűjtése nélkül mérjük.</p>
       </div>
 
 format:
@@ -152,6 +153,22 @@ format:
           morzsa.appendChild(ol);
           fej.insertBefore(morzsa, fej.firstChild);
         });
+        </script>
+        <script>
+        /* Látogatottságmérés (GoatCounter és Cloudflare Web Analytics, süti nélkül) – csak az élő oldalon */
+        if (location.hostname === 'human-ai.arts.unideb.hu') {
+          var gc = document.createElement('script');
+          gc.async = true;
+          gc.src = 'https://gc.zgo.at/count.js';
+          gc.setAttribute('data-goatcounter', 'https://human-ai.goatcounter.com/count');
+          document.head.appendChild(gc);
+          /* Cloudflare Web Analytics (süti nélkül) */
+          var cf = document.createElement('script');
+          cf.type = 'module';
+          cf.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+          cf.setAttribute('data-cf-beacon', '{"token": "00ca91f01cab4772b98e5efa6aefb71c"}');
+          document.head.appendChild(cf);
+        }
         </script>
     css: styles.css
     toc: true

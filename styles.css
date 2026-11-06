@@ -573,6 +573,13 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
   border-top: 1px solid var(--emi-band-line);
   font-size: .8rem;
 }
+.nav-footer .emi-footer-adat {
+  grid-column: 1 / -1;
+  margin-top: -.6rem;
+  color: var(--emi-band-text);
+  font-size: .78rem;
+  opacity: .85;
+}
 @media (max-width: 767.98px) {
   .nav-footer { padding-top: 2rem; }
   .emi-footer { grid-template-columns: 1fr; gap: 1.6rem; }
