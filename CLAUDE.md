@@ -65,3 +65,4 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - 2026-11-06: látogatottságmérés: GoatCounter (`human-ai`), csak az élő oldalon.
 - 2026-11-06: adatkezelési mondat a láblécben (`.emi-footer-adat`): „Az oldal látogatottságát sütik és személyes adatok gyűjtése nélkül mérjük.”
 - 2026-11-06: Cloudflare Web Analytics a GoatCounter mellé, szintén csak az élő oldalon.
+- 2026-11-06: a Quarto további felületi szövegei magyarítva a `language:` blokkban (színmód-váltó: „Váltás világos és sötét mód között”, mobilmenü, keresés, másolás gomb, üres lista); nagyobb színmód-váltó ikon (asztalon 1,75 rem, mobilon 1,5 rem) és rámutatáskor halvány háttér.
