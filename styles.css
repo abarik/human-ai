@@ -698,20 +698,62 @@ main.content .emi-gomb-masodlagos { border-color: #93a9c4; color: #ffffff; }
 main.content .emi-gomb-masodlagos:hover { border-color: #ffffff; color: #ffffff; background: rgba(255, 255, 255, .08); }
 .emi-hero :focus-visible { outline-color: var(--emi-band-eyebrow); }
 
-.emi-hero-panel .emi-hero-esemeny {
+/* Kezdőlap: a legutóbbi esemény kompakt kártyája (_templates/hero-esemeny.ejs) */
+main.content .emi-hero-panel a.emi-hero-esemeny {
+  position: relative;
   display: flex;
   flex-direction: column;
-  gap: .7rem;
-  padding: 1.75rem;
+  gap: .75rem;
+  padding: 1.25rem 1.4rem 1.15rem;
   border: 1px solid var(--emi-band-line);
-  border-radius: 10px;
+  border-radius: 12px;
   background: var(--emi-band-panel);
+  color: var(--emi-band-text);
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform var(--emi-dur, 320ms) var(--emi-ease-out, ease-out), border-color var(--emi-dur, 320ms) ease;
 }
-.emi-hero-esemeny p { margin: 0; }
-.emi-hero-esemeny-cim { font-family: var(--emi-font-head); font-size: 1.9rem; font-weight: 600; line-height: 1.15; color: #ffffff; }
-.emi-hero-esemeny-adat, .emi-hero-esemeny-leiras { color: var(--emi-band-text); }
-main.content .emi-hero-esemeny-link { align-self: flex-start; color: #ffffff; font-weight: 700; }
-main.content .emi-hero-esemeny-link:hover { color: var(--emi-band-eyebrow); }
+/* felül egyszer kinövő arany vonal */
+main.content .emi-hero-panel a.emi-hero-esemeny::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 3px;
+  background: var(--emi-band-eyebrow);
+  transform-origin: left center;
+  animation: emi-vonal-nyit 900ms var(--emi-ease-out, ease-out) 700ms backwards;
+}
+@keyframes emi-vonal-nyit { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.emi-hero-esemeny-test { display: flex; align-items: center; gap: 1rem; }
+main.content .emi-hero-esemeny .emi-datumjel {
+  min-width: 3.6rem;
+  background: rgba(255, 255, 255, .08);
+  color: var(--emi-band-eyebrow);
+  transition: background-color var(--emi-dur, 320ms) ease, color var(--emi-dur, 320ms) ease, transform var(--emi-dur, 320ms) var(--emi-ease-out, ease-out);
+}
+.emi-hero-esemeny-szoveg { display: flex; flex-direction: column; gap: .2rem; min-width: 0; }
+.emi-hero-esemeny-cim { color: #ffffff; font-family: var(--emi-font-head); font-size: 1.45rem; font-weight: 600; line-height: 1.15; }
+.emi-hero-esemeny-adat { color: var(--emi-band-text); font-size: .9rem; }
+.emi-hero-esemeny-leiras {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: var(--emi-band-text);
+  font-size: .92rem;
+  line-height: 1.5;
+}
+.emi-hero-esemeny-link { display: inline-flex; align-items: center; gap: .35rem; color: #ffffff; font-size: .92rem; font-weight: 700; }
+.emi-hero-esemeny-link span { display: inline-block; transition: transform var(--emi-dur, 320ms) var(--emi-ease-out, ease-out); }
+main.content .emi-hero-panel a.emi-hero-esemeny:hover { border-color: var(--emi-band-eyebrow); transform: translateY(-3px); }
+main.content .emi-hero-panel a.emi-hero-esemeny:hover .emi-datumjel { background: var(--emi-band-eyebrow); color: var(--emi-band); transform: scale(1.05); }
+main.content .emi-hero-panel a.emi-hero-esemeny:hover .emi-hero-esemeny-link span { transform: translateX(4px); }
+main.content .emi-hero-panel a.emi-hero-esemeny:focus-visible { outline: 3px solid var(--emi-band-eyebrow); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  main.content .emi-hero-panel a.emi-hero-esemeny:hover,
+  main.content .emi-hero-panel a.emi-hero-esemeny:hover .emi-datumjel,
+  main.content .emi-hero-panel a.emi-hero-esemeny:hover .emi-hero-esemeny-link span { transform: none; }
+}
 
 /* Szakaszok */
 .emi-szakasz { padding-top: clamp(3rem, 6vw, 4.5rem); }
@@ -842,7 +884,7 @@ body.quarto-dark .emi-monogram { background: var(--emi-gold); color: #142033; }
 }
 @media (max-width: 575.98px) {
   main.content .emi-teruletek > ul { grid-template-columns: 1fr; }
-  .emi-hero-esemeny-cim { font-size: 1.6rem; }
+  .emi-hero-esemeny-cim { font-size: 1.3rem; }
 }
 @media print {
   main.content .emi-hero, main.content .emi-sav { background: transparent !important; color: #000 !important; }

@@ -55,3 +55,4 @@ _build.R
 
 /.quarto/
 **/*.quarto_ipynb
+/site_libs/

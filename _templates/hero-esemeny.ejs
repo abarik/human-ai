@@ -1,15 +1,27 @@
 <%
-// Kezdőlap, bemutató sáv: a legutóbbi esemény kiemelése.
-// (Behúzás nélkül, hogy a Markdown ne kódblokknak lássa.)
+// Kezdőlap, bemutató sáv: a legutóbbi esemény kompakt kártyája (dátumjel + cím + adatok + rövid leírás).
+// A kimenet egy ```{=html} blokk, hogy a Pandoc ne tördelje szét.
+const honapRovid = ['jan.','febr.','márc.','ápr.','máj.','jún.','júl.','aug.','szept.','okt.','nov.','dec.'];
+const esc = s => String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const sorok = ['<div class="list">'];
+for (const item of items) {
+const d = new Date(String(item.datum || item.date).slice(0, 10) + 'T12:00:00');
+const ido = String(item.idopont || '').split(',').slice(1).join(',').trim();
+const adat = [item.subtitle, ido].filter(Boolean).join(' · ');
+sorok.push('<a class="emi-hero-esemeny" href="' + esc(String(item.path).replace(/^\//, '').replace(/\.qmd$/, '.html')) + '">'
++ '<span class="emi-hero-esemeny-fej"><span class="emi-eyebrow">Legutóbbi esemény</span></span>'
++ '<span class="emi-hero-esemeny-test">'
++ '<span class="emi-datumjel" aria-hidden="true"><span class="emi-datumjel-nap">' + d.getDate() + '</span><span class="emi-datumjel-ho">' + honapRovid[d.getMonth()] + '</span></span>'
++ '<span class="emi-hero-esemeny-szoveg">'
++ '<span class="emi-hero-esemeny-cim">' + esc(item.title) + '</span>'
++ (adat ? '<span class="emi-hero-esemeny-adat">' + esc(adat) + '</span>' : '')
++ '</span></span>'
++ (item.description ? '<span class="emi-hero-esemeny-leiras">' + esc(item.description) + '</span>' : '')
++ '<span class="emi-hero-esemeny-link">Részletek <span aria-hidden="true">→</span></span>'
++ '</a>');
+}
+sorok.push('</div>');
 %>
-<div class="list">
-<% for (const item of items) { %>
-<div class="emi-hero-esemeny" <%= metadataAttrs(item) %>>
-<p class="emi-eyebrow">Legutóbbi esemény</p>
-<p class="emi-hero-esemeny-cim"><%= item.title %></p>
-<p class="emi-hero-esemeny-adat"><% if (item.subtitle) { %><%= item.subtitle %><% } %><% if (item.subtitle && item.idopont) { %> · <% } %><% if (item.idopont) { %><%= item.idopont %><% } %></p>
-<% if (item.description) { %><p class="emi-hero-esemeny-leiras"><%= item.description %></p><% } %>
-<a class="emi-hero-esemeny-link" href="<%- item.path %>">Részletek →</a>
-</div>
-<% } %>
-</div>
+```{=html}
+<%= sorok.join('\n') %>
+```
