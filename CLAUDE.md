@@ -17,7 +17,7 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - `styles.css` – saját tipográfia, színpaletta (`--emi-*` változók, világos `:root` / sötét `body.quarto-dark`), navigációs sáv, sötétkék lábléc, eseménykártyák, hírtáblák, valamint a kezdőlap elemei (`.emi-hero`, `.emi-teruletek`, `.emi-ketoszlop`, `.emi-sav`, `.emi-szemely`).
 - `index.qmd` – kezdőlap cím-blokk nélkül (`pagetitle`, `page-layout: full`): sötétkék bemutató sáv a legutóbbi eseménnyel, kutatási területek kártyái, legfrissebb hírek és események (Quarto-listák), vezetők. A hírek és események maguktól frissülnek.
 - `_templates/` – a kezdőlap listáinak EJS-sablonjai (`hero-esemeny.ejs`, `friss-hirek.ejs`, `friss-esemenyek.ejs`); az aláhúzással kezdődő mappát a Quarto nem rendereli. A sablonok sorai ne legyenek behúzva (különben a Markdown kódblokknak veszi őket).
-- `ember-mi-logo.svg` – logó (kék vonalak, arany pont; mindkét színmódban látható).
+- `ember-mi-logo.svg` – animált logó a navigációs sávban (kék vonalak, arany pont; mindkét színmódban látható): betöltéskor a vonalak kirajzolódnak, a pont bepattan, utána 9 másodpercenként halvány hullám indul a chipből, a fej alig biccent (CSS az SVG-n belül). `ember-mi-logo-allo.svg` – ugyanez mozgás nélkül: a lábléc maszkja ezt használja, és mozgáscsökkentésnél a `styles.css` ezt teszi a navigációs sávba. Az SVG-kben ne legyen szerzőségi/C2PA metaadat.
 - `theme-light.scss` / `theme-dark.scss` – a világos és a sötét téma Bootstrap/Quarto változói (a navigációs sáv színei is: ebből kapják színüket a keresés, a színmód-váltó és a mobilmenü ikonjai).
 - Listázó oldalak (`lp_*.qmd`) és a hozzájuk tartozó mappák:
   - `lp_mi_hirek_napi/` – napi MI-hírek (`mi_hirek_ÉÉÉÉHHNN.qmd`), automatikusan generált tartalom.
@@ -40,6 +40,7 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 ## Karbantartási szabályok
 
 - Képeket webre optimalizált méretben tegyünk fel (fotó: JPG, kb. 1500 px szélesség, néhány száz kB).
+- Képekben és SVG-kben ne maradjon szerzőségi/C2PA metaadat (a Claude-os fájlátvitel ilyet beírhat a képekbe és SVG-kbe): feltöltés után ellenőrizni (`grep -a -i c2pa`), és eltávolítani (JPEG: APP11/0xFFEB szegmens, WebP: `C2PA` chunk, SVG: `<metadata>`) – veszteségmentesen, újratömörítés nélkül.
 - Ne használjunk `date: today` mezőt olyan oldalon, ahol a dátumnak tartalmi jelentése van.
 - Hírek beillesztése: YAML fejléc (`title`, `author: "OpenAI - ChatGpt"`, `date`, `temak:` – a hír első három számozott hírcíme, JSON-listaként), a forrásszöveg saját főcíme elhagyva; fájlnév `mi_hirek_ÉÉÉÉHHNN.qmd`. A honlap saját oldalaira mutató linkek relatívak legyenek.
 - Új menüpontnál a menüfelirat és az oldal `title` mezője legyen összhangban.
@@ -69,3 +70,5 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - 2026-11-06: a Quarto további felületi szövegei magyarítva a `language:` blokkban (színmód-váltó: „Váltás világos és sötét mód között”, mobilmenü, keresés, másolás gomb, üres lista); nagyobb színmód-váltó ikon (asztalon 1,75 rem, mobilon 1,5 rem) és rámutatáskor halvány háttér.
 - 2026-11-06: a napi és a heti híroldal táblázat helyett hónapok szerint tagolt idővonal (`_templates/hirarchivum.ejs`): hónapugró gombok, dátumjel, fő hír + két további hírcím, keresőmező; a Szerző oszlop és a lapozás megszűnt; minden hír fejlécébe `temak:` mező került (74 fájl; a szeptember 12–18-i napi és a 2026-09-14-i átfogó heti összefoglaló témái kézzel/eltérő minta alapján).
 - 2026-11-06: a kezdőlap „Legutóbbi esemény” kártyája kompaktabb (kb. 360 → 250 px magas): dátumjel + cím + forma és időpont egy sorban, a leírás 2 sorra vágva, az egész kártya kattintható; betöltéskor felül egyszer kinövő arany vonal, egérrel enyhe emelés, arany dátumjel és előrecsúszó nyíl (`_templates/hero-esemeny.ejs`, kimenete ```` ```{=html} ```` blokkban).
+- 2026-11-06: animált logó (kirajzolódás + ritka, lassú „gondolkodó” hullámok), álló változat a láblécnek és mozgáscsökkentéshez; a logóból kikerült a szerzőségi (C2PA) metaadat.
+- 2026-11-06: a két eseménykép (JPG) és a `tudastar/` 20 WebP-képe C2PA-metaadatától veszteségmentesen megtisztítva.

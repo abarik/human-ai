@@ -186,6 +186,8 @@ a, button, input, select { transition: color .16s ease, background-color .16s ea
 #quarto-header .navbar-brand { gap: .55rem; margin-right: 1.5rem; }
 #quarto-header .navbar-brand-logo { margin-right: 0; padding-right: 0; }
 #quarto-header .navbar-logo { width: 34px; height: 34px; max-height: none; }
+/* A logó animált (ember-mi-logo.svg); mozgáscsökkentésnél az álló változat jelenik meg */
+@media (prefers-reduced-motion: reduce) { #quarto-header .navbar-logo { content: url("ember-mi-logo-allo.svg"); } }
 
 #quarto-header .navbar-toggler {
   padding: .35rem .5rem;
@@ -544,8 +546,8 @@ main.content a.lightbox:hover img { border-color: var(--emi-accent); }
   width: 1.1em;
   height: 1.1em;
   background-color: var(--emi-band-eyebrow);
-  -webkit-mask: url("ember-mi-logo.svg") center / contain no-repeat;
-  mask: url("ember-mi-logo.svg") center / contain no-repeat;
+  -webkit-mask: url("ember-mi-logo-allo.svg") center / contain no-repeat;
+  mask: url("ember-mi-logo-allo.svg") center / contain no-repeat;
 }
 .nav-footer .emi-footer-subtitle { margin-top: .5rem; color: #ffffff; font-weight: 700; }
 .nav-footer .emi-footer-description { margin-top: .65rem; max-width: 32ch; }
