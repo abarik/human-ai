@@ -750,6 +750,14 @@ main.content .emi-hero-esemeny .emi-datumjel {
 main.content .emi-hero-panel a.emi-hero-esemeny:hover { border-color: var(--emi-band-eyebrow); transform: translateY(-3px); }
 main.content .emi-hero-panel a.emi-hero-esemeny:hover .emi-datumjel { background: var(--emi-band-eyebrow); color: var(--emi-band); transform: scale(1.05); }
 main.content .emi-hero-panel a.emi-hero-esemeny:hover .emi-hero-esemeny-link span { transform: translateX(4px); }
+.emi-hero-esemeny-adat .emi-nw { white-space: nowrap; }
+@media (max-width: 575.98px) {
+  main.content .emi-hero-panel a.emi-hero-esemeny { padding: 1.1rem 1.1rem 1rem; }
+  .emi-hero-esemeny-test { align-items: flex-start; gap: .8rem; }
+  main.content .emi-hero-esemeny .emi-datumjel { flex: 0 0 3.1rem; min-width: 0; padding: .4rem 0; }
+  main.content .emi-hero-esemeny .emi-datumjel-nap { font-size: 1.45rem; }
+  main.content .emi-hero-esemeny .emi-datumjel-ho { font-size: .72rem; }
+}
 main.content .emi-hero-panel a.emi-hero-esemeny:focus-visible { outline: 3px solid var(--emi-band-eyebrow); outline-offset: 3px; }
 @media (prefers-reduced-motion: reduce) {
   main.content .emi-hero-panel a.emi-hero-esemeny:hover,

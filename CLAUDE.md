@@ -72,3 +72,4 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - 2026-11-06: a kezdőlap „Legutóbbi esemény” kártyája kompaktabb (kb. 360 → 250 px magas): dátumjel + cím + forma és időpont egy sorban, a leírás 2 sorra vágva, az egész kártya kattintható; betöltéskor felül egyszer kinövő arany vonal, egérrel enyhe emelés, arany dátumjel és előrecsúszó nyíl (`_templates/hero-esemeny.ejs`, kimenete ```` ```{=html} ```` blokkban).
 - 2026-11-06: animált logó (kirajzolódás + ritka, lassú „gondolkodó” hullámok), álló változat a láblécnek és mozgáscsökkentéshez; a logóból kikerült a szerzőségi (C2PA) metaadat.
 - 2026-11-06: a két eseménykép (JPG) és a `tudastar/` 20 WebP-képe C2PA-metaadatától veszteségmentesen megtisztítva.
+- 2026-11-06: a kezdőlap eseménykártyája mobilon (575 px alatt) keskenyebb dátumjellel (kb. 68 → 53 px) és kisebb belső margóval; a forma és az időpont („Online workshop · 12:00–13:00”) csak egészben tördelődik.
