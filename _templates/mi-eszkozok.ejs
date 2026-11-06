@@ -1,0 +1,102 @@
+<%
+const csoportok = [
+{ cim: 'Árazás', dimek: [
+{ k: 'ar', al: 'Alapár', rend: ['Teljesen ingyenes', 'Ingyenesen jól használható', 'Korlátozottan ingyenes', 'Alapvetően fizetős'] },
+{ k: 'kedvezmeny', al: 'Oktatási kedvezmény', rend: ['Oktatóknak/hallgatóknak ingyenes', 'Oktatói/hallgatói kedvezmény', 'Intézményi licenc elérhető'] } ] },
+{ cim: 'MI-típus', dimek: [
+{ k: 'tipus', rend: ['Chatbot', 'MI-asszisztens', 'MI-kereső', 'Tudományos kereső', 'Irodalmi térképező', 'Forrásalapú eszköz', 'Írássegéd', 'Hivatkozáskezelő', 'Átirat-készítő', 'Agent / mélykutató'] } ] },
+{ cim: 'Feladat', dimek: [
+{ k: 'feladat', rend: ['Ötletelés és vázlat', 'Irodalomkeresés', 'Szakirodalom feltérképezése', 'Olvasás és összefoglalás', 'Forráskritika és ellenőrzés', 'Akadémiai nyelvi javítás', 'Végső csiszolás', 'Hivatkozások kezelése', 'Interjú és megbeszélés leírása'] } ] },
+{ cim: 'Nyelv', dimek: [
+{ k: 'nyelv', rend: ['Magyarul is jól működik', 'Főleg angolul'] } ] }
+];
+const lista = v => v == null ? [] : (Array.isArray(v) ? v : [v]).map(String);
+const ertekek = d => { const s = new Set(); items.forEach(it => lista(it[d.k]).forEach(x => s.add(x))); const r = d.rend.filter(x => s.has(x)); s.forEach(x => { if (!r.includes(x)) r.push(x); }); return r; };
+const db = (d, v) => items.filter(it => lista(it[d.k]).includes(v)).length;
+%>
+<div class="emi-eszkozvalaszto" hidden>
+<h2 class="emi-valaszto-cim">Eszközválasztó</h2>
+<p class="emi-valaszto-sugo">Egy szemponton belül bármelyik kiválasztott címke elég, a szempontok között mindegyiknek teljesülnie kell.</p>
+<% csoportok.forEach(cs => { %>
+<div class="emi-szempont" role="group" aria-label="<%= cs.cim %>">
+<h3 class="emi-szempont-cim"><%= cs.cim %></h3>
+<% cs.dimek.forEach(d => { %>
+<div class="emi-szempont-sor">
+<% if (d.al) { %><span class="emi-szempont-al"><%= d.al %></span><% } %>
+<div class="emi-cimke-gombok">
+<% ertekek(d).forEach(v => { %><button type="button" class="emi-cimke-gomb" data-dim="<%= d.k %>" data-val="<%= v %>" aria-pressed="false"><%= v %> <span class="emi-cimke-db"><%= db(d, v) %></span></button>
+<% }) %>
+</div>
+</div>
+<% }) %>
+</div>
+<% }) %>
+<div class="emi-szuro-allapot">
+<p class="emi-talalat" aria-live="polite"><%= items.length %> eszköz</p>
+<button type="button" class="emi-szuro-torles" disabled>Szűrők törlése</button>
+</div>
+</div>
+<h2 class="emi-eszkozok-cim">Eszközök</h2>
+<div class="list emi-eszkozok">
+<% items.forEach(it => { %>
+<article class="emi-eszkoz" tabindex="0" data-ar="<%= lista(it.ar).join('|') %>" data-kedvezmeny="<%= lista(it.kedvezmeny).join('|') %>" data-tipus="<%= lista(it.tipus).join('|') %>" data-feladat="<%= lista(it.feladat).join('|') %>" data-nyelv="<%= lista(it.nyelv).join('|') %>">
+<h3 class="emi-eszkoz-nev"><%= it.title %></h3>
+<p class="emi-eszkoz-leiras"><%= it.description %></p>
+<ul class="emi-eszkoz-cimkek" aria-label="Címkék">
+<% lista(it.ar).forEach(v => { %><li class="emi-cimke emi-cimke-ar"><%= v %></li><% }) %>
+<% lista(it.kedvezmeny).forEach(v => { %><li class="emi-cimke emi-cimke-ar"><%= v %></li><% }) %>
+<% lista(it.tipus).concat(lista(it.feladat), lista(it.nyelv)).forEach(v => { %><li class="emi-cimke"><%= v %></li><% }) %>
+</ul>
+<p class="emi-eszkoz-linkek"><a class="emi-eszkoz-link" href="<%= it.url %>" target="_blank" rel="noopener">Az eszköz oldala<span class="visually-hidden"> (<%= it.title %>, új lapon)</span> ↗</a><% if (it.tanulas) { %> <a class="emi-eszkoz-link emi-eszkoz-tanulas" href="<%= it.tanulas %>" target="_blank" rel="noopener">Megtanulom<span class="visually-hidden"> (<%= it.title %> súgója, új lapon)</span> ↗</a><% } %></p>
+</article>
+<% }) %>
+</div>
+<p class="emi-nincs-talalat" hidden>Nincs a feltételeknek megfelelő eszköz. Próbálj kevesebb címkét kiválasztani.</p>
+<script>
+(function () {
+var panel = document.querySelector('.emi-eszkozvalaszto');
+if (!panel) return;
+panel.hidden = false;
+var gombok = Array.prototype.slice.call(panel.querySelectorAll('.emi-cimke-gomb'));
+var kartyak = Array.prototype.slice.call(document.querySelectorAll('.emi-eszkoz'));
+var talalat = panel.querySelector('.emi-talalat');
+var torles = panel.querySelector('.emi-szuro-torles');
+var nincs = document.querySelector('.emi-nincs-talalat');
+function ertek(k, dim) { var v = k.getAttribute('data-' + dim); return v ? v.split('|') : []; }
+function kivalasztott() {
+var sz = {};
+gombok.forEach(function (g) { if (g.getAttribute('aria-pressed') === 'true') { (sz[g.dataset.dim] = sz[g.dataset.dim] || []).push(g.dataset.val); } });
+return sz;
+}
+function illik(k, sz, kiveve) {
+return Object.keys(sz).every(function (dim) {
+if (dim === kiveve) return true;
+var v = ertek(k, dim);
+return sz[dim].some(function (x) { return v.indexOf(x) !== -1; });
+});
+}
+function frissit() {
+var sz = kivalasztott(), n = 0;
+kartyak.forEach(function (k) { var ok = illik(k, sz); k.hidden = !ok; if (ok) n++; });
+gombok.forEach(function (g) {
+var c = kartyak.filter(function (k) { return illik(k, sz, g.dataset.dim) && ertek(k, g.dataset.dim).indexOf(g.dataset.val) !== -1; }).length;
+g.querySelector('.emi-cimke-db').textContent = c;
+g.classList.toggle('emi-cimke-ures', c === 0 && g.getAttribute('aria-pressed') !== 'true');
+});
+talalat.textContent = n === kartyak.length ? n + ' eszköz' : n + ' / ' + kartyak.length + ' eszköz felel meg';
+nincs.hidden = n > 0;
+torles.disabled = Object.keys(sz).length === 0;
+}
+gombok.forEach(function (g) {
+g.addEventListener('click', function () {
+g.setAttribute('aria-pressed', g.getAttribute('aria-pressed') === 'true' ? 'false' : 'true');
+frissit();
+});
+});
+torles.addEventListener('click', function () {
+gombok.forEach(function (g) { g.setAttribute('aria-pressed', 'false'); });
+frissit();
+});
+frissit();
+})();
+</script>

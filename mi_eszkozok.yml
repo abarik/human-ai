@@ -1,0 +1,284 @@
+# MI eszközök adatai – a mi_eszkozok.qmd oldal listája ebből készül.
+# Mezők:
+#   title       – az eszköz neve
+#   description – rövid leírás (1–2 mondat)
+#   url         – az eszköz oldala
+#   tanulas     – hivatalos súgó, tananyag vagy útmutató (elhagyható)
+#   ar          – Árazás / alapár: pontosan egy érték
+#   kedvezmeny  – Árazás / oktatási kedvezmény: lista, elhagyható
+#   tipus       – MI-típus: lista
+#   feladat     – Feladat: lista
+#   nyelv       – Nyelv: pontosan egy érték
+# A címkék szövege egyben a szűrő felirata: új érték beírásakor új szűrőgomb jelenik meg.
+# Az árazási adatok ellenőrzése: 2026. november.
+
+- title: ChatGPT
+  description: "Általános MI-asszisztens ötleteléshez, vázlatkészítéshez és kutatási szövegek első változatának megfogalmazásához; mélykutató módja több forrásból készít összefoglalót."
+  url: https://chatgpt.com/
+  tanulas: https://openai.com/academy/getting-started/
+  ar: Ingyenesen jól használható
+  kedvezmeny: [Intézményi licenc elérhető]
+  tipus: [Chatbot, MI-asszisztens, Agent / mélykutató]
+  feladat: [Ötletelés és vázlat]
+  nyelv: Magyarul is jól működik
+
+- title: Claude
+  description: "Általános MI-asszisztens hosszabb, árnyalt szövegek, logikus szerkezetek kidolgozásához és hosszú dokumentumok feldolgozásához."
+  url: https://claude.ai/
+  tanulas: https://www.anthropic.com/learn/claude-for-you
+  ar: Ingyenesen jól használható
+  kedvezmeny: [Intézményi licenc elérhető]
+  tipus: [Chatbot, MI-asszisztens, Agent / mélykutató]
+  feladat: [Ötletelés és vázlat, Olvasás és összefoglalás]
+  nyelv: Magyarul is jól működik
+
+- title: Gemini
+  description: "A Google MI-asszisztense gyors összefoglalásokhoz, forrásalapú ötleteléshez és kutatási kérdések finomításához; a Google-fiókkal azonnal használható."
+  url: https://gemini.google.com/
+  tanulas: https://support.google.com/gemini/?hl=hu
+  ar: Ingyenesen jól használható
+  kedvezmeny: [Oktatói/hallgatói kedvezmény]
+  tipus: [Chatbot, MI-asszisztens, Agent / mélykutató]
+  feladat: [Ötletelés és vázlat, Olvasás és összefoglalás]
+  nyelv: Magyarul is jól működik
+
+
+- title: Microsoft Copilot
+  description: "A Microsoft MI-asszisztense. Jogosult intézményi előfizetéssel és munkahelyi vagy iskolai bejelentkezéssel a Copilot Chat szervezeti adatvédelemmel használható; az adatokat nem használják alapmodellek tanítására. A további Microsoft 365 Copilot-funkciók elérhetősége a licenctől és az intézményi beállításoktól függ."
+  url: https://copilot.microsoft.com/
+  tanulas: https://learn.microsoft.com/en-us/training/modules/get-started-with-copilot/
+  ar: Ingyenesen jól használható
+  kedvezmeny: [Intézményi licenc elérhető]
+  tipus: [Chatbot, MI-asszisztens]
+  feladat: [Ötletelés és vázlat, Olvasás és összefoglalás]
+  nyelv: Magyarul is jól működik
+
+- title: Perplexity
+  description: "MI-alapú keresőmotor, amely forrásmegjelöléssel ad gyors válaszokat webes és tudományos tartalmak alapján."
+  url: https://www.perplexity.ai/
+  tanulas: https://www.perplexity.ai/help-center/en/collections/12702161-getting-started
+  ar: Ingyenesen jól használható
+  kedvezmeny: [Oktatói/hallgatói kedvezmény]
+  tipus: [MI-kereső, Agent / mélykutató]
+  feladat: [Irodalomkeresés, Ötletelés és vázlat]
+  nyelv: Magyarul is jól működik
+
+- title: Gemini Notebook (korábban NotebookLM)
+  description: "Saját feltöltött dokumentumok alapján készít összefoglalókat, válaszol kérdésekre és rendszerezi a kutatási anyagokat."
+  url: https://notebooklm.google/
+  tanulas: https://support.google.com/notebooklm/answer/16206563?hl=hu
+  ar: Ingyenesen jól használható
+  tipus: [Forrásalapú eszköz]
+  feladat: [Olvasás és összefoglalás]
+  nyelv: Magyarul is jól működik
+
+- title: Elicit
+  description: "MI-kutatóasszisztens, amely segít szakirodalmat keresni, szűrni, és sok cikkből táblázatos formában eredményeket kinyerni."
+  url: https://elicit.com/
+  tanulas: https://support.elicit.com/en/collections/19561689-getting-started
+  ar: Ingyenesen jól használható
+  kedvezmeny: [Intézményi licenc elérhető]
+  tipus: [Tudományos kereső, MI-asszisztens, Agent / mélykutató]
+  feladat: [Irodalomkeresés, Olvasás és összefoglalás]
+  nyelv: Főleg angolul
+
+- title: Consensus
+  description: "Tudományos kérdésekre keres választ lektorált közleményekből, és segít áttekinteni a megtalált tanulmányok eredményeit."
+  url: https://consensus.app/
+  tanulas: https://help.consensus.app/en/collections/10500831-tutorials-and-guides
+  ar: Ingyenesen jól használható
+  kedvezmeny: [Oktatói/hallgatói kedvezmény, Intézményi licenc elérhető]
+  tipus: [Tudományos kereső, Agent / mélykutató]
+  feladat: [Irodalomkeresés, Forráskritika és ellenőrzés]
+  nyelv: Főleg angolul
+
+- title: Semantic Scholar
+  description: "Az Ai2 ingyenes, MI-alapú tudományos keresője releváns cikkekkel, idézésekkel és rövid MI-összefoglalókkal; regisztráció nélkül is használható."
+  url: https://www.semanticscholar.org/
+  tanulas: https://www.semanticscholar.org/product/tutorials
+  ar: Teljesen ingyenes
+  tipus: [Tudományos kereső]
+  feladat: [Irodalomkeresés, Olvasás és összefoglalás]
+  nyelv: Főleg angolul
+
+- title: scite.ai
+  description: "Megmutatja, milyen szövegkörnyezetben idézték más tanulmányok az adott cikket, és az idézéseket támogató, ellentmondó vagy csak említő kategóriába sorolja; forráskritikához és állítások ellenőrzéséhez."
+  url: https://scite.ai/
+  tanulas: https://help.scite.ai/en-us/category/tutorials-guides-dklh98/
+  ar: Alapvetően fizetős
+  kedvezmeny: [Oktatói/hallgatói kedvezmény, Intézményi licenc elérhető]
+  tipus: [Tudományos kereső]
+  feladat: [Forráskritika és ellenőrzés, Irodalomkeresés]
+  nyelv: Főleg angolul
+
+- title: SciSpace
+  description: "MI-alapú PDF-olvasó és kutatási asszisztens, amely segít cikkeket megérteni, összefoglalni és magyarázni."
+  url: https://scispace.com/
+  tanulas: https://learn.scispace.com/scispace101/
+  ar: Korlátozottan ingyenes
+  tipus: [Forrásalapú eszköz, MI-asszisztens, Tudományos kereső, Agent / mélykutató]
+  feladat: [Olvasás és összefoglalás, Irodalomkeresés]
+  nyelv: Főleg angolul
+
+
+- title: Scholarcy
+  description: "MI-alapú kutatási asszisztens, amely a cikkekből strukturált összefoglaló kártyákat készít (célok, módszerek, eredmények, korlátok); böngészőbővítménnyel és Zotero-kapcsolattal."
+  url: https://www.scholarcy.com/
+  tanulas: https://www.scholarcy.com/help/use-scholarcy
+  ar: Korlátozottan ingyenes
+  tipus: [MI-asszisztens, Forrásalapú eszköz]
+  feladat: [Olvasás és összefoglalás]
+  nyelv: Főleg angolul
+
+- title: ChatPDF
+  description: "Feltöltött PDF-ekkel lehet beszélgetni: összefoglal, kérdésekre válaszol, és megmutatja, a dokumentum melyik részéből dolgozott. Többnyelvű dokumentumokat is kezel; a válaszokat érdemes az eredeti szövegen ellenőrizni."
+  url: https://www.chatpdf.com/
+  tanulas: https://www.chatpdf.com/pdf-summary
+  ar: Korlátozottan ingyenes
+  tipus: [Forrásalapú eszköz]
+  feladat: [Olvasás és összefoglalás]
+  nyelv: Magyarul is jól működik
+
+- title: ResearchRabbit
+  description: "Vizualizálja a kapcsolódó cikkeket, szerzőket és témákat, így segít felfedezni a szakirodalmi hálózatokat."
+  url: https://www.researchrabbit.ai/
+  tanulas: https://www.researchrabbit.ai/help/guide
+  ar: Ingyenesen jól használható
+  tipus: [Irodalmi térképező]
+  feladat: [Szakirodalom feltérképezése]
+  nyelv: Főleg angolul
+
+- title: Connected Papers
+  description: "Egy kiinduló cikk alapján vizuális térképet készít a kapcsolódó tanulmányokról; új téma gyors feltérképezéséhez."
+  url: https://www.connectedpapers.com/
+  tanulas: https://www.connectedpapers.com/about
+  ar: Korlátozottan ingyenes
+  kedvezmeny: [Oktatói/hallgatói kedvezmény]
+  tipus: [Irodalmi térképező]
+  feladat: [Szakirodalom feltérképezése]
+  nyelv: Főleg angolul
+
+- title: Litmaps
+  description: "Irodalmi térképezés és folyamatos szakirodalom-követés, értesítéssel az új releváns publikációkról."
+  url: https://www.litmaps.com/
+  tanulas: https://www.litmaps.com/about/litmaps-for-students
+  ar: Korlátozottan ingyenes
+  kedvezmeny: [Oktatói/hallgatói kedvezmény, Intézményi licenc elérhető]
+  tipus: [Irodalmi térképező]
+  feladat: [Szakirodalom feltérképezése]
+  nyelv: Főleg angolul
+
+
+- title: Mendeley
+  description: "Az Elsevier ingyenes hivatkozáskezelője: hivatkozások és PDF-ek gyűjtése, jegyzetelése, Word-bővítménnyel hivatkozás- és irodalomjegyzék-készítés."
+  url: https://www.mendeley.com/
+  tanulas: https://www.mendeley.com/guides/mendeley-reference-manager/03-searching-and-organizing-references
+  ar: Ingyenesen jól használható
+  tipus: [Hivatkozáskezelő]
+  feladat: [Hivatkozások kezelése]
+  nyelv: Főleg angolul
+
+- title: Paperpile
+  description: "Gyors, webes hivatkozáskezelő Google Docs- és Word-integrációval, PDF-kezeléssel és megosztott mappákkal."
+  url: https://paperpile.com/
+  tanulas: https://paperpile.com/h/try-paperpile-free/
+  ar: Alapvetően fizetős
+  kedvezmeny: [Oktatói/hallgatói kedvezmény]
+  tipus: [Hivatkozáskezelő]
+  feladat: [Hivatkozások kezelése]
+  nyelv: Főleg angolul
+
+- title: EndNote
+  description: "A Clarivate hivatkozáskezelője nagy kutatási projektekhez: közvetlen adatbázis-kapcsolat, megosztott könyvtárak, MI-alapú keresés és visszavont cikkekre figyelmeztetés."
+  url: https://endnote.com/
+  tanulas: https://endnote.com/training
+  ar: Alapvetően fizetős
+  kedvezmeny: [Oktatói/hallgatói kedvezmény, Intézményi licenc elérhető]
+  tipus: [Hivatkozáskezelő]
+  feladat: [Hivatkozások kezelése]
+  nyelv: Főleg angolul
+
+- title: Jenni AI
+  description: "Akadémiai szövegíráshoz készült írássegéd: bekezdések folytatása, vázlatépítés és hivatkozáskezelés egy szerkesztőben."
+  url: https://jenni.ai/
+  tanulas: https://intercom.help/jenniai/en/articles/9570609-how-to-create-a-new-document-and-start-writing-with-jenni-ai
+  ar: Korlátozottan ingyenes
+  tipus: [Írássegéd]
+  feladat: [Ötletelés és vázlat]
+  nyelv: Főleg angolul
+
+- title: Paperpal
+  description: "Akadémiai angol nyelvi javítás, átfogalmazás és kézirat-előkészítés, Word- és Overleaf-bővítménnyel is."
+  url: https://paperpal.com/
+  tanulas: https://support.paperpal.com/support/solutions/articles/3000136314-how-to-get-started-with-paperpal-
+  ar: Korlátozottan ingyenes
+  tipus: [Írássegéd]
+  feladat: [Akadémiai nyelvi javítás, Végső csiszolás]
+  nyelv: Főleg angolul
+
+- title: Writefull
+  description: "Tudományos stílusú nyelvi ellenőrzés, elsősorban Word és Overleaf környezetben."
+  url: https://www.writefull.com/
+  tanulas: https://help.writefull.com/writefull-for-word--user-guide
+  ar: Korlátozottan ingyenes
+  kedvezmeny: [Intézményi licenc elérhető]
+  tipus: [Írássegéd]
+  feladat: [Akadémiai nyelvi javítás]
+  nyelv: Főleg angolul
+
+- title: Trinka
+  description: "Formális, technikai és akadémiai angol kéziratok precíz nyelvi javítása."
+  url: https://www.trinka.ai/
+  tanulas: https://www.trinka.ai/user-manual
+  ar: Ingyenesen jól használható
+  tipus: [Írássegéd]
+  feladat: [Akadémiai nyelvi javítás]
+  nyelv: Főleg angolul
+
+
+- title: Ref-n-Write
+  description: "Word- és Google Docs-bővítmény akadémiai kifejezéstárral, átfogalmazó és szövegegyezés-ellenőrző funkcióval, főleg nem angol anyanyelvű kutatóknak."
+  url: https://www.ref-n-write.com/
+  tanulas: https://www.ref-n-write.com/trainingvideos/
+  ar: Alapvetően fizetős
+  tipus: [Írássegéd]
+  feladat: [Akadémiai nyelvi javítás]
+  nyelv: Főleg angolul
+
+- title: Rubriq (korábban AJE Digital Editing)
+  description: "Az AJE MI-alapú szerkesztőeszköze publikálás előtti nyelvi szerkesztéshez; minden javítást követett változásként mutat."
+  url: https://www.aje.com/services/digital/
+  tanulas: https://www.aje.com/arc/grammarly-vs-aje-digital-editing
+  ar: Alapvetően fizetős
+  kedvezmeny: [Intézményi licenc elérhető]
+  tipus: [Írássegéd]
+  feladat: [Végső csiszolás]
+  nyelv: Főleg angolul
+
+- title: Grammarly
+  description: "Végső nyelvi és stiláris tisztázás, az olvashatóság javítása; böngészőben és szövegszerkesztőkben is működik."
+  url: https://www.grammarly.com/
+  tanulas: https://support.grammarly.com/hc/en-us
+  ar: Ingyenesen jól használható
+  kedvezmeny: [Oktatói/hallgatói kedvezmény, Intézményi licenc elérhető]
+  tipus: [Írássegéd]
+  feladat: [Végső csiszolás]
+  nyelv: Főleg angolul
+
+- title: DeepL Write
+  description: "Nyelvi javítás és mondatok természetesebb újrafogalmazása több támogatott nyelven; magyar nyelvű szövegek javítását jelenleg nem támogatja."
+  url: https://www.deepl.com/write
+  tanulas: https://support.deepl.com/hc/en-us/articles/6318834492700-About-DeepL-Write
+  ar: Ingyenesen jól használható
+  tipus: [Írássegéd]
+  feladat: [Végső csiszolás]
+  nyelv: Főleg angolul
+
+- title: Otter.ai
+  description: "Előadások, interjúk és megbeszélések automatikus átírása beszélők elkülönítésével és MI-összefoglalóval; Zoomhoz, Teamshez és Google Meethez is csatlakozik. Több nyelvet támogat, de a magyar beszéd átírását jelenleg nem."
+  url: https://otter.ai/
+  tanulas: https://help.otter.ai/hc/en-us/articles/360049722894-Otter-Quick-Start-Guide
+  ar: Korlátozottan ingyenes
+  tipus: [Átirat-készítő, MI-asszisztens]
+  feladat: [Interjú és megbeszélés leírása]
+  nyelv: Főleg angolul

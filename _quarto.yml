@@ -41,7 +41,7 @@ website:
           - text: "Rövid ismertetők"
             href: lp_rovid_ismertetok.qmd
           - text: "MI eszközök"
-            href: mi_eszkozok_iras.qmd
+            href: mi_eszkozok.qmd
           - text: "Linkek"
             href: linkek.qmd
           - text: "---"

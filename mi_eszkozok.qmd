@@ -1,0 +1,19 @@
+---
+title: MI eszközök
+description: "Kutatást, irodalomkeresést, hivatkozáskezelést és akadémiai írást támogató MI-eszközök rövid leírással, linkekkel és címkék szerinti eszközválasztóval."
+aliases:
+  - mi_eszkozok_iras.html
+toc: false
+listing:
+  id: mi-eszkozok
+  contents: mi_eszkozok.yml
+  template: _templates/mi-eszkozok.ejs
+  sort: false
+  page-size: 10000
+  max-items: 10000
+---
+
+A címkék alapján kiválaszthatod, melyik eszköz illik a feladathoz, a költségkerethez és a nyelvhez. Az eszköz rövid leírása akkor jelenik meg, ha a kártyára viszed az egeret (érintőképernyőn koppints a kártyára). Minden eszköznél megtalálod a saját oldalát és egy hivatalos súgót vagy tananyagot. Az árazási adatokat 2026 novemberében ellenőriztük; az ajánlatok gyakran változnak, ezért előfizetés előtt érdemes az eszköz oldalán is megnézni őket.
+
+::: {#mi-eszkozok .column-page}
+:::
