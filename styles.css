@@ -862,3 +862,87 @@ main.content :is(#refs, .csl-entry, .references) { overflow-wrap: anywhere; word
   padding-block: .3rem;
   min-height: 1.75rem;
 }
+
+/* ------------------------------------------------------------------
+   Visszafogott mozgás
+   - rövid (150–250 ms), kifelé lassuló görbe; csak transform és opacity
+   - csak az mozog, ami kattintható vagy újonnan jelenik meg
+   - hover-emelés csak egérrel (finom mutatónál), érintőképernyőn nem
+   - a „mozgás csökkentése” rendszerbeállításnál minden kikapcsol
+   ------------------------------------------------------------------ */
+:root {
+  --emi-ease-out: cubic-bezier(.23, 1, .32, 1);
+  --emi-dur-gyors: 160ms;
+  --emi-dur: 220ms;
+}
+
+/* Gombok: nyomásra enyhén összehúzódnak */
+main.content .emi-gomb {
+  transition: transform var(--emi-dur-gyors) var(--emi-ease-out),
+              background-color var(--emi-dur-gyors) ease,
+              border-color var(--emi-dur-gyors) ease,
+              color var(--emi-dur-gyors) ease;
+}
+main.content .emi-gomb:active { transform: scale(.97); }
+
+/* Lenyíló menü: rövid beúszás a menüpont alól (asztali nézet) */
+@keyframes emi-menu-be {
+  from { opacity: 0; transform: translateY(-6px) scale(.98); }
+  to   { opacity: 1; transform: none; }
+}
+@media (min-width: 992px) {
+  #quarto-header .dropdown-menu.show {
+    transform-origin: top left;
+    animation: emi-menu-be var(--emi-dur-gyors) var(--emi-ease-out);
+  }
+}
+
+/* Kártyák és listaelemek: egérrel enyhe emelés vagy elmozdulás */
+main.content a.emi-szemely,
+main.content .emi-hero-panel .emi-hero-esemeny,
+main.content a.lightbox img,
+main.content .emi-datumjel {
+  transition: transform var(--emi-dur) var(--emi-ease-out),
+              border-color var(--emi-dur) ease,
+              background-color var(--emi-dur) ease,
+              color var(--emi-dur) ease;
+}
+main.content .emi-hir-cim,
+main.content .emi-esemeny-cim { transition: color var(--emi-dur-gyors) ease; }
+
+@media (hover: hover) and (pointer: fine) {
+  main.content a.emi-szemely:hover { transform: translateY(-2px); }
+  main.content a.lightbox:hover img { transform: translateY(-2px); }
+  main.content a.emi-esemeny:hover .emi-datumjel {
+    background: var(--emi-band);
+    color: #ffffff;
+  }
+  body.quarto-dark main.content a.emi-esemeny:hover .emi-datumjel {
+    background: var(--emi-gold);
+    color: #142033;
+  }
+}
+
+/* Kezdőlap: a bemutató sáv tartalma betöltéskor egyszer, lépcsőzetesen jelenik meg */
+@keyframes emi-be {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: none; }
+}
+.emi-hero-szoveg > *,
+.emi-hero-panel {
+  animation: emi-be 480ms var(--emi-ease-out) both;
+}
+.emi-hero-szoveg > :nth-child(2) { animation-delay: 60ms; }
+.emi-hero-szoveg > :nth-child(3) { animation-delay: 120ms; }
+.emi-hero-szoveg > :nth-child(4) { animation-delay: 180ms; }
+.emi-hero-panel { animation-delay: 240ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  main.content .emi-gomb:active,
+  main.content a.emi-szemely:hover,
+  main.content a.lightbox:hover img { transform: none; }
+}
