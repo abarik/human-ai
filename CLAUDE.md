@@ -26,7 +26,7 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 ## Publikálás
 
 - `main` ágra pusholás → GitHub Actions (`.github/workflows/render.yml`) rendereli a `_site/` mappát, majd webhookkal szól a `psycho.unideb.hu` szerveren futó `deploy.php`-nek (rsync `--delete`). Részletek: `README.md`.
-- A `_site/` és a `.quarto/` nincs verziókezelve.
+- A `_site/`, a `.quarto/` és a `.Rproj.user/` nincs verziókezelve (2026-11-06-tól a Git sem követi őket; ne kerüljenek vissza commitba).
 
 ## Karbantartási szabályok
 
@@ -39,3 +39,5 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 
 - 2026-11-05: `about.qmd` sablonoldal eltávolítása; Tempus-eseménykép PNG → JPG (2,3 MB → 0,24 MB); a Linkek oldal címe egységesítve a menüvel, a `date: today` eltávolítva; ez a jegyzet létrehozva, és kizárva a renderelésből.
 - 2026-11-05: napi MI-hírek pótolva (2026-10-28 – 2026-11-05), heti MI–pszichológia hír (2026-11-02) hozzáadva; új esemény: Abari Kálmán „A mesterséges intelligencia ma” online workshopja (2026-10-28, `lp_szakmai_esemenyek/honlap_20261028.qmd`, kép a diasor címlapjáról).
+- 2026-11-05: workshop-esemény kiegészítve (12:00–13:00, beágyazott diasor, `resources:` a diasor HTML-jére); új esemény: IPCRF 2026, Hongkong (`lp_szakmai_esemenyek/ipcrf_20260728.qmd`), kép nélkül.
+- 2026-11-06: a `.gitignore` által kizárt `_site/`, `.quarto/` és `.Rproj.user/` kivéve a Git követéséből (`git rm -r --cached`).
