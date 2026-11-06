@@ -4,9 +4,9 @@ const csoportok = [
 { k: 'ar', al: 'Alapár', rend: ['Teljesen ingyenes', 'Ingyenesen jól használható', 'Korlátozottan ingyenes', 'Alapvetően fizetős'] },
 { k: 'kedvezmeny', al: 'Oktatási kedvezmény', rend: ['Oktatóknak/hallgatóknak ingyenes', 'Oktatói/hallgatói kedvezmény', 'Intézményi licenc elérhető'] } ] },
 { cim: 'MI-típus', dimek: [
-{ k: 'tipus', rend: ['Chatbot', 'MI-asszisztens', 'MI-kereső', 'Tudományos kereső', 'Irodalmi térképező', 'Forrásalapú eszköz', 'Írássegéd', 'Hivatkozáskezelő', 'Átirat-készítő', 'Agent / mélykutató'] } ] },
+{ k: 'tipus', rend: ['Chatbot', 'MI-asszisztens', 'MI-kereső', 'Tudományos kereső', 'Irodalmi térképező', 'Forrásalapú eszköz', 'Írássegéd', 'Adatelemző', 'Hivatkozáskezelő', 'Átirat-készítő', 'Agent / mélykutató'] } ] },
 { cim: 'Feladat', dimek: [
-{ k: 'feladat', rend: ['Ötletelés és vázlat', 'Irodalomkeresés', 'Szakirodalom feltérképezése', 'Olvasás és összefoglalás', 'Forráskritika és ellenőrzés', 'Akadémiai nyelvi javítás', 'Végső csiszolás', 'Hivatkozások kezelése', 'Interjú és megbeszélés leírása'] } ] },
+{ k: 'feladat', rend: ['Ötletelés és vázlat', 'Irodalomkeresés', 'Szakirodalom feltérképezése', 'Olvasás és összefoglalás', 'Forráskritika és ellenőrzés', 'Akadémiai nyelvi javítás', 'Végső csiszolás', 'Adatelemzés és vizualizáció', 'Hivatkozások kezelése', 'Interjú és megbeszélés leírása'] } ] },
 { cim: 'Nyelv', dimek: [
 { k: 'nyelv', rend: ['Magyarul is jól működik', 'Főleg angolul'] } ] }
 ];
@@ -41,7 +41,7 @@ const db = (d, v) => items.filter(it => lista(it[d.k]).includes(v)).length;
 <% items.forEach(it => { %>
 <article class="emi-eszkoz" tabindex="0" data-ar="<%= lista(it.ar).join('|') %>" data-kedvezmeny="<%= lista(it.kedvezmeny).join('|') %>" data-tipus="<%= lista(it.tipus).join('|') %>" data-feladat="<%= lista(it.feladat).join('|') %>" data-nyelv="<%= lista(it.nyelv).join('|') %>">
 <h3 class="emi-eszkoz-nev"><%= it.title %></h3>
-<p class="emi-eszkoz-leiras"><%= it.description %></p>
+<div class="emi-eszkoz-nyitas"><div><p class="emi-eszkoz-leiras"><%= it.description %></p></div></div>
 <ul class="emi-eszkoz-cimkek" aria-label="Címkék">
 <% lista(it.ar).forEach(v => { %><li class="emi-cimke emi-cimke-ar"><%= v %></li><% }) %>
 <% lista(it.kedvezmeny).forEach(v => { %><li class="emi-cimke emi-cimke-ar"><%= v %></li><% }) %>

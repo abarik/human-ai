@@ -109,6 +109,50 @@ format:
           });
         })();
         </script>
+        <script>
+        /* Menü: az aktuális oldal (és a szülő menüpont) kijelölése, morzsamenü a cím fölé */
+        document.addEventListener('DOMContentLoaded', function () {
+          var nav = document.querySelector('#quarto-header');
+          if (!nav) return;
+          var itt = decodeURIComponent(location.pathname).replace(/\/$/, '/index.html');
+          var talalat = null, hossz = -1, pontos = false;
+          nav.querySelectorAll('a.dropdown-item[href], a.nav-link[href]:not(.dropdown-toggle)').forEach(function (a) {
+            var cel = decodeURIComponent(new URL(a.href, location.href).pathname).replace(/\/$/, '/index.html');
+            var mappa = /\/index\.html$/.test(cel) ? null : cel.replace(/\.html$/, '/');
+            if (cel === itt && cel.length > hossz) { talalat = a; hossz = cel.length; pontos = true; }
+            else if (mappa && itt.indexOf(mappa) === 0 && mappa.length > hossz) { talalat = a; hossz = mappa.length; pontos = false; }
+          });
+          if (!talalat) return;
+          talalat.classList.add('active');
+          talalat.setAttribute('aria-current', pontos ? 'page' : 'true');
+          var lenyilo = talalat.closest('.dropdown');
+          var szulo = lenyilo ? lenyilo.querySelector('.dropdown-toggle') : null;
+          if (szulo) { szulo.classList.add('active'); }
+          if (!szulo && pontos) return;
+          var fej = document.querySelector('#title-block-header .quarto-title') || document.querySelector('#title-block-header');
+          if (!fej) return;
+          var elemek = [];
+          if (szulo) {
+            elemek.push({ t: szulo.textContent.trim() });
+            var li = talalat.closest('li'), elozo = li && li.previousElementSibling;
+            while (elozo && !elozo.classList.contains('dropdown-header') && !elozo.querySelector('.dropdown-divider')) { elozo = elozo.previousElementSibling; }
+            if (elozo && elozo.classList.contains('dropdown-header')) { elemek.push({ t: elozo.textContent.trim() }); }
+          }
+          elemek.push(pontos ? { t: talalat.textContent.trim(), most: true } : { t: talalat.textContent.trim(), h: talalat.href });
+          var morzsa = document.createElement('nav');
+          morzsa.className = 'emi-morzsa';
+          morzsa.setAttribute('aria-label', 'Hol jársz az oldalon');
+          var ol = document.createElement('ol');
+          elemek.forEach(function (e) {
+            var li = document.createElement('li');
+            if (e.h) { var a = document.createElement('a'); a.href = e.h; a.textContent = e.t; li.appendChild(a); }
+            else { li.textContent = e.t; if (e.most) li.setAttribute('aria-current', 'page'); }
+            ol.appendChild(li);
+          });
+          morzsa.appendChild(ol);
+          fej.insertBefore(morzsa, fej.firstChild);
+        });
+        </script>
     css: styles.css
     toc: true
                 

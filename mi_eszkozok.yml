@@ -16,27 +16,27 @@
   description: "Általános MI-asszisztens ötleteléshez, vázlatkészítéshez és kutatási szövegek első változatának megfogalmazásához; mélykutató módja több forrásból készít összefoglalót."
   url: https://chatgpt.com/
   tanulas: https://openai.com/academy/getting-started/
-  ar: Ingyenesen jól használható
+  ar: Korlátozottan ingyenes
   kedvezmeny: [Intézményi licenc elérhető]
-  tipus: [Chatbot, MI-asszisztens, Agent / mélykutató]
-  feladat: [Ötletelés és vázlat]
+  tipus: [Chatbot, MI-asszisztens, Adatelemző, Agent / mélykutató]
+  feladat: [Ötletelés és vázlat, Adatelemzés és vizualizáció]
   nyelv: Magyarul is jól működik
 
 - title: Claude
   description: "Általános MI-asszisztens hosszabb, árnyalt szövegek, logikus szerkezetek kidolgozásához és hosszú dokumentumok feldolgozásához."
   url: https://claude.ai/
   tanulas: https://www.anthropic.com/learn/claude-for-you
-  ar: Ingyenesen jól használható
+  ar: Korlátozottan ingyenes
   kedvezmeny: [Intézményi licenc elérhető]
-  tipus: [Chatbot, MI-asszisztens, Agent / mélykutató]
-  feladat: [Ötletelés és vázlat, Olvasás és összefoglalás]
+  tipus: [Chatbot, MI-asszisztens, Adatelemző, Agent / mélykutató]
+  feladat: [Ötletelés és vázlat, Olvasás és összefoglalás, Adatelemzés és vizualizáció]
   nyelv: Magyarul is jól működik
 
 - title: Gemini
   description: "A Google MI-asszisztense gyors összefoglalásokhoz, forrásalapú ötleteléshez és kutatási kérdések finomításához; a Google-fiókkal azonnal használható."
   url: https://gemini.google.com/
   tanulas: https://support.google.com/gemini/?hl=hu
-  ar: Ingyenesen jól használható
+  ar: Korlátozottan ingyenes
   kedvezmeny: [Oktatói/hallgatói kedvezmény]
   tipus: [Chatbot, MI-asszisztens, Agent / mélykutató]
   feladat: [Ötletelés és vázlat, Olvasás és összefoglalás]
@@ -57,7 +57,7 @@
   description: "MI-alapú keresőmotor, amely forrásmegjelöléssel ad gyors válaszokat webes és tudományos tartalmak alapján."
   url: https://www.perplexity.ai/
   tanulas: https://www.perplexity.ai/help-center/en/collections/12702161-getting-started
-  ar: Ingyenesen jól használható
+  ar: Korlátozottan ingyenes
   kedvezmeny: [Oktatói/hallgatói kedvezmény]
   tipus: [MI-kereső, Agent / mélykutató]
   feladat: [Irodalomkeresés, Ötletelés és vázlat]
@@ -86,7 +86,7 @@
   description: "Tudományos kérdésekre keres választ lektorált közleményekből, és segít áttekinteni a megtalált tanulmányok eredményeit."
   url: https://consensus.app/
   tanulas: https://help.consensus.app/en/collections/10500831-tutorials-and-guides
-  ar: Ingyenesen jól használható
+  ar: Korlátozottan ingyenes
   kedvezmeny: [Oktatói/hallgatói kedvezmény, Intézményi licenc elérhető]
   tipus: [Tudományos kereső, Agent / mélykutató]
   feladat: [Irodalomkeresés, Forráskritika és ellenőrzés]
@@ -230,7 +230,7 @@
   description: "Formális, technikai és akadémiai angol kéziratok precíz nyelvi javítása."
   url: https://www.trinka.ai/
   tanulas: https://www.trinka.ai/user-manual
-  ar: Ingyenesen jól használható
+  ar: Korlátozottan ingyenes
   tipus: [Írássegéd]
   feladat: [Akadémiai nyelvi javítás]
   nyelv: Főleg angolul
@@ -281,4 +281,31 @@
   ar: Korlátozottan ingyenes
   tipus: [Átirat-készítő, MI-asszisztens]
   feladat: [Interjú és megbeszélés leírása]
+  nyelv: Főleg angolul
+
+- title: Julius AI
+  description: "MI-alapú adatelemző: feltöltött táblázatokból (Excel, CSV) természetes nyelvű kérésre leíró és következtető statisztikát, ábrákat és magyarázatot készít, a futtatott kódot is megmutatja."
+  url: https://julius.ai/
+  tanulas: https://julius.ai/docs/get-started/quickstart
+  ar: Korlátozottan ingyenes
+  tipus: [Adatelemző, MI-asszisztens]
+  feladat: [Adatelemzés és vizualizáció]
+  nyelv: Főleg angolul
+
+- title: Google Colab (Gemini-vel)
+  description: "Böngészőben futó Python-jegyzetfüzet beépített Gemini-asszisztenssel és adatelemző ügynökkel, amely leírt cél alapján adattisztító, elemző és ábrázoló kódot ír; a kódot érdemes ellenőrizni."
+  url: https://colab.research.google.com/
+  tanulas: https://developers.googleblog.com/en/data-science-agent-in-colab-with-gemini/
+  ar: Ingyenesen jól használható
+  tipus: [Adatelemző, Agent / mélykutató]
+  feladat: [Adatelemzés és vizualizáció]
+  nyelv: Főleg angolul
+
+- title: Posit Assistant (RStudio, Positron)
+  description: "Az RStudióba és a Positronba épülő MI-kódolóasszisztens R-alapú adatelemzéshez: kódot ír és javít, elemzési lépéseket hajt végre a megnyitott projektben."
+  url: https://posit.co/ai
+  tanulas: https://docs.posit.co/posit-ai/user/faq/
+  ar: Alapvetően fizetős
+  tipus: [Adatelemző, Agent / mélykutató]
+  feladat: [Adatelemzés és vizualizáció]
   nyelv: Főleg angolul
