@@ -1,0 +1,19 @@
+---
+title: "MI-attitűd és társas együttműködés munkacsoport"
+subtitle: "Vezeti: Hujber-Mitru Szilvia"
+---
+
+# Kutatási témák
+
+- MI-vel kapcsolatos attitűdök, bizalom és technológiaelfogadás, életkori különbségek
+- MI-nek tulajdonított társas és szakmai szerepek: milyen feltételek mellett fogadjuk el támogatóként, társként, segítőként vagy munkatársként
+- MI szerepe a pszichológiai segítségnyújtásban és a pszichoterápiában
+- MI-használat és az emberi kapcsolatok, a társas támogatás és a segítségkérés összefüggései
+- MI munkafolyamatokba történő beépítésének vizsgálata
+- MI hatása a szakmai szerepekre, a szakmai identitásra és a munkahelyi jóllétre
+
+# Munkacsoport-vezető
+
+[Hujber-Mitru Szilvia](../kutatocsoportrol/hujber-mitru-szilvia.qmd), egyetemi tanársegéd · [hujber-mitru.szilvia@arts.unideb.hu](mailto:hujber-mitru.szilvia@arts.unideb.hu)
+
+[← Az összes munkacsoport](../munkacsoportok.qmd)

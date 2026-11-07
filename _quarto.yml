@@ -54,6 +54,8 @@ website:
         href: index.qmd
       - text: "Kutatócsoportról"
         href: kutatocsoportrol.qmd
+      - text: "Munkacsoportok"
+        href: munkacsoportok.qmd
       - text: "Tudásmegosztás"
         menu:
           - text: "Rövid ismertetők"

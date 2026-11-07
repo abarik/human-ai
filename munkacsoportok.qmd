@@ -1,0 +1,25 @@
+---
+title: "Munkacsoportok"
+subtitle: "A kutatócsoporton belül három munkacsoport dolgozik, mindegyik egy-egy kutatási irányra összpontosít."
+toc: false
+---
+
+```{=html}
+<div class="emi-munkacsoportok">
+<a class="emi-munkacsoport" href="munkacsoportok/mi-attitud-es-tarsas-egyuttmukodes.html">
+<span class="emi-munkacsoport-nev">MI-attitűd és társas együttműködés</span>
+<span class="emi-munkacsoport-leiras">MI-vel kapcsolatos attitűdök és bizalom; az MI mint támogató, segítő vagy munkatárs; MI a pszichológiai segítségnyújtásban és a munkahelyen.</span>
+<span class="emi-munkacsoport-vezeto">Vezeti: Hujber-Mitru Szilvia</span>
+</a>
+<a class="emi-munkacsoport" href="munkacsoportok/szemelyiseglelektani-es-klinikai-vonatkozasok.html">
+<span class="emi-munkacsoport-nev">Ember–MI kapcsolatok személyiséglélektani és klinikai pszichológiai vonatkozásai</span>
+<span class="emi-munkacsoport-leiras">Az ember–MI kapcsolatok személyiséglélektani és klinikai pszichológiai kérdései.</span>
+<span class="emi-munkacsoport-vezeto">Vezeti: Dr. Szemán-Nagy Anita</span>
+</a>
+<a class="emi-munkacsoport" href="munkacsoportok/gamifikacio-es-mesterseges-intelligencia.html">
+<span class="emi-munkacsoport-nev">Gamifikáció és Mesterséges Intelligencia</span>
+<span class="emi-munkacsoport-leiras">MI-alapú, személyre szabott gamifikáció; motiváció, flow-élmény és tanulás; etikai kérdések és hosszú távú hatások.</span>
+<span class="emi-munkacsoport-vezeto">Vezeti: Dr. Abari Kálmán</span>
+</a>
+</div>
+```

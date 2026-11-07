@@ -14,21 +14,12 @@ image-alt: "Hujber-Mitru Szilvia portréja."
 <dt>Szerep a kutatócsoportban</dt>
 <dd>vezető, kapcsolattartó</dd>
 <dt>Munkacsoport</dt>
-<dd>MI-attitűd és társas együttműködés</dd>
+<dd><a href="../munkacsoportok/mi-attitud-es-tarsas-egyuttmukodes.html">MI-attitűd és társas együttműködés</a> (vezető)</dd>
 <dt>E-mail</dt>
 <dd><a href="mailto:hujber-mitru.szilvia@arts.unideb.hu">hujber-mitru.szilvia@arts.unideb.hu</a></dd>
 </dl>
 </div>
 ```
-
-# MI-attitűd és társas együttműködés munkacsoport
-
-- MI-vel kapcsolatos attitűdök, bizalom és technológiaelfogadás, életkori különbségek
-- MI-nek tulajdonított társas és szakmai szerepek: milyen feltételek mellett fogadjuk el támogatóként, társként, segítőként vagy munkatársként
-- MI szerepe a pszichológiai segítségnyújtásban és a pszichoterápiában
-- MI-használat és az emberi kapcsolatok, a társas támogatás és a segítségkérés összefüggései
-- MI munkafolyamatokba történő beépítésének vizsgálata
-- MI hatása a szakmai szerepekre, a szakmai identitásra és a munkahelyi jóllétre
 
 # Önéletrajz
 

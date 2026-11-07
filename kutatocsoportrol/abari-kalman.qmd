@@ -13,6 +13,8 @@ image-alt: "Dr. Abari Kálmán portréja."
 <dd>Debreceni Egyetem, Pszichológiai Intézet<br>Szociál- és Munkapszichológiai Tanszék</dd>
 <dt>Szerep a kutatócsoportban</dt>
 <dd>vezető</dd>
+<dt>Munkacsoport</dt>
+<dd><a href="../munkacsoportok/gamifikacio-es-mesterseges-intelligencia.html">Gamifikáció és Mesterséges Intelligencia</a> (vezető)</dd>
 <dt>Végzettség</dt>
 <dd>programtervező matematikus; PhD (Debreceni Egyetem, 2013)</dd>
 <dt>E-mail</dt>

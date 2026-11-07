@@ -1,0 +1,23 @@
+---
+title: "Gamifikáció és Mesterséges Intelligencia Munkacsoport"
+subtitle: "Vezeti: Dr. Abari Kálmán"
+---
+
+# Kutatási témák
+
+- MI-alapú, személyre szabott gamifikáció
+- Adaptív nehézség és flow-élmény
+- Belső és külső motiváció
+- Generatív MI és dinamikus történetmesélés
+- Intelligens visszajelzés és önszabályozott tanulás
+- Tanulási analitika és lemorzsolódás
+- Együttműködés és társas tanulás
+- Egyéni különbségek és hozzáférhetőség
+- Etika, autonómia és adatvédelem
+- Hosszú távú hatás és tudástranszfer
+
+# Munkacsoport-vezető
+
+[Dr. Abari Kálmán](../kutatocsoportrol/abari-kalman.qmd), egyetemi adjunktus · [abari.kalman@arts.unideb.hu](mailto:abari.kalman@arts.unideb.hu)
+
+[← Az összes munkacsoport](../munkacsoportok.qmd)

@@ -1,0 +1,14 @@
+---
+title: "Ember–MI kapcsolatok személyiséglélektani és klinikai pszichológiai vonatkozásai munkacsoport"
+subtitle: "Vezeti: Dr. Szemán-Nagy Anita"
+---
+
+# Kutatási témák
+
+A munkacsoport kutatási témáinak részletes leírása hamarosan felkerül.
+
+# Munkacsoport-vezető
+
+Dr. Szemán-Nagy Anita, egyetemi docens
+
+[← Az összes munkacsoport](../munkacsoportok.qmd)

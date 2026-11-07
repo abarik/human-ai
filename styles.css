@@ -1413,3 +1413,35 @@ html.emi-mozog .emi-felbukkan.emi-latszik {
   border: 2px solid var(--emi-line);
 }
 main.content a.emi-szemely:hover .emi-szemely-kep { border-color: var(--emi-gold); }
+
+/* ===== Munkacsoportok áttekintő oldala ===== */
+.emi-munkacsoportok {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+main.content a.emi-munkacsoport {
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+  padding: 1.35rem 1.5rem;
+  border: 1px solid var(--emi-line);
+  border-top: 3px solid var(--emi-gold);
+  border-radius: 10px;
+  background: var(--emi-surface);
+  color: var(--emi-ink);
+  text-decoration: none;
+  transition: transform .26s cubic-bezier(.22,1,.36,1), border-color .26s ease;
+}
+main.content a.emi-munkacsoport:hover { transform: translateY(-3px); border-color: var(--emi-gold); }
+.emi-munkacsoport-nev {
+  font-family: var(--emi-font-head);
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--emi-heading);
+}
+.emi-munkacsoport-leiras { color: var(--emi-muted); }
+.emi-munkacsoport-vezeto { font-size: .9rem; font-weight: 700; color: var(--emi-accent); }
+.emi-munkacsoport-vezeto::after { content: " →"; }
+@media (prefers-reduced-motion: reduce) { main.content a.emi-munkacsoport:hover { transform: none; } }
