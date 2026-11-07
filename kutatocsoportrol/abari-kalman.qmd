@@ -1,0 +1,52 @@
+---
+title: "Dr. Abari Kálmán"
+subtitle: "Egyetemi adjunktus, a kutatócsoport vezetője"
+image: images/abari-kalman.jpg
+image-alt: "Dr. Abari Kálmán portréja."
+---
+
+```{=html}
+<div class="emi-profil">
+<img class="emi-profil-kep" src="images/abari-kalman.jpg" width="900" height="1200" alt="Dr. Abari Kálmán portréja: rövid barna haj, fekete V-nyakú pulóver, fehér ing, fehér háttér előtt.">
+<dl class="emi-profil-adatok">
+<dt>Munkahely</dt>
+<dd>Debreceni Egyetem, Pszichológiai Intézet<br>Szociál- és Munkapszichológiai Tanszék</dd>
+<dt>Szerep a kutatócsoportban</dt>
+<dd>vezető</dd>
+<dt>Végzettség</dt>
+<dd>programtervező matematikus; PhD (Debreceni Egyetem, 2013)</dd>
+<dt>E-mail</dt>
+<dd><a href="mailto:abari.kalman@arts.unideb.hu">abari.kalman@arts.unideb.hu</a></dd>
+<dt>Személyes honlap</dt>
+<dd><a href="https://kalman.abari.hu/">kalman.abari.hu</a></dd>
+</dl>
+</div>
+```
+
+# Bemutatkozás
+
+2005 óta vagyok egyetemi adjunktus a Debreceni Egyetem Bölcsészettudományi Karán, a Pszichológiai Intézet Szociál- és Munkapszichológiai Tanszékén. Programtervező matematikus végzettségű vagyok, PhD-fokozatomat 2013-ban szereztem a Debreceni Egyetemen. Kutatásaim a statisztikai adatelemzés, a beszédkutatás és az oktatás területéhez kapcsolódnak.
+
+A kutatócsoportban a mesterséges intelligencia működésének és pszichológiai jelentőségének megértése, valamint a kutatásban és az oktatásban való tudatos használata foglalkoztat. A pszichológushallgatóknak tartott *Mesterséges intelligencia* kurzusom arra keresi a választ, hogyan működnek a mai MI-rendszerek, és mit jelentenek a pszichológia számára. A témáról legutóbb [A mesterséges intelligencia ma](../lp_szakmai_esemenyek/honlap_20261028.qmd) című online workshopot tartottam.
+
+# Kutatási területek
+
+- **Statisztika és R:** adatkezelés és statisztikai elemzés R-ben; fejlesztő programok hatásvizsgálatának matematikai-statisztikai háttere.
+- **Beszédkutatás:** a magyar beszéd akusztikai jellemzői (formánsok, koartikuláció, szóidőtartam a spontán beszédben).
+- **Gamifikáció és oktatás:** játékosítás az oktatásban; digitális tananyag hátrányos helyzetű tanulók nyelvtanulásához (HANNA); tanulói motiváció hátrányos helyzetű térségekben.
+- **Algoritmikus készségek:** diákok és egyetemi hallgatók algoritmikus készségeinek mérése és fejlesztése; táblázatkezelés tanítása (Sprego).
+
+# Oktatás
+
+Statisztika, informatika (a tudományos munka digitális alapjai: táblázatkezelés, hivatkozáskezelés, könyvtári források), mesterséges intelligencia, társas hálózatok, tudástérelmélet.
+
+# Válogatott publikációk
+
+- Gósy, M., Bahr, R. H., & Abari, K. (2026). Word duration in the spontaneous speech of an agglutinating language. *Journal of Connected Speech, 1*(3), 286–313.
+- Abari, K. (2025). *Adatkezelés és egyváltozós elemzések R-ben.* Debreceni Egyetemi Kiadó.
+- Abari, K. (2025). *A játékos én: a gamifikáció hatalma.* Oriold és Társai.
+- Polonyi, T. É., Balajthy, D., Abari, K., Szabó, F., Páskuné Kiss, J., & Buda, M. (2023). Learners' motivation at schools in low SES regions in Hungary. *International Journal of Inclusive Education*, 1–16.
+
+További információ, teljes publikációs lista és oktatási anyagok: **[kalman.abari.hu](https://kalman.abari.hu/)** · [MTMT-profil](https://m2.mtmt.hu/gui2/?type=authors&mode=browse&sel=10036489) · [Tudóstér-profil](https://tudoster.unideb.hu/hu/szerzok/1874)
+
+[← Vissza a kutatócsoport oldalára](../kutatocsoportrol.qmd)

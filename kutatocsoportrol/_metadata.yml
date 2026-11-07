@@ -1,0 +1,4 @@
+# A tagok oldalainak fejezetcímei (#) a lapcím alatti szintre kerülnek,
+# így oldalanként egyetlen H1 (a lapcím) marad.
+shift-heading-level-by: 1
+toc: false

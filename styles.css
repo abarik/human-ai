@@ -1294,7 +1294,8 @@ main.content .emi-gomb:active { transform: scale(.96); transition-duration: 120m
 main.content a.emi-szemely,
 main.content a.lightbox img,
 main.content .emi-datumjel,
-main.content .emi-monogram {
+main.content .emi-monogram,
+main.content .emi-szemely-kep {
   transition: transform var(--emi-dur) var(--emi-ease-out),
               border-color var(--emi-dur) ease,
               background-color var(--emi-dur) ease,
@@ -1309,7 +1310,8 @@ main.content .emi-esemeny-cim { transition: color var(--emi-dur-gyors) ease; }
   main.content .emi-gomb:hover { transform: translateY(-2px); }
   main.content .emi-gomb:active { transform: scale(.96); }
   main.content a.emi-szemely:hover { transform: translateY(-4px); }
-  main.content a.emi-szemely:hover .emi-monogram { transform: scale(1.06); }
+  main.content a.emi-szemely:hover .emi-monogram,
+  main.content a.emi-szemely:hover .emi-szemely-kep { transform: scale(1.06); }
   main.content a.lightbox:hover img { transform: translateY(-4px); }
   main.content a.emi-hir:hover,
   main.content a.emi-esemeny:hover { padding-left: .5rem; }
@@ -1363,8 +1365,51 @@ html.emi-mozog .emi-felbukkan.emi-latszik {
   main.content .emi-gomb:active,
   main.content a.emi-szemely:hover,
   main.content a.emi-szemely:hover .emi-monogram,
+  main.content a.emi-szemely:hover .emi-szemely-kep,
   main.content a.lightbox:hover img,
   main.content a.emi-esemeny:hover .emi-datumjel { transform: none; }
   main.content a.emi-hir:hover,
   main.content a.emi-esemeny:hover { padding-left: 0; }
 }
+
+/* ===== Tagok aloldala: fénykép + adatlap ===== */
+.emi-profil {
+  display: grid;
+  grid-template-columns: minmax(0, 15rem) 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin: .5rem 0 2.5rem;
+}
+.emi-profil-kep {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--emi-line);
+}
+.emi-profil-adatok { margin: 0; }
+.emi-profil-adatok dt {
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--emi-muted);
+}
+.emi-profil-adatok dd { margin: .2rem 0 1.1rem; }
+.emi-profil-adatok dd:last-child { margin-bottom: 0; }
+.emi-profil-adatok a { overflow-wrap: anywhere; }
+@media (max-width: 575.98px) {
+  .emi-profil { grid-template-columns: 1fr; gap: 1.5rem; }
+  .emi-profil-kep { max-width: 13rem; }
+}
+/* Vezetői kártya fényképpel (a monogram helyett) */
+.emi-szemely-kep {
+  flex: 0 0 4.5rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--emi-line);
+}
+main.content a.emi-szemely:hover .emi-szemely-kep { border-color: var(--emi-gold); }

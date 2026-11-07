@@ -52,8 +52,8 @@ hasznosíthatóságával.
 
 # Kutatócsoport vezetői:
 
-- Dr. Abari Kálmán – egyetemi adjunktus
-- Hujber-Mitru Szilvia – egyetemi tanársegéd
+- [Dr. Abari Kálmán](kutatocsoportrol/abari-kalman.qmd) – egyetemi adjunktus
+- [Hujber-Mitru Szilvia](kutatocsoportrol/hujber-mitru-szilvia.qmd) – egyetemi tanársegéd
 
 # Kutatócsoport tagjai:
 

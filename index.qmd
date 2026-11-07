@@ -88,8 +88,8 @@ listing:
 <h2 class="emi-cimsor">A kutatócsoport vezetői</h2>
 
 ::: {.emi-szemelyek}
-<a class="emi-szemely" href="kutatocsoportrol.qmd"><span class="emi-monogram" aria-hidden="true">AK</span><span><span class="emi-szemely-nev">Dr. Abari Kálmán</span><span class="emi-szemely-beosztas">egyetemi adjunktus</span></span></a>
-<a class="emi-szemely" href="mailto:hujber-mitru.szilvia@arts.unideb.hu"><span class="emi-monogram" aria-hidden="true">HSz</span><span><span class="emi-szemely-nev">Hujber-Mitru Szilvia</span><span class="emi-szemely-beosztas">egyetemi tanársegéd · kapcsolattartó</span></span></a>
+<a class="emi-szemely" href="kutatocsoportrol/abari-kalman.qmd"><img class="emi-szemely-kep" src="kutatocsoportrol/images/abari-kalman-kicsi.jpg" width="240" height="240" alt="" loading="lazy"><span><span class="emi-szemely-nev">Dr. Abari Kálmán</span><span class="emi-szemely-beosztas">egyetemi adjunktus</span></span></a>
+<a class="emi-szemely" href="kutatocsoportrol/hujber-mitru-szilvia.qmd"><img class="emi-szemely-kep" src="kutatocsoportrol/images/hujber-mitru-szilvia-kicsi.jpg" width="240" height="240" alt="" loading="lazy"><span><span class="emi-szemely-nev">Hujber-Mitru Szilvia</span><span class="emi-szemely-beosztas">egyetemi tanársegéd · kapcsolattartó</span></span></a>
 :::
 
 [Nyitottak vagyunk kutatási, oktatási és szakmai együttműködésekre felsőoktatási intézményekkel, kutatóhelyekkel, közintézményekkel, civil szervezetekkel és vállalati partnerekkel. [A kutatócsoport tagjai és kutatási irányai →](kutatocsoportrol.qmd)]{.emi-bevezeto}
