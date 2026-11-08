@@ -65,8 +65,8 @@ website:
             href: lp_rovid_ismertetok.qmd
           - text: "MI eszközök"
             href: mi_eszkozok.qmd
-          - text: "Linkek"
-            href: linkek.qmd
+          - text: "Tudásfigyelő"
+            href: tudasfigyelo.qmd
           - text: "---"
           - text: "MI-generált hírek"
           - text: "Napi MI-hírek"

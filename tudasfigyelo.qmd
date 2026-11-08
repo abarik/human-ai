@@ -1,0 +1,55 @@
+---
+title: "Tudásfigyelő"
+subtitle: "Ajánlott magyar nyelvű videók, műsorok és előadások a mesterséges intelligenciáról"
+toc: false
+aliases:
+  - linkek.html
+---
+
+Válogatásunk olyan rendszeresen frissülő műsorokat és előadásokat gyűjt össze, amelyekkel könnyen követhető, mi történik a mesterséges intelligencia világában. A linkek a YouTube-on, új lapon nyílnak meg.
+
+# Rendszeres műsorok és csatornák
+
+```{=html}
+<div class="emi-forrasok">
+<a class="emi-forras" href="https://www.youtube.com/show/VLPLoR0tONdjj4OeBBsiVfodzsqobfoQGRth?season=AllEpisodes&amp;sbp=CgtBbGxFcGlzb2RlcxoAKgtnWlFzSlpvYktuNEAB" target="_blank" rel="noopener">
+<span class="emi-forras-tipus">Műsor</span>
+<span class="emi-forras-cim">AI Híradó</span>
+<span class="emi-forras-forras">Qubit.hu · YouTube<span class="visually-hidden"> (új lapon)</span></span>
+</a>
+<a class="emi-forras" href="https://www.youtube.com/show/VLPL45N3BwKew0MrUDwiW2QrFO9JCQJUppLy?sbp=KgtrZXp4Si1RUWJBQUAB" target="_blank" rel="noopener">
+<span class="emi-forras-tipus">Műsor</span>
+<span class="emi-forras-cim">MI és más</span>
+<span class="emi-forras-forras">YouTube<span class="visually-hidden"> (új lapon)</span></span>
+</a>
+<a class="emi-forras" href="https://www.youtube.com/@iranyatech/videos" target="_blank" rel="noopener">
+<span class="emi-forras-tipus">Csatorna</span>
+<span class="emi-forras-cim">Irány a tech</span>
+<span class="emi-forras-forras">YouTube<span class="visually-hidden"> (új lapon)</span></span>
+</a>
+<a class="emi-forras" href="https://www.youtube.com/@mindensegit/videos" target="_blank" rel="noopener">
+<span class="emi-forras-tipus">Csatorna</span>
+<span class="emi-forras-cim">Mindenségit!</span>
+<span class="emi-forras-forras">YouTube<span class="visually-hidden"> (új lapon)</span></span>
+</a>
+<a class="emi-forras" href="https://youtube.com/playlist?list=PLl_in4prQ9y9CqF-VZ8eqxzxJgB6cPTRz&amp;si=Z9pJDi67cYzrW25y" target="_blank" rel="noopener">
+<span class="emi-forras-tipus">Lejátszási lista</span>
+<span class="emi-forras-cim">FilozofiAI</span>
+<span class="emi-forras-forras">YouTube<span class="visually-hidden"> (új lapon)</span></span>
+</a>
+</div>
+```
+
+# Kiemelt előadások
+
+```{=html}
+<div class="emi-forrasok">
+<a class="emi-forras" href="https://www.youtube.com/watch?v=Vn5lHxXuwIc" target="_blank" rel="noopener">
+<span class="emi-forras-tipus">Előadás</span>
+<span class="emi-forras-cim">Kellenek még tudósok?</span>
+<span class="emi-forras-forras">Csabai István · AI hete 2026 · YouTube<span class="visually-hidden"> (új lapon)</span></span>
+</a>
+</div>
+```
+
+Van egy jó ajánlásod? Írj nekünk: [hujber-mitru.szilvia@arts.unideb.hu](mailto:hujber-mitru.szilvia@arts.unideb.hu)
