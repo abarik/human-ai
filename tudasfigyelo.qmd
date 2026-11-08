@@ -44,6 +44,18 @@ Válogatásunk olyan rendszeresen frissülő műsorokat és előadásokat gyűjt
 
 ```{=html}
 <div class="emi-forrasok">
+<a class="emi-forras" href="https://www.youtube.com/watch?v=eqbxkX16R24" target="_blank" rel="noopener">
+<span class="emi-forras-tipus">Konferencia · <time datetime="2026-10-14">2026. október 14.</time></span>
+<span class="emi-forras-cim">A mesterséges intelligencia filozófiája</span>
+<span class="emi-forras-leiras">Előadók: John Haldane, Csépe Valéria, Szathmáry Eörs, Falus András, Szegedy Balázs és mások</span>
+<span class="emi-forras-forras">Magyar Tudományos Akadémia · YouTube<span class="visually-hidden"> (új lapon)</span></span>
+</a>
+<a class="emi-forras" href="https://www.youtube.com/live/bnIealknfgs" target="_blank" rel="noopener">
+<span class="emi-forras-tipus">Témanap · <time datetime="2026-10-07">2026. október 7.</time></span>
+<span class="emi-forras-cim">MI-ért vagy MI-értünk? Mire képes ma valójában a mesterséges intelligencia?</span>
+<span class="emi-forras-leiras">Előadók: Prószéky Gábor, Benczúr András, Németh Géza, Kosztin Annamária, Horváth Gábor, Monostori László; kerekasztal-beszélgetés</span>
+<span class="emi-forras-forras">Magyar Tudományos Akadémia · YouTube<span class="visually-hidden"> (új lapon)</span></span>
+</a>
 <a class="emi-forras" href="https://www.youtube.com/watch?v=Vn5lHxXuwIc" target="_blank" rel="noopener">
 <span class="emi-forras-tipus">Előadás</span>
 <span class="emi-forras-cim">Kellenek még tudósok?</span>

@@ -21,8 +21,6 @@ image-alt: "Hujber-Mitru Szilvia portréja."
 </div>
 ```
 
-# Önéletrajz
-
 Pszichológusként a Debreceni Egyetem Pszichológiai Intézetének Szociál- és Munkapszichológiai Tanszékén dolgozom oktatóként. Kutatási érdeklődésem középpontjában a társas kapcsolatok és a digitális technológiák használatának pszichológiai vonatkozásai állnak. Munkámban egyre nagyobb szerepet kap a mesterséges intelligencia, amely kutatási témaként és az oktatásban alkalmazható eszközként egyaránt foglalkoztat. Fontosnak tartom, hogy használatát pszichológiai szempontból is értelmezzük, lehetőségeit és korlátait pedig tudatosan mérlegeljük.
 
 Oktatói munkám részeként az Intézet MA-hallgatóinak Mesterséges intelligencia kurzust tartok, amelynek célja az MI pszichológiai vonatkozásainak megismerése és a tudatos, kritikus használat támogatása. A témával 2023 óta előadásokon és workshopokon is foglalkozom: előadtam az MTA Pszichológiai Munkabizottságának ülésén, valamint többalkalmas workshopot is tartottam a Debreceni Egyetem Bölcsészettudományi Karának munkatársai számára. Az MI pszichológiai, etikai és oktatási vonatkozásairól, valamint az általam vezetett, MI-hez kapcsolódó kutatások eredményeiről hazai és nemzetközi konferenciákon és interjúkban is beszámolok.

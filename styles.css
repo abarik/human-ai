@@ -1496,3 +1496,5 @@ main.content a.emi-forras:focus-visible { outline: 2px solid var(--emi-gold); ou
 @media (prefers-reduced-motion: reduce) {
   main.content a.emi-forras:hover, main.content a.emi-forras:hover::after { transform: none; }
 }
+.emi-forras-leiras { font-size: .92rem; line-height: 1.45; color: var(--emi-ink); }
+.emi-forras-tipus time { font-weight: 700; }
