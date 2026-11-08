@@ -1498,3 +1498,75 @@ main.content a.emi-forras:focus-visible { outline: 2px solid var(--emi-gold); ou
 }
 .emi-forras-leiras { font-size: .92rem; line-height: 1.45; color: var(--emi-ink); }
 .emi-forras-tipus time { font-weight: 700; }
+
+/* ===== Kezdőlap: együttműködési felhívás a vezetők sávjában ===== */
+main.content .emi-egyuttmukodes {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1.5rem 2.5rem;
+  align-items: center;
+  margin-top: .5rem;
+  padding: 1.75rem 2rem;
+  border: 1px solid var(--emi-line);
+  border-top: 3px solid var(--emi-gold);
+  border-radius: 10px;
+  background: var(--emi-surface);
+}
+.emi-egyuttmukodes-felso {
+  margin: 0 0 .35rem;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--emi-gold);
+}
+main.content .emi-egyuttmukodes-cim {
+  margin: 0 0 .4rem;
+  padding: 0;
+  border: 0;
+  font-family: var(--emi-font-head);
+  font-size: 1.65rem;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--emi-heading);
+}
+.emi-egyuttmukodes-lead { margin: 0 0 1rem; color: var(--emi-ink); }
+main.content ul.emi-partnerek {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+main.content ul.emi-partnerek li {
+  margin: 0;
+  padding: .3rem .75rem;
+  border: 1px solid var(--emi-line);
+  border-radius: 999px;
+  background: var(--emi-tint);
+  font-size: .85rem;
+  color: var(--emi-ink);
+}
+.emi-egyuttmukodes-gombok {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .85rem;
+}
+main.content .emi-egyuttmukodes .emi-gomb { margin: 0; }
+main.content a.emi-egyuttmukodes-link {
+  font-weight: 700;
+  color: var(--emi-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+main.content a.emi-egyuttmukodes-link:hover { color: var(--emi-accent-hover); border-bottom-color: currentColor; }
+main.content a.emi-egyuttmukodes-link span { display: inline-block; transition: transform .26s cubic-bezier(.22,1,.36,1); }
+main.content a.emi-egyuttmukodes-link:hover span { transform: translateX(4px); }
+@media (max-width: 767.98px) {
+  main.content .emi-egyuttmukodes { grid-template-columns: 1fr; padding: 1.4rem 1.25rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  main.content a.emi-egyuttmukodes-link:hover span { transform: none; }
+}

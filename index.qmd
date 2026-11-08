@@ -95,6 +95,25 @@ listing:
 <a class="emi-szemely" href="kutatocsoportrol/hujber-mitru-szilvia.qmd"><img class="emi-szemely-kep" src="kutatocsoportrol/images/hujber-mitru-szilvia-kicsi.jpg" width="240" height="240" alt="" loading="lazy"><span><span class="emi-szemely-nev">Hujber-Mitru Szilvia</span><span class="emi-szemely-beosztas">egyetemi tanársegéd · kapcsolattartó</span></span></a>
 :::
 
-[Nyitottak vagyunk kutatási, oktatási és szakmai együttműködésekre felsőoktatási intézményekkel, kutatóhelyekkel, közintézményekkel, civil szervezetekkel és vállalati partnerekkel. [A kutatócsoport tagjai és kutatási irányai →](kutatocsoportrol.qmd)]{.emi-bevezeto}
+```{=html}
+<section class="emi-egyuttmukodes" aria-labelledby="emi-egyuttmukodes-cim">
+<div class="emi-egyuttmukodes-szoveg">
+<p class="emi-egyuttmukodes-felso">Együttműködés</p>
+<h3 id="emi-egyuttmukodes-cim" class="emi-egyuttmukodes-cim">Dolgozzunk együtt!</h3>
+<p class="emi-egyuttmukodes-lead">Nyitottak vagyunk kutatási, oktatási és szakmai együttműködésekre.</p>
+<ul class="emi-partnerek" aria-label="Kikkel működünk együtt">
+<li>Felsőoktatási intézmények</li>
+<li>Kutatóhelyek</li>
+<li>Közintézmények</li>
+<li>Civil szervezetek</li>
+<li>Vállalati partnerek</li>
+</ul>
+</div>
+<div class="emi-egyuttmukodes-gombok">
+<a class="emi-gomb emi-gomb-elsodleges" href="mailto:hujber-mitru.szilvia@arts.unideb.hu">Kapcsolatfelvétel</a>
+<a class="emi-egyuttmukodes-link" href="kutatocsoportrol.html">A kutatócsoport tagjai és kutatási irányai <span aria-hidden="true">→</span></a>
+</div>
+</section>
+```
 ::::
 :::::
