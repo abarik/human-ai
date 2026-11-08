@@ -2,6 +2,7 @@
 title: "Tudásfigyelő"
 subtitle: "Ajánlott magyar nyelvű videók, műsorok és előadások a mesterséges intelligenciáról"
 toc: false
+shift-heading-level-by: 1
 aliases:
   - linkek.html
 ---

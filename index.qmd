@@ -10,6 +10,7 @@ listing:
     sort: "date desc"
     max-items: 1
     date-format: "YYYY-MM-DD"
+    page-size: 10000
   - id: friss-hirek
     contents:
       - "lp_mi_hirek_napi/*.qmd"
@@ -19,12 +20,14 @@ listing:
     sort: "date desc"
     max-items: 4
     date-format: "YYYY-MM-DD"
+    page-size: 10000
   - id: friss-esemenyek
     contents: "lp_szakmai_esemenyek/*.qmd"
     template: _templates/friss-esemenyek.ejs
     sort: "date desc"
     max-items: 3
     date-format: "YYYY-MM-DD"
+    page-size: 10000
 ---
 
 ::::: {.emi-hero .column-screen}

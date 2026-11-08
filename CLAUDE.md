@@ -47,8 +47,9 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - Képekben és SVG-kben ne maradjon szerzőségi/C2PA metaadat (a Claude-os fájlátvitel ilyet beírhat a képekbe és SVG-kbe): feltöltés után ellenőrizni (`grep -a -i c2pa`), és eltávolítani (JPEG: APP11/0xFFEB szegmens, WebP: `C2PA` chunk, PNG: `caBX` chunk, SVG: `<metadata>`) – veszteségmentesen, újratömörítés nélkül.
 - Ne használjunk `date: today` mezőt olyan oldalon, ahol a dátumnak tartalmi jelentése van.
 - Hírek beillesztése: YAML fejléc (`title`, `author: "OpenAI - ChatGpt"`, `date`, `temak:` – a hír első három számozott hírcíme, JSON-listaként), a forrásszöveg saját főcíme elhagyva; fájlnév `mi_hirek_ÉÉÉÉHHNN.qmd`. A honlap saját oldalaira mutató linkek relatívak legyenek.
+- Saját EJS-sablonos listánál (amelyben nincs lapozó) legyen `page-size: 10000`, különben 25-nél több forráselemnél a Quarto lapozót kapcsol be, és a list.js hibát dob (`childNodes`).
 - Új menüpontnál a menüfelirat és az oldal `title` mezője legyen összhangban.
-- Akadálymentesség: minden képnek legyen képleírása (Markdown `![leírás](…)`, ábránál `fig-alt`, eseménynél a fejlécben `image-alt` a lista bélyegképéhez); oldalanként egy H1 (a lapcím) – a hírek, az események és a Kutatócsoportról oldalon a `#` fejezetcímek a `shift-heading-level-by: 1` beállítással (mappánként `_metadata.yml`) egy szinttel lejjebb kerülnek; kattintható elemek legalább 24×24 px.
+- Akadálymentesség: minden képnek legyen képleírása (Markdown `![leírás](…)`, ábránál `fig-alt`, eseménynél a fejlécben `image-alt` a lista bélyegképéhez); oldalanként egy H1 (a lapcím) – a hírek, az események, a Kutatócsoportról és a Tudásfigyelő oldalon a `#` fejezetcímek a `shift-heading-level-by: 1` beállítással (mappánként `_metadata.yml`) egy szinttel lejjebb kerülnek; kattintható elemek legalább 24×24 px.
 
 ## Változásnapló
 
@@ -87,3 +88,4 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - 2026-11-08: Tudásfigyelő – két új kiemelt MTA-előadás dátummal: „A mesterséges intelligencia filozófiája” konferencia (MTA-hír: 2026-10-14) és az MTA harmadik témanapja, „MI-ért vagy MI-értünk?” (2026-10-07, élő közvetítés).
 - 2026-11-08: Abari Kálmán adatlapja Hujber-Mitru Szilviáéhoz igazítva (munkahely, szerep, munkacsoport, e-mail); a személyes honlap linkje a bemutatkozás végére került, a végzettség kimaradt.
 - 2026-11-08: a Kutatócsoportról oldal taglistájában Dr. Szemán-Nagy Anitánál csak név és beosztás (a munkacsoport-vezetés a Munkacsoportok részben szerepel).
+- 2026-11-08: teljes ellenőrzés (96 oldal asztalon és mobilon: linkek, JS-hibák, H1, túlcsúszás, képleírások); javítva: a kezdőlapon list.js-hiba (a listák `page-size: 10000`-et kaptak), a Tudásfigyelőn egyetlen H1 (`shift-heading-level-by: 1`).
