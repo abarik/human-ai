@@ -15,12 +15,8 @@ image-alt: "Dr. Abari Kálmán portréja."
 <dd>vezető</dd>
 <dt>Munkacsoport</dt>
 <dd><a href="../munkacsoportok/gamifikacio-es-mesterseges-intelligencia.html">Gamifikáció és Mesterséges Intelligencia</a> (vezető)</dd>
-<dt>Végzettség</dt>
-<dd>programtervező matematikus; PhD (Debreceni Egyetem, 2013)</dd>
 <dt>E-mail</dt>
 <dd><a href="mailto:abari.kalman@arts.unideb.hu">abari.kalman@arts.unideb.hu</a></dd>
-<dt>Személyes honlap</dt>
-<dd><a href="https://kalman.abari.hu/">kalman.abari.hu</a></dd>
 </dl>
 </div>
 ```
@@ -28,5 +24,7 @@ image-alt: "Dr. Abari Kálmán portréja."
 2005 óta vagyok egyetemi adjunktus a Debreceni Egyetem Bölcsészettudományi Karán, a Pszichológiai Intézet Szociál- és Munkapszichológiai Tanszékén. Programtervező matematikus végzettségű vagyok, PhD-fokozatomat 2013-ban szereztem a Debreceni Egyetemen. Kutatásaim a statisztikai adatelemzés, a beszédkutatás és az oktatás területéhez kapcsolódnak.
 
 A kutatócsoportban a mesterséges intelligencia működésének és pszichológiai jelentőségének megértése, valamint a kutatásban és az oktatásban való tudatos használata foglalkoztat. A pszichológushallgatóknak tartott *Mesterséges intelligencia* kurzusom arra keresi a választ, hogyan működnek a mai MI-rendszerek, és mit jelentenek a pszichológia számára. A témáról legutóbb [A mesterséges intelligencia ma](../lp_szakmai_esemenyek/honlap_20261028.qmd) című online workshopot tartottam.
+
+Kutatási területeimről, oktatásomról és publikációimról a személyes honlapomon olvashat bővebben: [kalman.abari.hu](https://kalman.abari.hu/)
 
 [← Vissza a kutatócsoport oldalára](../kutatocsoportrol.qmd)

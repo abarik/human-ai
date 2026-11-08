@@ -59,7 +59,6 @@ hasznosíthatóságával.
 
 - Dr. Polonyi Tünde Éva – egyetemi docens
 - Dr. Szemán-Nagy Anita – egyetemi docens
-    - az [*Ember–MI kapcsolatok személyiséglélektani és klinikai pszichológiai vonatkozásai*](munkacsoportok/szemelyiseglelektani-es-klinikai-vonatkozasok.qmd) munkacsoport vezetője
 - Kegyes Lilla – egyetemi tanársegéd
 - Havan Viktor – pszichológia MA hallgató
 - Kiss Kevin Dominik – pszichológia MA hallgató
