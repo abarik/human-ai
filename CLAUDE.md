@@ -18,6 +18,7 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - `index.qmd` – kezdőlap cím-blokk nélkül (`pagetitle`, `page-layout: full`): sötétkék bemutató sáv a legutóbbi eseménnyel, kutatási területek kártyái, legfrissebb hírek és események (Quarto-listák), vezetők. A hírek és események maguktól frissülnek.
 - `_templates/` – a kezdőlap listáinak EJS-sablonjai (`hero-esemeny.ejs`, `friss-hirek.ejs`, `friss-esemenyek.ejs`); az aláhúzással kezdődő mappát a Quarto nem rendereli. A sablonok sorai ne legyenek behúzva (különben a Markdown kódblokknak veszi őket).
 - `ember-mi-logo.svg` – animált logó a navigációs sávban (kék vonalak, arany pont; mindkét színmódban látható): betöltéskor a vonalak kirajzolódnak, a pont bepattan, utána 9 másodpercenként halvány hullám indul a chipből, a fej alig biccent (CSS az SVG-n belül). `ember-mi-logo-allo.svg` – ugyanez mozgás nélkül: a lábléc maszkja ezt használja, és mozgáscsökkentésnél a `styles.css` ezt teszi a navigációs sávba. Az SVG-kben ne legyen szerzőségi/C2PA metaadat.
+- `favicon.svg` – a böngészőfül ikonja (`website: favicon:`): a logó világos vonalakkal, arany ponttal, sötétkék lekerekített négyzeten (világos és sötét böngészőtémán is látszik); `apple-touch-icon.png` (180×180) – ugyanez iPhone/iPad kezdőképernyőre, a `project: resources:` másolja ki, az `include-in-header` linkeli.
 - `theme-light.scss` / `theme-dark.scss` – a világos és a sötét téma Bootstrap/Quarto változói (a navigációs sáv színei is: ebből kapják színüket a keresés, a színmód-váltó és a mobilmenü ikonjai).
 - Listázó oldalak (`lp_*.qmd`) és a hozzájuk tartozó mappák:
   - `lp_mi_hirek_napi/` – napi MI-hírek (`mi_hirek_ÉÉÉÉHHNN.qmd`), automatikusan generált tartalom.
@@ -42,7 +43,7 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 ## Karbantartási szabályok
 
 - Képeket webre optimalizált méretben tegyünk fel (fotó: JPG, kb. 1500 px szélesség, néhány száz kB).
-- Képekben és SVG-kben ne maradjon szerzőségi/C2PA metaadat (a Claude-os fájlátvitel ilyet beírhat a képekbe és SVG-kbe): feltöltés után ellenőrizni (`grep -a -i c2pa`), és eltávolítani (JPEG: APP11/0xFFEB szegmens, WebP: `C2PA` chunk, SVG: `<metadata>`) – veszteségmentesen, újratömörítés nélkül.
+- Képekben és SVG-kben ne maradjon szerzőségi/C2PA metaadat (a Claude-os fájlátvitel ilyet beírhat a képekbe és SVG-kbe): feltöltés után ellenőrizni (`grep -a -i c2pa`), és eltávolítani (JPEG: APP11/0xFFEB szegmens, WebP: `C2PA` chunk, PNG: `caBX` chunk, SVG: `<metadata>`) – veszteségmentesen, újratömörítés nélkül.
 - Ne használjunk `date: today` mezőt olyan oldalon, ahol a dátumnak tartalmi jelentése van.
 - Hírek beillesztése: YAML fejléc (`title`, `author: "OpenAI - ChatGpt"`, `date`, `temak:` – a hír első három számozott hírcíme, JSON-listaként), a forrásszöveg saját főcíme elhagyva; fájlnév `mi_hirek_ÉÉÉÉHHNN.qmd`. A honlap saját oldalaira mutató linkek relatívak legyenek.
 - Új menüpontnál a menüfelirat és az oldal `title` mezője legyen összhangban.
@@ -78,3 +79,4 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - 2026-11-07: Hujber-Mitru Szilvia aloldala (`kutatocsoportrol/hujber-mitru-szilvia.qmd`, portré EXIF nélkül, 900×1200, 83 kB): adatlap, „MI-attitűd és társas együttműködés” munkacsoport témái, önéletrajz; a kezdőlapon a nevére kattintva (korábban e-mail-link) és a Kutatócsoportról oldal névsorából érhető el.
 - 2026-11-07: a kezdőlap vezetői kártyáin a monogram helyett kerek portré (Abari Kálmán, Hujber-Mitru Szilvia); új aloldal: `kutatocsoportrol/abari-kalman.qmd` (portré, adatlap, bemutatkozás, kutatási területek, oktatás, válogatott publikációk, link a https://kalman.abari.hu/ oldalra, az MTMT- és a Tudóstér-profilra).
 - 2026-11-07: új Munkacsoportok menüpont és oldalak (MI-attitűd és társas együttműködés; Ember–MI kapcsolatok személyiséglélektani és klinikai pszichológiai vonatkozásai; Gamifikáció és Mesterséges Intelligencia Munkacsoport – 10 kutatási témával); Hujber-Mitru Szilvia munkacsoport-témái a személyes oldaláról a munkacsoport oldalára kerültek.
+- 2026-11-08: favicon a logó alapján (`favicon.svg`) és `apple-touch-icon.png`.

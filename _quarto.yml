@@ -3,6 +3,8 @@ project:
   render:
     - "*.qmd"
     - "!CLAUDE.md"
+  resources:
+    - apple-touch-icon.png
 
 lang: hu
 language:
@@ -43,6 +45,7 @@ output-dir: _site
 website:
   title: "Ember–MI"
   back-to-top-navigation: true
+  favicon: favicon.svg
   navbar:
     logo: ember-mi-logo.svg
     logo-alt: "Ember–MI logó"
@@ -103,6 +106,7 @@ format:
     respect-user-color-scheme: true
     include-in-header:
       text: |
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap">
