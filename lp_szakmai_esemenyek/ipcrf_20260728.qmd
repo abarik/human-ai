@@ -10,6 +10,8 @@ image-alt: "Hujber-Mitru Szilvia előadása az IPCRF 2026 konferencián, Hongkon
 helyszin: "The Education University of Hong Kong, Hongkong"
 szervezo: "The Education University of Hong Kong"
 datum: "2026-07-28"
+resources:
+  - fajlok/hujber-mitru_ipcrf2026_diasor.pdf
 ---
 
 # A rendezvény adatai
@@ -39,6 +41,10 @@ Előadó a kutatócsoportból
 Előadás
 
 : *Psychology in the Age of AI: Human Connection, Therapeutic Acceptance and the Future of Professional Practice*
+
+Diasor
+
+: [Az előadás diái letölthetők (PDF, 28 oldal, 5,5 MB)](fajlok/hujber-mitru_ipcrf2026_diasor.pdf){download="hujber-mitru_ipcrf2026_diasor.pdf"}
 
 Beszámoló
 
