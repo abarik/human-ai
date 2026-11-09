@@ -1,0 +1,739 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. november 9."
+author: "OpenAI - ChatGpt"
+date: "2026-11-09"
+temak: ["Anthropic: 3,4 milliárd dolláros megállapodás az MI-adatközpontok áramellátására", "Google DeepMind: MI-ügynökök jelentősen felgyorsítottak egy kriptográfiai támadást", "MI-vel oldhattak meg egy 18 éve nyitott matematikai problémát"]
+---
+
+**Hírlezárás:** 2026. november 9., reggel (CET)  
+**Vizsgált időszak:** Elsősorban 2026. november 6–9.  
+**Tartalom:** 7 nemzetközi hír + 4 magyar vonatkozás  
+**Fő források:** Reuters, Associated Press, Financial Times, Google DeepMind, Microsoft Threat Intelligence, OpenAI, Physical Superintelligence, Portfolio, Prím Online, Telex és MIEF.
+
+---
+
+# 📌 VEZETŐI ÖSSZEFOGLALÓ
+
+A hétfő reggeli MI-hírek alapján négy meghatározó folyamat rajzolódik ki.
+
+**1. Az MI-adatközpontok energiaellátása stratégiai jelentőségűvé vált.**
+
+A Financial Times november 8-i értesülése szerint az Anthropic 3,4 milliárd dollár értékben kötött megállapodást földgázüzemű áramtermelő berendezések biztosítására. A tervezett kapacitás 1,7 gigawatt. A fejlemény jól mutatja, hogy a nagy MI-vállalatok már közvetlenül próbálják biztosítani infrastruktúrájuk energiaellátását.
+
+**2. Az MI egyre komolyabb tudományos problémák megoldására képes.**
+
+A Google DeepMind MI-ügynökei jelentősen felgyorsítottak egy korábban ismert, 1024 bites RSA-kriptográfiai támadást. Egy másik kutatócég, a Physical Superintelligence pedig azt állítja, hogy MI segítségével bizonyította a 2008 óta nyitott Aaronson–Ambainis-sejtést.
+
+**3. Az autonóm MI-ügynökök a kiberbűnözésben is megjelentek.**
+
+A Microsoft új jelentése szerint támadók már olyan MI-ügynököket használnak, amelyek automatikusan keresnek sérülékenységeket, lopnak hitelesítő adatokat, és további támadási műveleteket hajtanak végre. Egy megfigyelt esetben mindössze öt perc telt el a nyilvános GitHub-kódban történő keresés és egy felhőszolgáltatásból való adatkinyerés között.
+
+**4. Magyarországon új adatok jelentek meg az MI társadalmi és gazdasági használatáról.**
+
+A DIMSZ és az NMHH közös kutatása szerint a vizsgált 50–79 éves internetezők 42%-a már használ mesterséges intelligenciát. A Portfolio külön kísérletben vizsgálta az MI-chatbotok befektetési teljesítményét, a MÁV MI-alapú drónrendszerének tesztüzeméről pedig új részletek jelentek meg.
+
+**A nap legfontosabb üzenete:** a mesterséges intelligencia fejlődését egyre inkább a tudományos képességek gyorsulása, az infrastruktúra energiaigénye és az autonóm rendszerek biztonsága határozza meg.
+
+---
+
+# 🌍 NEMZETKÖZI MI-HÍREK
+
+## 1. Anthropic: 3,4 milliárd dolláros megállapodás az MI-adatközpontok áramellátására
+
+**Dátum:** 2026. november 8.  
+**Kategória:** MI-infrastruktúra, energiaellátás, adatközpontok  
+**Jelentőség:** 🔴 KIEMELT
+
+A Financial Times értesülése szerint az Anthropic mintegy **3,4 milliárd dollár értékű megállapodást** kötött 1,7 gigawattnyi földgázüzemű áramtermelő kapacitás biztosítására.
+
+A Reuters által is ismertetett megállapodás az amerikai OnePWR Solutions vállalathoz kapcsolódik.
+
+A konstrukció fontosabb elemei:
+
+- **Tervezett teljesítmény:** 1,7 GW.
+- **Megállapodás értéke:** körülbelül 3,4 milliárd USD.
+- **Technológia:** nagyteljesítményű földgázüzemű generátorok.
+- **Cél:** az Anthropic MI-adatközpontjainak energiaellátása.
+- **Kapcsolódó szolgáltatások:** mérnöki és kivitelezési kapacitások biztosítása.
+
+A megállapodást a beszámoló szerint szeptember végén kötötték, de részletei november 8-án kerültek nyilvánosságra.
+
+Az Anthropic nem vásárolta fel a OnePWR vállalatot.
+
+A Reuters jelezte, hogy a Financial Times értesülését nem tudta függetlenül megerősíteni.
+
+### Miért lényeges?
+
+Ez az egyik legfontosabb friss MI-infrastrukturális fejlemény.
+
+A nagy modellfejlesztők korábban elsősorban adatközponti kapacitást béreltek felhőszolgáltatóktól.
+
+Most azonban egyre közvetlenebb szerepet vállalnak az energiaellátás biztosításában.
+
+Ez azért fontos, mert a fejlett MI-rendszerek működését nemcsak a rendelkezésre álló chipek száma, hanem az energiaellátás is korlátozhatja.
+
+**A fő tanulság:** az MI-verseny egyre inkább energetikai és infrastrukturális versennyé is válik.
+
+A földgázalapú energiatermelés ugyanakkor új környezeti és hosszú távú költségkockázatokat is felvet.
+
+**Források:**
+
+[Reuters – Anthropic secures $3.4 billion generator deal for AI data centers, FT reports](https://www.streetinsider.com/Reuters/Anthropic%2Bsecures%2B%243.4%2Bbillion%2Bgenerator%2Bdeal%2Bfor%2BAI%2Bdata%2Bcenters%2C%2BFT%2Breports/27309458.html)
+
+[Financial Times – Anthropic strikes $3.4bn deal to generate gas-fired power for data centres](https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0)
+
+---
+
+## 2. Google DeepMind: MI-ügynökök jelentősen felgyorsítottak egy kriptográfiai támadást
+
+**Dátum:** 2026. november 6–8.  
+**Kategória:** Tudományos MI, kriptográfia, kiberbiztonság  
+**Jelentőség:** 🔴 KIEMELT
+
+A Google DeepMind november 6-án két új kutatási tanulmányt tett közzé az MI-alapú kriptoanalízis területén.
+
+A kutatók emberi felügyelet mellett működő MI-ügynökökkel vizsgálták a régebbi, 1024 bites RSA-kriptográfiai rendszerek biztonságát.
+
+### A kutatás legfontosabb eredményei
+
+**1. Gyorsabb digitális aláírási támadás**
+
+A kutatók egy korábban ismert támadás reprodukálásával foglalkoztak.
+
+Az MI-ügynökök a korábbi kísérlethez képest körülbelül **3,5-szer kisebb összesített processzorigénnyel** hajtották végre a számítást.
+
+A folyamat kevesebb mint négy napig tartott.
+
+**2. Új matematikai módszer a kulcsok elemzésére**
+
+A második tanulmány egy új algoritmust ismertet, amely elméleti számítások szerint jelentősen csökkentheti sok azonos méretű RSA-kulcs egymást követő faktorizálásának átlagos költségét.
+
+A kutatók körülbelül harmincszoros elméleti költségcsökkenést jeleznek egy meghatározott számítási modellben.
+
+### Fontos biztonsági pontosítás
+
+**A kutatás nem jelenti a modern RSA-titkosítás feltörését.**
+
+Az eredmények a régi, 1024 bites RSA-rendszerekre és meghatározott támadási feltételekre vonatkoznak.
+
+A Google DeepMind szerint a ma széles körben alkalmazott, legalább 2048 bites RSA-rendszereket az új eredmények nem veszélyeztetik.
+
+A tanulmányok egyelőre munkadokumentumok, nem teljes körűen független szakmai ellenőrzésen átesett publikációk.
+
+### Miért lényeges?
+
+Az MI egyre inkább önálló kutatási eszközzé válik a matematikában és a számítógépes biztonságban.
+
+A fejlett ügynökök nemcsak programkódot készíthetnek, hanem matematikai módszereket is fejleszthetnek és összetett számítási kísérleteket végezhetnek.
+
+**A fő tanulság:** a korábbi kriptográfiai biztonsági feltételezéseket az MI által gyorsított kutatás fényében egyre gyakrabban újra kell értékelni.
+
+A vállalatok számára ez különösen fontos lehet a régi informatikai rendszerek és elavult kriptográfiai megoldások kivezetésekor.
+
+**Források:**
+
+[Google DeepMind – Modular Roots from a Restricted Oracle: Faster Affine Roots and a 1024-bit Computation](https://storage.googleapis.com/deepmind-media/papers/Faster_Affine_Root_and_a_1024bit%20Computation.pdf)
+
+[Google DeepMind – Fan Factories: Multiple Number Fields in Factorization Factories and Batch NFS](https://storage.googleapis.com/deepmind-media/papers/Fan_Factories_Multiple_Number_Fields_in_Factorization_Factories_and_Batch_NFS.pdf)
+
+[MACCUS – Google DeepMind AI agents reran a 1024-bit RSA attack](https://maccus.fr/en/ai-agents-rsa-1024/)
+
+---
+
+## 3. MI-vel oldhattak meg egy 18 éve nyitott matematikai problémát
+
+**Dátum:** 2026. november 6–8.  
+**Kategória:** Tudományos MI, matematika, kvantumszámítás  
+**Jelentőség:** 🔴 KIEMELT
+
+A Physical Superintelligence (PSI) nevű kutatóvállalat november 6-án bejelentette, hogy MI-alapú kutatási rendszere bizonyítást készített az **Aaronson–Ambainis-sejtésre**.
+
+A matematikai probléma 2008 óta volt nyitott.
+
+A sejtés a kvantumszámítógépek és a hagyományos számítógépek közötti számítási teljesítménykülönbség matematikai feltételeivel foglalkozik.
+
+### Hogyan született az eredmény?
+
+A PSI közlése szerint:
+
+- Egy saját fejlesztésű kutatási rendszert használtak.
+- A rendszer egy nem nyilvános Anthropic-modellre épült.
+- Az MI a futtatás harmadik napján teljes bizonyítást állított elő.
+- A bizonyítást a Lean matematikai bizonyításellenőrző rendszer elfogadta.
+- A kutatók közzétették a tanulmányt és a formális bizonyítás programkódját.
+
+A vállalat szerint a rendszer később további két alkalommal javította a matematikai eredményt.
+
+### Miért lényeges?
+
+Ha az eredményt a független kutatói közösség is megerősíti, az fontos mérföldkő lehet az MI-alapú matematikai kutatásban.
+
+A fejlett MI-rendszerek egyre inkább képesek lehetnek olyan feladatokban részt venni, amelyek korábban hosszú éveken keresztül emberi kutatók munkáját igényelték.
+
+**Fontos korlát:** a nyilvános bizonyítás elérhető, de a teljes független szakmai ellenőrzés és a formális állítás eredeti sejtéssel való pontos megfeleltetésének vizsgálata még folyamatban van.
+
+Ezért az eredményt jelenleg **közzétett, géppel ellenőrzött bizonyítási állításként**, nem pedig minden szempontból véglegesen validált tudományos konszenzusként célszerű kezelni.
+
+**A fő tanulság:** a generatív MI fejlődésének egyik legfontosabb új iránya az ellenőrizhető tudományos eredmények létrehozása.
+
+**Források:**
+
+[Physical Superintelligence – A proof of the Aaronson–Ambainis conjecture](https://psi.inc/research/aaronson-ambainis/index.html)
+
+[AI Proved What? – A bizonyítás ellenőrizhetőségének és korlátainak elemzése](https://aiprovedwhat.com/episodes/psi06-aaronson-ambainis-conjecture/)
+
+---
+
+## 4. Microsoft: MI-ügynökök már percek alatt hajtanak végre összetett kibertámadási lépéseket
+
+**Dátum:** 2026. november 5–6.  
+**Kategória:** MI-biztonság, autonóm ügynökök, felhőinfrastruktúra  
+**Jelentőség:** 🔴 KIEMELT
+
+A Microsoft Threat Intelligence két friss kutatási jelentésben ismertette, hogyan használják a támadók az **ARTEX nevű autonóm MI-ügynökkeretrendszert**.
+
+A technológia olyan feladatokat automatizálhat, amelyek korábban jelentős emberi beavatkozást igényeltek.
+
+### A legfontosabb megfigyelés
+
+A Microsoft szerint egy megfigyelt esetben a támadó MI-ügynök:
+
+1. Nyilvános GitHub-tárolókban keresett hitelesítő adatokat.
+2. Felhasználta a megtalált hozzáférési információkat.
+3. Belépett egy felhőalapú vállalati környezetbe.
+4. Adatokat nyert ki az Azure Key Vault szolgáltatásból.
+
+**A teljes folyamat egyik megfigyelt esetben körülbelül öt percet vett igénybe.**
+
+A Microsoft egy külön, november 6-i jelentésben arról is beszámolt, hogy egy pénzügyileg motivált támadócsoport pénzügyi intézmények ellen használta az ARTEX eszközt.
+
+A vállalat szerint a támadók a hagyományos támadási módszereket egészítik ki MI-alapú automatizációval.
+
+### Miért lényeges?
+
+Az autonóm MI-ügynökök jelentősen csökkenthetik a támadási lánc egyes szakaszaihoz szükséges időt.
+
+Ez különösen veszélyes lehet olyan vállalati környezetekben, ahol:
+
+- Régi hozzáférési kulcsok maradtak érvényben.
+- Túl széles alkalmazásjogosultságokat használnak.
+- Hiányos a biztonsági naplózás.
+- Lassú a biztonsági eseményekre történő reagálás.
+
+**A fő tanulság:** az MI-korszakban a vállalati informatikai biztonságnak nemcsak az új támadási technikákhoz, hanem azok jelentősen megnövekedett sebességéhez is alkalmazkodnia kell.
+
+A Microsoft különösen fontosnak tartja a kiszivárgott hitelesítő adatok azonnali visszavonását és cseréjét.
+
+**Források:**
+
+[Microsoft Threat Intelligence – Threat actors use agentic AI tooling to find and abuse exposed secrets](https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/)
+
+[Microsoft Threat Intelligence – ARTEX abuse expands as cybercriminals target financial sector](https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/)
+
+---
+
+## 5. OpenAI: új együttműködés indul az MI-rendszerek sérülékenységeinek feltárására
+
+**Dátum:** 2026. november 6.  
+**Kategória:** MI-biztonság, kiberbiztonsági kutatás, vállalati védekezés  
+**Jelentőség:** 🔴 KIEMELT
+
+Az OpenAI november 6-án bejelentette, hogy együttműködést indít a **Hacktron** kiberbiztonsági kutatóvállalattal.
+
+A partnerség célja az OpenAI informatikai rendszereiben található sérülékenységek feltárása és javítása.
+
+### A program legfontosabb elemei
+
+A Hacktron kutatói és az OpenAI mérnökei közösen választják ki a vizsgálandó rendszereket.
+
+A kiemelt területek között szerepelnek:
+
+- A külső szolgáltatásokkal történő integrációk.
+- A felhőalapú infrastruktúra.
+- Az alkalmazások hozzáféréskezelése.
+- A szoftveres sérülékenységek.
+- Az autonóm MI-ügynökök biztonságos működtetése.
+
+A Hacktron kutatói kibővített hozzáférést kapnak az OpenAI fejlett modelljeihez a Daybreak Red programon keresztül.
+
+A vállalat MI-ügynököket is alkalmaz a programkód ellenőrzésének és a biztonsági tesztelésnek a támogatására.
+
+### Miért lényeges?
+
+Az MI-modellek fejlődése egyszerre jelent lehetőséget és kockázatot a kiberbiztonságban.
+
+A fejlett rendszerek a támadók számára is hasznosak lehetnek, de a biztonsági kutatók is alkalmazhatják őket a sérülékenységek gyorsabb feltárására.
+
+**A fő tanulság:** a védekező szervezetek egyre inkább MI-alapú eszközökkel próbálják megelőzni az MI-vel támogatott támadásokat.
+
+Az együttműködés bejelentése még nem jelent konkrét, igazolt új biztonsági eredményt. A program későbbi eredményei külön ellenőrzést igényelnek.
+
+**Forrás:**
+
+[OpenAI – Partnering with Hacktron to find vulnerabilities in OpenAI's systems](https://openai.com/index/partnering-with-hacktron/)
+
+---
+
+## 6. Donald Trump: nyitottságot jelzett a mesterséges intelligencia biztonsági szabályozására
+
+**Dátum:** 2026. november 8–9.  
+**Kategória:** MI-szabályozás, amerikai technológiapolitika  
+**Jelentőség:** 🔴 KIEMELT
+
+Donald Trump amerikai elnök a CBS *60 Minutes* című műsorában arról beszélt, hogy a mesterséges intelligencia kockázatai kezelhetők, és nem zárkózik el bizonyos biztonsági korlátozásoktól.
+
+A Reuters november 8-i beszámolója szerint az elnök nyitottságot mutatott arra is, hogy a demokratákkal együttműködjön az MI biztonsági kereteinek kialakításában.
+
+### Mi változhat?
+
+Trump korábban elsősorban az amerikai technológiai versenyképességre és a túlzott szabályozás elkerülésére helyezte a hangsúlyt.
+
+A mostani nyilatkozat bizonyos biztonsági követelmények elfogadásának lehetőségét veti fel.
+
+Ugyanakkor az elnök továbbra is hangsúlyozza, hogy az Egyesült Államok nem kerülhet technológiai versenyhátrányba Kínával szemben.
+
+### Miért lényeges?
+
+Az amerikai MI-szabályozás a világ egyik legfontosabb technológiai szakpolitikai kérdése.
+
+A jövőbeli döntések hatással lehetnek:
+
+- A frontier-modellek fejlesztésére.
+- A független biztonsági tesztelésre.
+- Az adatközponti beruházásokra.
+- Az MI-vállalatok felelősségi kötelezettségeire.
+- Az amerikai és európai technológiai együttműködésekre.
+
+**A fő tanulság:** az MI fejlesztésének gyorsítása és biztonságos működtetése közötti egyensúly egyre fontosabb politikai kérdés.
+
+**Fontos:** az elnöki nyilatkozat nem új törvény vagy konkrétan elfogadott szabályozási csomag. A részletes intézkedések egyelőre nem ismertek.
+
+**Forrás:**
+
+[Reuters – Trump says AI risks can be managed, signals openness to guardrails](https://uk.marketscreener.com/news/trump-says-ai-risks-can-be-managed-signals-openness-to-guardrails-ce785fd2d080f62d)
+
+---
+
+## 7. Hétfői piaci fordulat: újra emelkednek az MI-hez kapcsolódó ázsiai technológiai részvények
+
+**Dátum:** 2026. november 9., hétfő reggel  
+**Kategória:** MI-gazdaság, félvezetők, nemzetközi részvénypiac  
+**Jelentőség:** 🟠 FONTOS
+
+A múlt heti jelentős technológiai részvénypiaci visszaesés után hétfő reggel részleges fellendülés kezdődött az ázsiai piacokon.
+
+A Reuters és az Associated Press beszámolói szerint a befektetők újra vásárolni kezdték az MI-infrastruktúrához és félvezetőgyártáshoz kapcsolódó vállalatok részvényeit.
+
+### Fontosabb hétfő reggeli piaci mozgások
+
+- **Tajvan:** a Taiex index körülbelül 4,9%-kal emelkedett.
+- **Japán:** a Nikkei 225 mintegy 2,3%-os pluszt mutatott.
+- **Egyesült Államok:** a határidős részvényindexek mérsékelten emelkedtek.
+
+A fellendülés a november 5-i jelentős amerikai technológiai tőzsdei zuhanás után következett.
+
+A befektetők azonban továbbra is óvatosak.
+
+A héten több technológiai vállalat, köztük a CoreWeave pénzügyi eredményei is fontos új információkat adhatnak az MI-infrastruktúra üzleti megtérüléséről.
+
+### Miért lényeges?
+
+A piac jelenleg egyszerre két tényezőt próbál értékelni.
+
+**Pozitív oldal:** az MI-hez kapcsolódó számítási kapacitás és félvezetők iránti kereslet továbbra is jelentős.
+
+**Kockázati oldal:** a beruházások finanszírozása, a vállalatok eladósodottsága és a magas értékeltségek komoly bizonytalanságot okoznak.
+
+**A fő tanulság:** az MI-iparág technológiai fejlődése mellett a következő években egyre fontosabb szerepet kaphat a pénzügyi fegyelem és a tényleges nyereségesség.
+
+A hétfő reggeli adatok nem a teljes kereskedési nap végleges eredményei.
+
+**Források:**
+
+[Reuters – Morning Bid: Fragile calm after AI whiplash](https://www.investing.com/news/economy-news/morning-bid-fragile-calm-after-ai-whiplash-5010505)
+
+[Associated Press – Asian markets bounce back after a recovery for AI stocks on Wall Street](https://apnews.com/article/d938f8e6ff42b3706e1d36e6245ec56b)
+
+---
+
+# 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+*A hazai válogatásban egy friss társadalmi kutatás, egy közlekedésbiztonsági fejlesztés új részletei, egy magyar befektetési kísérlet és egy november 9-i szakmai esemény szerepel. A kutatások és kísérletek eredményeit azok módszertani korlátainak figyelembevételével ismertetjük.*
+
+## 1. DIMSZ–NMHH kutatás: az 50 év feletti internetezők körében is jelentős az MI-használat
+
+**Közlemény:** 2026. november 6.  
+**Kutatás bemutatása:** 2026. november 3.  
+**Kategória:** Magyar MI-használat, digitális társadalom, kutatás  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+Az Adatvezérelt Marketing Szövetség (DIMSZ) és a Nemzeti Média- és Hírközlési Hatóság (NMHH) közös kutatást ismertetett az idősebb internetezők digitális szokásairól.
+
+A **800 fős mintán végzett vizsgálat** az 50–79 éves internetezők körében elemezte az online szolgáltatások használatát és a digitális biztonsággal kapcsolatos tapasztalatokat.
+
+### A legfontosabb eredmények
+
+| Mutató | Eredmény |
+|---|---:|
+| Vizsgált korosztály | 50–79 éves internetezők |
+| Minta nagysága | 800 fő |
+| Naponta internetezők aránya | 99% |
+| Alkalmanként vagy rendszeresen MI-t használók aránya | 42% |
+| Online térben biztonságban érzik magukat | 79% |
+
+A kutatás három jellegzetes felhasználói csoportot azonosított.
+
+A legmagabiztosabb digitális felhasználók mellett jelentős azoknak az aránya is, akik óvatosan használják az online szolgáltatásokat, vagy kevésbé rendelkeznek a digitális csalások felismeréséhez szükséges ismeretekkel.
+
+### Miért lényeges?
+
+Ez a hét egyik legfontosabb friss magyar MI-használati adata.
+
+A generatív mesterséges intelligencia elterjedése már nem kizárólag a fiatalabb korosztályokat és a technológiai szakembereket érinti.
+
+Az idősebb internetezők egy része is rendszeresen találkozik MI-alapú szolgáltatásokkal.
+
+Ez új lehetőségeket teremthet:
+
+- Digitális ügyintézésben.
+- Információkeresésben.
+- Egészségügyi tájékozódásban.
+- Kommunikációban.
+- Mindennapi adminisztrációban.
+
+Ugyanakkor növeli a digitális műveltség és a csalásmegelőzés jelentőségét.
+
+**A fő tanulság:** a magyar MI-adaptációban az idősebb internetezők oktatása és digitális biztonsága is egyre fontosabb feladat.
+
+**Módszertani pontosítás:** a 42%-os adat az 50–79 éves internetezők vizsgált mintájára vonatkozik, nem a teljes magyar 50 év feletti népességre.
+
+**Források:**
+
+[Prím Online – Az adatból érték, az AI-ból lehetőség: új elnökséggel folytatja munkáját a DIMSZ](https://hirek.prim.hu/cikk/2026/11/06/az_adatbol_ertek_az_ai-bol_lehetoseg_uj_elnokseggel_folytatja_munkajat_a_dimsz)
+
+[Business Online – DIMSZ szakmai nap és MI-kutatási eredmények](https://bonline.hu/cikk/166744/)
+
+---
+
+## 2. MÁV: új részletek a magyar fejlesztésű MI-drónok decemberi tesztüzeméről
+
+**Bejelentés:** 2026. november 7.  
+**Új részletek:** 2026. november 8.  
+**Tervezett indulás:** 2026. december eleje  
+**Kategória:** Magyar ipari MI, gépi látás, közlekedésbiztonság  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+A MÁV-csoport a tervek szerint december elején megkezdi a mesterséges intelligenciával támogatott drónrendszer tesztelését.
+
+A Telex november 8-i beszámolója további részleteket közölt a fejlesztésről.
+
+### A tesztüzem fő jellemzői
+
+**Első helyszín:** Szolnok.
+
+**Teszteléshez használt eszközök:** két bérelt drón.
+
+**Működés:** előre programozott repülési útvonalak, automatikus felszállás és leszállás.
+
+**MI-funkció:** a kamerafelvételeken megjelenő kritikus mozgások felismerése.
+
+**Beavatkozás:** a rendszer értesíti a biztonsági személyzetet, de önálló fizikai intézkedést nem hajt végre.
+
+A MÁV a rendszer sikeres tesztelése esetén 2027-ben akár 20–25 vasúti helyszínre is kiterjesztheti az alkalmazást.
+
+### Miért lényeges?
+
+Ez konkrét magyar példa a fizikai infrastruktúra MI-alapú felügyeletére.
+
+A technológia különösen hasznos lehet a nagy kiterjedésű vasúti üzemi területeken, ahol a hagyományos személyes őrzés nehezen biztosíthat teljes körű megfigyelést.
+
+A fejlesztés két fontos célt szolgálhat:
+
+- **Vagyonvédelem:** illetéktelen behatolások gyorsabb észlelése.
+- **Balesetmegelőzés:** a vasúti járművek tetejére mászó személyek felismerése.
+
+A felsővezetékek közelében tartózkodó személyeket halálos áramütés veszélye fenyegetheti.
+
+**A fő tanulság:** a magyar gépi látási és automatizációs technológiák fontos közlekedésbiztonsági alkalmazásokat kaphatnak.
+
+A rendszer tényleges pontosságát, megbízhatóságát és költséghatékonyságát a decemberi tesztüzem alapján lehet majd értékelni.
+
+**Források:**
+
+[Telex – Drónokkal vadászik a MÁV a betörőkre és a vagonok tetején mászkálókra](https://telex.hu/belfold/2026/11/08/mav-dronos-megfigyeles-uzemi-teruletek-teszt)
+
+[Infostart – Új fegyvert vet be a MÁV az életveszélyes mutatványok miatt](https://infostart.hu/belfold/2026/11/08/uj-fegyvert-vet-be-a-mav-az-eletveszelyes-mutatvanyok-miatt)
+
+---
+
+## 3. Magyar befektetési kísérlet: egyes MI-chatbotok 17% körüli hozamot értek el egy virtuális portfólióversenyben
+
+**Dátum:** 2026. november 8.  
+**Kategória:** Magyar pénzügyek, MI-alapú döntéstámogatás, befektetések  
+**Jelentőség:** 🟠 FONTOS MAGYAR VONATKOZÁS
+
+A Portfolio november 8-án ismertette saját, több mint egy éve tartó MI-befektetési kísérletének új eredményeit.
+
+A szerkesztőség 2025 őszén hat ismert MI-chatbotot kért fel, hogy azonos feltételek mellett állítsanak össze befektetési portfóliókat.
+
+### A kísérlet résztvevői
+
+- ChatGPT.
+- Gemini.
+- Microsoft Copilot.
+- Claude.
+- Perplexity.
+- Grok.
+
+A rendszerek fejenként 25 ezer euró **virtuális kezdőtőkéből** állíthattak össze tőzsdén kereskedett befektetési alapokat (ETF-eket) tartalmazó portfóliókat.
+
+A portfóliókat a kezdeti összeállítás után nem módosították.
+
+### Az első év eredményei
+
+| Mutató | Eredmény |
+|---|---:|
+| Egy chatbot virtuális kezdőtőkéje | 25 000 EUR |
+| Legjobb portfólió hozama | Közel 17% |
+| Legjobb portfólió nyeresége | Több mint 4200 EUR |
+| Összehasonlítási portfólió hozama | 13,4% |
+| Egy korábbi időpontban elért legmagasabb hozam | 22,4% |
+
+A november eleji technológiai részvénypiaci visszaesés több MI-portfólió teljesítményét is jelentősen csökkentette.
+
+### Miért lényeges?
+
+A kísérlet érdekes betekintést nyújt az MI-modellek pénzügyi döntéstámogatási lehetőségeibe.
+
+Ugyanakkor a kedvező eredmények értékelésénél fontos figyelembe venni:
+
+- A vizsgált időszak piaci környezetét.
+- A választott befektetési eszközök összetételét.
+- A portfóliók kockázati szintjét.
+- A tranzakciós költségek és adók hatását.
+- A hosszabb távú teljesítmény bizonytalanságát.
+
+**A fő tanulság:** a generatív MI hasznos lehet befektetési alternatívák összehasonlítására, de egyetlen sikeres időszak nem bizonyítja, hogy az MI hosszú távon megbízhatóan felülteljesíti a piacot.
+
+**Fontos:** a kísérlet virtuális pénzzel zajlott. Az eredmények nem jelentenek garantált hozamot, és nem tekinthetők befektetési ajánlásnak.
+
+**Forrás:**
+
+[Portfolio – Rábíztuk a pénzünket egy AI-chatbotra, máris keresett nekünk 4200 eurót](https://www.portfolio.hu/befektetes/20261108/rabiztuk-a-penzunket-egy-ai-chatbotra-maris-keresett-nekunk-4200-eurot-874794)
+
+---
+
+## 4. Ma magyar szakmai fórum vizsgálja az MI hatását a szoftverfejlesztésre és a programozási versenyekre
+
+**Dátum:** 2026. november 9., hétfő  
+**Forma:** Online szakmai fórum  
+**Kategória:** Magyar MI-oktatás, programozás, szakmai kompetenciák  
+**Jelentőség:** 🟠 FONTOS MAGYAR VONATKOZÁS
+
+A MIEF, a mesterséges intelligencia etikai, jogi, társadalmi és oktatási kérdéseivel foglalkozó szakmai közösség november 9-re meghirdette következő online fórumát.
+
+A **MIEF 15** esemény központi témája:
+
+**Az MI hatása a szoftverfejlesztésre és a programozási versenyekre.**
+
+A meghirdetett előadó **Dr. Nikházy László**.
+
+### Miért aktuális a téma?
+
+Az MI-alapú programozó eszközök fejlődése jelentősen átalakítja a szoftverfejlesztést.
+
+A technológia már nem kizárólag egyszerű kódkiegészítésre alkalmas.
+
+A fejlett rendszerek képesek lehetnek:
+
+- Programozási feladatok megoldására.
+- Hibakeresésre.
+- Tesztek készítésére.
+- Algoritmusok elemzésére.
+- Összetett fejlesztési munkafolyamatok támogatására.
+
+Ez új kérdéseket vet fel a programozásoktatásban és a versenyeken is.
+
+### Miért lényeges?
+
+A magyar informatikai oktatás és a programozói utánpótlás szempontjából fontos meghatározni, hogy az MI használata mellett milyen készségeket kell továbbra is önállóan fejleszteni.
+
+Különösen fontos lehet:
+
+- Az algoritmikus gondolkodás.
+- A problémák formális megértése.
+- A programkód helyességének ellenőrzése.
+- A biztonságos szoftverfejlesztés.
+- Az MI-eszközök tudatos használata.
+
+**A fő tanulság:** a programozói versenyképesség egyre inkább az emberi problémamegoldó képességek és az MI-alapú fejlesztőeszközök megfelelő együttes alkalmazásán múlhat.
+
+Fontos: az esemény meghirdetett szakmai fórum. A konkrét előadás következtetéseit a reggeli hírlezáráskor még nem lehetett ellenőrizni.
+
+**Forrás:**
+
+[MIEF – Szakmai műhelymunkák és események, 2026. november 9.](https://www.mief.hu/esemenyek)
+
+---
+
+# 📊 A MAI NAP LEGFONTOSABB MI-TRENDJEI
+
+## 1. Az MI fejlődése egyre közvetlenebb hatást gyakorol a tudományos kutatásra
+
+A Google DeepMind kriptográfiai eredményei és a PSI matematikai bizonyítási bejelentése közös fejlődési irányt mutatnak.
+
+A fejlett MI-rendszerek már nem csupán tudományos publikációk összefoglalására alkalmasak.
+
+Egyre nagyobb szerepet vállalhatnak:
+
+- Matematikai módszerek kidolgozásában.
+- Programozási és számítási kísérletekben.
+- Formális bizonyítások előállításában.
+- Kutatási hipotézisek vizsgálatában.
+
+**A legfontosabb kérdés:** hogyan biztosítható az új eredmények független ellenőrizhetősége?
+
+A tudományos MI-alkalmazások értéke szempontjából egyre fontosabbá válik, hogy a generált eredmények reprodukálhatók és szakmailag megalapozottak legyenek.
+
+---
+
+## 2. A számítási kapacitás mellett az energiaellátás is meghatározza az MI-versenyt
+
+Az Anthropic új energiabeszerzési megállapodásáról szóló beszámoló azt mutatja, hogy az MI-infrastruktúra fejlesztése egyre összetettebb feladat.
+
+A modellfejlesztőknek már nem elegendő:
+
+- GPU-kat vásárolniuk.
+- Adatközpontokat bérelniük.
+- Felhőszolgáltatásokhoz hozzáférniük.
+
+Az energiaellátás, a hűtés, a hálózati csatlakozás és a megfelelő ingatlanok biztosítása is kulcsfontosságú.
+
+**A fő tendencia:** az MI-iparág növekedési ütemét egyre inkább a fizikai infrastruktúra rendelkezésre állása korlátozhatja.
+
+---
+
+## 3. A kiberbiztonsági támadások és a védekezés is automatizálódik
+
+A Microsoft ARTEX-kutatása és az OpenAI–Hacktron együttműködés az MI-biztonság két oldalát mutatja.
+
+**Támadói oldal:** az autonóm ügynökök gyorsíthatják a hagyományos kibertámadási módszereket.
+
+**Védekező oldal:** a biztonsági kutatók ugyanezeket a képességeket sérülékenységek felismerésére és javítására használhatják.
+
+A következő időszakban a vállalati kiberbiztonság egyik legfontosabb kérdése az lehet, hogy a védekező rendszerek képesek-e lépést tartani az automatizált támadások sebességével.
+
+---
+
+## 4. Magyarországon az MI-használat egyre több társadalmi csoportot érint
+
+A DIMSZ–NMHH kutatás fontos társadalmi változásra világít rá.
+
+Az MI nem kizárólag az informatikai szakemberek vagy a fiatalabb generációk eszköze.
+
+A technológia az idősebb internetezők körében is jelentős használati arányt érhet el.
+
+Ez növeli az alábbi területek jelentőségét:
+
+- Digitális műveltség.
+- Információk hitelességének ellenőrzése.
+- Adatvédelem.
+- Online csalások felismerése.
+- Felhasználóbarát MI-alkalmazások.
+
+**A fő tanulság:** a magyar MI-stratégia társadalmi sikeréhez a technológiai hozzáférés mellett megfelelő felhasználói oktatás is szükséges.
+
+---
+
+## 5. A gyakorlati magyar MI-alkalmazásoknál az emberi felügyelet továbbra is fontos
+
+A MÁV tervezett drónrendszere jó példa a mesterséges intelligencia és az emberi döntéshozatal összekapcsolására.
+
+A technológia automatikusan felismerheti a veszélyes helyzeteket, de a tényleges intézkedést a biztonsági munkatársak végzik el.
+
+Ez a megközelítés más területeken is hasznos lehet:
+
+- Ipari biztonság.
+- Közlekedésfelügyelet.
+- Logisztika.
+- Egészségügyi döntéstámogatás.
+- Vállalati kockázatkezelés.
+
+**A fő tanulság:** a sikeres MI-automatizáció nem feltétlenül az ember teljes helyettesítését jelenti, hanem a gyorsabb felismerés és a megalapozottabb emberi beavatkozás támogatását.
+
+---
+
+# 🎯 ZÁRÓ ÉRTÉKELÉS
+
+| Kategória | A nap legfontosabb fejleménye |
+|---|---|
+| MI-infrastruktúra | Anthropic: 3,4 milliárd dolláros energiabeszerzési megállapodásról szóló értesülés |
+| Tudományos MI | Google DeepMind: gyorsabb RSA-kriptoanalízis |
+| Matematikai kutatás | PSI: géppel ellenőrzött bizonyítás a 2008-as Aaronson–Ambainis-sejtésre |
+| Kiberbiztonság | Microsoft: MI-ügynökök által gyorsított támadások |
+| Védekező MI | OpenAI–Hacktron biztonsági együttműködés |
+| MI-szabályozás | Trump nyitottságot jelzett bizonyos biztonsági követelményekre |
+| MI-gazdaság | Hétfő reggeli részvénypiaci fellendülés Ázsiában |
+| Magyar társadalmi MI | DIMSZ–NMHH: 42%-os MI-használat az idősebb internetezők vizsgált mintájában |
+| Magyar ipari MI | MÁV: új részletek a decemberi MI-dróntesztről |
+| Magyar pénzügyi MI | Portfolio: virtuális chatbot-befektetési verseny |
+| Magyar MI-oktatás | MIEF: az MI hatása a programozásra |
+
+---
+
+# 🧭 ÖSSZKÉP
+
+**2026. november 9-én a mesterséges intelligencia fejlődésének négy meghatározó iránya látható.**
+
+### 1. Tudományos képességek
+
+A fejlett MI-ügynökök egyre összetettebb matematikai és technológiai kutatási feladatokat tudnak támogatni.
+
+### 2. Energetikai és gazdasági infrastruktúra
+
+Az MI-adatközpontok működtetéséhez rendkívül nagy villamosenergia-kapacitás és hosszú távú pénzügyi elköteleződés szükséges.
+
+### 3. Biztonság és ellenőrizhetőség
+
+Az autonóm MI-ügynökök új lehetőségeket teremtenek, de a kiberbiztonsági támadások sebességét és összetettségét is növelhetik.
+
+### 4. Gyakorlati és társadalmi alkalmazás
+
+A magyar fejlemények azt mutatják, hogy az MI-használat egyre több korosztályt és szakmai területet érint.
+
+**Magyarország számára az egyik legfontosabb lehetőség a hazai mérnöki kompetenciák, a szakmai oktatás és a nemzetközi MI-technológiák összekapcsolása.**
+
+A következő években nem feltétlenül azok a szervezetek kerülnek versenyelőnybe, amelyek egyszerűen a legerősebb MI-modelleket használják.
+
+Legalább ilyen fontos lesz, hogy **képesek-e az MI-t ellenőrizhetően, biztonságosan, gazdaságosan és valódi társadalmi vagy üzleti értéket teremtve alkalmazni.**
+
+---
+
+## 📝 FORRÁSKEZELÉSI MEGJEGYZÉS
+
+Az összefoglaló a 2026. november 9-én reggel elérhető hivatalos kutatási közleményekre, technikai dokumentációkra, gazdasági beszámolókra és megbízható nemzetközi, illetve magyar sajtóforrásokra épül.
+
+**Frissesség:**
+
+- A nemzetközi hírek többsége november 6–9. között megjelent információkat tartalmaz.
+- A Google DeepMind eredményei november 5–6-i kutatási dokumentumokra épülnek.
+- Az Anthropic energiabeszerzéséről szóló megállapodás korábban született, de november 8-án került a nemzetközi sajtó figyelmébe.
+- A magyar hírek november 6–9. között közzétett közleményeket, új részleteket és aktuális eseményeket tartalmaznak.
+
+**Fontos értelmezési korlátok:**
+
+- Az Anthropic energiabeszerzési megállapodását a Financial Times értesüléseként kezeljük, amelyet a Reuters nem tudott függetlenül megerősíteni.
+- A Google DeepMind kriptográfiai eredményei nem jelentik a modern RSA-titkosítás feltörését.
+- A PSI matematikai bizonyítása nyilvános, de a független szakmai ellenőrzés még nem teljes.
+- A Microsoft kiberbiztonsági megfigyelései konkrét támadási esetekre vonatkoznak; nem bizonyítják, hogy minden vállalati rendszer öt perc alatt kompromittálható.
+- Az OpenAI–Hacktron együttműködés bejelentése nem jelent már igazolt új biztonsági eredményeket.
+- Az amerikai MI-szabályozással kapcsolatos elnöki nyilatkozat nem új jogszabály.
+- A hétfő reggeli tőzsdei adatok nem végleges napi záróértékek.
+- A magyar DIMSZ–NMHH kutatás az 50–79 éves internetezők mintájára vonatkozik, nem a teljes magyar lakosságra.
+- A Portfolio befektetési kísérlete virtuális portfóliókkal készült, nem igazolt, hosszú távon megismételhető befektetési stratégia.
+- A MÁV MI-drónrendszerének tényleges üzemi eredményei még nem ismertek.
+- Egyes nemzetközi gazdasági sajtóforrások előfizetéshez kötöttek.
+
+---
+
+**A mai kiadás legfontosabb üzenete: az MI-versenyben egyre hangsúlyosabb a tudományos kutatások automatizálása, az energiaellátás feletti ellenőrzés és az autonóm rendszerek biztonsága. Magyarország számára mindez új ipari, oktatási és társadalmi alkalmazási lehetőségeket teremt.**

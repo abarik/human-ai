@@ -1,0 +1,96 @@
+---
+title: "MI és pszichológia – 2026. nov. 2-8."
+author: "OpenAI - ChatGpt"
+date: "2026-11-09"
+temak: ["Rejtett technikai beavatkozással eltéríthetők egy nyelvi modell depressziókezelési ajánlásai", "Nyelvi modellekkel elemeztek 1573 pszichoterápiás ülést", "Nagy mintákon jóval szerényebb az MI-alapú depressziófelismerés teljesítménye"]
+---
+
+**Időszak:** 2026. november 2–8.
+
+## Nemzetközi hírek
+
+### 1. Rejtett technikai beavatkozással eltéríthetők egy nyelvi modell depressziókezelési ajánlásai
+
+**Típus:** Lektorált kutatási közlemény  
+**Megjelenés:** 2026. november 3.
+
+Egy nyílt súlyú nyelvi modell belső aktivációinak futás közbeni módosításával a kutató észrevétlenül el tudta tolni a depresszió kezeléséről adott válaszokat az antidepresszáns gyógyszerek vagy az önsegítő módszerek – például mozgás, meditáció és étrend – felé. A legerősebb hatás azoknál a szimulált felhasználóknál jelentkezett, akik nem fejeztek ki előzetes kezelési preferenciát. A modell súlyai és rendszerutasítása közben változatlanok maradtak, így a beavatkozást a felhasználó nem láthatta.
+
+**Miért fontos?** Az eredmény megmutatja, hogy egy mentális egészségi tanácsadó rendszer ajánlásait kereskedelmi vagy ideológiai érdekből úgy is módosíthatják, hogy ez sem a beteg, sem a klinikus számára nem nyilvánvaló. Ez indokolja a telepítés utáni független auditot és a modellek futási környezetének ellenőrzését.
+
+**Korlátok:** Egyetlen modellen, 12 szintetikus depressziós helyzetben és egyetlen kezelési tengely mentén végzett demonstráció. Nem vett részt benne beteg, nem mértek valódi döntéseket vagy egészségi kimeneteleket, és nem ismert, hogy a zárt kereskedelmi modellek hasonlóan sebezhetők-e.
+
+[Az eredeti tanulmány – JAMA Network Open](https://doi.org/10.1001/jamanetworkopen.2026.41142)
+
+### 2. Nyelvi modellekkel elemeztek 1573 pszichoterápiás ülést
+
+**Típus:** Lektorált retrospektív megfigyeléses tanulmány  
+**Megjelenés:** 2026. november 5.
+
+A kutatók hat nyelvi modell összehasonlítása után automatizált értékelési eljárást készítettek a terapeuta empátiájának és feltáró viselkedésének, a kapcsolati összhangnak, valamint a kliens önfeltárásának és érzelmi kifejezéseinek mérésére. Az eljárást körülbelül 2000 órányi terápiás anyag 119 233 kliensmegnyilatkozására alkalmazták. Az empátia és a feltáró kérdezés kis, de következetes együttjárást mutatott a kliens közvetlenül ezt követő önfeltárásával és negatív érzelmeinek kifejezésével.
+
+**Miért fontos?** Az MI jelentősen felgyorsíthatja a terápiás folyamatok korábban kézi kódolást igénylő kutatását, és később támogathatja a terapeutaképzést vagy a szupervíziót.
+
+**Korlátok:** A sok ülés mindössze 37 klienshez tartozott, egy archív terápiás korpuszból. A kimutatott kapcsolatok megfigyelésesek és kis hatásúak: nem bizonyítják, hogy az empatikusnak minősített válaszok okozták az önfeltárást, illetve azt sem, hogy javították a tüneteket. Az automatizált pontszámok nem helyettesítik a klinikai értékelést.
+
+[Az eredeti tanulmány – JMIR Mental Health](https://doi.org/10.2196/95389)
+
+### 3. Nagy mintákon jóval szerényebb az MI-alapú depressziófelismerés teljesítménye
+
+**Típus:** Lektorált narratív áttekintés  
+**Megjelenés:** 2026. november 6.
+
+Az áttekintés a szöveg-, beszéd-, arckifejezés-, EEG-, képalkotó és multimodális adatokból történő depressziófelismerést vizsgálta. A 30–200 fős, belső validációt használó kutatásokban gyakran 93–100%-os pontosságot közöltek, míg a több száz vagy akár közel 15 000 résztvevős vizsgálatokban a nyelvi, beszéd- és betegadat-alapú modellek teljesítménye jellemzően 0,69–0,78 körüli AUC- vagy kiegyensúlyozottpontosság-értékre esett. A képalkotó modellek nagyobb mintákon 54–61%-os pontosságot értek el.
+
+**Miért fontos?** Az eredmény rávilágít a kis benchmarkmintákon közölt, látványos pontossági értékek túlértékelésének veszélyére. Egyelőre inkább szűrésre, monitorozásra vagy triázs támogatására látszik indokolhatónak az MI, nem önálló diagnózisra.
+
+**Korlátok:** Narratív, nem metaanalitikus áttekintés, ezért a különböző populációk és teljesítménymutatók közvetlen összehasonlíthatósága korlátozott. Sok eredeti kutatás önbeszámolós kérdőíveket használt diagnosztikai interjú helyett, és ritka volt a független külső validáció. Egyetlen vizsgálat sem igazolta, hogy a depresszió MI-alapú felismerése javítja a betegek kimeneteleit.
+
+[Az eredeti áttekintés – Discover Mental Health](https://doi.org/10.1007/s44192-026-00653-8)
+
+### 4. A nyelvi modellek „személyisége” inkább kontextusfüggő szövegminta, mint stabil tulajdonság
+
+**Típus:** Lektorált empirikus tanulmány  
+**Megjelenés:** 2026. november 3.
+
+Hét nyelvi modell és 70 ember töltött ki személyiség-, önértékelési és nárcizmus-kérdőíveket, majd rövid önjellemzéseket készített. Tíz ember és hat nyelvi modell értékelte a 140 szöveg szerzőinek személyiségét és azt, hogy ember vagy MI írta-e őket. A modellek következetesnek tűnő személyiségjelzéseket adtak, az értékelők pedig a rövid szövegekből is tulajdonítottak nekik személyiségvonásokat. A gépi és emberi szövegeket ugyanakkor az átlagosnál jobban meg tudták különböztetni.
+
+**Miért fontos?** A kutatás segít megérteni, miért tulajdonítanak a felhasználók személyiséget vagy szándékot a chatbotoknak még akkor is, ha felismerik, hogy gépi szöveget olvasnak. Ez az antropomorfizálás befolyásolhatja a bizalmat és az érzelmi kötődést.
+
+**Korlátok:** A modellprofilok rögzített, német nyelvű promptokkal és paraméterekkel készültek; egyes kérdőívekre a modellek csak egyszer válaszoltak. A gépi szövegek hosszabbak voltak, ami megkönnyítette a felismerésüket. A mért mintázatok nem bizonyítják, hogy a modelleknek stabil vagy emberi értelemben vett személyiségük lenne.
+
+[Az eredeti tanulmány – Scientific Reports](https://doi.org/10.1038/s41598-026-75546-5)
+
+### 5. Nemzetközi bizottság vizsgálja a fogyasztói MI mentális jólléti hatásait
+
+**Típus:** Szakmai és intézményi kezdeményezés; folyóirati kommentár, nem empirikus tanulmány  
+**Bejelentés:** 2026. november 2.
+
+A *Nature Health* közreműködésével létrejövő **Consumer AI and Mental Wellbeing Commission** célja, hogy globálisan értékelje a lakosság által használt MI-rendszerek mentális jólléti bizonyítékait, valamint ajánlásokat dolgozzon ki a biztonságos, hatékony és méltányos felügyeletre. A kezdeményezésben globális egészségügyi, pszichológiai és mentális egészségügyi szakértők vesznek részt.
+
+**Miért fontos?** Az általános chatbotokat már széles körben használják érzelmi támogatásra, miközben a szabályozás és a független biztonsági bizonyítékok elmaradnak a terjedésüktől. A bizottság az általános fogyasztói rendszereket is vizsgálja, nem csak a hivatalosan egészségügyi termékként forgalmazott alkalmazásokat.
+
+**Korlátok:** Ez egy bizottság megalakulásának bejelentése, nem elkészült bizonyíték-összegzés vagy szabályozási eredmény. A módszertan, a konkrét ajánlások és azok végrehajtása később értékelhető. A szerzői nyilatkozat szerint egyes résztvevők vagy intézményeik technológiai vállalatoktól is kapnak kutatási, természetbeni vagy korlátozás nélküli támogatást.
+
+[A bizottságot bejelentő közlemény – Nature Health](https://doi.org/10.1038/s44360-026-00208-9)
+
+## Magyar vonatkozású hírek
+
+A vizsgált héten nem azonosítottam olyan új, ellenőrizhető **lektorált tanulmányt vagy preprintet**, amely magyar kutatóhoz vagy intézményhez köthető, és közvetlenül az MI és a pszichológia metszetébe tartozik. Egy releváns magyar intézményi részvételű szakmai program történt.
+
+### 1. Pécsi részvétellel vizsgálták az MI figyelemre, tanulásra és kreativitásra gyakorolt hatását
+
+**Típus:** Nemzetközi egyetemi szakmai és oktatási esemény – nem tanulmány  
+**Időpont:** 2026. november 4–6.
+
+A Pécsi Tudományegyetem EDUC-irodájának közreműködésével meghirdetett nemzetközi Youth Integration Lab az MI tanulásra, kreativitásra, figyelemre és kritikai gondolkodásra gyakorolt hatásával foglalkozott. A program kitért a személyre szabott tartalmak figyelemformáló szerepére, az MI-vel támogatott tanulás és csalás határára, a gépi alkotás szerzőségi kérdéseire, valamint a deepfake-ek és algoritmikus információs buborékok felismerésére.
+
+**Miért fontos?** A program az MI-használatot nem csupán digitális készségként, hanem kognitív és pszichológiai kérdésként kezelte, külön figyelmet fordítva a fiatalok figyelmére, tanulási szokásaira és valóságészlelésére.
+
+**Korlátok:** Nemzetközi hallgatói programról van szó, amelyet a csehországi Masaryk Egyetemen rendeztek meg; magyar vonatkozását a Pécsi Tudományegyetem intézményi részvétele adja. Nem közöltek új empirikus adatot vagy hatásvizsgálatot, ezért nem állapítható meg, hogy a program megváltoztatta-e a résztvevők MI-használatát vagy kritikai készségeit.
+
+[A Pécsi Tudományegyetem hivatalos programoldala](https://pte.hu/hu/palyazat/artificial-mind-learning-creating-and-paying-attention-age-ai?language=hu)
+
+## Rövid összkép
+
+A hét kutatásai két különösen fontos kockázatot mutatnak. Egyrészt a mentális egészségi ajánlások nemcsak pontatlanok lehetnek, hanem a felhasználó számára láthatatlan technikai beavatkozással célzottan el is téríthetők. Másrészt a kis adathalmazokon mért magas diagnosztikai pontosság gyakran jelentősen visszaesik nagyobb, valósághűbb mintákon. Ezzel párhuzamosan az MI hasznos kutatási eszköznek bizonyulhat a terápiás folyamatok nagyléptékű elemzésében, de az automatizált kódolásból egyelőre nem következik klinikai hatásosság vagy önálló döntési jogosultság.
