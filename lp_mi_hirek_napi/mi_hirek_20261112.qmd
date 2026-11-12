@@ -1,0 +1,727 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. november 12."
+author: "OpenAI - ChatGpt"
+date: "2026-11-12"
+temak: ["Google DeepMind: megjelent az AlphaGenome 2, amely sejtszinten segíthet megérteni a genetikai betegségeket", "Anthropic: a befektetői kereslet miatt 1500 milliárd dollár fölé emelkedhet a tőzsdei értékeltség", "OpenAI: 10 milliárd dolláros negyedéves bevétel mellett 10,9 milliárd dolláros korrigált működési veszteségről érkezett beszámoló"]
+---
+
+**Hírlezárás:** 2026. november 12., reggel (CET)  
+**Vizsgált időszak:** Elsősorban 2026. november 10–12.  
+**Tartalom:** 7 nemzetközi hír + 4 magyar vonatkozás  
+**Fő források:** Google DeepMind, Financial Times, Reuters, The Wall Street Journal, CoreWeave, New York állam hivatalos közleményei, The Verge, Business Insider, Országos Korányi Pulmonológiai Intézet, ELTE, ICT Global és Portfolio.
+
+---
+
+# 📌 VEZETŐI ÖSSZEFOGLALÓ
+
+A mai mesterségesintelligencia-hírekben négy meghatározó fejlemény emelkedik ki.
+
+**1. A Google DeepMind új MI-modellt mutatott be a betegségek genetikai hátterének kutatására.**
+
+Az AlphaGenome 2 több mint 100 millió sejtprofil alapján képes előre jelezni, hogyan befolyásolják a DNS genetikai változatai a különböző sejttípusok működését. A fejlesztés új lehetőségeket teremthet a betegségmechanizmusok feltárásában és a gyógyszerkutatásban.
+
+**2. A frontier-MI vállalatok pénzügyi teljesítménye egyre nagyobb figyelmet kap.**
+
+A Financial Times szerint az Anthropic részvénykibocsátásának értékeltségét a jelentős befektetői kereslet miatt akár 1500 milliárd dollár fölé is emelhetik. Az OpenAI ezzel szemben a sajtóban ismertetett adatok szerint 10 milliárd dolláros negyedéves bevétele mellett 10,9 milliárd dolláros korrigált működési veszteséget mutatott ki.
+
+**3. Az MI-infrastruktúra gyors növekedése mellett a finanszírozási kockázatok is jelentősek.**
+
+A CoreWeave negyedéves árbevétele közel 170%-kal nőtt, miközben a vállalat jelentős veszteséget és rendkívül magas beruházási igényt jelentett. A piac továbbra is azt vizsgálja, hosszabb távon milyen megtérülést biztosítanak a hatalmas adatközponti beruházások.
+
+**4. Magyarországon az egészségügyi MI és a gyakorlati vállalati alkalmazások kerülnek előtérbe.**
+
+Az Országos Korányi Pulmonológiai Intézetben már több mint 40 ezer mellkasröntgen-felvétel értékelését támogatta MI-rendszer az év első tizenegy hónapjában. Ma Siófokon a Future IT, Budapesten pedig két szakmai konferencia foglalkozik az MI gyakorlati, jogi és ipari alkalmazásával.
+
+**A nap legfontosabb üzenete:** az MI fejlődése egyszerre gyorsítja a tudományos kutatást, növeli a számítási infrastruktúra iránti keresletet, és új gazdasági, jogi, illetve biztonsági követelményeket teremt.
+
+---
+
+# 🌍 NEMZETKÖZI MI-HÍREK
+
+## 1. Google DeepMind: megjelent az AlphaGenome 2, amely sejtszinten segíthet megérteni a genetikai betegségeket
+
+**Dátum:** 2026. november 11.  
+**Kategória:** Tudományos MI, genomika, egészségügyi kutatás  
+**Jelentőség:** 🔴 KIEMELT
+
+A Google DeepMind bemutatta **AlphaGenome 2** nevű új kutatási modelljét.
+
+A rendszer azt vizsgálja, hogyan befolyásolják a DNS különböző változatai a gének működését az egyes emberi sejttípusokban.
+
+### A legfontosabb technológiai adatok
+
+| Mutató | AlphaGenome 2 |
+|---|---|
+| Tanításhoz használt sejtprofilok | Több mint 100 millió |
+| Vizsgált szövetek | 68 |
+| Vizsgálati megközelítés | Sejttípus- és állapotfüggő predikció |
+| Korábbi modellhez viszonyított előrelépés | Közel kétszer annyi génexpressziót befolyásoló variáns azonosítása |
+| Hozzáférés | API nem kereskedelmi kutatásra |
+
+A modell egyik legfontosabb újítása, hogy nemcsak általános genetikai hatásokat becsül, hanem adott sejttípusokra és biológiai állapotokra is képes előrejelzéseket készíteni.
+
+A kutatók saját egysejtes génexpressziós adataikat is felhasználhatják a modell alkalmazásakor.
+
+Ez különösen hasznos lehet a betegségek kialakulásának, a gyógyszeres kezelések sejtszintű hatásainak és a genetikai változatok működésének vizsgálatában.
+
+### Miért lényeges?
+
+A betegségek genetikai hátterének egyik fontos problémája, hogy ugyanaz a DNS-változat különböző sejtekben eltérő hatást fejthet ki.
+
+Az AlphaGenome 2 segítheti a kutatókat annak megértésében, mely sejttípusokban és milyen mechanizmusokon keresztül jelentkeznek ezek a hatások.
+
+**A fő tanulság:** a tudományos MI egyre inkább a biológiai folyamatok részletes modellezése felé fejlődik.
+
+A fejlesztés fontos lehet a gyógyszerkutatásban és a személyre szabott orvoslás hosszabb távú fejlődésében.
+
+**Fontos:** a modell kutatási predikciókat készít. Nem önálló klinikai diagnosztikai eszköz, és az előrejelzéseket kísérleti adatokkal szükséges ellenőrizni.
+
+**Források:**
+
+[Google DeepMind – AlphaGenome 2: Deciphering how cells read DNA to better understand disease](https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/)
+
+[Google DeepMind – AlphaGenome hivatalos kutatási és modelloldal](https://deepmind.google/science/alphagenome/)
+
+[The Verge – Google DeepMind's AlphaGenome 2 genetic AI model](https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model)
+
+---
+
+## 2. Anthropic: a befektetői kereslet miatt 1500 milliárd dollár fölé emelkedhet a tőzsdei értékeltség
+
+**Dátum:** 2026. november 11.  
+**Kategória:** MI-gazdaság, Anthropic, tőkepiac  
+**Jelentőség:** 🔴 KIEMELT
+
+A Financial Times friss beszámolója szerint az Anthropic tőzsdei bevezetését szervező bankok fontolgatják a részvények eredetileg meghirdetett árának megemelését.
+
+A Claude fejlesztője november 10-én kezdte meg befektetői bemutatókörútját.
+
+### A legfontosabb adatok
+
+| Mutató | Érték vagy terv |
+|---|---:|
+| Eredetileg meghirdetett ársáv | 70–78 USD/részvény |
+| Korábban célzott vállalatértékeltség | Kb. 1400 milliárd USD |
+| Lehetséges új vállalatértékeltség | 1500 milliárd USD vagy magasabb |
+| Eredetileg tervezett részvényértékesítés | Kb. 64 milliárd USD-ig |
+| Külön stratégiai befektetői elhelyezés | Kb. 26 milliárd USD |
+
+A Financial Times szerint a rendkívül erős intézményi befektetői érdeklődés vezethet az árazás módosításához.
+
+A vállalat számára különösen fontos a tőkebevonás, mert hosszabb távon rendkívül jelentős számítási-infrastrukturális beruházások finanszírozásával számol.
+
+### Miért lényeges?
+
+Az Anthropic tervezett részvénykibocsátása az MI-iparág egyik legnagyobb pénzügyi eseménye lehet.
+
+A befektetőknek lehetőségük nyílhat részletesebben megvizsgálni, hogyan viszonyul egymáshoz a frontier-modellek gyors bevételnövekedése és az infrastruktúra fejlesztésének költsége.
+
+**A fő kérdés:** képesek lesznek-e a fejlett MI-modellek tartósan akkora bevételt és nyereséget termelni, amely igazolja a rendkívül magas vállalatértékeltségeket?
+
+**Fontos pontosítás:** az 1500 milliárd dollár fölötti értékeltség jelenleg a Financial Times által ismertetett lehetséges forgatókönyv, nem végleges kibocsátási ár.
+
+**Források:**
+
+[Financial Times – Anthropic bankers prepare to increase IPO valuation to $1.5tn or more](https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e)
+
+[Associated Press – Anthropic seeks valuation of about $1.3 trillion](https://apnews.com/article/8cf2319c870322019712ab658f71ec55)
+
+---
+
+## 3. OpenAI: 10 milliárd dolláros negyedéves bevétel mellett 10,9 milliárd dolláros korrigált működési veszteségről érkezett beszámoló
+
+**Eredeti beszámoló:** 2026. november 10.  
+**Friss piaci értékelések:** november 11–12.  
+**Kategória:** MI-gazdaság, OpenAI, üzleti fenntarthatóság  
+**Jelentőség:** 🔴 KIEMELT
+
+A The Wall Street Journal által látott befektetői dokumentumok szerint az OpenAI harmadik negyedéves bevétele körülbelül **10 milliárd dollárra emelkedett**.
+
+Ez hozzávetőleg 50%-os növekedést jelent az előző negyedévhez képest.
+
+A vállalat ugyanakkor továbbra is jelentős korrigált működési veszteséget mutatott ki.
+
+### A pénzügyi adatok
+
+| Mutató | 2026. II. negyedév | 2026. III. negyedév |
+|---|---:|---:|
+| Árbevétel | Kb. 6,7 milliárd USD | Kb. 10 milliárd USD |
+| Korrigált működési veszteség | 10,1 milliárd USD | 10,9 milliárd USD |
+| Korrigált működési eredményhányad | -150% | -109% |
+
+Az adatok alapján a bevételek gyorsabban növekedtek, mint a korrigált működési veszteség.
+
+A veszteség abszolút összege azonban tovább emelkedett.
+
+### Miért lényeges?
+
+Ez az egyik legfontosabb fejlemény a frontier-MI üzleti modelljének megértéséhez.
+
+Az MI-szolgáltatások iránti kereslet rendkívül gyorsan növekedhet, miközben a modellek fejlesztése és működtetése hatalmas költségekkel jár.
+
+A vállalatoknak egyszerre kell finanszírozniuk:
+
+- A modelltréninget.
+- A számítási infrastruktúrát.
+- A felhasználói lekérdezések kiszolgálását.
+- A kutatás-fejlesztést.
+- A biztonsági rendszereket.
+
+**A fő tanulság:** a gyors árbevétel-növekedés önmagában még nem jelent tartós nyereségességet.
+
+**Fontos:** az adatok sajtóban ismertetett belső befektetői dokumentumokon alapulnak. A korrigált működési veszteség nem azonos a nettó eredménnyel vagy a teljes készpénzfelhasználással, és nem feltétlenül összehasonlítható más vállalatok eltérő számviteli módszereivel.
+
+**Források:**
+
+[Reuters – OpenAI posts steep losses even as quarterly revenue rises to $10 billion, WSJ reports](https://www.investing.com/news/stock-market-news/openai-posts-steep-losses-even-as-quarterly-revenue-rises-to-10-billion-wsj-reports-5017353)
+
+[The Wall Street Journal – OpenAI Continues to Suffer Heavy Losses as Revenue Rises to $10 Billion](https://www.wsj.com/business/earnings/openai-continues-to-suffer-heavy-losses-as-revenue-rises-to-10-billion-d2a96bbb)
+
+---
+
+## 4. CoreWeave: közel 170%-os bevételnövekedés, de továbbra is jelentős az MI-infrastruktúra finanszírozási igénye
+
+**Pénzügyi jelentés:** 2026. november 10.  
+**Piaci reakció:** 2026. november 11.  
+**Kategória:** MI-adatközpontok, felhőszolgáltatások, finanszírozás  
+**Jelentőség:** 🔴 KIEMELT
+
+A CoreWeave közzétette harmadik negyedéves pénzügyi eredményeit.
+
+A kifejezetten MI-számítási kapacitásokat értékesítő felhőszolgáltató **3,66 milliárd dolláros negyedéves árbevételt** ért el.
+
+Ez közel 168%-os éves növekedés.
+
+### Fontosabb pénzügyi mutatók
+
+| Mutató | Eredmény |
+|---|---:|
+| Negyedéves árbevétel | 3,66 milliárd USD |
+| Éves árbevétel-növekedés | Kb. +168% |
+| Negyedéves nettó veszteség | 709 millió USD |
+| Szerződéses bevételi állomány | 132,5 milliárd USD |
+| Aktív elektromos kapacitás | Több mint 1,7 GW |
+| 2026-os árbevételi előrejelzés | 13,0–13,3 milliárd USD |
+| 2026-ra tervezett beruházások | 37–39 milliárd USD |
+
+A vállalat szerint a számítási kapacitásai iránti kereslet továbbra is rendkívül magas.
+
+A jelentés hatására a CoreWeave részvényei november 11-én közel 25%-kal emelkedtek.
+
+### Miért lényeges?
+
+A CoreWeave az MI-adatközponti beruházások gazdaságosságának egyik legfontosabb piaci példája.
+
+A vállalat gyorsan növekvő bevétellel és jelentős ügyfélszerződésekkel rendelkezik, de a kapacitások bővítése rendkívül költséges.
+
+Különösen fontos tényezők:
+
+- A hitelfinanszírozás költsége.
+- Az adatközpontok építési és üzembe helyezési üteme.
+- A számítási kapacitások tényleges kihasználtsága.
+- A hosszú távú ügyfélszerződések teljesítése.
+
+**A fő tanulság:** az MI-infrastruktúrába irányuló beruházások megtérülését egyre szigorúbban vizsgálják a befektetők.
+
+A 132,5 milliárd dolláros szerződésállomány nem már realizált árbevétel. A jövőbeli teljesítéshez szükséges kapacitások rendelkezésre állásától is függ.
+
+**Források:**
+
+[CoreWeave – Hivatalos 2026. harmadik negyedéves pénzügyi jelentés](https://www.nasdaq.com/press-release/coreweave-reports-strong-third-quarter-2026-results-2026-11-10)
+
+[The Wall Street Journal – CoreWeave Meets Wall Street Expectations, Shares Rise](https://www.wsj.com/business/earnings/coreweave-crwv-3q-2026-earnings-report-stock-9c109753)
+
+---
+
+## 5. New York állam: megnyílt a fejlett MI-modellek fejlesztőinek kötelező regisztrációs rendszere
+
+**Bejelentés:** 2026. november 10.  
+**Friss szakmai beszámolók:** november 11.  
+**Kategória:** MI-szabályozás, modellbiztonság, független ellenőrzés  
+**Jelentőség:** 🔴 KIEMELT
+
+New York állam megnyitotta a **RAISE Act** végrehajtásához kapcsolódó regisztrációs portált a legfejlettebb MI-modellek nagy fejlesztői számára.
+
+A szabályozás fontosabb követelményei 2027. január 1-jétől válnak alkalmazandóvá.
+
+### Az új követelmények
+
+**Kötelező regisztráció**
+
+Az érintett nagy modellfejlesztőknek 2027. január 1-jéig regisztrálniuk kell a hatósági rendszerben.
+
+**Nyilvános biztonsági keretrendszerek**
+
+A fejlesztőknek dokumentálniuk kell, hogyan értékelik és kezelik a modellek súlyos kockázatait.
+
+**Incidensjelentés**
+
+A kritikus biztonsági incidenseket főszabály szerint 72 órán belül jelenteni kell.
+
+**Modellátláthatóság**
+
+A szabályozás a modellekre vonatkozó nyilvános tájékoztatást is előírja.
+
+### Új kutatási központ
+
+Kathy Hochul kormányzó bejelentette a **New York Center for AI Responsibility and Research** létrehozását is.
+
+A Binghamton Universityn működő központ több mint 80 kutatót kíván bevonni a fejlett MI-rendszerek független biztonsági vizsgálatába.
+
+### Miért lényeges?
+
+Ez fontos lépés az amerikai MI-szabályozás gyakorlati végrehajtásában.
+
+A legfejlettebb modelleket fejlesztő vállalatok működése egyre részletesebb biztonsági és átláthatósági kötelezettségekkel járhat.
+
+**A fő tanulság:** az MI-rendszerek biztonsági ellenőrzése fokozatosan intézményesül, és a fejlesztők saját értékelése mellett egyre nagyobb szerepet kaphat a független vizsgálat.
+
+**Fontos:** a regisztrációs portál már megnyílt, de a fő szabályozási kötelezettségek 2027. január 1-jétől alkalmazandók.
+
+**Források:**
+
+[New York állam / SUNY – Governor Hochul Declares NY Will Lead the Nation in AI Science and Safety](https://www.suny.edu/suny-news/press-releases/11-26/11-10-26-2/)
+
+[New York RAISE Act – A regisztráció és a biztonsági követelmények áttekintése](https://www.tokenpost.com/news/regulation/54396)
+
+---
+
+## 6. eBay: akadályokba ütköznek a külső MI-vásárlóügynökök
+
+**Dátum:** 2026. november 10.  
+**Kategória:** MI-ügynökök, e-kereskedelem, digitális platformok  
+**Jelentőség:** 🟠 FONTOS
+
+A The Verge vizsgálata szerint az eBay korlátozhatta egyes külső MI-ügynökök hozzáférését a piactér terméklistáihoz.
+
+A beszámoló szerint a Meta Muse MI-asszisztense korábban képes volt eBay-termékeket keresni és a felhasználóknak ajánlatokat összegyűjteni.
+
+A közelmúltban azonban egyes keresések már nem működtek megfelelően.
+
+A The Verge újságírói több esetben reprodukálták a problémát.
+
+### Mi állhat a háttérben?
+
+Az online kereskedők eltérően viszonyulnak a külső MI-ügynökökhöz.
+
+- Az Amazon jelentősen korlátozza a külső ügynökök hozzáférését.
+- Az eBay szelektíven engedélyezi a harmadik felek automatizált hozzáférését.
+- A Shopify több megoldással támogatja az MI-ügynökök által végzett vásárlási folyamatokat.
+
+Az eBay szóvivője nem erősítette meg egyértelműen, hogy új általános tiltást vezettek volna be, de jelezte, hogy bizonyos jogosulatlan automatizált hozzáféréseket korlátoznak.
+
+### Miért lényeges?
+
+Az autonóm MI-ügynökök egyik legígéretesebb alkalmazása az online vásárlás és ügyintézés automatizálása.
+
+Ehhez azonban szükség van a külső weboldalak és szolgáltatások együttműködésére.
+
+A kereskedők számára fontos kérdés, hogy:
+
+- Ki férhet hozzá automatizáltan a termékadatokhoz?
+- Ki jogosult vásárlást indítani?
+- Hogyan kerülhetők el a botokkal kapcsolatos visszaélések?
+- Ki felel a hibás vagy jogosulatlan tranzakciókért?
+
+**A fő tanulság:** az autonóm MI-ügynökök elterjedésének egyik legfontosabb akadálya nem feltétlenül a modellek képessége, hanem a digitális szolgáltatásokkal való biztonságos együttműködés.
+
+**Forrás:**
+
+[The Verge – eBay appears to have shut the door on third-party AI agents](https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping)
+
+---
+
+## 7. Google: Hydrogen néven új, gyors és költséghatékony Gemini-modellt tesztelnek
+
+**Sajtóbeszámoló:** 2026. november 11.  
+**Kategória:** MI-modellek, modellköltségek, fejlesztői eszközök  
+**Jelentőség:** 🟠 FONTOS
+
+A Business Insider értesülése szerint a Google belső tesztelésre elérhetővé tett egy **Hydrogen** kódnevű új Gemini-modellt.
+
+A rendszer a beszámoló szerint elsősorban gyors és energia-, illetve költséghatékony feladatvégzésre készült.
+
+A vállalat munkatársai a Google belső Jetski fejlesztői platformján keresztül próbálhatják ki.
+
+### A tervezett fejlesztési irány
+
+A Hydrogen működése a Business Insider forrásai szerint a korábbi Gemini Flash modellekhez áll közel.
+
+Ez a modellkategória jellemzően:
+
+- Gyorsabb válaszidőt kínál.
+- Alacsonyabb működési költségre optimalizált.
+- Nagy mennyiségű egyszerűbb feladatot kezel.
+- Vállalati automatizációban és MI-ügynökökben használható.
+
+A Hydrogen a Google nagyobb teljesítményű Gemini-modelljeinek költséghatékony alternatívája lehet.
+
+### Miért lényeges?
+
+A vállalati MI-használat terjedésével egyre fontosabb, hogy az egyszerűbb feladatokhoz ne kelljen mindig a legnagyobb és legdrágább modelleket használni.
+
+A kisebb modellek jelentős költségelőnyt biztosíthatnak:
+
+- Ügyfélszolgálati automatizációban.
+- Dokumentumfeldolgozásban.
+- Tömeges tartalomelemzésben.
+- Vállalati MI-ügynökök működtetésében.
+
+**A fő tanulság:** a modellfejlesztők a legnagyobb teljesítményű rendszerek mellett a gyorsabb és olcsóbb modellek piacán is intenzíven versenyeznek.
+
+**Fontos pontosítás:** a Hydrogen jelenleg a Business Insider által ismertetett belső tesztelés alatt áll. Nem történt hivatalos nyilvános modellbevezetés, és a Google nem kommentálta részletesen az értesülést.
+
+**Forrás:**
+
+[Business Insider – Google is letting staff test a fast new Gemini AI model named Hydrogen](https://www.businessinsider.com/google-hydrogen-test-new-gemini-4-flash-model-ai-2026-11)
+
+---
+
+# 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+*A magyar válogatás egy konkrét egészségügyi MI-alkalmazás frissen közölt eredményét és három november 12-i szakmai eseményt tartalmaz. A rendezvényeknél a hivatalosan meghirdetett programokat ismertetjük, nem későbbi, még nem igazolt eredményeket.*
+
+## 1. Országos Korányi Pulmonológiai Intézet: több mint 40 ezer mellkasröntgen elemzését támogatta az MI
+
+**Közlemény:** 2026. november 7.  
+**Alkalmazás kezdete:** 2025. november  
+**Kategória:** Magyar egészségügyi MI, radiológia, diagnosztikai döntéstámogatás  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+Az Országos Korányi Pulmonológiai Intézet (OKPI) beszámolt a mesterséges intelligenciával támogatott mellkasröntgen-értékelés gyakorlati alkalmazásáról.
+
+Az intézet szerint **2026 januárja és novembere között több mint 40 ezer mellkasröntgen-felvételt** dolgoztak fel MI-támogatással.
+
+A rendszer 2025 novembere óta működik.
+
+### Hogyan használják az MI-t?
+
+Az intézetben alkalmazott **Carebot AI CXR** rendszer automatikusan elemzi a mellkasröntgen-felvételeket.
+
+Az algoritmus megjelöli a képeken azokat a területeket, ahol további szakmai figyelmet igénylő eltérések lehetnek.
+
+A radiológus a rendszer jelzéseit figyelembe véve, de önálló szakmai felelősséggel értékeli a felvételeket.
+
+A további vizsgálatokról az orvosok döntenek a beteg tünetei, kórtörténete és egyéb eredményei alapján.
+
+### Miért lényeges?
+
+Ez az egyik legfontosabb konkrét hazai egészségügyi MI-alkalmazás.
+
+Az ilyen rendszerek támogathatják:
+
+- A gyanús radiológiai eltérések felismerését.
+- A nagy képanyag feldolgozását.
+- A diagnosztikai munkafolyamatokat.
+- Az orvosi döntés-előkészítést.
+
+**A fő tanulság:** a mesterséges intelligencia már a magyar egészségügyi intézmények mindennapi diagnosztikai munkájában is megjelenik.
+
+**Fontos:** a mellkasröntgen MI-alapú elemzése nem helyettesíti a tüdőrákszűrésre alkalmas, részletesebb CT-vizsgálatot, és nem jelenti azt, hogy az MI önállóan állít fel diagnózist.
+
+**Forrás:**
+
+[Országos Korányi Pulmonológiai Intézet – Mesterséges intelligencia is segíti a mellkasröntgenek értékelését](https://mti.hu/nemzeti-kozlemenytar/2026/11/07/mesterseges-intelligencia-segiti-mellkasrontgenek-ertekeleset)
+
+---
+
+## 2. Ma zárul Siófokon a Future IT 2026 – külön színpad foglalkozik az MI vállalati alkalmazásaival
+
+**Időpont:** 2026. november 10–12.  
+**Helyszín:** Hotel Azúr, Siófok  
+**Kategória:** Magyar vállalati MI, IT-stratégia, kiberbiztonság  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+Ma zárul az ICT Global által szervezett **Future IT 2026** konferencia.
+
+A háromnapos rendezvény a vállalati informatikai rendszerek, a kiberbiztonság és a mesterséges intelligencia gyakorlati alkalmazásának kapcsolatát vizsgálja.
+
+A konferencia külön MI-színpadot is biztosít, **AI Stage by SERCO** néven.
+
+### Kiemelt MI-témák
+
+**Vállalati MI-használat**
+
+A programban szó esik a magyar MI-felhasználók szokásairól, bizalmáról és a technológiával kapcsolatos kockázatokról.
+
+**Kisebb, specializált MI-modellek**
+
+Az egyik előadás azt vizsgálja, mikor gazdaságosabb egy kisebb, adott vállalati feladatra szabott modell használata.
+
+**MI-kiberbiztonság**
+
+A konferencia foglalkozik az MI-vel támogatott támadások és az automatizált védekezés kérdéseivel.
+
+**Saját vállalati adatok**
+
+A programban a szervezeti adatokra épülő, ellenőrizhető és helyben vagy ellenőrzött környezetben működtetett MI-megoldások is szerepelnek.
+
+### Miért lényeges?
+
+A magyar vállalatoknál az MI bevezetésének egyik fontos kérdése a technológia gazdaságos és biztonságos alkalmazása.
+
+Nem minden feladat igényli a legdrágább, legnagyobb teljesítményű modellt.
+
+Sok esetben értékesebb lehet egy kisebb, gyorsabb és pontosan körülhatárolt vállalati feladatra kialakított rendszer.
+
+**A fő tanulság:** a vállalati MI-fejlődésben a modellválasztás, az adatbiztonság és a mérhető üzleti megtérülés egyre fontosabb szerepet kaphat.
+
+**Fontos:** a program egyes teljesítmény- és felhasználási állításai előadói értékelések; nem tekinthetők automatikusan független kutatási eredményeknek.
+
+**Források:**
+
+[ICT Global – Future IT 2026, hivatalos konferenciaprogram](https://konferencia.ictglobal.hu/e/future-it-2026/agenda)
+
+[ICT Global – Future IT 2026 eseményoldal](https://ictglobal.hu/esemenynaptar/future-it-2026/)
+
+---
+
+## 3. ELTE: ma konferenciát tartanak az MI fenntartható és jogszerű használatáról a jogi munkában
+
+**Dátum:** 2026. november 12., 10:00–12:30  
+**Helyszín:** ELTE TK Jogtudományi Kutatóintézet, Budapest  
+**Kategória:** Magyar MI-jog, közigazgatás, szakmai etika  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+Az ELTE Társadalomtudományi Kutatóközpont Jogtudományi Kutatóintézetében ma rendezik meg a **„Fenntartható mesterséges intelligencia használat a jogi munkában”** című konferenciát.
+
+A rendezvényt az MTA/ELTE Algoritmikus Alkotmányosság Lendület Kutatócsoport közreműködésével szervezik.
+
+### A program kiemelt témái
+
+**Jogi felelősség és MI**
+
+Hogyan lehet összeegyeztetni a mesterséges intelligencia alkalmazását a jogbiztonsággal és a szakmai felelősséggel?
+
+**Technológiai kompetencia**
+
+Milyen MI-ismeretekre van szüksége egy jogásznak az eszközök felelős használatához?
+
+**MI a hatósági tájékoztatásban**
+
+Milyen lehetőségeket és veszélyeket jelentenek a közigazgatási chatbotok?
+
+**MI a bűnmegelőzésben**
+
+Milyen jogi és technikai korlátok mellett alkalmazhatók az automatizált elemzőrendszerek?
+
+**Szerzői és alkotói kérdések**
+
+Hogyan befolyásolja a generatív MI a jogi kutatást, az önálló gondolatalkotást és az információfeldolgozást?
+
+### Miért lényeges?
+
+A jogi és közigazgatási MI-alkalmazások különösen nagy megbízhatóságot igényelnek.
+
+Egy hibásan generált jogszabályhivatkozás vagy félrevezető hatósági tájékoztatás jelentős következményekkel járhat.
+
+**A fő tanulság:** a jogi MI-rendszerek biztonságos alkalmazásához nemcsak megfelelő technológiára, hanem szakmai ellenőrzésre, átláthatóságra és egyértelmű felelősségi szabályokra is szükség van.
+
+A konferencia meghirdetett szakmai program, a mai előadások végleges következtetései a reggeli hírlezáráskor még nem ismertek.
+
+**Forrás:**
+
+[ELTE TK Jogtudományi Kutatóintézet – Fenntartható mesterséges intelligencia használat a jogi munkában](https://jog.tk.elte.hu/esemeny/2026/10/konferencia-fenntarthato-mesterseges-intelligencia-hasznalat)
+
+---
+
+## 4. Ma Budapesten: Future of Construction 2026 – MI, digitális építés és hatékonyabb építőipari működés
+
+**Dátum:** 2026. november 12.  
+**Helyszín:** Budapest Marriott Hotel  
+**Kategória:** Magyar építőipar, MI, digitális ikrek, vállalati automatizáció  
+**Jelentőség:** 🟠 FONTOS MAGYAR VONATKOZÁS
+
+Ma rendezik meg a Portfolio **Future of Construction 2026** konferenciáját.
+
+Az esemény a magyar építőipar digitális és technológiai átalakulására koncentrál.
+
+A mesterséges intelligencia mellett fontos témák a BIM-alapú tervezés, a fenntarthatóság, az iparosított építés és az adatalapú projektmenedzsment.
+
+### A legfontosabb MI-alkalmazási lehetőségek
+
+**Tervezési optimalizáció**
+
+Az MI támogathatja a mérnöki tervek és építési alternatívák elemzését.
+
+**Projektkockázatok előrejelzése**
+
+Az adatvezérelt modellek segíthetnek a várható költségtúllépések és késedelmek azonosításában.
+
+**BIM és digitális ikrek**
+
+Az épületek és építési folyamatok digitális reprezentációja lehetőséget teremthet az MI-alapú szimulációra és ellenőrzésre.
+
+**Automatizált dokumentumfeldolgozás**
+
+A technológia csökkentheti a szerződések, műszaki dokumentációk és jelentések kezeléséhez szükséges adminisztratív munkát.
+
+### Miért lényeges?
+
+A magyar építőipar termelékenységének javítása jelentős gazdasági lehetőség.
+
+Az MI támogatást nyújthat a projektek hatékonyabb tervezésében és ellenőrzésében, különösen akkor, ha megfelelő digitális adatok állnak rendelkezésre.
+
+**A fő tanulság:** az MI az építőiparban is komoly fejlődési lehetőséget kínálhat, de a sikeres bevezetéshez digitális adatminőségre, megfelelő mérnöki folyamatokra és valós megtérülési mutatókra van szükség.
+
+Fontos: a felsorolt területek lehetséges alkalmazások és konferenciatémák. Nem jelentik azt, hogy valamennyi megoldást már országosan bevezették volna.
+
+**Források:**
+
+[Portfolio – Future of Construction 2026, hivatalos konferenciaoldal](https://www.portfolio.hu/rendezvenyek/konferencia-ingatlan/future-of-construction-2026/2066/attekintes)
+
+[Kódvéna – Future of Construction 2026: az építőipar MI-re és adatra vált](https://kodvena.hu/hirek/holnap-indul-a-future-of-construction-az-epitoipar-ai-ra-es-adatra-valt-budapesten)
+
+---
+
+# 📊 A MAI NAP LEGFONTOSABB MI-TRENDJEI
+
+## 1. A tudományos MI a biológiai kutatás egyik legfontosabb új eszközévé válhat
+
+Az AlphaGenome 2 azt mutatja, hogy a fejlett MI-rendszerek már rendkívül összetett biológiai folyamatok modellezését is támogathatják.
+
+A kutatások következő fontos lépése az előrejelzések független, kísérleti ellenőrzése lesz.
+
+**Magyar lehetőség:** a hazai egyetemek, orvosi kutatóintézetek és biotechnológiai vállalkozások számára egyre fontosabbá válhatnak a nyilvánosan hozzáférhető tudományos MI-eszközök.
+
+---
+
+## 2. A frontier-MI gazdasági fenntarthatósága továbbra is nyitott kérdés
+
+Az Anthropic tőzsdei előkészületei, az OpenAI pénzügyi adatai és a CoreWeave jelentése három különböző oldalról mutatják ugyanazt a problémát.
+
+**A bevételek gyorsan emelkednek, de a modellek fejlesztése és a számítási infrastruktúra működtetése rendkívül költséges.**
+
+A következő időszakban ezért különösen fontosak lehetnek:
+
+- A működési eredmények.
+- A finanszírozási költségek.
+- Az adatközpontok kihasználtsága.
+- Az egyes MI-szolgáltatások tényleges megtérülése.
+- A hosszú távú szerződésállomány minősége.
+
+---
+
+## 3. Az autonóm MI-ügynökök fejlődéséhez a külső platformok együttműködésére is szükség van
+
+Az eBay és a Meta Muse körüli fejlemény fontos akadályra mutat rá.
+
+Az MI-ügynökök egyre több digitális feladatot végezhetnek el, de csak akkor, ha az érintett szolgáltatások megfelelő hozzáférést biztosítanak számukra.
+
+A következő fontos kérdések:
+
+- Biztonságos API-hozzáférés.
+- Felhasználói engedélyek.
+- Tranzakciós felelősség.
+- Automatizált műveletek naplózása.
+- Harmadik felek adatainak védelme.
+
+**Következtetés:** a vállalati és fogyasztói MI-ügynökök elterjedése a technológiai képességek mellett a szolgáltatások közötti megállapodásoktól is függhet.
+
+---
+
+## 4. Az MI-szabályozás egyre inkább gyakorlati követelményeket határoz meg
+
+New York állam regisztrációs rendszere jól mutatja, hogy az MI-biztonság intézményi keretei fokozatosan szigorodnak.
+
+A modellfejlesztők számára fontosabbá válhatnak:
+
+- A dokumentált biztonsági vizsgálatok.
+- A kritikus incidensek jelentése.
+- A független auditok.
+- A modellkockázatok átlátható ismertetése.
+
+**Magyar vonatkozás:** a hazai vállalatok számára is fontos, hogy MI-szolgáltatóik biztonsági és megfelelőségi gyakorlatát is megvizsgálják.
+
+---
+
+## 5. Magyarországon a tényleges alkalmazások és az intézményi felkészülés egyszerre fejlődik
+
+A Korányi Intézet mellkasröntgen-elemző rendszere konkrét alkalmazási példát jelent.
+
+A mai magyar szakmai rendezvények pedig azokat a kérdéseket vizsgálják, amelyek a szélesebb körű bevezetéshez szükségesek.
+
+Ilyenek:
+
+- Megfelelő adatkezelés.
+- Jogi megfelelés.
+- A modellek költséghatékony kiválasztása.
+- Emberi felügyelet.
+- Valós vállalati és társadalmi eredmények mérése.
+
+**A fő tanulság:** a magyar MI-ökoszisztéma fejlődésének fontos következő szakasza a kísérleti felhasználástól a bizonyíthatóan működő, ellenőrzött alkalmazások felé történő elmozdulás lehet.
+
+---
+
+# 🎯 ZÁRÓ ÉRTÉKELÉS
+
+| Kategória | A legfontosabb fejlemény |
+|---|---|
+| Nemzetközi tudományos MI | Google DeepMind AlphaGenome 2 |
+| Frontier-MI finanszírozás | Anthropic: akár 1500 milliárd dollár feletti értékeltség |
+| MI-gazdaság | OpenAI: 10 milliárd dolláros negyedéves bevétel és jelentős korrigált veszteség |
+| MI-infrastruktúra | CoreWeave: közel 170%-os árbevétel-növekedés |
+| MI-szabályozás | New York RAISE Act regisztrációs portál |
+| MI-ügynökök | eBay–Meta Muse hozzáférési korlátozások |
+| Új modellek | Google Hydrogen belső tesztelése |
+| Magyar egészségügyi MI | Korányi Intézet: több mint 40 ezer MI-támogatott röntgenelemzés |
+| Magyar vállalati MI | Future IT 2026, Siófok |
+| Magyar MI-jog | ELTE konferencia a jogi MI-használatról |
+| Magyar ipari MI | Future of Construction 2026, Budapest |
+
+---
+
+# 🧭 ÖSSZKÉP
+
+**2026. november 12-én a mesterséges intelligencia fejlődésének négy meghatározó iránya rajzolódik ki.**
+
+### 1. Tudományos alkalmazások
+
+A fejlett MI-modellek egyre részletesebben képesek biológiai és más összetett tudományos rendszereket modellezni, ami új kutatási lehetőségeket teremt.
+
+### 2. Gazdasági fenntarthatóság
+
+A frontier-MI vállalatok bevételei gyorsan növekednek, de a számítási infrastruktúrához és a modellfejlesztéshez kapcsolódó költségek továbbra is rendkívül magasak.
+
+### 3. Biztonság és hozzáférés
+
+Az MI-ügynökök elterjedésével felértékelődik a szabályozott hozzáférés, az emberi jóváhagyás és a független biztonsági ellenőrzés.
+
+### 4. Gyakorlati értékteremtés
+
+A magyar egészségügyi és vállalati példák azt mutatják, hogy az MI gazdasági és társadalmi értéke egyre inkább a konkrét alkalmazásokban válik mérhetővé.
+
+**Magyarország számára a legfontosabb lehetőség a hazai kutatási kompetenciák, az ipari szaktudás és az ellenőrizhető MI-technológiák összekapcsolása.**
+
+A hosszú távú versenyelőnyt várhatóan nem önmagában a legerősebb MI-modellekhez való hozzáférés biztosítja.
+
+Legalább ilyen fontos lesz, hogy **a vállalatok és intézmények képesek-e az MI-t biztonságosan, jogszerűen, gazdaságosan és mérhető társadalmi vagy üzleti eredményeket teremtve alkalmazni.**
+
+---
+
+## 📝 FORRÁSKEZELÉSI MEGJEGYZÉS
+
+**Frissesség**
+
+- A nemzetközi válogatás döntően 2026. november 10–12. közötti új közléseket és piaci fejleményeket tartalmaz.
+- A Google DeepMind AlphaGenome 2 bejelentése november 11-én jelent meg.
+- Az Anthropic tőzsdei értékelésének lehetséges emelése november 11-i Financial Times-értesülés.
+- Az OpenAI és a CoreWeave pénzügyi adatai a szeptember 30-án lezárt harmadik negyedévre vonatkoznak.
+- A magyar blokk egy november 7-i intézményi közleményt és három november 12-i szakmai eseményt tartalmaz.
+
+**Fontos értelmezési korlátok**
+
+- Az AlphaGenome 2 biológiai predikciói nem helyettesítik a kísérleti validációt vagy az orvosi diagnózist.
+- Az Anthropic lehetséges magasabb értékeltsége még nem végleges.
+- Az OpenAI pénzügyi adatai sajtóban ismertetett befektetői dokumentumokból származnak.
+- A CoreWeave hosszú távú szerződésállománya nem tekinthető már realizált bevételnek.
+- A New York-i RAISE Act fő követelményei 2027. január 1-jétől alkalmazandók.
+- Az eBay nem erősítette meg egy új, minden külső MI-ügynökre kiterjedő tilalom bevezetését.
+- A Google Hydrogen jelenleg nem nyilvánosan bevezetett modell, hanem sajtóértesülés szerint belső tesztelés alatt áll.
+- A Korányi Intézet MI-rendszere az orvosok munkáját támogatja, nem helyettesíti őket.
+- A mai magyar szakmai rendezvények végleges eredményei a reggeli hírlezáráskor még nem ismertek.
+- Egyes nemzetközi sajtóforrások előfizetéshez kötöttek.
+
+---
+
+**A mai kiadás legfontosabb üzenete: az MI fejlődése egyre erősebben kapcsolódik a tudományos felfedezésekhez és az automatizációhoz, miközben a pénzügyi fenntarthatóság, a biztonságos működés és a gyakorlati alkalmazások ellenőrizhetősége továbbra is meghatározó versenytényező.**
