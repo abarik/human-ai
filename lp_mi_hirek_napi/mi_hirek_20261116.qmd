@@ -1,0 +1,794 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. november 16."
+author: "OpenAI - ChatGpt"
+date: "2026-11-16"
+temak: ["Az Egyesült Államok és kilenc partnerország új megállapodást kötött az MI ellátási láncainak biztonságáról", "Alibaba: megjelent a Qwen4-Max, 2,4 billió paraméterrel és egymillió tokenes kontextusablakkal", "Amerikai MI-stratégia: több mint húsz vállalat kaphat nemzeti technológiai bajnoki státuszt"]
+---
+
+**Hírlezárás:** 2026. november 16., 10:48 (CET)  
+**Vizsgált időszak:** Elsősorban 2026. november 13–16.  
+**Tartalom:** 7 nemzetközi hír + 4 magyar vonatkozás  
+**Fő források:** Reuters, Financial Times, The Wall Street Journal, Apple, Alibaba Cloud, Amerikai Külügyminisztérium, The Guardian, Medical Online, eGov Hírlevél, ELTE és magyar szakmai források.
+
+---
+
+# 📌 VEZETŐI ÖSSZEFOGLALÓ
+
+A mai mesterségesintelligencia-hírekben öt meghatározó fejlemény emelkedik ki.
+
+**1. Új nemzetközi megállapodás született az MI ellátási láncainak védelméről.**
+
+Az Egyesült Államok és kilenc partnerország november 15-én aláírta a San Franciscó-i Nyilatkozatot. A megállapodás a félvezetők, kritikus ásványi nyersanyagok, energetikai infrastruktúrák és más stratégiai technológiák biztonságát kívánja erősíteni.
+
+**2. Az Alibaba bemutatta új Qwen4-Max modelljét.**
+
+A 2,4 billió paraméteres rendszer egymillió tokenes kontextusablakkal rendelkezik. A vállalat szerint a korábbi zászlóshajó-modellhez képest bizonyos szakmai feladatokat körülbelül 60%-kal alacsonyabb költséggel teljesíthet.
+
+**3. Az amerikai kormány nemzeti MI-bajnokokat jelölhet ki.**
+
+A Wall Street Journal szerint az amerikai kormányzat több mint húsz technológiai vállalatot, köztük az NVIDIA-t, a Microsoftot, az OpenAI-t és az Anthropicot vonhatja be egy új nemzetközi technológiaexport-támogató programba. A döntés még nem hivatalos.
+
+**4. Az Apple nagyszabású egészségügyi MI-kutatást indított.**
+
+Az OpenEvidence vállalattal közösen legfeljebb 200 ezer amerikai résztvevő bevonásával vizsgálják, hogyan használják az emberek a megbízható egészségügyi forrásokra épülő MI-asszisztenseket.
+
+**5. Magyarországon az MI-használat gyorsabban terjed, mint az intézményi ellenőrzés.**
+
+Egy friss hazai kutatás szerint a megkérdezett orvosok 91%-a már használ mesterséges intelligenciát, de 80%-uk munkahelyén nem áll rendelkezésre megfelelő intézményi támogatás és szabályozás. Terézváros közben korlátozza a generatív MI-képek használatát az önkormányzati kommunikációban.
+
+**A nap legfontosabb üzenete:** az MI-verseny következő szakaszát egyre inkább a számítási infrastruktúra biztonsága, a modellek működési költsége, az egészségügyi és oktatási alkalmazások megbízhatósága, valamint a technológia társadalmi elfogadottsága határozza meg.
+
+---
+
+# 🌍 NEMZETKÖZI MI-HÍREK
+
+## 1. Az Egyesült Államok és kilenc partnerország új megállapodást kötött az MI ellátási láncainak biztonságáról
+
+**Dátum:** 2026. november 15–16.  
+**Kategória:** MI-infrastruktúra, geopolitika, félvezetők  
+**Jelentőség:** 🔴 KIEMELT
+
+Az Egyesült Államok és kilenc partnerország aláírta a **San Francisco Declaration on the Secure Foundations of Enduring Prosperity** című megállapodást.
+
+A nyilatkozat a Pax Silica nemzetközi technológiai együttműködés keretében jött létre.
+
+### Az aláíró országok
+
+Az Egyesült Államok mellett:
+
+- Ausztrália.
+- India.
+- Izrael.
+- Japán.
+- Dél-Korea.
+- Katar.
+- Szingapúr.
+- Egyesült Arab Emírségek.
+- Egyesült Királyság.
+
+A Financial Times értesülése szerint Németország, Svédország, Hollandia és az Európai Bizottság is csatlakozhat a következő időszakban.
+
+### A megállapodás fő céljai
+
+**Kritikus technológiák védelme**
+
+A résztvevők közösen kívánják azonosítani az MI-fejlesztéshez nélkülözhetetlen technológiákat és infrastruktúrákat.
+
+**Ellátási láncok biztonsága**
+
+A megállapodás többek között a félvezetőgyártásra, a kritikus ásványi nyersanyagokra, az energiatermelésre, a logisztikai rendszerekre és a digitális infrastruktúrára koncentrál.
+
+**Technológiai együttműködés**
+
+A résztvevők munkacsoportokat hoznak létre az ellátási láncok sérülékenységeinek feltárására és az együttműködés fejlesztésére.
+
+**Kínától való függőség mérséklése**
+
+A kezdeményezés egyik stratégiai háttere az olyan technológiáktól és nyersanyagoktól való függőség csökkentése, amelyek piacán Kína meghatározó szereplő.
+
+### Miért lényeges?
+
+Ez a mai nap egyik legfontosabb nemzetközi MI-politikai fejleménye.
+
+A fejlett mesterséges intelligencia működéséhez nemcsak modellekre és programozókra van szükség, hanem chipekre, energiára, nyersanyagokra és nagy teljesítményű adatközpontokra is.
+
+**A fő tanulság:** a globális MI-verseny egyre inkább az ipari ellátási láncok és a kritikus infrastruktúra biztonságáról is szól.
+
+**Magyar vonatkozás:** az európai félvezetőipar és ipari beszállítói kapcsolatok változása a hazai elektronikai, autóipari és energetikai vállalatokat is érintheti.
+
+**Források:**
+
+- [Amerikai Külügyminisztérium – The San Francisco Declaration, hivatalos közlemény](https://pubt.io/view/689C324FBE010ADD3F80FCD46EE21338142A04D9)
+- [Financial Times – US and allies sign accord to protect AI supply chains from China](https://www.ft.com/content/3c2197fc-9618-4838-91e6-522ce1a96a22)
+- [Anadolu Agency – US, 9 partners sign agreement to secure AI supply chains](https://www.aa.com.tr/en/world/us-9-partners-sign-agreement-to-secure-ai-supply-chains/4126093)
+
+---
+
+## 2. Alibaba: megjelent a Qwen4-Max, 2,4 billió paraméterrel és egymillió tokenes kontextusablakkal
+
+**Dátum:** 2026. november 15–16.  
+**Kategória:** Frontier-modellek, kínai MI, vállalati automatizáció  
+**Jelentőség:** 🔴 KIEMELT
+
+Az Alibaba bemutatta **Qwen4-Max** nevű új zászlóshajó MI-modelljét.
+
+A rendszer nagy méretű, multimodális Mixture-of-Experts architektúrára épül.
+
+### A legfontosabb technológiai adatok
+
+| Tulajdonság | Qwen4-Max |
+|---|---:|
+| Teljes paraméterszám | 2,4 billió |
+| Tokenenként aktivált paraméterek | 71 milliárd |
+| Kontextusablak | 1 millió token |
+| Bemeneti modalitások | Szöveg, kép, videó |
+| Költségcsökkenés bizonyos feladatokban | Kb. 60% |
+| API bemeneti ár | 1,50 USD / 1 millió token |
+| API kimeneti ár | 4,50 USD / 1 millió token |
+
+Az Alibaba szerint az új modell a korábbi Qwen3.8-Max rendszerhez képest kevesebb aktív paraméterrel és alacsonyabb tokenfelhasználással is képes jobb eredmények elérésére bizonyos feladatokban.
+
+### Kiemelt alkalmazási területek
+
+- Szoftverfejlesztés.
+- Ipari tervezés.
+- 3D-modellezés.
+- Játékfejlesztés.
+- Pénzügyi elemzés.
+- Jogi dokumentumfeldolgozás.
+- Tudományos kutatás.
+- Autonóm MI-ügynökök.
+
+Az Alibaba külön hangsúlyt helyezett a biztonsági fejlesztésekre.
+
+A vállalat szerint a modell tréningje során fokozottan ellenőrizték a programkód biztonságát, az illetéktelen hozzáférések kockázatát és bizonyos veszélyes felhasználási lehetőségeket.
+
+### Miért lényeges?
+
+A Qwen4-Max megjelenése tovább erősíti a kínai és amerikai frontier-modellek közötti versenyt.
+
+Az új modell egyik legfontosabb ígérete nem pusztán a nagyobb teljesítmény, hanem a komplex feladatok alacsonyabb költségű végrehajtása.
+
+**A fő tanulság:** a vállalati MI-versenyben a modell intelligenciája mellett a feladatonkénti költség és a biztonságos működtetés is meghatározóvá válik.
+
+**Fontos pontosítás:** a körülbelül 60%-os költségelőny az Alibaba saját Work360 tesztjére vonatkozik. Nem jelenti, hogy minden alkalmazásban ugyanilyen megtakarítás érhető el.
+
+A Qwen4-Max jelenleg felhőszolgáltatáson keresztül használható; a Qwen4 család kisebb, nyílt súlyú változatait későbbre ígérik.
+
+**Források:**
+
+- [Alibaba Cloud – Alibaba Unveils Qwen4-Max, hivatalos bejelentés](https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783)
+- [Reuters – Alibaba unveils new flagship AI model with safety upgrades](https://sa.marketscreener.com/news/alibaba-unveils-new-flagship-ai-model-with-safety-upgrades-ce785edede88f022)
+- [Alibaba Cloud – Qwen4-Max API és technikai dokumentáció](https://www.alibabacloud.com/help/en/model-studio/qwen4-max)
+
+---
+
+## 3. Amerikai MI-stratégia: több mint húsz vállalat kaphat nemzeti technológiai bajnoki státuszt
+
+**Dátum:** 2026. november 15–16.  
+**Kategória:** MI-iparpolitika, export, amerikai–kínai technológiai verseny  
+**Jelentőség:** 🔴 KIEMELT
+
+A The Wall Street Journal értesülése szerint az amerikai kormányzat több mint húsz technológiai vállalatot kíván **nemzeti MI-bajnokként** kijelölni.
+
+A Reuters november 16-án számolt be az értesülésről.
+
+### A lehetséges résztvevők
+
+A sajtóban említett vállalatok:
+
+- NVIDIA.
+- Microsoft.
+- Amazon.
+- OpenAI.
+- Anthropic.
+
+A tervezett program célja az amerikai MI-technológiák külföldi értékesítésének és elterjedésének támogatása.
+
+### Milyen előnyökkel járhat?
+
+A Wall Street Journal szerint a kezdeményezés segíthetne összehangolt exportcsomagokat kialakítani az alábbiakból:
+
+- MI-gyorsítók és félvezetők.
+- Frontier-modellek.
+- Felhőszolgáltatások.
+- Adatközponti technológiák.
+- Kapcsolódó vállalati alkalmazások.
+
+A kijelölt vállalatok adott esetben gyorsabb exportengedélyezéshez és külföldi üzleti támogatáshoz juthatnának.
+
+### Miért lényeges?
+
+A fejlett MI-technológia egyre fontosabb gazdaságdiplomáciai eszközzé válik.
+
+Az amerikai kormány célja, hogy az ország technológiai vállalatai erősebb pozícióból versenyezzenek a kínai szolgáltatókkal a nemzetközi piacokon.
+
+**A fő tanulság:** az MI-fejlesztők versenyét egyre nagyobb mértékben befolyásolhatja az állami exportpolitika és a nemzetközi technológiai együttműködés.
+
+**Fontos:** ez jelenleg sajtóértesülés, nem hivatalosan kihirdetett program. A Reuters nem tudta függetlenül megerősíteni az információt.
+
+**Források:**
+
+- [Reuters – Trump administration to name AI firms as national champions, WSJ reports](https://www.investing.com/news/stock-market-news/trump-administration-to-name-nvidia-other-ai-firms-as-us-national-champions-wsj-reports-5028349)
+- [The Wall Street Journal – Trump Administration to Name Nvidia Among AI National Champions](https://www.wsj.com/tech/ai/trump-administration-to-name-nvidia-among-ai-national-champions-c9284344)
+
+---
+
+## 4. Apple: akár 200 ezer résztvevővel indul egészségügyi MI-kutatás az OpenEvidence együttműködésével
+
+**Dátum:** 2026. november 15.  
+**Kategória:** Egészségügyi MI, digitális egészség, adatvédelem  
+**Jelentőség:** 🔴 KIEMELT
+
+Az Apple bejelentette az **Apple Health AI Usage Study** nevű új kutatási programot.
+
+A vizsgálatot az OpenEvidence egészségügyi MI-vállalattal közösen végzik.
+
+A kutatás célja annak megértése, hogyan használják az emberek a beszélgetésalapú MI-eszközöket egészségügyi tájékozódásra.
+
+### A kutatás fő adatai
+
+| Tulajdonság | Részlet |
+|---|---|
+| Maximális résztvevőszám | 200 000 fő |
+| Résztvevők életkora | Legalább 21 év |
+| Ország | Egyesült Államok |
+| Eszköz | Támogatott iPhone |
+| MI-technológiai partner | OpenEvidence |
+| Egészségügyi adatok megosztása | Önkéntes |
+
+### Mit vizsgálnak?
+
+A kutatók többek között azt elemzik:
+
+**Megbízhatóság**
+
+Mennyire bíznak a felhasználók az MI által előállított egészségügyi válaszokban?
+
+**Megértés**
+
+Képesek-e pontosan értelmezni a kapott orvosi információkat?
+
+**Személyre szabás**
+
+Hogyan befolyásolják a válaszok hasznosságát a felhasználók által önkéntesen megosztott egészségügyi adatok?
+
+**Orvosi konzultációra való felkészülés**
+
+Segíthet-e az MI a betegeknek kérdéseik és egészségügyi információik rendszerezésében?
+
+Az OpenEvidence szakmai orvosi forrásokra épülő válaszokat biztosít a kutatási rendszerben.
+
+Az Apple közlése szerint a kutatási adatokat nem használják MI-modellek tréningjére.
+
+### Miért lényeges?
+
+Ez a fogyasztói egészségügyi MI egyik jelentős új kutatási kezdeményezése.
+
+A technológia fejlődésében egyre fontosabb annak vizsgálata, hogy a felhasználók valóban megértik-e az MI által közölt információkat.
+
+**A fő tanulság:** az egészségügyi MI értékét nemcsak a válaszok szakmai pontossága, hanem a felhasználói megértés, a biztonság és a megfelelő orvosi döntéshozatal támogatása is meghatározza.
+
+**Fontos:** ez kutatási program, nem új, önálló klinikai diagnosztikai szolgáltatás. A részvétel egyelőre az arra jogosult amerikai felhasználókra korlátozódik.
+
+**Forrás:**
+
+- [Apple Newsroom – Apple launches research study to explore the use of AI for health](https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/)
+
+---
+
+## 5. Kína: országos oktatási stratégiával készítenék fel az iskolásokat a mesterséges intelligencia használatára
+
+**Dátum:** 2026. november 16.  
+**Kategória:** MI-oktatás, digitális kompetenciák, nemzetközi versenyképesség  
+**Jelentőség:** 🔴 KIEMELT
+
+A Reuters november 16-án részletes vizsgálatot tett közzé arról, hogyan épül be a mesterséges intelligencia a kínai közoktatásba.
+
+Kína célja, hogy **2030-ra általánossá váljon az MI-alapműveltség az iskoláskorú gyermekek körében**.
+
+A program közel 200 millió általános és középiskolai diákot érinthet.
+
+### A kutatás fő megállapításai
+
+A Reuters iskolalátogatások, szakértői interjúk és több mint száz tudományos, illetve közbeszerzési dokumentum áttekintése alapján vizsgálta a fejlesztéseket.
+
+**Sanghaj**
+
+Az iskolai programokban évfolyamonként legalább évi 30 óra MI-oktatást írnak elő.
+
+**Peking**
+
+A város száz MI-pilotiskola kialakítását tervezi.
+
+**Országos fejlesztések**
+
+A kínai tartományok és tartományi jogú városok közel fele már kötelező MI-oktatási terveket fogadott el.
+
+**Gyakorlati feladatok**
+
+Egyes intézményekben a diákok programokat készítenek, robotokat vezérelnek, illetve MI-vel támogatott tanulási és kutatási projekteken dolgoznak.
+
+### Milyen kockázatokat látnak?
+
+A Reuters szerint az oktatási rendszerekben eltérő eredményeket tapasztalnak.
+
+Egyes iskolákban az MI az önálló projektmunkát és a kreativitást támogatja.
+
+Másutt fennáll annak veszélye, hogy a diákok a problémák megértése helyett az MI-re bízzák a feladatmegoldást.
+
+A tanárok megfelelő képzése és a tanulói teljesítmény megbízható értékelése továbbra is nyitott kérdés.
+
+### Miért lényeges?
+
+Az MI-oktatás hosszú távon jelentős hatással lehet az országok technológiai és gazdasági versenyképességére.
+
+**Magyarország számára** különösen fontos kérdés, hogyan építhető be az MI a közoktatásba úgy, hogy közben megmaradjon az önálló gondolkodás és a problémamegoldó készségek fejlesztése.
+
+**A fő tanulság:** az MI-oktatás sikerét nem az eszközök száma, hanem a megfelelő pedagógiai módszerek és a ténylegesen megszerzett készségek határozzák meg.
+
+**Forrás:**
+
+- [Reuters – Inside China's drive to build an AI-native generation](https://www.aol.com/articles/inside-chinas-drive-build-ai-000559000.html)
+
+---
+
+## 6. NVIDIA: újabb tőzsdei bizonytalanság és nyílt levél Jensen Huang visszatéréséért
+
+**Dátum:** 2026. november 16.  
+**Kategória:** MI-hardver, tőkepiac, vállalatirányítás  
+**Jelentőség:** 🔴 KIEMELT
+
+A Jensen Huang vezérigazgató távozását követő vezetési bizonytalanság továbbra is jelentősen befolyásolja az NVIDIA és az ázsiai technológiai részvénypiacok megítélését.
+
+A The Guardian november 16-i beszámolója szerint **több mint 165 ezer aláírás gyűlt össze** egy olyan nyílt levélen, amely Huang visszahelyezését sürgeti.
+
+Az aláírók között több technológiai vezető, köztük Elon Musk is szerepel.
+
+### Az ázsiai piacok hétfői reakciója
+
+A hétfői kereskedésben:
+
+| Mutató | Jelentett változás |
+|---|---:|
+| Tajvani Taiex | Kb. -6% |
+| TSMC | Kb. -5,7% |
+| Dél-koreai Kospi | Kb. -4% |
+| Japán Nikkei 225 | Kb. -2,4% |
+
+A befektetők a vezetőváltás mellett az amerikai chipkereskedelmi szabályozás és az MI-infrastruktúra jövőbeli keresletének bizonytalanságát is értékelik.
+
+### Két fontos esemény várható
+
+**November 17.**
+
+Az NVIDIA közzéteszi következő negyedéves pénzügyi eredményeit.
+
+**November 18–19.**
+
+Az Anthropic várható tőzsdei árazása és részvénykereskedésének megkezdése újabb fontos információt adhat az MI-iparág befektetői megítéléséről.
+
+### Miért lényeges?
+
+Az NVIDIA a világ MI-számítási infrastruktúrájának egyik meghatározó beszállítója.
+
+A vállalat vezetési bizonytalansága ezért nemcsak részvényárfolyam-kérdés.
+
+Hatással lehet:
+
+- A félvezetőipari beszállítókra.
+- A nagy felhőszolgáltatók beruházási döntéseire.
+- A modellfejlesztő vállalatok infrastruktúrájára.
+- A nemzetközi MI-befektetői hangulatra.
+
+**A fő tanulság:** az MI-infrastruktúra gazdasági fejlődését a technológiai teljesítmény mellett a kulcsvállalatok irányítási és pénzügyi stabilitása is meghatározza.
+
+**Fontos:** a nyílt levél nem jelenti Huang tényleges visszahelyezését. A vezetőváltás körüli személyes és nemzetbiztonsági állítások egy része továbbra is vizsgálat tárgya.
+
+A hétfői piaci adatok nem minden esetben végleges napi záróértékek.
+
+**Források:**
+
+- [The Guardian – Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang](https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo)
+- [The Wall Street Journal – Asian equities drop as US chip selloff spills over](https://www.wsj.com/finance/stocks/asian-equities-fall-as-u-s-chip-maker-share-selloff-spills-over-f6edc8d5)
+
+---
+
+## 7. Anthropic: ezen a héten várható a frontier-MI korszak egyik legnagyobb tőzsdei bevezetése
+
+**Aktuális piaci előkészületek:** 2026. november 16.  
+**Tervezett árazás:** november 18.  
+**Tervezett első kereskedési nap:** november 19.  
+**Kategória:** MI-gazdaság, Anthropic, tőkepiac  
+**Jelentőség:** 🔴 KIEMELT
+
+Az Anthropic ezen a héten várhatóan lezárja történelmi méretű részvénykibocsátásának előkészületeit.
+
+A Claude fejlesztője november 10-én kezdte meg a befektetői bemutatókörutat.
+
+### A kibocsátás fő adatai
+
+| Mutató | Tervezett érték |
+|---|---:|
+| Felkínált részvények | 825 millió |
+| Ársáv | 70–78 USD |
+| Kibocsátás bruttó értéke | 57,8–64,4 milliárd USD |
+| Lehetséges vállalatértékeltség | Kb. 1300–1400 milliárd USD |
+| Tervezett tőzsde | Nasdaq |
+| Részvényazonosító | ANT |
+
+A kibocsátás fontos tesztje lehet annak, hogyan értékelik a befektetők a legfejlettebb MI-modelleket készítő vállalatok növekedési és jövedelmezőségi lehetőségeit.
+
+### Miért lényeges?
+
+A frontier-MI modellek fejlesztése és működtetése rendkívül nagy tőkét igényel.
+
+A vállalatoknak finanszírozniuk kell a kutatást, az adatközpontokat, a félvezetőket és a felhasználói szolgáltatások működtetését.
+
+A tőzsdei bevezetés megmutathatja, hogy a befektetők milyen értéket tulajdonítanak az MI-szolgáltatások jövőbeli bevételeinek.
+
+**A fő tanulság:** az MI-iparág növekedésének egyik legfontosabb kérdése továbbra is az, hogy a rendkívül gyors technológiai fejlődéshez kapcsolódó bevételek képesek lesznek-e hosszú távon igazolni a magas vállalatértékeltségeket.
+
+**Fontos:** az Anthropic részvénykibocsátása a mai hírlezáráskor még nem zárult le. A végleges árazás és a kereskedés kezdete változhat.
+
+**Források:**
+
+- [Associated Press – Anthropic seeks valuation of about $1.3 trillion](https://apnews.com/article/8cf2319c870322019712ab658f71ec55)
+- [TechCrunch – Anthropic sets IPO price range of $70 to $78](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/)
+- [FXEmpire – The week ahead: Nvidia earnings and Anthropic IPO](https://www.fxempire.com/forecasts/article/the-week-ahead-nvidia-earnings-anthropic-ipo-test-ai-trade-1644719)
+
+---
+
+# 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+## 1. Szinapszis-kutatás: a magyar orvosok 91%-a használ MI-t, de jelentős az intézményi szabályozási hiány
+
+**Eredmények bemutatása:** 2026. november 12.  
+**Szakmai beszámolók:** november 13–15.  
+**Kategória:** Magyar egészségügyi MI, adatvédelem, orvosi döntéstámogatás  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+A Szinapszis Kft. új kutatása szerint a megkérdezett magyar orvosok körében rendkívül gyorsan terjed a mesterséges intelligencia használata.
+
+A 2026-os kutatásban **486 orvos vett részt**, köztük 150 háziorvos és 336 szakorvos.
+
+### Fontosabb eredmények
+
+| Mutató | Eredmény |
+|---|---:|
+| Magán- vagy szakmai célra MI-t használók | 91% |
+| Szakmai munkában MI-t alkalmazók | 73% |
+| Megfelelő intézményi támogatás és szabályozás nélküli munkahelyen dolgozók | 80% |
+| Diagnosztikai döntéstámogatásra MI-t használók | 33% |
+| Kezelési terv támogatására MI-t használók | 28% |
+| Egyértelmű munkahelyi útmutatással rendelkezők a betegadatok MI-be történő beviteléről | 5% |
+
+Az orvosi munkában MI-t alkalmazók aránya a 2025-ös 44%-ról 2026-ra 73%-ra emelkedett a vizsgált mintában.
+
+### Milyen problémákat találtak?
+
+A kutatás szerint a technológia terjedése gyorsabb, mint a megfelelő intézményi ellenőrzés kialakulása.
+
+Különösen fontos kockázatok:
+
+**Betegadatok védelme**
+
+Sok orvos nem rendelkezik egyértelmű útmutatással arról, milyen adatokat oszthat meg MI-rendszerekkel.
+
+**Az MI-válaszok ellenőrzése**
+
+A szakemberek egy része magabiztosnak érzi magát az MI-hibák felismerésében, de a gyakorlatban nem minden esetben ellenőrzi az eredményeket.
+
+**Szakmai készségek megőrzése**
+
+A válaszadók 77%-a attól tart, hogy az MI túlzott használata gyengítheti a kezdő orvosok diagnosztikai készségeinek fejlődését.
+
+### Miért lényeges?
+
+Ez a hét egyik legfontosabb magyar MI-kutatási eredménye.
+
+A mesterséges intelligencia már nemcsak kísérleti fejlesztésként, hanem az orvosi mindennapok gyakorlati eszközeként is megjelenik.
+
+**A fő tanulság:** a magyar egészségügyben sürgető feladat a szakmai MI-használati útmutatók, a betegadatvédelmi szabályok és a megfelelő képzési programok kialakítása.
+
+**Módszertani megjegyzés:** a százalékos arányok a kutatásban szereplő 486 orvos válaszaira vonatkoznak, nem automatikusan a teljes magyar orvostársadalomra.
+
+**Források:**
+
+- [Medical Online – Nagy önbizalom, hiányzó kontroll: fék nélkül terjed az AI az orvoslásban](https://medicalonline.hu/cikk/nagy_onbizalom__hianyzo_kontroll__fek_nelkul_terjed_az_ai_az_orvosi_munkaban)
+- [eGov Hírlevél – Rohamosan terjed az MI orvosi használata](https://hirlevel.egov.hu/2026/11/15/rohamosan-terjed-a-mesterseges-intelligencia-orvosi-hasznalata-megfelelo-szabalyozas-es-tamogatas-nelkul/)
+
+---
+
+## 2. Budapest, Terézváros: megtiltják az MI-generált képek és videók használatát az önkormányzati kommunikációban
+
+**Dátum:** 2026. november 15.  
+**Kategória:** Magyar MI-szabályozás, kreatívipar, önkormányzatok  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+Soproni Tamás, Terézváros polgármestere november 15-én bejelentette, hogy megtiltja a generatív mesterséges intelligenciával készített képek és videók használatát a VI. kerületi önkormányzati cégek és intézmények kommunikációjában.
+
+A polgármester közlése szerint az erről szóló utasítást megküldték az érintett intézményi vezetőknek.
+
+### Mire vonatkozik a korlátozás?
+
+A bejelentés szerint az intézkedés többek között az önkormányzati kommunikációban felhasznált:
+
+- Plakátokra.
+- Meghívókra.
+- Szórólapokra.
+- Rendezvényismertetőkre.
+- Közösségi médiás képekre és videókra vonatkozik.
+
+### Miért vezetik be?
+
+A polgármester a döntést az emberi kreatív munka védelmével, a generált tartalmak minőségével és a szerzői jogi aggályokkal indokolta.
+
+A bejelentés szerint az önkormányzat azoknak az intézményeknek is segítséget kíván nyújtani, amelyek nem rendelkeznek saját grafikai szakemberrel.
+
+### Miért lényeges?
+
+Ez fontos magyar önkormányzati döntés a generatív MI felhasználásának korlátozásáról.
+
+A technológia jelentős költségmegtakarítást kínálhat, ugyanakkor munkaerőpiaci és alkotói jogi kérdéseket is felvet.
+
+**A fő tanulság:** a közintézmények számára az MI használatának megítélése nem kizárólag gazdaságossági kérdés, hanem társadalmi, kulturális és szakpolitikai döntés is.
+
+**Fontos pontosítás:** a bejelentés elsősorban az önkormányzati kommunikációs tartalmakra vonatkozik. Nem Budapest egész területére érvényes általános MI-tilalomról van szó.
+
+**Források:**
+
+- [eGov Hírlevél – Betiltják az MI-vel létrehozott képek használatát Terézváros önkormányzati intézményeiben](https://hirlevel.egov.hu/hirlevel-2/2026-2/46-szam-2026-november-16/)
+- [GSPlus – Terézváros kitiltotta az AI-képeket az önkormányzati anyagokból](https://www.gsplus.hu/pcw/terezvaros-kitiltotta-az-aikepeket-az-onkormanyzati-anyagokbol-390901.html)
+
+---
+
+## 3. Magyar közigazgatási MI: új elemzés mutatja be az állami algoritmusnyilvántartások európai mintáit
+
+**Dátum:** 2026. november 14–16.  
+**Kategória:** Magyar MI-jog, digitális állam, átláthatóság  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+Az eGov Hírlevél november 14-én közzétette, november 16-i heti összefoglalójában pedig ismertette az **„Ablak az algoritmusokra”** című elemzést.
+
+A tanulmány azt vizsgálja, milyen európai példákat használhatna Magyarország az állami intézmények által alkalmazott algoritmusok és MI-rendszerek nyilvános nyilvántartásához.
+
+### A vizsgált nemzetközi példák
+
+**Hollandia**
+
+Országos algoritmusregisztert működtetnek, amelyben az állami szervek a döntési folyamataikhoz kapcsolódó automatizált rendszereket dokumentálhatják.
+
+**Egyesült Királyság**
+
+Egységes algoritmikus átláthatósági szabványt használnak, amely meghatározza, milyen adatokat kell közzétenni az alkalmazott rendszerekről.
+
+**Észtország**
+
+Az állami algoritmikus rendszerek dokumentálásában és egyes fejlesztések nyílt hozzáférésében szerzett tapasztalatokat vizsgálják.
+
+**Finnország**
+
+Helsinki önkormányzatának MI-nyilvántartása példa arra, hogyan tehetők megismerhetővé a városi közszolgáltatásokban alkalmazott algoritmusok.
+
+### Mit javasolnak Magyarországnak?
+
+Az elemzés szerint célszerű lenne olyan állami MI-nyilvántartást kialakítani, amelyben látható:
+
+- Mely intézmény milyen MI-rendszert használ.
+- Milyen feladatot végez a rendszer.
+- Milyen adatokat dolgoz fel.
+- Ki felel a működéséért.
+- Milyen döntésekre lehet hatással.
+- Hol lehet panaszt tenni vagy felülvizsgálatot kérni.
+
+### Miért lényeges?
+
+A magyar közigazgatásban az MI egyre több döntés-előkészítő és ellenőrzési folyamatot támogathat.
+
+Az állampolgárok számára ezért fontos tudni, mikor és hogyan vesz részt egy algoritmikus rendszer az ügyük kezelésében.
+
+**A fő tanulság:** a biztonságos állami MI-használat egyik feltétele a nyilvános elszámoltathatóság és a megfelelő emberi felülvizsgálat lehetősége.
+
+**Fontos:** az elemzés szakpolitikai javaslatokat tartalmaz. Magyarországon nem jelentettek be az ismertetett modell alapján új, kötelező országos MI-regisztert.
+
+**Források:**
+
+- [eGov Hírlevél – Ablak az algoritmusokra: az MI-regiszterek legjobb európai gyakorlatai és a magyar tanulságok](https://hirlevel.egov.hu/2026/11/14/ablak-az-algoritmusokra-az-mi-regiszterek-legjobb-europai-gyakorlatai-es-a-magyar-tanulsagok/)
+- [eGov Hírlevél – 46. szám, 2026. november 16.](https://hirlevel.egov.hu/hirlevel-2/2026-2/46-szam-2026-november-16/)
+
+---
+
+## 4. Budapest: november 21-én az iskolai MI-használatról rendeznek gyakorlati pedagógiai konferenciát
+
+**Program szerint:** 2026. november 21., szombat  
+**Helyszín:** ELTE Lágymányosi Campus, Budapest  
+**Kategória:** Magyar MI-oktatás, digitális műveltség, pedagógusképzés  
+**Jelentőség:** 🟠 FONTOS MAGYAR VONATKOZÁS
+
+**„JÖVŐÓRA – AI az oktatásban”** címmel szakmai konferenciát hirdettek meg Budapesten.
+
+A rendezvény központi témája a mesterséges intelligencia használata az óvodai, általános iskolai és középiskolai oktatásban.
+
+### A program fő kérdései
+
+**Pedagógiai alkalmazás**
+
+Hogyan használhatják a pedagógusok az MI-t tananyagfejlesztésre és tanulástámogatásra?
+
+**Kritikus gondolkodás**
+
+Hogyan lehet megtanítani a diákokat az MI-vel előállított információk ellenőrzésére?
+
+**Életkori sajátosságok**
+
+Milyen korosztályban és milyen feltételek mellett célszerű MI-eszközöket alkalmazni?
+
+**Oktatási módszertan**
+
+Hogyan lehet megőrizni az önálló tanulást, a kreativitást és a problémamegoldó képességeket a generatív MI használata mellett?
+
+A rendezvény meghirdetett időpontja november 21., 10:00–14:30.
+
+### Miért lényeges?
+
+A nemzetközi és magyar oktatási rendszerek egyik fontos kérdése, hogyan készítsék fel a diákokat a mesterséges intelligenciával támogatott munkavégzésre.
+
+A technológia használatának oktatása nem merülhet ki a chatbotok kezelésében.
+
+Szükség van a forráskritika, az adatvédelem és az önálló gondolkodás fejlesztésére is.
+
+**A fő tanulság:** a magyar MI-versenyképesség hosszú távon jelentős mértékben függhet attól, hogy a közoktatás mennyire tudatosan készíti fel a következő generációt.
+
+**Fontos:** ez november 21-re meghirdetett esemény, nem már lezajlott konferencia eredménye.
+
+**Forrás:**
+
+- [JÖVŐÓRA – AI az oktatásban, hivatalos konferenciaprogram](https://klett.hu/jovoora)
+
+---
+
+# 📊 A MAI NAP LEGFONTOSABB MI-TRENDJEI
+
+## 1. Az MI geopolitikai és ellátásilánc-biztonsági kérdéssé vált
+
+A San Franciscó-i Nyilatkozat és az amerikai nemzeti MI-bajnokokról szóló értesülések közös fejlődési irányt mutatnak.
+
+A fejlett MI-technológia előállításához szükséges infrastruktúra egyre fontosabb nemzetbiztonsági és gazdaságstratégiai eszközzé válik.
+
+**A fő kérdés:** hogyan biztosítható a kritikus félvezetők, nyersanyagok és számítási kapacitások folyamatos rendelkezésre állása?
+
+---
+
+## 2. A frontier-modellek versenye egyre inkább a költséghatékonyságról is szól
+
+Az Alibaba Qwen4-Max modellje jól mutatja, hogy a fejlesztők nem kizárólag a legmagasabb benchmarkeredmények elérésére koncentrálnak.
+
+Legalább ilyen fontos:
+
+- A tokenenkénti működési költség.
+- A feladatonkénti teljes ráfordítás.
+- A válaszidő.
+- A memóriahatékonyság.
+- A vállalati integrálhatóság.
+
+**A fő tanulság:** a vállalati MI-használat gazdaságosságát nem feltétlenül a legnagyobb modell, hanem az adott feladathoz megfelelő rendszer kiválasztása határozza meg.
+
+---
+
+## 3. Az egészségügyi MI gyors terjedése új biztonsági követelményeket teremt
+
+Az Apple kutatási kezdeményezése és a magyar Szinapszis-felmérés hasonló problémára világít rá.
+
+Az MI egyre több egészségügyi információfeldolgozási és döntéstámogatási helyzetben jelenik meg.
+
+Ugyanakkor meg kell oldani:
+
+- A betegadatok megfelelő védelmét.
+- A válaszok szakmai ellenőrzését.
+- Az orvosi felelősség meghatározását.
+- A felhasználók megfelelő tájékoztatását.
+- A klinikai alkalmazás és az általános egészségügyi tájékozódás elválasztását.
+
+**A fő tanulság:** az egészségügyi MI megbízhatósága a technológiai teljesítmény és a megfelelő intézményi kontroll együttes eredménye.
+
+---
+
+## 4. Az MI-oktatás a nemzetközi versenyképesség egyik új területe
+
+A kínai oktatásfejlesztési program és a magyar JÖVŐÓRA-konferencia eltérő léptékű, de hasonló kérdéseket vet fel.
+
+Hogyan lehet úgy használni az MI-t a tanulás támogatására, hogy közben a diákok saját gondolkodási és problémamegoldási készségei is fejlődjenek?
+
+**A fő tanulság:** a sikeres MI-oktatás nem pusztán technikai képzés, hanem pedagógiai és társadalmi feladat.
+
+---
+
+## 5. Magyarországon egyre fontosabb az MI intézményi szabályozása
+
+A terézvárosi döntés, az állami algoritmusnyilvántartásról szóló elemzés és az orvosi felmérés közös problémát mutat.
+
+A mesterséges intelligencia már számos szakmai és intézményi területen jelen van, miközben használatának szabályai nem minden esetben egyértelműek.
+
+**A következő fontos feladatok:**
+
+- Világos intézményi MI-szabályzatok.
+- Megfelelő adatkezelés.
+- Emberi szakmai ellenőrzés.
+- A döntések átláthatósága.
+- Felhasználói és munkavállalói képzés.
+
+---
+
+# 🎯 ZÁRÓ ÉRTÉKELÉS
+
+| Kategória | A nap legfontosabb fejleménye |
+|---|---|
+| Nemzetközi MI-geopolitika | San Franciscó-i Nyilatkozat az MI ellátási láncainak védelméről |
+| Frontier-modellek | Alibaba Qwen4-Max |
+| Amerikai MI-iparpolitika | Nemzeti MI-bajnokok kijelölésének terve |
+| Egészségügyi MI | Apple–OpenEvidence kutatási együttműködés |
+| MI-oktatás | Kína 2030-as MI-oktatási stratégiája |
+| MI-hardver és tőkepiac | NVIDIA vezetési bizonytalansága és az ázsiai piaci visszaesés |
+| MI-finanszírozás | Anthropic várható tőzsdei bevezetése |
+| Magyar egészségügyi MI | Szinapszis: 91%-os MI-használat a megkérdezett orvosok körében |
+| Magyar önkormányzati MI | Terézvárosi MI-kép- és videókorlátozás |
+| Magyar közigazgatási MI | Nyilvános algoritmusregiszterekről szóló elemzés |
+| Magyar MI-oktatás | JÖVŐÓRA pedagógiai konferencia előkészületei |
+
+---
+
+# 🧭 ÖSSZKÉP
+
+**2026. november 16-án a mesterséges intelligencia fejlődésének négy meghatározó iránya rajzolódik ki.**
+
+### 1. Geopolitika és technológiai önállóság
+
+Az MI-fejlesztéshez szükséges félvezetők, kritikus nyersanyagok és számítási infrastruktúrák biztosítása egyre inkább nemzetközi gazdaságpolitikai kérdés.
+
+### 2. Költséghatékony és megbízható modellek
+
+A frontier-modellek fejlődésében a teljesítmény mellett a működési költség és a biztonságos alkalmazhatóság válik meghatározóvá.
+
+### 3. Egészségügyi és oktatási alkalmazások
+
+Az MI egyre szélesebb körben jelenik meg az egészségügyi tájékozódásban, az orvosi munkában és az oktatásban, ami új szakmai és társadalmi követelményeket teremt.
+
+### 4. Intézményi ellenőrzés és átláthatóság
+
+A magyar fejlemények azt mutatják, hogy a technológiai hozzáférés mellett egyre fontosabb az intézményi szabályozás, a megfelelő képzés és a döntési folyamatok ellenőrizhetősége.
+
+**Magyarország számára az egyik legfontosabb lehetőség, hogy a nemzetközi MI-technológiákat a hazai egészségügyi, oktatási, közigazgatási és vállalati igényekhez illeszkedve alkalmazza.**
+
+A tartós versenyelőnyt várhatóan nem önmagában a legerősebb MI-modellek használata, hanem azok **biztonságos, költséghatékony, ellenőrizhető és mérhető értéket teremtő működtetése** biztosíthatja.
+
+---
+
+## 📝 FORRÁSKEZELÉSI MEGJEGYZÉS
+
+**Frissesség**
+
+- A nemzetközi válogatás elsősorban 2026. november 15–16-i fejleményeket tartalmaz.
+- A San Franciscó-i Nyilatkozatot november 15-én írták alá.
+- A Qwen4-Max november 15–16-án vált elérhetővé és kapott hivatalos bemutatást.
+- Az Apple egészségügyi kutatását november 15-én jelentették be.
+- A kínai MI-oktatásról szóló Reuters-vizsgálat november 16-án jelent meg.
+- A magyar blokk november 12–16-i kutatási és szakpolitikai fejleményekre, valamint egy november 21-re meghirdetett konferenciára épül.
+
+**Fontos értelmezési korlátok**
+
+- Az Alibaba teljesítmény- és költségadatai részben saját vállalati mérésekből származnak.
+- Az amerikai nemzeti MI-bajnokokról szóló információ még nem hivatalos döntés.
+- Az Apple egészségügyi programja kutatás, nem már bizonyítottan hatékony új diagnosztikai szolgáltatás.
+- A kínai iskolai MI-használat eredményei intézményenként eltérhetnek.
+- Az NVIDIA visszahelyezését sürgető levél nem jelenti a vezetési döntés megváltoztatását.
+- Az Anthropic részvénykibocsátásának végleges ára és eredménye még nem ismert.
+- A magyar orvosi MI-kutatás a 486 válaszadó orvosra vonatkozó adatokat közöl.
+- A terézvárosi intézkedés önkormányzati kommunikációs tartalmakat érint.
+- Az állami MI-regiszterről szóló elemzés szakpolitikai javaslat, nem elfogadott magyar jogszabály.
+- A november 21-i pedagógiai konferencia eredményei még nem ismertek.
+- Egyes nemzetközi gazdasági sajtóforrások előfizetéshez kötöttek.
+
+---
+
+**Napi összegzés – 2026. november 16.: A mesterséges intelligencia ma már nem csupán technológiai fejlesztési kérdés. A globális ellátási láncok, a vállalati finanszírozás, az egészségügyi és oktatási bizalom, valamint az intézményi elszámoltathatóság együttesen határozza meg, hol és hogyan teremthet tartós értéket az MI.**
