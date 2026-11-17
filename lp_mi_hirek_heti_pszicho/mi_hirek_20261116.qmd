@@ -1,0 +1,123 @@
+---
+title: "MI és pszichológia – 2026. nov. 9-15."
+author: "OpenAI - ChatGpt"
+date: "2026-11-16"
+temak: ["LLM-rendszer becsülte meg a későbbi PTSD kockázatát sürgősségi betegbeszámolókból", "Több mint százezer mentálhigiénés chatbotfelhasználó aktivitási mintázatait elemezték", "A több emberi támogatást tartalmazó chatbot-intervenciók ígéretesebbek lehetnek – de a bizonyíték nagyon bizonytalan"]
+---
+
+**Időszak:** 2026. november 9–15.
+
+> **Válogatási elv:** Az adott héten elsőként online megjelent, közvetlenül az MI és a pszichológia kapcsolatához tartozó eredeti kutatásokat és intézményi híreket vettem figyelembe. A folyóiratcikkeknél az online megjelenés dátuma az irányadó.
+
+## Nemzetközi hírek
+
+### 1. LLM-rendszer becsülte meg a későbbi PTSD kockázatát sürgősségi betegbeszámolókból
+
+**Típus:** Lektorált eredeti kutatás – *Nature Communications*  
+**Megjelenés:** 2026. november 9.
+
+A PREVIA nevű, több nyelvi modellből felépített rendszer 145, traumát átélt beteg sürgősségi osztályon rögzített történetéből próbálta előre jelezni az egy hónappal későbbi poszttraumásstressz-zavart. A modell 78,5%-os AUROC-értéket és 95,4%-os érzékenységet ért el. Harminc esetből álló részhalmazon a teljesítménye megközelítette egy PTSD-ben jártas sürgősségi szakorvosét.
+
+**Miért fontos?** A sürgősségi ellátás gyakran az egyetlen alkalom, amikor a traumát átélt ember kapcsolatban áll az egészségüggyel. Egy rövid, természetes beszámolóból működő szűrő segíthetne a fokozott kockázatú betegek korai utánkövetésében. A rendszer magyarázatot is készít a becsléséhez, ami támogathatja az emberi ellenőrzést.
+
+**Korlátok:** A minta kicsi, két New York-i traumaközpontból és kizárólag angolul beszélő betegekből állt. A szakértővel történő összehasonlítás mindössze 30 esetre terjedt ki. Független, más intézményben végzett validáció nélkül a modell még nem tekinthető klinikai használatra alkalmas diagnosztikai eszköznek; magas érzékenysége mellett a pozitív prediktív értéke is korlátozott volt.
+
+[Az eredeti tanulmány – Nature Communications](https://doi.org/10.1038/s41467-026-78768-3)
+
+---
+
+### 2. Több mint százezer mentálhigiénés chatbotfelhasználó aktivitási mintázatait elemezték
+
+**Típus:** Lektorált eredeti kutatás – *Scientific Reports*  
+**Megjelenés:** 2026. november 15.
+
+Az Ash mentálhigiénés chatbot 102 684 felhasználójának viselkedéséből öt aktivitási profilt azonosítottak. A felhasználók 52,2%-a nagyon korán lemorzsolódott, míg az intenzív és „power user” csoportok együtt kevesebb mint 6%-ot tettek ki. A felhasználók kétharmada legalább egyszer éjszaka is beszélgetett a rendszerrel. A kérdőíveket három hét elteltével is kitöltő kis részmintában csökkentek a depressziós és szorongásos tünetek; nagyobb aktivitás nagyobb depressziópontszám-csökkenéssel járt együtt.
+
+**Miért fontos?** A rendkívül nagy, természetes használatból származó minta megmutatja, hogy az „elköteleződés” nem írható le pusztán a beszélgetések számával. Az eltérő használati mintázatok ismerete segíthet a korai lemorzsolódás felismerésében és a támogatás jobb időzítésében.
+
+**Korlátok:** A klinikai kérdőíveket mindössze 298-an töltötték ki mindkét mérési időpontban, ezért a nagy felhasználói minta nem jelent ugyanekkora klinikai bizonyító erőt. Nem volt kontrollcsoport, a gyakoribb használat és a javulás közötti kapcsolat pedig nem igazolja, hogy a chatbot okozta a változást. A nagyobb, 23 813 fős kiegészítő elemzésben a depressziópontszámokat modell becsülte, nem tényleges kérdőív mérte. Több szerző a chatbotot fejlesztő vállalat alkalmazottja.
+
+[Az eredeti tanulmány – Scientific Reports](https://doi.org/10.1038/s41598-026-78802-w)
+
+---
+
+### 3. A több emberi támogatást tartalmazó chatbot-intervenciók ígéretesebbek lehetnek – de a bizonyíték nagyon bizonytalan
+
+**Típus:** Lektorált szisztematikus áttekintés és hálózati metaanalízis – *Journal of Medical Internet Research*  
+**Megjelenés:** 2026. november 13.
+
+A kutatók 41 randomizált vizsgálat, összesen 7577 résztvevő eredményeit elemezték. Külön kezelték a chatbotok felépítését, az emberi támogatás intenzitását és a használati „dózist”. Az MI-t intenzív emberi támogatással ötvöző megoldások néhány összehasonlításban kedvezőbbek voltak a teljesen automatizált vagy egyszerűbb digitális beavatkozásoknál. Az adatok arra is utaltak, hogy a több használat nem feltétlenül jelent egyenletesen nagyobb hatást: egyes rendszereknél alacsony vagy közepes dózis mellett jelentkezhetett a legtöbb előny.
+
+**Miért fontos?** Az eredmény amellett szól, hogy a mentálhigiénés MI-rendszereket ne egységes kategóriaként kezeljük. A humán támogatás, a párbeszéd szerkezete és a használat időtartama ugyanolyan fontos lehet, mint maga az MI-modell.
+
+**Korlátok:** A szerzők az összesített bizonyíték bizonyosságát **nagyon alacsonynak** minősítették. Jelentős volt a vizsgálatok közötti eltérés, több rangsor közvetett összehasonlításokon alapult, és depressziónál publikációs torzítást is észleltek. Csak 23 vizsgálat közölt megfelelő használatiidő-adatokat, ezért jelenleg nem állapítható meg megbízható „optimális dózis”.
+
+[Az eredeti tanulmány – Journal of Medical Internet Research](https://www.jmir.org/2026/1/e104186/)
+
+---
+
+### 4. A rosszabb mentális állapot és a chatbotok érzelmi célú használata együtt járt japán fiatal felnőtteknél
+
+**Típus:** Lektorált keresztmetszeti kutatás – *JMIR Mental Health*  
+**Megjelenés:** 2026. november 11.
+
+Egy 820, 18–29 éves japán résztvevővel végzett online felmérésben 46,5% számolt be arról, hogy az előző hónapban legalább egyszer érzelmi önfeltárásra használta az MI-chatbotokat, 41% pedig mentális egészséggel kapcsolatos támogatást kért tőlük. A súlyosabb szorongásos és depressziós tünetek nagyobb használati valószínűséggel jártak együtt. A gyakoribb érzelmi önfeltárás az MI-hez kötődő érzelmi és társas-szorongásos függés magasabb kérdőíves értékeivel is összefüggött.
+
+**Miért fontos?** Az eredmény arra utal, hogy a chatbotok érzelmi használata a fiatalok segítségkérési környezetének már mérhető része. A mentális problémákkal élő felhasználók egyszerre lehetnek azok, akik leginkább keresik ezt a támogatást, és azok, akik különösen érzékenyek a túlzott kötődés kockázatára.
+
+**Korlátok:** A vizsgálat keresztmetszeti és önbeszámolós, ezért nem dönthető el, hogy a rosszabb mentális állapot vezet-e gyakoribb chatbothasználathoz, vagy fordítva. A „függés” itt kérdőíves konstrukció, nem klinikai addikciós diagnózis. A kizárólag japán fiatal felnőttekből álló minta kulturális általánosíthatósága korlátozott.
+
+[Az eredeti tanulmány – JMIR Mental Health](https://mental.jmir.org/2026/1/e104812)
+
+---
+
+### 5. Értelmezhető, többfeladatos nyelvi modellt mutattak be pszichológiai jelzések együttes elemzésére
+
+**Típus:** Lektorált módszertani kutatás – *Scientific Reports*  
+**Megjelenés:** 2026. november 13.
+
+A NALU nevű rendszer ugyanabból a szövegből egyszerre próbál érzelmeket, pszichológiai konstrukciókat, viselkedési mintázatokat, mentális kockázati nyelvet és kérdőívekhez kapcsolódó jellemzőket becsülni. A kibővített modellt 589 155 angol és brazíliai portugál nyelvű szövegmintán értékelték. A rendszer külön választja a neurális becslést, a küszöbértékek kalibrálását és az ember számára ellenőrizhető értelmezési szabályokat.
+
+**Miért fontos?** A megközelítés a pszichológiailag releváns nyelvet nem egyetlen „pozitív–negatív” címkére redukálja, hanem több, egymással párhuzamos jellemzőt tesz vizsgálhatóvá. Ez kutatási környezetben hasznos lehet például érzelem-, kockázati és viselkedési jelzések közös elemzésére.
+
+**Korlátok:** A korpusz heterogén, és több célváltozó közvetett, átalakított vagy automatikusan előállított címkéken alapult. Nem minden adatforrásnál volt ellenőrizhető, hogy ugyanazon személy szövegei elkülönültek-e a tanítási és tesztmintában. A rendszer klinikai küszöbértékeit nem validálták prospektív betegmintán; a szerzők is hangsúlyozzák, hogy nem diagnosztikai vagy autonóm krízisfelismerő eszköz.
+
+[Az eredeti tanulmány – Scientific Reports](https://doi.org/10.1038/s41598-026-73224-0)
+
+## Magyar vonatkozású hírek
+
+Az adott héten nem találtam új, magyar résztvevőkkel vagy magyar kutatócsoport szerzőségével megjelent, közvetlenül az MI és a pszichológia metszetébe tartozó lektorált tanulmányt vagy preprintet. Két releváns intézményi fejlemény azonban történt.
+
+### 1. Új honlapot indított a Debreceni Egyetem Ember–MI Kapcsolatok Kutatócsoportja
+
+**Típus:** Intézményi hír  
+**Megjelenés:** 2026. november 10.
+
+A Debreceni Egyetem Pszichológiai Intézetében működő Ember–Mesterséges Intelligencia Kapcsolatok Kutatócsoport új honlapja szakmai ismertetőket, hírszemléket és gyakorlati segédanyagokat tesz közzé. A csoport kutatási területei közé tartozik az MI antropomorfizálása és társas szerepe, a bizalom és meggyőzés, az MI-műveltség, a technostressz, a sérülékeny felhasználói csoportok, valamint az MI pszichológiai mérésben és mentális támogatásban való alkalmazása.
+
+**Miért fontos?** A kezdeményezés egy kifejezetten ember–MI kapcsolatokra összpontosító hazai pszichológiai műhely láthatóságát és tudásmegosztását erősíti. A három munkacsoport között klinikai és személyiséglélektani, társas-együttműködési, valamint motivációs és gamifikációs irány is található.
+
+**Korlátok:** A heti újdonság a honlap és a nyilvános tájékoztatási felület elindítása, nem új empirikus eredmény. A felsorolt kutatási célokból még nem következik a tervezett vizsgálatok hatásossága vagy módszertani minősége.
+
+[Az intézményi hír – Debreceni Egyetem Pszichológiai Intézet](https://pszichologia.unideb.hu/hirek/ember-es-mesterseges-intelligencia-uj-honlap-segiti-tajekozodast)
+
+[A kutatócsoport bemutatkozása és kutatási irányai](../kutatocsoportrol.qmd)
+
+---
+
+### 2. Tudományos konferenciát rendeztek az MI tanárképzési alkalmazásáról az ELTE-n
+
+**Típus:** Intézményi esemény – tudományos konferencia  
+**Időpont:** 2026. november 14.
+
+Az ELTE Tanárképző Központ konferenciája az MI tanári szerepekre, tanulásra, értékelésre, differenciálásra és reflexív pedagógiai gondolkodásra gyakorolt hatását járta körül. A programban stratégiai és pedagógusképzési előadások, kerekasztal, valamint oktatói és kutatói szekciók szerepeltek.
+
+**Miért fontos?** Az MI oktatási használata közvetlenül érinti a tanuláspszichológiát, a motivációt, a metakogníciót, a kritikai gondolkodást és a tanári döntéseket. A rendezvény arra utal, hogy ezek a kérdések a hazai pedagógusképzés intézményi szintű fejlesztésében is megjelentek.
+
+**Korlátok:** Az elérhető forrás programleírás, nem konferenciakötet vagy kutatási beszámoló. Így az előadásokban ismertetett esetleges adatok, módszerek és következtetések tudományos megalapozottsága a nyilvános program alapján nem értékelhető.
+
+[A konferencia hivatalos programja – ELTE Pedagógiai és Pszichológiai Kar](https://www.ppk.elte.hu/a-mesterseges-intelligencia-alkalmazasa-a-tanarkepzesben)
+
+## Rövid összkép
+
+A hét legerősebb eredményei azt mutatják, hogy az MI pszichológiai alkalmazása egyre közelebb kerül a valós klinikai és mindennapi használathoz: már traumabeszámolókból végzett kockázatbecslést és százezres chatbothasználati adatokat is vizsgálnak. A bizonyítékok azonban továbbra sem indokolják az autonóm klinikai alkalmazást. A legfontosabb visszatérő korlát a független validáció, a megfelelő kontrollcsoport, a hosszabb utánkövetés és az emberi szakmai felügyelet hiánya.
