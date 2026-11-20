@@ -46,6 +46,62 @@ A BME november 19-én jelentette be a Mesterséges Intelligencia és Digitális 
 
 # 🌍 NEMZETKÖZI MI-HÍREK
 
+```{=html}
+<!-- emi-infografika:nemzetkozi -->
+<figure class="emi-infografika" aria-labelledby="emi-ig-nemzetkozi">
+<figcaption class="emi-ig-fej">
+<span class="emi-ig-felcim">Infografika · 2026. november 20.</span>
+<span class="emi-ig-cim" id="emi-ig-nemzetkozi">Nemzetközi MI-hírek egy pillantásra</span>
+<span class="emi-ig-alcim">7 hír – a csempére kattintva a részletes hírhez ugorhat.</span>
+</figcaption>
+<ol class="emi-ig-racs">
+<li><a class="emi-ig-tetel" href="#anthropic-17-os-emelkedéssel-zárult-a-történelmi-tőzsdei-bemutatkozás">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">1</span><span class="emi-ig-kat">MI-gazdaság</span></span>
+<span class="emi-ig-adat">+17,1%</span>
+<span class="emi-ig-adat-cimke">első napi emelkedés a 83 dolláros kibocsátási árhoz képest</span>
+<span class="emi-ig-tetel-cim">Anthropic: történelmi tőzsdei bemutatkozás a Nasdaqon</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#európai-bizottság-mi-vel-támogatott-kibertámadás-érte-az-uniós-intézményt">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">2</span><span class="emi-ig-kat">Kiberbiztonság</span></span>
+<span class="emi-ig-adat">okt. 22.</span>
+<span class="emi-ig-adat-cimke">ekkor észlelték a támadást; a vizsgálat még tart</span>
+<span class="emi-ig-tetel-cim">Európai Bizottság: MI-vel támogatott kibertámadás</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#usa-több-mint-879-ezer-fejlett-mi-chip-kínai-exportját-engedélyezték-hat-hónap-alatt">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">3</span><span class="emi-ig-kat">MI-hardver</span></span>
+<span class="emi-ig-adat">879 ezer</span>
+<span class="emi-ig-adat-cimke">engedélyezett MI-chip-export hat hónap alatt</span>
+<span class="emi-ig-tetel-cim">USA: fejlett MI-chipek kínai exportengedélyei</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#alibaba-53-kal-nőtt-az-mi-felhő-üzletág-árbevétele">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">4</span><span class="emi-ig-kat">Felhőszolgáltatás</span></span>
+<span class="emi-ig-adat">+53%</span>
+<span class="emi-ig-adat-cimke">az MI-felhő üzletág árbevétele egy év alatt</span>
+<span class="emi-ig-tetel-cim">Alibaba: gyorsan nő az MI-felhő üzletág</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#meta-muse-a-reuters-vizsgálata-komoly-adatvédelmi-kockázatokat-tárt-fel-az-autonóm-mi-ügynöknél">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">5</span><span class="emi-ig-kat">Adatvédelem</span></span>
+<span class="emi-ig-adat">Signal</span>
+<span class="emi-ig-adat-cimke">üzenetszövegekhez is hozzáférhetett Androidon és macOS-en</span>
+<span class="emi-ig-tetel-cim">Meta Muse: adatvédelmi kockázatok az MI-ügynöknél</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#amerikai-állami-vizsgálat-a-nagy-mi-modellek-biztonsági-védelmei-megkerülhetők-voltak">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">6</span><span class="emi-ig-kat">MI-biztonság</span></span>
+<span class="emi-ig-adat">4 / 4</span>
+<span class="emi-ig-adat-cimke">vizsgált platform védelme volt megkerülhető</span>
+<span class="emi-ig-tetel-cim">GAO: megkerülhető biztonsági korlátok a nagy modelleknél</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#aws-az-autonóm-mi-ügynökök-már-fizetős-api-szolgáltatásokat-is-vásárolhatnak">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">7</span><span class="emi-ig-kat">MI-ügynökök</span></span>
+<span class="emi-ig-adat">x402</span>
+<span class="emi-ig-adat-cimke">protokollon fizetnek az ügynökök az AWS Marketplace-en</span>
+<span class="emi-ig-tetel-cim">AWS: MI-ügynökök fizetős API-kat vásárolhatnak</span>
+</a></li>
+</ol>
+<p class="emi-ig-tanulsag"><span class="emi-ig-tanulsag-cimke">Fő tanulság</span> Az MI-verseny következő szakaszában a modellek teljesítménye mellett a pénzügyi fenntarthatóság, a hozzáférési jogosultságok ellenőrzése és a biztonságos működtetés is meghatározóvá válik.</p>
+</figure>
+```
+
 ## 1. Anthropic: 17%-os emelkedéssel zárult a történelmi tőzsdei bemutatkozás
 
 **Dátum:** 2026. november 19.  
@@ -351,6 +407,44 @@ A rendszerek egyre inkább nemcsak adatokat dolgoznak fel, hanem saját feladata
 ---
 
 # 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+```{=html}
+<!-- emi-infografika:magyar -->
+<figure class="emi-infografika" aria-labelledby="emi-ig-magyar">
+<figcaption class="emi-ig-fej">
+<span class="emi-ig-felcim">Infografika · 2026. november 20.</span>
+<span class="emi-ig-cim" id="emi-ig-magyar">Magyar MI-hírek egy pillantásra</span>
+<span class="emi-ig-alcim">4 hír – a csempére kattintva a részletes hírhez ugorhat.</span>
+</figcaption>
+<ol class="emi-ig-racs">
+<li><a class="emi-ig-tetel" href="#bme-egymilliárd-forintos-mi--és-digitális-biztonsági-kutatólaboratórium-indult">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">1</span><span class="emi-ig-kat">Kutatás</span></span>
+<span class="emi-ig-adat">1 Mrd Ft</span>
+<span class="emi-ig-adat-cimke">NKFI-támogatás, a program 2029-ig tart</span>
+<span class="emi-ig-tetel-cim">BME: új MI- és digitális reziliencia nemzeti labor</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#kh-a-vizsgált-magyar-vállalatok-53-a-használ-mesterséges-intelligenciát">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">2</span><span class="emi-ig-kat">Vállalati MI</span></span>
+<span class="emi-ig-adat">53%</span>
+<span class="emi-ig-adat-cimke">a vizsgált cégek ennyi része használ MI-t (előző félév: 58%)</span>
+<span class="emi-ig-tetel-cim">K&amp;H innovációs index: MI a magyar cégeknél</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#óbudai-egyetem-mi-ügynökök-és-kibervédelem-a-november-19-i-szakmai-workshopon">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">3</span><span class="emi-ig-kat">Kiberbiztonság</span></span>
+<span class="emi-ig-adat">nov. 19.</span>
+<span class="emi-ig-adat-cimke">szakmai workshop az Óbudai Egyetemen</span>
+<span class="emi-ig-tetel-cim">Óbudai Egyetem: MI-ügynökök és kibervédelem</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#ma-nyíregyházán-mi-a-tudományos-kutatásban-hitelesség-és-kutatói-szabadság">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">4</span><span class="emi-ig-kat">Tudomány</span></span>
+<span class="emi-ig-adat">nov. 20.</span>
+<span class="emi-ig-adat-cimke">tudományos ülés Nyíregyházán, 13:00–15:00</span>
+<span class="emi-ig-tetel-cim">DE ETK: MI a tudományos kutatásban</span>
+</a></li>
+</ol>
+<p class="emi-ig-tanulsag"><span class="emi-ig-tanulsag-cimke">Fő tanulság</span> Magyarországon erősödik a biztonságos, ellenőrizhető MI-re irányuló kutatás, miközben a vizsgált vállalatok több mint fele már használ MI-t.</p>
+</figure>
+```
 
 *A hazai válogatás egy új kutatólaboratóriumot, egy frissen ismertetett vállalati felmérést és két aktuális tudományos-szakmai eseményt tartalmaz.*
 
