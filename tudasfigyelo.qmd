@@ -45,6 +45,12 @@ Válogatásunk olyan rendszeresen frissülő műsorokat és előadásokat gyűjt
 
 ```{=html}
 <div class="emi-forrasok">
+<a class="emi-forras" href="https://www.youtube.com/watch?v=HXK4PeG6S5k" target="_blank" rel="noopener">
+<span class="emi-forras-tipus">Videó · <time datetime="2026-11-19">2026. november 19.</time></span>
+<span class="emi-forras-cim">Az AI megalkotói óriási tétekkel gurigáznak!</span>
+<span class="emi-forras-leiras">Dr. Buda László pszichiáter</span>
+<span class="emi-forras-forras">YouTube<span class="visually-hidden"> (új lapon)</span></span>
+</a>
 <a class="emi-forras" href="https://www.youtube.com/watch?v=eqbxkX16R24" target="_blank" rel="noopener">
 <span class="emi-forras-tipus">Konferencia · <time datetime="2026-10-14">2026. október 14.</time></span>
 <span class="emi-forras-cim">A mesterséges intelligencia filozófiája</span>

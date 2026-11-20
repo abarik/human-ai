@@ -92,3 +92,4 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - 2026-11-08: a kezdőlap együttműködési mondata kártyává alakítva: „Együttműködés” felcím, „Dolgozzunk együtt!” cím, a partnertípusok címkékként, „Kapcsolatfelvétel” gomb és link a kutatócsoport oldalára; mobilon egymás alatt.
 - 2026-11-09: Hujber-Mitru Szilvia IPCRF 2026-os (Hongkong) előadásának diasora letölthető PDF-ként (`lp_szakmai_esemenyek/fajlok/hujber-mitru_ipcrf2026_diasor.pdf`, 28 oldal, 5,5 MB) az eseményoldal adatkártyáján.
 - 2026-11-17: a napi és a heti híroldal keresője a hírek teljes szövegében keres (korábban csak a címben és az első három hírcímben, ezért a többi hír – pl. a magyar hírek – nem volt kereshető); a teljes szöveget a Quarto `search.json` indexéből tölti be a mező első használatakor.
+- 2026-11-20: Tudásfigyelő – új kiemelt videó: Dr. Buda László pszichiáter: „Az AI megalkotói óriási tétekkel gurigáznak!” (2026-11-19).
