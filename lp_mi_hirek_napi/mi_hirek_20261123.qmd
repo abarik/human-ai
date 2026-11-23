@@ -1,0 +1,494 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. november 23."
+author: "OpenAI - ChatGpt"
+date: "2026-11-23"
+temak: ["OpenAI: a „perplexity” lehetne közös mérce az MI-képességek fejlődésének követésére", "Dél-Korea oktatási minisztere lemondott az MI-vel támogatott vizsgacsalások körüli káosz miatt", "Anthropic: 93,5 milliárd dolláros bruttó bevétellel zárult a történelmi IPO"]
+---
+
+**Hírlezárás:** 2026. november 23., 10:00 (CET)  
+**Vizsgált időszak:** elsősorban 2026. november 20–23.  
+**Tartalom:** 6 nemzetközi hír + 4 magyar vonatkozás
+
+> **Röviden:** a hétvége legfontosabb MI-fejleményei most kevésbé új modellekről, inkább az MI gazdasági fenntarthatóságáról, a számítási kapacitások geopolitikai ellenőrzéséről, a biztonság méréséről és az oktatás alkalmazkodásáról szólnak.
+
+---
+
+# 🌍 NEMZETKÖZI MI-HÍREK
+
+```{=html}
+<!-- emi-infografika:nemzetkozi -->
+<figure class="emi-infografika" aria-labelledby="emi-ig-nemzetkozi">
+<figcaption class="emi-ig-fej">
+<span class="emi-ig-felcim">Infografika · 2026. november 23.</span>
+<span class="emi-ig-cim" id="emi-ig-nemzetkozi">Nemzetközi MI-hírek egy pillantásra</span>
+<span class="emi-ig-alcim">6 hír – a csempére kattintva a részletes hírhez ugorhat.</span>
+</figcaption>
+<ol class="emi-ig-racs">
+<li><a class="emi-ig-tetel" href="#openai-a-perplexity-lehetne-közös-mérce-az-mi-képességek-fejlődésének-követésére">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">1</span><span class="emi-ig-kat">MI-kutatás</span></span>
+<span class="emi-ig-adat">perplexity</span>
+<span class="emi-ig-adat-cimke">javasolt közös mérce az MI-képességek fejlődéséhez</span>
+<span class="emi-ig-tetel-cim">OpenAI: a perplexity mint közös fejlődési és biztonsági mérce</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#dél-korea-oktatási-minisztere-lemondott-az-mi-vel-támogatott-vizsgacsalások-körüli-káosz-miatt">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">2</span><span class="emi-ig-kat">MI és oktatás</span></span>
+<span class="emi-ig-adat">111</span>
+<span class="emi-ig-adat-cimke">eszközhöz kötött feltételezett szabálytalanság a vizsgán</span>
+<span class="emi-ig-tetel-cim">Dél-Korea: lemondott az oktatási miniszter az MI-csalások miatt</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#anthropic-935-milliárd-dolláros-bruttó-bevétellel-zárult-a-történelmi-ipo">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">3</span><span class="emi-ig-kat">MI-gazdaság</span></span>
+<span class="emi-ig-adat">93,5 Mrd $</span>
+<span class="emi-ig-adat-cimke">bruttó kibocsátási érték 83 dolláros részvényáron</span>
+<span class="emi-ig-tetel-cim">Anthropic: lezárult a történelmi tőzsdei kibocsátás</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#az-usa-már-a-külföldi-adatközpontokon-keresztüli-távoli-mi-számítási-hozzáférést-is-korlátozza">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">4</span><span class="emi-ig-kat">Geopolitika</span></span>
+<span class="emi-ig-adat">nov. 19.</span>
+<span class="emi-ig-adat-cimke">ettől hatályos a távoli MI-számítási hozzáférés szabálya</span>
+<span class="emi-ig-tetel-cim">USA: korlátozzák a külföldi adatközpontokon át elérhető MI-számítást</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#trump-hatalmas-adót-helyezett-kilátásba-azokra-az-amerikai-cégekre-amelyek-külföldön-építenek-mi-adatközpontokat">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">5</span><span class="emi-ig-kat">Adatközpontok</span></span>
+<span class="emi-ig-adat">nov. 20.</span>
+<span class="emi-ig-adat-cimke">Trump bejelentése; az adó mértéke még nem ismert</span>
+<span class="emi-ig-tetel-cim">Trump: büntetőadó a külföldön adatközpontot építő cégeknek</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#erős-korrekció-érte-az-mi-részvényeket-az-nvidia-14-ot-a-nasdaq-több-mint-5-ot-esett-pénteken">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">6</span><span class="emi-ig-kat">Tőkepiac</span></span>
+<span class="emi-ig-adat">−14%</span>
+<span class="emi-ig-adat-cimke">az Nvidia esése nov. 20-án; a Nasdaq −5,3%</span>
+<span class="emi-ig-tetel-cim">MI-részvények: erős korrekció a Nasdaqon</span>
+</a></li>
+</ol>
+<p class="emi-ig-tanulsag"><span class="emi-ig-tanulsag-cimke">Fő tanulság</span> Az MI technológiai fejlődése továbbra is gyors, de a pénzügyi piac már jóval kevésbé hajlandó korlátlanul finanszírozni minden MI-történetet.</p>
+</figure>
+```
+
+## 1. OpenAI: a „perplexity” lehetne közös mérce az MI-képességek fejlődésének követésére
+
+**Dátum:** november 22.  
+**Kategória:** MI-kutatás, modellértékelés, biztonság  
+**Jelentőség:** 🔴 Kiemelt
+
+Jakub Pachocki, az OpenAI vezető kutatója új tanulmányban érvel amellett, hogy a modellek előtanítási veszteségéhez kapcsolódó **perplexity/cross-entropy mutató** fontos, fejlesztők között is összevethető mérőszám lehetne az MI fejlődési ütemének követésére.
+
+Az elképzelés azért érdekes, mert a mai benchmarkok gyakran gyorsan telítődnek, illetve egy-egy konkrét képességet mérnek. Az OpenAI szerint egy alapvetőbb tréningmutató segíthetne annak előrejelzésében is, mikor közelednek a modellek olyan képességszintekhez, amelyekhez új biztonsági követelmények szükségesek.
+
+### Miért lényeges?
+
+A frontier-modellek képességei gyorsabban fejlődnek, mint a hozzájuk használt mérési és szabályozási keretek. Ha a nagy laborok összehasonlítható tréningmetrikákat publikálnának, az **korábbi figyelmeztetést adhatna az új képességek megjelenéséről**, és javíthatná a biztonsági standardok összehangolását.
+
+Fontos: ez egy OpenAI által javasolt kutatási megközelítés, nem új iparági szabvány.
+
+**Forrás:**
+
+[OpenAI – Perplexity and Intelligence](https://openai.com/index/perplexity-and-intelligence/)
+
+---
+
+## 2. Dél-Korea oktatási minisztere lemondott az MI-vel támogatott vizsgacsalások körüli káosz miatt
+
+**Dátum:** november 22–23.  
+**Kategória:** MI és oktatás, szabályozás, társadalmi hatások  
+**Jelentőség:** 🔴 Kiemelt
+
+Choi Kyo-jin dél-koreai oktatási miniszter lemondott, miután az ország egyetemi felvételi vizsgája előtt az MI-vel támogatott csalásoktól való félelem miatt az utolsó pillanatban több szabályt is megváltoztattak.
+
+A közvetlen előzmény az volt, hogy egy másik országos vizsga legjobb eredményét elérő jelentkező beismerte: **miniatűr kamerát, okostelefont és generatív MI-t** használt a csaláshoz. A fő felvételi vizsgán ezután többek között rejtett kamerákat kerestek, korlátozták az eszközhasználatot, és országos mobilriasztásokat is küldtek az el nem adott telefonok felderítésére.
+
+A vizsga alatt 111, elektronikus eszközökhöz kapcsolódó feltételezett szabálytalanságot azonosítottak.
+
+### Miért lényeges?
+
+Az eset azt mutatja, hogy az MI oktatási hatása már messze túlmutat a beadandók és esszék kérdésén. A **rejtett hardver + mobilkapcsolat + generatív MI** kombinációja a hagyományos vizsgabiztonsági modelleket is felülírhatja.
+
+A következő években az oktatási rendszereknek valószínűleg nemcsak új tiltásokra, hanem a számonkérés módszereinek újratervezésére is szükségük lesz.
+
+**Források:**
+
+[Yonhap – Education minister resigns over college exam chaos amid AI cheating fears](https://en.yna.co.kr/view/AEN20261122001052315)
+
+[Reuters – South Korea's education minister quits over exam cheating chaos](https://www.marketscreener.com/news/south-korea-s-education-minister-quits-over-exam-cheating-chaos-ce785ed3d18ef722)
+
+---
+
+## 3. Anthropic: 93,5 milliárd dolláros bruttó bevétellel zárult a történelmi IPO
+
+**Dátum:** november 20.  
+**Kategória:** MI-gazdaság, tőkepiac, frontier-modellek  
+**Jelentőség:** 🔴 Kiemelt
+
+Az Anthropic hivatalosan lezárta tőzsdei részvénykibocsátását. Az aláíró bankok teljes egészében lehívták a számukra biztosított további részvénycsomagot is.
+
+A végleges kibocsátásban **1,127 milliárd részvényt** értékesítettek 83 dolláros áron.
+
+### A fő számok
+
+| Mutató | Érték |
+|---|---:|
+| Értékesített részvények | 1,127 milliárd |
+| Kibocsátási ár | 83 USD |
+| Bruttó kibocsátási érték | kb. 93,5 milliárd USD |
+| Anthrophoz befolyó bruttó összeg | kb. 91,6 milliárd USD |
+
+### Miért lényeges?
+
+A frontier-MI fejlesztése elképesztően tőkeigényes. A modellek tréningje, az inferencia, a kutatói létszám és az adatközponti kapacitások több tízmilliárd dolláros finanszírozást igényelhetnek.
+
+Az Anthropic IPO-ja azt mutatja, hogy a tőkepiac egyelőre hajlandó ilyen nagyságrendű finanszírozást biztosítani – ugyanakkor a következő években már a **bevételnövekedés mellett a nyereségességet és a beruházások megtérülését** is egyre szigorúbban fogják figyelni.
+
+**Forrás:**
+
+[Anthropic – Closing of initial public offering](https://www.anthropic.com/news/ipo-close)
+
+---
+
+## 4. Az USA már a külföldi adatközpontokon keresztüli távoli MI-számítási hozzáférést is korlátozza
+
+**Hatályos:** november 19-től  
+**Kategória:** félvezetők, geopolitika, adatközpontok  
+**Jelentőség:** 🔴 Kiemelt
+
+Az amerikai Kereskedelmi Minisztérium új exportellenőrzési szabálya már nemcsak azt vizsgálja, hogy **hová szállítanak fejlett MI-chipeket**, hanem azt is, hogy külföldi adatközpontokból kik használhatják távolról az általuk biztosított számítási kapacitást.
+
+Külön engedélyezés vonatkozik azokra a külföldi adatközpontokra, amelyek jelentős számítási kapacitást biztosítanak meghatározott, nemzetbiztonsági szempontból aggályos országokhoz kapcsolódó vállalatoknak.
+
+Emellett Indonézia, Malajzia, Szingapúr, Thaiföld és Brazília esetében is szigorodtak bizonyos fejlett félvezetők exportkövetelményei.
+
+### Miért lényeges?
+
+Ez fontos paradigmaváltás: a szabályozás már nem pusztán a **chip fizikai helyét**, hanem a számítás tényleges felhasználóját is figyeli.
+
+A globális felhő- és adatközponti szolgáltatóknak ezért részletesebb ügyfél- és tulajdonosi átvilágítást kell végezniük. Az MI-geopolitika egyre inkább a „ki fér hozzá a compute-hoz?” kérdés köré szerveződik.
+
+**Forrás:**
+
+[U.S. Federal Register – Addressing Remote Access to Advanced Semiconductors](https://www.govinfo.gov/content/pkg/FR-2026-11-19/html/2026-23529.htm)
+
+---
+
+## 5. Trump „hatalmas adót” helyezett kilátásba azokra az amerikai cégekre, amelyek külföldön építenek MI-adatközpontokat
+
+**Dátum:** november 20.  
+**Kategória:** MI-infrastruktúra, gazdaságpolitika, adatközpontok  
+**Jelentőség:** 🔴 Kiemelt
+
+Donald Trump amerikai elnök pénteken azt mondta, hogy az Egyesült Államok jelentős adóval büntetné azokat az amerikai vállalatokat, amelyek MI-adatközpontokat külföldön építenek meg.
+
+A bejelentés célja az amerikai számítási infrastruktúra és kapcsolódó munkahelyek belföldön tartása.
+
+A pontos jogszabályi konstrukciót és az adó mértékét ugyanakkor nem ismertették.
+
+### Miért lényeges?
+
+Az adatközpontok helyszínének kiválasztását eddig elsősorban az energiaár, az elektromos hálózat, a vízellátás, az engedélyezés és az adózás határozta meg.
+
+Ha az Egyesült Államok ténylegesen gazdaságpolitikai eszközökkel ösztönzi a kapacitások belföldre telepítését, az **Európa és más régiók adatközponti beruházásaira is hatással lehet**.
+
+Fontos: ez jelenleg elnöki politikai bejelentés, nem már elfogadott új adótörvény.
+
+**Forrás:**
+
+[Reuters – Trump says US to penalize firms building data centers abroad](https://www.investing.com/news/world-news/trump-says-us-to-penalize-firms-building-data-centers-abroad-5042390)
+
+---
+
+## 6. Erős korrekció érte az MI-részvényeket: az Nvidia 14%-ot, a Nasdaq több mint 5%-ot esett pénteken
+
+**Dátum:** november 20.  
+**Kategória:** MI-gazdaság, tőkepiac, adatközponti beruházások  
+**Jelentőség:** 🔴 Kiemelt
+
+Az amerikai technológiai részvények pénteken nagyon erős eladási hullámba kerültek.
+
+A Nasdaq Composite **5,3%-ot esett egyetlen nap alatt**, heti vesztesége pedig közel 10% lett, ami 2020 óta a legrosszabb hete.
+
+Az Nvidia pénteken 14%-ot, a hét egészében pedig 23%-ot veszített. Az Anthropic részvényei az IPO utáni napon mintegy 9%-kal estek.
+
+### Miért lényeges?
+
+A befektetők egyre erősebben teszik fel a kérdést: **meg fog-e térülni az MI-infrastruktúrába öntött több száz milliárd dollár?**
+
+A korrekció önmagában nem jelenti az MI-boom végét, de fontos jelzés, hogy a piac a puszta növekedési történetek helyett egyre jobban figyeli:
+
+- az adatközpontok kihasználtságát,
+- a felhőszolgáltatások árrését,
+- a modellek tényleges bevételtermelését,
+- és a vállalatok készpénzfelhasználását.
+
+**A fő tanulság:** az MI technológiai fejlődése továbbra is gyors, de a pénzügyi piac már jóval kevésbé hajlandó korlátlanul finanszírozni minden MI-történetet.
+
+**Források:**
+
+[Associated Press – S&P 500 sinks 3.7% and Nasdaq goes negative for the year as tech sell-off worsens](https://apnews.com/article/c4c3f4878b12989347f8a930ed813dad)
+
+[Reuters – Nasdaq plunges 5% as AI and tech sell-off worsens](https://www.investing.com/news/stock-market-news/nasdaq-plunges-5-a-day-after-anthropic-debut-but-investors-still-believe-in-ai-5042641)
+
+---
+
+# 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+```{=html}
+<!-- emi-infografika:magyar -->
+<figure class="emi-infografika" aria-labelledby="emi-ig-magyar">
+<figcaption class="emi-ig-fej">
+<span class="emi-ig-felcim">Infografika · 2026. november 23.</span>
+<span class="emi-ig-cim" id="emi-ig-magyar">Magyar MI-hírek egy pillantásra</span>
+<span class="emi-ig-alcim">4 hír – a csempére kattintva a részletes hírhez ugorhat.</span>
+</figcaption>
+<ol class="emi-ig-racs">
+<li><a class="emi-ig-tetel" href="#ma-az-elte-n-tudásmegosztó-workshop-az-mi-egyetemi-alkalmazásáról">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">1</span><span class="emi-ig-kat">Felsőoktatás</span></span>
+<span class="emi-ig-adat">nov. 23.</span>
+<span class="emi-ig-adat-cimke">workshop 17:00–19:00, ELTE Lágymányosi Campus</span>
+<span class="emi-ig-tetel-cim">ELTE: tudásmegosztó workshop az MI egyetemi alkalmazásáról</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#bme-egymilliárd-forintos-program-indult-mi-alapú-digitális-biztonsági-megoldások-fejlesztésére">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">2</span><span class="emi-ig-kat">Kiberbiztonság</span></span>
+<span class="emi-ig-adat">1 Mrd Ft</span>
+<span class="emi-ig-adat-cimke">NKFI-támogatás, a program 2029-ig tart</span>
+<span class="emi-ig-tetel-cim">BME: MI és digitális reziliencia nemzeti labor</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#medián-a-magyarok-kétharmada-kipróbált-már-valamilyen-mi-eszközt-36-rendszeresen-használja">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">3</span><span class="emi-ig-kat">Társadalom</span></span>
+<span class="emi-ig-adat">36%</span>
+<span class="emi-ig-adat-cimke">rendszeresen használ MI-t; kétharmad már kipróbálta</span>
+<span class="emi-ig-tetel-cim">Medián: a magyarok kétharmada kipróbálta az MI-t</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#az-mi-részvények-globális-zuhanása-a-magyar-piacot-is-elérte">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">4</span><span class="emi-ig-kat">Tőkepiac</span></span>
+<span class="emi-ig-adat">−5,8%</span>
+<span class="emi-ig-adat-cimke">a BUX heti esése a globális MI-korrekció idején</span>
+<span class="emi-ig-tetel-cim">MI-részvényzuhanás: a magyar piacot is elérte</span>
+</a></li>
+</ol>
+<p class="emi-ig-tanulsag"><span class="emi-ig-tanulsag-cimke">Fő tanulság</span> Az MI-használat Magyarországon már tömegjelenség, de a kompetenciák egyenlőtlenek, és a globális MI-korrekció a hazai piacot is érinti.</p>
+</figure>
+```
+
+*A hazai hírek hétfő délelőtt ritkábbak; ezért a mai blokkban egy november 23-i esemény mellett a közvetlenül megelőző napok legfontosabb, továbbra is aktuális magyar fejleményei szerepelnek.*
+
+## 1. Ma az ELTE-n: tudásmegosztó workshop az MI egyetemi alkalmazásáról
+
+**Dátum:** november 23., 17:00–19:00  
+**Helyszín:** ELTE TTK, Lágymányosi Campus  
+**Kategória:** Magyar felsőoktatás, MI-oktatás, kutatás  
+**Jelentőség:** 🔴 Kiemelt magyar vonatkozás
+
+Az ELTE ma délután rendezi meg **„Mesterséges intelligencia az egyetemen”** című tudásmegosztó workshopját.
+
+Az esemény az egyetem Mesterséges Intelligencia és Digitális Kompetencia Zászlóshajó Programjához kapcsolódik.
+
+A fórum témái között szerepel:
+
+- az MI használata az oktatásban,
+- kutatási alkalmazások,
+- oktatástámogatási eszközök,
+- intézményi jó gyakorlatok,
+- valamint új egyetemi projektek és együttműködések.
+
+### Miért lényeges?
+
+A generatív MI felsőoktatási használata már nem egyéni oktatói vagy hallgatói kísérlet: az egyetemeknek intézményi szinten kell dönteniük a **képzésről, adatvédelemről, értékelésről és kutatási integritásról**.
+
+Az ELTE programja annak jele, hogy a magyar felsőoktatásban is megkezdődött a tapasztalatok szervezett összegyűjtése.
+
+Fontos: a rendezvény ma délután lesz; az eredményeit a reggeli hírlezáráskor még nem lehet ismertetni.
+
+**Forrás:**
+
+[ELTE – Mesterséges intelligencia az egyetemen: tudásmegosztó workshop](https://ttk.elte.hu/mesterseges-intelligencia-az-egyetemen-tudasmegoszto-workshop)
+
+---
+
+## 2. BME: egymilliárd forintos program indult MI-alapú digitális biztonsági megoldások fejlesztésére
+
+**Bejelentés:** november 19.  
+**Kategória:** Magyar MI-kutatás, kiberbiztonság, deepfake-felismerés  
+**Jelentőség:** 🔴 Kiemelt magyar vonatkozás
+
+A BME-n megkezdte működését a **Mesterséges Intelligencia és Digitális Reziliencia Misszióvezérelt Nemzeti Laboratórium**.
+
+A Nemzeti Kutatási, Fejlesztési és Innovációs Alap **1 milliárd forinttal** támogatja a 2029-ig tartó programot.
+
+### Fő kutatási irányok
+
+- MI-alapú kibervédelmi megoldások.
+- Digitális fenyegetések felismerése.
+- Manipulált és megtévesztő tartalmak detektálása.
+- Megbízható MI-rendszerek fejlesztése.
+- Kutatási eredmények piaci termékekké alakítása.
+
+### Miért lényeges?
+
+A vállalati és állami MI-használat terjedésével egyre fontosabb lesz a **deepfake-ek, automatizált támadások és manipulált digitális tartalmak** felismerése.
+
+A program különösen értékes lehet, ha a kutatási eredményekből hazai kiberbiztonsági termékek és szolgáltatások születnek.
+
+**Forrás:**
+
+[BME – Elstartolt a Mesterséges Intelligencia és Digitális Reziliencia Misszióvezérelt Nemzeti Laboratórium](https://www.bme.hu/hirek/261119/bme-vik-mesterseges-intelligencia-missziovezerelt-nemzeti-laboratorium)
+
+---
+
+## 3. Medián: a magyarok kétharmada kipróbált már valamilyen MI-eszközt, 36% rendszeresen használja
+
+**Közzététel:** november 18–19.  
+**Kategória:** Magyar társadalom, MI-adaptáció, digitális szakadék  
+**Jelentőség:** 🔴 Kiemelt magyar vonatkozás
+
+A Medián HVG számára készített friss felmérése szerint a magyar lakosság körében az MI-használat már széles körben elterjedt.
+
+A válaszadók **kétharmada próbált már valamilyen MI-alapú alkalmazást, 36%-uk pedig rendszeresen használ ilyen eszközt**.
+
+Az életkor szerinti különbség rendkívül nagy:
+
+- a 30 év alattiak 99%-a használt már MI-t,
+- a 65 év felettiek körében ez az arány csak körülbelül 24%.
+
+A használat az iskolai végzettséggel is erősen összefügg.
+
+### Miért lényeges?
+
+A magyar MI-adaptáció legfontosabb kihívása nem feltétlenül az lesz, hogy elérhető-e a technológia, hanem hogy **ki tudja hatékonyan használni**.
+
+Ha az MI-ismeretek a tanulásban, álláskeresésben és munkavégzésben előnyt jelentenek, az életkor és végzettség szerinti különbségek új digitális egyenlőtlenségeket hozhatnak létre.
+
+**A fő tanulság:** az MI-alapműveltség és a gyakorlati képzés egyre inkább társadalompolitikai és munkaerőpiaci kérdés is.
+
+**Forrás:**
+
+[HVG / Medián – A magyarok többsége már nem csak barátkozik az AI-jal, rendszeresen használja is](https://hvg.hu/360/20261118_median-gep-okos-emberek-ovatosak-mesterseges-intelligencia-ai-hvg)
+
+---
+
+## 4. Az MI-részvények globális zuhanása a magyar piacot is elérte
+
+**Dátum:** november 20–23.  
+**Kategória:** Magyar tőkepiac, MI-gazdaság  
+**Jelentőség:** 🟠 Fontos magyar vonatkozás
+
+Az amerikai MI- és félvezetőrészvények pénteki összeomlása Európára és Magyarországra is átterjedt.
+
+A Portfolio hétfő reggeli összesítése szerint a **BUX index a múlt héten összesen 5,8%-ot veszített**, miközben az amerikai Nasdaq heti esése megközelítette a 10%-ot, a philadelphiai félvezetőindex pedig pénteken 10,7%-ot zuhant.
+
+A globális kockázatkerülés a forintot is nyomás alá helyezte.
+
+### Miért lényeges?
+
+A fejlemény megmutatja, hogy az MI-beruházások megtérülésével kapcsolatos bizonytalanság már nem csak a Szilícium-völgy ügye.
+
+A nagy globális technológiai korrekció:
+
+- a magyar részvénypiacot,
+- a befektetői kockázatvállalást,
+- a forintot,
+- és közvetetten a hazai technológiai vállalatok finanszírozási környezetét is érintheti.
+
+**A fő tanulság:** az MI-szektor gazdasági jelentősége már akkora, hogy egy technológiai korrekció szélesebb pénzügyi piaci hatásokkal járhat Magyarországon is.
+
+Fontos: a BUX-esés nem kizárólag az MI-pánik eredménye; kamat-, inflációs és hazai makrogazdasági tényezők is szerepet játszanak.
+
+**Forrás:**
+
+[Portfolio – Kilengett a félelemindex, ítéletet mondanak Magyarországról](https://www.portfolio.hu/gazdasag/20261123/kilengett-a-felelemindex-iteletet-mondanak-magyarorszagrol-vizvalaszto-jon-a-forintnal-es-a-befekteteseknel-878176)
+
+---
+
+# 📊 A MAI NAP LEGFONTOSABB TRENDJEI
+
+## 1. Az MI pénzügyi „mézeshetei” véget érhetnek
+
+A modellek és az infrastruktúra fejlődése továbbra is rendkívül gyors, de a tőkepiac már jóval szigorúbban vizsgálja a megtérülést.
+
+Az Anthropic rekordméretű tőkebevonása és a technológiai részvények párhuzamos zuhanása első látásra ellentmondásos, valójában azonban ugyanazt mutatja:
+
+**a tőke továbbra is rendelkezésre áll a legerősebb szereplők számára, de az értékeltségek automatikus emelkedése már nem garantált.**
+
+---
+
+## 2. A „compute” egyre inkább geopolitikai erőforrás
+
+Az amerikai exportkorlátozás és az adatközpontok belföldön tartására irányuló politikai nyomás azt jelzi, hogy az MI-számítási kapacitást már stratégiai infrastruktúraként kezelik.
+
+A következő évek kulcskérdései:
+
+- hol épülnek adatközpontok,
+- ki fér hozzá a gyorsítókhoz,
+- milyen energia táplálja őket,
+- és mely ország joghatósága alatt működnek.
+
+---
+
+## 3. Az oktatási rendszereknek újra kell gondolniuk a számonkérést
+
+A dél-koreai vizsgabotrány azt mutatja, hogy a generatív MI és az egyre kisebb elektronikus eszközök együtt új problémát teremtenek.
+
+A puszta eszköztiltások mellett felértékelődhet:
+
+- a szóbeli vizsga,
+- a folyamatközpontú értékelés,
+- a helyben készített feladatok,
+- az MI-használat dokumentálása,
+- és a valódi problémamegoldó készségek mérése.
+
+---
+
+## 4. Magyarországon az MI-használat már tömegjelenség, de a kompetenciák egyenlőtlenek
+
+A Medián felmérése és az ELTE mai programja jól kiegészíti egymást.
+
+Az egyik azt mutatja, hogy a technológia már széles körben jelen van a társadalomban; a másik azt, hogy az intézmények most kezdik kialakítani a **tudatos, szabályozott és szakmailag megalapozott használat** kereteit.
+
+---
+
+# 🎯 ZÁRÓ ÉRTÉKELÉS
+
+| Terület | A nap legfontosabb fejleménye |
+|---|---|
+| MI-kutatás | OpenAI: perplexity mint közös fejlődési és biztonsági mérce |
+| MI és oktatás | Dél-koreai miniszteri lemondás az MI-csalási botrány után |
+| MI-finanszírozás | Anthropic: 93,5 milliárd dollárra nőtt az IPO bruttó értéke |
+| MI-geopolitika | USA: a távoli külföldi compute-hozzáférés szabályozása |
+| Adatközpontok | Trump külföldi MI-adatközpontokat büntető adót helyezett kilátásba |
+| MI-tőkepiac | Nasdaq -5,3%, Nvidia -14% pénteken |
+| Magyar felsőoktatás | ELTE MI Tudásmegosztó Workshop – ma |
+| Magyar MI-biztonság | BME Digitális Reziliencia Nemzeti Laboratórium |
+| Magyar társadalom | Medián: kétharmados MI-kipróbálási arány |
+| Magyar tőkepiac | A globális MI-korrekció a BUX-ot is erősen érintette |
+
+---
+
+# 🧭 ÖSSZKÉP
+
+**2026. november 23-án az MI-világ legfontosabb változása nem egy új chatbot vagy benchmarkrekord, hanem a technológia körüli gazdasági és intézményi rendszer átalakulása.**
+
+Három szűk keresztmetszet válik egyre láthatóbbá:
+
+1. **Tőke:** megtérülnek-e a százmilliárdos MI-beruházások?
+2. **Compute:** ki birtokolja és ki használhatja a fejlett számítási infrastruktúrát?
+3. **Intézmények:** hogyan alkalmazkodik az oktatás, a munkaerőpiac és a szabályozás az egyre erősebb modellekhez?
+
+**Magyarország számára a legfontosabb lehetőség az, hogy az MI széles körű társadalmi használatát képzéssel, kutatási kapacitással és megbízható biztonsági megoldásokkal kapcsolja össze.**
+
+A technológiai hozzáférés önmagában már nem jelent tartós versenyelőnyt; a valódi különbséget az teremtheti meg, hogy egy ország, egyetem vagy vállalat **milyen gyorsan tudja az MI-t ellenőrizhető, biztonságos és mérhető értéket teremtő munkafolyamatokká alakítani.**
+
+---
+
+## 📝 FORRÁSKEZELÉSI MEGJEGYZÉS
+
+- A válogatás elsősorban november 20–23-i fejleményekre épül.
+- A dél-koreai miniszteri lemondás november 22-én történt, a Reuters november 23-i nemzetközi jelentésében is szerepel.
+- Az Anthropic IPO november 20-án zárult le.
+- Az amerikai távoli compute-hozzáférési szabály november 19-én lépett hatályba.
+- Trump adatközponti adóra vonatkozó kijelentése politikai bejelentés; részletes jogszabály még nem ismert.
+- A november 20-i tőzsdei korrekció tényleges lezárt piaci adat.
+- Az ELTE workshop november 23-án délután lesz, ezért annak eredményeit még nem ismertetjük.
+- A BME kutatólaboratórium programja már elindult, de a tervezett termékek még fejlesztés alatt állnak.
+- A Medián kutatás felmérési adat, ezért a százalékok a vizsgálat módszertani keretei között értelmezendők.
+- A BUX és a forint mozgását nem kizárólag az MI-szektor okozza; a globális monetáris és hazai gazdasági tényezők is fontosak.
+
+---
+
+**Napi összegzés – 2026. november 23.: Az MI-verseny súlypontja egyre inkább a modellekről az infrastruktúrára, a pénzügyi megtérülésre, a biztonságra és az intézményi alkalmazkodásra helyeződik át.**

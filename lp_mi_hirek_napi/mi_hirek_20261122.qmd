@@ -1,0 +1,496 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. november 22."
+author: "OpenAI - ChatGpt"
+date: "2026-11-22"
+temak: ["OpenAI: közös iparági korlátokat javasolnak a túl gyorsan fejlődő MI-modellekre", "Dél-Korea: lemondott az oktatási miniszter az MI-vel támogatott vizsgacsalások körüli káosz miatt", "Anthropic: lezárult a rekordméretű IPO, összesen 93,5 milliárd dolláros bruttó kibocsátással"]
+---
+
+**Hírlezárás:** 2026. november 22.  
+**Vizsgált időszak:** elsősorban 2026. november 19–22.  
+**Tartalom:** 6 nemzetközi hír + 3 magyar vonatkozás
+
+> **Röviden:** november 22. legerősebb friss híre az OpenAI felvetése egy iparági szintű MI-képességkorlátozásról. Dél-Koreában miniszteri lemondás lett az MI-vel támogatott vizsgacsalások következménye, miközben az Anthropic lezárta rekordméretű IPO-ját. A pénzügyi piacokon ugyanakkor komoly korrekció érte az MI-részvényeket. Magyarországon a fókusz a biztonságos MI-kutatáson, a munkavállalói MI-kompetenciák fejlesztésén és a társadalmi használat gyors terjedésén van.
+
+---
+
+# 🌍 NEMZETKÖZI MI-HÍREK
+
+```{=html}
+<!-- emi-infografika:nemzetkozi -->
+<figure class="emi-infografika" aria-labelledby="emi-ig-nemzetkozi">
+<figcaption class="emi-ig-fej">
+<span class="emi-ig-felcim">Infografika · 2026. november 22.</span>
+<span class="emi-ig-cim" id="emi-ig-nemzetkozi">Nemzetközi MI-hírek egy pillantásra</span>
+<span class="emi-ig-alcim">6 hír – a csempére kattintva a részletes hírhez ugorhat.</span>
+</figcaption>
+<ol class="emi-ig-racs">
+<li><a class="emi-ig-tetel" href="#openai-közös-iparági-korlátokat-javasolnak-a-túl-gyorsan-fejlődő-mi-modellekre">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">1</span><span class="emi-ig-kat">MI-biztonság</span></span>
+<span class="emi-ig-adat">perplexity</span>
+<span class="emi-ig-adat-cimke">ehhez a mutatóhoz kötött közös képességhatárok</span>
+<span class="emi-ig-tetel-cim">OpenAI: közös iparági korlátok a túl gyorsan fejlődő modellekre</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#dél-korea-lemondott-az-oktatási-miniszter-az-mi-vel-támogatott-vizsgacsalások-körüli-káosz-miatt">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">2</span><span class="emi-ig-kat">MI és oktatás</span></span>
+<span class="emi-ig-adat">nov. 22.</span>
+<span class="emi-ig-adat-cimke">lemondott Choi Kyo-jin oktatási miniszter</span>
+<span class="emi-ig-tetel-cim">Dél-Korea: miniszteri lemondás az MI-s vizsgacsalások miatt</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#anthropic-lezárult-a-rekordméretű-ipo-összesen-935-milliárd-dolláros-bruttó-kibocsátással">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">3</span><span class="emi-ig-kat">MI-gazdaság</span></span>
+<span class="emi-ig-adat">119,5 Mrd $</span>
+<span class="emi-ig-adat-cimke">az IPO és a privát részvényelhelyezés együtt</span>
+<span class="emi-ig-tetel-cim">Anthropic: lezárult a rekordméretű IPO</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#eu-ai-act-konkrét-sablon-készül-a-nagy-kockázatú-mi-rendszerek-alapjogi-hatásvizsgálatához">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">4</span><span class="emi-ig-kat">EU-szabályozás</span></span>
+<span class="emi-ig-adat">2027. dec. 2.</span>
+<span class="emi-ig-adat-cimke">ettől kötelező az alapjogi hatásvizsgálat</span>
+<span class="emi-ig-tetel-cim">EU AI Act: sablon a nagy kockázatú MI alapjogi hatásvizsgálatához</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#google-deepmind-a-genie-4-api-val-fejlesztők-is-generálhatnak-interaktív-virtuális-világokat">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">5</span><span class="emi-ig-kat">Világmodellek</span></span>
+<span class="emi-ig-adat">720p · 24 fps</span>
+<span class="emi-ig-adat-cimke">interaktív világok szövegből vagy fotóból</span>
+<span class="emi-ig-tetel-cim">Google DeepMind: Genie 4 API fejlesztőknek</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#erős-tőzsdei-korrekció-a-nasdaq-53-ot-az-nvidia-14-ot-esett-pénteken">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">6</span><span class="emi-ig-kat">Tőkepiac</span></span>
+<span class="emi-ig-adat">−5,3%</span>
+<span class="emi-ig-adat-cimke">a Nasdaq esése nov. 20-án; az NVIDIA −14%</span>
+<span class="emi-ig-tetel-cim">MI-részvények: erős tőzsdei korrekció</span>
+</a></li>
+</ol>
+<p class="emi-ig-tanulsag"><span class="emi-ig-tanulsag-cimke">Fő tanulság</span> Az MI következő szakaszában a még erősebb modell önmagában nem elég: a verseny arról szól, ki tudja a rendszereket biztonságosan, gazdaságosan és ellenőrizhetően működtetni.</p>
+</figure>
+```
+
+## 1. OpenAI: közös iparági korlátokat javasolnak a túl gyorsan fejlődő MI-modellekre
+
+**Dátum:** 2026. november 22.  
+**Kategória:** MI-biztonság, frontier-modellek, szabályozás  
+**Jelentőség:** 🔴 KIEMELT
+
+Jakub Pachocki, az OpenAI vezető kutatója azt javasolja, hogy a legnagyobb MI-fejlesztők állapodjanak meg **közös képességhatárokban**, amelyeket addig nem lépnek át, amíg a modellek viselkedésének megértésére és ellenőrzésére szolgáló biztonsági módszerek el nem érnek előre meghatározott szintet.
+
+A javaslat egyik központi eleme a **perplexity**, illetve a hozzá kapcsolódó tréningmutatók használata. A perplexity leegyszerűsítve azt jelzi, hogy egy modell mennyire jól képes előre jelezni a következő tokent; az alacsonyabb érték jobb előrejelző képességet jelez.
+
+[OpenAI – Perplexity and Intelligence](https://openai.com/index/perplexity-and-intelligence/)
+
+Pachocki szerint az ilyen mérőszám azért lehet fontos, mert a hagyományos benchmarkok gyorsan telítődhetnek, és gyakran nehéz két különböző labor modelljeinek fejlődési sebességét összevetni.
+
+Sam Altman nyilvánosan támogatta az elképzelést. A Reuters szerint Pachocki arra is figyelmeztetett, hogy az MI akár már 2027-ben érdemben gyorsíthatja a saját fejlesztéséhez szükséges kutatást, miközben a biztonsági és monitorozási képességek ennél lassabban fejlődhetnek.
+
+[Reuters – OpenAI scientist proposes industry AI limits tied to model intelligence metric](https://new.streetinsider.com/Reuters/OpenAI%2Bscientist%2Bproposes%2Bindustry%2BAI%2Blimits%2Btied%2Bto%2Bmodel%2Bintelligence%2Bmetric/27383088.html)
+
+### Miért lényeges?
+
+Ez szokatlanul erős felvetés egy vezető frontier-MI vállalattól.
+
+Nem egyszerűen arról van szó, hogy az egyes cégek saját biztonsági szabályokat alkalmazzanak, hanem arról, hogy **az iparág közösen mondjon le bizonyos további képességnövelésről addig, amíg a kontrollmechanizmusok fel nem zárkóznak**.
+
+**Fontos:** ez jelenleg szakmai javaslat, nem kötelező iparági megállapodás vagy új jogszabály.
+
+---
+
+## 2. Dél-Korea: lemondott az oktatási miniszter az MI-vel támogatott vizsgacsalások körüli káosz miatt
+
+**Dátum:** 2026. november 22.  
+**Kategória:** MI és oktatás, vizsgabiztonság  
+**Jelentőség:** 🔴 KIEMELT
+
+Choi Kyo-jin dél-koreai oktatási miniszter november 22-én lemondott, miután az ország legfontosabb egyetemi felvételi vizsgája előtt az MI-vel támogatott csalásoktól való félelem miatt többször, az utolsó pillanatban módosították a vizsgaszabályokat.
+
+Lee Jae Myung elnök a lemondást rövid időn belül elfogadta.
+
+[Yonhap – Education minister resigns over college exam chaos amid AI cheating fears](https://en.yna.co.kr/view/AEN20261122001051315)
+
+Az ügy közvetlen előzménye az volt, hogy egy másik országos vizsga legjobb eredményét elérő résztvevő beismerte: miniatűr kamerát, okostelefont és generatív MI-t használt.
+
+A felvételi vizsga előtt ezért a hatóságok többek között rejtett kamerák ellenőrzését, telefonok leadását és további elektronikus biztonsági intézkedéseket vezettek be.
+
+[Korea JoongAng Daily – Lee accepts education minister's resignation after CSAT anti-cheating measures trigger nationwide confusion](https://www.koreajoongangdaily.com/korea/lee-accepts-education-ministers-resignation-after-csat-anticheating-measures-trigger-nationwide-confusion/12984387)
+
+### Miért lényeges?
+
+Az ügy megmutatja, hogy a generatív MI oktatási problémája már nem csak arról szól, hogy valaki ChatGPT-vel ír-e beadandót.
+
+A **miniatűr hardver + mobilkapcsolat + MI** kombinációja a hagyományos vizsgáztatási rendszerek alapelveit is megkérdőjelezi.
+
+A hosszú távú válasz ezért valószínűleg nem pusztán több tiltás lesz, hanem a számonkérés módszereinek újratervezése.
+
+---
+
+## 3. Anthropic: lezárult a rekordméretű IPO, összesen 93,5 milliárd dolláros bruttó kibocsátással
+
+**Dátum:** november 20.; november 22-én továbbra is kiemelt piaci téma  
+**Kategória:** MI-gazdaság, frontier-modellek, tőkepiac  
+**Jelentőség:** 🔴 KIEMELT
+
+Az Anthropic lezárta történelmi méretű elsődleges részvénykibocsátását.
+
+A bankok teljes egészében lehívták a számukra biztosított további részvénycsomagot, így összesen **1,127 milliárd Class A részvényt** értékesítettek 83 dolláros kibocsátási áron.
+
+| Mutató | Érték |
+|---|---:|
+| Kibocsátott részvények | 1,127 milliárd |
+| Kibocsátási ár | 83 USD |
+| Bruttó IPO-bevétel | kb. 93,5 milliárd USD |
+| Anthrophoz befolyó bruttó összeg | kb. 91,6 milliárd USD |
+
+[Anthropic – Closing of initial public offering](https://www.anthropic.com/news/ipo-close)
+
+Az IPO mellett AMD, Broadcom, Google, Micron, Microsoft, NVIDIA és TSMC Partners további **26 milliárd dollár értékű** Class N részvényt vásárolt.
+
+Az IPO és a kapcsolódó privát részvényelhelyezés együttes bruttó értéke így mintegy **119,5 milliárd dollárra** emelkedett.
+
+[Anthropic – Official IPO closing announcement](https://www.anthropic.com/news/ipo-close)
+
+### Miért lényeges?
+
+A frontier-MI fejlesztése olyan tőkeigényessé vált, amely korábban elsősorban energia-, telekommunikációs vagy nagy ipari vállalatokra volt jellemző.
+
+Az Anthropic most rendkívül erős pénzügyi háttérrel rendelkezik a:
+
+- számítási infrastruktúra,
+- kutatói létszám,
+- adatközponti kapacitás,
+- és vállalati terjeszkedés finanszírozására.
+
+Ugyanakkor a nyilvános tőzsdei működés miatt a vállalat pénzügyi eredményeit ezután sokkal közvetlenebbül fogja számon kérni a piac.
+
+---
+
+## 4. EU AI Act: konkrét sablon készül a nagy kockázatú MI-rendszerek alapjogi hatásvizsgálatához
+
+**Aktuális november 22-én; a konzultáció november 16-án indult.**  
+**Kategória:** EU AI Act, vállalati megfelelés  
+**Jelentőség:** 🔴 KIEMELT
+
+Az Európai Bizottság nyilvános konzultációt folytat az AI Act 27. cikke szerinti **alapjogi hatásvizsgálat – Fundamental Rights Impact Assessment, FRIA – egységes sablonjáról**.
+
+A kötelezettség bizonyos nagy kockázatú MI-rendszerek alkalmazóit érinti majd.
+
+[Európai Bizottság – A Bizottság visszajelzést kér az alapjogi hatásvizsgálat sablonjáról](https://digital-strategy.ec.europa.eu/hu/news/commission-seeks-feedback-draft-template-fundamental-rights-impact-assessment-under-ai-act)
+
+Az értékelésnek többek között tartalmaznia kell:
+
+- mire használják az MI-rendszert,
+- kiket érinthet,
+- milyen alapjogi kockázatok keletkezhetnek,
+- milyen emberi felügyelet működik,
+- és mit tesz a szervezet, ha valamely kockázat ténylegesen bekövetkezik.
+
+Az érintett szervezeteknek **2027. december 2-től** kell megfelelniük ennek a követelménynek.
+
+A sablon nyilvános konzultációja 2027. január 15-ig tart, a gyakorlati tesztelésben részt venni kívánó szervezetek pedig 2026. december 4-ig jelentkezhetnek.
+
+[European Commission – Article 27: Fundamental rights impact assessment](https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-27)
+
+### Miért lényeges?
+
+Az AI Act ezzel egyre inkább átkerül az elvi szabályozásból a **konkrét vállalati folyamatok** szintjére.
+
+Magyar bankok, biztosítók, közintézmények és más érintett szervezetek számára a nagy kockázatú MI-rendszerek bevezetése előtt már dokumentáltan vizsgálni kell majd például a diszkrimináció, az emberi felügyelet és a jogorvoslat kérdését.
+
+---
+
+## 5. Google DeepMind: a Genie 4 API-val fejlesztők is generálhatnak interaktív virtuális világokat
+
+**Bejelentés:** november 19.; november 22-én friss fejlesztői téma  
+**Kategória:** világmodellek, robotika, generatív MI  
+**Jelentőség:** 🟠 FONTOS
+
+A Google DeepMind a Genie 4 világmodellt hozzáférhetővé tette a **Gemini API-n és a Google AI Studio felületén**.
+
+A rendszer szöveges utasításból, referenciafotóból vagy ezek kombinációjából folyamatos, interaktív virtuális környezetet hozhat létre.
+
+[Google – Genie 4 is now available on the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/)
+
+A Google közlése szerint a fejlesztők:
+
+- 720p felbontású,
+- 24 fps sebességű,
+- natív hanggal rendelkező
+
+világokat hozhatnak létre, amelyekben a felhasználó mozoghat, illetve élő szöveges utasításokkal módosíthatja az időjárást, a fényeket, tárgyakat vagy eseményeket.
+
+### Miért lényeges?
+
+A világmodellek egyik legérdekesebb lehetséges felhasználása nem a játékgyártás, hanem a **robotok és autonóm MI-rendszerek virtuális tréningje**.
+
+Ha egy robot vagy ügynök sok millió szimulált helyzetet tud biztonságosan végigpróbálni, jelentősen csökkenthető a valós környezetben történő kísérletezés költsége és kockázata.
+
+---
+
+## 6. Erős tőzsdei korrekció: a Nasdaq 5,3%-ot, az NVIDIA 14%-ot esett pénteken
+
+**Utolsó kereskedési nap:** november 20.  
+**November 22-i hétvégi értékelés:** továbbra is az MI-piac egyik meghatározó témája  
+**Kategória:** MI-gazdaság, tőkepiac  
+**Jelentőség:** 🔴 KIEMELT
+
+A hét utolsó amerikai kereskedési napján rendkívül erős eladási hullám érte az MI- és technológiai részvényeket.
+
+A **Nasdaq Composite 5,3%-ot esett**, és a teljes hét vesztesége megközelítette a 10%-ot – ez 2020 óta a legrosszabb heti teljesítménye volt.
+
+Az NVIDIA pénteken 14%-ot, a hét egészében 23%-ot veszített.
+
+[Reuters – Nasdaq plunges 5% a day after Anthropic debut, but investors still believe in AI](https://www.investing.com/news/stock-market-news/nasdaq-plunges-5-a-day-after-anthropic-debut-but-investors-still-believe-in-ai-5042641)
+
+Az Anthropic részvényei az IPO utáni első teljes kereskedési napon szintén jelentősen estek, miközben a félvezetőszektor egészét erős eladási nyomás érte.
+
+A befektetők egyre erősebben kérdőjelezik meg, hogy a több százmilliárd dolláros MI-infrastruktúra-beruházások milyen gyorsan termelnek majd megfelelő megtérülést.
+
+[Reuters – Wall Street ends sharply lower on AI selloff](https://ca.investing.com/news/economy-news/wall-st-futures-slip-as-anthropic-debut-fails-to-reassure-ai-investors-4971829)
+
+### Miért lényeges?
+
+A korrekció nem azt jelenti, hogy az MI technológiai fejlődése megállt.
+
+Azt viszont jelzi, hogy a befektetők már nem automatikusan jutalmaznak minden MI-beruházást.
+
+Egyre fontosabbá válik:
+
+- a bevétel,
+- a profitabilitás,
+- az adatközpontok kihasználtsága,
+- és a beruházott tőke megtérülése.
+
+**A fő tanulság:** technológiai áttörés és jó befektetés nem feltétlenül ugyanaz.
+
+---
+
+# 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+```{=html}
+<!-- emi-infografika:magyar -->
+<figure class="emi-infografika" aria-labelledby="emi-ig-magyar">
+<figcaption class="emi-ig-fej">
+<span class="emi-ig-felcim">Infografika · 2026. november 22.</span>
+<span class="emi-ig-cim" id="emi-ig-magyar">Magyar MI-hírek egy pillantásra</span>
+<span class="emi-ig-alcim">3 hír – a csempére kattintva a részletes hírhez ugorhat.</span>
+</figcaption>
+<ol class="emi-ig-racs">
+<li><a class="emi-ig-tetel" href="#bme-egymilliárd-forintos-program-indult-a-biztonságos-és-ellenőrizhető-mi-fejlesztésére">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">1</span><span class="emi-ig-kat">MI-kutatás</span></span>
+<span class="emi-ig-adat">1 Mrd Ft</span>
+<span class="emi-ig-adat-cimke">NKFI-támogatás, a program 2029-ig tart</span>
+<span class="emi-ig-tetel-cim">BME: program a biztonságos és ellenőrizhető MI fejlesztésére</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#mi-jövünk-már-több-mint-57-ezren-szereztek-mi-mikrotanúsítványt">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">2</span><span class="emi-ig-kat">MI-képzés</span></span>
+<span class="emi-ig-adat">57 ezer+</span>
+<span class="emi-ig-adat-cimke">mikrotanúsítvány az „MI Jövünk!” első programjában</span>
+<span class="emi-ig-tetel-cim">GDE: tömeges MI-képzés munkavállalóknak</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#magyar-társadalom-az-mi-már-tömegjelenség-de-nagy-a-generációs-különbség">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">3</span><span class="emi-ig-kat">Társadalom</span></span>
+<span class="emi-ig-adat">36%</span>
+<span class="emi-ig-adat-cimke">rendszeresen használ MI-t; kb. kétharmad kipróbálta</span>
+<span class="emi-ig-tetel-cim">Medián: az MI tömegjelenség, de nagy a generációs különbség</span>
+</a></li>
+</ol>
+<p class="emi-ig-tanulsag"><span class="emi-ig-tanulsag-cimke">Fő tanulság</span> Magyarországon már nem az MI elterjedése, hanem a használat minősége és a megfelelő kompetenciák kiépítése a legfontosabb kérdés.</p>
+</figure>
+```
+
+*A november 22-i vasárnapi hazai hírforgalom visszafogottabb, ezért az aznapi és a közvetlenül megelőző napok legfontosabb, még aktuális magyar fejleményeit emelem ki.*
+
+## 1. BME: egymilliárd forintos program indult a biztonságos és ellenőrizhető MI fejlesztésére
+
+**Bejelentés:** november 19.; továbbra is kiemelt hazai kutatási fejlemény  
+**Kategória:** magyar MI-kutatás, kiberbiztonság  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+A Budapesti Műszaki és Gazdaságtudományi Egyetemen elindult a **Mesterséges Intelligencia és Digitális Reziliencia Misszióvezérelt Nemzeti Laboratórium**.
+
+A 2029-ig tartó programot a Nemzeti Kutatási, Fejlesztési és Innovációs Alap **1 milliárd forinttal** támogatja.
+
+[BME – Elstartolt a Mesterséges Intelligencia és Digitális Reziliencia Misszióvezérelt Nemzeti Laboratórium](https://www.bme.hu/hirek/261119/bme-vik-mesterseges-intelligencia-missziovezerelt-nemzeti-laboratorium)
+
+A kutatási területek között szerepel:
+
+- MI-alapú kibervédelem,
+- digitális fenyegetések felismerése,
+- manipulált és generált tartalmak detektálása,
+- megbízható MI,
+- valamint a kutatási eredmények piaci hasznosítása.
+
+### Miért lényeges?
+
+A fejlett MI-rendszerek elterjedésével párhuzamosan gyorsan nő a kereslet a **deepfake-felismerő, kiberbiztonsági és MI-ellenőrzési technológiák** iránt.
+
+Ha a laboratóriumi eredményekből exportálható termékek és szolgáltatások születnek, ez Magyarország számára önálló technológiai piaci lehetőséget jelenthet.
+
+---
+
+## 2. „MI Jövünk!”: már több mint 57 ezren szereztek MI-mikrotanúsítványt
+
+**Friss közlés:** november 21.  
+**Kategória:** magyar MI-képzés, vállalati kompetenciák  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+A Gábor Dénes Egyetem **„MI Jövünk!”** képzésének első programját a friss kamarai tájékoztatás szerint már több mint **57 000 ember** teljesítette mikrotanúsítvánnyal.
+
+További több mint 20 ezren jelenleg is részt vesznek a programban.
+
+A következő képzés, az **„MI Jövünk 2. – MI az irodában”** a mindennapi munkavégzés során használható generatív MI-eszközökre koncentrál.
+
+[BOKIK – Díjmentes MI-képzés a vállalkozóknak](https://bokik.hu/hirek/dijmentes-mi-kepzes-a-vallalkozoknak)
+
+### Miért lényeges?
+
+A vállalati MI-bevezetés egyik legnagyobb akadálya gyakran nem maga a technológia, hanem a munkavállalói tudás hiánya.
+
+Az EU AI Act is elvárja, hogy az MI-rendszereket használó szervezetek megfelelő szintű **MI-jártasságot** biztosítsanak az érintett munkatársaknak.
+
+A több tízezres részvétel ezért már nem elszigetelt oktatási projekt, hanem jelentős magyar munkaerőpiaci kompetenciafejlesztési program.
+
+[NAV – MI Jövünk tanfolyamok és MI-képzések](https://nav.gov.hu/mimcs/eloadasok-kepzesek)
+
+---
+
+## 3. Magyar társadalom: az MI már tömegjelenség, de nagy a generációs különbség
+
+**Friss kutatás:** november 18–19.; november 22-én továbbra is releváns hazai adat  
+**Kategória:** társadalmi MI-használat, digitális készségek  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+A Medián HVG számára végzett felmérése szerint a magyarok **mintegy kétharmada kipróbált már valamilyen MI-alapú eszközt**, és 36% rendszeresen használ ilyen szolgáltatást.
+
+[HVG / Medián – A magyarok többsége már nem csak barátkozik az AI-jal, rendszeresen használja is](https://hvg.hu/360/20261118_median-gep-okos-emberek-ovatosak-mesterseges-intelligencia-ai-hvg)
+
+Az életkor szerinti különbség nagyon jelentős:
+
+- a 30 év alattiak körében szinte általános az MI kipróbálása,
+- a 65 év feletti korosztályban viszont lényegesen alacsonyabb az elterjedtség.
+
+Az iskolai végzettség szerint is erős különbségek láthatók.
+
+### Miért lényeges?
+
+A kérdés Magyarországon egyre kevésbé az, hogy az MI eljut-e a lakossághoz.
+
+A fontosabb probléma az, hogy **ki képes valóban hatékonyan és kritikusan használni**.
+
+Ha az MI a munkavégzésben, oktatásban és ügyintézésben általános eszközzé válik, a kompetenciakülönbségek új digitális szakadékot hozhatnak létre.
+
+---
+
+# 📊 NOVEMBER 22. LEGFONTOSABB TRENDJEI
+
+## 1. Az MI-iparág maga kezd határokat kérni a képességnövekedéshez
+
+Az OpenAI-javaslat különösen fontos jelzés.
+
+A kérdés már nem az, hogy lehet-e tovább növelni a modellek képességeit, hanem az, hogy **mikor válik veszélyessé gyorsabban fejleszteni a modelleket, mint a felügyeleti technológiát**.
+
+Ez az MI-biztonsági vita egyik legfontosabb kérdésévé válhat 2027-ben.
+
+---
+
+## 2. Az oktatási rendszereket az MI miatt alapjaiban kell újratervezni
+
+A dél-koreai miniszteri lemondás megmutatja, hogy a hagyományos „telefonokat kikapcsolni” típusú szabályok már nem feltétlenül elegendők.
+
+A következő időszakban felértékelődhet:
+
+- a szóbeli vizsgáztatás,
+- a folyamatközpontú értékelés,
+- az MI-használat dokumentálása,
+- és az önálló problémamegoldás mérése.
+
+---
+
+## 3. A frontier-MI finanszírozása egyszerre rekordméretű és egyre kockázatosabb
+
+Az Anthropic közel 100 milliárd dolláros IPO-ja azt mutatja, hogy a legerősebb MI-cégek még mindig óriási tőkét tudnak bevonni.
+
+A pénteki tőzsdei zuhanás viszont ugyanakkor azt mutatja, hogy a befektetők már komolyan kérdezik:
+
+**mikor térül meg mindez?**
+
+---
+
+## 4. Az EU AI Act a stratégiai szintről átkerül a vállalati folyamatokba
+
+Az alapjogi hatásvizsgálati sablon jól mutatja ezt.
+
+A következő években az MI-megfelelés egyre kevésbé csak jogászok által olvasott rendeleteket, és egyre inkább:
+
+- kérdőíveket,
+- kockázati nyilvántartásokat,
+- emberi felügyeleti eljárásokat,
+- panaszkezelést,
+- és auditálható dokumentációt jelent majd.
+
+---
+
+## 5. Magyarországon az MI-használat után a kompetenciaminőség válik a következő nagy kérdéssé
+
+Az MI már széles körben jelen van a lakosság körében, miközben tízezrek vesznek részt szervezett képzésekben.
+
+A következő versenyképességi lépcső az lehet, hogy az alapszintű chatbot-használatból:
+
+- szakmai munkavégzés,
+- adatbiztonság,
+- folyamat-automatizáció,
+- és mérhető termelékenységnövekedés
+
+legyen.
+
+---
+
+# 🎯 ZÁRÓ ÉRTÉKELÉS
+
+| Terület | November 22. legfontosabb fejleménye |
+|---|---|
+| Frontier-MI biztonság | OpenAI: közös iparági képességhatárok javaslata |
+| MI és oktatás | Dél-koreai oktatási miniszter lemondása |
+| MI-finanszírozás | Anthropic IPO lezárása, 93,5 milliárd USD |
+| EU-s MI-szabályozás | AI Act alapjogi hatásvizsgálati sablon |
+| Világmodellek | Google Genie 4 API |
+| MI-tőkepiac | Nasdaq -5,3%, NVIDIA -14% a pénteki kereskedésben |
+| Magyar MI-kutatás | BME Digitális Reziliencia Nemzeti Laboratórium |
+| Magyar MI-kompetencia | MI Jövünk!: több mint 57 ezer mikrotanúsítvány |
+| Magyar társadalmi MI | A lakosság mintegy kétharmada már kipróbált MI-eszközt |
+
+---
+
+# 🧭 ÖSSZKÉP
+
+**2026. november 22-én az MI-világ egyik legfontosabb kérdése már nem az, hogy milyen gyorsan tudnak fejlődni a modellek, hanem az, hogy a technológiai, szabályozási és társadalmi rendszerek képesek-e lépést tartani velük.**
+
+Három fő feszültség látható:
+
+### 1. Képesség ↔ biztonság
+
+Az OpenAI szerint elképzelhető, hogy önkéntes iparági határokra lesz szükség, ha a modellek fejlődése meghaladja az ellenőrzési képességeket.
+
+### 2. Technológiai növekedés ↔ pénzügyi megtérülés
+
+Az Anthropic rekordméretű IPO-ja és az MI-részvények párhuzamos zuhanása ugyanannak az iparágnak két oldalát mutatja.
+
+### 3. Széles körű használat ↔ intézményi felkészültség
+
+Az oktatásban, vállalatoknál és a magyar lakosság körében az MI már gyorsan terjed. A következő feladat a megfelelő szabályok, készségek és ellenőrzési mechanizmusok kialakítása.
+
+**A november 22-i nap legfontosabb üzenete: az MI fejlődésének következő szakaszában a „még erősebb modell” önmagában már nem elegendő. A verseny egyre inkább arról szól, ki tudja a fejlett rendszereket biztonságosan, gazdaságosan és ellenőrizhetően működtetni.**
+
+---
+
+## 📝 FORRÁSKEZELÉSI MEGJEGYZÉS
+
+- A válogatás csak olyan fejleményeket tartalmaz, amelyek 2026. november 22-ig már nyilvánosan hozzáférhetők voltak.
+- Az OpenAI képességhatárokról szóló elképzelése szakmai javaslat, nem elfogadott iparági szabály.
+- A dél-koreai oktatási miniszter lemondását november 22-én az ország elnöke elfogadta.
+- Az Anthropic IPO november 20-án hivatalosan lezárult.
+- Az EU AI Act alapjogi hatásvizsgálati kötelezettségének érintett részei 2027. december 2-től alkalmazandók; a mostani folyamat a végrehajtási sablon kialakításáról szól.
+- A Google Genie 4 világmodell szimulációs rendszer, nem mérnöki pontosságú általános fizikai szimulátor.
+- A november 20-i tőzsdei korrekció lezárt piaci adat; a hétvégi napokon az amerikai részvénypiac zárva volt.
+- A magyar társadalmi és képzési adatok különböző mintákból és programokból származnak, ezért nem közvetlenül összehasonlíthatók.
+
+---
+
+**Napi összegzés – 2026. november 22.: az MI fejlődési sebessége egyre komolyabb biztonsági, oktatási és pénzügyi alkalmazkodást követel. Magyarországon már nem az MI elterjedése, hanem a használat minősége és a megfelelő kompetenciák kiépítése válik az egyik legfontosabb kérdéssé.**

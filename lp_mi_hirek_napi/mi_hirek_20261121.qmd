@@ -1,0 +1,491 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. november 21."
+author: "OpenAI - ChatGpt"
+date: "2026-11-21"
+temak: ["Anthropic-kutató: Claude segítségével bizonyíthatták a 167 éve nyitott Riemann-sejtést", "Anthropic: lezárult minden idők legnagyobb IPO-ja – 93,5 milliárd dolláros bruttó kibocsátás", "OpenAI: új benchmark méri, mennyire jók az MI-modellek valódi gyógyszerkémiai feladatokban"]
+---
+
+**Hírlezárás:** 2026. november 21.  
+**Vizsgált időszak:** elsősorban november 19–21.  
+**Tartalom:** 6 nemzetközi hír + 4 magyar vonatkozás
+
+> **Röviden:** a nap legérdekesebb fejleménye az Anthropic egyik matematikusának rendkívüli állítása a Riemann-sejtés MI-vel támogatott bizonyításáról. Közben lezárult az Anthropic rekordméretű IPO-ja, erősen korrigáltak az MI-részvények, az USA tovább szigorította a fejlett számítási kapacitásokhoz való kínai hozzáférést, Magyarországon pedig az oktatási és vállalati MI-kompetenciák kerültek előtérbe.
+
+---
+
+# 🌍 NEMZETKÖZI MI-HÍREK
+
+```{=html}
+<!-- emi-infografika:nemzetkozi -->
+<figure class="emi-infografika" aria-labelledby="emi-ig-nemzetkozi">
+<figcaption class="emi-ig-fej">
+<span class="emi-ig-felcim">Infografika · 2026. november 21.</span>
+<span class="emi-ig-cim" id="emi-ig-nemzetkozi">Nemzetközi MI-hírek egy pillantásra</span>
+<span class="emi-ig-alcim">6 hír – a csempére kattintva a részletes hírhez ugorhat.</span>
+</figcaption>
+<ol class="emi-ig-racs">
+<li><a class="emi-ig-tetel" href="#anthropic-kutató-claude-segítségével-bizonyíthatták-a-167-éve-nyitott-riemann-sejtést">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">1</span><span class="emi-ig-kat">Tudományos MI</span></span>
+<span class="emi-ig-adat">17 millió</span>
+<span class="emi-ig-adat-cimke">sornyi Lean-kód a formalizációban; ellenőrzésre vár</span>
+<span class="emi-ig-tetel-cim">Anthropic-kutató: Claude-dal készült Riemann-bizonyítás – még nem elfogadott</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#anthropic-lezárult-minden-idők-legnagyobb-ipo-ja-935-milliárd-dolláros-bruttó-kibocsátás">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">2</span><span class="emi-ig-kat">MI-gazdaság</span></span>
+<span class="emi-ig-adat">93,5 Mrd $</span>
+<span class="emi-ig-adat-cimke">az IPO bruttó értéke 83 dolláros részvényáron</span>
+<span class="emi-ig-tetel-cim">Anthropic: lezárult minden idők legnagyobb IPO-ja</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#openai-új-benchmark-méri-mennyire-jók-az-mi-modellek-valódi-gyógyszerkémiai-feladatokban">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">3</span><span class="emi-ig-kat">Gyógyszerkutatás</span></span>
+<span class="emi-ig-adat">nov. 20.</span>
+<span class="emi-ig-adat-cimke">bemutatták a MedChemBench gyógyszerkémiai mércét</span>
+<span class="emi-ig-tetel-cim">OpenAI: benchmark a gyógyszerkémiai MI-képességekre</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#usa-a-kormány-szerint-elegendők-a-jelenlegi-nvidia-chipkorlátozások-de-a-távoli-kínai-hozzáférést-is-lezárták">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">4</span><span class="emi-ig-kat">Geopolitika</span></span>
+<span class="emi-ig-adat">879 868</span>
+<span class="emi-ig-adat-cimke">engedélyezett H200 és hasonló chip kínai kötődésű cégeknek</span>
+<span class="emi-ig-tetel-cim">USA: nincs új NVIDIA-korlátozás, a távoli hozzáférést lezárták</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#google-deepmind-a-genie-4-már-fejlesztők-számára-is-elérhető-api-n-keresztül">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">5</span><span class="emi-ig-kat">Világmodellek</span></span>
+<span class="emi-ig-adat">720p · 24 fps</span>
+<span class="emi-ig-adat-cimke">interaktív környezet szövegből vagy referenciafotóból</span>
+<span class="emi-ig-tetel-cim">Google DeepMind: a Genie 4 elérhető a Gemini API-n</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#erős-eladási-hullám-érte-az-mi-részvényeket-egyre-több-befektető-kérdőjelezi-meg-a-beruházások-megtérülését">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">6</span><span class="emi-ig-kat">Tőkepiac</span></span>
+<span class="emi-ig-adat">−8,5%</span>
+<span class="emi-ig-adat-cimke">az Anthropic-részvény esése nov. 20-án (88,91 $)</span>
+<span class="emi-ig-tetel-cim">MI-részvények: erős eladási hullám, kérdéses megtérülés</span>
+</a></li>
+</ol>
+<p class="emi-ig-tanulsag"><span class="emi-ig-tanulsag-cimke">Fő tanulság</span> A technológiai áttörés önmagában már nem elég: a befektetők a bevételt és a megtérülést kérik számon, a tudományos MI-eredményeket pedig független ellenőrzésnek kell igazolnia.</p>
+</figure>
+```
+
+## 1. Anthropic-kutató: Claude segítségével bizonyíthatták a 167 éve nyitott Riemann-sejtést
+
+**Dátum:** november 20–21.  
+**Kategória:** tudományos MI, matematika  
+**Jelentőség:** 🔴 KIEMELT
+
+Levent Alpöge, az Anthropic matematikusa azt állítja, hogy Claude segítségével elkészítették a matematika egyik leghíresebb nyitott problémájának, a **Riemann-sejtésnek** a bizonyítását.
+
+A bizonyításhoz egy rendkívül nagy, formálisan ellenőrizhető Lean-kódanyag is készült. Az Associated Press szerint a formalizáció mintegy **17 millió sornyi Lean-kódot** tartalmaz, és a kutató beszámolója szerint a munka során több százezer oldalnyi köztes anyag keletkezett.
+
+[Associated Press – Anthropic worker claims to have solved a Holy Grail of math problems with the help of AI](https://apnews.com/article/4fe8b69a891f160f9e7f0c85af8c55c8)
+
+### Miért lényeges?
+
+Ha a bizonyítás helyesnek bizonyul, az a tudományos MI eddigi egyik legnagyobb mérföldköve lenne: azt mutatná, hogy egy frontier-modell nemcsak meglévő matematikai eredményeket tud reprodukálni, hanem új, kiemelkedő jelentőségű tudományos eredmény létrehozásában is részt vehet.
+
+Ugyanakkor **a Riemann-sejtést jelenleg még nem szabad megoldottnak tekinteni**. A matematikai közösségnek részletesen át kell vizsgálnia a bizonyítást, a Clay Mathematics Institute pedig továbbra is megoldatlan problémaként tartja nyilván.
+
+[Portfolio – Történelmi pillanat: újabb egymillió dolláros rejtélyt oldhatott meg a mesterséges intelligencia](https://www.portfolio.hu/uzlet/20261121/tortenelmi-pillanat-ujabb-egymillio-dollaros-rejtelyt-oldhatott-meg-a-mesterseges-intelligencia-878216)
+
+---
+
+## 2. Anthropic: lezárult minden idők legnagyobb IPO-ja – 93,5 milliárd dolláros bruttó kibocsátás
+
+**Dátum:** november 20.  
+**Kategória:** MI-gazdaság, tőkepiac  
+**Jelentőség:** 🔴 KIEMELT
+
+Az Anthropic pénteken hivatalosan lezárta tőzsdei részvénykibocsátását.
+
+A bankok teljes egészében lehívták a számukra fenntartott további részvénycsomagot, így végül **1,127 milliárd részvény** került értékesítésre 83 dolláros áron.
+
+| Mutató | Érték |
+|---|---:|
+| Kibocsátási ár | 83 USD |
+| Értékesített részvények | 1,127 milliárd |
+| IPO bruttó értéke | kb. 93,5 milliárd USD |
+| Anthrophoz befolyó bruttó összeg | kb. 91,6 milliárd USD |
+
+[Anthropic – Closing of initial public offering](https://www.anthropic.com/news/ipo-close)
+
+Az IPO-val párhuzamosan AMD, Broadcom, Google, Micron, Microsoft, NVIDIA és TSMC Partners további, összesen mintegy **26 milliárd dollár értékű** privát részvénycsomagot vásárolt.
+
+Így az IPO és a kapcsolódó privát tranzakciók együttes bruttó értéke megközelítette a **119,5 milliárd dollárt**.
+
+[Anthropic – Official IPO closing announcement](https://www.anthropic.com/news/ipo-close)
+
+### Miért lényeges?
+
+A frontier-MI fejlesztés rendkívül tőkeigényes. Az Anthropic finanszírozási ereje lehetővé teszi, hogy hosszabb távon is versenyezzen számítási kapacitásért, kutatókért és vállalati ügyfelekért.
+
+Másrészt az IPO után a befektetők már negyedévről negyedévre számon kérhetik a növekedést, a veszteségeket és az infrastrukturális kiadások megtérülését.
+
+---
+
+## 3. OpenAI: új benchmark méri, mennyire jók az MI-modellek valódi gyógyszerkémiai feladatokban
+
+**Dátum:** november 20.  
+**Kategória:** tudományos MI, gyógyszerkutatás  
+**Jelentőség:** 🔴 KIEMELT
+
+Az OpenAI bemutatta a **MedChemBench** nevű új értékelési rendszert.
+
+A benchmark azt vizsgálja, hogy az MI-modellek mennyire képesek valódi gyógyszerkémiai feladatok elvégzésére, többek között:
+
+- molekulaszerkezetek értelmezésére,
+- kísérleti adatokból történő következtetésre,
+- gyógyszerjelöltek összehasonlítására,
+- és a további vizsgálatra alkalmas vegyületek kiválasztására.
+
+[OpenAI – MedChemBench: Benchmarking AI for medicinal chemistry](https://openai.com/index/medchembench/)
+
+### Miért lényeges?
+
+A tudományos MI egyik kulcskérdése, hogy a modellek látványos általános benchmarkeredményei valóban átfordíthatók-e konkrét kutatási eredményekké.
+
+A gyógyszerkutatás erre különösen jó teszt: hibás következtetések esetén nagyon drága laboratóriumi kísérletek indulhatnak el rossz irányba.
+
+A MedChemBench ezért a „mennyire intelligens a modell?” helyett egyre inkább a **„mennyire használható valódi tudományos munkára?”** kérdést méri.
+
+[OpenAI Research – Research releases](https://openai.com/research/index/release/)
+
+---
+
+## 4. USA: a kormány szerint elegendők a jelenlegi NVIDIA-chipkorlátozások, de a távoli kínai hozzáférést is lezárták
+
+**Dátum:** november 20.  
+**Kategória:** félvezetők, geopolitika, MI-infrastruktúra  
+**Jelentőség:** 🔴 KIEMELT
+
+Scott Bessent amerikai pénzügyminiszter szerint nincs szükség további korlátozásra az NVIDIA régebbi, Kínába engedélyezhető MI-chipjeinél, mert a kormány már szigorította a technológiához való **távoli hozzáférést** is.
+
+Az amerikai képviselőház adatai szerint májusig összesen **879 868 NVIDIA H200 és hasonló AMD-chip** exportját, újraexportját vagy átadását hagyták jóvá kínai kötődésű vállalatoknak.
+
+[Associated Press – Treasury secretary says no further restrictions are needed for Nvidia chip exports to China](https://apnews.com/article/88142455395552afe74caec3399a648b)
+
+Az engedélyezett mennyiségek között szerepelt:
+
+- Tencent: 150 000 chip,
+- Alibaba: 75 000,
+- Baidu: 43 000,
+- BYD: 4 000.
+
+Az engedély nem jelenti azt, hogy valamennyi chipet ténylegesen le is szállították. Az NVIDIA közölte, hogy az engedélyek ellenére már leállította az érintett H200-as szállításokat Kínába.
+
+[Associated Press – Nvidia/AMD export licensing data](https://apnews.com/article/88142455395552afe74caec3399a648b)
+
+### Miért lényeges?
+
+Az MI-geopolitika már nemcsak arról szól, hogy egy gyorsítóchip fizikailag melyik országba kerül.
+
+A döntő kérdés egyre inkább az, **ki férhet hozzá a számítási kapacitáshoz**, akár egy harmadik ország adatközpontján keresztül.
+
+Ez a felhőszolgáltatók és nemzetközi adatközpontok számára is sokkal szigorúbb ügyfél-azonosítási és megfelelési követelményeket hozhat.
+
+---
+
+## 5. Google DeepMind: a Genie 4 már fejlesztők számára is elérhető API-n keresztül
+
+**Bejelentés:** november 19.  
+**Aktuális jelentőség:** november 21.  
+**Kategória:** világmodellek, robotika, 3D-generálás  
+**Jelentőség:** 🟠 FONTOS
+
+A Google DeepMind a nyilvános bemutatás után a **Gemini API-n és a Google AI Studio felületén is hozzáférhetővé tette a Genie 4-et**.
+
+A világmodell szöveges utasításból vagy referenciafotóból folyamatos, interaktív virtuális környezetet képes létrehozni.
+
+A Google szerint a rendszer:
+
+- 720p felbontású környezetet generál,
+- 24 képkocka/másodperc sebességgel,
+- natív hanggal és párbeszéddel,
+- miközben a felhasználó valós időben mozoghat a környezetben és módosíthatja azt.
+
+[Google – Genie 4 is now available on the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/)
+
+### Miért lényeges?
+
+A világmodellek fontos szerepet kaphatnak az MI következő szakaszában.
+
+Nemcsak játék- és médiatartalmak készíthetők velük, hanem **robotok és autonóm ügynökök virtuális betanítási környezetei** is.
+
+A fizikai világban történő kísérletezés drága és veszélyes lehet; egy kellően jó szimuláció lehetővé teszi, hogy az MI-rendszerek sokkal több helyzetet gyakoroljanak virtuálisan.
+
+---
+
+## 6. Erős eladási hullám érte az MI-részvényeket – egyre több befektető kérdőjelezi meg a beruházások megtérülését
+
+**Dátum:** november 20–21.  
+**Kategória:** MI-gazdaság, részvénypiac  
+**Jelentőség:** 🔴 KIEMELT
+
+Az amerikai technológiai szektor a hét végén erős eladási hullámba került, miközben egyre több befektető aggódik az MI-adatközpontokra és modellekre fordított hatalmas összegek megtérülése miatt.
+
+Az Anthropic tőzsdei bevezetése sem tudta tartósan megfordítani a hangulatot: részvénye a sikeres első kereskedési nap után pénteken **8,5%-ot esett**, 88,91 dolláron zárt.
+
+[Anthropic Investor Relations – Stock quote](https://investor.anthropic.com/stock-quote/stock-quote/default.aspx)
+
+Az eladási hullám az MI-hardver- és infrastruktúra-vállalatokat is erősen érintette.
+
+A piac egyre jobban figyeli, hogy a sok százmilliárd dollárnyi adatközponti beruházás mögött milyen gyorsan épül ki tényleges, profitábilis végfelhasználói kereslet.
+
+[Portfolio – Durranhat az AI-lufi: mindent elad a neves stratéga](https://www.portfolio.hu/uzlet/20261121/durranhat-az-ai-lufi-mindent-elad-a-neves-stratega-de-ebben-a-10-reszvenyben-meg-nagy-fantaziat-lat-878210)
+
+### Miért lényeges?
+
+A technológiai fejlődés és a részvényárfolyam két külön dolog.
+
+Lehetséges, hogy az MI közben rendkívül gyorsan fejlődik, miközben a korábban kialakult vállalatértékelések túl optimistának bizonyulnak.
+
+**A fő kérdés 2027 felé haladva:** a generatív MI-ből származó bevétel képes lesz-e megfelelő megtérülést biztosítani az infrastruktúrára fordított hatalmas beruházásokhoz?
+
+---
+
+# 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+```{=html}
+<!-- emi-infografika:magyar -->
+<figure class="emi-infografika" aria-labelledby="emi-ig-magyar">
+<figcaption class="emi-ig-fej">
+<span class="emi-ig-felcim">Infografika · 2026. november 21.</span>
+<span class="emi-ig-cim" id="emi-ig-magyar">Magyar MI-hírek egy pillantásra</span>
+<span class="emi-ig-alcim">4 hír – a csempére kattintva a részletes hírhez ugorhat.</span>
+</figcaption>
+<ol class="emi-ig-racs">
+<li><a class="emi-ig-tetel" href="#ma-budapesten-jövőóra-konferencia-az-mi-óvodai-és-iskolai-használatáról">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">1</span><span class="emi-ig-kat">MI-oktatás</span></span>
+<span class="emi-ig-adat">nov. 21.</span>
+<span class="emi-ig-adat-cimke">JÖVŐÓRA-konferencia, ELTE, 10:00–14:30</span>
+<span class="emi-ig-tetel-cim">JÖVŐÓRA: konferencia az MI óvodai és iskolai használatáról</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#gde-az-első-mi-jövünk-képzésen-már-több-mint-57-ezren-szereztek-mikrotanúsítványt">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">2</span><span class="emi-ig-kat">Vállalati képzés</span></span>
+<span class="emi-ig-adat">57 ezer+</span>
+<span class="emi-ig-adat-cimke">mikrotanúsítvány az első „MI Jövünk!” képzésen</span>
+<span class="emi-ig-tetel-cim">GDE: tömeges, ingyenes MI-képzés vállalkozóknak</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#hvg-ai-talks-drasztikusan-átalakulhat-a-magyar-internetes-keresés-a-seo-mellé-megérkezik-a-geo">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">3</span><span class="emi-ig-kat">Digitális gazdaság</span></span>
+<span class="emi-ig-adat">95% → 80%</span>
+<span class="emi-ig-adat-cimke">a Google becsült keresési részesedése 2024 → 2026</span>
+<span class="emi-ig-tetel-cim">HVG AI Talks: a SEO mellé megérkezik a GEO</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#friss-figyelmeztetés-magyarország-különösen-erősen-érintett-az-mi-szakemberek-elvándorlásában">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">4</span><span class="emi-ig-kat">Munkaerőpiac</span></span>
+<span class="emi-ig-adat">agyelszívás</span>
+<span class="emi-ig-adat-cimke">MI-szakemberek elvándorlása Magyarországról</span>
+<span class="emi-ig-tetel-cim">Magyarország: erősen érintett az MI-szakemberek elvándorlásában</span>
+</a></li>
+</ol>
+<p class="emi-ig-tanulsag"><span class="emi-ig-tanulsag-cimke">Fő tanulság</span> A magyar MI-versenyképesség legfontosabb erőforrása az ember: a tömeges képzés mellett a tehetségek megtartása is kulcskérdés.</p>
+</figure>
+```
+
+## 1. Ma Budapesten: JÖVŐÓRA – konferencia az MI óvodai és iskolai használatáról
+
+**Dátum:** november 21., 10:00–14:30  
+**Helyszín:** ELTE Lágymányosi Campus  
+**Kategória:** MI-oktatás, pedagógusképzés  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+November 21-én rendezik meg a **JÖVŐÓRA – AI az oktatásban** című konferenciát, amely az óvodától a középiskoláig vizsgálja a mesterséges intelligencia oktatási alkalmazását.
+
+A program gyakorlati kérdésekkel foglalkozik:
+
+- MI használata a tanórán,
+- óratervezés,
+- tanulástámogatás,
+- intézményi MI-stratégia,
+- kritikus gondolkodás,
+- valamint azok a készségek, amelyek az MI korában felértékelődnek.
+
+[JÖVŐÓRA – AI az Oktatásban, hivatalos konferenciaoldal](https://klett.hu/jovoora-ai-az-oktatasban-konferencia)
+
+### Miért lényeges?
+
+A magyar közoktatás előtt ugyanaz a probléma áll, mint a nemzetközi oktatási rendszerek előtt: nem elegendő egyszerűen megtiltani vagy engedélyezni a ChatGPT-szerű eszközöket.
+
+A tanároknak azt is meg kell tanítaniuk, hogyan ellenőrizhető egy MI válasza, mikor indokolt az eszköz használata, és mely készségeket kell továbbra is önállóan fejleszteni.
+
+**A fő tanulság:** az MI-oktatás egyre inkább pedagógiai, nem pusztán informatikai kérdéssé válik.
+
+---
+
+## 2. GDE: az első „MI Jövünk!” képzésen már több mint 57 ezren szereztek mikrotanúsítványt
+
+**Friss közlés:** november 21.  
+**Kategória:** magyar vállalati MI, képzés, AI Act  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+A Borsod-Abaúj-Zemplén Vármegyei Kereskedelmi és Iparkamara november 21-i tájékoztatója szerint a Gábor Dénes Egyetem **„MI Jövünk!”** programjának első képzését már több mint **57 000 résztvevő** teljesítette mikrotanúsítvánnyal, további több mint 20 ezren pedig jelenleg is részt vesznek benne.
+
+A folytatásként elindított **„MI Jövünk 2. – MI az irodában”** egy hatórás, ingyenes online program, amely a mindennapi irodai MI-használatra koncentrál.
+
+[BOKIK – Díjmentes MI-képzés a vállalkozóknak](https://bokik.hu/hirek/dijmentes-mi-kepzes-a-vallalkozoknak)
+
+### Miért lényeges?
+
+Az EU AI Act 4. cikke 2025 februárja óta elvárja az MI-rendszereket használó szervezetektől, hogy megfelelő szintű **MI-jártasságot** biztosítsanak az érintett munkatársaknak.
+
+A magyar vállalkozások számára ezért az MI-képzés nemcsak hatékonysági kérdés, hanem fokozatosan megfelelési és kockázatkezelési feladattá is válik.
+
+[NAV – „MI Jövünk” tanfolyamok és MI-képzések](https://nav.gov.hu/mimcs/eloadasok-kepzesek)
+
+---
+
+## 3. HVG AI Talks: drasztikusan átalakulhat a magyar internetes keresés – a SEO mellé megérkezik a GEO
+
+**Dátum:** november 21.  
+**Kategória:** magyar digitális gazdaság, marketing, keresés  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+A HVG AI Talks konferencián Papp Gábor, a The Pitch vezetője arról beszélt, hogy az MI-asszisztensek gyors terjedése alapjaiban alakítja át azt, ahogyan a magyar felhasználók információt és termékeket keresnek.
+
+A hagyományos **SEO (Search Engine Optimization)** mellé ezért egyre erősebben belép a **GEO (Generative Engine Optimization)**: annak optimalizálása, hogy egy vállalat, termék vagy weboldal megjelenjen a ChatGPT-hez és más MI-rendszerekhez hasonló szolgáltatások válaszaiban.
+
+[HVG – „A kattintás nem tűnt el, csak átalakult” – mégis mi történik most a magyar interneten?](https://hvg.hu/tudomany/20261121_geo-seo-keresoptimalizalas-hvg-ai-talks-papp-gabor-pitch)
+
+A szakértő becslése szerint a magyar keresési piacon a Google részesedése a 2024-es mintegy 95%-ról 2026-ra körülbelül 80%-ra csökkent, miközben az MI-platformok aránya gyorsan nő.
+
+A magyar weboldalakra MI-felületekről érkező forgalom közel két év alatt nagyságrendekkel emelkedett.
+
+[HVG – GEO, SEO és az MI-alapú keresés magyarországi változása](https://hvg.hu/tudomany/20261121_geo-seo-keresoptimalizalas-hvg-ai-talks-papp-gabor-pitch)
+
+### Miért lényeges?
+
+Ez közvetlen üzleti következményekkel járhat a magyar vállalkozások számára.
+
+Ha a vásárló már nem tíz Google-találatot néz át, hanem egy MI-asszisztenssel választ terméket, akkor az válik kulcskérdéssé, **mely vállalatokat és forrásokat idézi vagy ajánlja az MI**.
+
+A webes láthatóság fogalma így a következő években jelentősen átalakulhat.
+
+---
+
+## 4. Friss figyelmeztetés: Magyarország különösen erősen érintett az MI-szakemberek elvándorlásában
+
+**Friss magyar beszámoló:** november 20.  
+**Kategória:** magyar munkaerőpiac, MI-szakértelem, versenyképesség  
+**Jelentőség:** 🟠 FONTOS MAGYAR VONATKOZÁS
+
+Egy friss nemzetközi összehasonlításról szóló magyar elemzés arra hívta fel a figyelmet, hogy Magyarország kedvezőtlen helyzetben van a mesterséges intelligenciával foglalkozó szakemberek nemzetközi mobilitásában.
+
+A probléma lényege, hogy a magasan képzett MI-szakemberek egy része olyan piacokra költözik, ahol magasabb bérek, nagyobb kutatási költségvetések és erősebb technológiai ökoszisztémák állnak rendelkezésre.
+
+[Pénzcentrum – Máshol épülhet a jövő a magyar szakemberek tudásából: súlyos agyelszívás sújtja Magyarországot](https://www.penzcentrum.hu/karrier/20261120/mashol-epulhet-a-jovo-a-magyar-szakemberek-tudasabol-sulyos-agyelszivas-sujtja-magyarorszagot-1190629)
+
+### Miért lényeges?
+
+Az MI-versenyképességhez nem elég GPU-kat és szoftvereket vásárolni.
+
+A legértékesebb erőforrás a kutatói és mérnöki tudás. Ha a képzett szakemberek jelentős része külföldön építi fel karrierjét, az lassíthatja a hazai:
+
+- startup-ökoszisztéma,
+- kutatás-fejlesztés,
+- technológiai termékfejlesztés,
+- és vállalati MI-adaptáció fejlődését.
+
+**A fő tanulság:** Magyarország számára az MI-stratégia egyik kulcskérdése a tehetségek képzése mellett azok megtartása is.
+
+---
+
+# 📊 A NOVEMBER 21-I NAP LEGFONTOSABB TRENDJEI
+
+## 1. Az MI már az új tudományos eredmények létrehozásában is szerepet követel magának
+
+A Riemann-sejtés állítólagos bizonyítása nagyságrendileg más szintet képvisel, mint egy chatbot jó vizsgaeredménye.
+
+Ha a bizonyítás kiállja a szakmai ellenőrzést, az erős bizonyíték lenne arra, hogy az MI a kutatásban **ötletgeneráló és problémamegoldó partnerként** is működhet.
+
+A kulcsszó azonban továbbra is: **ellenőrzés**.
+
+---
+
+## 2. Az MI-boom pénzügyi szakasza érettebbé válik
+
+Az Anthropic rekordméretű IPO-ja és az MI-részvények párhuzamos gyengülése nem feltétlenül ellentmondás.
+
+A legerősebb szereplők továbbra is hatalmas mennyiségű tőkét tudnak bevonni, de a befektetők már sokkal kritikusabban vizsgálják az értékeltségeket.
+
+**A hangsúly a növekedésről fokozatosan a megtérülésre kerül át.**
+
+---
+
+## 3. A compute geopolitikai erőforrássá vált
+
+A chipek fizikai exportjának szabályozása mellett már az is kérdés, hogy egy külföldi adatközpont számítási kapacitását ki használhatja távolról.
+
+Ez arra utal, hogy a nagy teljesítményű MI-compute egyre inkább az energia- és telekommunikációs infrastruktúrához hasonló stratégiai eszközzé válik.
+
+---
+
+## 4. Magyarországon az MI-kompetencia gyorsan tömegessé válik
+
+A GDE programjában már több tízezer ember szerzett mikrotanúsítványt, miközben az iskolai és pedagógusképzési programok is bővülnek.
+
+A következő lépés az lehet, hogy a **felhasználói alapismeretekből valódi szakmai, üzleti és kutatási kompetencia** épüljön.
+
+---
+
+## 5. A magyar digitális gazdaságban az MI a vásárlási döntések kapuőrévé válhat
+
+A GEO térnyerése fontosabb változás, mint amilyennek elsőre hangzik.
+
+Korábban egy vállalat azért versenyzett, hogy az első Google-találatok között legyen.
+
+Egy MI-asszisztens világában azért versenyezhet, hogy **egyáltalán bekerüljön az MI által összeállított válaszba vagy ajánlásba**.
+
+Ez a marketing, az e-kereskedelem és az online médiapiac működését is átalakíthatja.
+
+---
+
+# 🎯 ZÁRÓ ÉRTÉKELÉS
+
+| Terület | November 21. legfontosabb fejleménye |
+|---|---|
+| Tudományos MI | Claude segítségével állítólag bizonyították a Riemann-sejtést |
+| MI-finanszírozás | Anthropic IPO: 93,5 milliárd USD bruttó kibocsátás |
+| Gyógyszerkutatás | OpenAI MedChemBench |
+| MI-geopolitika | USA: szigorúbb compute- és chiphozzáférési kontroll |
+| Világmodellek | Google Genie 4 API |
+| MI-tőkepiac | Erős korrekció az MI-részvényekben |
+| Magyar MI-oktatás | JÖVŐÓRA konferencia az ELTE-n |
+| Magyar MI-kompetencia | GDE MI Jövünk!: több mint 57 ezer mikrotanúsítvány |
+| Magyar digitális gazdaság | SEO → GEO átmenet és MI-alapú keresés |
+| Magyar MI-munkaerőpiac | MI-szakértők megtartásának problémája |
+
+---
+
+# 🧭 ÖSSZKÉP
+
+**2026. november 21-én három különösen fontos változás látszik.**
+
+### 1. Az MI egyre közelebb kerül az önálló tudományos felfedezéshez
+
+A Riemann-sejtéssel kapcsolatos állítás még ellenőrzésre vár, de már maga a tény is figyelemre méltó, hogy egy matematikus frontier-modellel együttműködve ilyen nagyságrendű problémát próbál formálisan bizonyítani.
+
+### 2. A technológiai áttörés önmagában már nem elég a befektetőknek
+
+A piac egyre inkább azt kérdezi, mennyi bevétel és profit áll a rendkívüli MI-beruházások mögött.
+
+### 3. Magyarország számára a humán tőke válik kulcskérdéssé
+
+Az oktatási konferenciák, a több tízezres MI-képzési program és a szakértők elvándorlásáról szóló figyelmeztetések ugyanabba az irányba mutatnak:
+
+**a magyar MI-versenyképesség legfontosabb erőforrása nem önmagában a technológia, hanem az azt hatékonyan használni, fejleszteni és ellenőrizni képes ember.**
+
+---
+
+## 📝 FORRÁSKEZELÉSI MEGJEGYZÉS
+
+- A válogatás kizárólag olyan fejleményeket tartalmaz, amelyek 2026. november 21-ig már nyilvánosan elérhetők voltak.
+- A Riemann-sejtés bizonyítását **nem tekintjük még elfogadott matematikai eredménynek**; független szakmai ellenőrzése folyamatban van.
+- Az Anthropic IPO lezárása november 20-i hivatalos vállalati közlemény.
+- A MedChemBench november 20-i OpenAI-kutatási bejelentés.
+- A Genie 4 API november 19-én vált elérhetővé.
+- A chipexport-adatok engedélyeket jelentenek, nem szükségszerűen már teljesített szállításokat.
+- A JÖVŐÓRA november 21-i programjánál a hivatalosan meghirdetett témákat ismertetjük; nem állítunk még nem publikált konferenciaeredményeket.
+- A GDE képzési részvételi számai a november 21-én közzétett kamarai tájékoztatásból származnak.
+- A magyar keresési piacra vonatkozó egyes arányok szakértői becslések, nem hivatalos piaci statisztikák.
+
+---
+
+**Napi összegzés – 2026. november 21.: A nap legfontosabb kérdése az, hogy az MI eljutott-e már oda, hogy emberrel együttműködve valóban új, világszínvonalú tudományos eredményeket hozzon létre. Közben a gazdasági oldalon egyre erősebben látszik: a következő MI-korszakot nemcsak a modellképesség, hanem a megtérülés, a compute-hozzáférés és a megfelelő emberi tudás fogja meghatározni.**
