@@ -40,6 +40,7 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - Látogatottságmérés: GoatCounter (fiók: `human-ai`, irányítópult: https://human-ai.goatcounter.com; elsődleges látogatottsági adat) és Cloudflare Web Analytics (Cloudflare-fiók → Web Analytics → `human-ai.arts.unideb.hu`; betöltési sebesség, Core Web Vitals), mindkettő süti és személyes adat nélkül, ezért nem kell hozzájárulást kérő ablak. A szkripteket a `_quarto.yml` `include-in-header` része csak az élő címen (`human-ai.arts.unideb.hu`) tölti be, helyi előnézetben nem mér.
 
 - `main` ágra pusholás → GitHub Actions (`.github/workflows/render.yml`) rendereli a `_site/` mappát, majd webhookkal szól a `psycho.unideb.hu` szerveren futó `deploy.php`-nek (rsync `--delete`). Részletek: `README.md`.
+- Ha egy pusholt változás nem jelenik meg: `gh run list -R abarik/human-ai` – ha a fordítás sikerült, de a `deploy.php` hívása hibás (pl. `curl: (28) Failed to connect to psycho.unideb.hu`), a szerver épp nem volt elérhető; a futást a GitHub felületén kell újraindítani („Re-run failed jobs” vagy Actions → „Run workflow”), a Claude GitHub-hozzáférése ezt nem engedi.
 - A `_site/`, a `.quarto/` és a `.Rproj.user/` nincs verziókezelve (2026-11-06-tól a Git sem követi őket; ne kerüljenek vissza commitba).
 
 ## Karbantartási szabályok
@@ -95,3 +96,4 @@ Munkajegyzet a honlap karbantartásához. A fájlt a `_quarto.yml` `project: ren
 - 2026-11-17: a napi és a heti híroldal keresője a hírek teljes szövegében keres (korábban csak a címben és az első három hírcímben, ezért a többi hír – pl. a magyar hírek – nem volt kereshető); a teljes szöveget a Quarto `search.json` indexéből tölti be a mező első használatakor.
 - 2026-11-20: Tudásfigyelő – új kiemelt videó: Dr. Buda László pszichiáter: „Az AI megalkotói óriási tétekkel gurigáznak!” (2026-11-19).
 - 2026-11-20: hírinfografikák (nemzetközi és magyar szakasz, `_eszkozok/hir_infografika.py`, `.emi-infografika` stílus világos/sötét módban, mobilon egy oszlopban); elsőként a 2026-11-20-i napi hírben.
+- 2026-11-23: a 2026-11-21 – 23-i hírek pushja után a telepítés nem futott le (a GitHub nem érte el a `psycho.unideb.hu` szervert); a hibaelhárítás leírása a Publikálás részbe és az `emi-hir-beillesztes` skillbe került.

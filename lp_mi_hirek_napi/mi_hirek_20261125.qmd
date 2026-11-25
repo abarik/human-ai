@@ -1,0 +1,543 @@
+---
+title: "Napi MI-hírösszefoglaló — 2026. november 25."
+author: "OpenAI - ChatGpt"
+date: "2026-11-25"
+temak: ["Anthropic: jelentős fejlesztésekkel bővült az MCP, az MI-ügynökök összekapcsolásának nyílt szabványa", "Európai Bizottság: személyes adatok szivárogtak ki az MI-vel támogatott kibertámadás során", "CrowdStrike: 43,9 milliárd dolláros felvásárlással erősítenék az MI-ügynökök biztonságát"]
+---
+
+**Vizsgált időszak:** elsősorban 2026. november 24–25., kiegészítve a november 23-i fontosabb fejleményekkel.  
+**Fókusz:** autonóm MI-ügynökök, kiberbiztonság, fogyasztóvédelem, tudományos kutatás és magyar MI-kompetenciák.
+
+---
+
+# 🌍 NEMZETKÖZI MI-HÍREK
+
+```{=html}
+<!-- emi-infografika:nemzetkozi -->
+<figure class="emi-infografika" aria-labelledby="emi-ig-nemzetkozi">
+<figcaption class="emi-ig-fej">
+<span class="emi-ig-felcim">Infografika · 2026. november 25.</span>
+<span class="emi-ig-cim" id="emi-ig-nemzetkozi">Nemzetközi MI-hírek egy pillantásra</span>
+<span class="emi-ig-alcim">6 hír – a csempére kattintva a részletes hírhez ugorhat.</span>
+</figcaption>
+<ol class="emi-ig-racs">
+<li><a class="emi-ig-tetel" href="#anthropic-jelentős-fejlesztésekkel-bővült-az-mcp-az-mi-ügynökök-összekapcsolásának-nyílt-szabványa">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">1</span><span class="emi-ig-kat">MI-ügynökök</span></span>
+<span class="emi-ig-adat">10 ezer+</span>
+<span class="emi-ig-adat-cimke">MCP-csatlakozó érhető el a Claude-hoz</span>
+<span class="emi-ig-tetel-cim">Anthropic: Skills over MCP, Tasks és Elicitation az MCP-ben</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#európai-bizottság-személyes-adatok-szivárogtak-ki-az-mi-vel-támogatott-kibertámadás-során">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">2</span><span class="emi-ig-kat">Kiberbiztonság</span></span>
+<span class="emi-ig-adat">EU Academy</span>
+<span class="emi-ig-adat-cimke">a platformon nevek és e-mail-címek szivárogtak ki</span>
+<span class="emi-ig-tetel-cim">Európai Bizottság: adatszivárgás az MI-vel támogatott támadás után</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#crowdstrike-439-milliárd-dolláros-felvásárlással-erősítenék-az-mi-ügynökök-biztonságát">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">3</span><span class="emi-ig-kat">Biztonsági piac</span></span>
+<span class="emi-ig-adat">43,9 Mrd $</span>
+<span class="emi-ig-adat-cimke">a Zscaler felvásárlásának becsült értéke</span>
+<span class="emi-ig-tetel-cim">CrowdStrike: felvásárolja a Zscalert, még nem lezárt ügylet</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#egyesült-királyság-a-fogyasztóvédelmi-hatóság-vizsgálja-a-személyes-mi-ügynökök-kockázatait">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">4</span><span class="emi-ig-kat">Fogyasztóvédelem</span></span>
+<span class="emi-ig-adat">CMA</span>
+<span class="emi-ig-adat-cimke">brit információgyűjtés a személyes MI-ügynökökről</span>
+<span class="emi-ig-tetel-cim">Egyesült Királyság: vizsgálják a személyes MI-ügynökök kockázatait</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#google-deepmind-új-benchmark-méri-az-mi-modellek-hétköznapi-megbízhatóságát">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">5</span><span class="emi-ig-kat">Modellértékelés</span></span>
+<span class="emi-ig-adat">544</span>
+<span class="emi-ig-adat-cimke">szöveges és képi feladat, 20 alapképesség</span>
+<span class="emi-ig-tetel-cim">Google DeepMind: Humanity’s First Exam a hétköznapi megbízhatóságról</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#axios-egyre-erősebb-biztonsági-aggályok-a-még-ki-nem-adott-frontier-modellekkel-kapcsolatban">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">6</span><span class="emi-ig-kat">MI-biztonság</span></span>
+<span class="emi-ig-adat">Axios</span>
+<span class="emi-ig-adat-cimke">belső forrásokra épülő beszámoló a kockázatokról</span>
+<span class="emi-ig-tetel-cim">OpenAI és Anthropic: aggályok a még ki nem adott modellekről</span>
+</a></li>
+</ol>
+<p class="emi-ig-tanulsag"><span class="emi-ig-tanulsag-cimke">Fő tanulság</span> Az MI következő szakaszát egyre inkább az autonóm rendszerek összekapcsolása, a hozzáférések biztonsága és a megbízható feladatvégzés határozza meg.</p>
+</figure>
+```
+
+## 1. Anthropic: jelentős fejlesztésekkel bővült az MCP, az MI-ügynökök összekapcsolásának nyílt szabványa
+
+**Dátum:** 2026. november 24–25.  
+**Kategória:** autonóm MI-ügynökök, vállalati automatizáció  
+**Jelentőség:** 🔴 KIEMELT
+
+Az Anthropic a Model Context Protocol (MCP) megjelenésének második évfordulóján több fontos technológiai fejlesztést jelentett be.
+
+### A legfontosabb újdonságok
+
+- **Skills over MCP:** az MCP-szerverek előre meghatározott szakmai munkafolyamatokat és feladatvégzési utasításokat is átadhatnak a Claude-nak. A funkció nyilvános bétaállapotban érhető el.
+- **Tasks:** hosszabb ideig futó feladatok kezelése.
+- **Elicitation:** a rendszer végrehajtás közben további információkat kérhet a felhasználótól.
+- **File Uploads:** fájlok átadásának támogatása, fokozatosan érkező funkcióként.
+- Hatékonyabb eszközkeresés és központilag kezelhető vállalati hitelesítés.
+
+Az Anthropic közlése szerint az MCP ökoszisztéma már meghaladta a havi 700 millió SDK-letöltést, a Claude-hoz pedig több mint 10 ezer MCP-csatlakozó érhető el.
+
+### Miért lényeges?
+
+Az MCP egyre fontosabb szerepet játszik az MI-modellek, adatforrások, vállalati alkalmazások és autonóm ügynökök összekapcsolásában.
+
+A fejlesztések lehetővé tehetik, hogy az MI ne csak egyedi kérdésekre válaszoljon, hanem összetett, hosszabb munkafolyamatokat is koordináljon.
+
+A vállalatok számára ez különösen jelentős lehet az ERP-, CRM- és dokumentumkezelő rendszerek integrációjában.
+
+**Forrás:**
+
+[Anthropic – MCP servers can now ship skills, run tasks, and more with Claude](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)
+
+---
+
+## 2. Európai Bizottság: személyes adatok szivárogtak ki az MI-vel támogatott kibertámadás során
+
+**Hivatalos megerősítés:** november 23.  
+**Nemzetközi sajtóbeszámoló:** november 24–25.  
+**Kategória:** MI-kiberbiztonság, adatvédelem, Európai Unió  
+**Jelentőség:** 🔴 KIEMELT
+
+Az Európai Bizottság megerősítette, hogy az október 22-én észlelt, mesterséges intelligenciával támogatott kibertámadási kampány az EU Academy oktatási platformját is érintette.
+
+A támadás során felhasználói személyes adatokhoz fértek hozzá, köztük nevekhez és e-mail-címekhez.
+
+A Bizottság elővigyázatosságból letiltotta a platform nyilvános hozzáférését, és tájékoztatta az európai adatvédelmi biztost.
+
+Az érintett felhasználók teljes száma és az incidens pontos kiterjedése továbbra is vizsgálat alatt áll.
+
+### Miért lényeges?
+
+Ez már nem pusztán az MI-alapú kibertámadások elméleti kockázatáról szól, hanem tényleges adatvédelmi következményekről.
+
+A magyar közintézmények, egyetemek és vállalatok számára is fontos tanulság, hogy a hagyományos információbiztonsági rendszereket fel kell készíteni a gyorsabban automatizálható fenyegetésekre.
+
+**Források:**
+
+[Európai Bizottság – November 23-i hivatalos sajtótájékoztató](https://audiovisual.ec.europa.eu/de/media/video/I-298395)
+
+[Associated Press – European Commission warns EU Academy users of data leak after AI-driven cyberattack](https://apnews.com/article/02e1f69e46ad9f82484b66b2f86df53b)
+
+---
+
+## 3. CrowdStrike: 43,9 milliárd dolláros felvásárlással erősítenék az MI-ügynökök biztonságát
+
+**Bejelentés:** november 23.  
+**Aktuális nemzetközi értékelések:** november 24–25.  
+**Kategória:** MI-kiberbiztonság, technológiai felvásárlások  
+**Jelentőség:** 🔴 KIEMELT
+
+A CrowdStrike végleges megállapodást kötött a Zscaler kiberbiztonsági vállalat felvásárlásáról.
+
+A teljes egészében részvénycserére épülő ügylet becsült értéke 43,9 milliárd dollár.
+
+A két vállalat technológiáinak összekapcsolásával a végpontvédelem, a hálózatbiztonság, a felhőbiztonság és az MI-ügynökök hozzáférési jogosultságainak ellenőrzése egységesebb platformra kerülhet.
+
+| Mutató | Bejelentett érték |
+|---|---:|
+| Tranzakció értéke | 43,9 milliárd USD |
+| Zscaler részvényárfolyamához viszonyított prémium | kb. 34% |
+| Egyesített éves ismétlődő bevétel várható értéke | több mint 10 milliárd USD |
+
+### Miért lényeges?
+
+Az autonóm MI-ügynökök olyan vállalati rendszerekhez is hozzáférhetnek, amelyek korábban kizárólag emberi felhasználók számára voltak elérhetők.
+
+Ezért a Zero Trust biztonsági megközelítés – vagyis minden hozzáférés folyamatos ellenőrzése – az MI-rendszerek működtetésében is egyre fontosabbá válik.
+
+**Fontos:** a felvásárlást bejelentették, de még nem zárták le. A tranzakcióhoz további hatósági és részvényesi jóváhagyások szükségesek.
+
+**Források:**
+
+[CrowdStrike – Hivatalos felvásárlási közlemény](https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero/)
+
+[SEC – A tranzakció hivatalos tőzsdefelügyeleti dokumentuma](https://www.sec.gov/Archives/edgar/data/1713683/000119312526471211/d115803dex991.htm)
+
+---
+
+## 4. Egyesült Királyság: a fogyasztóvédelmi hatóság vizsgálja a személyes MI-ügynökök kockázatait
+
+**Dátum:** november 24–25.  
+**Kategória:** MI-szabályozás, fogyasztóvédelem, autonóm ügynökök  
+**Jelentőség:** 🔴 KIEMELT
+
+A brit Competition and Markets Authority (CMA) nyilvános információgyűjtést indított a személyes MI-ügynökökkel kapcsolatos fogyasztói problémákról.
+
+A kezdeményezés egybeesik a Meta Muse személyes MI-ügynök brit bevezetésével.
+
+A hatóság arra kéri a brit felhasználókat, hogy jelentsék az MI-ügynökök használata során tapasztalt problémákat. A bejelentés anonim módon is megtehető.
+
+A CMA együttműködik az adatvédelmi, pénzügyi és kommunikációs hatóságokkal is.
+
+### Miért lényeges?
+
+A személyes MI-ügynökök már nemcsak ajánlásokat adhatnak, hanem a felhasználók nevében tényleges műveleteket is végezhetnek.
+
+Ez új fogyasztóvédelmi kérdéseket teremt:
+
+- Ki felel egy hibásan végrehajtott vásárlásért?
+- Hogyan ellenőrizhető a felhasználói felhatalmazás?
+- Hogyan vonhatók vissza az engedélyek?
+- Hogyan biztosítható a kereskedelmi ajánlások átláthatósága?
+
+A brit tapasztalatok később az európai és magyar szabályozási gyakorlat számára is hasznosak lehetnek.
+
+**Források:**
+
+[CMA – Tell us your views on personal AI agents](https://www.gov.uk/guidance/tell-us-your-views-on-personal-ai-agents)
+
+[CMA – Hivatalos állásfoglalás a Meta Muse brit bevezetéséről](https://competitionandmarkets.blog.gov.uk/2026/11/24/cma-statement-on-uk-launch-of-meta-muse/)
+
+---
+
+## 5. Google DeepMind: új benchmark méri az MI-modellek hétköznapi megbízhatóságát
+
+**Dátum:** november 24–25.  
+**Kategória:** MI-kutatás, benchmarkok, megbízhatóság  
+**Jelentőség:** 🔴 KIEMELT
+
+A Google DeepMind bemutatta a **Humanity’s First Exam (HFE)** nevű új értékelési rendszert.
+
+A hagyományos benchmarkokkal ellentétben a HFE nem rendkívül nehéz matematikai vagy programozási problémák megoldását vizsgálja, hanem azt, hogy a modellek mennyire következetesen teljesítenek egyszerű, hétköznapi feladatokat.
+
+### A benchmark főbb jellemzői
+
+| Mutató | Érték |
+|---|---:|
+| Szöveges és képi feladatok | 544 |
+| Vizsgált alapképességek | 20 |
+| Kapcsolódó Kaggle-verseny határideje | december 15. |
+
+A Google a fejlesztői közösséget is bevonja olyan új kérdések összegyűjtésébe, amelyekre a jelenlegi frontier-modellek még nem tudnak következetesen helyes választ adni.
+
+### Miért lényeges?
+
+Egy MI-modell képes lehet rendkívül összetett tudományos problémák megoldására, miközben egyszerű hétköznapi feladatokban váratlan hibákat követ el.
+
+A vállalati automatizációban pedig gyakran fontosabb a következetes, megbízható működés, mint egy-egy kiemelkedő benchmarkeredmény.
+
+**A fő tanulság:** az MI intelligenciája és működési megbízhatósága két külön mérendő tulajdonság.
+
+**Forrás:**
+
+[Google DeepMind – Humanity’s First Exam: Testing LLM reliability](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/)
+
+---
+
+## 6. Axios: egyre erősebb biztonsági aggályok a még ki nem adott frontier-modellekkel kapcsolatban
+
+**Dátum:** november 24–25.  
+**Kategória:** frontier-MI, biztonság, modellfelügyelet  
+**Jelentőség:** 🔴 KIEMELT
+
+Az Axios több mint két tucat, az OpenAI és az Anthropic belső egyeztetéseit ismerő forrás alapján számolt be arról, hogy egyes kutatók szerint a legújabb, még nem nyilvános modellek képességeinek fejlődése meghaladhatja a jelenlegi biztonsági és felügyeleti módszerek fejlődését.
+
+A főbb aggályok:
+
+- Az autonóm rendszerek ellenőrizhetősége.
+- A modellek viselkedésének megbízható értelmezése.
+- A biztonsági tesztelés korlátai.
+- A kereskedelmi és biztonsági érdekek közötti konfliktusok.
+- A legfejlettebb modellekhez való hozzáférés esetleges korlátozása.
+
+### Miért lényeges?
+
+A fejlett MI-rendszerek nyilvános bevezetésének egyik meghatározó feltételévé válhat annak bizonyítása, hogy a modellek nemcsak intelligensek, hanem megfelelően ellenőrizhetők is.
+
+Ez lassíthatja bizonyos új modellek megjelenését, és felértékelheti a független biztonsági vizsgálatok szerepét.
+
+**Fontos:** a beszámoló belső forrásokon alapuló újságírói jelentés. Nem jelenti azt, hogy bármelyik vállalat hivatalosan bejelentette volna a modellfejlesztés leállítását.
+
+**Forrás:**
+
+[Axios – AI employees sound alarm: models too powerful to ever release](https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks)
+
+---
+
+# 🇭🇺 MAGYAR MI-HÍREK ÉS VONATKOZÁSOK
+
+```{=html}
+<!-- emi-infografika:magyar -->
+<figure class="emi-infografika" aria-labelledby="emi-ig-magyar">
+<figcaption class="emi-ig-fej">
+<span class="emi-ig-felcim">Infografika · 2026. november 25.</span>
+<span class="emi-ig-cim" id="emi-ig-magyar">Magyar MI-hírek egy pillantásra</span>
+<span class="emi-ig-alcim">4 hír – a csempére kattintva a részletes hírhez ugorhat.</span>
+</figcaption>
+<ol class="emi-ig-racs">
+<li><a class="emi-ig-tetel" href="#pázmány-péter-katolikus-egyetem-ma-kezdődik-az-algoritmusok-auditóriuma-2026-konferencia">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">1</span><span class="emi-ig-kat">Felsőoktatás</span></span>
+<span class="emi-ig-adat">nov. 25–26.</span>
+<span class="emi-ig-adat-cimke">Algoritmusok Auditóriuma 2026, PPKE, Budapest</span>
+<span class="emi-ig-tetel-cim">PPKE: konferencia az MI-ről a felsőoktatásban</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#budapest-konferencia-az-mi-társadalmi-egyenlőtlenségeiről-és-a-dezinformációról">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">2</span><span class="emi-ig-kat">Társadalom</span></span>
+<span class="emi-ig-adat">nov. 25.</span>
+<span class="emi-ig-adat-cimke">konferencia a K&amp;H Székházban, 9:00–12:30</span>
+<span class="emi-ig-tetel-cim">Egyenlítő Alapítvány: MI, egyenlőtlenség és dezinformáció</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#ma-rendezik-meg-az-mi-alapú-projektmenedzsment-magyarországi-bajnokságát">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">3</span><span class="emi-ig-kat">Projektmenedzsment</span></span>
+<span class="emi-ig-adat">nov. 25.</span>
+<span class="emi-ig-adat-cimke">MI-projektmenedzsment-bajnokság, MagNet Közösségi Ház</span>
+<span class="emi-ig-tetel-cim">Derrick &amp; Harry: MI-projektmenedzsment-bajnokság Budapesten</span>
+</a></li>
+<li><a class="emi-ig-tetel" href="#holnap-rendezik-meg-az-ai-digital-transformation-2026-konferenciát-már-legalább-80-vállalat-jelezte-részvételét">
+<span class="emi-ig-teteltetej"><span class="emi-ig-szam" aria-hidden="true">4</span><span class="emi-ig-kat">Vállalati MI</span></span>
+<span class="emi-ig-adat">80+</span>
+<span class="emi-ig-adat-cimke">vállalat és intézmény jelezte részvételét</span>
+<span class="emi-ig-tetel-cim">Portfolio: AI &amp; Digital Transformation 2026 konferencia, nov. 26.</span>
+</a></li>
+</ol>
+<p class="emi-ig-tanulsag"><span class="emi-ig-tanulsag-cimke">Fő tanulság</span> A hazai szakmai események azt vizsgálják, hogyan válhat az MI általános felhasználói eszközből valódi szakmai és szervezeti képességgé.</p>
+</figure>
+```
+
+*A mai hazai válogatás három november 25-re meghirdetett szakmai eseményt, valamint egy holnapi vállalati konferenciát tartalmaz. A rendezvények programját hivatalos szervezői források alapján ismertetem, nem még nem publikált eredményeket.*
+
+## 1. Pázmány Péter Katolikus Egyetem: ma kezdődik az Algoritmusok Auditóriuma 2026 konferencia
+
+**Időpont:** 2026. november 25–26.  
+**Helyszín:** PPKE JÁK és PPKE ITK, Budapest  
+**Kategória:** magyar felsőoktatás, tudományos MI, etika  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+A Pázmány Péter Katolikus Egyetem kétnapos, magyar és angol nyelvű konferenciát rendez **„Algoritmusok Auditóriuma 2026 – Mesterséges intelligencia és a felsőoktatás”** címmel.
+
+A konferencia központi kérdése a mesterséges intelligencia hatékony és felelős alkalmazása az egyetemi környezetben.
+
+A rendezvény szervezésében az egyetem Mesterséges Intelligencia és az Ember kutatócsoportja, valamint további kutatási és tudományos műhelyei vesznek részt.
+
+### Miért lényeges?
+
+A magyar felsőoktatásban egyre fontosabbá válik az MI intézményi szintű alkalmazása.
+
+A technológia bevezetése egyszerre érinti:
+
+- Az oktatási módszertant.
+- A hallgatók értékelését.
+- A kutatási folyamatokat.
+- A tudományos integritást.
+- Az adatvédelmi és etikai követelményeket.
+
+Az egyetemeknek olyan oktatási modelleket kell kialakítaniuk, amelyek az MI használata mellett is biztosítják az önálló gondolkodás és a szakmai kompetenciák fejlődését.
+
+**Források:**
+
+[PPKE – Algoritmusok Auditóriuma 2026: Mesterséges intelligencia és a felsőoktatás](https://ppke.hu/algoritmusok-auditoriuma-2026-mesterseges-intelligencia-es-a-felsooktatas)
+
+[PPKE BTK – November 25-i hivatalos eseményoldal](https://btk.ppke.hu/algoritmusok-auditoriuma-2026-mesterseges-intelligencia-es-a-felsooktatas-2)
+
+---
+
+## 2. Budapest: konferencia az MI társadalmi egyenlőtlenségeiről és a dezinformációról
+
+**Időpont:** november 25., 9:00–12:30  
+**Helyszín:** K&H Székház, Budapest  
+**Kategória:** magyar társadalmi MI, dezinformáció, esélyegyenlőség  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+Az Egyenlítő Alapítvány **„Mégis, kinek az élete?”** címmel rendez konferenciát, amely a mesterséges intelligencia társadalmi következményeit vizsgálja.
+
+A meghirdetett előadók között szerepel Krekó Péter, az ELTE dezinformációval és mesterséges intelligenciával foglalkozó kutatója, valamint Koltai Júlia társadalomkutató.
+
+### A program fontosabb témái
+
+- MI-alapú dezinformáció és manipuláció.
+- Algoritmikus társadalmi egyenlőtlenségek.
+- A technológiai fejlődésből kiszoruló társadalmi csoportok.
+- Női esélyegyenlőség az MI-korszakban.
+- Az algoritmikus rendszerek társadalmi felelőssége.
+
+### Miért lényeges?
+
+Az MI fejlődése nem minden társadalmi csoport számára jelent automatikusan azonos lehetőségeket.
+
+A technológiához való hozzáférés, a digitális kompetenciák és az algoritmusok működése egyaránt befolyásolhatja a foglalkoztatást, az információhoz jutást és a társadalmi mobilitást.
+
+A magyar MI-stratégiában ezért a gazdasági és technológiai célok mellett a társadalmi hatásokat is figyelembe kell venni.
+
+**Forrás:**
+
+[Egyenlítő Alapítvány – Mégis, kinek az élete? Hivatalos konferenciaprogram](https://egyenlitoalapitvany.org/megis-kinek-az-elete-konferencia/)
+
+---
+
+## 3. Ma rendezik meg az MI-alapú projektmenedzsment magyarországi bajnokságát
+
+**Időpont:** november 25., 19:00–21:00  
+**Helyszín:** MagNet Közösségi Ház, Budapest  
+**Kategória:** magyar vállalati MI, projektmenedzsment, gyakorlati kompetenciák  
+**Jelentőség:** 🟠 FONTOS MAGYAR VONATKOZÁS
+
+A Derrick & Harry Menedzsment és IT Est meghirdette a szervezők által Magyarország első MI-projektmenedzsment-bajnokságaként bemutatott szakmai versenyt.
+
+A résztvevők különböző MI-eszközökkel oldhatnak meg projektmenedzsment-feladatokat.
+
+A versenyen többek között az alábbi rendszerek használhatók:
+
+- ChatGPT.
+- Claude.
+- Microsoft Copilot.
+- Google Gemini.
+- Egyéb, projektmenedzsmentre konfigurált MI-eszközök.
+
+A döntő során a közönség élőben követheti a résztvevők munkafolyamatait.
+
+### Miért lényeges?
+
+A rendezvény érdekes példája annak, hogyan válhat a mesterséges intelligencia használata önálló szakmai kompetenciává.
+
+A projektmenedzsment területén az MI támogathatja az ütemezést, a kockázatelemzést, az erőforrás-tervezést és a projektkommunikációt.
+
+A verseny ugyanakkor arra is rámutathat, hogy ugyanazon technológia használata mellett mennyire eltérő eredmények érhetők el különböző felhasználói módszerekkel.
+
+**A fő tanulság:** az MI használatának minősége egyre fontosabb lehet, mint pusztán az adott modellhez való hozzáférés.
+
+**Forrás:**
+
+[Derrick & Harry – AI Projektmenedzsment Bajnokság, hivatalos eseményoldal](https://www.meetup.com/budapest-d-h-projekt-menedzsment-est/events/316781714/)
+
+---
+
+## 4. Holnap rendezik meg az AI & Digital Transformation 2026 konferenciát – már legalább 80 vállalat jelezte részvételét
+
+**Időpont:** november 26.  
+**Helyszín:** Budapest Marriott Hotel  
+**Kategória:** magyar vállalati MI, digitális transzformáció  
+**Jelentőség:** 🔴 KIEMELT MAGYAR VONATKOZÁS
+
+A Portfolio holnap rendezi meg az **AI & Digital Transformation 2026** konferenciáját.
+
+A szervező aktuális tájékoztatása szerint már legalább 80 vállalat és intézmény képviselteti magát a rendezvényen.
+
+A résztvevők között pénzügyi, energetikai, ipari, informatikai és állami szervezetek egyaránt szerepelnek, többek között:
+
+- Magyar Nemzeti Bank.
+- Magyar Telekom.
+- OTP Bank.
+- MOL.
+- EPAM Systems.
+- Robert Bosch.
+- Szellemi Tulajdon Nemzeti Hivatala.
+
+A konferencia középpontjában az autonóm MI-ügynökök, a vállalati automatizáció és a digitális beruházások megtérülése áll.
+
+### Miért lényeges?
+
+A magyar vállalati MI-piac következő fejlődési szakasza egyre inkább az önálló chatbotok használatától a teljes vállalati munkafolyamatok átalakítása felé haladhat.
+
+A hazai vállalatok számára különösen fontos kérdéssé válik:
+
+- A megfelelő modellek kiválasztása.
+- Az MI-ügynökök integrálása a meglévő rendszerekbe.
+- A vállalati adatok biztonsága.
+- A munkafolyamatok újratervezése.
+- A tényleges üzleti megtérülés mérése.
+
+**Fontos:** ez a holnapi konferencia előzetese. A résztvevők szakmai bejelentései és a rendezvény eredményei még nem ismertek.
+
+**Forrás:**
+
+[Portfolio – AI & Digital Transformation 2026, hivatalos konferenciaoldal](https://www.portfolio.hu/rendezvenyek/konferencia-it/ai-digital-transformation-2026/2032/attekintes)
+
+---
+
+# 📊 A NOVEMBER 25-I NAP LEGFONTOSABB MI-TRENDJEI
+
+## 1. Az MCP az autonóm MI-rendszerek egyik meghatározó infrastruktúrájává válik
+
+Az Anthropic új fejlesztései azt mutatják, hogy az MI-ügynökök egyre több alkalmazással, adatforrással és más automatizált rendszerrel működhetnek együtt.
+
+A következő fejlődési szakaszban az MI-modellek képességei mellett az integrációs szabványok minősége is meghatározó versenytényező lehet.
+
+## 2. Az MI-kiberbiztonság önálló stratégiai piaccá fejlődik
+
+Az Európai Bizottság adatvédelmi incidense és a CrowdStrike–Zscaler felvásárlási megállapodás ugyanannak a folyamatnak két oldalát mutatja.
+
+Az MI egyszerre növelheti a kibertámadások automatizálhatóságát és teremthet új lehetőségeket a védekezésben.
+
+Különösen fontos lesz:
+
+- Az MI-ügynökök azonosítása.
+- A hozzáférési jogosultságok folyamatos ellenőrzése.
+- A műveletek naplózása.
+- Az érzékeny adatok elkülönítése.
+- A megfelelő emberi felügyelet.
+
+## 3. A modellintelligencia mellett a megbízhatóság válik kulcsfontosságúvá
+
+A Google új Humanity’s First Exam benchmarkja arra világít rá, hogy a rendkívül magas szintű problémamegoldó képesség nem garantálja az egyszerű feladatok hibamentes végrehajtását.
+
+A vállalati alkalmazásoknál ezért a modellválasztásban a következetesség és a hibaarány is egyre nagyobb súlyt kaphat.
+
+## 4. Az MI-ügynökök megjelenése átalakítja a fogyasztóvédelmet
+
+A brit hatóságok fellépése azt mutatja, hogy az MI-asszisztensek önálló műveletvégzése új jogi és felelősségi helyzeteket teremt.
+
+A felhasználó nevében végzett tranzakciók esetében felértékelődik a megfelelő jóváhagyás, a visszavonható felhatalmazás és az ellenőrizhető műveleti napló.
+
+## 5. Magyarországon az oktatás és a gyakorlati MI-kompetenciák kerülnek előtérbe
+
+A Pázmány konferenciája, az MI-projektmenedzsment-bajnokság és a holnapi vállalati konferencia eltérő területeken vizsgálja ugyanazt a kérdést:
+
+Hogyan lehet a mesterséges intelligenciát az általános felhasználói eszközből valódi szakmai és szervezeti képességgé alakítani?
+
+---
+
+# 🎯 ZÁRÓ ÉRTÉKELÉS
+
+| Terület | November 25. kiemelt fejleménye |
+|---|---|
+| MI-ügynökök | Anthropic: Skills over MCP, Tasks és Elicitation |
+| Európai kiberbiztonság | EU Academy: személyes adatok kiszivárgása |
+| MI-biztonsági piac | CrowdStrike–Zscaler: 43,9 milliárd dolláros felvásárlási megállapodás |
+| Fogyasztóvédelem | Brit hatósági információgyűjtés a személyes MI-ügynökökről |
+| Modellértékelés | Google DeepMind Humanity’s First Exam |
+| Frontier-MI biztonság | Axios: belső aggályok a még ki nem adott modellekkel kapcsolatban |
+| Magyar felsőoktatás | Algoritmusok Auditóriuma 2026 |
+| Magyar társadalmi MI | Egyenlítő Alapítvány: MI és társadalmi egyenlőtlenségek |
+| Magyar gyakorlati MI | AI Projektmenedzsment Bajnokság |
+| Magyar vállalati MI | AI & Digital Transformation 2026 konferencia előzetese |
+
+---
+
+# 🧭 ÖSSZKÉP
+
+2026. november 25-én három meghatározó fejlődési irány rajzolódik ki.
+
+### 1. Az MI-rendszerek összekapcsolása és önálló működése felgyorsul
+
+Az MCP fejlesztései azt mutatják, hogy az autonóm rendszerek egyre összetettebb feladatokat végezhetnek több alkalmazáson keresztül.
+
+### 2. A biztonság és a megbízhatóság stratégiai követelménnyé válik
+
+A kiberbiztonsági incidensek, a vállalati felvásárlások, a fogyasztóvédelmi kezdeményezések és az új benchmarkok egyaránt az MI-rendszerek ellenőrizhetőségének fontosságát hangsúlyozzák.
+
+### 3. Magyarországon a technológia gyakorlati alkalmazása és oktatása jelenti az egyik legfontosabb fejlődési lehetőséget
+
+A hazai szakmai események az MI-kompetenciák, az oktatási módszertan, a társadalmi következmények és a vállalati megtérülés kérdéseit helyezik előtérbe.
+
+---
+
+## 📝 FORRÁSKEZELÉSI MEGJEGYZÉS
+
+- A kiadás 6 nemzetközi hírt és 4 magyar vonatkozást tartalmaz.
+- A nemzetközi blokkban elsődleges vállalati és hatósági közleményeket, valamint megbízható sajtóbeszámolókat használtam.
+- A november 23-i bejelentéseket dátum szerint elkülönítettem a november 24–25-i fejleményektől.
+- Az Anthropic MCP-használati adatai vállalati közlésből származnak.
+- Az EU Academy adatvédelmi incidensének teljes kiterjedése még vizsgálat alatt áll.
+- A CrowdStrike–Zscaler tranzakció még nem lezárt felvásárlás.
+- A brit fogyasztóvédelmi információgyűjtés nem jogsértést megállapító határozat.
+- Az Axios beszámolója nem hivatalos modellbiztonsági jelentés.
+- A mai magyar hírek között elsősorban ellenőrizhető szakmai eseményeket sikerült azonosítani.
+- A magyar rendezvények még nem publikált eredményeit nem ismertettem.
+- A november 26-i Portfolio-konferenciát előzetesként vettem fel.
+
+---
+
+**Napi összegzés – 2026. november 25.: A mesterséges intelligencia fejlődésének következő szakaszát egyre inkább az autonóm rendszerek összekapcsolása, a hozzáférések biztonsága és a megbízható feladatvégzés határozza meg. Magyarország számára a fejlett technológiák tudatos oktatási és vállalati integrációja, valamint az emberi szakértelem fejlesztése jelenti az egyik legfontosabb versenyképességi lehetőséget.**
