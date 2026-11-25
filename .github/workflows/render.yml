@@ -54,6 +54,11 @@ jobs:
           path: _site/
           retention-days: 7
 
+      - name: Check HTTPS connectivity to psycho.unideb.hu
+        run: |
+          curl -vI --connect-timeout 10 --max-time 15 \
+            'https://psycho.unideb.hu/'
+
       - name: Trigger deploy on psycho.unideb.hu
         run: |
           curl -sS -X POST "https://psycho.unideb.hu/deploy-human-ai/deploy.php" \
